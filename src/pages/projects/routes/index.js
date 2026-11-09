@@ -16,41 +16,125 @@
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+import { lazy } from 'react'
 import { getIndexRoute } from 'utils/router.config'
 
 import ListLayout from '../containers/Base/List'
 
-import Overview from '../containers/Overview'
-import CRDApps from '../containers/Applications/CRDApps'
-import OPApps from '../containers/Applications/OPApps'
-import Deployments from '../containers/Deployments'
-import StatefulSets from '../containers/StatefulSets'
-import DaemonSets from '../containers/DaemonSets'
-import Pods from '../containers/Pods'
-import Jobs from '../containers/Jobs'
-import ImageBuilder from '../containers/ImageBuilder'
-import CronJobs from '../containers/CronJobs'
-import Services from '../containers/Services'
-import GrayRelease from '../containers/GrayRelease'
-import Routes from '../containers/Routes'
-import Volumes from '../containers/Volumes'
-import VolumeSnapshots from '../containers/VolumeSnapshots'
-import BaseInfo from '../containers/BaseInfo'
-import ConfigMaps from '../containers/ConfigMaps'
-import ServiceAccounts from '../containers/ServiceAccounts'
-import Secrets from '../containers/Secrets'
-import Roles from '../containers/Roles'
-import Members from '../containers/Members'
-import LogCollection from '../containers/LogCollection'
-import AlertingPolicies from '../containers/Alerting/Policies'
-import AlertingMessages from '../containers/Alerting/Messages'
-import CustomMonitoring from '../containers/CustomMonitoring'
-import NetworkPolicies from '../containers/Network/Policies'
-
 import grayReleaseRoutes from './grayrelease'
-
 import getDetailPath from './detail'
-import Gateway from '../containers/Gateway'
+
+const Overview = lazy(() =>
+  import(/* webpackChunkName: "project-overview" */ '../containers/Overview')
+)
+const CRDApps = lazy(() =>
+  import(
+    /* webpackChunkName: "project-crd-apps" */ '../containers/Applications/CRDApps'
+  )
+)
+const OPApps = lazy(() =>
+  import(
+    /* webpackChunkName: "project-op-apps" */ '../containers/Applications/OPApps'
+  )
+)
+const Deployments = lazy(() =>
+  import(
+    /* webpackChunkName: "project-deployments" */ '../containers/Deployments'
+  )
+)
+const StatefulSets = lazy(() =>
+  import(
+    /* webpackChunkName: "project-statefulsets" */ '../containers/StatefulSets'
+  )
+)
+const DaemonSets = lazy(() =>
+  import(
+    /* webpackChunkName: "project-daemonsets" */ '../containers/DaemonSets'
+  )
+)
+const Pods = lazy(() =>
+  import(/* webpackChunkName: "project-pods" */ '../containers/Pods')
+)
+const Jobs = lazy(() =>
+  import(/* webpackChunkName: "project-jobs" */ '../containers/Jobs')
+)
+const ImageBuilder = lazy(() =>
+  import(
+    /* webpackChunkName: "project-imagebuilder" */ '../containers/ImageBuilder'
+  )
+)
+const CronJobs = lazy(() =>
+  import(/* webpackChunkName: "project-cronjobs" */ '../containers/CronJobs')
+)
+const Services = lazy(() =>
+  import(/* webpackChunkName: "project-services" */ '../containers/Services')
+)
+const GrayRelease = lazy(() =>
+  import(
+    /* webpackChunkName: "project-grayrelease" */ '../containers/GrayRelease'
+  )
+)
+const Routes = lazy(() =>
+  import(/* webpackChunkName: "project-ingresses" */ '../containers/Routes')
+)
+const Volumes = lazy(() =>
+  import(/* webpackChunkName: "project-volumes" */ '../containers/Volumes')
+)
+const VolumeSnapshots = lazy(() =>
+  import(
+    /* webpackChunkName: "project-volume-snapshots" */ '../containers/VolumeSnapshots'
+  )
+)
+const BaseInfo = lazy(() =>
+  import(/* webpackChunkName: "project-baseinfo" */ '../containers/BaseInfo')
+)
+const ConfigMaps = lazy(() =>
+  import(
+    /* webpackChunkName: "project-configmaps" */ '../containers/ConfigMaps'
+  )
+)
+const ServiceAccounts = lazy(() =>
+  import(
+    /* webpackChunkName: "project-serviceaccounts" */ '../containers/ServiceAccounts'
+  )
+)
+const Secrets = lazy(() =>
+  import(/* webpackChunkName: "project-secrets" */ '../containers/Secrets')
+)
+const Roles = lazy(() =>
+  import(/* webpackChunkName: "project-roles" */ '../containers/Roles')
+)
+const Members = lazy(() =>
+  import(/* webpackChunkName: "project-members" */ '../containers/Members')
+)
+const LogCollection = lazy(() =>
+  import(
+    /* webpackChunkName: "project-log-collections" */ '../containers/LogCollection'
+  )
+)
+const AlertingPolicies = lazy(() =>
+  import(
+    /* webpackChunkName: "project-alert-rules" */ '../containers/Alerting/Policies'
+  )
+)
+const AlertingMessages = lazy(() =>
+  import(
+    /* webpackChunkName: "project-alerts" */ '../containers/Alerting/Messages'
+  )
+)
+const CustomMonitoring = lazy(() =>
+  import(
+    /* webpackChunkName: "project-custom-monitoring" */ '../containers/CustomMonitoring'
+  )
+)
+const NetworkPolicies = lazy(() =>
+  import(
+    /* webpackChunkName: "project-networkpolicies" */ '../containers/Network/Policies'
+  )
+)
+const Gateway = lazy(() =>
+  import(/* webpackChunkName: "project-gateways" */ '../containers/Gateway')
+)
 
 const PATH = '/:workspace/clusters/:cluster/projects/:namespace'
 

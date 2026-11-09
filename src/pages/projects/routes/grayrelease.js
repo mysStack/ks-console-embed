@@ -16,11 +16,24 @@
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+import { lazy } from 'react'
 import { getChildRoutes } from 'utils/router.config'
 
-import GrayReleaseLayout from '../containers/GrayRelease'
-import Categories from '../containers/GrayRelease/Categories'
-import Jobs from '../containers/GrayRelease/Jobs'
+const GrayReleaseLayout = lazy(() =>
+  import(
+    /* webpackChunkName: "project-grayrelease-layout" */ '../containers/GrayRelease'
+  )
+)
+const Categories = lazy(() =>
+  import(
+    /* webpackChunkName: "project-grayrelease-cates" */ '../containers/GrayRelease/Categories'
+  )
+)
+const Jobs = lazy(() =>
+  import(
+    /* webpackChunkName: "project-grayrelease-jobs" */ '../containers/GrayRelease/Jobs'
+  )
+)
 
 const PATH = '/:workspace/clusters/:cluster/projects/:namespace/grayrelease'
 

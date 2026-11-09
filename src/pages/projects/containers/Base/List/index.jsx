@@ -20,7 +20,8 @@ import { Nav } from 'components/Layout'
 import { get } from 'lodash'
 import { inject, observer } from 'mobx-react'
 import Selector from 'projects/components/Selector'
-import React, { Component } from 'react'
+import React, { Component, Suspense } from 'react'
+import { Loading } from '@kube-design/components'
 
 import { renderRoutes } from 'utils/router.config'
 
@@ -78,7 +79,11 @@ class ProjectLayout extends Component {
             match={match}
           />
         </div>
-        <div className="ks-page-main">{renderRoutes(this.getRoutes(navs))}</div>
+        <div className="ks-page-main">
+          <Suspense fallback={<Loading className="ks-page-loading" />}>
+            {renderRoutes(this.getRoutes(navs))}
+          </Suspense>
+        </div>
       </div>
     )
   }

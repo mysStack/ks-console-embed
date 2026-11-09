@@ -16,7 +16,7 @@
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import React, { Component } from 'react'
+import React, { Component, Suspense } from 'react'
 import { inject, observer, Provider } from 'mobx-react'
 import { Loading } from '@kube-design/components'
 import { set, pick } from 'lodash'
@@ -99,7 +99,13 @@ class ProjectLayout extends Component {
       return <Loading className="ks-page-loading" />
     }
 
-    return <Provider projectStore={this.store}>{renderRoutes(routes)}</Provider>
+    return (
+      <Provider projectStore={this.store}>
+        <Suspense fallback={<Loading className="ks-page-loading" />}>
+          {renderRoutes(routes)}
+        </Suspense>
+      </Provider>
+    )
   }
 }
 

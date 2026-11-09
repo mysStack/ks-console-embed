@@ -1,0 +1,78 @@
+{
+  "0.79b1d388db9009cab691.js": {
+    "bytes": 2040276,
+    "needle_hits": {
+      "dashboard": 1,
+      "xterm": 6,
+      "recharts": 117,
+      "for-editor": 28
+    },
+    "src_paths_sample": [],
+    "pages_sample": []
+  },
+  "1.9ca3a76d71946712055c.js": {
+    "bytes": 3191212,
+    "needle_hits": {
+      "Deployments": 5,
+      "StatefulSets": 4,
+      "DaemonSets": 4,
+      "Pods": 36,
+      "Secrets": 24,
+      "dashboard": 21,
+      "Terminal": 12,
+      "KubeConfig": 12,
+      "Alerting": 10,
+      "DevOps": 1,
+      "AppStore": 2,
+      "IPPool": 10
+    },
+    "src_paths_sample": [],
+    "pages_sample": []
+  },
+  "12.2a69b0c5dbf5a00a4a8d.js": {
+    "bytes": 984047,
+    "needle_hits": {
+      "Pods": 8,
+      "Secrets": 1,
+      "dashboard": 19,
+      "GrayRelease": 2,
+      "Alerting": 4,
+      "SpringCloud": 7
+    },
+    "src_paths_sample": [],
+    "pages_sample": []
+  },
+  "3.bb6cbee4309e765b70c1.js": {
+    "bytes": 1948439,
+    "needle_hits": {
+      "Deployments": 1,
+      "Pods": 7,
+      "Services": 10,
+      "Secrets": 3,
+      "dashboard": 8,
+      "KubeConfig": 4,
+      "Alerting": 2,
+      "DevOps": 6,
+      "AppStore": 2,
+      "IPPool": 4
+    },
+    "src_paths_sample": [],
+    "pages_sample": []
+  },
+  "main.558f452048e49db23323.js": {
+    "bytes": 2018021,
+    "needle_hits": {
+      "Deployments": 6,
+      "Pods": 4,
+      "dashboard": 10,
+      "KubeConfig": 4,
+      "Alerting": 1,
+      "DevOps": 3,
+      "AppStore": 1,
+      "SpringCloud": 5,
+      "IPPool": 1
+    },
+    "src_paths_sample": [],
+    "pages_sample": []
+  }
+}
