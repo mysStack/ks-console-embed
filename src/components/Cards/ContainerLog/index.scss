@@ -1,64 +1,175 @@
 @import '~scss/variables';
 
-.title {
+.card {
+  height: 100%;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.toolbar {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: space-between;
+  height: 32px;
+  margin-bottom: 12px;
+}
+
+.toolbarGroup {
   display: flex;
   align-items: center;
-  font-size: $body-size;
-  font-weight: normal;
+  gap: 12px;
+}
 
-  label {
-    margin-right: 20px;
+.timeSelect {
+  min-width: 200px;
+}
+
+.outlineButton {
+  display: inline-flex;
+  align-items: center;
+  height: 32px;
+  padding: 6px 12px;
+  border: 1px solid #ccd3db;
+  border-radius: 4px;
+  color: #36435c;
+  background: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  cursor: pointer;
+
+  :global(.icon) {
+    margin-right: 6px;
+  }
+
+  &.active {
+    border-color: #242e42;
+    color: #fff;
+    background: #242e42;
   }
 }
 
-.operations {
-  position: absolute;
+.panel {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: #242e42;
+}
+
+.searchBar {
   display: flex;
   align-items: center;
-  top: 28px;
-  right: 28px;
-  z-index: 2;
+  gap: 12px;
+  box-sizing: border-box;
+  height: 52px;
+  padding: 10px 12px;
+  border: 1px solid #36435c;
+  background-color: #242e42;
+}
+
+.matchCount {
+  min-width: 60px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.searchInput {
+  flex: 1;
+  min-width: 0;
   height: 32px;
-  padding: 6px 10px;
-  color: $white;
-  border-radius: 16px;
+  padding: 6px 12px;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
   background-color: #36435c;
+  font-size: 12px;
+  outline: none;
 
-  :global {
-    .icon {
-      opacity: 0.6;
+  &::placeholder {
+    color: #79879c;
+  }
+}
 
-      &:hover {
-        opacity: 1;
-        background-color: transparent;
-      }
-    }
+.iconButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #36435c;
+  cursor: pointer;
+
+  &.active,
+  &:hover:not(:disabled) {
+    background-color: #45536c;
   }
 
-  .split {
-    margin: 0 8px;
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
   }
 }
 
 .content {
   font-family: $font-family-code;
-  min-height: calc(100vh - 240px);
+  min-height: calc(100vh - 280px);
   max-height: 600px;
-  padding: 20px;
-  border-radius: 4px;
-  background-color: $dark;
   overflow: auto;
+  padding-bottom: 12px;
+  background-color: $dark;
+  color: #b7c4d1;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+}
 
-  p {
-    color: #b7c4d1;
-    font-weight: 600;
-    line-height: 20px;
-    white-space: pre-wrap;
+.logLine {
+  display: flex;
+  min-width: max-content;
+  min-height: 24px;
+  white-space: pre;
 
-    strong {
-      color: $yellow;
-    }
+  &:hover,
+  &.currentLine {
+    background-color: #36435c;
   }
+}
+
+.logNumber {
+  flex: 0 0 56px;
+  padding: 0 12px;
+  color: #79879c;
+  text-align: right;
+}
+
+.logContent {
+  min-width: calc(100% - 56px);
+  padding: 0 12px;
+  color: #b7c4d1;
+  white-space: pre;
+}
+
+.searchMatch {
+  border-radius: 2px;
+  background-color: #ef9a4a;
+  color: #242e42;
+}
+
+.currentMatch {
+  border-radius: 2px;
+  background-color: #fffd55;
+  color: #242e42;
 }
 
 .loading {
