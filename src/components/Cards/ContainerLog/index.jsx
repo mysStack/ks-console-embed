@@ -70,6 +70,9 @@ function splitLogLines(log) {
   return lines
 }
 
+const MAX_LOG_MATCHES = 500
+const MAX_HIGHLIGHTS_PER_LINE = 30
+
 function findLogMatches(lines, keyword) {
   const needle = String(keyword || '').trim()
   if (!needle) {
@@ -77,8 +80,8 @@ function findLogMatches(lines, keyword) {
   }
   const lower = needle.toLowerCase()
   const matches = []
-  lines.forEach((text, index) => {
-    const haystack = text.toLowerCase()
+  for (let index = 0; index < lines.length; index += 1) {
+    const haystack = lines[index].toLowerCase()
     let from = 0
     while (from <= haystack.length - lower.length) {
       const start = haystack.indexOf(lower, from)
@@ -90,10 +93,29 @@ function findLogMatches(lines, keyword) {
         start,
         end: start + needle.length,
       })
+      if (matches.length >= MAX_LOG_MATCHES) {
+        return matches
+      }
       from = start + Math.max(lower.length, 1)
     }
-  })
+  }
   return matches
+}
+
+function groupMatchesByLine(matches) {
+  const grouped = new Map()
+  matches.forEach((item, index) => {
+    const next = { ...item, index }
+    const row = grouped.get(item.lineNumber)
+    if (!row) {
+      grouped.set(item.lineNumber, [next])
+      return
+    }
+    if (row.length < MAX_HIGHLIGHTS_PER_LINE) {
+      row.push(next)
+    }
+  })
+  return grouped
 }
 
 function wrapMatchIndex(index, total, step) {
@@ -113,6 +135,7 @@ export default class ContainerLog extends React.Component {
       loadingNext: false,
       isRealtime: !!props.isRealtime,
       match: '',
+      matchDraft: '',
       filterActive: false,
       currentIndex: 0,
       timeRange: parseRelativeTime('15m'),
@@ -141,6 +164,9 @@ export default class ContainerLog extends React.Component {
   }
 
   componentWillUnmount() {
+    if (this.matchTimer) {
+      clearTimeout(this.matchTimer)
+    }
     this.store.stopWatchLogs()
   }
 
@@ -237,7 +263,14 @@ export default class ContainerLog extends React.Component {
   }
 
   handleMatch = event => {
-    this.setState({ match: event.target.value, currentIndex: 0 })
+    const value = event.target.value
+    this.setState({ matchDraft: value })
+    if (this.matchTimer) {
+      clearTimeout(this.matchTimer)
+    }
+    this.matchTimer = setTimeout(() => {
+      this.setState({ match: value, currentIndex: 0 })
+    }, 250)
   }
 
   getMatchState() {
@@ -251,10 +284,7 @@ export default class ContainerLog extends React.Component {
     return { lines, matches, lineNumbers }
   }
 
-  renderHighlightedLine(text, lineNumber, matches, currentIndex) {
-    const lineMatches = matches
-      .map((item, index) => ({ ...item, index }))
-      .filter(item => item.lineNumber === lineNumber)
+  renderHighlightedLine(text, lineMatches, currentIndex) {
     if (!lineMatches.length) {
       const utc = text.match(PATTERN_UTC_TIME)
       const content = utc ? text.replace(utc[0], '') : text
@@ -368,7 +398,7 @@ export default class ContainerLog extends React.Component {
   }
 
   renderSearchBar(matchCount) {
-    const { match, filterActive } = this.state
+    const { match, matchDraft, filterActive } = this.state
     const navDisabled = matchCount === 0
     const label = matchCount === 1 ? t('LOG_MATCH') : t('LOG_MATCHES')
     return (
@@ -380,13 +410,19 @@ export default class ContainerLog extends React.Component {
           className={styles.searchInput}
           data-test="container-log-match"
           placeholder={t('SEARCH_BY_KEYWORD')}
-          value={match}
+          value={matchDraft}
           onChange={this.handleMatch}
           onKeyDown={event => {
             if (event.key !== 'Enter') {
               return
             }
             event.preventDefault()
+            if (this.matchTimer) {
+              clearTimeout(this.matchTimer)
+            }
+            if (matchDraft !== match) {
+              this.setState({ match: matchDraft, currentIndex: 0 })
+            }
             this.moveMatch(event.shiftKey ? -1 : 1)
           }}
         />
@@ -444,6 +480,7 @@ export default class ContainerLog extends React.Component {
     }
 
     const { lines, matches, lineNumbers } = this.getMatchState()
+    const matchesByLine = groupMatchesByLine(matches)
     const currentLine = matches[currentIndex] ? matches[currentIndex].lineNumber : 0
 
     return (
@@ -477,8 +514,7 @@ export default class ContainerLog extends React.Component {
                 <span className={styles.logContent}>
                   {this.renderHighlightedLine(
                     text,
-                    lineNumber,
-                    matches,
+                    matchesByLine.get(lineNumber) || [],
                     currentIndex
                   )}
                 </span>
