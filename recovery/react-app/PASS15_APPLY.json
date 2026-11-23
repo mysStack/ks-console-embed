@@ -1,0 +1,24 @@
+{
+  "applied": [
+    {
+      "module": "module-1738.js",
+      "orig": "components/Forms/SilentPolicy/Base/index.js",
+      "kind": "t",
+      "lit": "PROJECT_NAME_INVALID_DESC"
+    },
+    {
+      "module": "module-4214.js",
+      "orig": "pages/projects/containers/Volumes/Detail/Snapshots/index.js",
+      "kind": "t",
+      "lit": "VOLUME_SNAPSHOT"
+    },
+    {
+      "module": "module-4961.js",
+      "orig": "pages/fedprojects/containers/BaseInfo/DefaultResource/index.js",
+      "kind": "t",
+      "lit": "GPU_TYPE_SCAP"
+    }
+  ],
+  "skipped": [],
+  "count": 3
+}

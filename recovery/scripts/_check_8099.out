@@ -1,0 +1,14 @@
+=== pid 2187792 ===
+dead
+=== 8099 listen ===
+LISTEN 0      511           0.0.0.0:8099       0.0.0.0:*    users:(("webpack",pid=2265955,fd=21))
+=== webpack processes ===
+bruce    2265932 2265931  0 12:42 pts/0    00:00:00 npm exec webpack serve --mode development --no-open
+bruce    2265954 2265932  0 12:42 pts/0    00:00:00 sh -c webpack serve --mode development --no-open
+bruce    2265955 2265954 33 12:42 pts/0    00:01:32 webpack
+=== node processes on 8099 via lsof/fuser info ===
+COMMAND     PID  USER FD   TYPE DEVICE SIZE/OFF NODE NAME
+webpack 2265955 bruce 21u  IPv4  78056      0t0  TCP *:8099 (LISTEN)
+=== log files ===
+=== stylesheet.css ===
+ls: cannot access '/home/bruce/code/ks-develop/console/dist/v3dist/stylesheet.css': No such file or directory

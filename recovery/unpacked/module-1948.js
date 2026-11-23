@@ -1,0 +1,8 @@
+import module812 from "./module-812.js";
+import module487 from "./module-487.js";
+const module487_left = module487.left;
+const module812_aTypedArray = module812.aTypedArray;
+module812.exportTypedArrayMethod("reduce", function(e) {
+    const arguments_length = arguments.length;
+    return module487_left(module812_aTypedArray(this), e, arguments_length, arguments_length > 1 ? arguments[1] : undefined);
+});

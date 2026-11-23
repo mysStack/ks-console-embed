@@ -1,0 +1,12 @@
+{
+  "applied": [
+    {
+      "module": "module-4455.js",
+      "orig": "pages/workspaces/containers/Overview/Clusters/Card.js",
+      "kind": "body",
+      "lit": "chartNoGPU"
+    }
+  ],
+  "skipped": [],
+  "count": 1
+}

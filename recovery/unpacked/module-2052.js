@@ -1,0 +1,3 @@
+((t)=>{
+    module.exports = t;
+})({});

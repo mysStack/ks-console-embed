@@ -1,0 +1,18 @@
+{
+  "applied": [
+    {
+      "module": "module-1070.js",
+      "orig": "components/Cards/Containers/Ports/index.js",
+      "kind": "body",
+      "lit": "containerPort+PORT_PL"
+    },
+    {
+      "module": "module-1638.js",
+      "orig": "components/Inputs/CustomArrayInput/index.js",
+      "kind": "body",
+      "lit": "defaultItemValue"
+    }
+  ],
+  "skipped": [],
+  "count": 2
+}

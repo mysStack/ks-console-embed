@@ -1,0 +1,12 @@
+{
+  "applied": [
+    {
+      "module": "module-1980.js",
+      "orig": "pages/fedprojects/components/FedWorkloadStatus/index.js",
+      "kind": "body",
+      "lit": "clusterTemplates"
+    }
+  ],
+  "skipped": [],
+  "count": 1
+}

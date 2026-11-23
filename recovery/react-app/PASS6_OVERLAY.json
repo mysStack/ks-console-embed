@@ -1,0 +1,12 @@
+{
+  "bundle": "app.2f34b862.js",
+  "webpack_pid": 2305884,
+  "namedCount": 0,
+  "compile": "0 error / 2 NODE_ENV warnings",
+  "fixes": [
+    "module-504.js -> core-js3/internals/engine-ff-version.js",
+    "module-506.js -> core-js3/internals/engine-webkit-version.js"
+  ],
+  "promotions": 0,
+  "empty_render_css": 0
+}

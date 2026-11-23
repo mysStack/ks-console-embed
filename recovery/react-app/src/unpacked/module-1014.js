@@ -1,0 +1,21 @@
+export default {
+    body: "_3XpBlmVgox84--EIeoh9fz",
+    content: "_1F464iNseM7XiK3gfga5vM",
+    licenseTip: "_2dX1tvwR7ipGdCOFkK1Zff",
+    wrapper: "YfqK_u02oybtZ3G8fQioe",
+    title: "vWoxrLipXpH0_9MujX0tS",
+    tip: "_1Ioqq6AH-6kAmBtAqeShnj",
+    container: "_1ff-HAmM9PkupcPF5IHG-g",
+    tabs: "_3UVSHIgbB4j88-oDkYHXoW",
+    active: "_2ZtuXPp-bDSkwl_xOknaDU",
+    tooltipTrigger: "ADIqskK1YalArD57gBPYe",
+    tipIcon: "_3j-9lnSWFemgYsnnZgoR2R",
+    updateIcon: "V-EgOBnVouCHu_MYAMSXg",
+    form: "_1mBCTvVb8kcquZWer2bcmr",
+    confirm: "_2CpgnkNxBu6v2utr4FQUnF",
+    confirmActive: "_28K21pPDNYL8rlm-fMFgr-",
+    wrapperActive: "_2u6nNgENwc3ovcH_X5lWJ3",
+    formContainer: "_1uFnFyG7d4K1XrJ471RRUu",
+    footer: "_3eVjkRQJaFlSH1dxNxa8L-",
+    panel: "hbM182I7vu3iJceuVUKlA"
+};

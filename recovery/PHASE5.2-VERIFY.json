@@ -1,0 +1,105 @@
+{
+  "identity": {
+    "artifact": "phase4-build",
+    "mainJs": "app.480fec4d.js",
+    "buildDir": "/home/bruce/code/ks-develop/kse-console-v3/recovery/react-app/phase4-build",
+    "apiOrigin": "http://192.168.2.131:30880"
+  },
+  "discovered": {
+    "http": 200,
+    "hasWorkspace": true,
+    "hasNamespace": true,
+    "workspaceLen": 13,
+    "namespaceLen": 12
+  },
+  "results": [
+    {
+      "requested": "/dashboard",
+      "path": "/dashboard",
+      "htmlLen": 3239,
+      "user": true,
+      "recovered": false,
+      "text": "您好 admin\n\nplatform-admin\n\n最后登录时间：2026-11-23 22:12:38\n\n平台信息\n3.3.2\n平台版本\n1\n集群\n平台资源\n2026-11-23 22:12:39\n最后更新时间\n0\n企业空间\n0\n用户\n最近访问\n未发现最近访问的资源\n您可以对平台资源进行访问。",
+      "notFound": false,
+      "pageErrors": [],
+      "verdict": "pass"
+    },
+    {
+      "requested": "/clusters/default/deployments",
+      "path": "/clusters/default/deployments",
+      "htmlLen": 9046,
+      "user": true,
+      "recovered": false,
+      "text": "\t\n名称\n状态\n定制内容\n状态\n项目\n更新时间\n创建\n\t名称\n排序\n升序\n降序\n\t状态\n过滤\n运行中\n更新中\n已停止\n\t项目\t更新时间\n排序\n升序\n降序\n\t\n未发现匹配的结果\n\n您可以尝试刷新数据或清空搜索条件。\n\n每页显示：10\n10\n20\n50\n100\n总数：0\n1 / 1\n1",
+      "notFound": false,
+      "pageErrors": [],
+      "verdict": "pass"
+    },
+    {
+      "requested": "/workspaces/dev-workspace/overview",
+      "path": "/workspaces/dev-workspace/overview/usage",
+      "htmlLen": 12486,
+      "user": true,
+      "recovered": false,
+      "text": "0\n\n项目\n\n角色\n\n企业空间成员\n\n物理资源\n\n最近 1 天\n\n集群：default\n\t\n未发现监控数据\n应用资源\n\n最近 1 天\n\n集群：default\n\t\n未发现监控数据",
+      "notFound": false,
+      "pageErrors": [],
+      "verdict": "pass"
+    },
+    {
+      "requested": "/workspaces/dev-workspace/projects",
+      "path": "/workspaces/dev-workspace/projects",
+      "htmlLen": 27999,
+      "user": true,
+      "recovered": false,
+      "text": "名称\n定制内容\n状态\n创建时间\n创建\n\t名称\n排序\n升序\n降序\n\t状态\t创建时间\n排序\n升序\n降序\n\t\n\t\ndev-ewms-web\n-\n\t活跃\t2026-10-21 14:07:45\t\n编辑信息\n编辑注解\n编辑配额\n删除\n\n\t\ndev-biz-web\n-\n\t活跃\t2026-10-19 16:47:38\t\n编辑信息\n编辑注解\n编辑配额\n删除\n\n\t\ndev-biz\n-\n\t活跃\t2026-10-19 16:47:38\t\n编辑信息\n编辑注解\n",
+      "notFound": false,
+      "pageErrors": [],
+      "verdict": "pass"
+    },
+    {
+      "requested": "/workspaces/system-workspace/overview",
+      "path": "/workspaces/system-workspace/overview/usage",
+      "htmlLen": 12494,
+      "user": true,
+      "recovered": false,
+      "text": "项目\n\n角色\n\n企业空间成员\n\n物理资源\n\n最近 1 天\n\n集群：default\n\t\n未发现监控数据\n应用资源\n\n最近 1 天\n\n集群：default\n\t\n未发现监控数据",
+      "notFound": false,
+      "pageErrors": [],
+      "verdict": "pass"
+    },
+    {
+      "requested": "/settings",
+      "path": "/settings/base-info",
+      "htmlLen": 3555,
+      "user": true,
+      "recovered": false,
+      "text": "基本信息\n127.0.0.1:8108\n平台地址\n自定义平台信息\n\n平台标题\n\n平台描述\n\n平台标识\n\n浏览器图标\n\n登录页面背景图片\n\n未发现背景图片\n请点击“自定义平台信息”上传背景图片。",
+      "notFound": false,
+      "pageErrors": [],
+      "verdict": "pass"
+    },
+    {
+      "requested": "/dev-workspace/clusters/default/projects/dev-ewms-web/overview",
+      "path": "/dev-workspace/clusters/default/projects/dev-ewms-web/overview",
+      "htmlLen": 9109,
+      "user": true,
+      "recovered": false,
+      "text": "概览\n7\n容器组\n7\n部署\n0\n有状态副本集\n0\n守护进程集\n0\n任务\n0\n定时任务\n0\n持久卷声明\n7\n服务\n0\n应用路由\n项目配额\nCPU 上限\n\n资源类型\n\n0\n\n已使用\n\n无上限\n\n配额\n\n无上限\n内存上限\n\n资源类型\n\n0\n\n已使用\n\n无上限\n\n配额\n\n无上限\n查看更多\ndev-ewms-web\n-\n基本信息\ndefault\n\n集群\n\ndev-workspace\n\n企业空间\n\nuser\n\n创建者\n\n2026-10-21 14:",
+      "notFound": false,
+      "pageErrors": [],
+      "verdict": "pass"
+    },
+    {
+      "requested": "/dev-workspace/clusters/default/projects/dev-ewms-web/deployments",
+      "path": "/dev-workspace/clusters/default/projects/dev-ewms-web/deployments",
+      "htmlLen": 9452,
+      "user": true,
+      "recovered": false,
+      "text": "工作负载\n\n工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。\n\n部署\n有状态副本集\n守护进程集\n名称\n状态\n应用\n定制内容\n状态\n应用\n更新时间\n创建\n\t名称\n排序\n升序\n降序\n\t状态\n过滤\n运行中\n更新中\n已停止\n\t应用\t更新时间\n排序\n升序\n降序\n\t\n未发现匹配的结果\n\n您可以尝试刷新数据或清空搜索条件。\n\n每页显示：10\n10\n20\n50\n100\n总数：0\n1 / 1",
+      "notFound": false,
+      "pageErrors": [],
+      "verdict": "pass"
+    }
+  ]
+}

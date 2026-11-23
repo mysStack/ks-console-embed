@@ -1,0 +1,11 @@
+from pathlib import Path
+root = Path("/home/bruce/code/ks-develop/kse-console-v3/recovery/react-app/phase4-build")
+app = next(root.glob("app.*.js"))
+c = next(root.glob("5203.app.*.js"))
+app_t = app.read_text(encoding="utf-8", errors="ignore")
+t = c.read_text(encoding="utf-8", errors="ignore")
+i = app_t.find(".t=function")
+print("app helper", app_t[i : i + 400])
+print("---5203 head 900---")
+print(t[:900])
+print("---r.t---", t.count(".t("), "idx", t.find(".t("))

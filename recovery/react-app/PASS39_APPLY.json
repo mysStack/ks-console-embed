@@ -1,0 +1,24 @@
+{
+  "applied": [
+    {
+      "module": "module-1977.js",
+      "orig": "pages/projects/components/Cards/ImageRunRecord/index.js",
+      "kind": "body",
+      "lit": "isB2i"
+    },
+    {
+      "module": "module-1226.js",
+      "orig": "pages/projects/components/Cards/Workloads/index.js",
+      "kind": "body",
+      "lit": "statefulsets"
+    },
+    {
+      "module": "module-1220.js",
+      "orig": "pages/projects/components/Cards/Replica/index.js",
+      "kind": "body",
+      "lit": "availablePodNums"
+    }
+  ],
+  "skipped": [],
+  "count": 3
+}

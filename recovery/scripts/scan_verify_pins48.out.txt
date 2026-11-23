@@ -1,0 +1,200 @@
+=== indexing ===
+
+=== REJECT weak method pins ===
+
+=== SIB pages/clusters/containers/Nodes/Detail/RunningStatus/ConditionCard.js -> module-3951.js needle='if' parent=pages/clusters/containers/Nodes/Detail/RunningStatus.js ===
+    css False skip False named []
+    t ['LAST_HEARTBEAT_VALUE', 'YYYY-MM-DD HH:mm:ss']
+    importers [('module-3949.js', ['pages/clusters/containers/Nodes/Detail/RunningStatus.js'])]
+    kids [('module-186.js', ['?']), ('module-52.js', ['utils/index.js']), ('module-444.js', ['utils/node.js']), ('module-791.js', ['components/Base/Text.js']), ('module-3952.js', ['?'])]
+  VERDICT REJECT weak needle
+
+=== SIB pages/clusters/containers/EdgeNodes/Detail/RunningStatus/ConditionCard.js -> module-3962.js needle='if' parent=pages/clusters/containers/EdgeNodes/Detail/RunningStatus.js ===
+    css False skip False named []
+    t ['LATEST_UPDATE_VALUE', 'YYYY-MM-DD HH:mm:ss']
+    importers [('module-3961.js', ['pages/clusters/containers/EdgeNodes/Detail/RunningStatus.js'])]
+    kids [('module-186.js', ['?']), ('module-52.js', ['utils/index.js']), ('module-444.js', ['utils/node.js']), ('module-791.js', ['components/Base/Text.js']), ('module-3963.js', ['?'])]
+  VERDICT REJECT weak needle
+
+=== SIB pages/clusters/containers/Monitor/Resource/Usage/Physical.js -> module-3790.js needle='fetchData' parent=pages/clusters/containers/Monitor/Resource/Usage.js ===
+    css False skip False named []
+    t ['rootStore', 'NO_MONITORING_DATA']
+    importers [('module-3785.js', ['pages/clusters/containers/Monitor/Resource/Usage.js'])]
+    kids [('module-31.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-239.js', ['?']), ('module-3.js', ['?']), ('module-63.js', ['?']), ('module-26.js', ['?']), ('module-795.js', ['utils/monitoring.js']), ('module-1132.js', ['stores/monitoring/workspace.js']), ('module-186.js', ['?']), ('module-802.js', ['components/Base/Card.js']), ('module-799.js', ['components/Charts/index.js'])]
+  VERDICT REJECT weak needle
+
+=== SIB pages/clusters/containers/Monitor/Resource/Usage/Virtual.js -> module-3790.js needle='fetchData' parent=pages/clusters/containers/Monitor/Resource/Usage.js ===
+    css False skip False named []
+    t ['rootStore', 'NO_MONITORING_DATA']
+    importers [('module-3785.js', ['pages/clusters/containers/Monitor/Resource/Usage.js'])]
+    kids [('module-31.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-239.js', ['?']), ('module-3.js', ['?']), ('module-63.js', ['?']), ('module-26.js', ['?']), ('module-795.js', ['utils/monitoring.js']), ('module-1132.js', ['stores/monitoring/workspace.js']), ('module-186.js', ['?']), ('module-802.js', ['components/Base/Card.js']), ('module-799.js', ['components/Charts/index.js'])]
+  VERDICT REJECT weak needle
+
+=== Ingresses unique importer 1:1 ===
+
+=== IMP pages/fedprojects/containers/Applications/Detail/AppIngresses/Ingresses.js -> module-4984.js parent=pages/fedprojects/containers/Applications/Detail/AppIngresses.js extra=[] ===
+    css False skip False named []
+    t ['projectStore', 'div', 'GATEWAY_ACCESS_MODE', 'GATEWAY_IP_ADDRESS', 'NODE_PORTS_SCAP', 'LOAD_BALANCER_SCAP']
+    importers [('module-4983.js', ['pages/fedprojects/containers/Applications/Detail/AppIngresses.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-321.js', ['?']), ('module-63.js', ['?']), ('module-239.js', ['?']), ('module-52.js', ['utils/index.js']), ('module-186.js', ['?']), ('module-790.js', ['components/Base/Panel.js']), ('module-791.js', ['components/Base/Text.js']), ('module-816.js', ['components/Clusters/ClusterTitle.js']), ('module-834.js', ['stores/gateway.js']), ('module-918.js', ['stores/ingress.js'])]
+  unique_named_parent True unique_orig True ['pages/fedprojects/containers/Applications/Detail/AppIngresses.js']
+  unique_kids ['module-4984.js'] unnamed_local ['pages/fedprojects/containers/Applications/Detail/AppIngresses/Ingresses.js']
+  VERDICT NEW only_unique_kid True
+
+=== Ranking Project unique importer 1:1 ===
+
+=== IMP pages/clusters/containers/Monitor/Resource/Ranking/Project.js -> module-3793.js parent=pages/clusters/containers/Monitor/Resource/Ranking.js extra=[] ===
+    css False skip False named []
+    t ['EXPORT']
+    importers [('module-3792.js', ['pages/clusters/containers/Monitor/Resource/Ranking.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-239.js', ['?']), ('module-3.js', ['?']), ('module-887.js', ['components/Tables/Base/Pagination.js']), ('module-186.js', ['?']), ('module-1129.js', ['?']), ('module-52.js', ['utils/index.js']), ('module-1801.js', ['?']), ('module-3794.js', ['?'])]
+  unique_named_parent True unique_orig True ['pages/clusters/containers/Monitor/Resource/Ranking.js']
+  unique_kids ['module-3793.js'] unnamed_local ['pages/clusters/containers/Monitor/Resource/Ranking/Project.js']
+  VERDICT NEW only_unique_kid True
+
+=== AppDetail Banner unique importer 1:1 ===
+
+=== IMP pages/projects/components/Modals/RepoApp/AppDetail/Banner.js -> module-3100.js parent=pages/projects/components/Modals/RepoApp/AppDetail.js extra=[] ===
+    css False skip False named []
+    t ['div', 'span', 'BACK', 'h3', 'p']
+    importers [('module-3095.js', ['pages/projects/components/Modals/RepoApp/AppDetail.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-1.js', ['?']), ('module-186.js', ['?']), ('module-836.js', ['components/Base/Image.js']), ('module-3101.js', ['?'])]
+  unique_named_parent True unique_orig True ['pages/projects/components/Modals/RepoApp/AppDetail.js']
+  unique_kids ['module-3100.js'] unnamed_local ['pages/projects/components/Modals/RepoApp/AppDetail/Banner.js']
+  VERDICT NEW only_unique_kid True
+
+=== Nodes ConditionCard unique t LAST_HEARTBEAT_VALUE among siblings ===
+
+=== SIB pages/clusters/containers/Nodes/Detail/RunningStatus/ConditionCard.js -> module-3951.js needle='LAST_HEARTBEAT_VALUE' parent=pages/clusters/containers/Nodes/Detail/RunningStatus.js ===
+    css False skip False named []
+    t ['LAST_HEARTBEAT_VALUE', 'YYYY-MM-DD HH:mm:ss']
+    importers [('module-3949.js', ['pages/clusters/containers/Nodes/Detail/RunningStatus.js'])]
+    kids [('module-186.js', ['?']), ('module-52.js', ['utils/index.js']), ('module-444.js', ['utils/node.js']), ('module-791.js', ['components/Base/Text.js']), ('module-3952.js', ['?'])]
+  unique_named_parent True unique_orig True ['pages/clusters/containers/Nodes/Detail/RunningStatus.js']
+  in_mod True in_orig True sib_unique True sib_hits ['module-3951.js']
+  str_unnamed ['module-4221.js', 'module-3951.js'] t_unnamed ['module-4221.js', 'module-3951.js'] named [] []
+  VERDICT NEW
+
+=== Nodes TaintCard sequential remaining 1:1 after ConditionCard ===
+
+=== IMP pages/clusters/containers/Nodes/Detail/RunningStatus/TaintCard.js -> module-3953.js parent=pages/clusters/containers/Nodes/Detail/RunningStatus.js extra=['module-3951.js', 'pages/clusters/containers/Nodes/Detail/RunningStatus/ConditionCard.js'] ===
+    css False skip False named []
+    t ['KEY', 'VALUE', 'POLICY']
+    importers [('module-3949.js', ['pages/clusters/containers/Nodes/Detail/RunningStatus.js'])]
+    kids [('module-186.js', ['?']), ('module-3954.js', ['?'])]
+  unique_named_parent True unique_orig True ['pages/clusters/containers/Nodes/Detail/RunningStatus.js']
+  unique_kids ['module-3953.js'] unnamed_local ['pages/clusters/containers/Nodes/Detail/RunningStatus/TaintCard.js']
+  VERDICT NEW only_unique_kid True
+
+=== EdgeNodes ConditionCard unique t LATEST_UPDATE_VALUE among siblings ===
+
+=== SIB pages/clusters/containers/EdgeNodes/Detail/RunningStatus/ConditionCard.js -> module-3962.js needle='LATEST_UPDATE_VALUE' parent=pages/clusters/containers/EdgeNodes/Detail/RunningStatus.js ===
+    css False skip False named []
+    t ['LATEST_UPDATE_VALUE', 'YYYY-MM-DD HH:mm:ss']
+    importers [('module-3961.js', ['pages/clusters/containers/EdgeNodes/Detail/RunningStatus.js'])]
+    kids [('module-186.js', ['?']), ('module-52.js', ['utils/index.js']), ('module-444.js', ['utils/node.js']), ('module-791.js', ['components/Base/Text.js']), ('module-3963.js', ['?'])]
+  unique_named_parent True unique_orig True ['pages/clusters/containers/EdgeNodes/Detail/RunningStatus.js']
+  in_mod True in_orig True sib_unique True sib_hits ['module-3962.js']
+  str_unnamed ['module-5244.js', 'module-4232.js', 'module-3962.js'] t_unnamed ['module-5244.js', 'module-4232.js', 'module-3962.js'] named [] []
+  VERDICT NEW
+
+=== EdgeNodes TaintCard sequential remaining 1:1 after ConditionCard ===
+
+=== IMP pages/clusters/containers/EdgeNodes/Detail/RunningStatus/TaintCard.js -> module-3964.js parent=pages/clusters/containers/EdgeNodes/Detail/RunningStatus.js extra=['module-3962.js', 'pages/clusters/containers/EdgeNodes/Detail/RunningStatus/ConditionCard.js'] ===
+    css False skip False named []
+    t ['KEY', 'VALUE', 'POLICY']
+    importers [('module-3961.js', ['pages/clusters/containers/EdgeNodes/Detail/RunningStatus.js'])]
+    kids [('module-186.js', ['?']), ('module-3965.js', ['?'])]
+  unique_named_parent True unique_orig True ['pages/clusters/containers/EdgeNodes/Detail/RunningStatus.js']
+  unique_kids ['module-3964.js'] unnamed_local ['pages/clusters/containers/EdgeNodes/Detail/RunningStatus/TaintCard.js']
+  VERDICT NEW only_unique_kid True
+
+=== Usage Trend unique t NO_MONITORING_DATA; Physical/Virtual not unique orig importers ===
+
+=== SIB pages/clusters/containers/Monitor/Resource/Usage/Trend.js -> module-3790.js needle='NO_MONITORING_DATA' parent=pages/clusters/containers/Monitor/Resource/Usage.js ===
+    css False skip False named []
+    t ['rootStore', 'NO_MONITORING_DATA']
+    importers [('module-3785.js', ['pages/clusters/containers/Monitor/Resource/Usage.js'])]
+    kids [('module-31.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-239.js', ['?']), ('module-3.js', ['?']), ('module-63.js', ['?']), ('module-26.js', ['?']), ('module-795.js', ['utils/monitoring.js']), ('module-1132.js', ['stores/monitoring/workspace.js']), ('module-186.js', ['?']), ('module-802.js', ['components/Base/Card.js']), ('module-799.js', ['components/Charts/index.js'])]
+  unique_named_parent True unique_orig True ['pages/clusters/containers/Monitor/Resource/Usage.js']
+  in_mod True in_orig True sib_unique True sib_hits ['module-3790.js']
+  str_unnamed ['module-4880.js', 'module-3790.js', 'module-4276.js', 'module-4038.js', 'module-4725.js', 'module-4832.js'] t_unnamed ['module-4880.js', 'module-3790.js', 'module-4276.js', 'module-4038.js', 'module-4725.js', 'module-4832.js'] named [('module-3838.js', ['components/Cards/Pods/Item.js']), ('module-3754.js', ['components/Cards/Monitoring/Controller.js'])] [('module-3838.js', ['components/Cards/Pods/Item.js']), ('module-3754.js', ['components/Cards/Monitoring/Controller.js'])]
+  VERDICT NEW
+
+=== GrayRelease Monitor Circle unique method getSeriesData among siblings ===
+
+=== SIB pages/projects/components/Modals/GrayReleaseDetail/Monitor/Circle.js -> module-4707.js needle='getSeriesData' parent=pages/projects/components/Modals/GrayReleaseDetail/Monitor.js ===
+    css False skip False named []
+    t ['NO_DATA_SCAP']
+    importers [('module-4706.js', ['pages/projects/components/Modals/GrayReleaseDetail/Monitor.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-1.js', ['?']), ('module-26.js', ['?']), ('module-186.js', ['?']), ('module-799.js', ['components/Charts/index.js']), ('module-795.js', ['utils/monitoring.js']), ('module-1447.js', ['?'])]
+  unique_named_parent True unique_orig True ['pages/projects/components/Modals/GrayReleaseDetail/Monitor.js']
+  in_mod True in_orig True sib_unique True sib_hits ['module-4707.js']
+  str_unnamed [] t_unnamed [] named [] []
+  VERDICT NEW
+
+=== GrayRelease Monitor Line sequential remaining 1:1 after Circle ===
+
+=== IMP pages/projects/components/Modals/GrayReleaseDetail/Monitor/Line.js -> module-4708.js parent=pages/projects/components/Modals/GrayReleaseDetail/Monitor.js extra=['module-4707.js', 'pages/projects/components/Modals/GrayReleaseDetail/Monitor/Circle.js'] ===
+    css False skip False named []
+    t []
+    importers [('module-4706.js', ['pages/projects/components/Modals/GrayReleaseDetail/Monitor.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-1.js', ['?']), ('module-795.js', ['utils/monitoring.js']), ('module-799.js', ['components/Charts/index.js']), ('module-1447.js', ['?'])]
+  unique_named_parent True unique_orig True ['pages/projects/components/Modals/GrayReleaseDetail/Monitor.js']
+  unique_kids ['module-4708.js'] unnamed_local ['pages/projects/components/Modals/GrayReleaseDetail/Monitor/Line.js']
+  VERDICT NEW only_unique_kid True
+
+=== remaining unnamed unique kids of Ingresses 4984 / Ranking Project 3793 ===
+
+  PARENT pages/fedprojects/containers/Applications/Detail/AppIngresses/Ingresses.js pretend-named module-4984.js
+    css False skip False named []
+    t ['projectStore', 'div', 'GATEWAY_ACCESS_MODE', 'GATEWAY_IP_ADDRESS', 'NODE_PORTS_SCAP', 'LOAD_BALANCER_SCAP']
+    importers [('module-4983.js', ['pages/fedprojects/containers/Applications/Detail/AppIngresses.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-321.js', ['?']), ('module-63.js', ['?']), ('module-239.js', ['?']), ('module-52.js', ['utils/index.js']), ('module-186.js', ['?']), ('module-790.js', ['components/Base/Panel.js']), ('module-791.js', ['components/Base/Text.js']), ('module-816.js', ['components/Clusters/ClusterTitle.js']), ('module-834.js', ['stores/gateway.js']), ('module-918.js', ['stores/ingress.js'])]
+    unique_kids ['module-4985.js']
+    unnamed_local ['pages/fedprojects/containers/Applications/Detail/AppIngresses/Ingresses/IngressCard.js']
+    expected pages/fedprojects/containers/Applications/Detail/AppIngresses/Ingresses/IngressCard.js oimps ['pages/fedprojects/containers/Applications/Detail/AppIngresses/Ingresses.js']
+    css False skip False named []
+    t ['div']
+    importers [('module-4984.js', ['?'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-63.js', ['?']), ('module-1981.js', ['?']), ('module-4987.js', ['?'])]
+    kid_t ['div']
+    CAND unique_importer_1_1 after parent pin
+
+  PARENT pages/clusters/containers/Monitor/Resource/Ranking/Project.js pretend-named module-3793.js
+    css False skip False named []
+    t ['EXPORT']
+    importers [('module-3792.js', ['pages/clusters/containers/Monitor/Resource/Ranking.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-239.js', ['?']), ('module-3.js', ['?']), ('module-887.js', ['components/Tables/Base/Pagination.js']), ('module-186.js', ['?']), ('module-1129.js', ['?']), ('module-52.js', ['utils/index.js']), ('module-1801.js', ['?']), ('module-3794.js', ['?'])]
+    unique_kids []
+    unnamed_local ['pages/clusters/containers/Monitor/Resource/Ranking/Project/Table.js']
+    expected pages/clusters/containers/Monitor/Resource/Ranking/Project/Table.js oimps ['pages/clusters/containers/Monitor/Resource/Ranking/Project.js', 'pages/workspaces/containers/Overview/UsageRanking.js']
+
+=== copy pair context (must uniquely import one copy) ===
+  module-4154.js named=[] importers=[('module-4153.js', ['?'])]
+  module-4153.js named=[] importers=[('module-4152.js', ['pages/whizard-telemetry/monitor-resource.js'])]
+  module-4227.js named=[] importers=[('module-4219.js', ['?'])]
+  module-4219.js named=[] importers=[('module-4218.js', ['pages/whizard-telemetry/nodes/Detail.js'])]
+  module-1798.js named=[] importers=[('module-3785.js', ['pages/clusters/containers/Monitor/Resource/Usage.js']), ('module-4446.js', ['pages/workspaces/containers/Overview/ResourceUsage/Physical.js'])]
+  module-1800.js named=[] importers=[('module-3785.js', ['pages/clusters/containers/Monitor/Resource/Usage.js']), ('module-4451.js', ['pages/workspaces/containers/Overview/ResourceUsage/Virtual.js'])]
+  module-3790.js named=[] importers=[('module-3785.js', ['pages/clusters/containers/Monitor/Resource/Usage.js'])]
+  module-1135.js named=[] importers=[('module-3949.js', ['pages/clusters/containers/Nodes/Detail/RunningStatus.js']), ('module-3961.js', ['pages/clusters/containers/EdgeNodes/Detail/RunningStatus.js']), ('module-4220.js', ['?']), ('module-4231.js', ['?']), ('module-5243.js', ['?'])]
+
+=== ACCEPTED ===
+    "pages/fedprojects/containers/Applications/Detail/AppIngresses/Ingresses.js": "module-4984.js",  # imp:AppIngresses unique ./Ingresses
+    "pages/clusters/containers/Monitor/Resource/Ranking/Project.js": "module-3793.js",  # imp:Ranking unique ./Project
+    "pages/projects/components/Modals/RepoApp/AppDetail/Banner.js": "module-3100.js",  # imp:AppDetail unique ./Banner
+    "pages/clusters/containers/Nodes/Detail/RunningStatus/ConditionCard.js": "module-3951.js",  # sib:LAST_HEARTBEAT_VALUE
+    "pages/clusters/containers/Nodes/Detail/RunningStatus/TaintCard.js": "module-3953.js",  # seq_after_ConditionCard
+    "pages/clusters/containers/EdgeNodes/Detail/RunningStatus/ConditionCard.js": "module-3962.js",  # sib:LATEST_UPDATE_VALUE
+    "pages/clusters/containers/EdgeNodes/Detail/RunningStatus/TaintCard.js": "module-3964.js",  # seq_after_ConditionCard
+    "pages/clusters/containers/Monitor/Resource/Usage/Trend.js": "module-3790.js",  # sib:NO_MONITORING_DATA unique orig importer Usage
+    "pages/projects/components/Modals/GrayReleaseDetail/Monitor/Circle.js": "module-4707.js",  # sib:getSeriesData
+    "pages/projects/components/Modals/GrayReleaseDetail/Monitor/Line.js": "module-4708.js",  # seq_after_Circle
+    "pages/fedprojects/containers/Applications/Detail/AppIngresses/Ingresses/IngressCard.js": "module-4985.js",  # imp_after_parent:pages/fedprojects/containers/Applications/Detail/AppIngresses/Ingresses.js
+accepted_count 11
+rejected_count 4
+  REJECT ('pages/clusters/containers/Nodes/Detail/RunningStatus/ConditionCard.js', 'module-3951.js', 'weak:if')
+  REJECT ('pages/clusters/containers/EdgeNodes/Detail/RunningStatus/ConditionCard.js', 'module-3962.js', 'weak:if')
+  REJECT ('pages/clusters/containers/Monitor/Resource/Usage/Physical.js', 'module-3790.js', 'weak:fetchData')
+  REJECT ('pages/clusters/containers/Monitor/Resource/Usage/Virtual.js', 'module-3790.js', 'weak:fetchData')

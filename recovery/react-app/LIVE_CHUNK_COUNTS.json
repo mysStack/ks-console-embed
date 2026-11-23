@@ -1,0 +1,30 @@
+{
+  "bundle": "http://127.0.0.1:8099/app.cdcffdb4.js",
+  "named_hits": 0,
+  "leftover_live": 1589,
+  "factory": 1589,
+  "prefix_factory_counts": {
+    "configs": 22,
+    "core": 6,
+    "pages": 161,
+    "stores": 74,
+    "unpacked": 1593,
+    "utils": 38,
+    "components": 480,
+    "actions": 34,
+    "dmp": 1
+  },
+  "buckets": {
+    "tiny_other": 793,
+    "other": 446,
+    "babel_helper": 11,
+    "webpack_runtime": 1,
+    "business_looking": 251,
+    "kse_wujie": 1,
+    "css_object": 84,
+    "react_is": 1,
+    "kube_design_icon": 1
+  },
+  "remaining_like": 1049,
+  "already": 221
+}

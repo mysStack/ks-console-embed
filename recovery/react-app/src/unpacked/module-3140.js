@@ -1,0 +1,20 @@
+export default {
+    body: "FbITYne0i4DbvCLnzJppV",
+    content: "c_-hEacvn_ozn9Uye4i2x",
+    helmIcon: "_3libFrG31cL1QWbuOHOicy",
+    upload: "VWk6Q9wxFp2BIgR6mQcIF",
+    canCreate: "_3qBtd7HCIIYD56ncpZKiQd",
+    checkFiles: "_3ceKdS8qGPqbikhr-qVqjS",
+    none: "T8cKuPI_uDgYJdvU8amv7",
+    error: "_2s-G-ny91XsDbUPAn-ifwr",
+    name: "_3W00VxCOPCnS8YxwvFktWQ",
+    description: "_3GwndPl9zFAPpKfuFgi7H4",
+    configMask: "_2WXEWWHzssFiptqw_JaUEE",
+    note: "MJUADPCGxIFyTl-MrBJRo",
+    appInfo: "tSrXgfCDfEVuCJXlcVVUj",
+    title: "_35C-lGsE1y_RINzuiFKR77",
+    appContent: "_2bZTNdz4m5smofv_MXg7Yi",
+    appIcon: "_1VOz7vDrKq6Bbrh7P_9riz",
+    iconShow: "_3YqF_NcnYWGqv3UwvqfG2F",
+    reload: "_3TSt4Z-UmXm9uynK3Rfsql"
+};

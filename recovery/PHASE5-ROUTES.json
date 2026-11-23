@@ -1,0 +1,611 @@
+{
+  "core_paths": [
+    "/login",
+    "/clusters",
+    "/node-groups",
+    "/v2/edgewize",
+    "/whizard-telemetry",
+    "/access",
+    "/:workspace/clusters/:cluster/projects/:namespace",
+    "/:workspace/clusters/:cluster/devops/:devops",
+    "/:workspace/federatedprojects/:namespace",
+    "/workspaces/:workspace",
+    "/settings",
+    "*"
+  ],
+  "core_lazy_imports": [
+    "pages/console/App",
+    "pages/clusters/App",
+    "pages/whizard-telemetry/App",
+    "pages/access/App",
+    "pages/workspaces/App",
+    "pages/projects/App",
+    "pages/fedprojects/App",
+    "pages/devops/App",
+    "pages/settings/App",
+    "pages/edgewize/App",
+    "pages/node-groups/App"
+  ],
+  "nested_route_files": {
+    "clusters/routes.js": [
+      "${path}/alert-rules",
+      "${path}/alerts",
+      "${path}/base-info",
+      "${path}/clusteringresssettings",
+      "${path}/components",
+      "${path}/configmaps",
+      "${path}/cronjobs",
+      "${path}/custom-monitoring",
+      "${path}/customresources",
+      "${path}/daemonsets",
+      "${path}/deployments",
+      "${path}/edgenodes",
+      "${path}/gateways",
+      "${path}/gateways/:component",
+      "${path}/ingresses",
+      "${path}/ippools",
+      "${path}/jobs",
+      "${path}/kubeConfig",
+      "${path}/log-collections",
+      "${path}/log-collections/:component",
+      "${path}/members",
+      "${path}/monitor-cluster",
+      "${path}/monitor-resource",
+      "${path}/networkpolicies",
+      "${path}/nodes",
+      "${path}/overview",
+      "${path}/pods",
+      "${path}/projects",
+      "${path}/roles",
+      "${path}/secrets",
+      "${path}/serviceaccounts",
+      "${path}/services",
+      "${path}/snapshots/:namespace?",
+      "${path}/statefulsets",
+      "${path}/storageclasses",
+      "${path}/visibility",
+      "${path}/volume-snapshot-classes",
+      "${path}/volume-snapshots",
+      "${path}/volumes",
+      "${path}/workloads",
+      "*",
+      "/clusters",
+      "/clusters/tags"
+    ],
+    "fedprojects/routes.js": [
+      "${path}/applications",
+      "${path}/base-info",
+      "${path}/configmaps",
+      "${path}/deployments",
+      "${path}/gateways",
+      "${path}/ingresses",
+      "${path}/log-collections",
+      "${path}/overview",
+      "${path}/quota",
+      "${path}/secrets",
+      "${path}/services",
+      "${path}/statefulsets",
+      "${path}/volumes",
+      "${path}/workloads",
+      "*"
+    ],
+    "edgewize/routes.js": [
+      "${path}/alerts",
+      "${path}/base-info",
+      "${path}/configmaps",
+      "${path}/cronjobs",
+      "${path}/daemonsets",
+      "${path}/deployments",
+      "${path}/edgeippool",
+      "${path}/fota",
+      "${path}/jobs",
+      "${path}/members",
+      "${path}/node-groups",
+      "${path}/nodes",
+      "${path}/pods",
+      "${path}/projects",
+      "${path}/resource-usage",
+      "${path}/roles",
+      "${path}/rule-group",
+      "${path}/secrets",
+      "${path}/services",
+      "${path}/statefulsets",
+      "${path}/workloads",
+      "/v2/edgewize",
+      "/v2/edgewize/create",
+      "/workspaces/:workspace/v2/edgewize"
+    ],
+    "access/routes.js": [
+      "${path}/accounts",
+      "${path}/edge-workspaces",
+      "${path}/roles",
+      "${path}/workspaces"
+    ],
+    "workspaces/routes.js": [
+      "${path}/apps",
+      "${path}/base-info",
+      "${path}/devops",
+      "${path}/edge-apps",
+      "${path}/federatedprojects",
+      "${path}/gateways",
+      "${path}/gateways/:component",
+      "${path}/groups",
+      "${path}/members",
+      "${path}/projects",
+      "${path}/quota",
+      "${path}/repos",
+      "${path}/roles"
+    ],
+    "whizard-telemetry/routes.js": [
+      "${METRICS_PATH}/alerting",
+      "${METRICS_PATH}/alerting/builtin-alerts",
+      "${METRICS_PATH}/alerting/builtin-rules",
+      "${METRICS_PATH}/alerting/custom-alerts",
+      "${METRICS_PATH}/alerting/custom-rules",
+      "${METRICS_PATH}/overview",
+      "${METRICS_PATH}/pods",
+      "${METRICS_PATH}/ranking",
+      "${PATH}/alert-rules",
+      "${PATH}/alerts",
+      "${PATH}/cronjobs",
+      "${PATH}/custom-monitoring",
+      "${PATH}/customresources",
+      "${PATH}/daemonsets",
+      "${PATH}/deployments",
+      "${PATH}/edgenodes",
+      "${PATH}/gateways",
+      "${PATH}/gateways/:component",
+      "${PATH}/ingresses",
+      "${PATH}/jobs",
+      "${PATH}/log-collections",
+      "${PATH}/log-collections/:component",
+      "${PATH}/monitor-cluster",
+      "${PATH}/monitor-resource",
+      "${PATH}/nodes",
+      "${PATH}/overview",
+      "${PATH}/pods",
+      "${PATH}/projects",
+      "${PATH}/services",
+      "${PATH}/snapshots/:namespace?",
+      "${PATH}/statefulsets",
+      "${PATH}/storageclasses",
+      "${PATH}/volume-snapshot-classes",
+      "${PATH}/volume-snapshots",
+      "${PATH}/volumes",
+      "${PATH}/workloads",
+      "*",
+      "/whizard-telemetry"
+    ],
+    "settings/routes.js": [
+      "${path}/base-info",
+      "${path}/channel-configuration",
+      "${path}/dingtalk",
+      "${path}/feishu",
+      "${path}/license-info",
+      "${path}/mail",
+      "${path}/notification-configuration",
+      "${path}/notification-history",
+      "${path}/notification-language",
+      "${path}/silent-policy",
+      "${path}/slack",
+      "${path}/third-login",
+      "${path}/webhook",
+      "${path}/wecom",
+      "*"
+    ],
+    "devops/routes.js": [
+      "${path}/base-info",
+      "${path}/cd",
+      "${path}/code-repo",
+      "${path}/credentials",
+      "${path}/members",
+      "${path}/pipelines",
+      "${path}/roles",
+      "*"
+    ],
+    "projects/routes.js": [
+      "${path}/alert-rules",
+      "${path}/alerts",
+      "${path}/applications",
+      "${path}/applications/database",
+      "${path}/applications/others",
+      "${path}/applications/template",
+      "${path}/base-info",
+      "${path}/composing",
+      "${path}/configmaps",
+      "${path}/configurations",
+      "${path}/cronjobs",
+      "${path}/custom-monitoring",
+      "${path}/custom-scaling",
+      "${path}/daemonsets",
+      "${path}/deployments",
+      "${path}/edgeappsets",
+      "${path}/gateways",
+      "${path}/grayrelease",
+      "${path}/ingresses",
+      "${path}/jobs",
+      "${path}/log-collections",
+      "${path}/members",
+      "${path}/microservicegateways",
+      "${path}/microservices",
+      "${path}/networkpolicies",
+      "${path}/node-groups",
+      "${path}/overview",
+      "${path}/pods",
+      "${path}/roles",
+      "${path}/s2ibuilders",
+      "${path}/secrets",
+      "${path}/serviceaccounts",
+      "${path}/servicerouting",
+      "${path}/services",
+      "${path}/statefulsets",
+      "${path}/volume-snapshots",
+      "${path}/volumes",
+      "${path}/workloads",
+      "*"
+    ],
+    "node-groups/routes.js": [
+      "${path}/base-info",
+      "${path}/edgeippool",
+      "${path}/edgeippool/:name",
+      "${path}/members",
+      "${path}/nodes",
+      "${path}/projects",
+      "${path}/roles",
+      "${path}/roles/:name",
+      "/node-groups"
+    ],
+    "console/routes.js": [
+      "*",
+      "/",
+      "/404",
+      "/auditingsearch",
+      "/bill",
+      "/dashboard",
+      "/eventsearch",
+      "/logquery",
+      "/support"
+    ],
+    "projects/containers/ConfigMaps/Detail/routes.js": [
+      "${path}/detail"
+    ],
+    "projects/containers/Roles/Detail/routes.js": [
+      "${path}/authorizations",
+      "${path}/users"
+    ],
+    "projects/containers/VolumeSnapshots/Detail/routes.js": [
+      "${path}/event",
+      "${path}/source",
+      "*"
+    ],
+    "projects/containers/Routes/Detail/routes.js": [
+      "${path}/events",
+      "${path}/metadata",
+      "${path}/resource-status"
+    ],
+    "projects/containers/Applications/OPAppDetail/routes.js": [
+      "${path}/config",
+      "${path}/resource-status",
+      "${path}/template"
+    ],
+    "projects/containers/Applications/CRDAppDetail/routes.js": [
+      "${path}/components",
+      "${path}/grayrelease",
+      "${path}/tracing",
+      "${path}/traffic"
+    ],
+    "projects/containers/Pods/Detail/routes.js": [
+      "${path}/env",
+      "${path}/events",
+      "${path}/metadata",
+      "${path}/monitors",
+      "${path}/resource-status",
+      "${path}/schedule"
+    ],
+    "projects/containers/Pods/Containers/routes.js": [
+      "${path}/env",
+      "${path}/logs",
+      "${path}/monitors",
+      "${path}/resource-status"
+    ],
+    "projects/containers/DaemonSets/Detail/routes.js": [
+      "${path}/env",
+      "${path}/events",
+      "${path}/metadata",
+      "${path}/monitors",
+      "${path}/resource-status",
+      "${path}/revision-control"
+    ],
+    "projects/containers/Network/Policies/Detail/routes.js": [
+      "${path}/egress",
+      "${path}/ingress"
+    ],
+    "projects/containers/ServiceAccounts/Detail/routes.js": [
+      "${path}/detail"
+    ],
+    "projects/containers/StatefulSets/Detail/routes.js": [
+      "${path}/env",
+      "${path}/events",
+      "${path}/metadata",
+      "${path}/monitors",
+      "${path}/resource-status",
+      "${path}/revision-control"
+    ],
+    "projects/containers/Volumes/Detail/routes.js": [
+      "${path}/events",
+      "${path}/metadata",
+      "${path}/resource-status"
+    ],
+    "projects/containers/Secrets/Detail/routes.js": [
+      "${path}/detail"
+    ],
+    "projects/containers/CronJobs/Detail/routes.js": [
+      "${path}/events",
+      "${path}/metadata",
+      "${path}/records"
+    ],
+    "projects/containers/Deployments/Detail/routes.js": [
+      "${path}/env",
+      "${path}/events",
+      "${path}/metadata",
+      "${path}/monitors",
+      "${path}/resource-status",
+      "${path}/revision-control"
+    ],
+    "projects/containers/Services/Detail/routes.js": [
+      "${path}/events",
+      "${path}/metadata",
+      "${path}/resource-status"
+    ],
+    "projects/containers/Jobs/Detail/routes.js": [
+      "${path}/env",
+      "${path}/events",
+      "${path}/metadata",
+      "${path}/records",
+      "${path}/resource-status"
+    ],
+    "devops/containers/Roles/Detail/routes.js": [
+      "${path}/authorizations",
+      "${path}/users"
+    ],
+    "devops/containers/CD/detail/routes.js": [
+      "${path}/syncStatus"
+    ],
+    "devops/containers/Credential/detail/routes.js": [
+      "${path}/activity",
+      "${path}/detail"
+    ],
+    "settings/notification-subscription/routes.js": [
+      "${c}/notification-subscription",
+      "${c}/notification-subscription/subscription-mail",
+      "${c}/notification-subscription/subscription-mail/create",
+      "${c}/notification-subscription/subscription-mail/detail/:name",
+      "${c}/notification-subscription/subscription-mail/detail/:name/edit",
+      "${c}/notification-subscription/subscription-mail/list"
+    ],
+    "workspaces/containers/Roles/Detail/routes.js": [
+      "${path}/authorizations",
+      "${path}/users"
+    ],
+    "workspaces/containers/Apps/Detail/routes.js": [
+      "${path}/app-information",
+      "${path}/app-instances",
+      "${path}/audit-records",
+      "${path}/versions"
+    ],
+    "workspaces/containers/Members/Detail/routes.js": [
+      "${path}/devops",
+      "${path}/projects"
+    ],
+    "workspaces/containers/Repos/Detail/routes.js": [
+      "${path}/events"
+    ],
+    "access/containers/Accounts/Detail/routes.js": [
+      "${path}/login-history"
+    ],
+    "access/containers/Roles/Detail/routes.js": [
+      "${path}/authorizations",
+      "${path}/users"
+    ],
+    "fedprojects/containers/ConfigMaps/Detail/routes.js": [
+      "${path}/detail"
+    ],
+    "fedprojects/containers/Routes/Detail/routes.js": [
+      "${path}/events",
+      "${path}/metadata",
+      "${path}/resource-status"
+    ],
+    "fedprojects/containers/Applications/Detail/routes.js": [
+      "${path}/components",
+      "${path}/ingresses",
+      "${path}/tracing",
+      "${path}/traffic"
+    ],
+    "fedprojects/containers/StatefulSets/Detail/routes.js": [
+      "${path}/events",
+      "${path}/metadata",
+      "${path}/monitors",
+      "${path}/resource-status"
+    ],
+    "fedprojects/containers/Volumes/Detail/routes.js": [
+      "${path}/events",
+      "${path}/metadata",
+      "${path}/resource-status",
+      "${path}/volume-mounts"
+    ],
+    "fedprojects/containers/Secrets/Detail/routes.js": [
+      "${path}/detail"
+    ],
+    "fedprojects/containers/Deployments/Detail/routes.js": [
+      "${path}/events",
+      "${path}/metadata",
+      "${path}/monitors",
+      "${path}/resource-status"
+    ],
+    "fedprojects/containers/Services/Detail/routes.js": [
+      "${path}/access",
+      "${path}/events",
+      "${path}/metadata",
+      "${path}/resource-status"
+    ],
+    "clusters/containers/CustomResources/Detail/routes.js": [
+      "${path}/resources"
+    ],
+    "clusters/containers/ServiceComponents/Detail/routes.js": [
+      "${path}/service-details"
+    ],
+    "clusters/containers/Roles/Detail/routes.js": [
+      "${path}/authorizations",
+      "${path}/users"
+    ],
+    "clusters/containers/EdgeNodes/Detail/routes.js": [
+      "${path}/events",
+      "${path}/metadata",
+      "${path}/pods",
+      "${path}/status"
+    ],
+    "clusters/containers/Storage/Volumes/routes.js": [
+      "${path}/PV",
+      "${path}/Volumes"
+    ],
+    "clusters/containers/Storage/VolumeSnapshots/routes.js": [
+      "${path}/snapshot-content",
+      "${path}/snapshots"
+    ],
+    "clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/routes.js": [
+      "${path}/events",
+      "${path}/metadata",
+      "${path}/resource-status"
+    ],
+    "clusters/containers/Storage/StorageClasses/Detail/routes.js": [
+      "${path}/volumes",
+      "*"
+    ],
+    "clusters/containers/Storage/VolumeSnapshotClasses/Detail/routes.js": [
+      "${path}/volume-snapshot"
+    ],
+    "clusters/containers/Projects/Detail/routes.js": [
+      "${path}/gateway",
+      "${path}/metadata",
+      "${path}/overview",
+      "${path}/pods",
+      "${path}/quota"
+    ],
+    "clusters/containers/LogCollections/Detail/routes.js": [
+      "${path}/resource-status"
+    ],
+    "clusters/containers/Nodes/Detail/routes.js": [
+      "${path}/events",
+      "${path}/metadata",
+      "${path}/monitors",
+      "${path}/pods",
+      "${path}/status"
+    ],
+    "clusters/containers/Monitor/Resource/routes.js": [
+      "${path}/ranking",
+      "${path}/usage"
+    ],
+    "clusters/containers/Monitor/Cluster/routes.js": [
+      "${path}/api-server",
+      "${path}/etcd",
+      "${path}/overview",
+      "${path}/ranking",
+      "${path}/resource",
+      "${path}/scheduler"
+    ]
+  },
+  "nested_path_count": 364,
+  "smoke": [
+    {
+      "id": "login",
+      "path": "/login",
+      "auth": "public",
+      "layer": "P0"
+    },
+    {
+      "id": "root",
+      "path": "/",
+      "auth": "shim-user",
+      "layer": "P0"
+    },
+    {
+      "id": "dashboard",
+      "path": "/dashboard",
+      "auth": "shim-user",
+      "layer": "P1"
+    },
+    {
+      "id": "support",
+      "path": "/support",
+      "auth": "shim-user",
+      "layer": "P1"
+    },
+    {
+      "id": "clusters",
+      "path": "/clusters",
+      "auth": "shim-user",
+      "layer": "P1"
+    },
+    {
+      "id": "cluster-overview",
+      "path": "/clusters/default/overview",
+      "auth": "shim-user",
+      "layer": "P1"
+    },
+    {
+      "id": "cluster-deployments",
+      "path": "/clusters/default/deployments",
+      "auth": "shim-user",
+      "layer": "P1"
+    },
+    {
+      "id": "cluster-projects",
+      "path": "/clusters/default/projects",
+      "auth": "shim-user",
+      "layer": "P1"
+    },
+    {
+      "id": "cluster-nodes",
+      "path": "/clusters/default/nodes",
+      "auth": "shim-user",
+      "layer": "P1"
+    },
+    {
+      "id": "cluster-volumes",
+      "path": "/clusters/default/volumes",
+      "auth": "shim-user",
+      "layer": "P1"
+    },
+    {
+      "id": "access",
+      "path": "/access",
+      "auth": "shim-user",
+      "layer": "P1"
+    },
+    {
+      "id": "workspaces",
+      "path": "/access/workspaces",
+      "auth": "shim-user",
+      "layer": "P1"
+    },
+    {
+      "id": "settings",
+      "path": "/settings",
+      "auth": "shim-user",
+      "layer": "P1"
+    },
+    {
+      "id": "workspace-home",
+      "path": "/workspaces/system-workspace",
+      "auth": "shim-user",
+      "layer": "P1"
+    },
+    {
+      "id": "project-deployments",
+      "path": "/system-workspace/clusters/default/projects/default/deployments",
+      "auth": "shim-user",
+      "layer": "P1"
+    }
+  ],
+  "note": "globals-shim injects username=recovered and disableAuthorization=true. That is recovered-app behavior, not a Phase 5 auth bypass. P2 still posts /login with KS_TEST_* and records the real API result."
+}

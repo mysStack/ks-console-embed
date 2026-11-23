@@ -1,0 +1,21 @@
+export default {
+    container: "_2GzfKX80Eke0zPeLXxPfM2",
+    head: "_2-pYgB5f9M6c_dxEp3V-OA",
+    title: "R12JDPJT80No5oZ4FiztO",
+    icon: "_3j4f6EuAn61hWKaSfklSE9",
+    iconDisabled: "_1i1vhIIoULv2lNF3VDZoDF",
+    iconOn: "_3QxA9rxWLkeRRxUH232AYp",
+    text: "GV4iNVpiZNi5y1eYC-T14",
+    ruleName: "_131xteJjdwC-YER3D9sImU",
+    opt: "_2JQS0c3hgKIpWOK_ZBNqhl",
+    sToggle: "_1aLV7CjsMuz2qfIYoR0vcH",
+    tooltip: "_3LrHPXIR_8Kl77N3lioHBg",
+    triangle: "_12XVt_fPIF8OcnHxmeqdTd",
+    icon_margin: "_1A7yLbbzn3pUU69BIERrDK",
+    iconBg: "_33fXsJOVt-jfqMbyD6aM_m",
+    desc: "SwG1GXUV75i58LL77WMxT",
+    descText: "_1Xua_Y5-zLL20dIy5AC2OM",
+    customLine: "_3H0BkBDaPA0ijgEG-3WRcu",
+    rule_inline: "_2WB2cLO-VflGOmsOCEihps",
+    last_inline: "_2LpyqiHLn7uxoUZyOaGmi_"
+};

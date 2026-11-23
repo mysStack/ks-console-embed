@@ -1,0 +1,363 @@
+=== indexing ===
+
+=== last3 parents 4628/3902/3904 ===
+  module-4628.js named=['pages/projects/containers/BaseInfo/ProjectInfo.js'] css=False mid=4628
+    importers [('module-4627.js', ['pages/projects/base-info.js', 'pages/projects/containers/BaseInfo.js'])]
+    methods ['if']
+    t ['PROJECT_INFO', 'NAME', 'WORKSPACE', 'CREATOR', 'YYYY-MM-DD HH:mm:ss', 'CREATION_TIME', 'SERVICE', 'SERVICE_PL', 'PROJECT_ROLE_SCAP', 'PROJECT_ROLE_SCAP_PL', 'PROJECT_MEMBER_SCAP', 'PROJECT_MEMBER_SCAP_PL']
+    kids [('module-31.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-186.js', ['?']), ('module-3.js', ['?']), ('module-790.js', ['components/Base/Panel.js']), ('module-791.js', ['components/Base/Text.js']), ('module-26.js', ['?']), ('module-63.js', ['?']), ('module-1215.js', ['?']), ('module-553.js', ['?']), ('module-433.js', ['?']), ('module-52.js', ['utils/index.js'])]
+    head import "./module-15.js"; | import "./module-18.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-17.js"; | import "./module-45.js"; | import "./module-42.js"; | import "./module-57.js"; | import module31 from "./m
+  orig_local ['pages/projects/containers/BaseInfo/ProjectInfo/index.scss']
+  unnamed_js ['module-31.js', 'module-36.js', 'module-37.js', 'module-55.js', 'module-56.js', 'module-51.js', 'module-3.js', 'module-26.js', 'module-63.js', 'module-1215.js', 'module-553.js', 'module-433.js'] unique []
+  module-31.js named=[] css=False mid=31
+    importers [('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1025.js', ['pages/apps/components/Avatar.js']), ('module-1038.js', ['?']), ('module-1047.js', ['?']), ('module-105.js', ['utils/object.mapper.js']), ('module-1073.js', ['pages/access/containers/Roles/Detail/AuthorizedUsers.js']), ('module-1081.js', ['components/Modals/EditYaml.js']), ('module-1087.js', ['?']), ('module-1099.js', ['?']), ('module-1101.js', ['components/Base/NotifyConfirm.js']), ('module-1108.js', ['stores/codeRepo.js'])]
+    methods ['if']
+    t []
+    kids []
+    head export default function(e, t, n) { |     if (t in e) { |         Object.defineProperty(e, t, { |             value: n, |             enumerable: true, |             configurable: true, |             writable: true |         }); |     } else
+  module-36.js named=[] css=False mid=36
+    importers [('module-1000.js', ['?']), ('module-1001.js', ['stores/configmap.js']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1009.js', ['?']), ('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1022.js', ['utils/tracing.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1040.js', ['stores/container.js'])]
+    methods ['if']
+    t []
+    kids []
+    head export default function(e, t) { |     if (!(e instanceof t)) { |         throw new TypeError("Cannot call a class as a function"); |     } | }; | 
+  module-37.js named=[] css=False mid=37
+    importers [('module-1002.js', ['components/Base/Markdown.js']), ('module-1009.js', ['?']), ('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1022.js', ['utils/tracing.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1040.js', ['stores/container.js']), ('module-1041.js', ['components/Inputs/MountInput.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js'])]
+    methods ['for', 'if']
+    t []
+    kids []
+    head function n(e, t) { |     for (const r of t){ |         r.enumerable = r.enumerable || false; |         r.configurable = true; |         if ("value" in r) { |             r.writable = true; |         } |         Object.defineProperty(e, r.ke
+  module-55.js named=[] css=False mid=55
+    importers [('module-1000.js', ['?']), ('module-1001.js', ['stores/configmap.js']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1009.js', ['?']), ('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1041.js', ['components/Inputs/MountInput.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js'])]
+    methods ['if']
+    t []
+    kids [('module-690.js', ['?'])]
+    head import module690 from "./module-690.js"; | export default function(e, t) { |     if (typeof t !== "function" && t !== null) { |         throw new TypeError("Super expression must either be null or a function"); |     } |     e.prototype = O
+  module-56.js named=[] css=False mid=56
+    importers [('module-1000.js', ['?']), ('module-1001.js', ['stores/configmap.js']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1009.js', ['?']), ('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1041.js', ['components/Inputs/MountInput.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js'])]
+    methods ['if']
+    t []
+    kids [('module-246.js', ['?']), ('module-88.js', ['?'])]
+    head import module246 from "./module-246.js"; | import module88 from "./module-88.js"; | export default function(e, t) { |     if (!t || module246(t) !== "object" && typeof t !== "function") { |         return module88(e); |     } |     return t
+  module-51.js named=[] css=False mid=51
+    importers [('module-1000.js', ['?']), ('module-1001.js', ['stores/configmap.js']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1009.js', ['?']), ('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1041.js', ['components/Inputs/MountInput.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js'])]
+    methods []
+    t []
+    kids []
+    head function n(t) { |     module.exports = n = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) { |         return e.__proto__ || Object.getPrototypeOf(e); |     }; |     return n(t); | } | export default n; | 
+  module-3.js named=[] css=False mid=3
+    importers [('module-1002.js', ['components/Base/Markdown.js']), ('module-1025.js', ['pages/apps/components/Avatar.js']), ('module-1032.js', ['?']), ('module-1034.js', ['?']), ('module-1035.js', ['?']), ('module-1043.js', ['components/Base/Bar.js']), ('module-1044.js', ['components/Base/Label.js']), ('module-1046.js', ['?']), ('module-1058.js', ['components/Inputs/UrlInput.js']), ('module-1059.js', ['components/Inputs/BoxInput.js']), ('module-1062.js', ['?']), ('module-1064.js', ['components/Charts/Bar/TimeBar.js'])]
+    methods ['for', 'if']
+    t []
+    kids []
+    head let _webpackDefault = {}; | let r; | (()=>{ |     "use strict"; |     const hasOwnProperty = {}.hasOwnProperty; |     function o(...args) { |         const e = []; |         for (const r of args){ |             if (r) { |                 co
+  module-26.js named=[] css=False mid=26
+    importers [('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1016.js', ['?']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1026.js', ['?']), ('module-1035.js', ['?']), ('module-1040.js', ['stores/container.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js']), ('module-1046.js', ['?']), ('module-1047.js', ['?']), ('module-105.js', ['utils/object.mapper.js']), ('module-1051.js', ['stores/cluster/kubekey.js'])]
+    methods ['if']
+    t []
+    kids [('module-181.js', ['?'])]
+    head import module181 from "./module-181.js"; | export default function(e, t, n) { |     const o = e == null ? undefined : module181(e, t); |     if (o === undefined) { |         return n; |     } |     return o; | }; | 
+  module-63.js named=[] css=False mid=63
+    importers [('module-1026.js', ['?']), ('module-1046.js', ['?']), ('module-105.js', ['utils/object.mapper.js']), ('module-1059.js', ['components/Inputs/BoxInput.js']), ('module-1060.js', ['components/Forms/Notification/BaseForm.js']), ('module-1070.js', ['?']), ('module-1072.js', ['?']), ('module-1074.js', ['stores/monitoring/gateway.js']), ('module-1081.js', ['components/Modals/EditYaml.js']), ('module-1082.js', ['components/Forms/AlertingPolicy/BaseInfo/UnitInput.js']), ('module-1096.js', ['components/Forms/Workload/ContainerSettings/ContainerForm/Ports.js']), ('module-1100.js', ['components/Forms/Volume/VolumeSettings/FormTemplate.js'])]
+    methods ['if', 'for']
+    t []
+    kids [('module-356.js', ['?']), ('module-164.js', ['?']), ('module-180.js', ['?']), ('module-60.js', ['?']), ('module-108.js', ['?']), ('module-170.js', ['?']), ('module-215.js', ['?']), ('module-216.js', ['?'])]
+    head import module356 from "./module-356.js"; | import module164 from "./module-164.js"; | import module180 from "./module-180.js"; | import module60 from "./module-60.js"; | import module108 from "./module-108.js"; | import module170 from "./mo
+  module-1215.js named=[] css=False mid=1215
+    importers [('module-3798.js', ['pages/clusters/base-info.js', 'pages/clusters/containers/BaseInfo.js']), ('module-4355.js', ['pages/workspaces/base-info.js', 'pages/workspaces/containers/BaseInfo.js']), ('module-4628.js', ['pages/projects/containers/BaseInfo/ProjectInfo.js']), ('module-4959.js', ['pages/fedprojects/containers/BaseInfo/ProjectInfo.js'])]
+    methods []
+    t ['div', 'span', 'MANAGE']
+    kids [('module-96.js', ['?']), ('module-553.js', ['?']), ('module-186.js', ['?']), ('module-3.js', ['?']), ('module-3800.js', ['?'])]
+    head import "./module-15.js"; | import module96 from "./module-96.js"; | import * as module553 from "./module-553.js"; | import module186 from "./module-186.js"; | import module3 from "./module-3.js"; | import module3800 from "./module-3800.js";
+  module-553.js named=[] css=False mid=553
+    importers [('module-0.js', ['?']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js']), ('module-1031.js', ['?']), ('module-1032.js', ['?']), ('module-1034.js', ['?']), ('module-1035.js', ['?']), ('module-1041.js', ['components/Inputs/MountInput.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js']), ('module-1043.js', ['components/Base/Bar.js']), ('module-1044.js', ['components/Base/Label.js'])]
+    methods ['setState', 'forceUpdate', 'i', 'if', 'for', 'switch', 'O', 'map', 'Component', 'PureComponent', 'createElement', 'isValidElement', 'Children', 'cloneElement', 'createContext', 'createFactory', 'createRef', 'forwardRef', 'lazy', 'memo']
+    t []
+    kids [('module-287.js', ['?'])]
+    head import assign from "./module-287.js"; | let o = 60103; | let a = 60106; | export let Fragment = 60107; | export let StrictMode = 60108; | export let Profiler = 60114; | let i = 60109; | let l = 60110; | let s = 60112; | export let Suspense 
+  module-433.js named=[] css=False mid=433
+    importers [('module-1025.js', ['pages/apps/components/Avatar.js']), ('module-1144.js', ['?']), ('module-1219.js', ['components/Cards/Containers/Item.js']), ('module-1414.js', ['?']), ('module-1615.js', ['pages/apps/components/AppList.js']), ('module-1783.js', ['pages/projects/alerts.js', 'pages/clusters/alerts.js']), ('module-1797.js', ['?']), ('module-1981.js', ['?']), ('module-1992.js', ['pages/devops/components/DetailNav.js']), ('module-2333.js', ['components/Base/Nav.js']), ('module-2336.js', ['components/Base/Breadcrumb.js']), ('module-317.js', ['utils/router.config.js'])]
+    methods ['render', 'if', 'BrowserRouter', 'HashRouter', 'Link', 'NavLink']
+    t []
+    kids [('module-47.js', ['?']), ('module-82.js', ['?']), ('module-553.js', ['?']), ('module-83.js', ['?']), ('module-81.js', ['?'])]
+    head import { Router, __RouterContext, matchPath } from "./module-47.js"; | import { a } from "./module-82.js"; | import { Component, createElement, forwardRef } from "./module-553.js"; | import { createBrowserHistory, createHashHistory, createL
+  module-3902.js named=['pages/projects/components/Cards/Probe.js'] css=False mid=3902
+    importers [('module-3901.js', ['pages/projects/containers/Pods/Containers/ResourceStatus.js'])]
+    methods ['if']
+    t ['READINESS_PROBE', 'LIVENESS_PROBE', 'STARTUP_PROBE', 'REQUEST_TYPE', 'PATH', 'PORT', 'COMMANDS', 'INITIAL_DELAY_TIMEOUT_VALUE', 'HEALTH_CHECK']
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-186.js', ['?']), ('module-814.js', ['components/Base/List.js']), ('module-790.js', ['components/Base/Panel.js']), ('module-3903.js', ['?'])]
+    head import "./module-15.js"; | import "./module-73.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-24.js"; | import "./module-17.js"; | import "./module-45.js"; | import "./module-42.js"; | import "./module-57.js"; 
+  orig_local ['pages/projects/components/Cards/Probe/index.scss']
+  unnamed_js ['module-36.js', 'module-37.js', 'module-55.js', 'module-56.js', 'module-51.js', 'module-553.js'] unique []
+  module-36.js named=[] css=False mid=36
+    importers [('module-1000.js', ['?']), ('module-1001.js', ['stores/configmap.js']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1009.js', ['?']), ('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1022.js', ['utils/tracing.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1040.js', ['stores/container.js'])]
+    methods ['if']
+    t []
+    kids []
+    head export default function(e, t) { |     if (!(e instanceof t)) { |         throw new TypeError("Cannot call a class as a function"); |     } | }; | 
+  module-37.js named=[] css=False mid=37
+    importers [('module-1002.js', ['components/Base/Markdown.js']), ('module-1009.js', ['?']), ('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1022.js', ['utils/tracing.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1040.js', ['stores/container.js']), ('module-1041.js', ['components/Inputs/MountInput.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js'])]
+    methods ['for', 'if']
+    t []
+    kids []
+    head function n(e, t) { |     for (const r of t){ |         r.enumerable = r.enumerable || false; |         r.configurable = true; |         if ("value" in r) { |             r.writable = true; |         } |         Object.defineProperty(e, r.ke
+  module-55.js named=[] css=False mid=55
+    importers [('module-1000.js', ['?']), ('module-1001.js', ['stores/configmap.js']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1009.js', ['?']), ('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1041.js', ['components/Inputs/MountInput.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js'])]
+    methods ['if']
+    t []
+    kids [('module-690.js', ['?'])]
+    head import module690 from "./module-690.js"; | export default function(e, t) { |     if (typeof t !== "function" && t !== null) { |         throw new TypeError("Super expression must either be null or a function"); |     } |     e.prototype = O
+  module-56.js named=[] css=False mid=56
+    importers [('module-1000.js', ['?']), ('module-1001.js', ['stores/configmap.js']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1009.js', ['?']), ('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1041.js', ['components/Inputs/MountInput.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js'])]
+    methods ['if']
+    t []
+    kids [('module-246.js', ['?']), ('module-88.js', ['?'])]
+    head import module246 from "./module-246.js"; | import module88 from "./module-88.js"; | export default function(e, t) { |     if (!t || module246(t) !== "object" && typeof t !== "function") { |         return module88(e); |     } |     return t
+  module-51.js named=[] css=False mid=51
+    importers [('module-1000.js', ['?']), ('module-1001.js', ['stores/configmap.js']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1009.js', ['?']), ('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1041.js', ['components/Inputs/MountInput.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js'])]
+    methods []
+    t []
+    kids []
+    head function n(t) { |     module.exports = n = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) { |         return e.__proto__ || Object.getPrototypeOf(e); |     }; |     return n(t); | } | export default n; | 
+  module-553.js named=[] css=False mid=553
+    importers [('module-0.js', ['?']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js']), ('module-1031.js', ['?']), ('module-1032.js', ['?']), ('module-1034.js', ['?']), ('module-1035.js', ['?']), ('module-1041.js', ['components/Inputs/MountInput.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js']), ('module-1043.js', ['components/Base/Bar.js']), ('module-1044.js', ['components/Base/Label.js'])]
+    methods ['setState', 'forceUpdate', 'i', 'if', 'for', 'switch', 'O', 'map', 'Component', 'PureComponent', 'createElement', 'isValidElement', 'Children', 'cloneElement', 'createContext', 'createFactory', 'createRef', 'forwardRef', 'lazy', 'memo']
+    t []
+    kids [('module-287.js', ['?'])]
+    head import assign from "./module-287.js"; | let o = 60103; | let a = 60106; | export let Fragment = 60107; | export let StrictMode = 60108; | export let Profiler = 60114; | let i = 60109; | let l = 60110; | let s = 60112; | export let Suspense 
+  module-3904.js named=['pages/projects/components/Cards/Lifecycle.js'] css=False mid=3904
+    importers [('module-3901.js', ['pages/projects/containers/Pods/Containers/ResourceStatus.js'])]
+    methods ['if']
+    t ['POSTSTART_ACTION', 'PRESTOP_ACTION', 'REQUEST_TYPE', 'PATH', 'PORT', 'COMMANDS', 'LIFECYCLE_MANAGEMENT']
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-186.js', ['?']), ('module-814.js', ['components/Base/List.js']), ('module-790.js', ['components/Base/Panel.js']), ('module-3905.js', ['?'])]
+    head import "./module-15.js"; | import "./module-73.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-24.js"; | import "./module-17.js"; | import "./module-45.js"; | import "./module-42.js"; | import "./module-57.js"; 
+  orig_local ['pages/projects/components/Cards/Lifecycle/index.scss']
+  unnamed_js ['module-36.js', 'module-37.js', 'module-55.js', 'module-56.js', 'module-51.js', 'module-553.js'] unique []
+  module-36.js named=[] css=False mid=36
+    importers [('module-1000.js', ['?']), ('module-1001.js', ['stores/configmap.js']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1009.js', ['?']), ('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1022.js', ['utils/tracing.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1040.js', ['stores/container.js'])]
+    methods ['if']
+    t []
+    kids []
+    head export default function(e, t) { |     if (!(e instanceof t)) { |         throw new TypeError("Cannot call a class as a function"); |     } | }; | 
+  module-37.js named=[] css=False mid=37
+    importers [('module-1002.js', ['components/Base/Markdown.js']), ('module-1009.js', ['?']), ('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1022.js', ['utils/tracing.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1040.js', ['stores/container.js']), ('module-1041.js', ['components/Inputs/MountInput.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js'])]
+    methods ['for', 'if']
+    t []
+    kids []
+    head function n(e, t) { |     for (const r of t){ |         r.enumerable = r.enumerable || false; |         r.configurable = true; |         if ("value" in r) { |             r.writable = true; |         } |         Object.defineProperty(e, r.ke
+  module-55.js named=[] css=False mid=55
+    importers [('module-1000.js', ['?']), ('module-1001.js', ['stores/configmap.js']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1009.js', ['?']), ('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1041.js', ['components/Inputs/MountInput.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js'])]
+    methods ['if']
+    t []
+    kids [('module-690.js', ['?'])]
+    head import module690 from "./module-690.js"; | export default function(e, t) { |     if (typeof t !== "function" && t !== null) { |         throw new TypeError("Super expression must either be null or a function"); |     } |     e.prototype = O
+  module-56.js named=[] css=False mid=56
+    importers [('module-1000.js', ['?']), ('module-1001.js', ['stores/configmap.js']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1009.js', ['?']), ('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1041.js', ['components/Inputs/MountInput.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js'])]
+    methods ['if']
+    t []
+    kids [('module-246.js', ['?']), ('module-88.js', ['?'])]
+    head import module246 from "./module-246.js"; | import module88 from "./module-88.js"; | export default function(e, t) { |     if (!t || module246(t) !== "object" && typeof t !== "function") { |         return module88(e); |     } |     return t
+  module-51.js named=[] css=False mid=51
+    importers [('module-1000.js', ['?']), ('module-1001.js', ['stores/configmap.js']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1009.js', ['?']), ('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1041.js', ['components/Inputs/MountInput.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js'])]
+    methods []
+    t []
+    kids []
+    head function n(t) { |     module.exports = n = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) { |         return e.__proto__ || Object.getPrototypeOf(e); |     }; |     return n(t); | } | export default n; | 
+  module-553.js named=[] css=False mid=553
+    importers [('module-0.js', ['?']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js']), ('module-1031.js', ['?']), ('module-1032.js', ['?']), ('module-1034.js', ['?']), ('module-1035.js', ['?']), ('module-1041.js', ['components/Inputs/MountInput.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js']), ('module-1043.js', ['components/Base/Bar.js']), ('module-1044.js', ['components/Base/Label.js'])]
+    methods ['setState', 'forceUpdate', 'i', 'if', 'for', 'switch', 'O', 'map', 'Component', 'PureComponent', 'createElement', 'isValidElement', 'Children', 'cloneElement', 'createContext', 'createFactory', 'createRef', 'forwardRef', 'lazy', 'memo']
+    t []
+    kids [('module-287.js', ['?'])]
+    head import assign from "./module-287.js"; | let o = 60103; | let a = 60106; | export let Fragment = 60107; | export let StrictMode = 60108; | export let Profiler = 60114; | let i = 60109; | let l = 60110; | let s = 60112; | export let Suspense 
+
+=== List family unique kids of named 814 ===
+
+=== FAMILY components/Base/List/Item.js -> module-2301.js [lit:renderDetail] parent=components/Base/List.js ===
+  module-2301.js named=[] css=False mid=2301
+    importers [('module-814.js', ['components/Base/List.js'])]
+    methods ['if']
+    t []
+    kids [('module-31.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-186.js', ['?']), ('module-3.js', ['?']), ('module-838.js', ['components/Base/Indicator.js']), ('module-553.js', ['?']), ('module-1544.js', ['?'])]
+    head import "./module-15.js"; | import "./module-12.js"; | import "./module-135.js"; | import "./module-18.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-17.js"; | import "./module-45.js"; | import "./module-42.js";
+    orig_importers ['components/Base/List.js']
+    orig_methods ['renderDetail', 'render']
+    orig_t []
+    unique_named_parent True unique_orig True
+    lit 'renderDetail' unnamed=['module-2301.js', 'module-1550.js'] sib=['module-2301.js'] named=[('module-4756.js', ['components/Graph/Card.js']), ('module-818.js', ['components/Base/TypeSelect.js'])]
+    orig_hits [] count 0
+  VERDICT ACCEPT unique_among_siblings lit:renderDetail
+orig_local List ['components/Base/List/List.js', 'components/Base/List/Item.js', 'components/Base/List/Add.js']
+unpack 814 ['module-2300.js', 'module-2301.js', 'module-2302.js']
+list_orig ['components/Base/List/List.js', 'components/Base/List/Item.js', 'components/Base/List/Add.js'] list_unpack ['module-2300.js', 'module-2301.js', 'module-2302.js']
+  VERDICT ACCEPT sequential_after_unique_sibling Item=2301 renderDetail
+  VERDICT ACCEPT sequential_after_unique_sibling Item=2301 renderDetail
+
+=== Modal.Form unique importer of named 788 ===
+
+=== UNIQUE_IMP components/Base/Modal/form.js -> module-2044.js parent=components/Base/Modal.js ===
+  module-2044.js named=[] css=False mid=2044
+    importers [('module-788.js', ['components/Base/Modal.js'])]
+    methods ['if']
+    t ['CANCEL', 'OK']
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-1.js', ['?']), ('module-3.js', ['?']), ('module-186.js', ['?']), ('module-1475.js', ['?']), ('module-1479.js', ['?'])]
+    head import "./module-15.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-17.js"; | import "./module-45.js"; | import "./module-42.js"; | import "./module-57.js"; | import "./module-315.js"; | import "./module-58.js";
+    orig_importers ['components/Base/Modal.js']
+    orig_methods ['render']
+    orig_t ['CANCEL', 'OK']
+    unique_named_parent True unique_orig True
+  VERDICT ACCEPT unique_importer_1_1 parent=components/Base/Modal.js
+orig_imp form ['components/Base/Modal.js']
+orig_imp modal ['components/Base/Modal/form.js', 'components/Base/Modal.js']
+importers 1475 ['module-2044.js', 'module-788.js']
+
+=== ClusterWorkloadStatus/Cluster triggerReplicasChange ===
+
+=== FAMILY pages/fedprojects/components/ClusterWorkloadStatus/Cluster.js -> module-4996.js [method:triggerReplicasChange] parent=pages/fedprojects/components/ClusterWorkloadStatus.js ===
+  module-4996.js named=[] css=False mid=4996
+    importers [('module-1984.js', ['pages/fedprojects/components/ClusterWorkloadStatus.js'])]
+    methods ['handleAdd', 'handleSubStract', 'if']
+    t ['div', 'span', 'img']
+    kids [('module-41.js', ['?']), ('module-44.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-26.js', ['?']), ('module-801.js', ['?']), ('module-186.js', ['?']), ('module-816.js', ['components/Clusters/ClusterTitle.js']), ('module-805.js', ['?']), ('module-434.js', ['utils/status.js'])]
+    head import "./module-15.js"; | import "./module-5.js"; | import "./module-828.js"; | import "./module-18.js"; | import "./module-16.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-17.js"; | import "./module-45.js"; 
+    orig_importers ['pages/fedprojects/components/ClusterWorkloadStatus.js']
+    orig_methods ['handleAdd', 'handleSubStract', 'componentDidUpdate', 'if', 'componentDidMount', 'componentWillUnmount', 'initWebsocket', 'unInitWebsocket', 'render']
+    orig_t []
+    unique_named_parent True unique_orig True
+    method 'triggerReplicasChange' unnamed=[] sib=[] named=[]
+    orig_hits [] count 0
+  VERDICT REJECT needle not unique among siblings []
+
+=== fed Overview BaseInfo / UsageRanking among unique kids of 4935 ===
+
+=== FAMILY pages/fedprojects/containers/Overview/BaseInfo.js -> module-4936.js [lit:/assets/project-overview.svg] parent=pages/fedprojects/containers/Overview.js ===
+  module-4936.js named=[] css=False mid=4936
+    importers [('module-4935.js', ['pages/fedprojects/overview.js', 'pages/fedprojects/containers/Overview.js'])]
+    methods ['if']
+    t ['WORKSPACE', 'CREATOR']
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-3.js', ['?']), ('module-433.js', ['?']), ('module-186.js', ['?']), ('module-791.js', ['components/Base/Text.js']), ('module-52.js', ['utils/index.js']), ('module-4937.js', ['?'])]
+    head import "./module-15.js"; | import "./module-12.js"; | import "./module-135.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-17.js"; | import "./module-45.js"; | import "./module-42.js"; | import "./module-57.js";
+    orig_importers ['pages/fedprojects/containers/Overview.js']
+    orig_methods ['render']
+    orig_t ['WORKSPACE', 'CREATOR']
+    unique_named_parent True unique_orig True
+    lit '/assets/project-overview.svg' unnamed=['module-4936.js'] sib=['module-4936.js'] named=[]
+    orig_hits ['pages/projects/containers/Overview/BaseInfo.js', 'pages/fedprojects/containers/Overview/BaseInfo.js'] count 2
+  VERDICT ACCEPT unique_among_siblings lit:/assets/project-overview.svg
+
+=== FAMILY pages/fedprojects/containers/Overview/UsageRanking.js -> module-4948.js [t:TOP_5_FOR_RESOURCE_USAGE] parent=pages/fedprojects/containers/Overview.js ===
+  module-4948.js named=[] css=False mid=4948
+    importers [('module-4935.js', ['pages/fedprojects/overview.js', 'pages/fedprojects/containers/Overview.js'])]
+    methods ['clusterRenderer', 'if']
+    t ['rootStore', 'CLUSTER_VALUE', 'NO_DATA', 'TOP_5_FOR_RESOURCE_USAGE']
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-186.js', ['?']), ('module-790.js', ['components/Base/Panel.js']), ('module-26.js', ['?']), ('module-63.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-553.js', ['?']), ('module-837.js', ['?']), ('module-433.js', ['?']), ('module-1436.js', ['?']), ('module-52.js', ['utils/index.js'])]
+    head import "./module-15.js"; | import "./module-5.js"; | import "./module-18.js"; | import "./module-48.js"; | import "./module-190.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-24.js"; | import "./module-17.js"; 
+    orig_importers ['pages/fedprojects/containers/Overview.js']
+    orig_methods ['clusterRenderer', 'constructor', 'componentDidMount', 'componentDidUpdate', 'if', 'getWorkloadLink', 'renderHeader', 'renderEmpty', 'renderContent', 'render']
+    orig_t ['rootStore', 'CLUSTER_VALUE', 'NO_DATA', 'TOP_5_FOR_RESOURCE_USAGE']
+    unique_named_parent True unique_orig True
+    t 'TOP_5_FOR_RESOURCE_USAGE' unnamed=['module-4948.js'] sib=['module-4948.js'] named=[]
+    orig_hits ['pages/projects/containers/Overview/UsageRanking.js', 'pages/fedprojects/containers/Overview/UsageRanking.js'] count 2
+  VERDICT ACCEPT unique_among_siblings t:TOP_5_FOR_RESOURCE_USAGE
+orig_local Overview ['pages/fedprojects/containers/Overview/BaseInfo.js', 'pages/fedprojects/containers/Overview/LimitRange.js', 'pages/fedprojects/containers/Overview/ResourceUsage.js', 'pages/fedprojects/containers/Overview/UsageRanking.js', 'pages/fedprojects/containers/Overview/Help.js']
+unpack 4935 ['module-36.js', 'module-37.js', 'module-55.js', 'module-56.js', 'module-51.js', 'module-186.js', 'module-26.js', 'module-14.js', 'module-239.js', 'module-553.js', 'module-52.js', 'module-4936.js', 'module-4938.js', 'module-4940.js', 'module-4948.js']
+Help orig_imp ['pages/fedprojects/containers/Overview.js']
+HOW_TO_INVITE_USERS unnamed [] named []
+
+=== AppResourceItem handleWarnClick among unique kids of 4940 ===
+
+=== FAMILY pages/fedprojects/containers/Overview/ResourceUsage/AppResourceItem.js -> module-4941.js [method:handleWarnClick] parent=pages/fedprojects/containers/Overview/ResourceUsage.js ===
+  module-4941.js named=[] css=False mid=4941
+    importers [('module-4940.js', ['pages/fedprojects/containers/Overview/ResourceUsage.js'])]
+    methods ['handleClick', 'handleWarnClick', 'if']
+    t ['rootStore', 'RESOURCE_WARNING_TIPS']
+    kids [('module-31.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-239.js', ['?']), ('module-1.js', ['?']), ('module-3.js', ['?']), ('module-194.js', ['?']), ('module-186.js', ['?']), ('module-795.js', ['utils/monitoring.js']), ('module-4942.js', ['?']), ('module-4943.js', ['?'])]
+    head import "./module-15.js"; | import "./module-5.js"; | import "./module-16.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-17.js"; | import "./module-45.js"; | import "./module-28.js"; | import "./module-42.js"; |
+    orig_importers ['pages/fedprojects/containers/Overview/ResourceUsage.js']
+    orig_methods ['handleClick', 'handleWarnClick', 'if', 'onClick', 'renderWarn', 'render']
+    orig_t ['rootStore', 'RESOURCE_WARNING_TIPS']
+    unique_named_parent True unique_orig True
+    method 'handleWarnClick' unnamed=['module-3974.js', 'module-4941.js'] sib=['module-4941.js'] named=[]
+    orig_hits ['pages/projects/containers/Overview/ResourceUsage/AppResourceItem.js', 'pages/fedprojects/containers/Overview/ResourceUsage/AppResourceItem.js'] count 2
+  VERDICT ACCEPT unique_among_siblings method:handleWarnClick
+
+=== Volume ResourceStatus VOLUME_MONITORING_TIP then sequential VolumeMounts ===
+
+=== FAMILY pages/fedprojects/containers/Volumes/Detail/ResourceStatus.js -> module-5025.js [lit:VOLUME_MONITORING_TIP] parent=pages/fedprojects/containers/Volumes/Detail/routes.js ===
+  module-5025.js named=[] css=False mid=5025
+    importers [('module-5024.js', ['pages/fedprojects/containers/Volumes/Detail/routes.js'])]
+    methods ['if']
+    t ['detailStore']
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-239.js', ['?']), ('module-321.js', ['?']), ('module-186.js', ['?']), ('module-52.js', ['utils/index.js']), ('module-5026.js', ['?']), ('module-5028.js', ['?'])]
+    head import "./module-15.js"; | import "./module-18.js"; | import "./module-16.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-24.js"; | import "./module-17.js"; | import "./module-62.js"; | import "./module-45.js"; 
+    orig_importers ['pages/fedprojects/containers/Volumes/Detail/routes.js']
+    orig_methods ['render']
+    orig_t ['detailStore']
+    unique_named_parent True unique_orig True
+    lit 'VOLUME_MONITORING_TIP' unnamed=['module-5025.js'] sib=['module-5025.js'] named=[('module-3919.js', ['pages/projects/containers/Volumes/Detail/ResourceStatus/UsageCard.js'])]
+    orig_hits ['pages/projects/containers/Volumes/Detail/ResourceStatus/UsageCard.js', 'pages/fedprojects/containers/Volumes/Detail/ResourceStatus.js'] count 2
+  VERDICT ACCEPT unique_among_siblings lit:VOLUME_MONITORING_TIP
+vol_orig ['pages/fedprojects/containers/Volumes/Detail/ResourceStatus.js', 'pages/fedprojects/containers/Volumes/Detail/VolumeMounts.js'] vol_unpack ['module-5025.js', 'module-5029.js']
+  VERDICT ACCEPT sequential_after_unique_sibling ResourceStatus=5025 VOLUME_MONITORING_TIP
+
+=== reject Cluster/fields vs 3666/3674 extras ===
+orig_local Cluster card ['pages/clusters/components/Cards/Cluster/fields.js', 'pages/clusters/components/Cards/Cluster/index.scss']
+  module-3666.js named=[] css=False mid=3666
+    importers [('module-1391.js', ['pages/clusters/components/Cards/Cluster.js'])]
+    methods ['if']
+    t ['div', 'CANCEL_QUICK_ACCESS', 'ADD_TO_QUICK_ACCESS']
+    kids [('module-96.js', ['?']), ('module-553.js', ['?']), ('module-3667.js', ['?']), ('module-3.js', ['?']), ('module-3670.js', ['?']), ('module-3671.js', ['?']), ('module-186.js', ['?']), ('module-3673.js', ['?'])]
+    head import "./module-15.js"; | import "./module-97.js"; | import "./module-4.js"; | import module96 from "./module-96.js"; | import * as module553 from "./module-553.js"; | import { StarDuotone, StarHalfDuotone } from "./module-3667.js"; | impo
+  module-3674.js named=[] css=False mid=3674
+    importers [('module-1391.js', ['pages/clusters/components/Cards/Cluster.js'])]
+    methods ['ReactComponent']
+    t []
+    kids []
+    head import "./module-315.js"; | import "./module-553.js"; | const o = <path d="M11 7.667H5v2.666h6V7.667zM5 11.333h6v1.334H5v-1.334zM5 13.667h6V15H5v-1.333z" fill="#FFC781"/>; | const i = <path fillRule="evenodd" clipRule="evenodd" d="M7.764 1.
+
+=== FAMILY pages/clusters/components/Cards/Cluster/fields.js -> module-3674.js [lit:kubernetesVersion] parent=pages/clusters/components/Cards/Cluster.js ===
+  module-3674.js named=[] css=False mid=3674
+    importers [('module-1391.js', ['pages/clusters/components/Cards/Cluster.js'])]
+    methods ['ReactComponent']
+    t []
+    kids []
+    head import "./module-315.js"; | import "./module-553.js"; | const o = <path d="M11 7.667H5v2.666h6V7.667zM5 11.333h6v1.334H5v-1.334zM5 13.667h6V15H5v-1.333z" fill="#FFC781"/>; | const i = <path fillRule="evenodd" clipRule="evenodd" d="M7.764 1.
+    orig_importers ['pages/clusters/components/Cards/Cluster.js']
+    orig_methods ['getClusterCardFields']
+    orig_t []
+    unique_named_parent True unique_orig True
+    lit 'kubernetesVersion' unnamed=[] sib=[] named=[]
+    orig_hits ['pages/clusters/components/Cards/Cluster/fields.js', 'pages/clusters/components/Cards/Cluster.js'] count 2
+  VERDICT REJECT needle not unique among siblings []
+
+=== vendor leftover needles in live unnamed ===
+live_modules 614 aliased 96
+  react-draggable: none
+  DraggableCore: none
+  jwt-decode: none
+  LineChart chartName: none
+  semver validRange: ['module-717.js'] (1)
+    module-717.js importers=['module-362.js']
+  filesize: none
+  numeral: none
+  js-cookie: none
+  tinycolor2: none
+  uuid v4: none
+  JSEncrypt: none
+  EventSource: none
+
+=== ACCEPTED ===
+    "components/Base/List/Item.js": "module-2301.js",  # unique_among_siblings lit:renderDetail
+    "components/Base/List/List.js": "module-2300.js",  # sequential_after_unique_sibling Item=2301 renderDetail
+    "components/Base/List/Add.js": "module-2302.js",  # sequential_after_unique_sibling Item=2301 renderDetail
+    "components/Base/Modal/form.js": "module-2044.js",  # unique_importer_1_1 parent=components/Base/Modal.js
+    "pages/fedprojects/containers/Overview/BaseInfo.js": "module-4936.js",  # unique_among_siblings lit:/assets/project-overview.svg
+    "pages/fedprojects/containers/Overview/UsageRanking.js": "module-4948.js",  # unique_among_siblings t:TOP_5_FOR_RESOURCE_USAGE
+    "pages/fedprojects/containers/Overview/ResourceUsage/AppResourceItem.js": "module-4941.js",  # unique_among_siblings method:handleWarnClick
+    "pages/fedprojects/containers/Volumes/Detail/ResourceStatus.js": "module-5025.js",  # unique_among_siblings lit:VOLUME_MONITORING_TIP
+    "pages/fedprojects/containers/Volumes/Detail/VolumeMounts.js": "module-5029.js",  # sequential_after_unique_sibling ResourceStatus=5025 VOLUME_MONITORING_TIP
+accepted_unique_pairs 9
+
+=== REJECTED ===
+  pages/fedprojects/components/ClusterWorkloadStatus/Cluster.js -> module-4996.js :: needle not unique among siblings []
+  pages/clusters/components/Cards/Cluster/fields.js -> module-3674.js :: needle not unique among siblings []
+rejected_count 2

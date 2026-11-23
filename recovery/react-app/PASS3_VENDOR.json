@@ -1,0 +1,891 @@
+{
+  "remaining_non_business": 461,
+  "unique_corejs": [
+    {
+      "module": "module-283.js",
+      "npm": "internals/enum-bug-keys.js",
+      "vias": [
+        "structural"
+      ],
+      "consume": {
+        "default_require": [
+          "unpacked/module-114.js",
+          "unpacked/module-150.js"
+        ],
+        "default_import": [
+          "unpacked/module-175.js"
+        ],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "unpacked/module-114.js",
+          "unpacked/module-175.js",
+          "unpacked/module-150.js"
+        ],
+        "needs_shim": true,
+        "side_only": false
+      },
+      "kind": "shim"
+    },
+    {
+      "module": "module-8.js",
+      "npm": "internals/export.js",
+      "vias": [
+        "structural"
+      ],
+      "consume": {
+        "default_require": [
+          "unpacked/module-200.js",
+          "unpacked/module-550.js",
+          "unpacked/module-704.js",
+          "unpacked/module-706.js",
+          "unpacked/module-684.js",
+          "unpacked/module-118.js"
+        ],
+        "default_import": [
+          "unpacked/module-975.js",
+          "unpacked/module-316.js",
+          "unpacked/module-6.js",
+          "unpacked/module-4814.js",
+          "unpacked/module-436.js",
+          "unpacked/module-587.js"
+        ],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "unpacked/module-975.js",
+          "unpacked/module-316.js",
+          "unpacked/module-200.js",
+          "unpacked/module-6.js",
+          "unpacked/module-550.js",
+          "unpacked/module-4814.js"
+        ],
+        "needs_shim": true,
+        "side_only": false
+      },
+      "kind": "shim"
+    },
+    {
+      "module": "module-25.js",
+      "npm": "internals/global.js",
+      "vias": [
+        "structural"
+      ],
+      "consume": {
+        "default_require": [],
+        "default_import": [
+          "unpacked/module-7.js",
+          "unpacked/module-162.js",
+          "unpacked/module-78.js",
+          "unpacked/module-219.js",
+          "unpacked/module-1961.js",
+          "unpacked/module-384.js"
+        ],
+        "side_import": [],
+        "named_import": [
+          "unpacked/module-290.js",
+          "unpacked/module-390.js",
+          "unpacked/module-151.js",
+          "unpacked/module-225.js"
+        ],
+        "any_import": [
+          "unpacked/module-7.js",
+          "unpacked/module-162.js",
+          "unpacked/module-1944.js",
+          "unpacked/module-78.js",
+          "unpacked/module-704.js",
+          "unpacked/module-706.js"
+        ],
+        "needs_shim": true,
+        "side_only": false
+      },
+      "kind": "shim"
+    },
+    {
+      "module": "module-222.js",
+      "npm": "internals/is-constructor.js",
+      "vias": [
+        "structural",
+        "str:GeneratorFunction",
+        "str:AsyncGeneratorFunction"
+      ],
+      "consume": {
+        "default_require": [
+          "unpacked/module-536.js"
+        ],
+        "default_import": [
+          "unpacked/module-502.js",
+          "unpacked/module-48.js",
+          "unpacked/module-345.js"
+        ],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "unpacked/module-502.js",
+          "unpacked/module-48.js",
+          "unpacked/module-345.js",
+          "unpacked/module-536.js"
+        ],
+        "needs_shim": true,
+        "side_only": false
+      },
+      "kind": "shim"
+    },
+    {
+      "module": "module-30.js",
+      "npm": "modules/es.array.iterator.js",
+      "vias": [
+        "structural"
+      ],
+      "consume": {
+        "default_require": [
+          "components/Forms/Workload/ContainerSettings/ContainerForm/Environments.js",
+          "stores/grayrelease.js",
+          "stores/grayrelease.js",
+          "stores/devops.js",
+          "stores/devops.js",
+          "stores/cluster.js"
+        ],
+        "default_import": [],
+        "side_import": [
+          "pages/clusters/layout.js",
+          "pages/fedprojects/App.js",
+          "pages/workspaces/App.js",
+          "pages/whizard-telemetry/projects.js",
+          "pages/whizard-telemetry/nodes.js",
+          "pages/whizard-telemetry/App.js"
+        ],
+        "named_import": [],
+        "any_import": [
+          "components/Forms/Workload/ContainerSettings/ContainerForm/Environments.js",
+          "stores/grayrelease.js",
+          "stores/grayrelease.js",
+          "stores/devops.js",
+          "stores/devops.js",
+          "stores/cluster.js"
+        ],
+        "needs_shim": true,
+        "side_only": false
+      },
+      "kind": "shim"
+    },
+    {
+      "module": "module-42.js",
+      "npm": "modules/es.date.to-string.js",
+      "vias": [
+        "structural"
+      ],
+      "consume": {
+        "default_require": [],
+        "default_import": [],
+        "side_import": [
+          "pages/login.js",
+          "pages/clusters/secrets.js",
+          "pages/clusters/ingresses.js",
+          "pages/clusters/pods.js",
+          "pages/clusters/jobs.js",
+          "pages/clusters/projects.js"
+        ],
+        "named_import": [],
+        "any_import": [
+          "pages/edgewize/rule-group.js",
+          "pages/projects/edgeappsets.js",
+          "pages/projects/alert-rules.js",
+          "pages/projects/custom-scaling.js",
+          "pages/whizard-telemetry/metrics/builtin-rules.js",
+          "pages/whizard-telemetry/metrics/custom-rules.js"
+        ],
+        "needs_shim": false,
+        "side_only": true
+      },
+      "kind": "alias"
+    },
+    {
+      "module": "module-16.js",
+      "npm": "modules/es.function.name.js",
+      "vias": [
+        "structural"
+      ],
+      "consume": {
+        "default_require": [],
+        "default_import": [],
+        "side_import": [
+          "pages/clusters/secrets.js",
+          "pages/clusters/ingresses.js",
+          "pages/clusters/pods.js",
+          "pages/clusters/jobs.js",
+          "pages/clusters/projects.js",
+          "pages/clusters/custom-monitoring.js"
+        ],
+        "named_import": [],
+        "any_import": [
+          "pages/edgewize/rule-group.js",
+          "pages/edgewize/rule-group.js",
+          "pages/projects/alert-rules.js",
+          "pages/projects/alert-rules.js",
+          "pages/projects/custom-scaling.js",
+          "pages/projects/custom-scaling.js"
+        ],
+        "needs_shim": false,
+        "side_only": true
+      },
+      "kind": "alias"
+    },
+    {
+      "module": "module-17.js",
+      "npm": "modules/es.regexp.to-string.js",
+      "vias": [
+        "structural"
+      ],
+      "consume": {
+        "default_require": [],
+        "default_import": [],
+        "side_import": [
+          "pages/login.js",
+          "pages/clusters/secrets.js",
+          "pages/clusters/ingresses.js",
+          "pages/clusters/pods.js",
+          "pages/clusters/jobs.js",
+          "pages/clusters/projects.js"
+        ],
+        "named_import": [],
+        "any_import": [
+          "pages/edgewize/rule-group.js",
+          "pages/edgewize/rule-group.js",
+          "pages/projects/edgeappsets.js",
+          "pages/projects/edgeappsets.js",
+          "pages/projects/alert-rules.js",
+          "pages/projects/alert-rules.js"
+        ],
+        "needs_shim": false,
+        "side_only": true
+      },
+      "kind": "alias"
+    },
+    {
+      "module": "module-38.js",
+      "npm": "modules/es.string.iterator.js",
+      "vias": [
+        "structural"
+      ],
+      "consume": {
+        "default_require": [],
+        "default_import": [],
+        "side_import": [
+          "pages/clusters/layout.js",
+          "pages/fedprojects/App.js",
+          "pages/workspaces/App.js",
+          "pages/whizard-telemetry/projects.js",
+          "pages/whizard-telemetry/nodes.js",
+          "pages/whizard-telemetry/App.js"
+        ],
+        "named_import": [],
+        "any_import": [
+          "components/Forms/Workload/ContainerSettings/ContainerForm/Environments.js",
+          "stores/grayrelease.js",
+          "stores/grayrelease.js",
+          "stores/devops.js",
+          "stores/devops.js",
+          "stores/cluster.js"
+        ],
+        "needs_shim": false,
+        "side_only": true
+      },
+      "kind": "alias"
+    }
+  ],
+  "unique_corejs_count": 9,
+  "shim_needed": [
+    {
+      "module": "module-283.js",
+      "npm": "internals/enum-bug-keys.js",
+      "vias": [
+        "structural"
+      ],
+      "consume": {
+        "default_require": [
+          "unpacked/module-114.js",
+          "unpacked/module-150.js"
+        ],
+        "default_import": [
+          "unpacked/module-175.js"
+        ],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "unpacked/module-114.js",
+          "unpacked/module-175.js",
+          "unpacked/module-150.js"
+        ],
+        "needs_shim": true,
+        "side_only": false
+      },
+      "kind": "shim"
+    },
+    {
+      "module": "module-8.js",
+      "npm": "internals/export.js",
+      "vias": [
+        "structural"
+      ],
+      "consume": {
+        "default_require": [
+          "unpacked/module-200.js",
+          "unpacked/module-550.js",
+          "unpacked/module-704.js",
+          "unpacked/module-706.js",
+          "unpacked/module-684.js",
+          "unpacked/module-118.js"
+        ],
+        "default_import": [
+          "unpacked/module-975.js",
+          "unpacked/module-316.js",
+          "unpacked/module-6.js",
+          "unpacked/module-4814.js",
+          "unpacked/module-436.js",
+          "unpacked/module-587.js"
+        ],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "unpacked/module-975.js",
+          "unpacked/module-316.js",
+          "unpacked/module-200.js",
+          "unpacked/module-6.js",
+          "unpacked/module-550.js",
+          "unpacked/module-4814.js"
+        ],
+        "needs_shim": true,
+        "side_only": false
+      },
+      "kind": "shim"
+    },
+    {
+      "module": "module-25.js",
+      "npm": "internals/global.js",
+      "vias": [
+        "structural"
+      ],
+      "consume": {
+        "default_require": [],
+        "default_import": [
+          "unpacked/module-7.js",
+          "unpacked/module-162.js",
+          "unpacked/module-78.js",
+          "unpacked/module-219.js",
+          "unpacked/module-1961.js",
+          "unpacked/module-384.js"
+        ],
+        "side_import": [],
+        "named_import": [
+          "unpacked/module-290.js",
+          "unpacked/module-390.js",
+          "unpacked/module-151.js",
+          "unpacked/module-225.js"
+        ],
+        "any_import": [
+          "unpacked/module-7.js",
+          "unpacked/module-162.js",
+          "unpacked/module-1944.js",
+          "unpacked/module-78.js",
+          "unpacked/module-704.js",
+          "unpacked/module-706.js"
+        ],
+        "needs_shim": true,
+        "side_only": false
+      },
+      "kind": "shim"
+    },
+    {
+      "module": "module-222.js",
+      "npm": "internals/is-constructor.js",
+      "vias": [
+        "structural",
+        "str:GeneratorFunction",
+        "str:AsyncGeneratorFunction"
+      ],
+      "consume": {
+        "default_require": [
+          "unpacked/module-536.js"
+        ],
+        "default_import": [
+          "unpacked/module-502.js",
+          "unpacked/module-48.js",
+          "unpacked/module-345.js"
+        ],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "unpacked/module-502.js",
+          "unpacked/module-48.js",
+          "unpacked/module-345.js",
+          "unpacked/module-536.js"
+        ],
+        "needs_shim": true,
+        "side_only": false
+      },
+      "kind": "shim"
+    },
+    {
+      "module": "module-30.js",
+      "npm": "modules/es.array.iterator.js",
+      "vias": [
+        "structural"
+      ],
+      "consume": {
+        "default_require": [
+          "components/Forms/Workload/ContainerSettings/ContainerForm/Environments.js",
+          "stores/grayrelease.js",
+          "stores/grayrelease.js",
+          "stores/devops.js",
+          "stores/devops.js",
+          "stores/cluster.js"
+        ],
+        "default_import": [],
+        "side_import": [
+          "pages/clusters/layout.js",
+          "pages/fedprojects/App.js",
+          "pages/workspaces/App.js",
+          "pages/whizard-telemetry/projects.js",
+          "pages/whizard-telemetry/nodes.js",
+          "pages/whizard-telemetry/App.js"
+        ],
+        "named_import": [],
+        "any_import": [
+          "components/Forms/Workload/ContainerSettings/ContainerForm/Environments.js",
+          "stores/grayrelease.js",
+          "stores/grayrelease.js",
+          "stores/devops.js",
+          "stores/devops.js",
+          "stores/cluster.js"
+        ],
+        "needs_shim": true,
+        "side_only": false
+      },
+      "kind": "shim"
+    }
+  ],
+  "alias_safe": [
+    {
+      "module": "module-42.js",
+      "npm": "modules/es.date.to-string.js",
+      "vias": [
+        "structural"
+      ],
+      "consume": {
+        "default_require": [],
+        "default_import": [],
+        "side_import": [
+          "pages/login.js",
+          "pages/clusters/secrets.js",
+          "pages/clusters/ingresses.js",
+          "pages/clusters/pods.js",
+          "pages/clusters/jobs.js",
+          "pages/clusters/projects.js"
+        ],
+        "named_import": [],
+        "any_import": [
+          "pages/edgewize/rule-group.js",
+          "pages/projects/edgeappsets.js",
+          "pages/projects/alert-rules.js",
+          "pages/projects/custom-scaling.js",
+          "pages/whizard-telemetry/metrics/builtin-rules.js",
+          "pages/whizard-telemetry/metrics/custom-rules.js"
+        ],
+        "needs_shim": false,
+        "side_only": true
+      },
+      "kind": "alias"
+    },
+    {
+      "module": "module-16.js",
+      "npm": "modules/es.function.name.js",
+      "vias": [
+        "structural"
+      ],
+      "consume": {
+        "default_require": [],
+        "default_import": [],
+        "side_import": [
+          "pages/clusters/secrets.js",
+          "pages/clusters/ingresses.js",
+          "pages/clusters/pods.js",
+          "pages/clusters/jobs.js",
+          "pages/clusters/projects.js",
+          "pages/clusters/custom-monitoring.js"
+        ],
+        "named_import": [],
+        "any_import": [
+          "pages/edgewize/rule-group.js",
+          "pages/edgewize/rule-group.js",
+          "pages/projects/alert-rules.js",
+          "pages/projects/alert-rules.js",
+          "pages/projects/custom-scaling.js",
+          "pages/projects/custom-scaling.js"
+        ],
+        "needs_shim": false,
+        "side_only": true
+      },
+      "kind": "alias"
+    },
+    {
+      "module": "module-17.js",
+      "npm": "modules/es.regexp.to-string.js",
+      "vias": [
+        "structural"
+      ],
+      "consume": {
+        "default_require": [],
+        "default_import": [],
+        "side_import": [
+          "pages/login.js",
+          "pages/clusters/secrets.js",
+          "pages/clusters/ingresses.js",
+          "pages/clusters/pods.js",
+          "pages/clusters/jobs.js",
+          "pages/clusters/projects.js"
+        ],
+        "named_import": [],
+        "any_import": [
+          "pages/edgewize/rule-group.js",
+          "pages/edgewize/rule-group.js",
+          "pages/projects/edgeappsets.js",
+          "pages/projects/edgeappsets.js",
+          "pages/projects/alert-rules.js",
+          "pages/projects/alert-rules.js"
+        ],
+        "needs_shim": false,
+        "side_only": true
+      },
+      "kind": "alias"
+    },
+    {
+      "module": "module-38.js",
+      "npm": "modules/es.string.iterator.js",
+      "vias": [
+        "structural"
+      ],
+      "consume": {
+        "default_require": [],
+        "default_import": [],
+        "side_import": [
+          "pages/clusters/layout.js",
+          "pages/fedprojects/App.js",
+          "pages/workspaces/App.js",
+          "pages/whizard-telemetry/projects.js",
+          "pages/whizard-telemetry/nodes.js",
+          "pages/whizard-telemetry/App.js"
+        ],
+        "named_import": [],
+        "any_import": [
+          "components/Forms/Workload/ContainerSettings/ContainerForm/Environments.js",
+          "stores/grayrelease.js",
+          "stores/grayrelease.js",
+          "stores/devops.js",
+          "stores/devops.js",
+          "stores/cluster.js"
+        ],
+        "needs_shim": false,
+        "side_only": true
+      },
+      "kind": "alias"
+    }
+  ],
+  "two_hit_npm": [],
+  "lodash_unique": [],
+  "luxon": {
+    "module": "module-749.js",
+    "version": "3.0.3",
+    "in_nm": false,
+    "consume": {
+      "default_require": [],
+      "default_import": [],
+      "side_import": [],
+      "named_import": [
+        "unpacked/module-748.js"
+      ],
+      "any_import": [
+        "unpacked/module-748.js"
+      ],
+      "needs_shim": false,
+      "side_only": false
+    },
+    "named_exports": [
+      "Zone",
+      "SystemZone",
+      "IANAZone",
+      "FixedOffsetZone",
+      "InvalidZone",
+      "Settings",
+      "Duration",
+      "Interval",
+      "Info",
+      "DateTime",
+      "VERSION"
+    ]
+  },
+  "react_is_2434": {
+    "module": "module-2434.js",
+    "has_server_context": true,
+    "has_offscreen": true,
+    "consume": {
+      "default_require": [],
+      "default_import": [],
+      "side_import": [],
+      "named_import": [
+        "unpacked/module-5770.js"
+      ],
+      "any_import": [
+        "unpacked/module-1569.js",
+        "unpacked/module-5770.js"
+      ],
+      "needs_shim": false,
+      "side_only": false
+    },
+    "note": "newer than installed react-is@16; do not install second copy"
+  },
+  "date_files": [
+    "es.date.get-year.js",
+    "es.date.to-string.js",
+    "es.date.to-iso-string.js",
+    "es.date.to-primitive.js",
+    "es.date.to-gmt-string.js",
+    "es.date.now.js",
+    "es.date.to-json.js",
+    "es.date.set-year.js"
+  ],
+  "fn_files": [
+    "es.function.name.js",
+    "es.function.has-instance.js",
+    "es.function.bind.js"
+  ],
+  "re_files": [
+    "es.regexp.dot-all.js",
+    "es.regexp.constructor.js",
+    "es.regexp.flags.js",
+    "es.regexp.exec.js",
+    "es.regexp.sticky.js",
+    "es.regexp.to-string.js",
+    "es.regexp.test.js"
+  ],
+  "known_consume": {
+    "module-8.js": {
+      "default_require": [
+        "unpacked/module-200.js",
+        "unpacked/module-550.js",
+        "unpacked/module-704.js",
+        "unpacked/module-706.js",
+        "unpacked/module-684.js",
+        "unpacked/module-118.js"
+      ],
+      "default_import": [
+        "unpacked/module-975.js",
+        "unpacked/module-316.js",
+        "unpacked/module-6.js",
+        "unpacked/module-4814.js",
+        "unpacked/module-436.js",
+        "unpacked/module-587.js"
+      ],
+      "side_import": [],
+      "named_import": [],
+      "any_import": [
+        "unpacked/module-975.js",
+        "unpacked/module-316.js",
+        "unpacked/module-200.js",
+        "unpacked/module-6.js",
+        "unpacked/module-550.js",
+        "unpacked/module-4814.js"
+      ],
+      "needs_shim": true,
+      "side_only": false
+    },
+    "module-30.js": {
+      "default_require": [
+        "components/Forms/Workload/ContainerSettings/ContainerForm/Environments.js",
+        "stores/grayrelease.js",
+        "stores/grayrelease.js",
+        "stores/devops.js",
+        "stores/devops.js",
+        "stores/cluster.js"
+      ],
+      "default_import": [],
+      "side_import": [
+        "pages/clusters/layout.js",
+        "pages/fedprojects/App.js",
+        "pages/workspaces/App.js",
+        "pages/whizard-telemetry/projects.js",
+        "pages/whizard-telemetry/nodes.js",
+        "pages/whizard-telemetry/App.js"
+      ],
+      "named_import": [],
+      "any_import": [
+        "components/Forms/Workload/ContainerSettings/ContainerForm/Environments.js",
+        "stores/grayrelease.js",
+        "stores/grayrelease.js",
+        "stores/devops.js",
+        "stores/devops.js",
+        "stores/cluster.js"
+      ],
+      "needs_shim": true,
+      "side_only": false
+    },
+    "module-38.js": {
+      "default_require": [],
+      "default_import": [],
+      "side_import": [
+        "pages/clusters/layout.js",
+        "pages/fedprojects/App.js",
+        "pages/workspaces/App.js",
+        "pages/whizard-telemetry/projects.js",
+        "pages/whizard-telemetry/nodes.js",
+        "pages/whizard-telemetry/App.js"
+      ],
+      "named_import": [],
+      "any_import": [
+        "components/Forms/Workload/ContainerSettings/ContainerForm/Environments.js",
+        "stores/grayrelease.js",
+        "stores/grayrelease.js",
+        "stores/devops.js",
+        "stores/devops.js",
+        "stores/cluster.js"
+      ],
+      "needs_shim": false,
+      "side_only": true
+    },
+    "module-283.js": {
+      "default_require": [
+        "unpacked/module-114.js",
+        "unpacked/module-150.js"
+      ],
+      "default_import": [
+        "unpacked/module-175.js"
+      ],
+      "side_import": [],
+      "named_import": [],
+      "any_import": [
+        "unpacked/module-114.js",
+        "unpacked/module-175.js",
+        "unpacked/module-150.js"
+      ],
+      "needs_shim": true,
+      "side_only": false
+    },
+    "module-222.js": {
+      "default_require": [
+        "unpacked/module-536.js"
+      ],
+      "default_import": [
+        "unpacked/module-502.js",
+        "unpacked/module-48.js",
+        "unpacked/module-345.js"
+      ],
+      "side_import": [],
+      "named_import": [],
+      "any_import": [
+        "unpacked/module-502.js",
+        "unpacked/module-48.js",
+        "unpacked/module-345.js",
+        "unpacked/module-536.js"
+      ],
+      "needs_shim": true,
+      "side_only": false
+    },
+    "module-16.js": {
+      "default_require": [],
+      "default_import": [],
+      "side_import": [
+        "pages/clusters/secrets.js",
+        "pages/clusters/ingresses.js",
+        "pages/clusters/pods.js",
+        "pages/clusters/jobs.js",
+        "pages/clusters/projects.js",
+        "pages/clusters/custom-monitoring.js"
+      ],
+      "named_import": [],
+      "any_import": [
+        "pages/edgewize/rule-group.js",
+        "pages/edgewize/rule-group.js",
+        "pages/projects/alert-rules.js",
+        "pages/projects/alert-rules.js",
+        "pages/projects/custom-scaling.js",
+        "pages/projects/custom-scaling.js"
+      ],
+      "needs_shim": false,
+      "side_only": true
+    },
+    "module-17.js": {
+      "default_require": [],
+      "default_import": [],
+      "side_import": [
+        "pages/login.js",
+        "pages/clusters/secrets.js",
+        "pages/clusters/ingresses.js",
+        "pages/clusters/pods.js",
+        "pages/clusters/jobs.js",
+        "pages/clusters/projects.js"
+      ],
+      "named_import": [],
+      "any_import": [
+        "pages/edgewize/rule-group.js",
+        "pages/edgewize/rule-group.js",
+        "pages/projects/edgeappsets.js",
+        "pages/projects/edgeappsets.js",
+        "pages/projects/alert-rules.js",
+        "pages/projects/alert-rules.js"
+      ],
+      "needs_shim": false,
+      "side_only": true
+    },
+    "module-42.js": {
+      "default_require": [],
+      "default_import": [],
+      "side_import": [
+        "pages/login.js",
+        "pages/clusters/secrets.js",
+        "pages/clusters/ingresses.js",
+        "pages/clusters/pods.js",
+        "pages/clusters/jobs.js",
+        "pages/clusters/projects.js"
+      ],
+      "named_import": [],
+      "any_import": [
+        "pages/edgewize/rule-group.js",
+        "pages/projects/edgeappsets.js",
+        "pages/projects/alert-rules.js",
+        "pages/projects/custom-scaling.js",
+        "pages/whizard-telemetry/metrics/builtin-rules.js",
+        "pages/whizard-telemetry/metrics/custom-rules.js"
+      ],
+      "needs_shim": false,
+      "side_only": true
+    },
+    "module-25.js": {
+      "default_require": [],
+      "default_import": [
+        "unpacked/module-7.js",
+        "unpacked/module-162.js",
+        "unpacked/module-78.js",
+        "unpacked/module-219.js",
+        "unpacked/module-1961.js",
+        "unpacked/module-384.js"
+      ],
+      "side_import": [],
+      "named_import": [
+        "unpacked/module-290.js",
+        "unpacked/module-390.js",
+        "unpacked/module-151.js",
+        "unpacked/module-225.js"
+      ],
+      "any_import": [
+        "unpacked/module-7.js",
+        "unpacked/module-162.js",
+        "unpacked/module-1944.js",
+        "unpacked/module-78.js",
+        "unpacked/module-704.js",
+        "unpacked/module-706.js"
+      ],
+      "needs_shim": true,
+      "side_only": false
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "routes": {
+    "/login": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/login",
+      "bodyStart": "Welcome\nUsername or Email*\nPassword*\nLog In",
+      "webpackIds": 3246,
+      "unpackedUnique": 1203,
+      "namedCount": 0
+    },
+    "/dashboard": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/dashboard",
+      "bodyStart": "Hello recovered\n\nLast login: 2026-11-22 18:01:17\n\nYou do not belong to any workspace.\n\nPlease contact a workspace administrator to invite you to join a workspace.",
+      "webpackIds": 3280,
+      "unpackedUnique": 1217,
+      "namedCount": 0
+    },
+    "/clusters/default/alert-rules": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/clusters/default/alert-rules",
+      "bodyStart": "Rule Groups\n\nA rule group contains alert rules used to monitor cluster resources.\n\nCustom Rule Groups\n0\nBuilt-in Rule Groups\n0\nHow do I receive alerts if an alerting policy is triggered?\nName\nRule Group Status\nRule Status\nCustomize Columns\nRule Group Status\nRule Status\nTime Spent",
+      "webpackIds": 3808,
+      "unpackedUnique": 1508,
+      "namedCount": 0
+    },
+    "/clusters/default/log-collections/events": {
+      "overlay": true,
+      "overlayText": "Uncaught runtime errors:\n×\nERROR\nCannot read properties of undefined (reading 'length')\nTypeError: Cannot read properties of undefined (reading 'length')\n    at p.value (webpack://v3dist-recovered-react-app/./src/stores/secret.js?:206:24)\nERROR\nCannot read properties of undefined (reading 'length')\nTypeError: Cannot read properties of undefined (reading 'length')\n    at p.value (webpack://v3dist-recovered-react-app/./src/stores/secret.js?:206:24)",
+      "href": "http://127.0.0.1:8099/clusters/default/log-collections/logs",
+      "bodyStart": "Log Receivers\n\nThe system collects standard output (stdout) and standard error (stderr) logs from each container and sends them to one or more target services.\n\nAdd Log Receiver\n\nNo log receiver is found. You can add log receivers and send logs to external log receivers.\n\nAdd Log",
+      "webpackIds": 3808,
+      "unpackedUnique": 1508,
+      "namedCount": 0
+    },
+    "/clusters/default/log-collections/auditing": {
+      "overlay": true,
+      "overlayText": "Uncaught runtime errors:\n×\nERROR\nCannot read properties of undefined (reading 'length')\nTypeError: Cannot read properties of undefined (reading 'length')\n    at p.value (webpack://v3dist-recovered-react-app/./src/stores/secret.js?:206:24)\nERROR\nCannot read properties of undefined (reading 'length')\nTypeError: Cannot read properties of undefined (reading 'length')\n    at p.value (webpack://v3dist-recovered-react-app/./src/stores/secret.js?:206:24)",
+      "href": "http://127.0.0.1:8099/clusters/default/log-collections/logs",
+      "bodyStart": "Log Receivers\n\nThe system collects standard output (stdout) and standard error (stderr) logs from each container and sends them to one or more target services.\n\nAdd Log Receiver\n\nNo log receiver is found. You can add log receivers and send logs to external log receivers.\n\nAdd Log",
+      "webpackIds": 3808,
+      "unpackedUnique": 1508,
+      "namedCount": 0
+    },
+    "/logquery": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/logquery",
+      "bodyStart": "A total of 0 log entries from 0 containers have been collected today.\n\nStart Time: 2026-11-22 00:00:00\n\nQuerying Rules\n0\n\nContainer logs in the last 12 hours\n\nSearch by Keyword\n\nEnter a keyword to search for container logs.\n\nSearch by Project\n\nEnter a project name to search for c",
+      "webpackIds": 3280,
+      "unpackedUnique": 1217,
+      "namedCount": 0
+    },
+    "/auditingsearch": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/auditingsearch",
+      "bodyStart": "No Audit Log Collected Today\n\nYou need to enable audit log collection if it is disabled.\n\nCluster: default\n\t\nQuerying Rules\n0\n\nAudit logs in the last 12 hours\n\nSearch by Workspace\n\nEnter a workspace name to search for audit logs.\n\nSearch by Project\n\nEnter a project name to search",
+      "webpackIds": 3280,
+      "unpackedUnique": 1217,
+      "namedCount": 0
+    },
+    "/system-workspace/clusters/default/devops/test/credentials": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/system-workspace/clusters/default/devops/test/credentials",
+      "bodyStart": "DevOps project\n\nCredentials\n\nCredentials are objects that contain some sensitive data, such as username and password, SSH key and Token. They are used to provide authentication for pulling code, pushing/pulling images, executing SSH scripts, etc. when a pipeline is running.\n\nNo C",
+      "webpackIds": 3401,
+      "unpackedUnique": 1282,
+      "namedCount": 0
+    },
+    "/system-workspace/clusters/default/devops/test/pipelines": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/system-workspace/clusters/default/devops/test/pipelines",
+      "bodyStart": "DevOps project\n\nPipelines\n\nA pipeline is an extensible set of tools that can be combined to achieve continuous integration and continuous delivery. You can create and manage pipelines on this page.\n\nNo Pipeline Found\n\nPlease create a pipeline.\n\nCreate",
+      "webpackIds": 3401,
+      "unpackedUnique": 1282,
+      "namedCount": 0
+    },
+    "/settings/base-info": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/settings/base-info",
+      "bodyStart": "Basic Information\n127.0.0.1:8099\nPlatform address\nCustomize Platform Information\n\nPlatform title\n\nPlatform description\n\nPlatform Logo\n\nBrowser Favicon\n\nLogin Page Background Image\n\nNo Background Image Found\nPlease click \"Customize Platform Information\" to upload a background imag",
+      "webpackIds": 3332,
+      "unpackedUnique": 1249,
+      "namedCount": 0
+    },
+    "/settings/mail": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/settings/mail",
+      "bodyStart": "Notification Channels\n\nNotify users through multiple channels when resource metrics meet conditions configured in rule groups.\n\nEmail\nFeishu\nDingTalk\nWeCom\nSlack\nWebhook\nEmail\nSend notifications to email addresses.\nServer Settings\nSMTP Server Address\nUse SSL secure connection\nSMT",
+      "webpackIds": 3332,
+      "unpackedUnique": 1249,
+      "namedCount": 0
+    },
+    "/settings/feishu": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/settings/feishu",
+      "bodyStart": "Notification Channels\n\nNotify users through multiple channels when resource metrics meet conditions configured in rule groups.\n\nEmail\nFeishu\nDingTalk\nWeCom\nSlack\nWebhook\nFeishu\nSend notifications to Feishu users.\nChat SettingsChatbot Settings\nChat Settings\nApp Key\nApp Secret\nReci",
+      "webpackIds": 3332,
+      "unpackedUnique": 1249,
+      "namedCount": 0
+    },
+    "/settings/dingtalk": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/settings/dingtalk",
+      "bodyStart": "Notification Channels\n\nNotify users through multiple channels when resource metrics meet conditions configured in rule groups.\n\nEmail\nFeishu\nDingTalk\nWeCom\nSlack\nWebhook\nDingTalk\nSend notifications to DingTalk users.\nChat SettingsChatbot Settings\nApp Settings\nApp Key\nApp Secret\nR",
+      "webpackIds": 3332,
+      "unpackedUnique": 1249,
+      "namedCount": 0
+    },
+    "/settings/wecom": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/settings/wecom",
+      "bodyStart": "Notification Channels\n\nNotify users through multiple channels when resource metrics meet conditions configured in rule groups.\n\nEmail\nFeishu\nDingTalk\nWeCom\nSlack\nWebhook\nWeCom\nSend notifications to WeCom users.\nChat SettingsChatbot Settings\nServer Settings\nCorp ID*\nAgent ID*\nSecr",
+      "webpackIds": 3332,
+      "unpackedUnique": 1249,
+      "namedCount": 0
+    },
+    "/settings/slack": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/settings/slack",
+      "bodyStart": "Notification Channels\n\nNotify users through multiple channels when resource metrics meet conditions configured in rule groups.\n\nEmail\nFeishu\nDingTalk\nWeCom\nSlack\nWebhook\nSlack\nSend notifications to Slack users.\nServer Settings\nSlack Token*\nSlack Channel Settings\n\nSlack Channel\n\nA",
+      "webpackIds": 3332,
+      "unpackedUnique": 1249,
+      "namedCount": 0
+    },
+    "/settings/webhook": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/settings/webhook",
+      "bodyStart": "Notification Channels\n\nNotify users through multiple channels when resource metrics meet conditions configured in rule groups.\n\nEmail\nFeishu\nDingTalk\nWeCom\nSlack\nWebhook\nWebhook\nSend notifications to a webhook.\nServer Settings\nWebhook URL*\nAuthentication Type*\n\t\nSkip TLS verifica",
+      "webpackIds": 3332,
+      "unpackedUnique": 1249,
+      "namedCount": 0
+    },
+    "/settings/notification-history": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/settings/notification-history",
+      "bodyStart": "Notification History\n\nView notifications that have been sent to users.\n\n\t\nAlert Name\nAlert Severity\nMessage\nStatus\nProject\nTime Range\nCustomize Columns\nAlert Type\nAlert Severity\nMessage\nStatus\nProject\nService\nPod\nContainer\nNotification Time\n\tAlert Name\tAlert Type\tAlert Severity\nF",
+      "webpackIds": 3332,
+      "unpackedUnique": 1249,
+      "namedCount": 0
+    },
+    "/settings/silent-policy": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/settings/silent-policy",
+      "bodyStart": "Silence Policies\n\nSet the system not to send notifications under certain circumstances.\n\nSilence Policies\nNotification Language\nCreate\n\tName\nSort\nAscending\nDescending\n\tSilence Time\tSilence Conditions\tCreation Time\nSort\nAscending\nDescending\n\t\nNo Matching Result Found\n\nYou can tryr",
+      "webpackIds": 3332,
+      "unpackedUnique": 1249,
+      "namedCount": 0
+    },
+    "/settings/notification-language": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/settings/notification-language",
+      "bodyStart": "Notification Language\n\nSet the language of keys in notifications. Notifications are provided as key-value pairs.\n\nSilence Policies\nNotification Language\nNotification Language\nEnglish\n\nUse English keys in notifications.",
+      "webpackIds": 3332,
+      "unpackedUnique": 1249,
+      "namedCount": 0
+    },
+    "/settings/license-info": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/settings/license-info",
+      "bodyStart": "License\n\nView information about the current license and update the license when necessary.\n\nBasic Information\nKubeSphere Enterprise Authorization\nActivated\n-\nCluster ID\n-\nAuthorized organization\n-\nActivation type\nWarranty expired\nAuthorized status\n-\nActivation time\nAuthorized Fea",
+      "webpackIds": 3332,
+      "unpackedUnique": 1249,
+      "namedCount": 0
+    },
+    "/workspaces/system-workspace/apps": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/workspaces/system-workspace/apps",
+      "bodyStart": "App Templates\n\nKubeSphere provides full lifecycle management for apps. You can upload or create new app templates and test them quickly. In addition, you can publish your apps to the App Store so that other users can deploy with one click.\n\nHow do I develop app templates?\nUpload ",
+      "webpackIds": 3560,
+      "unpackedUnique": 1421,
+      "namedCount": 0
+    }
+  }
+}

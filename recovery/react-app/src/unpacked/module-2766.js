@@ -1,0 +1,9 @@
+import module8 from "unpacked/module-8.js";
+import toISOString from "unpacked/module-2767.js";
+module8({
+    target: "Date",
+    proto: true,
+    forced: Date.prototype.toISOString !== toISOString
+}, {
+    toISOString
+});

@@ -1,0 +1,171 @@
+import "unpacked/module-15.js";
+import "unpacked/module-5.js";
+import "unpacked/module-11.js";
+import "unpacked/module-6.js";
+import "unpacked/module-97.js";
+import "unpacked/module-16.js";
+import "unpacked/module-4.js";
+import "unpacked/module-23.js";
+import "unpacked/module-17.js";
+import "unpacked/module-7.js";
+import "unpacked/module-45.js";
+import "unpacked/module-42.js";
+import "unpacked/module-57.js";
+import module36 from "unpacked/module-36.js";
+import module37 from "unpacked/module-37.js";
+import module55 from "unpacked/module-55.js";
+import module56 from "utils/babel-helpers/possibleConstructorReturn";
+import module51 from "unpacked/module-51.js";
+import module321 from "unpacked/module-321.js";
+import module63 from "unpacked/module-63.js";
+import { Component } from "unpacked/module-553.js";
+import module3 from "unpacked/module-3.js";
+import module1 from "unpacked/module-1.js";
+import module186 from "unpacked/module-186.js";
+import { PATTERN_NAME } from "utils/constants";
+import Module1041 from "components/Inputs/MountInput";
+import module2319 from "unpacked/module-2319.js";
+const E = ((Component_1)=>{
+    module55(r, Component_1);
+    var a = ((e)=>{
+        const t = (()=>{
+            if (typeof Reflect === "undefined" || !Reflect.construct) {
+                return false;
+            }
+            if (Reflect.construct.sham) {
+                return false;
+            }
+            if (typeof Proxy === "function") {
+                return true;
+            }
+            try {
+                Date.prototype.toString.call(Reflect.construct(Date, [], function() {}));
+                return true;
+            } catch (e) {
+                return false;
+            }
+        })();
+        return function() {
+            let a;
+            const r = module51(e);
+            if (t) {
+                const n = module51(this).constructor;
+                a = Reflect.construct(r, arguments, n);
+            } else {
+                a = r.apply(this, arguments);
+            }
+            return module56(this, a);
+        };
+    })(r);
+    function r(...u_1) {
+        let e;
+        module36(this, r);
+        e = a.call(this, ...u_1);
+        e.mountValidator = function(a, r, n) {
+            if (module63(r)) {
+                return n({
+                    message: t("CONTAINER_NOT_SELECTED"),
+                    field: a.field
+                });
+            }
+            r.forEach((r)=>{
+                if (!r) {
+                    return n();
+                }
+                if (r.readOnly === "null") {
+                    n();
+                } else if (r.mountPath) {
+                    const l = e.getMountPaths(r);
+                    if (r.subPath) {
+                        if (l.some((e)=>e.mountPath === r.mountPath && e.subPath === r.subPath)) {
+                            return n({
+                                message: t("MOUNT_PATH_IN_USE"),
+                                field: a.field
+                            });
+                        }
+                    } else if (l.some((e)=>e.mountPath === r.mountPath)) {
+                        return n({
+                            message: t("MOUNT_PATH_IN_USE"),
+                            field: a.field
+                        });
+                    }
+                    n();
+                } else {
+                    n({
+                        message: t("READ_WRITE_MOUNT_EMPTY"),
+                        field: a.field
+                    });
+                }
+            });
+        };
+        e.nameValidator = function(a, r, n) {
+            if (!r) {
+                return n();
+            }
+            const e_props = e.props;
+            const l_currentName = e_props.currentName;
+            if (e_props.checkVolumeNameExist(r) && l_currentName !== r) {
+                n({
+                    message: t("VOLUME_NAME_EXIST"),
+                    field: a.field
+                });
+            } else {
+                n();
+            }
+        };
+        return e;
+    }
+    module37(r, [
+        {
+            key: "getMountPaths",
+            value: function(e) {
+                if (!this.mountPaths) {
+                    this.mountPaths = module321(this.props.containers, "name");
+                }
+                if (module63(this.mountPaths[e.containerName]) || module63(this.mountPaths[e.containerName].volumeMounts)) {
+                    return [];
+                }
+                return this.mountPaths[e.containerName].volumeMounts.filter((t)=>t.name !== e.name);
+            }
+        },
+        {
+            key: "render",
+            value: function() {
+                const props = this.props;
+                const { containers, formData, formRef, className, collectSavedLog } = props;
+                return <div className={module3(module2319.wrapper, className)}><module186.Form data={formData} ref={formRef}><module186.Form.Item label={t("VOLUME_NAME")} desc={t("NAME_DESC")} rules={[
+                    {
+                        required: true,
+                        message: t("VOLUME_NAME_EMPTY")
+                    },
+                    {
+                        pattern: PATTERN_NAME,
+                        message: t("INVALID_NAME_DESC")
+                    },
+                    {
+                        validator: this.nameValidator
+                    }
+                ]}><module186.Input name="name" autoFocus maxLength={63}/></module186.Form.Item><module186.Form.Item rules={[
+                    {
+                        required: t("MOUNT_PATH_EMPTY"),
+                        validator: this.mountValidator
+                    }
+                ]}><Module1041 name="volumeMounts" containers={containers} collectSavedLog={collectSavedLog}/></module186.Form.Item></module186.Form></div>;
+            }
+        }
+    ]);
+    return r;
+})(Component);
+export default E;
+E.propTypes = {
+    formRef: module1.object,
+    formData: module1.object,
+    className: module1.string,
+    containers: module1.array,
+    checkVolumeNameExist: module1.func
+};
+E.defaultProps = {
+    className: "",
+    formData: {},
+    containers: []
+};

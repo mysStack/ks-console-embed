@@ -1,0 +1,255 @@
+{
+  "routes": {
+    "/login": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/login",
+      "bodyStart": "Welcome\nUsername or Email*\nPassword*\nLog In",
+      "webpackIds": 3246,
+      "unpackedUnique": 1203,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/dashboard": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/dashboard",
+      "bodyStart": "Hello recovered\n\nLast login: 2026-11-22 17:54:30\n\nYou do not belong to any workspace.\n\nPlease contact a workspace administrator to invite you to join a workspace.",
+      "webpackIds": 3280,
+      "unpackedUnique": 1217,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/clusters/default/statefulsets": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/clusters/default/statefulsets",
+      "bodyStart": "No Statefulset Found\n\nPlease create a statefulset.\n\nCreate",
+      "webpackIds": 3808,
+      "unpackedUnique": 1508,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/clusters/default/daemonsets": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/clusters/default/daemonsets",
+      "bodyStart": "No Daemonset Found\n\nPlease create a daemonset.\n\nCreate",
+      "webpackIds": 3808,
+      "unpackedUnique": 1508,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/clusters/default/jobs": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/clusters/default/jobs",
+      "bodyStart": "Jobs\n\nJobs are used to perform short-lived, one-off tasks. A job creates one or more pods and ensures that a specific number of pods successfully terminate.\n\nJobs\nCronjobs\nNo Job Found\n\nPlease create a job.\n\nCreate",
+      "webpackIds": 3808,
+      "unpackedUnique": 1508,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/clusters/default/cronjobs": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/clusters/default/cronjobs",
+      "bodyStart": "Cronjobs\n\nCronjobs manage jobs on a time-based schedule and can be used to perform periodic or recurring tasks.\n\nJobs\nCronjobs\nNo Cronjob Found\n\nPlease create a cronjob.\n\nCreate",
+      "webpackIds": 3808,
+      "unpackedUnique": 1508,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/clusters/default/pods": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/clusters/default/pods",
+      "bodyStart": "Pods\n\nA pod is the basic execution unit of a Kubernetes application, representing the smallest and simplest unit in the Kubernetes object model that you create or deploy.\n\nNo Pod Found\n\nPlease create a pod.",
+      "webpackIds": 3808,
+      "unpackedUnique": 1508,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/clusters/default/services": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/clusters/default/services",
+      "bodyStart": "Services\n\nServices provide an abstract way to expose applications running on a pod as network services.\n\nNo Service Found\n\nPlease create a service.\n\nCreate",
+      "webpackIds": 3808,
+      "unpackedUnique": 1508,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/clusters/default/ingresses": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/clusters/default/ingresses",
+      "bodyStart": "Ingresses\n\nAn ingress provides a way to aggregate services. You can expose the internal services outside the cluster through an externally accessible IP address.\n\nNo Ingress Found\n\nPlease create an ingress.\n\nCreate",
+      "webpackIds": 3808,
+      "unpackedUnique": 1508,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/clusters/default/secrets": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/clusters/default/secrets",
+      "bodyStart": "No Secret Found\n\nPlease create a secret.\n\nCreate",
+      "webpackIds": 3808,
+      "unpackedUnique": 1508,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/clusters/default/configmaps": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/clusters/default/configmaps",
+      "bodyStart": "No Configmap Found\n\nPlease create a configmap.\n\nCreate",
+      "webpackIds": 3808,
+      "unpackedUnique": 1508,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/clusters/default/alerts": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/clusters/default/alerts",
+      "bodyStart": "Alerts\n\nAlerts are generated when resource metrics meet conditions configured in rule groups.\n\nFrom Custom Rules\n0\nFrom Built-in Rules\n0\nHow are alerts generated?\nKeywords\nStatus\nSeverity\nAlerting Name\nCustomize Columns\nStatus\nSeverity\nAlerting Name\nRule Group\nMonitoring Target\nT",
+      "webpackIds": 3808,
+      "unpackedUnique": 1508,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/workspaces/system-workspace/apps": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/workspaces/system-workspace/apps",
+      "bodyStart": "App Templates\n\nKubeSphere provides full lifecycle management for apps. You can upload or create new app templates and test them quickly. In addition, you can publish your apps to the App Store so that other users can deploy with one click.\n\nHow do I develop app templates?\nUpload ",
+      "webpackIds": 3560,
+      "unpackedUnique": 1421,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/eventsearch": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/eventsearch",
+      "bodyStart": "No Resource Events Collected Today\nQuerying Rules\n0\n\nResource events in the last 12 hours\n\nSearch by Message\n\nEnter a message to search for resource events.\n\nSearch by Workspace\n\nEnter a workspace name to search for container logs.\n\nSearch by Project\n\nEnter a project name to sear",
+      "webpackIds": 3280,
+      "unpackedUnique": 1217,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/system-workspace/clusters/default/projects/kubesphere-system/statefulsets": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/404",
+      "bodyStart": "Not Found\n\nThe resource was not found. The system will return to Workbench in 8s.",
+      "webpackIds": 4289,
+      "unpackedUnique": 1765,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/system-workspace/clusters/default/projects/kubesphere-system/daemonsets": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/404",
+      "bodyStart": "Not Found\n\nThe resource was not found. The system will return to Workbench in 8s.",
+      "webpackIds": 4289,
+      "unpackedUnique": 1765,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/system-workspace/clusters/default/projects/kubesphere-system/jobs": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/404",
+      "bodyStart": "Not Found\n\nThe resource was not found. The system will return to Workbench in 8s.",
+      "webpackIds": 4289,
+      "unpackedUnique": 1765,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/system-workspace/clusters/default/projects/kubesphere-system/cronjobs": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/404",
+      "bodyStart": "Not Found\n\nThe resource was not found. The system will return to Workbench in 8s.",
+      "webpackIds": 4289,
+      "unpackedUnique": 1765,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/system-workspace/clusters/default/projects/kubesphere-system/pods": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/404",
+      "bodyStart": "Not Found\n\nThe resource was not found. The system will return to Workbench in 8s.",
+      "webpackIds": 4289,
+      "unpackedUnique": 1765,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/system-workspace/clusters/default/projects/kubesphere-system/services": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/404",
+      "bodyStart": "Not Found\n\nThe resource was not found. The system will return to Workbench in 8s.",
+      "webpackIds": 4289,
+      "unpackedUnique": 1765,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/system-workspace/clusters/default/projects/kubesphere-system/ingresses": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/404",
+      "bodyStart": "Not Found\n\nThe resource was not found. The system will return to Workbench in 8s.",
+      "webpackIds": 4289,
+      "unpackedUnique": 1765,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/system-workspace/clusters/default/projects/kubesphere-system/secrets": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/404",
+      "bodyStart": "Not Found\n\nThe resource was not found. The system will return to Workbench in 8s.",
+      "webpackIds": 4289,
+      "unpackedUnique": 1765,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/system-workspace/clusters/default/projects/kubesphere-system/configmaps": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/404",
+      "bodyStart": "Not Found\n\nThe resource was not found. The system will return to Workbench in 8s.",
+      "webpackIds": 4289,
+      "unpackedUnique": 1765,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/system-workspace/clusters/default/projects/kubesphere-system/alerts": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/404",
+      "bodyStart": "Not Found\n\nThe resource was not found. The system will return to Workbench in 8s.",
+      "webpackIds": 4289,
+      "unpackedUnique": 1765,
+      "namedCount": 0,
+      "scripts": 1
+    },
+    "/system-workspace/clusters/default/projects/kubesphere-system/applications": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/404",
+      "bodyStart": "Not Found\n\nThe resource was not found. The system will return to Workbench in 8s.",
+      "webpackIds": 4289,
+      "unpackedUnique": 1765,
+      "namedCount": 0,
+      "scripts": 1
+    }
+  },
+  "dashScripts": 65
+}

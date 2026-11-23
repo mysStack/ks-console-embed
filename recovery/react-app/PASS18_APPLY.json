@@ -1,0 +1,42 @@
+{
+  "applied": [
+    {
+      "module": "module-1806.js",
+      "orig": "pages/clusters/containers/Gateway/Components/ProjectGatewayList/index.js",
+      "kind": "long",
+      "lit": "gateways.batch.delete"
+    },
+    {
+      "module": "module-4282.js",
+      "orig": "pages/clusters/containers/Gateway/Components/GatewayCard/index.js",
+      "kind": "long",
+      "lit": "kubesphere-controls-system"
+    },
+    {
+      "module": "module-4283.js",
+      "orig": "pages/clusters/containers/Gateway/Components/GatewayEmpty/index.js",
+      "kind": "unique_kid",
+      "lit": "_GATEWAY_NOT_ENABLED"
+    },
+    {
+      "module": "module-2399.js",
+      "orig": "components/Base/Upload/utils/request.js",
+      "kind": "long",
+      "lit": "X-Requested-With"
+    },
+    {
+      "module": "module-2928.js",
+      "orig": "pages/fedprojects/components/ConfigTemplate/config.js",
+      "kind": "long",
+      "lit": "POD_GRACE_PERIOD"
+    },
+    {
+      "module": "module-4604.js",
+      "orig": "pages/projects/containers/Services/Topology/Edge/index.js",
+      "kind": "long",
+      "lit": "auto-start-reverse"
+    }
+  ],
+  "skipped": [],
+  "count": 6
+}

@@ -1,0 +1,240 @@
+{
+  "live_leftover": 1699,
+  "safe_vendor_alias_candidates": [
+    {
+      "module": "module-190.js",
+      "npm": "core-js3/modules/es.number.to-fixed.js",
+      "via": "Incorrect fraction digits",
+      "importers": [],
+      "default_consumers": [],
+      "side_imports": [
+        "pages/projects/containers/GrayRelease/Jobs/Item.js",
+        "pages/projects/containers/Pods/Detail/ScheduleInfo.js",
+        "pages/projects/components/Modals/TracingDetail/Span.js",
+        "pages/projects/components/Modals/TracingDetail/SpanGraph/TimeRange.js",
+        "pages/devops/components/Cards/CodeQualityResult.js",
+        "pages/workspaces/components/Modals/QuotaEdit.js",
+        "pages/fedprojects/containers/Overview/UsageRanking.js",
+        "pages/clusters/containers/Overview/Dashboard/KubernetesStatus.js"
+      ]
+    },
+    {
+      "module": "module-27.js",
+      "npm": "core-js3/modules/es.number.constructor.js",
+      "via": "Cannot convert a Symbol value to a number",
+      "importers": [
+        "stores/project.js",
+        "stores/project.js",
+        "stores/devops.js",
+        "stores/devops.js",
+        "stores/codeRepo.js",
+        "stores/codeRepo.js",
+        "stores/cluster.js",
+        "stores/cluster.js"
+      ],
+      "default_consumers": [],
+      "side_imports": [
+        "pages/clusters/nodes.js",
+        "pages/clusters/ippools.js",
+        "pages/whizard-telemetry/nodes.js",
+        "pages/node-groups/edgeippool.js",
+        "pages/projects/containers/GrayRelease/Jobs/Item.js",
+        "pages/projects/containers/Pods/Detail/ScheduleInfo.js",
+        "pages/projects/containers/Volumes/Detail/ResourceStatus/UsageCard.js",
+        "pages/projects/containers/Deployments/Detail/RevisionControl.js"
+      ]
+    },
+    {
+      "module": "module-140.js",
+      "npm": "core-js3/modules/es.regexp.constructor.js",
+      "via": "Invalid capture group name",
+      "importers": [],
+      "default_consumers": [],
+      "side_imports": [
+        "components/Base/TypeSelect.js",
+        "components/Inputs/PropertiesInput.js",
+        "components/Charts/Area/SimpleArea.js",
+        "components/Modals/AppRepoCreate/url.input.js",
+        "components/Modals/EventSearch/Event/Detail.js",
+        "components/Forms/Workload/ContainerSettings/ContainerForm/ContainerSetting/ImageInput/DropdownContent.js",
+        "utils/log.js",
+        "utils/cookie.js"
+      ]
+    }
+  ],
+  "safe_vendor_count": 3,
+  "unsafe_default_vendor": [],
+  "unsafe_default_count": 0,
+  "missing_npm_unique_err": [
+    {
+      "module": "module-70.js",
+      "via": "Accessors not supported"
+    },
+    {
+      "module": "module-584.js",
+      "via": "Symbol is not a constructor"
+    },
+    {
+      "module": "module-254.js",
+      "via": "Incorrect invocation"
+    },
+    {
+      "module": "module-132.js",
+      "via": "Invalid size"
+    },
+    {
+      "module": "module-749.js",
+      "via": "need to specify a reason the Duration is invalid"
+    },
+    {
+      "module": "module-749.js",
+      "via": "need to specify a reason the Interval is invalid"
+    },
+    {
+      "module": "module-749.js",
+      "via": "fromSeconds requires a numerical input"
+    },
+    {
+      "module": "module-749.js",
+      "via": "fromFormat requires an input string and a format"
+    },
+    {
+      "module": "module-749.js",
+      "via": "need to specify a reason the DateTime is invalid"
+    },
+    {
+      "module": "module-749.js",
+      "via": "min requires all arguments be DateTimes"
+    },
+    {
+      "module": "module-749.js",
+      "via": "max requires all arguments be DateTimes"
+    }
+  ],
+  "ambiguous": [
+    {
+      "module": "module-1514.js",
+      "via": "The callback provided as parameter 1 is not a function.",
+      "npm": [
+        "recharts/umd/Recharts.min.js",
+        "recharts/umd/Recharts.js"
+      ]
+    },
+    {
+      "module": "module-1514.js",
+      "via": "1 argument required, but only 0 present.",
+      "npm": [
+        "recharts/umd/Recharts.min.js",
+        "recharts/umd/Recharts.js"
+      ]
+    },
+    {
+      "module": "module-1514.js",
+      "via": "parameter 1 is not of type ",
+      "npm": [
+        "recharts/umd/Recharts.min.js",
+        "recharts/umd/Recharts.js"
+      ]
+    },
+    {
+      "module": "module-1514.js",
+      "via": "Cannot call a class as a function.",
+      "npm": [
+        "recharts/umd/Recharts.min.js",
+        "recharts/umd/Recharts.js"
+      ]
+    }
+  ],
+  "corejs_unique_no_default": [
+    {
+      "module": "module-150.js",
+      "npm": "core-js3/internals/enum-bug-keys.js",
+      "via": "enum-bug-keys concat",
+      "default_consumers": [],
+      "importers": [
+        "unpacked/module-4804.js",
+        "unpacked/module-584.js",
+        "unpacked/module-420.js",
+        "unpacked/module-368.js",
+        "unpacked/module-27.js",
+        "unpacked/module-350.js",
+        "unpacked/module-140.js"
+      ]
+    }
+  ],
+  "corejs_unsafe_default": [
+    {
+      "module": "module-8.js",
+      "npm": "core-js3/internals/export.js",
+      "via": "dontCallGetSet",
+      "default_consumers": [
+        "unpacked/module-200.js",
+        "unpacked/module-550.js",
+        "unpacked/module-704.js",
+        "unpacked/module-706.js",
+        "unpacked/module-684.js",
+        "unpacked/module-118.js",
+        "unpacked/module-10.js",
+        "unpacked/module-680.js"
+      ],
+      "importers": [
+        "unpacked/module-975.js",
+        "unpacked/module-316.js",
+        "unpacked/module-200.js",
+        "unpacked/module-6.js",
+        "unpacked/module-550.js",
+        "unpacked/module-4814.js",
+        "unpacked/module-704.js",
+        "unpacked/module-706.js"
+      ]
+    }
+  ],
+  "two_hit_extra_orig": [
+    {
+      "t": "UPLOAD_SUCCESSFUL",
+      "module": "module-3293.js",
+      "known_orig": "actions/openpitrix.js",
+      "extra_orig": "components/Modals/GrafanaModal/Uploader/index.js",
+      "importers": [
+        "unpacked/module-3292.js"
+      ]
+    },
+    {
+      "t": "VOLUME_CAPACITY",
+      "module": "module-2061.js",
+      "known_orig": "components/Forms/Volume/VolumeSettings/FormTemplate.js",
+      "extra_orig": "pages/projects/components/Modals/ExpandVolume/index.js",
+      "importers": [
+        "unpacked/module-2059.js"
+      ]
+    },
+    {
+      "t": "NO",
+      "module": "module-2998.js",
+      "known_orig": "pages/clusters/components/Cards/Monitoring/ETCDNodes/item.js",
+      "extra_orig": "components/Forms/StorageClass/StorageClassSettings/index.js",
+      "importers": [
+        "actions/network.js"
+      ]
+    },
+    {
+      "t": "ACCESS_MODES_DESC",
+      "module": "module-2061.js",
+      "known_orig": "components/Forms/Volume/VolumeSettings/FormTemplate.js",
+      "extra_orig": "components/Forms/StorageClass/StorageClassSettings/index.js",
+      "importers": [
+        "unpacked/module-2059.js"
+      ]
+    },
+    {
+      "t": "PREVIEW",
+      "module": "module-3293.js",
+      "known_orig": "components/Forms/Pipelines/PipelineTemplateParams/old.js",
+      "extra_orig": "components/Forms/Pipelines/PipelineTemplateParams/index.js",
+      "importers": [
+        "unpacked/module-3292.js"
+      ]
+    }
+  ],
+  "two_hit_extra_count": 5
+}

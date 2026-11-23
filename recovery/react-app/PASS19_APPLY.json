@@ -1,0 +1,54 @@
+{
+  "applied": [
+    {
+      "module": "module-665.js",
+      "orig": "utils/NameWithAction.js",
+      "kind": "long",
+      "lit": "federatedProject"
+    },
+    {
+      "module": "module-1410.js",
+      "orig": "pages/projects/containers/Overview/ResourceUsage/index.js",
+      "kind": "long",
+      "lit": "namespace_configmap_count"
+    },
+    {
+      "module": "module-1418.js",
+      "orig": "pages/apps/components/VersionStatus/index.js",
+      "kind": "long",
+      "lit": "configs/openpitrix/version"
+    },
+    {
+      "module": "module-5092.js",
+      "orig": "pages/devops/components/PipelineStatus/index.js",
+      "kind": "long",
+      "lit": "components/Forms/Pipelines/ParamsFormModal"
+    },
+    {
+      "module": "module-5093.js",
+      "orig": "pages/devops/components/PipelineStatus/nodesRender.js",
+      "kind": "unique_kid",
+      "lit": "PipelineStatus/card"
+    },
+    {
+      "module": "module-4997.js",
+      "orig": "pages/fedprojects/components/ClusterWorkloadStatus/ScheduleCluster.js",
+      "kind": "long",
+      "lit": "workload.podNums"
+    },
+    {
+      "module": "module-1436.js",
+      "orig": "stores/rank/workload.js",
+      "kind": "long",
+      "lit": "workload_net_bytes_transmitted"
+    },
+    {
+      "module": "module-1636.js",
+      "orig": "components/Modals/CustomMonitoring/components/Graph/Compose/index.js",
+      "kind": "long",
+      "lit": "current.offsetWidth"
+    }
+  ],
+  "skipped": [],
+  "count": 8
+}

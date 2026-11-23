@@ -1,0 +1,149 @@
+{
+  "pre": {
+    "userPresent": false,
+    "recovered": false,
+    "mainJs": "app.4c700f41.js"
+  },
+  "kapisBefore": {
+    "http": 403,
+    "gitVersion": null
+  },
+  "navigated": true,
+  "afterLogin": {
+    "path": "/dashboard",
+    "href": "http://127.0.0.1:8108/dashboard",
+    "title": "v3dist recovered React app",
+    "rootChildCount": 1,
+    "text": "Hello <login>\n\nplatform-<login>\n\nLast login: 2026-11-23 18:11:30\n\nPlatform Information\n3.3.2\nPlatform version\n1\nCluster\nPlatform Resources\n2026-11-23 18:11:31\nLast update time\n0\nWorkspaces\n0\nUsers\nRecent Access\nNo Recently Accessed Resource Found\nYou can access platform resources.",
+    "userPresent": true,
+    "usernameLen": 5,
+    "userIsRecovered": false,
+    "hasGlobalrole": true,
+    "sessionKeyPresent": true,
+    "mainJs": "http://127.0.0.1:8108/app.4c700f41.js"
+  },
+  "kapisAfter": {
+    "http": 200,
+    "gitVersion": "v4.1.4-42+a70cb1ca584a12-dirty"
+  },
+  "whoami": {
+    "http": 200,
+    "nameLen": 5,
+    "kind": "User"
+  },
+  "settings": {
+    "path": "/settings/base-info",
+    "href": "http://127.0.0.1:8108/settings/base-info",
+    "title": "v3dist recovered React app",
+    "rootChildCount": 1,
+    "text": "基本信息\n127.0.0.1:8108\n平台地址\n自定义平台信息\n\n平台标题\n\n平台描述\n\n平台标识\n\n浏览器图标\n\n登录页面背景图片\n\n未发现背景图片\n请点击“自定义平台信息”上传背景图片。",
+    "userPresent": true,
+    "usernameLen": 5,
+    "userIsRecovered": false,
+    "hasGlobalrole": true,
+    "sessionKeyPresent": true,
+    "mainJs": "http://127.0.0.1:8108/app.4c700f41.js"
+  },
+  "settingsRefresh": {
+    "path": "/settings/base-info",
+    "href": "http://127.0.0.1:8108/settings/base-info",
+    "title": "v3dist recovered React app",
+    "rootChildCount": 1,
+    "text": "基本信息\n127.0.0.1:8108\n平台地址\n自定义平台信息\n\n平台标题\n\n平台描述\n\n平台标识\n\n浏览器图标\n\n登录页面背景图片\n\n未发现背景图片\n请点击“自定义平台信息”上传背景图片。",
+    "userPresent": true,
+    "usernameLen": 5,
+    "userIsRecovered": false,
+    "hasGlobalrole": true,
+    "sessionKeyPresent": true,
+    "mainJs": "http://127.0.0.1:8108/app.4c700f41.js"
+  },
+  "access": {
+    "path": "/access/workspaces",
+    "href": "http://127.0.0.1:8108/access/workspaces",
+    "title": "v3dist recovered React app",
+    "rootChildCount": 1,
+    "text": "访问控制\n企业空间\n用户\n平台角色\nKS 企业空间\n\nKS 企业空间是一个组织您的项目和 DevOps 项目、管理资源访问权限以及在团队内部共享资源等的逻辑单元，可以作为团队工作的独立工作空间。\n\nKS 企业空间\n边缘企业空间\n名称\n别名\n定制内容\n创建时间\n创建\n\t名称\n排序\n升序\n降序\n\t创建时间\n排序\n升序\n降序\n\t\n\t\npublic-workspace\n-\n\t2026-03-12 16:00:28\t\n编辑信息\n删除\n\n\t\ndev-workspace\n-\n\t2026-03-04 14:31:52\t\n编辑信息\n删除\n\n\t\nsystem-workspace\n-\n\t2026-03-04 14:15:12\t\n每页显示：10\n10\n20\n50\n100\n总数：3\n1 / 1\n1",
+    "userPresent": true,
+    "usernameLen": 5,
+    "userIsRecovered": false,
+    "hasGlobalrole": true,
+    "sessionKeyPresent": true,
+    "mainJs": "http://127.0.0.1:8108/app.4c700f41.js"
+  },
+  "cookieNames": [
+    "oAuthLoginInfo",
+    "token",
+    "expire",
+    "refreshToken",
+    "lang"
+  ],
+  "kapisCookieHeaders": [
+    {
+      "path": "/kapis/version",
+      "cookieNames": []
+    },
+    {
+      "path": "/kapis/version",
+      "cookieNames": []
+    }
+  ],
+  "pageApiSample": [
+    {
+      "method": "GET",
+      "path": "/kapis/iam.kubesphere.io/v1beta1/users/<login>",
+      "cookieNames": []
+    },
+    {
+      "method": "GET",
+      "path": "/kapis/iam.kubesphere.io/v1beta1/users/<login>/roletemplates?scope=",
+      "cookieNames": []
+    },
+    {
+      "method": "GET",
+      "path": "/kapis/iam.kubesphere.io/v1beta1/users/<login>",
+      "cookieNames": []
+    },
+    {
+      "method": "GET",
+      "path": "/kapis/iam.kubesphere.io/v1beta1/users/<login>",
+      "cookieNames": []
+    },
+    {
+      "method": "GET",
+      "path": "/kapis/iam.kubesphere.io/v1beta1/users/<login>/roletemplates?scope=",
+      "cookieNames": []
+    },
+    {
+      "method": "GET",
+      "path": "/kapis/iam.kubesphere.io/v1beta1/users/<login>",
+      "cookieNames": []
+    },
+    {
+      "method": "GET",
+      "path": "/kapis/iam.kubesphere.io/v1beta1/users/<login>/roletemplates?scope=",
+      "cookieNames": []
+    },
+    {
+      "method": "GET",
+      "path": "/kapis/iam.kubesphere.io/v1beta1/users/<login>",
+      "cookieNames": []
+    },
+    {
+      "method": "GET",
+      "path": "/kapis/iam.kubesphere.io/v1beta1/users/<login>/roletemplates?scope=",
+      "cookieNames": []
+    }
+  ],
+  "apiStatusSample": [
+    {
+      "path": "/kapis/version",
+      "http": 403
+    }
+  ],
+  "pageErrors": [
+    "TypeError: Cannot set property loaded of #<Object> which has only a getter",
+    "TypeError: Cannot set property loaded of #<Object> which has only a getter",
+    "TypeError: Cannot set property loaded of #<Object> which has only a getter",
+    "TypeError: Cannot set property loaded of #<Object> which has only a getter"
+  ]
+}

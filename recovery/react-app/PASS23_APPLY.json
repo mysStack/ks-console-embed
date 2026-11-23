@@ -1,0 +1,30 @@
+{
+  "applied": [
+    {
+      "module": "module-1812.js",
+      "orig": "pages/projects/components/Cards/Replica/Status/index.js",
+      "kind": "named_child",
+      "lit": "ADJUST_REPLICAS"
+    },
+    {
+      "module": "module-1808.js",
+      "orig": "components/Cards/Labels/index.js",
+      "kind": "t",
+      "lit": "LABEL_PL"
+    },
+    {
+      "module": "module-3876.js",
+      "orig": "pages/projects/components/Cards/Workloads/Item.js",
+      "kind": "regex",
+      "lit": "/${detail.module}/"
+    },
+    {
+      "module": "module-4998.js",
+      "orig": "pages/fedprojects/components/ClusterWorkloadStatus/ReplicasInput/index.js",
+      "kind": "regex",
+      "lit": "^\\+?[1-9][0-9]*$"
+    }
+  ],
+  "skipped": [],
+  "count": 4
+}

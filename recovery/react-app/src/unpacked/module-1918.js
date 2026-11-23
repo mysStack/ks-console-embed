@@ -1,0 +1,20 @@
+export default {
+    tracing: "_2_q0DNdfMx9e5W7v9Si6gS",
+    cardHeader: "_2p8zOOtwLXH4_1SstvLyYC",
+    operations: "_2us2jWBpu0J5F5mLDoSYKh",
+    cardContent: "bLd4-qXNqLMQXv55Rfooi",
+    item: "_21M_0IBeqI3nFGS2xCskvz",
+    header: "_30mNlGFkJHDVCiuEle9Ybl",
+    title: "_1uRSfn8aYD8zmip-xjiUj",
+    duration: "_2L_QSvChdOUhq425WQf0_B",
+    durationBar: "_11R8VXXwf7HPMdd1k9DQWM",
+    content: "_2q0NQ67t-oUZqLh5nHriY7",
+    spanWrapper: "_2fWwhM3oMmksqBHDHXuTay",
+    spans: "IrkUrsjvAGNLoRT_t4qj3",
+    errorSpans: "_1oP4nMdyHintWuioJtC3oY",
+    services: "Chnawuf8D5gcAjmZdcHNf",
+    tag: "_1x47CjJvQTrdcFR4n-KgRt",
+    startTime: "ywM5JVADUKn9T8f8Qohhv",
+    empty: "_1dvYFA65StoQjFB8gJLX2L",
+    icon: "_3dAwFztjwyNQJw8galB6Iz"
+};

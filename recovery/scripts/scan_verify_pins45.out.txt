@@ -1,0 +1,1086 @@
+=== indexing ===
+
+=== UNIQUE LIT ===
+
+=== LIT pages/projects/containers/Base/Detail.js -> module-806.js needle='getWatchUrl' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/Base/Detail/index.jsx
+    css False skip False named []
+    t ['rootStore']
+    importers [('module-1216.js', ['pages/projects/deployments/Detail.js', 'pages/projects/containers/Deployments/Detail.js']), ('module-1221.js', ['pages/projects/daemonsets/Detail.js', 'pages/projects/containers/DaemonSets/Detail.js']), ('module-1222.js', ['pages/projects/jobs/Detail.js', 'pages/projects/containers/Jobs/Detail.js']), ('module-1224.js', ['pages/projects/cronjobs/Detail.js', 'pages/projects/containers/CronJobs/Detail.js']), ('module-1225.js', ['pages/projects/services/Detail.js', 'pages/projects/containers/Services/Detail.js']), ('module-1227.js', ['pages/projects/ingresses/Detail.js']), ('module-1228.js', ['pages/projects/pods/Detail.js', 'pages/projects/containers/Pods/Detail.js']), ('module-1229.js', ['pages/projects/pods/ContainerDetail.js', 'pages/projects/containers/Pods/Containers/Detail.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-26.js', ['?']), ('module-900.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-433.js', ['?']), ('module-72.js', ['utils/constants.js'])]
+    getWatchUrl 'getWatchUrl" in detailStore) {                     const a = detailStore.getWatchUrl(this.props.match.params);'
+    federatedprojects 'federatedprojects") > -1,                     ...this.inCluster ? {                         cluster           '
+  orig_hits ['pages/projects/containers/Base/Detail.js']
+  unpacked ['module-806.js'] unnamed ['module-806.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT pages/devops/containers/CD/detail/routes.js -> module-5120.js needle='/:workspace/clusters/:cluster/devops/:devops/cd/:cd' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/devops/containers/CD/detail/routes.js
+    css False skip False named []
+    t []
+    importers [('module-5119.js', ['pages/devops/cd/Detail.js', 'pages/devops/containers/CD/detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-5121.js', ['pages/devops/containers/CD/detail/SyncStatus.js'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import component from "./module-5121.js"; const path = "/:workspace/cl'
+  orig_hits ['pages/devops/containers/CD/detail/routes.js']
+  unpacked ['module-5120.js'] unnamed ['module-5120.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT pages/workspaces/containers/Roles/Detail/routes.js -> module-4401.js needle='/workspaces/:workspace/roles/:name' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/workspaces/containers/Roles/Detail/routes.js
+    css False skip False named []
+    t []
+    importers [('module-4400.js', ['pages/workspaces/roles/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1073.js', ['pages/access/containers/Roles/Detail/AuthorizedUsers.js'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module1023 from "./module-1023.js"; import module1073 from "./m'
+  orig_hits ['pages/workspaces/containers/Roles/Detail/routes.js']
+  unpacked ['module-4401.js'] unnamed ['module-4401.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT pages/fedprojects/containers/Applications/Detail/routes.js -> module-4977.js needle='/:workspace/federatedprojects/:namespace/applications/:name' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/fedprojects/containers/Applications/Detail/routes.js
+    css False skip False named []
+    t []
+    importers [('module-4976.js', ['pages/fedprojects/applications/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-4978.js', ['?']), ('module-4983.js', ['?']), ('module-4989.js', ['pages/fedprojects/containers/Applications/Detail/TrafficManangement.js']), ('module-4992.js', ['pages/fedprojects/containers/Applications/Detail/Tracing.js'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module4978 from "./module-4978.js"; import module4983 from "./m'
+    federatedprojects 'federatedprojects/:namespace/applications/:name"; const s = [     {         path: `${path}/components`,       '
+  orig_hits ['pages/fedprojects/containers/Applications/Detail/routes.js']
+  unpacked ['module-4977.js'] unnamed ['module-4977.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT pages/clusters/containers/Roles/Detail/routes.js -> module-4003.js needle='/clusters/:cluster/roles/:name' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/Roles/Detail/routes.js
+    css False skip False named []
+    t []
+    importers [('module-4002.js', ['pages/clusters/roles/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1073.js', ['pages/access/containers/Roles/Detail/AuthorizedUsers.js'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module1023 from "./module-1023.js"; import module1073 from "./m'
+  orig_hits ['pages/clusters/containers/Roles/Detail/routes.js']
+  unpacked ['module-4003.js'] unnamed ['module-4003.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT pages/clusters/containers/EdgeNodes/Detail/routes.js -> module-3960.js needle='/clusters/:cluster/edgenodes/:node' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/EdgeNodes/Detail/routes.js
+    css False skip False named []
+    t []
+    importers [('module-3959.js', ['pages/clusters/edgenodes/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-821.js', ['?']), ('module-3961.js', ['?']), ('module-3967.js', ['?']), ('module-3968.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module821 from "./module-821.js"; import module3961 from "./mod'
+    RUNNING_STATUS 'RUNNING_STATUS",         component: module3961,         exact: true     },     {         path: `${path}/pods`,'
+    edgenodes 'edgenodes/:node"; const s = [     {         path: `${path}/status`,         title: "RUNNING_STATUS",         c'
+  orig_hits ['pages/clusters/containers/EdgeNodes/Detail/routes.js']
+  unpacked ['module-3960.js'] unnamed ['module-3960.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT pages/clusters/containers/Projects/Detail/routes.js -> module-3971.js needle='/clusters/:cluster/projects/:namespace' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/Projects/Detail/routes.js
+    css False skip False named []
+    t []
+    importers [('module-3969.js', ['pages/clusters/projects/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-821.js', ['?']), ('module-3972.js', ['?']), ('module-3981.js', ['?']), ('module-3982.js', ['?']), ('module-3984.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module821 from "./module-821.js"; import module3972 from "./mod'
+  orig_hits ['pages/clusters/containers/Projects/Detail/routes.js']
+  unpacked ['module-3971.js'] unnamed ['module-3971.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT pages/clusters/containers/LogCollections/Detail/routes.js -> module-4008.js needle='/clusters/:cluster/log-collections/:component/:name' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/LogCollections/Detail/routes.js
+    css False skip False named []
+    t []
+    importers [('module-4007.js', ['pages/clusters/log-collections/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-4009.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import component from "./module-4009.js"; const path = "/clusters/:clu'
+    resource-status 'resource-status`,         title: "RESOURCE_STATUS",         component,         exact: true     },     getIndex'
+    log-collections 'log-collections/:component/:name"; const i = [     {         path: `${path}/resource-status`,         title: "'
+  orig_hits ['pages/clusters/containers/LogCollections/Detail/routes.js']
+  unpacked ['module-4008.js'] unnamed ['module-4008.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT pages/clusters/containers/Nodes/Detail/routes.js -> module-3948.js needle='/clusters/:cluster/nodes/:node' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/Nodes/Detail/routes.js
+    css False skip False named []
+    t []
+    importers [('module-3947.js', ['pages/clusters/nodes/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-821.js', ['?']), ('module-3949.js', ['?']), ('module-3956.js', ['?']), ('module-3957.js', ['?']), ('module-3958.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module821 from "./module-821.js"; import module3949 from "./mod'
+    RUNNING_STATUS 'RUNNING_STATUS",         component: module3949,         exact: true     },     {         path: `${path}/pods`,'
+  orig_hits ['pages/clusters/containers/Nodes/Detail/routes.js']
+  unpacked ['module-3948.js'] unnamed ['module-3948.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT pages/clusters/containers/Storage/Volumes/routes.js -> module-3720.js needle='/clusters/:cluster/volumes' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/Storage/Volumes/routes.js
+    css False skip False named []
+    t []
+    importers [('module-3719.js', ['pages/clusters/volumes.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-3721.js', ['?']), ('module-3723.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module3721 from "./module-3721.js"; import module3723 from "./m'
+  orig_hits ['pages/clusters/containers/Storage/Volumes/routes.js']
+  unpacked ['module-3720.js'] unnamed ['module-3720.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT pages/clusters/containers/Storage/VolumeSnapshots/routes.js -> module-3713.js needle='/clusters/:cluster/volume-snapshots' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/Storage/VolumeSnapshots/routes.js
+    css False skip False named []
+    t []
+    importers [('module-3712.js', ['pages/clusters/volume-snapshots.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-3714.js', ['pages/clusters/containers/Storage/VolumeSnapshots/Snapshots.js']), ('module-3717.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module3714 from "./module-3714.js"; import module3717 from "./m'
+    volume-snapshots 'volume-snapshots"; const c = [     {         path: `${path}/snapshots`,         title: "VOLUME_SNAPSHOT",     '
+  orig_hits ['pages/clusters/containers/Storage/VolumeSnapshots/routes.js']
+  unpacked ['module-3713.js'] unnamed ['module-3713.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT pages/clusters/containers/Monitor/Resource/routes.js -> module-3784.js needle='/clusters/:cluster/monitor-resource' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/Monitor/Resource/routes.js
+    css False skip False named []
+    t []
+    importers [('module-3783.js', ['pages/clusters/monitor-resource.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-3785.js', ['?']), ('module-3792.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module3785 from "./module-3785.js"; import module3792 from "./m'
+    monitor-resource 'monitor-resource"; const c = [     {         path: `${path}/usage`,         title: "RESOURCE_USAGE",         c'
+  orig_hits ['pages/clusters/containers/Monitor/Resource/routes.js']
+  unpacked ['module-3784.js'] unnamed ['module-3784.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT pages/clusters/containers/Monitor/Cluster/routes.js -> module-3752.js needle='/clusters/:cluster/monitor-cluster' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/Monitor/Cluster/routes.js
+    css False skip False named []
+    t []
+    importers [('module-3751.js', ['pages/clusters/monitor-cluster.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-3753.js', ['?']), ('module-3772.js', ['?']), ('module-3774.js', ['?']), ('module-3776.js', ['?']), ('module-3778.js', ['?']), ('module-3780.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module3753 from "./module-3753.js"; import module3772 from "./m'
+    monitor-cluster 'monitor-cluster"; const f = [     {         path: `${path}/overview`,         title: "OVERVIEW",         compo'
+  orig_hits ['pages/clusters/containers/Monitor/Cluster/routes.js']
+  unpacked ['module-3752.js'] unnamed ['module-3752.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT pages/console/components/Cards/Workspace.js -> module-1979.js needle='width-full' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/console/components/Cards/Workspace/index.jsx
+    css False skip False named []
+    t ['STATUS_INFORMATION', 'STATUS_VALUE', 'REASON_VALUE', 'MESSAGE_VALUE', 'VIEW_EVENTS', 'STRETCH_OBJECT_READY', 'TRIGGER_ACTIVE', 'RETRACTOR_FALLBACK']
+    importers [('module-4921.js', ['?']), ('module-4932.js', ['pages/projects/custom-scaling.js'])]
+    kids [('module-186.js', ['?']), ('module-4922.js', ['?'])]
+    width-full 'width-full">{t("VIEW_EVENTS")}</module186.Button></div> placement="right"><div className={module4922.container'
+  orig_hits ['pages/console/components/Cards/Workspace.js']
+  unpacked ['module-1979.js'] unnamed ['module-1979.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT pages/projects/containers/GrayRelease/Jobs/Item.js -> module-4713.js needle='REPLICA_COUNT_LOW' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/GrayRelease/Jobs/Item.jsx
+    css False skip False named []
+    t ['APP', 'RELEASE_MODE', 'SERVICE', 'VERSIONS', 'REPLICA_COUNT_LOW', 'TRAFFIC', 'TRAFFIC_IN_LAST_FIVE_MINUTES', 'SUCCESSFUL_REQUEST_RATE', 'REQUEST_LATENCY', 'TCP_INBOUND_TRAFFIC', 'TCP_OUTBOUND_TRAFFIC']
+    importers [('module-1908.js', ['pages/projects/grayrelease/jobs.js'])]
+    kids [('module-96.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-26.js', ['?']), ('module-553.js', ['?']), ('module-837.js', ['?']), ('module-186.js', ['?']), ('module-475.js', ['utils/service.js']), ('module-72.js', ['utils/constants.js']), ('module-4714.js', ['?']), ('module-1448.js', ['?'])]
+    REPLICA_COUNT_LOW 'REPLICA_COUNT_LOW")}: {module26(newHealth, "workloadStatus.available") || module26(newHealth, "workloadStatus.'
+  orig_hits ['pages/projects/containers/GrayRelease/Jobs/Item.js']
+  unpacked ['module-4713.js'] unnamed ['module-4713.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT pages/projects/containers/Services/Topology/Detail/Connections.js -> module-4609.js needle='connections' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/Services/Topology/Detail/Connections/index.jsx
+    css False skip False named []
+    t ['a']
+    importers [('module-4606.js', ['?'])]
+    kids [('module-31.js', ['?']), ('module-61.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-26.js', ['?']), ('module-63.js', ['?']), ('module-4610.js', ['?'])]
+    connections 'connections.map((e)=>({                         id: e.nodeId,                         label: {                '
+  orig_hits ['pages/projects/containers/Services/Topology/Detail/Connections.js']
+  unpacked ['module-4609.js'] unnamed ['module-4609.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT pages/projects/components/Modals/TracingDetail/SpanGraph/TimeRange.js -> module-4784.js needle='cursor-guide' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/components/Modals/TracingDetail/SpanGraph/TimeRange.jsx
+    css False skip False named []
+    t ['CLEAR']
+    importers [('module-4782.js', ['?'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-1022.js', ['utils/tracing.js']), ('module-1920.js', ['?'])]
+    cursor-guide 'cursor-guide"]\');                 }             }         },         {             key: "componentWillUnmount"'
+  orig_hits ['pages/projects/components/Modals/TracingDetail/SpanGraph/TimeRange.js']
+  unpacked ['module-4784.js'] unnamed ['module-4784.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT pages/apps/components/AppList.js -> module-1615.js needle='apps-title' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/apps/components/AppList/index.jsx
+    css False skip False named []
+    t ['NO_RESOURCE_FOUND', 'VIEW_MORE']
+    importers [('module-2638.js', ['?']), ('module-3093.js', ['pages/projects/components/Modals/RepoApp/Apps.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-1.js', ['?']), ('module-186.js', ['?']), ('module-3.js', ['?']), ('module-455.js', ['?']), ('module-433.js', ['?']), ('module-2639.js', ['components/Cards/App.js']), ('module-244.js', ['?']), ('module-2642.js', ['?'])]
+    apps-title 'apps-title">{title}</p>}{this.renderApps()}{isLoading && <div className={module2642.loading}><module186.Loadin'
+  orig_hits ['pages/apps/components/AppList.js']
+  unpacked ['module-1615.js'] unnamed ['module-1615.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT pages/fedprojects/containers/BaseInfo/ProjectInfo.js -> module-4959.js needle='PROJECT_NAME' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/fedprojects/containers/BaseInfo/ProjectInfo/index.jsx
+    css False skip False named []
+    t ['PROJECT_INFO', 'PROJECT_NAME', 'WORKSPACE', 'CREATOR', 'YYYY-MM-DD HH:mm:ss', 'CREATION_TIME']
+    importers [('module-4958.js', ['pages/fedprojects/base-info.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-186.js', ['?']), ('module-3.js', ['?']), ('module-790.js', ['components/Base/Panel.js']), ('module-791.js', ['components/Base/Text.js']), ('module-26.js', ['?']), ('module-63.js', ['?']), ('module-1215.js', ['?']), ('module-553.js', ['?']), ('module-433.js', ['?'])]
+    PROJECT_NAME 'PROJECT_NAME")} ellipsis/><div className={module3(module4960.item, "ellipsis")}><div><Link className="ellipsis'
+  orig_hits ['pages/fedprojects/containers/BaseInfo/ProjectInfo.js']
+  unpacked ['module-4959.js'] unnamed ['module-4959.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT pages/fedprojects/components/VolumeSetting/config.js -> module-3564.js needle='diffSettings' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/fedprojects/components/VolumeSetting/config.js
+    css False skip False named []
+    t []
+    importers [('module-3563.js', ['?'])]
+    kids [('module-52.js', ['utils/index.js']), ('module-1771.js', ['components/Forms/Volume/ClusterDiffSettings.js']), ('module-3565.js', ['?'])]
+    diffSettings 'diffSettings",             title: "CLUSTER_DIFF",             component: component_1         }     ],     stat'
+  orig_hits ['pages/fedprojects/components/VolumeSetting/config.js']
+  unpacked ['module-3564.js'] unnamed ['module-3564.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT pages/clusters/actions/cluster.js -> module-3651.js needle='_originData.spec.placement.clusters' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/actions/cluster.js
+    css False skip False named []
+    t ['return', 'UPDATE_SUCCESSFUL']
+    importers [('module-3650.js', ['?'])]
+    kids [('module-41.js', ['?']), ('module-44.js', ['?']), ('module-240.js', ['?']), ('module-788.js', ['components/Base/Modal.js']), ('module-26.js', ['?']), ('module-63.js', ['?']), ('module-3652.js', ['pages/clusters/components/Modals/ClusterVisibility.js']), ('module-445.js', ['stores/workspace.js'])]
+  orig_hits ['pages/clusters/actions/cluster.js']
+  unpacked ['module-3651.js'] unnamed ['module-3651.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT components/Cards/Containers/Item.js -> module-1219.js needle='RESTART' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/components/Cards/Containers/Item.jsx
+    css False skip False named []
+    t ['POSTSTART_ACTION', 'PRESTOP_ACTION', 'READINESS_PROBE', 'LIVENESS_PROBE', 'STARTUP_PROBE', 'INITIAL_DELAY_TIMEOUT_VALUE', 'CONTAINER_LOGS', 'TERMINAL', 'INIT_CONTAINER', 'PROBE_PL', 'HOOK_PL', 'IMAGE_VALUE', 'STATUS', 'RESTART_PL']
+    importers [('module-3838.js', ['components/Cards/Pods/Item.js']), ('module-3897.js', ['?']), ('module-4038.js', ['?']), ('module-4276.js', ['?'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-433.js', ['?']), ('module-1.js', ['?']), ('module-3.js', ['?']), ('module-159.js', ['?']), ('module-63.js', ['?']), ('module-186.js', ['?']), ('module-838.js', ['components/Base/Indicator.js']), ('module-453.js', ['utils/dom.js'])]
+    RESTART 'RESTART_PL") : t("RESTART")}</p></div><div className={module1809.text}><div>{module63(detail.ports) ? "-" : de'
+  orig_hits ['components/Cards/Containers/Item.js']
+  unpacked ['module-1219.js'] unnamed ['module-1219.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT components/Graph/Detail.js -> module-4759.js needle='ks-service-detail' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/components/Graph/Detail/index.jsx
+    css False skip False named []
+    t ['SERVICE', 'TRAFFIC_MONITORING', 'TRAFFIC_MANAGEMENT', 'POD_PL']
+    importers [('module-1914.js', ['?'])]
+    kids [('module-31.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-26.js', ['?']), ('module-553.js', ['?']), ('module-1.js', ['?']), ('module-3.js', ['?']), ('module-186.js', ['?']), ('module-4760.js', ['?']), ('module-4765.js', ['components/Graph/Detail/PolicyForm.js']), ('module-4769.js', ['?'])]
+  orig_hits ['components/Graph/Detail.js']
+  unpacked ['module-4759.js'] unnamed ['module-4759.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT components/Graph/App.js -> module-4755.js needle='service.length' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/components/Graph/App/index.jsx
+    css False skip False named []
+    t ['PODS']
+    importers [('module-1914.js', ['?'])]
+    kids [('module-31.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-1.js', ['?']), ('module-26.js', ['?']), ('module-321.js', ['?']), ('module-857.js', ['?']), ('module-3.js', ['?']), ('module-4756.js', ['components/Graph/Card.js']), ('module-4758.js', ['?'])]
+  orig_hits ['components/Graph/App.js']
+  unpacked ['module-4755.js'] unnamed ['module-4755.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT components/Tables/Visible.js -> module-1126.js needle='dataset.itemIndex' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/components/Tables/Visible/index.jsx
+    css False skip False named []
+    t ['CUSTOM_COLUMNS']
+    importers [('module-3406.js', ['components/Modals/LogSearch/Logging/Search.js']), ('module-3485.js', ['components/Modals/EventSearch/Event/Detail.js']), ('module-3495.js', ['components/Modals/AuditingSearch/Auditing/Detail.js']), ('module-4041.js', ['?']), ('module-4279.js', ['?'])]
+    kids [('module-65.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-88.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-49.js', ['?']), ('module-553.js', ['?']), ('module-3.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-159.js', ['?']), ('module-26.js', ['?'])]
+  orig_hits ['components/Tables/Visible.js']
+  unpacked ['module-1126.js'] unnamed ['module-1126.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== LIT components/Tables/Ranking.js -> module-987.js needle='props.store.sort_metric' ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/components/Tables/Ranking/index.jsx
+    css False skip False named []
+    t ['rootStore']
+    importers [('module-1790.js', ['?']), ('module-1796.js', ['?']), ('module-1801.js', ['?']), ('module-4163.js', ['?']), ('module-4290.js', ['?']), ('module-4538.js', ['?']), ('module-5206.js', ['?']), ('module-5212.js', ['?'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-239.js', ['?']), ('module-186.js', ['?']), ('module-3.js', ['?']), ('module-26.js', ['?']), ('module-3682.js', ['?'])]
+  orig_hits ['components/Tables/Ranking.js']
+  unpacked ['module-987.js'] unnamed ['module-987.js'] named []
+  in_mod True in_orig True ok_orig True unique_unp True already False
+  VERDICT NEW
+
+=== PARENT ALIAS via unique child ===
+
+=== PARENT_ALIAS pages/fedprojects/containers/Deployments/Detail.js == pages/fedprojects/deployments/Detail.js via unique child pages/fedprojects/containers/Deployments/Detail/routes.js->module-4995.js ===
+  named_parent_mod module-4994.js already ['pages/fedprojects/deployments/Detail.js']
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/fedprojects/containers/Deployments/Detail/index.jsx
+    css False skip False named ['pages/fedprojects/deployments/Detail.js']
+    t ['rootStore', 'EDIT_INFORMATION', 'EDIT_SETTINGS', 'EDIT_YAML', 'DELETE', 'PROJECT', 'APP', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'UPDATE_TIME_TCAP', 'CREATOR', 'DEPLOYMENT_PL']
+    importers [('module-4975.js', ['pages/fedprojects/detail-routes.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-186.js', ['?']), ('module-63.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-806.js', ['?']), ('module-553.js', ['?']), ('module-437.js', ['stores/federated.js']), ('module-318.js', ['stores/workload/index.js', 'stores/workload.js']), ('module-52.js', ['utils/index.js'])]
+    federatedprojects 'federatedprojects/${namespace}/${this.module}`;                 }                 return `/clusters/${cluster}'
+    DEPLOYMENT 'DEPLOYMENT_PL"),                             url: this.listUrl                         }                     ]'
+    css False skip False named []
+    t []
+    importers [('module-4994.js', ['pages/fedprojects/deployments/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-815.js', ['?']), ('module-821.js', ['?']), ('module-1983.js', ['?']), ('module-1985.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module815 from "./module-815.js"; import module821 from "./modu'
+    resource-status 'resource-status`,             title: "RESOURCE_STATUS",             component: module1983,             exact: '
+  unique_kid True up ['module-4994.js']
+  unique_orig_child_imp True oimps [('pages/fedprojects/containers/Deployments/Detail.js', './routes')]
+  unnamed_local ['pages/fedprojects/containers/Deployments/Detail/routes.js']
+  VERDICT ALIAS
+
+=== PARENT_ALIAS pages/fedprojects/containers/StatefulSets/Detail.js == pages/fedprojects/statefulsets/Detail.js via unique child pages/fedprojects/containers/StatefulSets/Detail/routes.js->module-5002.js ===
+  named_parent_mod module-5001.js already ['pages/fedprojects/statefulsets/Detail.js']
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/fedprojects/containers/StatefulSets/Detail/index.jsx
+    css False skip False named ['pages/fedprojects/statefulsets/Detail.js']
+    t ['rootStore', 'EDIT_INFORMATION', 'EDIT_SETTINGS', 'EDIT_YAML', 'DELETE', 'PROJECT', 'APP', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'CREATOR', 'STATEFULSET_PL']
+    importers [('module-4975.js', ['pages/fedprojects/detail-routes.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-186.js', ['?']), ('module-63.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-806.js', ['?']), ('module-553.js', ['?']), ('module-437.js', ['stores/federated.js']), ('module-318.js', ['stores/workload/index.js', 'stores/workload.js']), ('module-52.js', ['utils/index.js'])]
+    federatedprojects 'federatedprojects/${namespace}/${this.module}`;                 }                 return `/clusters/${cluster}'
+    css False skip False named []
+    t []
+    importers [('module-5001.js', ['pages/fedprojects/statefulsets/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-815.js', ['?']), ('module-821.js', ['?']), ('module-1985.js', ['?']), ('module-5003.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module815 from "./module-815.js"; import module821 from "./modu'
+    resource-status 'resource-status`,             title: "RESOURCE_STATUS",             component: module5003,             exact: '
+  unique_kid True up ['module-5001.js']
+  unique_orig_child_imp True oimps [('pages/fedprojects/containers/StatefulSets/Detail.js', './routes')]
+  unnamed_local ['pages/fedprojects/containers/StatefulSets/Detail/routes.js']
+  VERDICT ALIAS
+
+=== PARENT_ALIAS pages/fedprojects/containers/Services/Detail.js == pages/fedprojects/services/Detail.js via unique child pages/fedprojects/containers/Services/Detail/routes.js->module-5007.js ===
+  named_parent_mod module-5006.js already ['pages/fedprojects/services/Detail.js']
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/fedprojects/containers/Services/Detail/index.jsx
+    css False skip False named ['pages/fedprojects/services/Detail.js']
+    t ['rootStore', 'EDIT_INFORMATION', 'EDIT_SETTINGS', 'EDIT_YAML', 'DELETE', 'PROJECT', 'TYPE', 'CUSTOM_SERVICE', 'APP', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'UPDATE_TIME_TCAP', 'CREATOR']
+    importers [('module-4975.js', ['pages/fedprojects/detail-routes.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-186.js', ['?']), ('module-26.js', ['?']), ('module-63.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-806.js', ['?']), ('module-553.js', ['?']), ('module-437.js', ['stores/federated.js']), ('module-443.js', ['stores/service.js'])]
+    federatedprojects 'federatedprojects/${namespace}/${this.module}`;                 }                 return `/clusters/${cluster}'
+    css False skip False named []
+    t []
+    importers [('module-5006.js', ['pages/fedprojects/services/Detail.js'])]
+    kids [('module-61.js', ['?']), ('module-317.js', ['utils/router.config.js']), ('module-815.js', ['?']), ('module-821.js', ['?']), ('module-5008.js', ['?']), ('module-5010.js', ['pages/fedprojects/containers/Services/Detail/ServiceAccess.js'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module815 from "./module-815.js"; import module821 from "./modu'
+    resource-status 'resource-status`,             title: "RESOURCE_STATUS",             component: module5008,             exact: '
+  unique_kid True up ['module-5006.js']
+  unique_orig_child_imp True oimps [('pages/fedprojects/containers/Services/Detail.js', './routes')]
+  unnamed_local ['pages/fedprojects/containers/Services/Detail/routes.js']
+  VERDICT ALIAS
+
+=== PARENT_ALIAS pages/fedprojects/containers/Routes/Detail.js == pages/fedprojects/ingresses/Detail.js via unique child pages/fedprojects/containers/Routes/Detail/routes.js->module-5017.js ===
+  named_parent_mod module-5016.js already ['pages/fedprojects/ingresses/Detail.js']
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/fedprojects/containers/Routes/Detail/index.jsx
+    css False skip False named ['pages/fedprojects/ingresses/Detail.js']
+    t ['rootStore', 'EDIT_INFORMATION', 'EDIT_YAML', 'EDIT_ROUTING_RULES', 'EDIT_ANNOTATIONS', 'DELETE', 'PROJECT', 'APP', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'CREATOR']
+    importers [('module-4975.js', ['pages/fedprojects/detail-routes.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-186.js', ['?']), ('module-63.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-806.js', ['?']), ('module-553.js', ['?']), ('module-437.js', ['stores/federated.js']), ('module-918.js', ['stores/ingress.js']), ('module-52.js', ['utils/index.js'])]
+    federatedprojects 'federatedprojects/${namespace}/${this.module}`;                 }                 return `/clusters/${cluster}'
+    css False skip False named []
+    t []
+    importers [('module-5016.js', ['pages/fedprojects/ingresses/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-815.js', ['?']), ('module-821.js', ['?']), ('module-5018.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module815 from "./module-815.js"; import module821 from "./modu'
+    resource-status 'resource-status`,             title: "RESOURCE_STATUS",             component: module5018,             exact: '
+  unique_kid True up ['module-5016.js']
+  unique_orig_child_imp True oimps [('pages/fedprojects/containers/Routes/Detail.js', './routes')]
+  unnamed_local ['pages/fedprojects/containers/Routes/Detail/routes.js']
+  VERDICT ALIAS
+
+=== PARENT_ALIAS pages/fedprojects/containers/Secrets/Detail.js == pages/fedprojects/secrets/Detail.js via unique child pages/fedprojects/containers/Secrets/Detail/routes.js->module-5034.js ===
+  named_parent_mod module-5033.js already ['pages/fedprojects/secrets/Detail.js']
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/fedprojects/containers/Secrets/Detail/index.jsx
+    css False skip False named ['pages/fedprojects/secrets/Detail.js']
+    t ['rootStore', 'EDIT_INFORMATION', 'EDIT_YAML', 'EDIT_SETTINGS', 'DELETE', 'PROJECT', 'TYPE', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'UPDATE_TIME_TCAP', 'CREATOR', 'SECRET_PL']
+    importers [('module-4975.js', ['pages/fedprojects/detail-routes.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-186.js', ['?']), ('module-63.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-806.js', ['?']), ('module-553.js', ['?']), ('module-437.js', ['stores/federated.js']), ('module-52.js', ['utils/index.js']), ('module-792.js', ['utils/action.js'])]
+    federatedprojects 'federatedprojects/${namespace}/${this.module}`;                 }                 return `/clusters/${cluster}'
+    SECRET 'SECRET_TYPES } from "./module-72.js"; import module5034 from "./module-5034.js"; let o; const k = inject("root'
+    css False skip False named []
+    t []
+    importers [('module-5033.js', ['pages/fedprojects/secrets/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-5035.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import component from "./module-5035.js"; export default function(path'
+  unique_kid True up ['module-5033.js']
+  unique_orig_child_imp True oimps [('pages/fedprojects/containers/Secrets/Detail.js', './routes')]
+  unnamed_local ['pages/fedprojects/containers/Secrets/Detail/routes.js']
+  VERDICT ALIAS
+
+=== PARENT_ALIAS pages/fedprojects/containers/ConfigMaps/Detail.js == pages/fedprojects/configmaps/Detail.js via unique child pages/fedprojects/containers/ConfigMaps/Detail/routes.js->module-5038.js ===
+  named_parent_mod module-5037.js already ['pages/fedprojects/configmaps/Detail.js']
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/fedprojects/containers/ConfigMaps/Detail/index.jsx
+    css False skip False named ['pages/fedprojects/configmaps/Detail.js']
+    t ['rootStore', 'EDIT_INFORMATION', 'EDIT_YAML', 'EDIT_SETTINGS', 'DELETE', 'PROJECT', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'CREATOR', 'CONFIGMAP_PL']
+    importers [('module-4975.js', ['pages/fedprojects/detail-routes.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-186.js', ['?']), ('module-63.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-806.js', ['?']), ('module-553.js', ['?']), ('module-437.js', ['stores/federated.js']), ('module-52.js', ['utils/index.js']), ('module-792.js', ['utils/action.js'])]
+    federatedprojects 'federatedprojects/${namespace}/${this.module}`;                 }                 return `/clusters/${cluster}'
+    CONFIGMAP 'CONFIGMAP_PL"),                             url: this.listUrl                         }                     ] '
+    css False skip False named []
+    t []
+    importers [('module-5037.js', ['pages/fedprojects/configmaps/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-5039.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import component from "./module-5039.js"; export default function(path'
+  unique_kid True up ['module-5037.js']
+  unique_orig_child_imp True oimps [('pages/fedprojects/containers/ConfigMaps/Detail.js', './routes')]
+  unnamed_local ['pages/fedprojects/containers/ConfigMaps/Detail/routes.js']
+  VERDICT ALIAS
+
+=== PARENT_ALIAS pages/fedprojects/containers/Applications/Detail.js == pages/fedprojects/applications/Detail.js via unique child pages/fedprojects/containers/Applications/Detail/routes.js->module-4977.js ===
+  named_parent_mod module-4976.js already ['pages/fedprojects/applications/Detail.js']
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/fedprojects/containers/Applications/Detail/index.jsx
+    css False skip False named ['pages/fedprojects/applications/Detail.js']
+    t ['rootStore', 'EDIT_INFORMATION', 'ADD_SERVICE', 'DELETE', 'PROJECT', 'APP', 'VERSION', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'UPDATE_TIME_TCAP', 'CREATOR', 'APP_PL']
+    importers [('module-4975.js', ['pages/fedprojects/detail-routes.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-186.js', ['?']), ('module-26.js', ['?']), ('module-63.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-806.js', ['?']), ('module-553.js', ['?']), ('module-961.js', ['stores/application/crd.js']), ('module-437.js', ['stores/federated.js'])]
+    federatedprojects 'federatedprojects/${namespace}/${this.module}`;             }         },         {             key: "routing",'
+    css False skip False named []
+    t []
+    importers [('module-4976.js', ['pages/fedprojects/applications/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-4978.js', ['?']), ('module-4983.js', ['?']), ('module-4989.js', ['pages/fedprojects/containers/Applications/Detail/TrafficManangement.js']), ('module-4992.js', ['pages/fedprojects/containers/Applications/Detail/Tracing.js'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module4978 from "./module-4978.js"; import module4983 from "./m'
+    federatedprojects 'federatedprojects/:namespace/applications/:name"; const s = [     {         path: `${path}/components`,       '
+  unique_kid True up ['module-4976.js']
+  unique_orig_child_imp True oimps [('pages/fedprojects/containers/Applications/Detail.js', './routes')]
+  unnamed_local ['pages/fedprojects/containers/Applications/Detail/routes.js']
+  VERDICT ALIAS
+
+=== PARENT_ALIAS pages/clusters/containers/Nodes/Detail.js == pages/clusters/nodes/Detail.js via unique child pages/clusters/containers/Nodes/Detail/routes.js->module-3948.js ===
+  named_parent_mod module-3947.js already ['pages/clusters/nodes/Detail.js']
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/Nodes/Detail/index.jsx
+    css False skip False named ['pages/clusters/nodes/Detail.js']
+    t ['rootStore', 'UNCORDON', 'CORDON', 'EDIT_LABELS', 'LABEL_PL', 'EDIT_TAINTS', 'STATUS', 'IP_ADDRESS', 'ROLE', 'WORKER', 'CONTROL_PLANE', 'OS_VERSION', 'OS_TYPE', 'KERNEL_VERSION']
+    importers [('module-3824.js', ['pages/clusters/detail-routes.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-26.js', ['?']), ('module-63.js', ['?']), ('module-186.js', ['?']), ('module-52.js', ['utils/index.js']), ('module-444.js', ['utils/node.js']), ('module-792.js', ['utils/action.js'])]
+    CLUSTER_NODE 'CLUSTER_NODE_PL"),                             url: this.listUrl                         }                    '
+    css False skip False named []
+    t []
+    importers [('module-3947.js', ['pages/clusters/nodes/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-821.js', ['?']), ('module-3949.js', ['?']), ('module-3956.js', ['?']), ('module-3957.js', ['?']), ('module-3958.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module821 from "./module-821.js"; import module3949 from "./mod'
+    RUNNING_STATUS 'RUNNING_STATUS",         component: module3949,         exact: true     },     {         path: `${path}/pods`,'
+  unique_kid True up ['module-3947.js']
+  unique_orig_child_imp True oimps [('pages/clusters/containers/Nodes/Detail.js', './routes')]
+  unnamed_local ['pages/clusters/containers/Nodes/Detail/routes.js']
+  VERDICT ALIAS
+
+=== PARENT_ALIAS pages/clusters/containers/EdgeNodes/Detail.js == pages/clusters/edgenodes/Detail.js via unique child pages/clusters/containers/EdgeNodes/Detail/routes.js->module-3960.js ===
+  named_parent_mod module-3959.js already ['pages/clusters/edgenodes/Detail.js']
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/EdgeNodes/Detail/index.jsx
+    css False skip False named ['pages/clusters/edgenodes/Detail.js']
+    t ['rootStore', 'UNCORDON', 'CORDON', 'EDIT_LABELS', 'LABEL_PL', 'EDIT_TAINTS', 'STATUS', 'IP_ADDRESS', 'ROLE', 'OS_VERSION', 'OS_TYPE', 'KERNEL_VERSION', 'CONTAINER_RUNTIME', 'KUBELET_VERSION']
+    importers [('module-3824.js', ['pages/clusters/detail-routes.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-26.js', ['?']), ('module-63.js', ['?']), ('module-186.js', ['?']), ('module-52.js', ['utils/index.js']), ('module-444.js', ['utils/node.js']), ('module-792.js', ['utils/action.js'])]
+    edgenodes 'edgenodes";             }         },         {             key: "name",             get: function() {         '
+    css False skip False named []
+    t []
+    importers [('module-3959.js', ['pages/clusters/edgenodes/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-821.js', ['?']), ('module-3961.js', ['?']), ('module-3967.js', ['?']), ('module-3968.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module821 from "./module-821.js"; import module3961 from "./mod'
+    RUNNING_STATUS 'RUNNING_STATUS",         component: module3961,         exact: true     },     {         path: `${path}/pods`,'
+    edgenodes 'edgenodes/:node"; const s = [     {         path: `${path}/status`,         title: "RUNNING_STATUS",         c'
+  unique_kid True up ['module-3959.js']
+  unique_orig_child_imp True oimps [('pages/clusters/containers/EdgeNodes/Detail.js', './routes')]
+  unnamed_local ['pages/clusters/containers/EdgeNodes/Detail/routes.js']
+  VERDICT ALIAS
+
+=== PARENT_ALIAS pages/clusters/containers/CustomResources/Detail.js == pages/clusters/customresources/Detail.js via unique child pages/clusters/containers/CustomResources/Detail/routes.js->module-3999.js ===
+  named_parent_mod module-3998.js already ['pages/clusters/customresources/Detail.js']
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/CustomResources/Detail/index.jsx
+    css False skip False named ['pages/clusters/customresources/Detail.js']
+    t ['rootStore', 'CLUSTER', 'SCOPE_TCAP', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'CREATOR']
+    importers [('module-3824.js', ['pages/clusters/detail-routes.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-63.js', ['?']), ('module-186.js', ['?']), ('module-52.js', ['utils/index.js']), ('module-792.js', ['utils/action.js']), ('module-1069.js', ['stores/crd.js']), ('module-825.js', ['?'])]
+    customresources 'customresources`;             }         }     ]);     return n; })(Component)) || o) || o) || o; export defaul'
+    css False skip False named []
+    t []
+    importers [('module-3998.js', ['pages/clusters/customresources/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-4000.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import component from "./module-4000.js"; const path = "/clusters/:clu'
+    customresources 'customresources/:name"; const i = [     {         path: `${path}/resources`,         title: "RESOURCE_STATUS",'
+  unique_kid True up ['module-3998.js']
+  unique_orig_child_imp True oimps [('pages/clusters/containers/CustomResources/Detail.js', './routes')]
+  unnamed_local ['pages/clusters/containers/CustomResources/Detail/routes.js']
+  VERDICT ALIAS
+
+=== PARENT_ALIAS pages/clusters/containers/Roles/Detail.js == pages/clusters/roles/Detail.js via unique child pages/clusters/containers/Roles/Detail/routes.js->module-4003.js ===
+  named_parent_mod module-4002.js already ['pages/clusters/roles/Detail.js']
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/Roles/Detail/index.jsx
+    css False skip False named ['pages/clusters/roles/Detail.js']
+    t ['rootStore', 'EDIT_INFORMATION', 'EDIT_PERMISSIONS', 'DELETE', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'CREATOR', 'CLUSTER_ROLE_PL']
+    importers [('module-3824.js', ['pages/clusters/detail-routes.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-26.js', ['?']), ('module-63.js', ['?']), ('module-186.js', ['?']), ('module-52.js', ['utils/index.js']), ('module-792.js', ['utils/action.js']), ('module-441.js', ['stores/role.js'])]
+    css False skip False named []
+    t []
+    importers [('module-4002.js', ['pages/clusters/roles/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1073.js', ['pages/access/containers/Roles/Detail/AuthorizedUsers.js'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module1023 from "./module-1023.js"; import module1073 from "./m'
+  unique_kid True up ['module-4002.js']
+  unique_orig_child_imp True oimps [('pages/clusters/containers/Roles/Detail.js', './routes')]
+  unnamed_local ['pages/clusters/containers/Roles/Detail/routes.js']
+  VERDICT ALIAS
+
+=== PARENT_ALIAS pages/clusters/containers/LogCollections/Detail.js == pages/clusters/log-collections/Detail.js via unique child pages/clusters/containers/LogCollections/Detail/routes.js->module-4008.js ===
+  named_parent_mod module-4007.js already ['pages/clusters/log-collections/Detail.js']
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/LogCollections/Detail/index.jsx
+    css False skip False named ['pages/clusters/log-collections/Detail.js']
+    t ['rootStore', 'EDIT', 'CHANGE_STATUS', 'DELETE', 'EDIT_YAML', 'STATUS', 'ENABLED', 'DISABLED', '-', 'LOADING', 'LOG_RECEIVER_PL']
+    importers [('module-3824.js', ['pages/clusters/detail-routes.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-792.js', ['utils/action.js']), ('module-26.js', ['?']), ('module-239.js', ['?']), ('module-853.js', ['stores/secret.js']), ('module-825.js', ['?']), ('module-186.js', ['?']), ('module-1394.js', ['pages/clusters/containers/LogCollections/config.js']), ('module-4008.js', ['?'])]
+    changeStatus 'changeStatus",                     text: t("CHANGE_STATUS"),                     icon: "pin",                 '
+    log-collections 'log-collections/${this.component}`;             }         },         {             key: "routing",            '
+    css False skip False named []
+    t []
+    importers [('module-4007.js', ['pages/clusters/log-collections/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-4009.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import component from "./module-4009.js"; const path = "/clusters/:clu'
+    resource-status 'resource-status`,         title: "RESOURCE_STATUS",         component,         exact: true     },     getIndex'
+    log-collections 'log-collections/:component/:name"; const i = [     {         path: `${path}/resource-status`,         title: "'
+  unique_kid True up ['module-4007.js']
+  unique_orig_child_imp True oimps [('pages/clusters/containers/LogCollections/Detail.js', './routes')]
+  unnamed_local ['pages/clusters/containers/LogCollections/Detail/routes.js']
+  VERDICT ALIAS
+
+=== PARENT_ALIAS pages/clusters/containers/Projects/Detail.js == pages/clusters/projects/Detail.js via unique child pages/clusters/containers/Projects/Detail/routes.js->module-3971.js ===
+  named_parent_mod module-3969.js already ['pages/clusters/projects/Detail.js']
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/Projects/Detail/index.jsx
+    css False skip False named ['pages/clusters/projects/Detail.js']
+    t ['rootStore', 'EDIT_INFORMATION', 'EDIT_ANNOTATIONS', 'EDIT_PROJECT_QUOTAS', 'EDIT_DEFAULT_CONTAINER_QUOTAS', 'DELETE', 'STATUS', 'CLUSTER', 'WORKSPACE', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'CREATOR', 'PROJECT_PL']
+    importers [('module-3824.js', ['pages/clusters/detail-routes.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-186.js', ['?']), ('module-825.js', ['?']), ('module-796.js', ['components/Base/Status.js']), ('module-26.js', ['?']), ('module-63.js', ['?']), ('module-189.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-553.js', ['?'])]
+    css False skip False named []
+    t []
+    importers [('module-3969.js', ['pages/clusters/projects/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-821.js', ['?']), ('module-3972.js', ['?']), ('module-3981.js', ['?']), ('module-3982.js', ['?']), ('module-3984.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module821 from "./module-821.js"; import module3972 from "./mod'
+  unique_kid True up ['module-3969.js']
+  unique_orig_child_imp True oimps [('pages/clusters/containers/Projects/Detail.js', './routes')]
+  unnamed_local ['pages/clusters/containers/Projects/Detail/routes.js']
+  VERDICT ALIAS
+
+=== PARENT_ALIAS pages/clusters/containers/Storage/VolumeSnapshotClasses/Detail.js == pages/clusters/volume-snapshot-classes/Detail.js via unique child pages/clusters/containers/Storage/VolumeSnapshotClasses/Detail/routes.js->module-3938.js ===
+  named_parent_mod module-3937.js already ['pages/clusters/volume-snapshot-classes/Detail.js']
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/Storage/VolumeSnapshotClasses/Detail/index.jsx
+    css False skip False named ['pages/clusters/volume-snapshot-classes/Detail.js']
+    t ['rootStore', 'EDIT_INFORMATION', 'EDIT_YAML', 'DELETE', 'DETELE_VOLUME_SNAPSHOT_CLASS', 'PROVISIONER', 'DELETION_POLICY', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'VOLUME_SNAPSHOT_CLASS_PL']
+    importers [('module-3824.js', ['pages/clusters/detail-routes.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-63.js', ['?']), ('module-239.js', ['?']), ('module-186.js', ['?']), ('module-52.js', ['utils/index.js']), ('module-792.js', ['utils/action.js']), ('module-911.js', ['stores/volumeSnapshotClasses.js']), ('module-806.js', ['?']), ('module-3938.js', ['?'])]
+    css False skip False named []
+    t []
+    importers [('module-3937.js', ['pages/clusters/volume-snapshot-classes/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-3939.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import component from "./module-3939.js"; export default function(path'
+  unique_kid True up ['module-3937.js']
+  unique_orig_child_imp True oimps [('pages/clusters/containers/Storage/VolumeSnapshotClasses/Detail.js', './routes')]
+  unnamed_local ['pages/clusters/containers/Storage/VolumeSnapshotClasses/Detail/routes.js']
+  VERDICT ALIAS
+
+=== PARENT_ALIAS pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail.js == pages/clusters/volume-snapshot-content/Detail.js via unique child pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/routes.js->module-3934.js ===
+  named_parent_mod module-3933.js already ['pages/clusters/volume-snapshot-content/Detail.js']
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/index.jsx
+    css False skip False named ['pages/clusters/volume-snapshot-content/Detail.js']
+    t ['rootStore', 'VIEW_YAML', 'EDIT_INFORMATION', 'DELETE', 'STATUS', 'CAPACITY', 'VOLUME_SNAPSHOT_CLASS', 'SNAPSHOT_HANDLE', 'PROVISIONER', 'DELETION_POLICY', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'CREATOR', 'VOLUME_SNAPSHOT_CONTENT_PL']
+    importers [('module-3824.js', ['pages/clusters/detail-routes.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-63.js', ['?']), ('module-239.js', ['?']), ('module-186.js', ['?']), ('module-796.js', ['components/Base/Status.js']), ('module-52.js', ['utils/index.js']), ('module-792.js', ['utils/action.js']), ('module-1212.js', ['stores/volumeSnapshotContent.js']), ('module-806.js', ['?'])]
+    volume-snapshots 'volume-snapshots/${this.module}`;             }         }     ]);     return n; })(Component)) || i) || i) || '
+    SnapshotContent 'SnapshotContent } from "./module-472.js"; import module3934 from "./module-3934.js"; let i; const C = inject("'
+    css False skip False named []
+    t []
+    importers [('module-3933.js', ['pages/clusters/volume-snapshot-content/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-815.js', ['?']), ('module-821.js', ['?']), ('module-3935.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module815 from "./module-815.js"; import module821 from "./modu'
+    resource-status 'resource-status`,             title: "RESOURCE_STATUS",             exact: true,             component: module'
+  unique_kid True up ['module-3933.js']
+  unique_orig_child_imp True oimps [('pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail.js', './routes')]
+  unnamed_local ['pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/routes.js']
+  VERDICT ALIAS
+
+=== PARENT_ALIAS pages/workspaces/containers/Roles/Detail.js == pages/workspaces/roles/Detail.js via unique child pages/workspaces/containers/Roles/Detail/routes.js->module-4401.js ===
+  named_parent_mod module-4400.js already ['pages/workspaces/roles/Detail.js']
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/workspaces/containers/Roles/Detail/index.jsx
+    css False skip False named ['pages/workspaces/roles/Detail.js']
+    t ['rootStore', 'EDIT_INFORMATION', 'EDIT_PERMISSIONS', 'DELETE', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'CREATOR', 'WORKSPACE_ROLE_PL']
+    importers [('module-4393.js', ['pages/workspaces/detail-routes.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-63.js', ['?']), ('module-186.js', ['?']), ('module-52.js', ['utils/index.js']), ('module-792.js', ['utils/action.js']), ('module-441.js', ['stores/role.js']), ('module-900.js', ['?'])]
+    css False skip False named []
+    t []
+    importers [('module-4400.js', ['pages/workspaces/roles/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1073.js', ['pages/access/containers/Roles/Detail/AuthorizedUsers.js'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module1023 from "./module-1023.js"; import module1073 from "./m'
+  unique_kid True up ['module-4400.js']
+  unique_orig_child_imp True oimps [('pages/workspaces/containers/Roles/Detail.js', './routes')]
+  unnamed_local ['pages/workspaces/containers/Roles/Detail/routes.js']
+  VERDICT ALIAS
+
+=== IMPORTER (may fail until parent routes named; dump anyway) ===
+
+=== IMP pages/fedprojects/containers/ConfigMaps/Detail/ConfigDetail.js -> module-5039.js parent=pages/fedprojects/configmaps/Detail.js ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/fedprojects/containers/ConfigMaps/Detail/ConfigDetail/index.jsx
+  parent_mod module-5037.js parent_known True parent_names ['pages/fedprojects/configmaps/Detail.js']
+    css False skip False named []
+    t ['detailStore', 'DATA']
+    importers [('module-5038.js', ['?'])]
+    kids [('module-96.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-239.js', ['?']), ('module-802.js', ['components/Base/Card.js']), ('module-5040.js', ['?'])]
+  unique_named_parent False up [('module-5038.js', ['?'])]
+  orig_importers [('pages/fedprojects/containers/ConfigMaps/Detail/routes.js', './ConfigDetail')]
+  parent_unique_kids ['module-5038.js']
+  parent_js_locals [] unnamed_local []
+  VERDICT REJECT unique_orig False only_unique_kid False orig_only_match False unnamed_local []
+
+=== IMP pages/fedprojects/containers/Routes/Detail/ResourceStatus.js -> module-5018.js parent=pages/fedprojects/ingresses/Detail.js ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/fedprojects/containers/Routes/Detail/ResourceStatus/index.jsx
+  parent_mod module-5016.js parent_known True parent_names ['pages/fedprojects/ingresses/Detail.js']
+    css False skip False named []
+    t ['detailStore']
+    importers [('module-5017.js', ['?'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-321.js', ['?']), ('module-239.js', ['?']), ('module-186.js', ['?']), ('module-5019.js', ['?'])]
+  unique_named_parent False up [('module-5017.js', ['?'])]
+  orig_importers [('pages/fedprojects/containers/Routes/Detail/routes.js', './ResourceStatus')]
+  parent_unique_kids ['module-5017.js']
+  parent_js_locals [] unnamed_local []
+  VERDICT REJECT unique_orig False only_unique_kid False orig_only_match False unnamed_local []
+
+=== IMP pages/fedprojects/containers/StatefulSets/Detail/ResourceStatus.js -> module-5003.js parent=pages/fedprojects/statefulsets/Detail.js ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/fedprojects/containers/StatefulSets/Detail/ResourceStatus.jsx
+  parent_mod module-5001.js parent_known True parent_names ['pages/fedprojects/statefulsets/Detail.js']
+    css False skip False named []
+    t ['projectStore']
+    importers [('module-5002.js', ['?'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-239.js', ['?']), ('module-26.js', ['?']), ('module-1983.js', ['?']), ('module-437.js', ['stores/federated.js']), ('module-5004.js', ['?'])]
+  unique_named_parent False up [('module-5002.js', ['?'])]
+  orig_importers [('pages/fedprojects/containers/StatefulSets/Detail/routes.js', './ResourceStatus')]
+  parent_unique_kids ['module-5002.js']
+  parent_js_locals [] unnamed_local []
+  VERDICT REJECT unique_orig False only_unique_kid False orig_only_match False unnamed_local []
+
+=== IMP pages/fedprojects/containers/Secrets/Detail/SecretDetail.js -> module-5035.js parent=pages/fedprojects/secrets/Detail.js ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/fedprojects/containers/Secrets/Detail/SecretDetail/index.jsx
+  parent_mod module-5033.js parent_known True parent_names ['pages/fedprojects/secrets/Detail.js']
+    css False skip False named []
+    t ['detailStore', 'CREDENTIAL_SI', 'PRIVATE_KEY_TCAP', '.dockerconfigjson', 'DATA']
+    importers [('module-5034.js', ['?'])]
+    kids [('module-96.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-239.js', ['?']), ('module-186.js', ['?']), ('module-802.js', ['components/Base/Card.js']), ('module-26.js', ['?']), ('module-5036.js', ['?'])]
+  unique_named_parent False up [('module-5034.js', ['?'])]
+  orig_importers [('pages/fedprojects/containers/Secrets/Detail/routes.js', './SecretDetail')]
+  parent_unique_kids ['module-5034.js']
+  parent_js_locals [] unnamed_local []
+  VERDICT REJECT unique_orig False only_unique_kid False orig_only_match False unnamed_local []
+
+=== IMP pages/fedprojects/containers/Services/Detail/ResourceStatus.js -> module-5008.js parent=pages/fedprojects/services/Detail.js ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/fedprojects/containers/Services/Detail/ResourceStatus/index.jsx
+  parent_mod module-5006.js parent_known True parent_names ['pages/fedprojects/services/Detail.js']
+    css False skip False named []
+    t ['detailStore']
+    importers [('module-5007.js', ['?'])]
+    kids [('module-41.js', ['?']), ('module-44.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-26.js', ['?']), ('module-321.js', ['?']), ('module-136.js', ['?']), ('module-63.js', ['?'])]
+  unique_named_parent False up [('module-5007.js', ['?'])]
+  orig_importers [('pages/fedprojects/containers/Services/Detail/routes.js', './ResourceStatus')]
+  parent_unique_kids ['module-5007.js']
+  parent_js_locals [] unnamed_local []
+  VERDICT REJECT unique_orig False only_unique_kid False orig_only_match False unnamed_local []
+
+=== IMP pages/clusters/containers/CustomResources/Detail/ResourceStatus.js -> module-4000.js parent=pages/clusters/customresources/Detail.js ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/CustomResources/Detail/ResourceStatus/index.jsx
+  parent_mod module-3998.js parent_known True parent_names ['pages/clusters/customresources/Detail.js']
+    css False skip False named []
+    t ['rootStore', 'CUSTOM_RESOURCE_PL', 'EDIT_YAML', 'VIEW_YAML', 'DELETE', 'NAME', 'PROJECT_DEVOPS_PROJECT', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss']
+    importers [('module-3999.js', ['?'])]
+    kids [('module-61.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-789.js', ['components/Base/Avatar.js']), ('module-797.js', ['components/Tables/List.js']), ('module-52.js', ['utils/index.js']), ('module-792.js', ['utils/action.js']), ('module-1172.js', ['stores/crd.resource.js'])]
+  unique_named_parent False up [('module-3999.js', ['?'])]
+  orig_importers [('pages/clusters/containers/CustomResources/Detail/routes.js', './ResourceStatus')]
+  parent_unique_kids ['module-3999.js']
+  parent_js_locals [] unnamed_local []
+  VERDICT REJECT unique_orig False only_unique_kid False orig_only_match False unnamed_local []
+
+=== IMP pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent.js -> module-3717.js parent=pages/clusters/volume-snapshots.js ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/index.jsx
+  parent_mod module-3712.js parent_known True parent_names ['pages/clusters/volume-snapshots.js']
+    css False skip False named []
+    t ['NAME', 'STATUS', 'CAPACITY', 'VOLUME_SNAPSHOT_CLASS', 'DELETION_POLICY', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'EDIT_INFORMATION', 'VIEW_YAML', 'DELETE']
+    importers [('module-3713.js', ['?'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-794.js', ['components/HOCs/withList.js']), ('module-72.js', ['utils/constants.js']), ('module-797.js', ['components/Tables/List.js']), ('module-789.js', ['components/Base/Avatar.js']), ('module-796.js', ['components/Base/Status.js']), ('module-1212.js', ['stores/volumeSnapshotContent.js']), ('module-472.js', ['utils/volume.js']), ('module-63.js', ['?'])]
+    SnapshotContent 'SnapshotContent } from "./module-472.js"; import module63 from "./module-63.js"; import module26 from "./modul'
+  unique_named_parent False up [('module-3713.js', ['?'])]
+  orig_importers [('pages/clusters/containers/Storage/VolumeSnapshots/routes.js', './SnapshotContent')]
+  parent_unique_kids ['module-3713.js']
+  parent_js_locals [] unnamed_local []
+  VERDICT REJECT unique_orig False only_unique_kid False orig_only_match False unnamed_local []
+
+=== IMP pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/ResourceStatus.js -> module-3935.js parent=pages/clusters/volume-snapshot-content/Detail.js ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/ResourceStatus/index.jsx
+  parent_mod module-3933.js parent_known True parent_names ['pages/clusters/volume-snapshot-content/Detail.js']
+    css False skip False named []
+    t ['detailStore', 'div', 'span', 'NAME', 'VOLUME_SNAPSHOT_CLASS', 'VOLUME_SNAPSHOT_PL']
+    importers [('module-3934.js', ['?'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-239.js', ['?']), ('module-186.js', ['?']), ('module-790.js', ['components/Base/Panel.js']), ('module-915.js', ['stores/volumeSnapshot.js']), ('module-472.js', ['utils/volume.js']), ('module-63.js', ['?']), ('module-3936.js', ['?'])]
+    SnapshotContent 'SnapshotContent } from "./module-472.js"; import module63 from "./module-63.js"; import module3936 from "./mod'
+  unique_named_parent False up [('module-3934.js', ['?'])]
+  orig_importers [('pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/routes.js', './ResourceStatus')]
+  parent_unique_kids ['module-3934.js']
+  parent_js_locals [] unnamed_local []
+  VERDICT REJECT unique_orig False only_unique_kid False orig_only_match False unnamed_local []
+
+=== IMP pages/clusters/containers/Storage/VolumeSnapshotClasses/Detail/VolumeSnapshot.js -> module-3939.js parent=pages/clusters/volume-snapshot-classes/Detail.js ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/Storage/VolumeSnapshotClasses/Detail/VolumeSnapshot/index.jsx
+  parent_mod module-3937.js parent_known True parent_names ['pages/clusters/volume-snapshot-classes/Detail.js']
+    css False skip False named []
+    t ['detailStore', 'NAME', 'STATUS', 'READY', 'UNREADY', 'CAPACITY', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'VOLUME_SNAPSHOT_PL', 'NO_AVAILABLE_RESOURCE_VALUE', 'VOLUME_SNAPSHOT', 'SEARCH_BY_NAME']
+    importers [('module-3938.js', ['?'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-239.js', ['?']), ('module-52.js', ['utils/index.js']), ('module-915.js', ['stores/volumeSnapshot.js']), ('module-789.js', ['components/Base/Avatar.js']), ('module-790.js', ['components/Base/Panel.js']), ('module-796.js', ['components/Base/Status.js']), ('module-874.js', ['components/Tables/Base.js']), ('module-3940.js', ['?'])]
+    volume-snapshots 'volume-snapshots/${e}`} desc={t.snapshotClassName} noLink/>;                     }                 },         '
+  unique_named_parent False up [('module-3938.js', ['?'])]
+  orig_importers [('pages/clusters/containers/Storage/VolumeSnapshotClasses/Detail/routes.js', './VolumeSnapshot')]
+  parent_unique_kids ['module-3938.js']
+  parent_js_locals [] unnamed_local []
+  VERDICT REJECT unique_orig False only_unique_kid False orig_only_match False unnamed_local []
+
+=== IMP pages/clusters/containers/LogCollections/Detail/Configuration.js -> module-4009.js parent=pages/clusters/log-collections/Detail.js ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/LogCollections/Detail/Configuration/index.jsx
+  parent_mod module-4007.js parent_known True parent_names ['pages/clusters/log-collections/Detail.js']
+    css False skip False named []
+    t ['detailStore', '-', 'TOPIC', 'ADDRESS', 'INDEX_PREFIX']
+    importers [('module-4008.js', ['?'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-239.js', ['?']), ('module-26.js', ['?']), ('module-790.js', ['components/Base/Panel.js']), ('module-1217.js', ['?']), ('module-4010.js', ['?'])]
+  unique_named_parent False up [('module-4008.js', ['?'])]
+  orig_importers [('pages/clusters/containers/LogCollections/Detail/routes.js', './Configuration')]
+  parent_unique_kids ['module-4008.js']
+  parent_js_locals [] unnamed_local []
+  VERDICT REJECT unique_orig False only_unique_kid False orig_only_match False unnamed_local []
+
+=== IMP pages/projects/containers/Services/Topology/Detail/Table.js parent pages/projects/containers/Services/Topology/Detail/Connections.js NOT IN PAIRS ===
+    css False skip False named []
+    t ['table', 'thead', 'tr', 'th', 'tbody', 'td']
+    importers [('module-4609.js', ['?'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-446.js', ['?']), ('module-63.js', ['?']), ('module-553.js', ['?']), ('module-186.js', ['?']), ('module-795.js', ['utils/monitoring.js']), ('module-4611.js', ['?'])]
+
+=== IMP pages/fedprojects/components/VolumeSetting/VolumeSettingForm.js parent pages/fedprojects/components/VolumeSetting/config.js NOT IN PAIRS ===
+    css False skip False named []
+    t ['CREATE_VOLUME_BY_SNAPSHOT', 'SELECT_SNAPSHOT_TO_CREATE_VOLUME', 'CREATE_VOLUME_BY_STORAGE_CLASS', 'SELECT_STORAGE_CLASS_CREATE_VOLUME', 'CREATION_METHOD']
+    importers [('module-3564.js', ['?'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-26.js', ['?']), ('module-186.js', ['?']), ('module-818.js', ['components/Base/TypeSelect.js']), ('module-1100.js', ['components/Forms/Volume/VolumeSettings/FormTemplate.js']), ('module-1772.js', ['components/Forms/Volume/VolumeSettings/SnapshotForm.js']), ('module-1773.js', ['components/Forms/Volume/VolumeSettings.js'])]
+
+=== EXPECTED REJECT ===
+
+--- reject dump pages/clusters/containers/LogCollections/Detail/index.scss ---
+    css False skip False named []
+    t []
+    importers [('module-4007.js', ['pages/clusters/log-collections/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-4009.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import component from "./module-4009.js"; const path = "/clusters/:clu'
+    resource-status 'resource-status`,         title: "RESOURCE_STATUS",         component,         exact: true     },     getIndex'
+    log-collections 'log-collections/:component/:name"; const i = [     {         path: `${path}/resource-status`,         title: "'
+  orig_importers [('pages/clusters/containers/LogCollections/Detail.js', './index.scss')]
+
+--- reject dump components/DiffYaml.js ---
+    css False skip False named []
+    t ['div', 'span']
+    importers [('module-1071.js', ['pages/projects/containers/Deployments/Detail/RevisionControl.js'])]
+    kids [('module-96.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-1.js', ['?']), ('module-837.js', ['?']), ('module-186.js', ['?']), ('module-1816.js', ['?']), ('module-5776.js', ['?']), ('module-3858.js', ['?'])]
+  orig_importers [('pages/projects/containers/Deployments/Detail/RevisionControl.js', 'components/DiffYaml')]
+
+--- reject dump pages/devops/components/PipelineStatus.js ---
+    css False skip False named []
+    t []
+    importers [('module-5091.js', ['pages/devops/containers/Pipelines/Detail/TaskStatus.js'])]
+    kids [('module-65.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-88.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-49.js', ['?']), ('module-553.js', ['?']), ('module-239.js', ['?']), ('module-63.js', ['?']), ('module-14.js', ['?']), ('module-1.js', ['?']), ('module-1170.js', ['components/Base/Dragger.js'])]
+  orig_importers [('pages/devops/containers/Pipelines/Detail/TaskStatus.js', 'devops/components/PipelineStatus')]
+
+--- reject dump pages/workspaces/containers/Apps/Detail/AppInstances.js ---
+    css False skip False named []
+    t ['workspaceStore']
+    importers [('module-4403.js', ['pages/workspaces/containers/Apps/Detail/routes.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-239.js', ['?']), ('module-1869.js', ['?'])]
+  orig_importers [('pages/workspaces/containers/Apps/Detail/routes.js', './AppInstances')]
+
+--- reject dump components/Modals/LogCollectionCreate/config.js ---
+    css False skip False named ['pages/settings/license-info.js']
+    t ['rootStore', 'div', 'AUTHORIZED_ORGANIZATION', 'ACTIVATION_TYPE', 'AUTHORIZED_STATUS', 'YYYY-MM-DD', 'ACTIVATION_TIME', 'FEATURE', 'p', 'STATUS', 'AUTHORIZED_FEATURES', 'span', 'PLATFORM_FEATURES', 'RADON_DB_FEATURES']
+    importers [('module-5123.js', ['pages/settings/routes.js'])]
+    kids [('module-31.js', ['?']), ('module-41.js', ['?']), ('module-44.js', ['?']), ('module-65.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-88.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-49.js', ['?']), ('module-553.js', ['?']), ('module-790.js', ['components/Base/Panel.js']), ('module-789.js', ['components/Base/Avatar.js'])]
+    OpenSearch 'OpenSearch",                         name: "OpenSearch"                     },                     {          '
+  orig_importers []
+
+--- reject dump pages/clusters/containers/LogCollections/Detail.js ---
+    css False skip False named ['pages/whizard-telemetry/log-collections/Detail.js']
+    t ['rootStore', 'EDIT', 'CHANGE_STATUS', 'DELETE', 'EDIT_YAML', 'STATUS', 'ENABLED', 'DISABLED', 'LOADING', 'LOG_RECEIVER_PL']
+    importers [('module-4173.js', ['pages/whizard-telemetry/detail-routes.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-792.js', ['utils/action.js']), ('module-26.js', ['?']), ('module-239.js', ['?']), ('module-1848.js', ['stores/logging/collection/output.js']), ('module-825.js', ['?']), ('module-186.js', ['?']), ('module-1849.js', ['?']), ('module-4256.js', ['?'])]
+    changeStatus 'changeStatus",                     text: t("CHANGE_STATUS"),                     icon: "pin",                 '
+    log-collections 'log-collections/${this.component}`;             }         },         {             key: "routing",            '
+  orig_importers [('pages/clusters/routes/detail.js', '../containers/LogCollections/Detail')]
+
+--- reject dump pages/clusters/containers/Monitor/Resource.js ---
+    css False skip False named ['pages/whizard-telemetry/monitor-resource.js']
+    t ['rootStore', 'APPLICATION_RESOURCE_PL', 'MONITORING_APPLICATION_DESC', '/']
+    importers [('module-4043.js', ['pages/whizard-telemetry/routes.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-239.js', ['?']), ('module-317.js', ['utils/router.config.js']), ('module-793.js', ['?']), ('module-4153.js', ['?'])]
+  orig_importers [('pages/clusters/routes.js', '../containers/Monitor/Resource')]
+
+--- reject dump pages/clusters/containers/Monitor/Cluster.js ---
+    css False skip False named ['pages/whizard-telemetry/monitor-cluster.js']
+    t ['rootStore', 'CLUSTER_STATUS', 'MONITORING_CLUSTER_DESC', '/']
+    importers [('module-4043.js', ['pages/whizard-telemetry/routes.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-239.js', ['?']), ('module-186.js', ['?']), ('module-793.js', ['?']), ('module-317.js', ['utils/router.config.js']), ('module-884.js', ['?']), ('module-4138.js', ['?'])]
+  orig_importers [('pages/clusters/routes.js', '../containers/Monitor/Cluster')]
+
+--- reject dump components/Base/Slider.js ---
+    css False skip False named []
+    t ['div', ' ', 'style', 'Event', 'span', 'KUBE_SUN', 'KUBE_MON', 'KUBE_TUE', 'KUBE_WED', 'KUBE_THU', 'KUBE_FRI', 'KUBE_SAT', 'KUBE_SUNDAY', 'KUBE_MONDAY']
+    importers [('module-1002.js', ['components/Base/Markdown.js']), ('module-1029.js', ['?']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js']), ('module-1046.js', ['?']), ('module-1049.js', ['components/Inputs/AnnotationsInput.js']), ('module-1050.js', ['components/Forms/Workload/ClusterDiffSettings/EditForm.js']), ('module-1058.js', ['components/Inputs/UrlInput.js']), ('module-1059.js', ['components/Inputs/BoxInput.js'])]
+    kids [('module-349.js', ['?']), ('module-553.js', ['?']), ('module-1.js', ['?']), ('module-3.js', ['?']), ('module-2.js', ['?']), ('module-311.js', ['?']), ('module-106.js', ['?']), ('module-380.js', ['?']), ('module-559.js', ['?']), ('module-560.js', ['?']), ('module-185.js', ['?']), ('module-238.js', ['?'])]
+  orig_importers [('components/Base.js', './Slider')]
+
+=== ALIAS CANDIDATES ===
+
+=== ALIAS pages/devops/routes/detail.js -> module-5070.js needle='/:workspace/clusters/:cluster/devops' already=['pages/devops/detail-routes.js'] ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/devops/routes/detail.js
+    css False skip False named ['pages/devops/detail-routes.js']
+    t []
+    importers [('module-5041.js', ['pages/devops/routes.js'])]
+    kids [('module-5071.js', ['pages/devops/roles/Detail.js', 'pages/devops/containers/Roles/Detail.js']), ('module-5073.js', ['pages/devops/credentials/Detail.js', 'pages/devops/containers/Credential/detail.js']), ('module-5078.js', ['pages/devops/pipelines/Detail.js']), ('module-5119.js', ['pages/devops/cd/Detail.js', 'pages/devops/containers/CD/detail.js'])]
+  orig_hits ['pages/devops/routes/detail.js']
+  unpacked ['module-5070.js'] unnamed [] named [('module-5070.js', ['pages/devops/detail-routes.js'])]
+  unique_named True in_mod True in_orig True ok_orig True
+  VERDICT ALIAS
+
+=== ALIAS pages/devops/containers/CD/CDList.js -> module-5055.js needle='/assets/cd/unknown.svg' already=['pages/devops/cd.js'] ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/devops/containers/CD/CDList/index.jsx
+    css False skip False named ['pages/devops/cd.js']
+    t ['CREATE_CONTINUOUS_DEPLOYMENT', 'SYNC_RESOURCE', 'NAME', 'HEALTH_STATUS', 'SYNC_STATUS', 'DEPLOY_LOCATION', 'UPDATE_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'DELETE', 'EDIT_INFORMATION', 'EDIT_YAML', 'SYNC']
+    importers [('module-5041.js', ['pages/devops/routes.js'])]
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-49.js', ['?']), ('module-789.js', ['components/Base/Avatar.js']), ('module-793.js', ['?']), ('module-794.js', ['components/HOCs/withList.js']), ('module-797.js', ['components/Tables/List.js']), ('module-26.js', ['?']), ('module-189.js', ['?']), ('module-241.js', ['?']), ('module-14.js', ['?'])]
+    DEPLOYMENT 'DEPLOYMENT",     rowKey: "name",     authKey: "applications" })((c = ((Component_1)=>{     module55(n, Compone'
+  orig_hits ['pages/devops/containers/CD/CDList.js']
+  unpacked ['module-5055.js'] unnamed [] named [('module-5055.js', ['pages/devops/cd.js'])]
+  unique_named True in_mod True in_orig True ok_orig True
+  VERDICT ALIAS
+
+=== ALIAS pages/workspaces/routes/overview.js -> module-4441.js needle='/workspaces/:workspace/overview' already=['pages/workspaces/overview/routes.js'] ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/workspaces/routes/overview.js
+    css False skip False named ['pages/workspaces/overview/routes.js']
+    t []
+    importers [('module-4353.js', ['pages/workspaces/routes.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-4442.js', ['pages/workspaces/overview/Layout.js']), ('module-4444.js', ['pages/workspaces/overview/usage.js']), ('module-4452.js', ['pages/workspaces/overview/ranking.js', 'pages/workspaces/containers/Overview/UsageRanking.js']), ('module-4454.js', ['pages/workspaces/overview/clusters.js'])]
+  orig_hits ['pages/workspaces/routes/overview.js']
+  unpacked ['module-4441.js'] unnamed [] named [('module-4441.js', ['pages/workspaces/overview/routes.js'])]
+  unique_named True in_mod True in_orig True ok_orig True
+  VERDICT ALIAS
+
+=== ALIAS pages/devops/containers/Base/List.js -> module-5043.js needle='management' already=['pages/devops/inner.js'] ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/devops/containers/Base/List/index.jsx
+    css False skip False named ['pages/devops/inner.js']
+    t ['rootStore', 'div', 'DEVOPS_PROJECT_LOW']
+    importers [('module-5041.js', ['pages/devops/routes.js'])]
+    kids [('module-61.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-186.js', ['?']), ('module-1075.js', ['components/Layout/index.js']), ('module-26.js', ['?']), ('module-239.js', ['?']), ('module-5044.js', ['?']), ('module-553.js', ['?']), ('module-317.js', ['utils/router.config.js']), ('module-5052.js', ['?'])]
+    getIndexRoute 'getIndexRoute, renderRoutes } from "./module-317.js"; import module5052 from "./module-5052.js"; let i; const '
+  orig_hits ['pages/devops/containers/Base/List.js']
+  unpacked ['module-5043.js'] unnamed [] named [('module-5043.js', ['pages/devops/inner.js'])]
+  unique_named True in_mod True in_orig True ok_orig True
+  VERDICT ALIAS
+
+=== kids of candidate route modules ===
+
+--- ROUTE pages/fedprojects/containers/ConfigMaps/Detail/routes.js -> module-5038.js ---
+    css False skip False named []
+    t []
+    importers [('module-5037.js', ['pages/fedprojects/configmaps/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-5039.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import component from "./module-5039.js"; export default function(path'
+  unnamed_local ['pages/fedprojects/containers/ConfigMaps/Detail/ConfigDetail.js'] unique_kids ['module-5039.js']
+  child pages/fedprojects/containers/ConfigMaps/Detail/ConfigDetail.js unique_orig True oimps [('pages/fedprojects/containers/ConfigMaps/Detail/routes.js', './ConfigDetail')] VERDICT NEW
+
+--- ROUTE pages/fedprojects/containers/Routes/Detail/routes.js -> module-5017.js ---
+    css False skip False named []
+    t []
+    importers [('module-5016.js', ['pages/fedprojects/ingresses/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-815.js', ['?']), ('module-821.js', ['?']), ('module-5018.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module815 from "./module-815.js"; import module821 from "./modu'
+    resource-status 'resource-status`,             title: "RESOURCE_STATUS",             component: module5018,             exact: '
+  unnamed_local ['pages/fedprojects/containers/Routes/Detail/ResourceStatus.js'] unique_kids ['module-5018.js']
+  child pages/fedprojects/containers/Routes/Detail/ResourceStatus.js unique_orig True oimps [('pages/fedprojects/containers/Routes/Detail/routes.js', './ResourceStatus')] VERDICT NEW
+
+--- ROUTE pages/fedprojects/containers/StatefulSets/Detail/routes.js -> module-5002.js ---
+    css False skip False named []
+    t []
+    importers [('module-5001.js', ['pages/fedprojects/statefulsets/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-815.js', ['?']), ('module-821.js', ['?']), ('module-1985.js', ['?']), ('module-5003.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module815 from "./module-815.js"; import module821 from "./modu'
+    resource-status 'resource-status`,             title: "RESOURCE_STATUS",             component: module5003,             exact: '
+  unnamed_local ['pages/fedprojects/containers/StatefulSets/Detail/ResourceStatus.js'] unique_kids ['module-5003.js']
+  child pages/fedprojects/containers/StatefulSets/Detail/ResourceStatus.js unique_orig True oimps [('pages/fedprojects/containers/StatefulSets/Detail/routes.js', './ResourceStatus')] VERDICT NEW
+
+--- ROUTE pages/fedprojects/containers/Secrets/Detail/routes.js -> module-5034.js ---
+    css False skip False named []
+    t []
+    importers [('module-5033.js', ['pages/fedprojects/secrets/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-5035.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import component from "./module-5035.js"; export default function(path'
+  unnamed_local ['pages/fedprojects/containers/Secrets/Detail/SecretDetail.js'] unique_kids ['module-5035.js']
+  child pages/fedprojects/containers/Secrets/Detail/SecretDetail.js unique_orig True oimps [('pages/fedprojects/containers/Secrets/Detail/routes.js', './SecretDetail')] VERDICT NEW
+
+--- ROUTE pages/fedprojects/containers/Services/Detail/routes.js -> module-5007.js ---
+    css False skip False named []
+    t []
+    importers [('module-5006.js', ['pages/fedprojects/services/Detail.js'])]
+    kids [('module-61.js', ['?']), ('module-317.js', ['utils/router.config.js']), ('module-815.js', ['?']), ('module-821.js', ['?']), ('module-5008.js', ['?']), ('module-5010.js', ['pages/fedprojects/containers/Services/Detail/ServiceAccess.js'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module815 from "./module-815.js"; import module821 from "./modu'
+    resource-status 'resource-status`,             title: "RESOURCE_STATUS",             component: module5008,             exact: '
+  unnamed_local ['pages/fedprojects/containers/Services/Detail/ResourceStatus.js'] unique_kids ['module-5008.js']
+  child pages/fedprojects/containers/Services/Detail/ResourceStatus.js unique_orig True oimps [('pages/fedprojects/containers/Services/Detail/routes.js', './ResourceStatus')] VERDICT NEW
+
+--- ROUTE pages/fedprojects/containers/Applications/Detail/routes.js -> module-4977.js ---
+    css False skip False named []
+    t []
+    importers [('module-4976.js', ['pages/fedprojects/applications/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-4978.js', ['?']), ('module-4983.js', ['?']), ('module-4989.js', ['pages/fedprojects/containers/Applications/Detail/TrafficManangement.js']), ('module-4992.js', ['pages/fedprojects/containers/Applications/Detail/Tracing.js'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module4978 from "./module-4978.js"; import module4983 from "./m'
+    federatedprojects 'federatedprojects/:namespace/applications/:name"; const s = [     {         path: `${path}/components`,       '
+  unnamed_local ['pages/fedprojects/containers/Applications/Detail/AppComponents.js', 'pages/fedprojects/containers/Applications/Detail/AppIngresses.js'] unique_kids ['module-4978.js', 'module-4983.js']
+
+--- ROUTE pages/clusters/containers/CustomResources/Detail/routes.js -> module-3999.js ---
+    css False skip False named []
+    t []
+    importers [('module-3998.js', ['pages/clusters/customresources/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-4000.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import component from "./module-4000.js"; const path = "/clusters/:clu'
+    customresources 'customresources/:name"; const i = [     {         path: `${path}/resources`,         title: "RESOURCE_STATUS",'
+  unnamed_local ['pages/clusters/containers/CustomResources/Detail/ResourceStatus.js'] unique_kids ['module-4000.js']
+  child pages/clusters/containers/CustomResources/Detail/ResourceStatus.js unique_orig True oimps [('pages/clusters/containers/CustomResources/Detail/routes.js', './ResourceStatus')] VERDICT NEW
+
+--- ROUTE pages/clusters/containers/Storage/VolumeSnapshots/routes.js -> module-3713.js ---
+    css False skip False named []
+    t []
+    importers [('module-3712.js', ['pages/clusters/volume-snapshots.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-3714.js', ['pages/clusters/containers/Storage/VolumeSnapshots/Snapshots.js']), ('module-3717.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module3714 from "./module-3714.js"; import module3717 from "./m'
+    volume-snapshots 'volume-snapshots"; const c = [     {         path: `${path}/snapshots`,         title: "VOLUME_SNAPSHOT",     '
+  unnamed_local ['pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent.js'] unique_kids ['module-3717.js']
+  child pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent.js unique_orig True oimps [('pages/clusters/containers/Storage/VolumeSnapshots/routes.js', './SnapshotContent')] VERDICT NEW
+
+--- ROUTE pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/routes.js -> module-3934.js ---
+    css False skip False named []
+    t []
+    importers [('module-3933.js', ['pages/clusters/volume-snapshot-content/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-815.js', ['?']), ('module-821.js', ['?']), ('module-3935.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import module815 from "./module-815.js"; import module821 from "./modu'
+    resource-status 'resource-status`,             title: "RESOURCE_STATUS",             exact: true,             component: module'
+  unnamed_local ['pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/ResourceStatus.js'] unique_kids ['module-3935.js']
+  child pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/ResourceStatus.js unique_orig True oimps [('pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/routes.js', './ResourceStatus')] VERDICT NEW
+
+--- ROUTE pages/clusters/containers/Storage/VolumeSnapshotClasses/Detail/routes.js -> module-3938.js ---
+    css False skip False named []
+    t []
+    importers [('module-3937.js', ['pages/clusters/volume-snapshot-classes/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-3939.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import component from "./module-3939.js"; export default function(path'
+  unnamed_local ['pages/clusters/containers/Storage/VolumeSnapshotClasses/Detail/VolumeSnapshot.js'] unique_kids ['module-3939.js']
+  child pages/clusters/containers/Storage/VolumeSnapshotClasses/Detail/VolumeSnapshot.js unique_orig True oimps [('pages/clusters/containers/Storage/VolumeSnapshotClasses/Detail/routes.js', './VolumeSnapshot')] VERDICT NEW
+
+--- ROUTE pages/clusters/containers/LogCollections/Detail/routes.js -> module-4008.js ---
+    css False skip False named []
+    t []
+    importers [('module-4007.js', ['pages/clusters/log-collections/Detail.js'])]
+    kids [('module-317.js', ['utils/router.config.js']), ('module-4009.js', ['?'])]
+    getIndexRoute 'getIndexRoute } from "./module-317.js"; import component from "./module-4009.js"; const path = "/clusters/:clu'
+    resource-status 'resource-status`,         title: "RESOURCE_STATUS",         component,         exact: true     },     getIndex'
+    log-collections 'log-collections/:component/:name"; const i = [     {         path: `${path}/resource-status`,         title: "'
+  unnamed_local ['pages/clusters/containers/LogCollections/Detail/Configuration.js'] unique_kids ['module-4009.js']
+  child pages/clusters/containers/LogCollections/Detail/Configuration.js unique_orig True oimps [('pages/clusters/containers/LogCollections/Detail/routes.js', './Configuration')] VERDICT NEW
+
+--- ROUTE pages/fedprojects/components/VolumeSetting/config.js -> module-3564.js ---
+    css False skip False named []
+    t []
+    importers [('module-3563.js', ['?'])]
+    kids [('module-52.js', ['utils/index.js']), ('module-1771.js', ['components/Forms/Volume/ClusterDiffSettings.js']), ('module-3565.js', ['?'])]
+    diffSettings 'diffSettings",             title: "CLUSTER_DIFF",             component: component_1         }     ],     stat'
+  unnamed_local ['pages/fedprojects/components/VolumeSetting/VolumeSettingForm.js'] unique_kids ['module-3565.js']
+  child pages/fedprojects/components/VolumeSetting/VolumeSettingForm.js unique_orig True oimps [('pages/fedprojects/components/VolumeSetting/config.js', './VolumeSettingForm')] VERDICT NEW
+
+--- ROUTE pages/projects/containers/Services/Topology/Detail/Connections.js -> module-4609.js ---
+    css False skip False named []
+    t ['a']
+    importers [('module-4606.js', ['?'])]
+    kids [('module-31.js', ['?']), ('module-61.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-26.js', ['?']), ('module-63.js', ['?']), ('module-4610.js', ['?'])]
+    connections 'connections.map((e)=>({                         id: e.nodeId,                         label: {                '
+  unnamed_local ['pages/projects/containers/Services/Topology/Detail/Table.js'] unique_kids ['module-4610.js']
+  child pages/projects/containers/Services/Topology/Detail/Table.js unique_orig True oimps [('pages/projects/containers/Services/Topology/Detail/Connections.js', '../Table')] VERDICT NEW
+
+=== ACCEPTED ===
+    "pages/projects/containers/Base/Detail.js": "module-806.js",  # lit:getWatchUrl
+    "pages/devops/containers/CD/detail/routes.js": "module-5120.js",  # lit:/:workspace/clusters/:cluster/devops/:devops/cd/:cd
+    "pages/workspaces/containers/Roles/Detail/routes.js": "module-4401.js",  # lit:/workspaces/:workspace/roles/:name
+    "pages/fedprojects/containers/Applications/Detail/routes.js": "module-4977.js",  # lit:/:workspace/federatedprojects/:namespace/applications/:name
+    "pages/clusters/containers/Roles/Detail/routes.js": "module-4003.js",  # lit:/clusters/:cluster/roles/:name
+    "pages/clusters/containers/EdgeNodes/Detail/routes.js": "module-3960.js",  # lit:/clusters/:cluster/edgenodes/:node
+    "pages/clusters/containers/Projects/Detail/routes.js": "module-3971.js",  # lit:/clusters/:cluster/projects/:namespace
+    "pages/clusters/containers/LogCollections/Detail/routes.js": "module-4008.js",  # lit:/clusters/:cluster/log-collections/:component/:name
+    "pages/clusters/containers/Nodes/Detail/routes.js": "module-3948.js",  # lit:/clusters/:cluster/nodes/:node
+    "pages/clusters/containers/Storage/Volumes/routes.js": "module-3720.js",  # lit:/clusters/:cluster/volumes
+    "pages/clusters/containers/Storage/VolumeSnapshots/routes.js": "module-3713.js",  # lit:/clusters/:cluster/volume-snapshots
+    "pages/clusters/containers/Monitor/Resource/routes.js": "module-3784.js",  # lit:/clusters/:cluster/monitor-resource
+    "pages/clusters/containers/Monitor/Cluster/routes.js": "module-3752.js",  # lit:/clusters/:cluster/monitor-cluster
+    "pages/console/components/Cards/Workspace.js": "module-1979.js",  # lit:width-full
+    "pages/projects/containers/GrayRelease/Jobs/Item.js": "module-4713.js",  # lit:REPLICA_COUNT_LOW
+    "pages/projects/containers/Services/Topology/Detail/Connections.js": "module-4609.js",  # lit:connections
+    "pages/projects/components/Modals/TracingDetail/SpanGraph/TimeRange.js": "module-4784.js",  # lit:cursor-guide
+    "pages/apps/components/AppList.js": "module-1615.js",  # lit:apps-title
+    "pages/fedprojects/containers/BaseInfo/ProjectInfo.js": "module-4959.js",  # lit:PROJECT_NAME
+    "pages/fedprojects/components/VolumeSetting/config.js": "module-3564.js",  # lit:diffSettings
+    "pages/clusters/actions/cluster.js": "module-3651.js",  # lit:_originData.spec.placement.clusters
+    "components/Cards/Containers/Item.js": "module-1219.js",  # lit:RESTART
+    "components/Graph/Detail.js": "module-4759.js",  # lit:ks-service-detail
+    "components/Graph/App.js": "module-4755.js",  # lit:service.length
+    "components/Tables/Visible.js": "module-1126.js",  # lit:dataset.itemIndex
+    "components/Tables/Ranking.js": "module-987.js",  # lit:props.store.sort_metric
+    "pages/fedprojects/containers/Deployments/Detail.js": "module-4994.js",  # alias_parent:pages/fedprojects/deployments/Detail.js
+    "pages/fedprojects/containers/Deployments/Detail/routes.js": "module-4995.js",  # imp:pages/fedprojects/deployments/Detail.js
+    "pages/fedprojects/containers/StatefulSets/Detail.js": "module-5001.js",  # alias_parent:pages/fedprojects/statefulsets/Detail.js
+    "pages/fedprojects/containers/StatefulSets/Detail/routes.js": "module-5002.js",  # imp:pages/fedprojects/statefulsets/Detail.js
+    "pages/fedprojects/containers/Services/Detail.js": "module-5006.js",  # alias_parent:pages/fedprojects/services/Detail.js
+    "pages/fedprojects/containers/Services/Detail/routes.js": "module-5007.js",  # imp:pages/fedprojects/services/Detail.js
+    "pages/fedprojects/containers/Routes/Detail.js": "module-5016.js",  # alias_parent:pages/fedprojects/ingresses/Detail.js
+    "pages/fedprojects/containers/Routes/Detail/routes.js": "module-5017.js",  # imp:pages/fedprojects/ingresses/Detail.js
+    "pages/fedprojects/containers/Secrets/Detail.js": "module-5033.js",  # alias_parent:pages/fedprojects/secrets/Detail.js
+    "pages/fedprojects/containers/Secrets/Detail/routes.js": "module-5034.js",  # imp:pages/fedprojects/secrets/Detail.js
+    "pages/fedprojects/containers/ConfigMaps/Detail.js": "module-5037.js",  # alias_parent:pages/fedprojects/configmaps/Detail.js
+    "pages/fedprojects/containers/ConfigMaps/Detail/routes.js": "module-5038.js",  # imp:pages/fedprojects/configmaps/Detail.js
+    "pages/fedprojects/containers/Applications/Detail.js": "module-4976.js",  # alias_parent:pages/fedprojects/applications/Detail.js
+    "pages/clusters/containers/Nodes/Detail.js": "module-3947.js",  # alias_parent:pages/clusters/nodes/Detail.js
+    "pages/clusters/containers/EdgeNodes/Detail.js": "module-3959.js",  # alias_parent:pages/clusters/edgenodes/Detail.js
+    "pages/clusters/containers/CustomResources/Detail.js": "module-3998.js",  # alias_parent:pages/clusters/customresources/Detail.js
+    "pages/clusters/containers/CustomResources/Detail/routes.js": "module-3999.js",  # imp:pages/clusters/customresources/Detail.js
+    "pages/clusters/containers/Roles/Detail.js": "module-4002.js",  # alias_parent:pages/clusters/roles/Detail.js
+    "pages/clusters/containers/LogCollections/Detail.js": "module-4007.js",  # alias_parent:pages/clusters/log-collections/Detail.js
+    "pages/clusters/containers/Projects/Detail.js": "module-3969.js",  # alias_parent:pages/clusters/projects/Detail.js
+    "pages/clusters/containers/Storage/VolumeSnapshotClasses/Detail.js": "module-3937.js",  # alias_parent:pages/clusters/volume-snapshot-classes/Detail.js
+    "pages/clusters/containers/Storage/VolumeSnapshotClasses/Detail/routes.js": "module-3938.js",  # imp:pages/clusters/volume-snapshot-classes/Detail.js
+    "pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail.js": "module-3933.js",  # alias_parent:pages/clusters/volume-snapshot-content/Detail.js
+    "pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/routes.js": "module-3934.js",  # imp:pages/clusters/volume-snapshot-content/Detail.js
+    "pages/workspaces/containers/Roles/Detail.js": "module-4400.js",  # alias_parent:pages/workspaces/roles/Detail.js
+    "pages/devops/routes/detail.js": "module-5070.js",  # alias:/:workspace/clusters/:cluster/devops
+    "pages/devops/containers/CD/CDList.js": "module-5055.js",  # alias:/assets/cd/unknown.svg
+    "pages/workspaces/routes/overview.js": "module-4441.js",  # alias:/workspaces/:workspace/overview
+    "pages/devops/containers/Base/List.js": "module-5043.js",  # alias:management
+    "pages/fedprojects/containers/ConfigMaps/Detail/ConfigDetail.js": "module-5039.js",  # imp_routes:pages/fedprojects/containers/ConfigMaps/Detail/routes.js
+    "pages/fedprojects/containers/Routes/Detail/ResourceStatus.js": "module-5018.js",  # imp_routes:pages/fedprojects/containers/Routes/Detail/routes.js
+    "pages/fedprojects/containers/StatefulSets/Detail/ResourceStatus.js": "module-5003.js",  # imp_routes:pages/fedprojects/containers/StatefulSets/Detail/routes.js
+    "pages/fedprojects/containers/Secrets/Detail/SecretDetail.js": "module-5035.js",  # imp_routes:pages/fedprojects/containers/Secrets/Detail/routes.js
+    "pages/fedprojects/containers/Services/Detail/ResourceStatus.js": "module-5008.js",  # imp_routes:pages/fedprojects/containers/Services/Detail/routes.js
+    "pages/clusters/containers/CustomResources/Detail/ResourceStatus.js": "module-4000.js",  # imp_routes:pages/clusters/containers/CustomResources/Detail/routes.js
+    "pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent.js": "module-3717.js",  # imp_routes:pages/clusters/containers/Storage/VolumeSnapshots/routes.js
+    "pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/ResourceStatus.js": "module-3935.js",  # imp_routes:pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/routes.js
+    "pages/clusters/containers/Storage/VolumeSnapshotClasses/Detail/VolumeSnapshot.js": "module-3939.js",  # imp_routes:pages/clusters/containers/Storage/VolumeSnapshotClasses/Detail/routes.js
+    "pages/clusters/containers/LogCollections/Detail/Configuration.js": "module-4009.js",  # imp_routes:pages/clusters/containers/LogCollections/Detail/routes.js
+    "pages/fedprojects/components/VolumeSetting/VolumeSettingForm.js": "module-3565.js",  # imp_routes:pages/fedprojects/components/VolumeSetting/config.js
+    "pages/projects/containers/Services/Topology/Detail/Table.js": "module-4610.js",  # imp_routes:pages/projects/containers/Services/Topology/Detail/Connections.js
+accepted_count 67

@@ -1,0 +1,18 @@
+{
+  "applied": [
+    {
+      "module": "module-1088.js",
+      "orig": "components/Charts/utils.js",
+      "kind": "body",
+      "lit": "getActiveSeries"
+    },
+    {
+      "module": "module-1915.js",
+      "orig": "components/Graph/Detail/Monitors/TrafficCard.js",
+      "kind": "body",
+      "lit": "trafficCard"
+    }
+  ],
+  "skipped": [],
+  "count": 2
+}

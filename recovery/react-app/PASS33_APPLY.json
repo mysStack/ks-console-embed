@@ -1,0 +1,30 @@
+{
+  "applied": [
+    {
+      "module": "module-1729.js",
+      "orig": "components/Modals/QuotaEdit/Quotas/constants.js",
+      "kind": "body",
+      "lit": "FEDERATED_PROJECT_UNSOPPORT_QUOTA"
+    },
+    {
+      "module": "module-1764.js",
+      "orig": "components/Modals/FullscreenModal/index.js",
+      "kind": "body",
+      "lit": "pageClose"
+    },
+    {
+      "module": "module-1691.js",
+      "orig": "components/MoreActions/index.js",
+      "kind": "body",
+      "lit": "handleMoreClick"
+    },
+    {
+      "module": "module-3383.js",
+      "orig": "components/Modals/StorageclassAutoresizer/Slider/index.js",
+      "kind": "body",
+      "lit": "handleSliderChange"
+    }
+  ],
+  "skipped": [],
+  "count": 4
+}

@@ -1,0 +1,59 @@
+{
+  "identity": {
+    "hasUser": true,
+    "fakeRecovered": false,
+    "path": "/"
+  },
+  "overview": {
+    "path": "/<ws>/clusters/default/projects/<ns>/overview",
+    "dep": 7,
+    "hasSide": true,
+    "navLinks": [
+      "概览",
+      "应用",
+      "服务",
+      "工作负载",
+      "任务",
+      "应用路由",
+      "容器组",
+      "持久卷声明",
+      "卷快照",
+      "保密字典",
+      "配置字典",
+      "服务账户"
+    ]
+  },
+  "list": {
+    "path": "/<ws>/clusters/default/projects/<ns>/deployments",
+    "total": 7,
+    "hasSide": true,
+    "hasNav": true,
+    "navTexts": [
+      "概览 应用负载 应用 服务 工作负载 任务 应用路由 容器组 存储 持久卷声明 卷快照 配置 保密字典 配置字典 服务账户 监控告警 自定义监控 项目设置"
+    ],
+    "linkCount": 7,
+    "firstName": "<name>",
+    "firstHref": "/<ws>/clusters/default/projects/<ns>/deployments/<name>"
+  },
+  "navClick": {
+    "ok": true,
+    "path": "/<ws>/clusters/default/projects/<ns>/overview"
+  },
+  "detail": {
+    "ok": true,
+    "onDetail": true,
+    "hasResourceStatus": true,
+    "hasSide": false,
+    "path": "/<ws>/clusters/default/projects/<ns>/deployments/<name>/resource-status",
+    "textHead": "部署 <name> 编辑信息 更多操作 回退 编辑设置 编辑 YAML 重新创建 删除 属性 集群: default 项目: <ns> 资源状态 修改记录 元数据 环境变量 事件 1/1 副本"
+  },
+  "checks": {
+    "loginRealUser": true,
+    "overviewMatchesList": true,
+    "sidebarVisible": true,
+    "navUsable": true,
+    "detailOpened": true
+  },
+  "errors": [],
+  "pass": true
+}

@@ -1,0 +1,189 @@
+{
+  "leftover": 4120,
+  "orig_unpromoted": 1115,
+  "raw": 19,
+  "unique": [
+    {
+      "kind": "get-path",
+      "lit": "spec.webhook.httpConfig.basicAuth.username",
+      "module": "module-3087.js",
+      "orig": "pages/settings/containers/Notification/Webhook/index.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "resources.limits",
+      "module": "module-4432.js",
+      "orig": "pages/projects/components/Cards/ContainerTemplate/Item.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "spec.interval",
+      "module": "module-2067.js",
+      "orig": "pages/projects/components/Modals/ServiceMonitor/index.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "spec.dingtalk.conversation.chatids",
+      "module": "module-3081.js",
+      "orig": "pages/settings/containers/Notification/DingTalk/index.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "status.allocations",
+      "module": "module-2997.js",
+      "orig": "components/Modals/Network/IPPoolWorkspace/index.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "data.appsecret",
+      "module": "module-3083.js",
+      "orig": "pages/settings/containers/Notification/WeCom/index.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "status.numberAvailable",
+      "module": "module-866.js",
+      "orig": "pages/projects/components/WorkloadStatus/index.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "metric.result",
+      "module": "module-4086.js",
+      "orig": "stores/monitoring/component.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "service.namespace",
+      "module": "module-4656.js",
+      "orig": "pages/projects/containers/Network/Policies/RuleInfo/index.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "spec.feishu.chatbot",
+      "module": "module-3089.js",
+      "orig": "pages/settings/containers/Notification/FeiShu/index.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "data.authPassword",
+      "module": "module-5156.js",
+      "orig": "pages/settings/containers/Notification/Mail/index.js"
+    }
+  ],
+  "raw_pins": [
+    {
+      "kind": "get-path",
+      "lit": "spec.webhook.httpConfig.basicAuth.username",
+      "module": "module-3087.js",
+      "orig": "pages/settings/containers/Notification/Webhook/index.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "data.password",
+      "module": "module-3087.js",
+      "orig": "pages/settings/containers/Notification/Webhook/index.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "resources.limits",
+      "module": "module-4432.js",
+      "orig": "pages/projects/components/Cards/ContainerTemplate/Item.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "spec.interval",
+      "module": "module-2067.js",
+      "orig": "pages/projects/components/Modals/ServiceMonitor/index.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "spec.dingtalk.conversation.chatids",
+      "module": "module-3081.js",
+      "orig": "pages/settings/containers/Notification/DingTalk/index.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "spec.dingtalk.chatbot.keywords",
+      "module": "module-3081.js",
+      "orig": "pages/settings/containers/Notification/DingTalk/index.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "spec.dingtalk.chatbot",
+      "module": "module-3081.js",
+      "orig": "pages/settings/containers/Notification/DingTalk/index.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "status.allocations",
+      "module": "module-2997.js",
+      "orig": "components/Modals/Network/IPPoolWorkspace/index.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "data.appsecret",
+      "module": "module-3083.js",
+      "orig": "pages/settings/containers/Notification/WeCom/index.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "status.numberAvailable",
+      "module": "module-866.js",
+      "orig": "pages/projects/components/WorkloadStatus/index.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "metric.result",
+      "module": "module-4086.js",
+      "orig": "stores/monitoring/component.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "service.namespace",
+      "module": "module-4656.js",
+      "orig": "pages/projects/containers/Network/Policies/RuleInfo/index.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "namespace.name",
+      "module": "module-4656.js",
+      "orig": "pages/projects/containers/Network/Policies/RuleInfo/index.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "spec.feishu.chatbot",
+      "module": "module-3089.js",
+      "orig": "pages/settings/containers/Notification/FeiShu/index.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "spec.feishu.user",
+      "module": "module-3089.js",
+      "orig": "pages/settings/containers/Notification/FeiShu/index.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "spec.feishu.chatbot.keywords",
+      "module": "module-3089.js",
+      "orig": "pages/settings/containers/Notification/FeiShu/index.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "spec.feishu.department",
+      "module": "module-3089.js",
+      "orig": "pages/settings/containers/Notification/FeiShu/index.js"
+    },
+    {
+      "kind": "get-path",
+      "lit": "data.authPassword",
+      "module": "module-5156.js",
+      "orig": "pages/settings/containers/Notification/Mail/index.js"
+    },
+    {
+      "kind": "kebab",
+      "lit": "global-email-config-secret",
+      "module": "module-5156.js",
+      "orig": "pages/settings/containers/Notification/Mail/index.js"
+    }
+  ]
+}

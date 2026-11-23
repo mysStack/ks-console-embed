@@ -1,0 +1,384 @@
+######## actions/router.js
+
+=== ORIG actions/router.js exists=True named=module-3325.js ===
+orig_importers []
+methods ['if']
+t ['CREATE_SUCCESSFUL', 'UPDATE_SUCCESSFUL']
+imports_raw ['lodash', '@kube-design/components', 'components/Base', 'components/Modals/Create', 'projects/components/Modals/RouteAnnotationsEdit', 'projects/components/Modals/RouteRulesEdit', 'fedprojects/components/RouteRulesEdit', 'utils/constants', 'utils/form.templates', 'utils/form.persist', 'configs/steps/ingresses']
+local []
+head /* |  * This file is part of KubeSphere Console. |  * Copyright (C) 2019 The KubeSphere Console Authors. |  * |  * KubeSphere Console is free software: you can redistribute it and/or modify |  * it under the terms of the GNU Affero General Public License as published by |  * the Free Software Foundation, either version 3 of the License, or |  * (at your option) any later version. |  * |  * KubeSphere Console is distributed in the hope that it will be useful, |  * but WITHOUT ANY WARRANTY; without even the implied w
+
+--- module-3325.js named=['actions/router.js'] css=False ---
+importers [('module-2032.js', ['?'])]
+methods ['if']
+t ['CREATE_SUCCESSFUL', 'UPDATE_SUCCESSFUL', 'CREATE_DOMAIN_NAME', 'MODIFY_SUCCESSFUL', 'EDIT']
+unique_t []
+unique_meth []
+unique_lit ['./module-3326.js', './module-3327.js', './module-3329.js', './module-3331.js']
+kids [('module-31.js', ['?']), ('module-58.js', ['?']), ('module-26.js', ['?']), ('module-74.js', ['?']), ('module-242.js', ['?']), ('module-60.js', ['?']), ('module-240.js', ['?']), ('module-788.js', ['components/Base/Modal.js']), ('module-826.js', ['components/Modals/Create.js']), ('module-3326.js', ['?']), ('module-3327.js', ['pages/projects/components/Modals/RouteAnnotationsEdit.js']), ('module-3329.js', ['pages/projects/components/Modals/RouteRulesEdit.js']), ('module-3331.js', ['?']), ('module-72.js', ['utils/constants.js']), ('module-435.js', ['utils/form.templates.js']), ('module-902.js', ['utils/form.persist.js'])]
+head import "./module-12.js"; | import "./module-11.js"; | import "./module-6.js"; | import "./module-200.js"; | import "./module-30.js"; | import "./module-18.js"; | import "./module-16.js"; | import "./module-9.js"; | import "./module-13.js"; | import "./module-10.js"; | import "./module-4.js"; | import "./module-316.js"; | import "./module-324.js"; | import "./module-38.js"; | import "./module-7.js"; | import "./module-32.js"; | i
+
+--- module-3326.js named=[] css=False ---
+importers [('module-3325.js', ['actions/router.js'])]
+methods ['if']
+t ['NAME_EXIST_DESC', 'INVALID_CREATE_DOMAIN_NAME', 'OK', 'NAME', 'NAME_DESC', 'NAME_EMPTY_DESC', 'INVALID_NAME_DESC', 'DOMAIN_NAME_TCAP', 'CREATE_DOMAIN_NAME_DES', 'DOMAIN_NAME_EMPTY_DESC', 'INVALID_DOMAIN_DESC', 'DESCRIPTION', 'DESCRIPTION_DESC']
+unique_t ['INVALID_CREATE_DOMAIN_NAME', 'CREATE_DOMAIN_NAME_DES']
+unique_meth []
+unique_lit ['INVALID_CREATE_DOMAIN_NAME', 'CREATE_DOMAIN_NAME_DES']
+kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-1.js', ['?']), ('module-26.js', ['?']), ('module-831.js', ['?']), ('module-14.js', ['?']), ('module-186.js', ['?']), ('module-788.js', ['components/Base/Modal.js']), ('module-72.js', ['utils/constants.js'])]
+head import "./module-15.js"; | import "./module-11.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-17.js"; | import "./module-45.js"; | import "./module-42.js"; | import "./module-57.js"; | import module36 from "./module-36.js"; | import module37 from "./module-37.js"; | import module55 from "./module-55.js"; | import module56 from "./module-56.js"; | import module51 from "./module-51.js"; | import
+
+--- module-3331.js named=[] css=False ---
+importers [('module-3325.js', ['actions/router.js'])]
+methods ['if']
+t ['EDIT_ROUTING_RULES', 'OK', 'PREVIOUS']
+unique_t []
+unique_meth []
+unique_lit ['./module-3332.js']
+kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-1.js', ['?']), ('module-14.js', ['?']), ('module-26.js', ['?']), ('module-136.js', ['?']), ('module-63.js', ['?']), ('module-807.js', ['?']), ('module-788.js', ['components/Base/Modal.js']), ('module-1320.js', ['components/Forms/Route/RouteRules.js']), ('module-3332.js', ['?'])]
+head import "./module-15.js"; | import "./module-29.js"; | import "./module-6.js"; | import "./module-84.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-17.js"; | import "./module-85.js"; | import "./module-7.js"; | import "./module-45.js"; | import "./module-42.js"; | import "./module-57.js"; | import module36 from "./module-36.js"; | import module37 from "./module-37.js"; | import module55 from "./m
+
+=== ORIG pages/fedprojects/components/RouteRulesEdit.js exists=True named=None ===
+orig_importers []
+methods ['getChildContext', 'constructor', 'componentDidUpdate', 'if', 'getFormTemplate', 'registerSubRoute', 'resetSubRoute', 'handleOk', 'handleCancel', 'onCancel']
+t ['EDIT_ROUTING_RULES', 'OK', 'PREVIOUS']
+imports_raw ['react', 'prop-types', 'mobx', 'lodash', 'components/Base', 'components/Forms/Route/RouteRules', './index.scss']
+local ['pages/fedprojects/components/RouteRulesEdit/index.scss']
+head /* |  * This file is part of KubeSphere Console. |  * Copyright (C) 2019 The KubeSphere Console Authors. |  * |  * KubeSphere Console is free software: you can redistribute it and/or modify |  * it under the terms of the GNU Affero General Public License as published by |  * the Free Software Foundation, either version 3 of the License, or |  * (at your option) any later version. |  * |  * KubeSphere Console is distributed in the hope that it will be useful, |  * but WITHOUT ANY WARRANTY; without even the implied w
+FED_ROUTE_FILE pages/fedprojects/components/RouteRulesEdit.js named None oimps []
+
+######## CreateApp/Routes
+
+=== ORIG pages/projects/components/Modals/CreateApp/Routes.js exists=True named=module-2620.js ===
+orig_importers ['pages/projects/components/Modals/CreateApp.js']
+methods ['constructor', 'super', 'componentDidMount', 'componentDidUpdate', 'if', 'showAdd', 'showEdit', 'closeEditModal', 'closeModal', 'updateName', 'updateAnnotations', 'handleAdd', 'handleDelete', 'set']
+t ['ROUTE_SETTINGS', 'ROUTE_SETTINGS_DESC', 'ROUTING_RULES']
+imports_raw ['lodash', 'react', 'mobx', 'stores/secret', 'stores/federated', 'utils', 'utils/object.mapper', './RuleList', './RuleForm', './index.scss']
+local ['pages/projects/components/Modals/CreateApp/Routes/RuleList.js', 'pages/projects/components/Modals/CreateApp/Routes/RuleForm.js', 'pages/projects/components/Modals/CreateApp/Routes/index.scss']
+head /* |  * This file is part of KubeSphere Console. |  * Copyright (C) 2019 The KubeSphere Console Authors. |  * |  * KubeSphere Console is free software: you can redistribute it and/or modify |  * it under the terms of the GNU Affero General Public License as published by |  * the Free Software Foundation, either version 3 of the License, or |  * (at your option) any later version. |  * |  * KubeSphere Console is distributed in the hope that it will be useful, |  * but WITHOUT ANY WARRANTY; without even the implied w
+
+--- module-2620.js named=['pages/projects/components/Modals/CreateApp/Routes.js'] css=False ---
+importers [('module-1597.js', ['pages/projects/components/Modals/CreateApp.js'])]
+methods ['if']
+t ['ROUTE_SETTINGS', 'ROUTE_SETTINGS_DESC', 'SELECT_INGRESSCLASSNAME', 'ROUTING_RULES']
+unique_t ['ROUTE_SETTINGS', 'ROUTE_SETTINGS_DESC', 'ROUTING_RULES']
+unique_meth []
+unique_lit ['./module-2621.js', './module-2623.js', './module-2624.js', 'application.metadata.namespace', 'ROUTE_SETTINGS_DESC']
+kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-26.js', ['?']), ('module-74.js', ['?']), ('module-189.js', ['?']), ('module-63.js', ['?']), ('module-807.js', ['?']), ('module-136.js', ['?']), ('module-896.js', ['?']), ('module-186.js', ['?']), ('module-553.js', ['?']), ('module-14.js', ['?']), ('module-853.js', ['stores/secret.js'])]
+head import "./module-15.js"; | import "./module-5.js"; | import "./module-11.js"; | import "./module-29.js"; | import "./module-6.js"; | import "./module-84.js"; | import "./module-86.js"; | import "./module-18.js"; | import "./module-87.js"; | import "./module-192.js"; | import "./module-16.js"; | import "./module-4.js"; | import "./module-316.js"; | import "./module-23.js"; | import "./module-17.js"; | import "./module-85.js"; | i
+
+--- module-2621.js named=[] css=False ---
+importers [('module-2620.js', ['pages/projects/components/Modals/CreateApp/Routes.js'])]
+methods ['if']
+t ['ADD_ROUTING_RULE', 'ADD_ROUTING_RULE_DESC']
+unique_t []
+unique_meth []
+unique_lit ['./module-2622.js']
+kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-1.js', ['?']), ('module-26.js', ['?']), ('module-791.js', ['components/Base/Text.js']), ('module-1595.js', ['components/Forms/Route/RouteRules/RuleList/Item.js']), ('module-2622.js', ['?'])]
+head import "./module-15.js"; | import "./module-5.js"; | import "./module-11.js"; | import "./module-18.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-17.js"; | import "./module-45.js"; | import "./module-42.js"; | import "./module-57.js"; | import module36 from "./module-36.js"; | import module37 from "./module-37.js"; | import module55 from "./module-55.js"; | import module56 from "./module-56.j
+
+--- module-2623.js named=[] css=False ---
+importers [('module-2620.js', ['pages/projects/components/Modals/CreateApp/Routes.js'])]
+methods ['if']
+t ['INVALID_PATH_DESC', 'PATH_EXIST', 'EXIT_DOMAIN_DESC', 'DOMAIN_NAME_TCAP', 'DOMAIN_NAME_EMPTY_DESC', 'INVALID_DOMAIN_DESC', 'PROTOCOL', 'SECRET', 'PATH_PL', 'PATH_EMPTY_DESC', 'ADD', 'ADD_ROUTING_RULE', 'EDIT_ROUTING_RULES', 'CLUSTER']
+unique_t []
+unique_meth []
+unique_lit []
+kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-26.js', ['?']), ('module-63.js', ['?']), ('module-74.js', ['?']), ('module-553.js', ['?']), ('module-1.js', ['?']), ('module-186.js', ['?']), ('module-788.js', ['components/Base/Modal.js']), ('module-830.js', ['components/Inputs/ArrayInput.js']), ('module-1321.js', ['components/Inputs/RulePath.js']), ('module-918.js', ['stores/ingress.js']), ('module-72.js', ['utils/constants.js'])]
+head import "./module-12.js"; | import "./module-5.js"; | import "./module-11.js"; | import "./module-6.js"; | import "./module-30.js"; | import "./module-18.js"; | import "./module-48.js"; | import "./module-97.js"; | import "./module-16.js"; | import "./module-9.js"; | import "./module-13.js"; | import "./module-10.js"; | import "./module-4.js"; | import "./module-22.js"; | import "./module-23.js"; | import "./module-17.js"; | impo
+
+--- module-2622.js named=[] css=True ---
+importers [('module-2621.js', ['?'])]
+methods []
+t []
+unique_t []
+unique_meth []
+unique_lit ['_1kmSC__ph67BXHwPHIgdEt', 'WG4jVOyftN1J-3Qx0HfRQ', '_2oTQpDYJHbQK9cSrwXrn5D', '_1kD3DJ4-DvWshSbWqKFvAW', '_3RZYExlr-Pjh7uww6Y6ZEb', '_9GO6DcfvOoroeH4GfG06N', '_367T3thgG7QtDZw5kAaWNy', '_2okV3MjC6xqfPB6AWhGQ3', '_3dHV84JUfbE34Iu4EQYkNU', 'f5_6svLoP460Z6PT3paLt']
+kids []
+head export default { |     item: "_1kmSC__ph67BXHwPHIgdEt", |     icon: "WG4jVOyftN1J-3Qx0HfRQ", |     texts: "_2oTQpDYJHbQK9cSrwXrn5D", |     text: "_1kD3DJ4-DvWshSbWqKFvAW", |     title: "_3RZYExlr-Pjh7uww6Y6ZEb", |     description: "_9GO6DcfvOoroeH4GfG06N", |     clusters: "_367T3thgG7QtDZw5kAaWNy", |     add: "_2okV3MjC6xqfPB6AWhGQ3", |     paths: "_3dHV84JUfbE34Iu4EQYkNU", |     path: "f5_6svLoP460Z6PT3paLt", |     er
+CreateApp files:
+  pages/projects/components/Modals/CreateApp/BaseInfo.js named module-2568.js oimps ['pages/projects/components/Modals/CreateApp.js']
+  pages/projects/components/Modals/CreateApp/Code.js named module-2625.js oimps ['pages/projects/components/Modals/CreateApp.js']
+  pages/projects/components/Modals/CreateApp/Routes/RuleForm.js named None oimps ['pages/projects/components/Modals/CreateApp/Routes.js']
+  pages/projects/components/Modals/CreateApp/Routes/RuleList.js named None oimps ['pages/projects/components/Modals/CreateApp/Routes.js']
+  pages/projects/components/Modals/CreateApp/Routes.js named module-2620.js oimps ['pages/projects/components/Modals/CreateApp.js']
+  pages/projects/components/Modals/CreateApp/Services/ServiceList/ClusterDiffs/ClustersMapper.js named None oimps ['pages/projects/components/Modals/CreateApp/Services/ServiceList/ClusterDiffs.js']
+  pages/projects/components/Modals/CreateApp/Services/ServiceList/ClusterDiffs/ContainerImages.js named None oimps ['pages/projects/components/Modals/CreateApp/Services/ServiceList/ClusterDiffs.js']
+  pages/projects/components/Modals/CreateApp/Services/ServiceList/ClusterDiffs/ContainerPorts.js named module-2616.js oimps ['pages/projects/components/Modals/CreateApp/Services/ServiceList/ClusterDiffs.js']
+  pages/projects/components/Modals/CreateApp/Services/ServiceList/ClusterDiffs/ContainersMapper.js named module-2612.js oimps ['pages/projects/components/Modals/CreateApp/Services/ServiceList/ClusterDiffs.js']
+  pages/projects/components/Modals/CreateApp/Services/ServiceList/ClusterDiffs.js named module-2609.js oimps ['pages/projects/components/Modals/CreateApp/Services/ServiceList/Item.js']
+  pages/projects/components/Modals/CreateApp/Services/ServiceList/Item.js named module-2608.js oimps ['pages/projects/components/Modals/CreateApp/Services/ServiceList.js']
+  pages/projects/components/Modals/CreateApp/Services/ServiceList.js named module-2607.js oimps ['pages/projects/components/Modals/CreateApp/Services.js']
+  pages/projects/components/Modals/CreateApp/Services.js named module-2570.js oimps ['pages/projects/components/Modals/CreateApp.js']
+  pages/projects/components/Modals/CreateApp/Steps.js named module-2566.js oimps ['pages/projects/components/Modals/CreateApp.js']
+  pages/projects/components/Modals/CreateApp.js named module-1597.js oimps []
+
+######## settings BaseInfo 5126
+
+=== ORIG pages/settings/containers/BaseInfo.js exists=True named=module-5125.js ===
+orig_importers ['pages/settings/routes.js']
+methods ['showEdit', 'hideEdit', 'handleEdit', 'render']
+t ['PLATFORM_INFORMATION', 'PLATFORM_INFO_DESC', 'BASIC_INFORMATION', 'PLATFORM_ADDRESS', 'PLATFORM_TITLE', 'KS_DESCRIPTION', 'PLATFORM_DESCRIPTION']
+imports_raw ['react', 'components/Base', 'components/Cards/Banner', './index.scss']
+local ['pages/settings/containers/BaseInfo/index.scss']
+head /* |  * This file is part of KubeSphere Console. |  * Copyright (C) 2019 The KubeSphere Console Authors. |  * |  * KubeSphere Console is free software: you can redistribute it and/or modify |  * it under the terms of the GNU Affero General Public License as published by |  * the Free Software Foundation, either version 3 of the License, or |  * (at your option) any later version. |  * |  * KubeSphere Console is distributed in the hope that it will be useful, |  * but WITHOUT ANY WARRANTY; without even the implied w
+
+--- module-5126.js named=[] css=False ---
+importers [('module-5125.js', ['pages/settings/base-info.js', 'pages/settings/containers/BaseInfo.js'])]
+methods ['n', 'if']
+t []
+unique_t []
+unique_meth []
+unique_lit ['getImagePath', '/theme/static/images', 'updateTheme', '/kapis/config.kubesphere.io/v1alpha2', 'themePath']
+kids [('module-15.js', ['?']), ('module-20.js', ['?']), ('module-5.js', ['?']), ('module-9.js', ['?']), ('module-4.js', ['?']), ('module-23.js', ['?']), ('module-17.js', ['?']), ('module-45.js', ['?']), ('module-42.js', ['?']), ('module-57.js', ['?']), ('module-65.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-88.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?'])]
+head "use strict"; | require("./module-15.js"); | const module20 = require("./module-20.js").default; | require("./module-5.js"); | require("./module-9.js"); | require("./module-4.js"); | require("./module-23.js"); | require("./module-17.js"); | Object.defineProperty(exports, "__esModule", { |     value: true | }); | exports.default = undefined; | require("./module-45.js"); | require("./module-5.js"); | require("./module-42.js");
+
+--- module-5127.js named=[] css=True ---
+importers [('module-5125.js', ['pages/settings/base-info.js', 'pages/settings/containers/BaseInfo.js'])]
+methods []
+t []
+unique_t []
+unique_meth []
+unique_lit ['_2JOcoqtC-u6w8ftvT7_BUc', '_3V0JNfmSu8j6NYqmnMKPR3', '_3i9Aa8IM0kGz9aVceuhPlI', '_3aR_ra3boMJyaYNhRsvR68', '_1_ITlhQyAry-Ekn_VeHUzQ', '_1AjmrEvhp_hkavmUVvFhYY', '_27C43z4B576C-KTdxD2eHu', '_36mB4faAzNSLPHncVJaRoA', 'ooab6D1rB_NTg4R4LdJ5q', '_3f2883dYyS-AI-fq0yBlZv']
+kids []
+head export default { |     header: "_2JOcoqtC-u6w8ftvT7_BUc", |     content: "_3V0JNfmSu8j6NYqmnMKPR3", |     infoContent: "_3i9Aa8IM0kGz9aVceuhPlI", |     title: "_3aR_ra3boMJyaYNhRsvR68", |     subTitle: "_1_ITlhQyAry-Ekn_VeHUzQ", |     iconLogoBox: "_1AjmrEvhp_hkavmUVvFhYY", |     logo: "_27C43z4B576C-KTdxD2eHu", |     favicon: "_36mB4faAzNSLPHncVJaRoA", |     backgroundBox: "ooab6D1rB_NTg4R4LdJ5q", |     emptyBackgro
+5126 kids unique?
+  module-15.js imps [('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1047.js', ['?']), ('module-1051.js', ['stores/cluster/kubekey.js']), ('module-1099.js', ['?']), ('module-1108.js', ['stores/codeRepo.js'])]
+  module-20.js imps [('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1047.js', ['?']), ('module-1051.js', ['stores/cluster/kubekey.js']), ('module-1099.js', ['?']), ('module-1108.js', ['stores/codeRepo.js'])]
+  module-5.js imps [('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1047.js', ['?']), ('module-1051.js', ['stores/cluster/kubekey.js']), ('module-1099.js', ['?']), ('module-1108.js', ['stores/codeRepo.js'])]
+  module-9.js imps [('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1047.js', ['?']), ('module-1051.js', ['stores/cluster/kubekey.js']), ('module-1099.js', ['?']), ('module-1108.js', ['stores/codeRepo.js'])]
+  module-4.js imps [('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1047.js', ['?']), ('module-1051.js', ['stores/cluster/kubekey.js']), ('module-1099.js', ['?']), ('module-1108.js', ['stores/codeRepo.js'])]
+  module-23.js imps [('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1047.js', ['?']), ('module-1051.js', ['stores/cluster/kubekey.js']), ('module-1099.js', ['?']), ('module-1108.js', ['stores/codeRepo.js'])]
+  module-17.js imps [('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1047.js', ['?']), ('module-1051.js', ['stores/cluster/kubekey.js']), ('module-1099.js', ['?']), ('module-1108.js', ['stores/codeRepo.js'])]
+  module-45.js imps [('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1047.js', ['?']), ('module-1051.js', ['stores/cluster/kubekey.js']), ('module-1099.js', ['?']), ('module-1108.js', ['stores/codeRepo.js'])]
+  module-42.js imps [('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1047.js', ['?']), ('module-1051.js', ['stores/cluster/kubekey.js']), ('module-1099.js', ['?']), ('module-1108.js', ['stores/codeRepo.js'])]
+  module-57.js imps [('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1047.js', ['?']), ('module-1051.js', ['stores/cluster/kubekey.js']), ('module-1099.js', ['?']), ('module-1108.js', ['stores/codeRepo.js'])]
+  module-65.js imps [('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1040.js', ['stores/container.js']), ('module-1051.js', ['stores/cluster/kubekey.js']), ('module-1067.js', ['components/Modals/KubeCtl.js']), ('module-1099.js', ['?'])]
+  module-36.js imps [('module-1000.js', ['?']), ('module-1001.js', ['stores/configmap.js']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1009.js', ['?']), ('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1022.js', ['utils/tracing.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js'])]
+  module-37.js imps [('module-1002.js', ['components/Base/Markdown.js']), ('module-1009.js', ['?']), ('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1022.js', ['utils/tracing.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js']), ('module-1026.js', ['?'])]
+  module-88.js imps [('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1051.js', ['stores/cluster/kubekey.js']), ('module-1067.js', ['components/Modals/KubeCtl.js']), ('module-1072.js', ['?']), ('module-1099.js', ['?'])]
+  module-55.js imps [('module-1000.js', ['?']), ('module-1001.js', ['stores/configmap.js']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1009.js', ['?']), ('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js'])]
+  module-56.js imps [('module-1000.js', ['?']), ('module-1001.js', ['stores/configmap.js']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1009.js', ['?']), ('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js'])]
+  module-51.js imps [('module-1000.js', ['?']), ('module-1001.js', ['stores/configmap.js']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1009.js', ['?']), ('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js'])]
+  module-49.js imps [('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1040.js', ['stores/container.js']), ('module-1047.js', ['?']), ('module-1051.js', ['stores/cluster/kubekey.js']), ('module-1067.js', ['components/Modals/KubeCtl.js'])]
+  module-66.js imps [('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1051.js', ['stores/cluster/kubekey.js']), ('module-1099.js', ['?']), ('module-1108.js', ['stores/codeRepo.js']), ('module-1110.js', ['stores/devops/credential.js'])]
+  module-14.js imps [('module-1013.js', ['stores/notification/base.js']), ('module-1015.js', ['stores/alerting/policy.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1026.js', ['?']), ('module-1038.js', ['?']), ('module-1040.js', ['stores/container.js']), ('module-1047.js', ['?']), ('module-1051.js', ['stores/cluster/kubekey.js'])]
+
+######## workspace BaseInfo 4356
+
+=== ORIG pages/workspaces/containers/BaseInfo.js exists=True named=module-4355.js ===
+orig_importers ['pages/workspaces/routes.js']
+methods ['componentDidMount', 'getMetrics', 'fetchMetrics', 'fetchDetail', 'showEdit', 'handleNetworkChange', 'if', 'handleSingleClusterNetworkChange', 'handleDelete', 'getResourceOptions', 'manageButtonClick', 'renderManageButton', 'renderBaseInfo', 'renderNetwork', 'render']
+t ['rootStore', 'WORKSPACE_BASE_INFO_Q1', 'WORKSPACE_BASE_INFO_A1', 'PROJECT', 'PROJECTS', 'DEVOPS_PROJECT_LOW', 'DEVOPS_PROJECT_LOW_PL', 'WS_MEMBER_SCAP', 'WS_MEMBER_SCAP_PL', 'EDIT_INFORMATION', 'DELETE_WORKSPACE', 'WORKSPACE_INFO', 'WORKSPACE', 'YYYY-MM-DD HH:mm:ss', 'CREATION_TIME', 'NETWORK_ISOLATION']
+imports_raw ['@kube-design/components', 'components/Base', 'components/Cards/Banner', 'components/Clusters/ClusterTitle', 'lodash', 'mobx', 'mobx-react', 'pages/clusters/containers/BaseInfo/ManageButton', 'react', 'stores/monitoring/workspace', 'utils', 'utils/action', 'workspaces/components/Modals/EditBasicInfo', './index.scss']
+local ['pages/workspaces/containers/BaseInfo/index.scss']
+head /* |  * This file is part of KubeSphere Console. |  * Copyright (C) 2019 The KubeSphere Console Authors. |  * |  * KubeSphere Console is free software: you can redistribute it and/or modify |  * it under the terms of the GNU Affero General Public License as published by |  * the Free Software Foundation, either version 3 of the License, or |  * (at your option) any later version. |  * |  * KubeSphere Console is distributed in the hope that it will be useful, |  * but WITHOUT ANY WARRANTY; without even the implied w
+
+--- module-4356.js named=[] css=False ---
+importers [('module-4355.js', ['pages/workspaces/base-info.js', 'pages/workspaces/containers/BaseInfo.js'])]
+methods ['if']
+t ['EDIT_INFORMATION', 'OK', 'NAME', 'NAME_DESC', 'ALIAS', 'ALIAS_NAME_DESC', 'INVALID_ALIAS_NAME_DESC', 'ADMINISTRATOR', 'DESCRIPTION', 'DESCRIPTION_DESC']
+unique_t []
+unique_meth []
+unique_lit []
+kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-186.js', ['?']), ('module-788.js', ['components/Base/Modal.js']), ('module-831.js', ['?']), ('module-801.js', ['?']), ('module-26.js', ['?']), ('module-241.js', ['?']), ('module-242.js', ['?']), ('module-239.js', ['?']), ('module-1.js', ['?']), ('module-553.js', ['?']), ('module-322.js', ['stores/user.js'])]
+head import "./module-12.js"; | import "./module-187.js"; | import "./module-11.js"; | import "./module-6.js"; | import "./module-18.js"; | import "./module-9.js"; | import "./module-13.js"; | import "./module-10.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-17.js"; | import "./module-7.js"; | import "./module-45.js"; | import "./module-28.js"; | import "./module-860.js"; | import "./module-42.js"; | im
+
+=== ORIG pages/workspaces/components/Modals/EditBasicInfo.js exists=True named=None ===
+orig_importers []
+methods ['onOk', 'onCancel', 'constructor', 'fetchUsers', 'if', 'handleOk', 'handleScrollToBottom', 'handleChange', 'render']
+t ['EDIT_INFORMATION', 'OK', 'NAME', 'NAME_DESC', 'ALIAS', 'ALIAS_NAME_DESC', 'INVALID_ALIAS_NAME_DESC', 'ADMINISTRATOR', 'DESCRIPTION', 'DESCRIPTION_DESC']
+imports_raw ['@kube-design/components', 'components/Base', 'fast-copy', 'lodash', 'mobx-react', 'prop-types', 'react', 'stores/user', 'utils/constants']
+local []
+head /* |  * This file is part of KubeSphere Console. |  * Copyright (C) 2019 The KubeSphere Console Authors. |  * |  * KubeSphere Console is free software: you can redistribute it and/or modify |  * it under the terms of the GNU Affero General Public License as published by |  * the Free Software Foundation, either version 3 of the License, or |  * (at your option) any later version. |  * |  * KubeSphere Console is distributed in the hope that it will be useful, |  * but WITHOUT ANY WARRANTY; without even the implied w
+
+=== ORIG components/Modals/EditBasicInfo.js exists=True named=module-1360.js ===
+orig_importers []
+methods ['onOk', 'onCancel', 'constructor', 'componentDidUpdate', 'if', 'handleOk']
+t ['EDIT_INFORMATION', 'OK', 'NAME', 'ALIAS', 'ALIAS_NAME_DESC', 'INVALID_ALIAS_NAME_DESC', 'DESCRIPTION', 'DESCRIPTION_DESC']
+imports_raw ['@kube-design/components', 'components/Base', 'fast-copy', 'mobx', 'prop-types', 'react', 'utils/constants']
+local []
+head /* |  * This file is part of KubeSphere Console. |  * Copyright (C) 2019 The KubeSphere Console Authors. |  * |  * KubeSphere Console is free software: you can redistribute it and/or modify |  * it under the terms of the GNU Affero General Public License as published by |  * the Free Software Foundation, either version 3 of the License, or |  * (at your option) any later version. |  * |  * KubeSphere Console is distributed in the hope that it will be useful, |  * but WITHOUT ANY WARRANTY; without even the implied w
+
+######## RevisionControl 3854
+
+=== ORIG pages/projects/containers/Deployments/Detail/RevisionControl.js exists=True named=module-1071.js ===
+orig_importers ['pages/projects/containers/Deployments/Detail/routes.js']
+methods ['componentDidMount', 'if', 'fetchData', 'handleRevisionChange', 'renderDiff', 'render']
+t ['RUNNING', 'CREATED_TIME', 'YYYY-MM-DD HH:mm:ss', 'CONFIG_FILE', 'COMPARE_WITH', 'REVISION_RECORDS', 'REVISION_RECORDS_DESC', 'SERIAL_NUMBER', 'CREATION_TIME', 'rootStore']
+imports_raw ['react', 'mobx', 'mobx-react', 'lodash', 'utils', 'utils/yaml', 'utils/workload', 'stores/workload/revision', '@kube-design/components', 'components/Base', 'components/DiffYaml', './index.scss']
+local ['pages/projects/containers/Deployments/Detail/RevisionControl/index.scss']
+head /* |  * This file is part of KubeSphere Console. |  * Copyright (C) 2019 The KubeSphere Console Authors. |  * |  * KubeSphere Console is free software: you can redistribute it and/or modify |  * it under the terms of the GNU Affero General Public License as published by |  * the Free Software Foundation, either version 3 of the License, or |  * (at your option) any later version. |  * |  * KubeSphere Console is distributed in the hope that it will be useful, |  * but WITHOUT ANY WARRANTY; without even the implied w
+
+--- module-3854.js named=[] css=False ---
+importers [('module-1071.js', ['pages/projects/containers/Deployments/Detail/RevisionControl.js'])]
+methods ['if']
+t ['div', 'span']
+unique_t []
+unique_meth []
+unique_lit ['./module-5776.js', './module-3857.js', './module-3858.js', 'getDiffHtml']
+kids [('module-96.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-1.js', ['?']), ('module-837.js', ['?']), ('module-186.js', ['?']), ('module-1816.js', ['?']), ('module-5776.js', ['?']), ('module-3858.js', ['?'])]
+head import "./module-12.js"; | import "./module-135.js"; | import "./module-5.js"; | import "./module-11.js"; | import "./module-6.js"; | import "./module-9.js"; | import "./module-13.js"; | import "./module-10.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-17.js"; | import "./module-7.js"; | import "./module-45.js"; | import "./module-28.js"; | import "./module-42.js"; | import "./module-34.js"; | impo
+
+--- module-3857.js named=[] css=True ---
+importers []
+methods []
+t []
+unique_t []
+unique_meth []
+unique_lit []
+kids []
+head export default {}; | 
+
+--- module-3858.js named=[] css=True ---
+importers [('module-3854.js', ['?'])]
+methods []
+t []
+unique_t []
+unique_meth []
+unique_lit ['_21by05Ap1WqFl6ETG7MnQY']
+kids []
+head export default { |     header: "_21by05Ap1WqFl6ETG7MnQY" | }; | 
+
+=== ORIG components/Base/DiffYaml.js exists=False named=None ===
+orig_importers []
+methods []
+t []
+imports_raw []
+local []
+head 
+
+=== ORIG components/DiffYaml.js exists=True named=None ===
+orig_importers []
+methods ['componentDidUpdate', 'if', 'handleModeChange', 'render']
+t []
+imports_raw ['react', 'prop-types', 'react-fast-compare', '@kube-design/components', 'diff', 'diff2html', './index.scss']
+local ['components/DiffYaml/index.scss']
+head /* |  * This file is part of KubeSphere Console. |  * Copyright (C) 2019 The KubeSphere Console Authors. |  * |  * KubeSphere Console is free software: you can redistribute it and/or modify |  * it under the terms of the GNU Affero General Public License as published by |  * the Free Software Foundation, either version 3 of the License, or |  * (at your option) any later version. |  * |  * KubeSphere Console is distributed in the hope that it will be useful, |  * but WITHOUT ANY WARRANTY; without even the implied w
+
+######## AuthorizationList 4004
+
+=== ORIG pages/access/containers/Roles/Detail/AuthorizationList.js exists=True named=module-1023.js ===
+orig_importers ['pages/access/containers/Roles/Detail/routes.js']
+methods ['componentDidMount', 'fetchRoleTemplatesToDetail', 'render']
+t ['detailStore', 'PERMISSION_PL', 'NO_PERMISSION']
+imports_raw ['lodash', 'react', 'mobx', 'mobx-react', 'components/Base', 'components/Cards/RuleList']
+local []
+head /* |  * This file is part of KubeSphere Console. |  * Copyright (C) 2019 The KubeSphere Console Authors. |  * |  * KubeSphere Console is free software: you can redistribute it and/or modify |  * it under the terms of the GNU Affero General Public License as published by |  * the Free Software Foundation, either version 3 of the License, or |  * (at your option) any later version. |  * |  * KubeSphere Console is distributed in the hope that it will be useful, |  * but WITHOUT ANY WARRANTY; without even the implied w
+
+--- module-4004.js named=[] css=False ---
+importers [('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js'])]
+methods ['if']
+t []
+unique_t []
+unique_meth []
+unique_lit ['./module-4005.js', 'rule-list']
+kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-52.js', ['utils/index.js']), ('module-26.js', ['?']), ('module-201.js', ['utils/cookie.js']), ('module-4005.js', ['?'])]
+head import "./module-15.js"; | import "./module-73.js"; | import "./module-18.js"; | import "./module-16.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-17.js"; | import "./module-45.js"; | import "./module-42.js"; | import "./module-57.js"; | import module36 from "./module-36.js"; | import module37 from "./module-37.js"; | import module55 from "./module-55.js"; | import module56 from "./module-56.
+
+--- module-4005.js named=[] css=True ---
+importers [('module-4004.js', ['?'])]
+methods []
+t []
+unique_t []
+unique_meth []
+unique_lit ['z2WyR5A5wRu0YtfOojEJ8', '_2Qe_QRdB_yNsSo5jz4l2m']
+kids []
+head export default { |     wrapper: "z2WyR5A5wRu0YtfOojEJ8", |     name: "_2Qe_QRdB_yNsSo5jz4l2m" | }; | 
+
+######## Statistics 4448
+
+=== ORIG pages/workspaces/containers/Overview/ResourceUsage/Statistics.js exists=True named=module-4447.js ===
+orig_importers ['pages/workspaces/containers/Overview/ResourceUsage.js']
+methods ['constructor', 'super', 'fetchData', 'getLink', 'if', 'getMetrics', 'render']
+t ['rootStore', 'PROJECT', 'PROJECT_PL', 'DEVOPS_PROJECT_TCAP', 'DEVOPS_PROJECT_TCAP_PL', 'ROLE', 'ROLE_PL', 'WORKSPACE_MEMBER_TCAP', 'WORKSPACE_MEMBER_TCAP_PL']
+imports_raw ['react', 'mobx', 'mobx-react', 'lodash', 'utils/constants', 'stores/monitoring/workspace', '@kube-design/components', 'components/Base', 'components/Cards/Info', './index.scss']
+local ['pages/workspaces/containers/Overview/ResourceUsage/Statistics/index.scss']
+head /* |  * This file is part of KubeSphere Console. |  * Copyright (C) 2019 The KubeSphere Console Authors. |  * |  * KubeSphere Console is free software: you can redistribute it and/or modify |  * it under the terms of the GNU Affero General Public License as published by |  * the Free Software Foundation, either version 3 of the License, or |  * (at your option) any later version. |  * |  * KubeSphere Console is distributed in the hope that it will be useful, |  * but WITHOUT ANY WARRANTY; without even the implied w
+
+--- module-4448.js named=[] css=False ---
+importers [('module-4447.js', ['pages/workspaces/containers/Overview/ResourceUsage/Statistics.js'])]
+methods ['if']
+t []
+unique_t []
+unique_meth []
+unique_lit ['./module-4449.js']
+kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-1.js', ['?']), ('module-3.js', ['?']), ('module-433.js', ['?']), ('module-186.js', ['?']), ('module-4449.js', ['?'])]
+head import "./module-15.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-17.js"; | import "./module-935.js"; | import "./module-45.js"; | import "./module-42.js"; | import "./module-57.js"; | import "./module-315.js"; | import module36 from "./module-36.js"; | import module37 from "./module-37.js"; | import module55 from "./module-55.js"; | import module56 from "./module-56.js"; | import module51 fr
+
+--- module-4449.js named=[] css=True ---
+importers [('module-4448.js', ['?'])]
+methods []
+t []
+unique_t []
+unique_meth []
+unique_lit ['_19mYgWKuxc3opetAtSpZ8s', 'qxkZsU9tqSvifJxefLtUx', '-inyb5ARVzbHUbOax0Rz8', '_22Id0T409og0B_FDFhNx9P', '_1qTjUUGzpX3FNb9rnveJzC']
+kids []
+head export default { |     info: "_19mYgWKuxc3opetAtSpZ8s", |     icon: "qxkZsU9tqSvifJxefLtUx", |     text: "-inyb5ARVzbHUbOax0Rz8", |     link: "_22Id0T409og0B_FDFhNx9P", |     large: "_1qTjUUGzpX3FNb9rnveJzC" | }; | 
+
+=== ORIG components/Cards/Info.js exists=True named=None ===
+orig_importers []
+methods ['renderContent', 'render', 'if']
+t []
+imports_raw ['react', 'prop-types', 'classnames', 'react-router-dom', '@kube-design/components', './index.scss']
+local ['components/Cards/Info/index.scss']
+head /* |  * This file is part of KubeSphere Console. |  * Copyright (C) 2019 The KubeSphere Console Authors. |  * |  * KubeSphere Console is free software: you can redistribute it and/or modify |  * it under the terms of the GNU Affero General Public License as published by |  * the Free Software Foundation, either version 3 of the License, or |  * (at your option) any later version. |  * |  * KubeSphere Console is distributed in the hope that it will be useful, |  * but WITHOUT ANY WARRANTY; without even the implied w
+
+=== ORIG pages/clusters/containers/Monitor/Resource/Usage/Statistics.js exists=True named=None ===
+orig_importers []
+methods ['constructor', 'fetchData', 'getLink', 'if', 'getMetrics', 'render']
+t ['rootStore', 'WORKSPACES', 'ACCOUNTS', 'PROJECT_PL', 'DEVOPS_PROJECT_PL']
+imports_raw ['react', 'mobx', 'mobx-react', 'lodash', 'utils/constants', 'stores/monitoring/cluster', '@kube-design/components', 'components/Base', 'components/Cards/Info', './index.scss']
+local ['pages/clusters/containers/Monitor/Resource/Usage/Statistics/index.scss']
+head /* |  * This file is part of KubeSphere Console. |  * Copyright (C) 2019 The KubeSphere Console Authors. |  * |  * KubeSphere Console is free software: you can redistribute it and/or modify |  * it under the terms of the GNU Affero General Public License as published by |  * the Free Software Foundation, either version 3 of the License, or |  * (at your option) any later version. |  * |  * KubeSphere Console is distributed in the hope that it will be useful, |  * but WITHOUT ANY WARRANTY; without even the implied w
+
+######## Banner remaining unique kids of named Banner?
+
+######## FormInput ThemeSelector vs named ThemeSelector
+named ThemeSelector module-2783.js
+named FormInput/ThemeSelector None
+named FormInput GraphType module-2781.js
+
+=== ORIG components/Modals/CustomMonitoring/components/FormInput.js exists=True named=module-1338.js ===
+orig_importers ['components/Modals/CustomMonitoring/containers/GraphMonitorForm.js', 'components/Modals/CustomMonitoring/containers/TableMonitorForm.js', 'components/Modals/CustomMonitoring/containers/TextMonitorForm.js']
+methods []
+t []
+imports_raw ['./GraphType', './ThemeSelector']
+local ['components/Modals/CustomMonitoring/components/FormInput/GraphType.js', 'components/Modals/CustomMonitoring/components/FormInput/ThemeSelector.js']
+head /* |  * This file is part of KubeSphere Console. |  * Copyright (C) 2019 The KubeSphere Console Authors. |  * |  * KubeSphere Console is free software: you can redistribute it and/or modify |  * it under the terms of the GNU Affero General Public License as published by |  * the Free Software Foundation, either version 3 of the License, or |  * (at your option) any later version. |  * |  * KubeSphere Console is distributed in the hope that it will be useful, |  * but WITHOUT ANY WARRANTY; without even the implied w
+
+=== ORIG components/Modals/CustomMonitoring/components/FormInput/ThemeSelector.js exists=True named=None ===
+orig_importers ['components/Modals/CustomMonitoring/components/FormInput.js']
+methods []
+t []
+imports_raw ['react', 'classnames', 'lodash', './index.scss']
+local ['components/Modals/CustomMonitoring/components/FormInput/ThemeSelector/index.scss']
+head /* |  * This file is part of KubeSphere Console. |  * Copyright (C) 2019 The KubeSphere Console Authors. |  * |  * KubeSphere Console is free software: you can redistribute it and/or modify |  * it under the terms of the GNU Affero General Public License as published by |  * the Free Software Foundation, either version 3 of the License, or |  * (at your option) any later version. |  * |  * KubeSphere Console is distributed in the hope that it will be useful, |  * but WITHOUT ANY WARRANTY; without even the implied w
+
+=== ORIG components/Modals/CustomMonitoring/components/ThemeSelector.js exists=False named=module-2783.js ===
+orig_importers []
+methods []
+t []
+imports_raw []
+local []
+head 
+
+--- module-1338.js named=['components/Modals/CustomMonitoring/components/FormInput.js'] css=False ---
+importers [('module-2779.js', ['components/Modals/CustomMonitoring/containers/TextMonitorForm.js']), ('module-2792.js', ['components/Modals/CustomMonitoring/containers/GraphMonitorForm.js']), ('module-2803.js', ['components/Modals/CustomMonitoring/containers/TableMonitorForm.js'])]
+methods []
+t []
+unique_t []
+unique_meth []
+unique_lit ['./module-2781.js', './module-2783.js']
+kids [('module-2781.js', ['components/Modals/CustomMonitoring/components/GraphType.js', 'components/Modals/CustomMonitoring/components/FormInput/GraphType.js']), ('module-2783.js', ['components/Modals/CustomMonitoring/components/ThemeSelector.js'])]
+head import "./module-15.js"; | import GraphTextInput from "./module-2781.js"; | import ThemeSelector from "./module-2783.js"; | export { GraphTextInput }; | export { ThemeSelector }; | 
+
+--- module-2783.js named=['components/Modals/CustomMonitoring/components/ThemeSelector.js'] css=False ---
+importers [('module-1338.js', ['components/Modals/CustomMonitoring/components/FormInput.js'])]
+methods []
+t []
+unique_t []
+unique_meth []
+unique_lit ['./module-2784.js']
+kids [('module-31.js', ['?']), ('module-3.js', ['?']), ('module-807.js', ['?']), ('module-60.js', ['?']), ('module-2784.js', ['?'])]
+head import "./module-15.js"; | import "./module-73.js"; | import "./module-18.js"; | import module31 from "./module-31.js"; | import "./module-553.js"; | import module3 from "./module-3.js"; | import module807 from "./module-807.js"; | import module60 from "./module-60.js"; | import module2784 from "./module-2784.js"; | export default function({ options, value, onChange }) { |     return <div className={module2784.wrappe

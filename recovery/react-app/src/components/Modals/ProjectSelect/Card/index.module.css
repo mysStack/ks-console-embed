@@ -1,0 +1,16 @@
+.wrapper {
+  cursor: pointer;
+}
+
+.wrapper:hover a {
+  color: #55bc8a;
+}
+
+.name {
+  min-width: 400px;
+}
+
+.disabled {
+  cursor: default;
+  opacity: 0.6;
+}

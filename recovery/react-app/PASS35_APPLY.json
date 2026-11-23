@@ -1,0 +1,12 @@
+{
+  "applied": [
+    {
+      "module": "module-900.js",
+      "orig": "core/containers/Base/Detail/index.js",
+      "kind": "body",
+      "lit": "getEnabledOperations"
+    }
+  ],
+  "skipped": [],
+  "count": 1
+}

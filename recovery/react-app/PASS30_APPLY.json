@@ -1,0 +1,12 @@
+{
+  "applied": [
+    {
+      "module": "module-1728.js",
+      "orig": "components/Inputs/ResourceLimit/Slider.js",
+      "kind": "body",
+      "lit": "totalWeight"
+    }
+  ],
+  "skipped": [],
+  "count": 1
+}

@@ -1,0 +1,6 @@
+react-app/node_modules/
+phase5-node/node_modules/
+react-app/build.log
+react-app/phase4-build/
+**/.playwright-cli/
+**/test-results/

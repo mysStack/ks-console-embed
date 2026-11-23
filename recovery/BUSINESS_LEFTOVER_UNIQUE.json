@@ -1,0 +1,374 @@
+{
+  "business_leftover": 550,
+  "candidates_unique_t_both_sides": 26,
+  "no_unique_both": 524,
+  "candidates": [
+    {
+      "module": "955",
+      "pairs": [
+        [
+          "VALIDATION_FAILED",
+          "stores/cluster/index.js"
+        ]
+      ]
+    },
+    {
+      "module": "1133",
+      "pairs": [
+        [
+          "LOAD_BALANCER_PROVIDER_SCAP",
+          "pages/clusters/containers/Gateway/Components/GatewayCard/index.jsx"
+        ]
+      ]
+    },
+    {
+      "module": "1301",
+      "pairs": [
+        [
+          "AVAILABLE_ADDRESSES",
+          "components/Forms/Workload/AdvanceSettings/PodIPRange/index.jsx"
+        ]
+      ]
+    },
+    {
+      "module": "1364",
+      "pairs": [
+        [
+          "NO_LOG_DATA_FOUND_TIP",
+          "components/Cards/ContainerLog/index.jsx"
+        ],
+        [
+          "NO_LOG_DATA_FOUND",
+          "components/Cards/ContainerLog/index.jsx"
+        ]
+      ]
+    },
+    {
+      "module": "2061",
+      "pairs": [
+        [
+          "VOLUME_STORAGE_CLASS_DESC",
+          "components/Forms/Volume/VolumeSettings/FormTemplate.jsx"
+        ],
+        [
+          "VOLUME_SIZE_TIP",
+          "components/Forms/Volume/VolumeSettings/FormTemplate.jsx"
+        ],
+        [
+          "VOLUME_MODE",
+          "pages/clusters/containers/Storage/PV/detail/index.jsx"
+        ]
+      ]
+    },
+    {
+      "module": "2062",
+      "pairs": [
+        [
+          "VOLUME_HANDLE",
+          "pages/clusters/containers/Storage/PV/detail/index.jsx"
+        ],
+        [
+          "HOST_PATH",
+          "components/Forms/Workload/VolumeSettings/AddHostPath/index.jsx"
+        ]
+      ]
+    },
+    {
+      "module": "2069",
+      "pairs": [
+        [
+          "ADD_ALERTING_RULE_DESC",
+          "components/Forms/AlertingPolicy/AlertingRules/RuleList/index.jsx"
+        ]
+      ]
+    },
+    {
+      "module": "2078",
+      "pairs": [
+        [
+          "RULE_TEMPLATE",
+          "components/Forms/AlertingPolicy/AlertingRules/AddRuleForm/index.jsx"
+        ],
+        [
+          "CUSTOM_RULE",
+          "components/Forms/AlertingPolicy/AlertingRules/AddRuleForm/index.jsx"
+        ]
+      ]
+    },
+    {
+      "module": "2099",
+      "pairs": [
+        [
+          "ALERT_DURATION",
+          "components/Forms/AlertingPolicy/AlertingRules/AddRuleForm/CustomRule/index.jsx"
+        ],
+        [
+          "SEVERITY_REQUIRED",
+          "components/Forms/AlertingPolicy/AlertingRules/AddRuleForm/CustomRule/index.jsx"
+        ],
+        [
+          "ALERT_RULE_REQUIRED",
+          "components/Forms/AlertingPolicy/AlertingRules/AddRuleForm/CustomRule/index.jsx"
+        ]
+      ]
+    },
+    {
+      "module": "2103",
+      "pairs": [
+        [
+          "ALERT_LABELS",
+          "components/Modals/CustomMonitoring/components/PromQLInput/Suggestions/index.jsx"
+        ],
+        [
+          "ALERT_FUNCTIONS",
+          "components/Modals/CustomMonitoring/components/PromQLInput/Suggestions/index.jsx"
+        ],
+        [
+          "ALERT_RATE_RANGES",
+          "components/Modals/CustomMonitoring/components/PromQLInput/Suggestions/index.jsx"
+        ],
+        [
+          "ALERT_METRICS",
+          "components/Modals/CustomMonitoring/components/PromQLInput/Suggestions/index.jsx"
+        ]
+      ]
+    },
+    {
+      "module": "2409",
+      "pairs": [
+        [
+          "TOTAL_VALUE",
+          "pages/clusters/containers/Network/IPPools/index.jsx"
+        ],
+        [
+          "CREATE_POD_IP_POOL",
+          "components/Modals/Network/IPPoolsCreate/index.jsx"
+        ]
+      ]
+    },
+    {
+      "module": "3002",
+      "pairs": [
+        [
+          "ATTRIBUTES",
+          "core/containers/Base/Detail/BaseInfo/index.jsx"
+        ],
+        [
+          "EXTERNAL_EGRESS_DESC",
+          "pages/projects/containers/Network/Policies/RuleInfo/index.jsx"
+        ],
+        [
+          "EXTERNAL_INGRESS_DESC",
+          "pages/projects/containers/Network/Policies/RuleInfo/index.jsx"
+        ]
+      ]
+    },
+    {
+      "module": "3009",
+      "pairs": [
+        [
+          "INVITED_SUCCESSFULLY",
+          "actions/member.js"
+        ],
+        [
+          "REMOVE_MULTIPLE_MEMBERS",
+          "actions/member.js"
+        ]
+      ]
+    },
+    {
+      "module": "3025",
+      "pairs": [
+        [
+          "ASSIGN_ROLE",
+          "components/Modals/InviteMember/User.jsx"
+        ]
+      ]
+    },
+    {
+      "module": "3298",
+      "pairs": [
+        [
+          "AVAILABLE_QUOTAS",
+          "components/Inputs/ResourceLimit/index.jsx"
+        ]
+      ]
+    },
+    {
+      "module": "3590",
+      "pairs": [
+        [
+          "ENDPOINT",
+          "pages/projects/containers/Services/Detail/index.jsx"
+        ],
+        [
+          "SERVER_NAME",
+          "pages/projects/components/Modals/ServiceMonitor/Authorization/index.jsx"
+        ]
+      ]
+    },
+    {
+      "module": "3715",
+      "pairs": [
+        [
+          "ALL_PROJECTS",
+          "pages/clusters/components/ResourceTable/ProjectSelect/index.jsx"
+        ]
+      ]
+    },
+    {
+      "module": "3753",
+      "pairs": [
+        [
+          "CLUSTER_NODE_STATUS",
+          "pages/clusters/containers/Monitor/Cluster/Overview/index.jsx"
+        ],
+        [
+          "NODE_ONLINE_STATUS",
+          "pages/clusters/containers/Monitor/Cluster/Overview/index.jsx"
+        ],
+        [
+          "CONTROLLER_MANAGER",
+          "pages/clusters/containers/Monitor/Cluster/Overview/index.jsx"
+        ],
+        [
+          "KUBERNETES_SCHEDULER",
+          "pages/clusters/containers/Monitor/Cluster/Overview/index.jsx"
+        ],
+        [
+          "COMPONENT_STATUS",
+          "pages/clusters/containers/Monitor/Cluster/Overview/index.jsx"
+        ]
+      ]
+    },
+    {
+      "module": "4086",
+      "pairs": [
+        [
+          "KUBERNETES_STATUS",
+          "pages/clusters/containers/Overview/Dashboard/KubernetesStatus/index.jsx"
+        ],
+        [
+          "VALUE_REQUESTS_SECOND",
+          "pages/clusters/containers/Overview/Dashboard/KubernetesStatus/index.jsx"
+        ],
+        [
+          "API_REQUESTS_PER_SECOND",
+          "pages/clusters/containers/Overview/Dashboard/KubernetesStatus/index.jsx"
+        ],
+        [
+          "API_REQUEST_LATENCY",
+          "pages/clusters/containers/Overview/Dashboard/KubernetesStatus/index.jsx"
+        ],
+        [
+          "SCHEDULING_OPERATION",
+          "pages/clusters/containers/Overview/Dashboard/KubernetesStatus/index.jsx"
+        ],
+        [
+          "SCHEDULING_OPERATIONS",
+          "pages/clusters/containers/Overview/Dashboard/KubernetesStatus/index.jsx"
+        ],
+        [
+          "SCHEDULING_FAILURE",
+          "pages/clusters/containers/Overview/Dashboard/KubernetesStatus/index.jsx"
+        ],
+        [
+          "SCHEDULING_FAILURES",
+          "pages/clusters/containers/Overview/Dashboard/KubernetesStatus/index.jsx"
+        ]
+      ]
+    },
+    {
+      "module": "4157",
+      "pairs": [
+        [
+          "APPLICATION_RESOURCE_USAGE",
+          "pages/clusters/containers/Monitor/Resource/Usage/Virtual/index.jsx"
+        ]
+      ]
+    },
+    {
+      "module": "4286",
+      "pairs": [
+        [
+          "NODE_PORTS",
+          "pages/clusters/containers/Gateway/Components/ProjectGatewayList/index.jsx"
+        ]
+      ]
+    },
+    {
+      "module": "4374",
+      "pairs": [
+        [
+          "PROJECT_ROLE_VALUE",
+          "pages/workspaces/components/Modals/EditGroup/Detail/Form/ProjectSelect.jsx"
+        ]
+      ]
+    },
+    {
+      "module": "4656",
+      "pairs": [
+        [
+          "INTERNAL_ALLOWLIST_TIP",
+          "pages/projects/containers/Network/Policies/RuleInfo/index.jsx"
+        ],
+        [
+          "INTERNAL_EGRESS_DESC",
+          "pages/projects/containers/Network/Policies/RuleInfo/index.jsx"
+        ],
+        [
+          "INTERNAL_INGRESS_DESC",
+          "pages/projects/containers/Network/Policies/RuleInfo/index.jsx"
+        ]
+      ]
+    },
+    {
+      "module": "4906",
+      "pairs": [
+        [
+          "IMAGE_ARTIFACTS",
+          "pages/projects/containers/ImageBuilder/Detail/ImageProduct/index.jsx"
+        ]
+      ]
+    },
+    {
+      "module": "4927",
+      "pairs": [
+        [
+          "UPDATED_TIME",
+          "pages/projects/components/Cards/Workloads/Item.jsx"
+        ]
+      ]
+    },
+    {
+      "module": "5156",
+      "pairs": [
+        [
+          "SEND_TEST_MESSAGE_SUCCESS_DESC",
+          "components/Forms/Notification/BaseForm/index.jsx"
+        ],
+        [
+          "INVALID_NOTIFICATION_CONDITION",
+          "components/Forms/Notification/BaseForm/index.jsx"
+        ],
+        [
+          "WORKSPACE_NAME_EMPTY_DESC",
+          "pages/workspaces/components/Modals/WorkspaceCreate/BaseInfo/index.jsx"
+        ],
+        [
+          "ENTER_RECIPIENT_EMAIL_DESC",
+          "components/Forms/Notification/MailForm/index.jsx"
+        ],
+        [
+          "SEND_TEST_MESSAGE_DESC",
+          "components/Forms/Notification/BaseForm/index.jsx"
+        ],
+        [
+          "SEND_TEST_MESSAGE",
+          "components/Forms/Notification/BaseForm/index.jsx"
+        ]
+      ]
+    }
+  ],
+  "note": "candidates still need extra-path body check; this script does not pin"
+}

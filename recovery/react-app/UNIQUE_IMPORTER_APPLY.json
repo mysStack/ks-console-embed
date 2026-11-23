@@ -1,0 +1,12 @@
+{
+  "applied": [
+    {
+      "path": "dmp/pages/projects/components/AlertRuleCreate/BaseInfo/index.js",
+      "module": "module-2216.js",
+      "reason": "import_set_1_1_no_babel_helpers",
+      "extra": "set_size=3 named=['components/Forms/AlertingPolicy/BaseInfo/UnitInput.js', 'configs/alerting/metrics/rule.config.js', 'utils/constants.js']"
+    }
+  ],
+  "skipped": [],
+  "count": 1
+}

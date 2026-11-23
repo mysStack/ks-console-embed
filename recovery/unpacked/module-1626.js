@@ -1,0 +1,20 @@
+export default {
+    wrapper: "_2CAwl5k2oIda9YcGXDwM47",
+    empty: "_3C9m_Ocvi6i3FCZFQiyvBo",
+    formWrapper: "_1jC1_JGlPNjzoMoHEuIG7b",
+    contentWrapper: "_3JvS-OEcBUyHzzrjUgyD7y",
+    repoTypes: "_33Emj6yHpbs8UNlQpSvS1c",
+    selectType: "_2LA7h2xfYPhnWXS4cXQMv8",
+    gitIcon: "_1rzx7uWPAi4m6DkTVIZE42",
+    light: "_2PM3xrM_mfV8Y7SzcKac3z",
+    dark: "_2Cs9GTPWGQkHlPwuBJL_zq",
+    branch: "_2i7wzfSnXXny7hXWwWF_VU",
+    action: "_1q1nBwyG-e01cNjPngSVyL",
+    icon: "G4yuPTBjFVlQK_43eBXWg",
+    info: "_1IE8Wqz9EbuS8uyK2uvvW2",
+    name: "_2s59L_OotKhaMchVqNIcPK",
+    desc: "_2_Av3lQmokJgJ9tWlA3Vbz",
+    branch__show: "_1X_Zvts1SpLSCmF6cm-nQ7",
+    deleteRepoBtn: "_1ACD7-Hng8w7KKOYn0JT7H",
+    disabled: "_3YX-W9JYPf64LAZKgJRIYs"
+};

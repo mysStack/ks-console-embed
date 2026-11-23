@@ -1,0 +1,2791 @@
+{
+  "count": 291,
+  "by_status": {
+    "0-hit": 145,
+    "extra-path-covered": 65,
+    "unnameable-orig": 64,
+    "unique-evidence-unpinned": 17
+  },
+  "items": [
+    {
+      "orig": "stores/federated.list.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "stores/member.list.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "stores/silenceUnsupported.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "stores/storageclasscapabilities.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "utils/request.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "utils/localStorage.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "utils/configReferenceImpact.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "utils/podStatusLocale.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "core/global.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": [
+        "need_rebuild_"
+      ]
+    },
+    {
+      "orig": "core/routeSync.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": [
+        "__POWERED_BY_WUJIE__"
+      ]
+    },
+    {
+      "orig": "core/embed.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": [
+        "__POWERED_BY_WUJIE__"
+      ]
+    },
+    {
+      "orig": "core/localeAsset.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "core/routerBase.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "core/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "core/terminal.js",
+      "status": "extra-path-covered",
+      "reason": "unique-basename:stores/terminal.js",
+      "extra_path_dest": "stores/terminal.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "actions/fluxcd.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "actions/configReferenceImpact.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "actions/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "core/layouts/Base/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "core/containers/Login/index.js",
+      "status": "extra-path-covered",
+      "reason": "login-alias:pages/login.js",
+      "extra_path_dest": "pages/login.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "core/containers/PasswordConfirm/index.js",
+      "status": "unique-evidence-unpinned",
+      "reason": "unique leftover t PASSWORD_LETTER -> module-1286",
+      "extra_path_dest": null,
+      "unique_t": [
+        [
+          "PASSWORD_LETTER",
+          [
+            "1286"
+          ]
+        ],
+        [
+          "PASSWORD_NUMBER",
+          [
+            "1286"
+          ]
+        ]
+      ],
+      "known_0hit_needles": [
+        "CHANGE_PASSWORD_LATER"
+      ]
+    },
+    {
+      "orig": "core/containers/Base/Detail/Metadata/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "stores/s2i/listReject.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "stores/rank/workspace.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "stores/rank/project.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "stores/rank/node.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "stores/application/unsupported.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "stores/monitoring/project.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "stores/monitoring/volume.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "stores/monitoring/component.js",
+      "status": "extra-path-covered",
+      "reason": "unique-basename:stores/component.js",
+      "extra_path_dest": "stores/component.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "stores/monitoring/platform.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "stores/monitoring/pod.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "stores/monitoring/cluster.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "stores/monitoring/node.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "stores/monitoring/workload.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "stores/cluster/api.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "stores/cluster/member.js",
+      "status": "extra-path-covered",
+      "reason": "unique-basename:actions/member.js",
+      "extra_path_dest": "actions/member.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "stores/openpitrix/store.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "stores/openpitrix/review.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "stores/devops/imageBuildStrategies.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "stores/devops/imgBuilder.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "stores/devops/imageBuilderRun.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "configs/steps/fluxcd.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "configs/steps/volume.snapshots.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/apps/App.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/terminal/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/console/containers/KubeCtl/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/console/containers/LogQuery/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/console/logquery.js",
+      "extra_path_dest": "pages/console/logquery.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/console/containers/Bill/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/console/bill.js",
+      "extra_path_dest": "pages/console/bill.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/console/containers/AuditingSearch/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/console/auditingsearch.js",
+      "extra_path_dest": "pages/console/auditingsearch.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/console/containers/EventSearch/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/console/eventsearch.js",
+      "extra_path_dest": "pages/console/eventsearch.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/console/containers/ContainerTerminal/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/console/components/Cards/Workspace/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/routes/detail.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Jobs/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/projects/jobs.js",
+      "extra_path_dest": "pages/projects/jobs.js",
+      "unique_t": [
+        [
+          "UPDATE_TIME_TCAP",
+          [
+            "4657"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Services/layout.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/projects/layout.js",
+      "extra_path_dest": "pages/projects/layout.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Deployments/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/projects/deployments.js",
+      "extra_path_dest": "pages/projects/deployments.js",
+      "unique_t": [
+        [
+          "UPDATE_TIME_TCAP",
+          [
+            "4657"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/CronJobs/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/projects/cronjobs.js",
+      "extra_path_dest": "pages/projects/cronjobs.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/CustomMonitoring/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Secrets/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/projects/secrets.js",
+      "extra_path_dest": "pages/projects/secrets.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Volumes/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/projects/volumes.js",
+      "extra_path_dest": "pages/projects/volumes.js",
+      "unique_t": [
+        [
+          "WHAT_IS_STORAGE_CLASS_Q",
+          [
+            "4119"
+          ]
+        ],
+        [
+          "WHAT_IS_STORAGE_CLASS_A",
+          [
+            "4119"
+          ]
+        ],
+        [
+          "WHAT_IS_LOCAL_VOLUME_Q",
+          [
+            "4119"
+          ]
+        ],
+        [
+          "WHAT_IS_LOCAL_VOLUME_A",
+          [
+            "4119"
+          ]
+        ],
+        [
+          "RWO_DESC",
+          [
+            "3942"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/StatefulSets/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/projects/statefulsets.js",
+      "extra_path_dest": "pages/projects/statefulsets.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/ServiceAccounts/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/projects/serviceaccounts.js",
+      "extra_path_dest": "pages/projects/serviceaccounts.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Gateway/index.js",
+      "status": "unique-evidence-unpinned",
+      "reason": "unique leftover t GATEWAY_SETTINGS -> module-3578",
+      "extra_path_dest": null,
+      "unique_t": [
+        [
+          "GATEWAY_SETTINGS",
+          [
+            "3578"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Overview/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/projects/overview.js",
+      "extra_path_dest": "pages/projects/overview.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/DaemonSets/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/projects/daemonsets.js",
+      "extra_path_dest": "pages/projects/daemonsets.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Pods/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/projects/pods.js",
+      "extra_path_dest": "pages/projects/pods.js",
+      "unique_t": [
+        [
+          "VIEW_YAML",
+          [
+            "4119"
+          ]
+        ],
+        [
+          "POD_IP_ADDRESS",
+          [
+            "4038"
+          ]
+        ],
+        [
+          "UPDATE_TIME_TCAP",
+          [
+            "4657"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Applications/CRDApps.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Routes/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/projects/routes.js",
+      "extra_path_dest": "pages/projects/routes.js",
+      "unique_t": [
+        [
+          "EDIT_ROUTING_RULES",
+          [
+            "2623"
+          ]
+        ],
+        [
+          "EDIT_ANNOTATIONS",
+          [
+            "3318"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/VolumeSnapshots/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/ConfigMaps/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/projects/configmaps.js",
+      "extra_path_dest": "pages/projects/configmaps.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/LogCollection/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/LogCollection/LogCollection/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/BaseInfo/ResourceQuota/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/BaseInfo/ResourceQuota/QuotaItem/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/GrayRelease/Jobs/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/projects/jobs.js",
+      "extra_path_dest": "pages/projects/jobs.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/GrayRelease/Categories/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Applications/CRDAppDetail/Tracing/ServiceSelect/Item.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Applications/CRDAppDetail/Tracing/ServiceSelect/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Applications/OPAppDetail/Events/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Applications/OPAppDetail/VersionInfo/index.js",
+      "status": "unique-evidence-unpinned",
+      "reason": "unique leftover t ROLL_BACK -> module-1670",
+      "extra_path_dest": null,
+      "unique_t": [
+        [
+          "ROLL_BACK",
+          [
+            "1670"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Overview/Help/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": [
+        "HOW_TO_INVITE_USERS"
+      ]
+    },
+    {
+      "orig": "pages/projects/containers/Overview/Quota/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Overview/Applications/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Overview/BaseInfo/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Overview/UsageRanking/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Overview/ResourceUsage/SimpleArea/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Alerting/Messages/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Alerting/Policies/Detail/routes.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/projects/routes.js",
+      "extra_path_dest": "pages/projects/routes.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Alerting/Policies/Detail/index.js",
+      "status": "unique-evidence-unpinned",
+      "reason": "unique leftover t EDIT_ALERT_RULES -> module-2067",
+      "extra_path_dest": null,
+      "unique_t": [
+        [
+          "EDIT_ALERT_RULES",
+          [
+            "2067"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Alerting/Policies/AlertingStatus/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Alerting/Policies/Detail/AlertMessages/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Alerting/Policies/Detail/AlertRules/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Base/List/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Deployments/Detail/ResourceStatus/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Deployments/Detail/Monitoring/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/containers/Services/Topology/RadioButtons/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/components/Cards/ContainerTemplate/Item.js",
+      "status": "unique-evidence-unpinned",
+      "reason": "unique leftover t INIT_CONTAINER -> module-4432",
+      "extra_path_dest": null,
+      "unique_t": [
+        [
+          "INIT_CONTAINER",
+          [
+            "4432"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/components/Cards/ContainerTemplate/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/components/Cards/ImageRunRecord/devops.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/components/Cards/Logs/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/components/Cards/ImageRunRecord/Item/devops.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/components/Modals/RebuildS2i/item.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/components/Modals/RebuildS2i/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/components/Modals/ModifyMember/User.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/components/Modals/ModifyMember/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": [
+        "MODIFY_MEMBER_ROLE"
+      ]
+    },
+    {
+      "orig": "pages/projects/components/Modals/KubeConfig/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": [
+        "kubeconfig.yaml"
+      ]
+    },
+    {
+      "orig": "pages/projects/components/Modals/CreateApp/Services/ServiceList/ClusterDiffs/ContainerImages/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/projects/components/Modals/CreateApp/Services/ServiceList/ClusterDiffs/ClustersMapper/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/apps/routes/detail.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/apps/routes/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/apps/containers/layout.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/apps/containers/StoreManage/index.js",
+      "status": "unique-evidence-unpinned",
+      "reason": "unique leftover t UPDATE_TIME_TCAP -> module-4657",
+      "extra_path_dest": null,
+      "unique_t": [
+        [
+          "UPDATE_TIME_TCAP",
+          [
+            "4657"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/apps/containers/Home/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/apps/containers/Categories/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/apps/containers/AppDetail/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/apps/containers/Reviews/index.js",
+      "status": "unique-evidence-unpinned",
+      "reason": "unique leftover t UPDATE_TIME_TCAP -> module-4657",
+      "extra_path_dest": null,
+      "unique_t": [
+        [
+          "UPDATE_TIME_TCAP",
+          [
+            "4657"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/apps/containers/AppDeploy/Steps/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/apps/containers/Categories/Cates/Item.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/apps/containers/Categories/Cates/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/apps/containers/StoreManage/Detail/routes.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/apps/containers/StoreManage/Detail/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/apps/containers/StoreManage/Detail/AppInstances/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/apps/containers/StoreManage/Detail/VersionManage/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/apps/components/Banner/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/apps/components/Cards/Introduction/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/apps/components/Cards/AuditRecord/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/devops/containers/CD/CDList/index.js",
+      "status": "unique-evidence-unpinned",
+      "reason": "unique leftover t UPDATE_TIME_TCAP -> module-4657",
+      "extra_path_dest": null,
+      "unique_t": [
+        [
+          "UPDATE_TIME_TCAP",
+          [
+            "4657"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/devops/containers/CD/Components/ChartCard/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/devops/containers/CD/Components/Destination/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/devops/containers/CD/detail/FluxApp/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/devops/containers/Pipelines/Detail/layout.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/devops/layout.js",
+      "extra_path_dest": "pages/devops/layout.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/devops/containers/Base/Detail/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/devops/components/Pipeline/StepModalsOld/kubernetesYaml.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/devops/components/Pipeline/StepModalsOld/cleanWs.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/devops/components/Pipeline/StepModals/kubernetesYaml.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/devops/components/Pipeline/StepsEditor/StepsEditor.js",
+      "status": "extra-path-covered",
+      "reason": "unique-basename:pages/devops/components/Pipeline/StepsEditor.js",
+      "extra_path_dest": "pages/devops/components/Pipeline/StepsEditor.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/devops/components/Cards/EmptyCard/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/settings/containers/layout.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/settings/layout.js",
+      "extra_path_dest": "pages/settings/layout.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/workspaces/routes/detail.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/workspaces/containers/QuotaManage/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/workspaces/containers/Clusters/Card.js",
+      "status": "unique-evidence-unpinned",
+      "reason": "unique leftover t KUBERNETES_VERSION -> module-4082",
+      "extra_path_dest": null,
+      "unique_t": [
+        [
+          "KUBERNETES_VERSION",
+          [
+            "4082"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/workspaces/containers/Clusters/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/workspaces/containers/Projects/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/workspaces/projects.js",
+      "extra_path_dest": "pages/workspaces/projects.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/workspaces/containers/Overview/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/workspaces/containers/FedProjects/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/workspaces/containers/Apps/Detail/AppInstances/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/workspaces/containers/Overview/ResourceUsage/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/workspaces/containers/Overview/Clusters/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/workspaces/containers/QuotaManage/ResourceQuota/QuotaItem/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/workspaces/containers/Base/List/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/workspaces/components/Banner/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/workspaces/components/Selector/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/workspaces/components/Modals/WorkspaceSelect/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/workspaces/components/Modals/WorkspaceSelect/Card/index.js",
+      "status": "unique-evidence-unpinned",
+      "reason": "unique leftover t ALL_CLUSTERS -> module-2072",
+      "extra_path_dest": null,
+      "unique_t": [
+        [
+          "ALL_CLUSTERS",
+          [
+            "2072"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/routes/detail.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/containers/Services/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/fedprojects/services.js",
+      "extra_path_dest": "pages/fedprojects/services.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/containers/Deployments/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/fedprojects/deployments.js",
+      "extra_path_dest": "pages/fedprojects/deployments.js",
+      "unique_t": [
+        [
+          "UPDATE_TIME_TCAP",
+          [
+            "4657"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/containers/Secrets/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/fedprojects/secrets.js",
+      "extra_path_dest": "pages/fedprojects/secrets.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/containers/QuotaManage/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/containers/Volumes/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/fedprojects/volumes.js",
+      "extra_path_dest": "pages/fedprojects/volumes.js",
+      "unique_t": [
+        [
+          "WHAT_IS_STORAGE_CLASS_Q",
+          [
+            "4119"
+          ]
+        ],
+        [
+          "WHAT_IS_STORAGE_CLASS_A",
+          [
+            "4119"
+          ]
+        ],
+        [
+          "WHAT_IS_LOCAL_VOLUME_Q",
+          [
+            "4119"
+          ]
+        ],
+        [
+          "WHAT_IS_LOCAL_VOLUME_A",
+          [
+            "4119"
+          ]
+        ],
+        [
+          "MOUNT_STATUS",
+          [
+            "4119"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/containers/StatefulSets/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/fedprojects/statefulsets.js",
+      "extra_path_dest": "pages/fedprojects/statefulsets.js",
+      "unique_t": [
+        [
+          "UPDATE_TIME_TCAP",
+          [
+            "4657"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/containers/Gateway/index.js",
+      "status": "unique-evidence-unpinned",
+      "reason": "unique leftover t GATEWAY_SETTINGS -> module-3578",
+      "extra_path_dest": null,
+      "unique_t": [
+        [
+          "GATEWAY_SETTINGS",
+          [
+            "3578"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/containers/Applications/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/fedprojects/applications.js",
+      "extra_path_dest": "pages/fedprojects/applications.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/containers/Routes/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/fedprojects/routes.js",
+      "extra_path_dest": "pages/fedprojects/routes.js",
+      "unique_t": [
+        [
+          "EDIT_ROUTING_RULES",
+          [
+            "2623"
+          ]
+        ],
+        [
+          "EDIT_ANNOTATIONS",
+          [
+            "3318"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/containers/BaseInfo/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/containers/ConfigMaps/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/fedprojects/configmaps.js",
+      "extra_path_dest": "pages/fedprojects/configmaps.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/containers/LogCollection/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/containers/LogCollection/LogCollection/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/containers/Applications/Detail/Tracing/ServiceSelect/Item.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/containers/Applications/Detail/Tracing/ServiceSelect/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/containers/Overview/Help/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": [
+        "HOW_TO_INVITE_USERS"
+      ]
+    },
+    {
+      "orig": "pages/fedprojects/containers/Overview/ResourceUsage/SimpleArea/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/containers/Gateway/Access/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/containers/QuotaManage/ResourceQuota/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/containers/QuotaManage/ResourceQuota/QuotaItem/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/containers/Base/Detail/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/containers/Base/List/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/containers/Deployments/Detail/ResourceStatus/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/containers/Deployments/Detail/Monitoring/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/fedprojects/components/ConfigTemplate/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/routes/detail.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/layout.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/layout.js",
+      "extra_path_dest": "pages/clusters/layout.js",
+      "unique_t": [],
+      "known_0hit_needles": [
+        "need_rebuild_"
+      ]
+    },
+    {
+      "orig": "pages/clusters/layouts/FedProject.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/layouts/Project.js",
+      "status": "extra-path-covered",
+      "reason": "unique-basename:pages/clusters/containers/Monitor/Resource/Ranking/Project.js",
+      "extra_path_dest": "pages/clusters/containers/Monitor/Resource/Ranking/Project.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Nodes/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/nodes.js",
+      "extra_path_dest": "pages/clusters/nodes.js",
+      "unique_t": [
+        [
+          "WHAT_IS_NODE_TAINTS_Q",
+          [
+            "4665"
+          ]
+        ],
+        [
+          "WHAT_IS_NODE_TAINTS_A",
+          [
+            "4665"
+          ]
+        ],
+        [
+          "CPU_LIMIT_SI",
+          [
+            "4665"
+          ]
+        ],
+        [
+          "CPU_LIMIT_PL",
+          [
+            "4665"
+          ]
+        ],
+        [
+          "CPU_REQUEST_SI",
+          [
+            "4665"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/CustomMonitoring/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Secrets/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/secrets.js",
+      "extra_path_dest": "pages/clusters/secrets.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Members/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/members.js",
+      "extra_path_dest": "pages/clusters/members.js",
+      "unique_t": [
+        [
+          "INVITE_MEMBER",
+          [
+            "3024"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/ServiceAccounts/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/serviceaccounts.js",
+      "extra_path_dest": "pages/clusters/serviceaccounts.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Projects/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/projects.js",
+      "extra_path_dest": "pages/clusters/projects.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Gateway/index.js",
+      "status": "unique-evidence-unpinned",
+      "reason": "unique leftover t GATEWAY_SETTINGS -> module-3578",
+      "extra_path_dest": null,
+      "unique_t": [
+        [
+          "GATEWAY_SETTINGS",
+          [
+            "3578"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Overview/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/overview.js",
+      "extra_path_dest": "pages/clusters/overview.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/EdgeNodes/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/edgenodes.js",
+      "extra_path_dest": "pages/clusters/edgenodes.js",
+      "unique_t": [
+        [
+          "WHAT_IS_NODE_TAINTS_Q",
+          [
+            "4665"
+          ]
+        ],
+        [
+          "WHAT_IS_NODE_TAINTS_A",
+          [
+            "4665"
+          ]
+        ],
+        [
+          "CPU_LIMIT_SI",
+          [
+            "4665"
+          ]
+        ],
+        [
+          "CPU_LIMIT_PL",
+          [
+            "4665"
+          ]
+        ],
+        [
+          "CPU_REQUEST_SI",
+          [
+            "4665"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Roles/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/roles.js",
+      "extra_path_dest": "pages/clusters/roles.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/ConfigMaps/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/configmaps.js",
+      "extra_path_dest": "pages/clusters/configmaps.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/CustomResources/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/customresources.js",
+      "extra_path_dest": "pages/clusters/customresources.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/EdgeNodes/Detail/Monitoring/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/BaseInfo/ManageButton/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Storage/StorageClasses/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/storageclasses.js",
+      "extra_path_dest": "pages/clusters/storageclasses.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Storage/PV/detail/routes.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/routes.js",
+      "extra_path_dest": "pages/clusters/routes.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Storage/PV/detail/index.js",
+      "status": "unique-evidence-unpinned",
+      "reason": "unique leftover t VIEW_YAML -> module-4119",
+      "extra_path_dest": null,
+      "unique_t": [
+        [
+          "VIEW_YAML",
+          [
+            "4119"
+          ]
+        ],
+        [
+          "STORAGE_CLASS",
+          [
+            "2061"
+          ]
+        ],
+        [
+          "VOLUME_HANDLE",
+          [
+            "2062"
+          ]
+        ],
+        [
+          "RECLAIM_POLICY",
+          [
+            "2061"
+          ]
+        ],
+        [
+          "VOLUME_MODE",
+          [
+            "2061"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Storage/PV/detail/ResourceStatus/index.js",
+      "status": "unique-evidence-unpinned",
+      "reason": "unique leftover t RWO_DESC -> module-3942",
+      "extra_path_dest": null,
+      "unique_t": [
+        [
+          "RWO_DESC",
+          [
+            "3942"
+          ]
+        ],
+        [
+          "ROX_DESC",
+          [
+            "3942"
+          ]
+        ],
+        [
+          "RWX_DESC",
+          [
+            "3942"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Network/IPPools/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/ippools.js",
+      "extra_path_dest": "pages/clusters/ippools.js",
+      "unique_t": [
+        [
+          "VIEW_YAML",
+          [
+            "4119"
+          ]
+        ],
+        [
+          "TOTAL_VALUE",
+          [
+            "2409"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Network/IPPools/Detail/routes.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/routes.js",
+      "extra_path_dest": "pages/clusters/routes.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Network/IPPools/Detail/Workspaces/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Network/IPPools/Detail/Pods/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/pods.js",
+      "extra_path_dest": "pages/clusters/pods.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Overview/Dashboard/ResourcesUsage/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Overview/Dashboard/ClusterNodes/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Overview/Dashboard/ClusterNodes/NodesStatus/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Overview/Dashboard/ClusterNodes/NodesTop5/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Gateway/Detail/routes.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/routes.js",
+      "extra_path_dest": "pages/clusters/routes.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Gateway/Detail/index.js",
+      "status": "unique-evidence-unpinned",
+      "reason": "unique leftover t UPDATE_TIME_TCAP -> module-4657",
+      "extra_path_dest": null,
+      "unique_t": [
+        [
+          "UPDATE_TIME_TCAP",
+          [
+            "4657"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Gateway/Components/TimeSelector/utils.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Gateway/Components/TimeSelector/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Gateway/Components/MonitoringOverview/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Gateway/Components/TimeSelector/Range/Default.js",
+      "status": "extra-path-covered",
+      "reason": "unique-basename:components/Cards/Monitoring/Controller/TimeSelector/Range/Default.js",
+      "extra_path_dest": "components/Cards/Monitoring/Controller/TimeSelector/Range/Default.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Gateway/Detail/GatewayLog/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Gateway/Detail/ResourceStatus/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Gateway/Detail/GatewayConfig/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Gateway/Detail/Monitoring/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Gateway/Detail/AnnotationsCard/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/LogCollections/Detail/YamlModal/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Base/Detail/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Base/List/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": [
+        "need_rebuild_"
+      ]
+    },
+    {
+      "orig": "pages/clusters/containers/Workload/Jobs/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/jobs.js",
+      "extra_path_dest": "pages/clusters/jobs.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Workload/Services/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/services.js",
+      "extra_path_dest": "pages/clusters/services.js",
+      "unique_t": [
+        [
+          "EXTERNAL_ACCESS",
+          [
+            "2982"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Workload/Deployments/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/deployments.js",
+      "extra_path_dest": "pages/clusters/deployments.js",
+      "unique_t": [
+        [
+          "UPDATE_TIME_TCAP",
+          [
+            "4657"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Workload/CronJobs/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/cronjobs.js",
+      "extra_path_dest": "pages/clusters/cronjobs.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Workload/StatefulSets/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/statefulsets.js",
+      "extra_path_dest": "pages/clusters/statefulsets.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Workload/DaemonSets/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/daemonsets.js",
+      "extra_path_dest": "pages/clusters/daemonsets.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Workload/Pods/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/pods.js",
+      "extra_path_dest": "pages/clusters/pods.js",
+      "unique_t": [
+        [
+          "VIEW_YAML",
+          [
+            "4119"
+          ]
+        ],
+        [
+          "POD_IP_ADDRESS",
+          [
+            "4038"
+          ]
+        ],
+        [
+          "UPDATE_TIME_TCAP",
+          [
+            "4657"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Workload/Routes/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/routes.js",
+      "extra_path_dest": "pages/clusters/routes.js",
+      "unique_t": [
+        [
+          "EDIT_ROUTING_RULES",
+          [
+            "2623"
+          ]
+        ],
+        [
+          "EDIT_ANNOTATIONS",
+          [
+            "3318"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Monitor/Cluster/Overview/index.js",
+      "status": "extra-path-covered",
+      "reason": "shortened-pages-scope:pages/clusters/overview.js",
+      "extra_path_dest": "pages/clusters/overview.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Monitor/Cluster/Ranking/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Monitor/Cluster/Monitor/Scheduler/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Monitor/Cluster/Monitor/APIServer/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Monitor/Cluster/Monitor/Etcd/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Monitor/Resource/Ranking/Project/Table/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Monitor/Resource/Usage/Virtual/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Monitor/Resource/Usage/Statistics/index.js",
+      "status": "unique-evidence-unpinned",
+      "reason": "unique leftover t DEVOPS_PROJECT_PL -> module-5045",
+      "extra_path_dest": null,
+      "unique_t": [
+        [
+          "DEVOPS_PROJECT_PL",
+          [
+            "5045"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/containers/Monitor/Resource/Usage/Physical/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/components/Selector/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/components/Cards/Cluster/fields.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/components/Cards/Monitoring/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/components/Cards/Monitoring/ClusterResource/Tab.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "pages/clusters/components/Cards/Monitoring/ClusterResource/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/HOCs/withDefaultSecrets.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/SVG/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Tree/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Link/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Terminal/terminal.js",
+      "status": "extra-path-covered",
+      "reason": "unique-basename:stores/terminal.js",
+      "extra_path_dest": "stores/terminal.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Charts/Custom/Tooltip/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Cards/LogQuery/utils.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Cards/LogQuery/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Cards/NotFound/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Inputs/EnvironmentInput/envFrom.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Inputs/EnvFromInput/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Inputs/TailIUnitInput/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Inputs/EnvironmentInput/EnvFromInput/Item.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Inputs/EnvironmentInput/EnvFromInput/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": [
+        "ENVIRONMENT_REFERENCE"
+      ]
+    },
+    {
+      "orig": "components/SVG/Defs/AreaColor.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Modals/ConfigReferenceImpact/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Modals/Edit/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Modals/About/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Modals/CDAdvanceEdit/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": [
+        "PARMMETER_TYPES"
+      ]
+    },
+    {
+      "orig": "components/Modals/CustomMonitoring/components/SquareButton/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Modals/CustomMonitoring/components/FormGroupCard/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Modals/CustomMonitoring/components/ErrorContainer/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Modals/CustomMonitoring/components/EditMonitorFormLayout/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Modals/CustomMonitoring/components/GraphRowsSorter/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Modals/CustomMonitoring/components/FormInput/ThemeSelector/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Modals/CustomMonitoring/components/FormInput/Template/ColumeInput/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Modals/CustomMonitoring/components/Form/Field/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Modals/CustomMonitoring/components/Form/ItemContianer/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Layout/Nav/Link.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Tables/Ranking/wrapper.js",
+      "status": "extra-path-covered",
+      "reason": "unique-basename:components/Modals/Edit/Form/wrapper.js",
+      "extra_path_dest": "components/Modals/Edit/Form/wrapper.js",
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Base/Modal/modal.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Base/Slider/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Forms/Notification/SlackForm/Item.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Forms/CD/Advance/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Forms/CD/FluxCD/Advance/index.js",
+      "status": "unique-evidence-unpinned",
+      "reason": "unique leftover t ROLL_BACK -> module-1670",
+      "extra_path_dest": null,
+      "unique_t": [
+        [
+          "ROLL_BACK",
+          [
+            "1670"
+          ]
+        ]
+      ],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Forms/CD/Advance/Parameter/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": [
+        "PARMMETER_TYPES"
+      ]
+    },
+    {
+      "orig": "components/Forms/CD/Advance/Parameter/HelmForm/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Forms/CD/Advance/Parameter/KustomizeForm/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Forms/CD/Advance/Parameter/ImagesInput/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Forms/DevOps/BaseInfo/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": [
+        "DEVOPS_BASEINFO_DESC"
+      ]
+    },
+    {
+      "orig": "components/Forms/VolumeSnapshot/BaseInfo/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Forms/VolumeSnapshot/Source/index.js",
+      "status": "unnameable-orig",
+      "reason": "shared t or no 1:1 leftover body",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Forms/Base/Title/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    },
+    {
+      "orig": "components/Forms/Workload/ContainerSettings/PodAffinity/index.js",
+      "status": "0-hit",
+      "reason": "no leftover unique t() >=8",
+      "extra_path_dest": null,
+      "unique_t": [],
+      "known_0hit_needles": []
+    }
+  ]
+}

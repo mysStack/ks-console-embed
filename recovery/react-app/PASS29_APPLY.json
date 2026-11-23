@@ -1,0 +1,12 @@
+{
+  "applied": [
+    {
+      "module": "module-950.js",
+      "orig": "components/Cards/Monitoring/Controller/TimeSelector/utils.js",
+      "kind": "named_child",
+      "lit": "getLastTimeStr+TimeSelector-family"
+    }
+  ],
+  "skipped": [],
+  "count": 1
+}

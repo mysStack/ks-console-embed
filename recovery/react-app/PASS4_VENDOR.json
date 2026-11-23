@@ -1,0 +1,748 @@
+{
+  "live": 1680,
+  "already": 183,
+  "unique_ok": [
+    {
+      "module": "module-376.js",
+      "npm": "core-js3/internals/html.js",
+      "pkg": "core-js3",
+      "vias": [
+        "str:documentElement"
+      ],
+      "consume": {
+        "default_require": [
+          "unpacked/module-114.js"
+        ],
+        "default_import": [
+          "unpacked/module-375.js"
+        ],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "unpacked/module-114.js",
+          "unpacked/module-375.js"
+        ],
+        "needs_shim": true,
+        "side_only": false
+      },
+      "source": "unique_str",
+      "kind": "shim",
+      "npm_file": "/home/bruce/code/ks-develop/kse-console-v3/recovery/react-app/node_modules/core-js3/internals/html.js",
+      "npm_bytes": 130,
+      "leftover_bytes": 102
+    },
+    {
+      "module": "module-64.js",
+      "npm": "core-js3/modules/es.string.replace.js",
+      "pkg": "core-js3",
+      "vias": [
+        "str:.replace(/./, "
+      ],
+      "consume": {
+        "default_require": [],
+        "default_import": [],
+        "side_import": [
+          "pages/clusters/edgenodes.js",
+          "pages/edgewize/fota.js",
+          "pages/whizard-telemetry/edgenodes.js",
+          "pages/projects/applications-database.js",
+          "pages/node-groups/nodes.js",
+          "pages/console/containers/Dashboard/Admin.js",
+          "pages/console/containers/Dashboard/Admin/History/Card.js",
+          "pages/node-groups/edgeippool/Detail.js"
+        ],
+        "named_import": [],
+        "any_import": [
+          "unpacked/module-4142.js",
+          "unpacked/module-4142.js",
+          "unpacked/module-891.js",
+          "unpacked/module-891.js",
+          "unpacked/module-955.js",
+          "unpacked/module-955.js"
+        ],
+        "needs_shim": false,
+        "side_only": true
+      },
+      "source": "unique_str",
+      "kind": "alias",
+      "npm_file": "/home/bruce/code/ks-develop/kse-console-v3/recovery/react-app/node_modules/core-js3/modules/es.string.replace.js",
+      "npm_bytes": 5667,
+      "leftover_bytes": 3693
+    },
+    {
+      "module": "module-606.js",
+      "npm": "lodash/_baseIsNative.js",
+      "pkg": "lodash",
+      "vias": [
+        "struct:/^\\[object .+?Constructor\\]$/",
+        "struct:hasOwnProperty|(function).*?(?=\\\\\\()| for .+?(?=\\\\\\])"
+      ],
+      "consume": {
+        "default_require": [],
+        "default_import": [
+          "unpacked/module-129.js"
+        ],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "unpacked/module-129.js"
+        ],
+        "needs_shim": true,
+        "side_only": false
+      },
+      "source": "lodash_struct",
+      "kind": "shim",
+      "npm_file": "/home/bruce/code/ks-develop/kse-console-v3/recovery/react-app/node_modules/lodash/_baseIsNative.js",
+      "npm_bytes": 1417,
+      "leftover_bytes": 625
+    },
+    {
+      "module": "module-674.js",
+      "npm": "lodash/array.js",
+      "pkg": "lodash",
+      "vias": [
+        "str:intersection"
+      ],
+      "consume": {
+        "default_require": [],
+        "default_import": [],
+        "side_import": [
+          "unpacked/module-461.js"
+        ],
+        "named_import": [],
+        "any_import": [],
+        "needs_shim": false,
+        "side_only": true
+      },
+      "source": "unique_str",
+      "kind": "alias",
+      "npm_file": "/home/bruce/code/ks-develop/kse-console-v3/recovery/react-app/node_modules/lodash/array.js",
+      "npm_bytes": 2490,
+      "leftover_bytes": 560
+    },
+    {
+      "module": "module-264.js",
+      "npm": "lodash/isPlainObject.js",
+      "pkg": "lodash",
+      "vias": [
+        "struct:module116(e) != \"[object Object]\"",
+        "struct:n instanceof n && toString.call(n) == c"
+      ],
+      "consume": {
+        "default_require": [],
+        "default_import": [
+          "utils/index.js",
+          "unpacked/module-709.js",
+          "unpacked/module-625.js",
+          "unpacked/module-1035.js",
+          "unpacked/module-2808.js"
+        ],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "utils/index.js",
+          "unpacked/module-709.js",
+          "unpacked/module-625.js",
+          "unpacked/module-1035.js",
+          "unpacked/module-2808.js"
+        ],
+        "needs_shim": true,
+        "side_only": false
+      },
+      "source": "lodash_struct",
+      "kind": "shim",
+      "npm_file": "/home/bruce/code/ks-develop/kse-console-v3/recovery/react-app/node_modules/lodash/isPlainObject.js",
+      "npm_bytes": 1650,
+      "leftover_bytes": 624
+    },
+    {
+      "module": "module-164.js",
+      "npm": "lodash/lodash.min.js",
+      "pkg": "lodash",
+      "vias": [
+        "str:[object Promise]"
+      ],
+      "consume": {
+        "default_require": [],
+        "default_import": [
+          "unpacked/module-360.js",
+          "unpacked/module-701.js",
+          "unpacked/module-646.js",
+          "unpacked/module-1024.js",
+          "unpacked/module-703.js",
+          "unpacked/module-63.js",
+          "unpacked/module-3913.js"
+        ],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "unpacked/module-360.js",
+          "unpacked/module-701.js",
+          "unpacked/module-646.js",
+          "unpacked/module-1024.js",
+          "unpacked/module-703.js",
+          "unpacked/module-63.js",
+          "unpacked/module-3913.js"
+        ],
+        "needs_shim": true,
+        "side_only": false
+      },
+      "source": "unique_str",
+      "kind": "shim",
+      "npm_file": "/home/bruce/code/ks-develop/kse-console-v3/recovery/react-app/node_modules/lodash/lodash.min.js",
+      "npm_bytes": 73234,
+      "leftover_bytes": 1435
+    }
+  ],
+  "unique_ok_count": 6,
+  "two_hit": [],
+  "rejected_multi": [],
+  "struct_hits": [
+    {
+      "module": "module-958.js",
+      "npm": "lodash/isBuffer.js",
+      "needles_hit": [
+        "typeof Buffer !== \"undefined\" && typeof Buffer.isBuffer",
+        "Buffer.isBuffer(value)"
+      ],
+      "live": false,
+      "already": false,
+      "npm_exists": true,
+      "consume": {
+        "default_require": [],
+        "default_import": [],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "unpacked/module-1469.js",
+          "unpacked/module-1652.js",
+          "unpacked/module-1263.js",
+          "unpacked/module-2016.js"
+        ],
+        "needs_shim": false,
+        "side_only": false
+      },
+      "importers_any": [
+        "unpacked/module-1469.js",
+        "unpacked/module-1652.js",
+        "unpacked/module-1263.js",
+        "unpacked/module-2016.js"
+      ]
+    },
+    {
+      "module": "module-1056.js",
+      "npm": "lodash/_nodeUtil.js",
+      "needles_hit": [
+        "typeof process !== \"undefined\" && process.binding",
+        "process.binding"
+      ],
+      "live": false,
+      "already": false,
+      "npm_exists": true,
+      "consume": {
+        "default_require": [],
+        "default_import": [],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "unpacked/module-992.js",
+          "unpacked/module-2016.js"
+        ],
+        "needs_shim": false,
+        "side_only": false
+      },
+      "importers_any": [
+        "unpacked/module-992.js",
+        "unpacked/module-2016.js"
+      ]
+    },
+    {
+      "module": "module-1648.js",
+      "npm": "lodash/_cloneBuffer.js",
+      "needles_hit": [
+        "typeof Buffer !== \"undefined\" && Buffer.from",
+        "Buffer.from(input)"
+      ],
+      "live": false,
+      "already": false,
+      "npm_exists": true,
+      "consume": {
+        "default_require": [],
+        "default_import": [],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "unpacked/module-1469.js",
+          "unpacked/module-2016.js"
+        ],
+        "needs_shim": false,
+        "side_only": false
+      },
+      "importers_any": [
+        "unpacked/module-1469.js",
+        "unpacked/module-2016.js"
+      ]
+    },
+    {
+      "module": "module-264.js",
+      "npm": "lodash/isPlainObject.js",
+      "needles_hit": [
+        "module116(e) != \"[object Object]\"",
+        "n instanceof n && toString.call(n) == c"
+      ],
+      "live": true,
+      "already": false,
+      "npm_exists": true,
+      "consume": {
+        "default_require": [],
+        "default_import": [
+          "utils/index.js",
+          "unpacked/module-709.js",
+          "unpacked/module-625.js",
+          "unpacked/module-1035.js",
+          "unpacked/module-2808.js"
+        ],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "utils/index.js",
+          "unpacked/module-709.js",
+          "unpacked/module-625.js",
+          "unpacked/module-1035.js",
+          "unpacked/module-2808.js"
+        ],
+        "needs_shim": true,
+        "side_only": false
+      },
+      "importers_any": [
+        "utils/index.js",
+        "unpacked/module-709.js",
+        "unpacked/module-625.js",
+        "unpacked/module-1035.js",
+        "unpacked/module-2808.js"
+      ]
+    },
+    {
+      "module": "module-606.js",
+      "npm": "lodash/_baseIsNative.js",
+      "needles_hit": [
+        "/^\\[object .+?Constructor\\]$/",
+        "hasOwnProperty|(function).*?(?=\\\\\\()| for .+?(?=\\\\\\])"
+      ],
+      "live": true,
+      "already": false,
+      "npm_exists": true,
+      "consume": {
+        "default_require": [],
+        "default_import": [
+          "unpacked/module-129.js"
+        ],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "unpacked/module-129.js"
+        ],
+        "needs_shim": true,
+        "side_only": false
+      },
+      "importers_any": [
+        "unpacked/module-129.js"
+      ]
+    }
+  ],
+  "buffer_live": [],
+  "process_live": [],
+  "needle_live": [
+    {
+      "needle": "withRouter",
+      "pkg": "react-router",
+      "modules": [
+        "module-3019.js"
+      ],
+      "count": 1
+    },
+    {
+      "needle": "charset=utf-8",
+      "pkg": "qs",
+      "modules": [
+        "module-1364.js",
+        "module-3158.js"
+      ],
+      "count": 2
+    }
+  ],
+  "missing_npm": [],
+  "focus": {
+    "module-264.js": {
+      "live": true,
+      "already": false,
+      "bytes": 624,
+      "consume": {
+        "default_require": [],
+        "default_import": [
+          "utils/index.js",
+          "unpacked/module-709.js",
+          "unpacked/module-625.js",
+          "unpacked/module-1035.js",
+          "unpacked/module-2808.js"
+        ],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "utils/index.js",
+          "unpacked/module-709.js",
+          "unpacked/module-625.js",
+          "unpacked/module-1035.js",
+          "unpacked/module-2808.js"
+        ],
+        "needs_shim": true,
+        "side_only": false
+      },
+      "head": "import module116 from \"unpacked/module-116.js\"; | import module273 from \"unpacked/module-273.js\"; | import module92 from \"unpacked/module-92.js\"; | const toString = Function.prototype.toString; | const hasOwnProperty = Object.prototype.hasOwnProperty; | const c = toString.call(Object); | export default function",
+      "unique_corejs": [],
+      "unique_lodash": [],
+      "unique_router": [],
+      "unique_history": [],
+      "unique_qs": [],
+      "unique_ptr": []
+    },
+    "module-367.js": {
+      "live": true,
+      "already": false,
+      "bytes": 2047,
+      "consume": {
+        "default_require": [],
+        "default_import": [
+          "unpacked/module-67.js",
+          "unpacked/module-113.js"
+        ],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "unpacked/module-67.js",
+          "unpacked/module-113.js"
+        ],
+        "needs_shim": true,
+        "side_only": false
+      },
+      "head": "import module21 from \"unpacked/module-21.js\"; | import module19 from \"unpacked/module-19.js\"; | import module35 from \"unpacked/module-35.js\"; | import module53 from \"unpacked/module-53.js\"; | import module33 from \"unpacked/module-33.js\"; | import module167 from \"unpacked/module-167.js\"; | import module282 from ",
+      "unique_corejs": [],
+      "unique_lodash": [],
+      "unique_router": [],
+      "unique_history": [],
+      "unique_qs": [],
+      "unique_ptr": []
+    },
+    "module-421.js": {
+      "live": true,
+      "already": false,
+      "bytes": 6159,
+      "consume": {
+        "default_require": [
+          "unpacked/module-666.js",
+          "unpacked/module-670.js"
+        ],
+        "default_import": [],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "unpacked/module-666.js",
+          "unpacked/module-670.js"
+        ],
+        "needs_shim": true,
+        "side_only": false
+      },
+      "head": "import module114 from \"unpacked/module-114.js\"; | import module113 from \"unpacked/module-113.js\"; | import module493 from \"unpacked/module-493.js\"; | import module142 from \"unpacked/module-142.js\"; | import module254 from \"unpacked/module-254.js\"; | import module103 from \"unpacked/module-103.js\"; | import modul",
+      "unique_corejs": [],
+      "unique_lodash": [],
+      "unique_router": [],
+      "unique_history": [],
+      "unique_qs": [],
+      "unique_ptr": []
+    },
+    "module-584.js": {
+      "live": true,
+      "already": false,
+      "bytes": 7869,
+      "consume": {
+        "default_require": [],
+        "default_import": [],
+        "side_import": [
+          "unpacked/module-12.js"
+        ],
+        "named_import": [],
+        "any_import": [],
+        "needs_shim": false,
+        "side_only": true
+      },
+      "head": "import module8 from \"unpacked/module-8.js\"; | import module25 from \"unpacked/module-25.js\"; | import module39 from \"unpacked/module-39.js\"; | import module21 from \"unpacked/module-21.js\"; | import module79 from \"unpacked/module-79.js\"; | import module33 from \"unpacked/module-33.js\"; | import module151 from \"unp",
+      "unique_corejs": [],
+      "unique_lodash": [],
+      "unique_router": [],
+      "unique_history": [],
+      "unique_qs": [],
+      "unique_ptr": []
+    },
+    "module-606.js": {
+      "live": true,
+      "already": false,
+      "bytes": 625,
+      "consume": {
+        "default_require": [],
+        "default_import": [
+          "unpacked/module-129.js"
+        ],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "unpacked/module-129.js"
+        ],
+        "needs_shim": true,
+        "side_only": false
+      },
+      "head": "import module194 from \"unpacked/module-194.js\"; | import module609 from \"unpacked/module-609.js\"; | import module76 from \"unpacked/module-76.js\"; | import module392 from \"unpacked/module-392.js\"; | const l = /^\\[object .+?Constructor\\]$/; | const toString = Function.prototype.toString; | const hasOwnProperty = ",
+      "unique_corejs": [],
+      "unique_lodash": [],
+      "unique_router": [],
+      "unique_history": [],
+      "unique_qs": [],
+      "unique_ptr": []
+    },
+    "module-314.js": {
+      "live": false,
+      "already": false,
+      "bytes": 6194,
+      "consume": {
+        "default_require": [],
+        "default_import": [
+          "unpacked/module-47.js"
+        ],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "unpacked/module-47.js"
+        ],
+        "needs_shim": true,
+        "side_only": false
+      },
+      "head": "import module760 from \"unpacked/module-760.js\"; | export default (function e(t, n, o) { |     if (!module760(n)) { |         o = n || o; |         n = []; |     } |     o = o || {}; |     if (t instanceof RegExp) { |         return ((e, t)=>{ |             const n = e.source.match(/\\((?!\\?)/g); |             if (n) { |  ",
+      "unique_corejs": [],
+      "unique_lodash": [],
+      "unique_router": [],
+      "unique_history": [],
+      "unique_qs": [],
+      "unique_ptr": []
+    },
+    "module-81.js": {
+      "live": false,
+      "already": false,
+      "bytes": 100,
+      "consume": {
+        "default_require": [],
+        "default_import": [
+          "unpacked/module-47.js",
+          "unpacked/module-83.js",
+          "unpacked/module-433.js"
+        ],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "unpacked/module-47.js",
+          "unpacked/module-83.js",
+          "unpacked/module-433.js",
+          "unpacked/module-1635.js"
+        ],
+        "needs_shim": true,
+        "side_only": false
+      },
+      "head": "export default function(e, t) { |     if (!e) { |         throw new Error(\"Invariant failed\"); |     } | }; | ",
+      "unique_corejs": [],
+      "unique_lodash": [],
+      "unique_router": [],
+      "unique_history": [],
+      "unique_qs": [],
+      "unique_ptr": []
+    },
+    "module-958.js": {
+      "live": false,
+      "already": false,
+      "bytes": 166,
+      "consume": {
+        "default_require": [],
+        "default_import": [],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "unpacked/module-1469.js",
+          "unpacked/module-1652.js",
+          "unpacked/module-1263.js",
+          "unpacked/module-2016.js"
+        ],
+        "needs_shim": false,
+        "side_only": false
+      },
+      "head": "export default function isBuffer(value) { |   return typeof Buffer !== \"undefined\" && typeof Buffer.isBuffer === \"function\" |     ? Buffer.isBuffer(value) |     : false; | } | ",
+      "unique_corejs": [],
+      "unique_lodash": [],
+      "unique_router": [],
+      "unique_history": [],
+      "unique_qs": [],
+      "unique_ptr": []
+    },
+    "module-1056.js": {
+      "live": false,
+      "already": false,
+      "bytes": 112,
+      "consume": {
+        "default_require": [],
+        "default_import": [],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "unpacked/module-992.js",
+          "unpacked/module-2016.js"
+        ],
+        "needs_shim": false,
+        "side_only": false
+      },
+      "head": "const types = (typeof process !== \"undefined\" && process.binding) |   ? null |   : undefined; | export default types; | ",
+      "unique_corejs": [],
+      "unique_lodash": [],
+      "unique_router": [],
+      "unique_history": [],
+      "unique_qs": [],
+      "unique_ptr": []
+    },
+    "module-1648.js": {
+      "live": false,
+      "already": false,
+      "bytes": 218,
+      "consume": {
+        "default_require": [],
+        "default_import": [],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "unpacked/module-1469.js",
+          "unpacked/module-2016.js"
+        ],
+        "needs_shim": false,
+        "side_only": false
+      },
+      "head": "export default function copyArrayBuffer(input, isDeep) { |   if (isDeep) { |     return input.slice(); |   } |   if (typeof Buffer !== \"undefined\" && Buffer.from) { |     return Buffer.from(input); |   } |   return input.slice(); | } | ",
+      "unique_corejs": [],
+      "unique_lodash": [],
+      "unique_router": [],
+      "unique_history": [],
+      "unique_qs": [],
+      "unique_ptr": []
+    },
+    "module-2434.js": {
+      "live": true,
+      "already": false,
+      "bytes": 3443,
+      "consume": {
+        "default_require": [],
+        "default_import": [],
+        "side_import": [],
+        "named_import": [
+          "unpacked/module-5770.js"
+        ],
+        "any_import": [
+          "unpacked/module-1569.js",
+          "unpacked/module-5770.js"
+        ],
+        "needs_shim": false,
+        "side_only": false
+      },
+      "head": "let r; | export const Element = Symbol.for(\"react.element\"); | export const Portal = Symbol.for(\"react.portal\"); | export const Fragment = Symbol.for(\"react.fragment\"); | export const StrictMode = Symbol.for(\"react.strict_mode\"); | export const Profiler = Symbol.for(\"react.profiler\"); | export const ContextProv",
+      "unique_corejs": [],
+      "unique_lodash": [],
+      "unique_router": [],
+      "unique_history": [],
+      "unique_qs": [],
+      "unique_ptr": []
+    },
+    "module-254.js": {
+      "live": true,
+      "already": false,
+      "bytes": 183,
+      "consume": {
+        "default_require": [],
+        "default_import": [
+          "unpacked/module-421.js",
+          "unpacked/module-1922.js",
+          "unpacked/module-540.js",
+          "unpacked/module-4804.js",
+          "unpacked/module-1432.js",
+          "unpacked/module-4796.js",
+          "unpacked/module-1453.js",
+          "unpacked/module-1433.js"
+        ],
+        "side_import": [],
+        "named_import": [],
+        "any_import": [
+          "unpacked/module-421.js",
+          "unpacked/module-1922.js",
+          "unpacked/module-540.js",
+          "unpacked/module-4804.js",
+          "unpacked/module-1432.js",
+          "unpacked/module-4796.js",
+          "unpacked/module-1453.js",
+          "unpacked/module-1433.js"
+        ],
+        "needs_shim": true,
+        "side_only": false
+      },
+      "head": "import module107 from \"unpacked/module-107.js\"; | export default function(e, t) { |     if (module107(t, e)) { |         return e; |     } |     throw new TypeError(\"Incorrect invocation\"); | }; | ",
+      "unique_corejs": [
+        {
+          "via": "err:Incorrect invocation",
+          "npm": "core-js3/internals/array-buffer-view-core.js"
+        }
+      ],
+      "unique_lodash": [],
+      "unique_router": [],
+      "unique_history": [],
+      "unique_qs": [],
+      "unique_ptr": []
+    }
+  },
+  "lodash_files": {
+    "isBuffer": true,
+    "_nodeUtil": true,
+    "_cloneBuffer": true,
+    "isPlainObject": true,
+    "_baseIsNative": true,
+    "_getNative": true,
+    "_coreJsData": true,
+    "_isMasked": true,
+    "_toSource": true
+  },
+  "pkg_file_counts": {
+    "lodash": 633,
+    "core-js3": 820,
+    "react-router": 20,
+    "history": 11,
+    "qs": 6,
+    "path-to-regexp": 1,
+    "react-router-dom": 8,
+    "prop-types": 9,
+    "classnames": 3,
+    "tiny-invariant": 6,
+    "hoist-non-react-statics": 3,
+    "warning": 1,
+    "value-equal": 6,
+    "resolve-pathname": 6,
+    "mini-create-react-context": 0,
+    "react-lifecycles-compat": 4,
+    "object-assign": 1,
+    "invariant": 2,
+    "react-is": 3,
+    "moment-mini": 2,
+    "regenerator-runtime": 2,
+    "semver": 35,
+    "mobx": 7,
+    "mobx-react": 10
+  }
+}

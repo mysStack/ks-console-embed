@@ -1,0 +1,12 @@
+{
+  "applied": [
+    {
+      "module": "module-1218.js",
+      "orig": "components/Cards/Annotations/index.js",
+      "kind": "extra_path",
+      "lit": "hiddenKeys+ANNOTATION_PL"
+    }
+  ],
+  "skipped": [],
+  "count": 1
+}

@@ -1,0 +1,18 @@
+{
+  "unique": [
+    {
+      "needle": "Encoder has to be a function.",
+      "module": "module-757.js",
+      "npm": "qs/lib/stringify.js",
+      "live": false,
+      "already": false
+    },
+    {
+      "needle": "Unknown format option provided.",
+      "module": "module-757.js",
+      "npm": "qs/lib/stringify.js",
+      "live": false,
+      "already": false
+    }
+  ]
+}

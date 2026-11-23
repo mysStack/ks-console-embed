@@ -1,0 +1,93 @@
+{
+  "t_raw": 16,
+  "t_unique": [
+    {
+      "lit": "PASSWORD_LETTER",
+      "module": "module-1286.js",
+      "orig": "core/containers/PasswordConfirm/index.js"
+    },
+    {
+      "lit": "PERSISTENT_VOLUME",
+      "module": "module-4119.js",
+      "orig": "pages/projects/containers/Volumes/index.js"
+    },
+    {
+      "lit": "EDIT_ALERT_RULES",
+      "module": "module-2067.js",
+      "orig": "pages/projects/containers/Alerting/Policies/Detail/index.js"
+    },
+    {
+      "lit": "INIT_CONTAINER",
+      "module": "module-4432.js",
+      "orig": "pages/projects/components/Cards/ContainerTemplate/Item.js"
+    },
+    {
+      "lit": "ALL_CLUSTERS",
+      "module": "module-2072.js",
+      "orig": "pages/workspaces/components/Modals/WorkspaceSelect/Card/index.js"
+    },
+    {
+      "lit": "INVITE_MEMBER",
+      "module": "module-3024.js",
+      "orig": "pages/clusters/containers/Members/index.js"
+    },
+    {
+      "lit": "TOTAL_VALUE",
+      "module": "module-2409.js",
+      "orig": "pages/clusters/containers/Network/IPPools/index.js"
+    },
+    {
+      "lit": "EXTERNAL_ACCESS",
+      "module": "module-2982.js",
+      "orig": "pages/clusters/containers/Workload/Services/index.js"
+    },
+    {
+      "lit": "DEVOPS_PROJECT_PL",
+      "module": "module-5045.js",
+      "orig": "pages/clusters/containers/Monitor/Resource/Usage/Statistics/index.js"
+    },
+    {
+      "lit": "LABEL_PL",
+      "module": "module-1808.js",
+      "orig": "components/Cards/Labels/index.js"
+    },
+    {
+      "lit": "REFRESH",
+      "module": "module-1364.js",
+      "orig": "components/Inputs/EnvironmentInput/EnvFromInput/index.js"
+    }
+  ],
+  "re_raw": 14,
+  "re_unique": [
+    {
+      "lit": "/s2ibuilders/",
+      "module": "module-1332.js",
+      "orig": "pages/projects/routes/detail.js"
+    },
+    {
+      "lit": "/${detail.module}/",
+      "module": "module-3876.js",
+      "orig": "pages/projects/components/Cards/Workloads/Item.js"
+    },
+    {
+      "lit": "/${window.location.host}/",
+      "module": "module-4638.js",
+      "orig": "pages/projects/components/Cards/ImageRunRecord/Item/devops.js"
+    },
+    {
+      "lit": "/managed!=true, kubesphere.io/",
+      "module": "module-2082.js",
+      "orig": "pages/workspaces/containers/Projects/index.js"
+    },
+    {
+      "lit": "/^\\+?[1-9][0-9]*$/",
+      "module": "module-4998.js",
+      "orig": "pages/fedprojects/components/ClusterWorkloadStatus/ReplicasInput/index.js"
+    },
+    {
+      "lit": "/TimeSelector/",
+      "module": "module-2423.js",
+      "orig": "components/Cards/LogQuery/index.js"
+    }
+  ]
+}

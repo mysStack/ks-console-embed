@@ -1,0 +1,139 @@
+=== webpack pid / 8099 ===
+pid 2187792 dead
+LISTEN 0      511           0.0.0.0:8099       0.0.0.0:*   
+=== empty-render ===
+=== index unpacked ===
+live 614 known_mods 1503 aliased 97
+empty_render_hits 1
+live_empty 0
+named_empty 1
+orig_has_content 1
+sibling_empty 0
+fix_candidates 0
+
+=== FIX CANDIDATES (live + orig content or siblings) ===
+fix_shown 0
+
+=== LIVE EMPTY without orig mapping (sample) ===
+unnamed_live_shown 0
+
+=== NAMED empty vs orig (all) ===
+  module-1078.js live=False orig_has=True siblings=[] names=['pages/settings/components/Cards/Banner.js'] orig=[('pages/settings/components/Cards/Banner.js', 'nonempty=True bytes=1672 path=index.jsx')] preview='return <></>;'
+
+=== unnamed live empty: unique t() orig lookup (no skip pin) ===
+new_unique_orig_for_empty_render 0
+=== cjs-esm ===
+=== index unpacked ===
+live 614 aliased 97 files 5761
+
+=== numeric require leftover ===
+files_with_numeric_require 0
+
+=== require.context leftover ===
+files_with_require_context 0
+
+=== illegal super(this) leftover ===
+files_with_super_this 0
+
+=== ES module assigning module.exports ===
+esm_assigning_module_exports 8
+live_unnamed 4
+  module-246.js export=True import=False importers=['module-1110.js', 'module-1306.js', 'module-158.js', 'module-1636.js', 'module-1759.js', 'module-1762.js']
+    head=function n(t) { |     if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { |         module.exports = n = function(e) { |             return typeof e; |         }; |     } else {
+    exports= module.exports = n = function(e) { |             return typeof e; |         }; |     } else { |         module.exports = n = fun
+  module-332.js export=True import=True importers=['module-1831.js', 'module-1848.js', 'module-318.js', 'module-445.js', 'module-4678.js', 'module-867.js']
+    head=import module754 from "./module-754.js"; | function o(t, n, a) { |     if (typeof Reflect !== "undefined" && Reflect.get) { |         module.exports = o = Reflect.get; |     } else { |         module.
+    exports= module.exports = o = Reflect.get; |     } else { |         module.exports = o = function(e, t, n) { |             const o = mo
+  module-51.js export=True import=False importers=['module-1000.js', 'module-1001.js', 'module-1002.js', 'module-1009.js', 'module-1013.js', 'module-1015.js']
+    head=function n(t) { |     module.exports = n = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) { |         return e.__proto__ || Object.getPrototypeOf(e); |     }; |     return n(t); | } | exp
+    exports= module.exports = n = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) { |         return e.__proto__ || Object.
+  module-690.js export=True import=False importers=['module-55.js']
+    head=function n(t, r) { |     module.exports = n = Object.setPrototypeOf || function(e, t) { |         e.__proto__ = t; |         return e; |     }; |     return n(t, r); | } | export default n; | 
+    exports= module.exports = n = Object.setPrototypeOf || function(e, t) { |         e.__proto__ = t; |         return e; |     }; |     ret
+
+=== missing default: default-import of module without default ===
+missing_default_edges 11
+  ('module-47.js', 'module-313.js', 'module313', 'no_default named=True')
+    target_head "use strict"; | ((e)=>{ |     const module553 = require("./module-553.js"); |     const o = ()=>{ |         if (module553 && module553.__esModule) { |             return 
+  ('module-268.js', 'module-115.js', 'module115', 'no_default named=True')
+    target_head "use strict"; | const module33 = require("./module-33.js").default; | const module39 = require("./module-39.js").default; | const module218 = require("./module-218.js
+  ('module-268.js', 'module-70.js', 'module70', 'no_default named=True')
+    target_head "use strict"; | const module33 = require("./module-33.js").default; | const module365 = require("./module-365.js").default; | const module366 = require("./module-366.
+  ('module-102.js', 'module-70.js', 'module70', 'no_default named=True')
+    target_head "use strict"; | const module33 = require("./module-33.js").default; | const module365 = require("./module-365.js").default; | const module366 = require("./module-366.
+  ('module-178.js', 'module-70.js', 'module70', 'no_default named=True')
+    target_head "use strict"; | const module33 = require("./module-33.js").default; | const module365 = require("./module-365.js").default; | const module366 = require("./module-366.
+  ('module-67.js', 'module-70.js', 'module70', 'no_default named=True')
+    target_head "use strict"; | const module33 = require("./module-33.js").default; | const module365 = require("./module-365.js").default; | const module366 = require("./module-366.
+  ('module-113.js', 'module-70.js', 'module70', 'no_default named=True')
+    target_head "use strict"; | const module33 = require("./module-33.js").default; | const module365 = require("./module-365.js").default; | const module366 = require("./module-366.
+  ('module-368.js', 'module-150.js', 'module150', 'no_default named=True')
+    target_head "use strict"; | const module369 = require("./module-369.js").default; | const o = require("./module-283.js").default.concat("length", "prototype"); | exports.f = Obje
+  ('module-368.js', 'module-221.js', 'module221', 'no_default named=True')
+    target_head "use strict"; | exports.f = Object.getOwnPropertySymbols; | 
+  ('module-13.js', 'module-115.js', 'module115', 'no_default named=True')
+    target_head "use strict"; | const module33 = require("./module-33.js").default; | const module39 = require("./module-39.js").default; | const module218 = require("./module-218.js
+  ('module-239.js', 'module-95.js', 'module95', 'no_default named=False')
+    target_head "use strict"; | ((e)=>{ |     require.d(exports, "d", function() { |         return useO; |     }); |     require.d(exports, "c", function() { |         return a; |     }); |  
+
+=== dynamic require leftover (non-string, non-numeric already counted) ===
+dyn_require_files 0
+live_dyn_require_files 0
+=== vendor ===
+=== indexing ===
+effective_live 517 aliased 97
+
+=== needle hits in effective unnamed ===
+
+=== copyright/UMD banners in effective unnamed ===
+banner_shown 0
+
+=== LineChart / draggable / jwt sanity ===
+  chartName: 6 files sample=['module-2793.js', 'module-1084.js', 'module-1279.js', 'module-4507.js', 'module-1089.js', 'module-948.js']
+  react-draggable: 0 files sample=[]
+  DraggableCore: 0 files sample=[]
+  jwt-decode: 0 files sample=[]
+  Invalid token specified: 0 files sample=[]
+=== empty-css ===
+=== empty CSS placeholders ===
+empty_export_default_object 21
+near_empty 0
+empty_ids ['module-173.js', 'module-177.js', 'module-418.js', 'module-567.js', 'module-576.js', 'module-752.js', 'module-765.js', 'module-766.js', 'module-770.js', 'module-1020.js', 'module-2107.js', 'module-2397.js', 'module-2802.js', 'module-2876.js', 'module-3857.js', 'module-4160.js', 'module-4667.js', 'module-4854.js', 'module-5729.js', 'module-5765.js', 'module-5766.js']
+
+=== live empty placeholders ===
+live_empty 5 ['module-770.js', 'module-752.js', 'module-177.js', 'module-173.js', 'module-418.js']
+aliased_empty ['module-2107.js']
+  module-770.js aliased=False importers=['module-769.js']
+  module-752.js aliased=False importers=['module-481.js']
+  module-177.js aliased=False importers=['module-262.js', 'module-289.js', 'module-30.js', 'module-347.js', 'module-503.js']
+  module-173.js aliased=False importers=['module-101.js', 'module-114.js', 'module-369.js', 'module-420.js', 'module-584.js']
+  module-418.js aliased=False importers=['module-661.js']
+
+=== public/v3css vs sealed v3dist CSS ===
+public_css_count 16
+public_names ['1.9dcfc2ca150f3eeabe9b.css', '10.662f294fd6357409d1c2.css', '11.e0028d609bb020d5a3f0.css', '12.5ab8d0604671d18a395b.css', '13.bd7965932e47d0428723.css', '14.a9d808965273c53459db.css', '15.16303d686fa55a63dd26.css', '16.0d433cc8649b4cc966e4.css', '2.dbd718017ec87b3fb3c5.css', '3.460a788d2dd1417c95c2.css', '4.8eaae65bb2ac132e0393.css', '5.cf8d79e7b36287e34d92.css', '6.0922b7be77778c3417af.css', '7.6370bad7a74347a75218.css', '8.0da243f7769417a868c0.css', 'main.39ed81f6e5a43d5bb447.css']
+v3dist_exists True v3dist_css_count 17
+v3dist_names ['1.9dcfc2ca150f3eeabe9b.css', '10.662f294fd6357409d1c2.css', '11.e0028d609bb020d5a3f0.css', '12.5ab8d0604671d18a395b.css', '13.bd7965932e47d0428723.css', '14.a9d808965273c53459db.css', '15.16303d686fa55a63dd26.css', '16.0d433cc8649b4cc966e4.css', '2.dbd718017ec87b3fb3c5.css', '3.460a788d2dd1417c95c2.css', '4.8eaae65bb2ac132e0393.css', '5.cf8d79e7b36287e34d92.css', '6.0922b7be77778c3417af.css', '7.6370bad7a74347a75218.css', '8.0da243f7769417a868c0.css', 'stylesheet.css', 'main.39ed81f6e5a43d5bb447.css']
+missing_in_public ['stylesheet.css']
+extra_in_public []
+hash_mismatch []
+
+=== index.html linked CSS ===
+linked ['/v3css/main.39ed81f6e5a43d5bb447.css', '/v3css/1.9dcfc2ca150f3eeabe9b.css', '/v3css/2.dbd718017ec87b3fb3c5.css', '/v3css/3.460a788d2dd1417c95c2.css', '/v3css/4.8eaae65bb2ac132e0393.css', '/v3css/5.cf8d79e7b36287e34d92.css', '/v3css/6.0922b7be77778c3417af.css', '/v3css/7.6370bad7a74347a75218.css', '/v3css/8.0da243f7769417a868c0.css', '/v3css/10.662f294fd6357409d1c2.css', '/v3css/11.e0028d609bb020d5a3f0.css', '/v3css/12.5ab8d0604671d18a395b.css', '/v3css/13.bd7965932e47d0428723.css', '/v3css/14.a9d808965273c53459db.css', '/v3css/15.16303d686fa55a63dd26.css', '/v3css/16.0d433cc8649b4cc966e4.css']
+linked_missing_file []
+public_unlinked []
+=== named count ===
+known_pairs 1608
+unique_mods 1503
+named_files 1633
+named_not_reexport 0
+=== numeric require leftover ===
+files_with_numeric_require 0
+unique_ids 0
+top_ids []
+files []
+
+=== id -> target exists? ===
+
+=== evidence snippets ===
+DONE

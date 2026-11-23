@@ -1,0 +1,387 @@
+{
+  "identity": {
+    "artifact": "phase4-build",
+    "mainJs": "app.4c700f41.js",
+    "buildDir": "/home/bruce/code/ks-develop/kse-console-v3/recovery/react-app/phase4-build",
+    "apiOrigin": "http://192.168.2.131:30880"
+  },
+  "afterLogin": {
+    "path": "/dashboard",
+    "userPresent": true,
+    "userIsRecovered": false,
+    "bouncedToLogin": false,
+    "text": "Hello admin\n\nplatform-admin\n\nLast login: 2026-11-23 21:52:22\n\nPlatform Information\n3.3.2\nPlatform version\n1\nCluster\nPlatform Resources\n2026-11-23 21:52:22\nLast update time\n0\nWorksp"
+  },
+  "discovered": {
+    "hasWorkspace": true,
+    "hasNamespace": true,
+    "hasDeployment": true,
+    "http": {
+      "deployments": 200,
+      "workspaces": 200
+    },
+    "workspaceLen": 16,
+    "namespaceLen": 17
+  },
+  "cookieNames": [
+    "oAuthLoginInfo",
+    "token",
+    "expire",
+    "refreshToken",
+    "lang"
+  ],
+  "summary": {
+    "pass-with-pageerror": 11,
+    "fail-blank": 6
+  },
+  "results": [
+    {
+      "id": "dashboard",
+      "requested": "/dashboard",
+      "path": "/dashboard",
+      "href": "http://127.0.0.1:8108/dashboard",
+      "rootChildCount": 1,
+      "text": "您好 admin\n\nplatform-admin\n\n最后登录时间：2026-11-23 21:52:24\n\n平台信息\n3.3.2\n平台版本\n1\n集群\n平台资源\n2026-11-23 21:52:25\n最后更新时间\n0\n企业空间\n0\n用户\n最近访问\n未发现最近访问的资源\n您可以对平台资源进行访问。",
+      "h1": "",
+      "userPresent": true,
+      "userIsRecovered": false,
+      "bouncedToLogin": false,
+      "notFound": null,
+      "pageErrors": [
+        "TypeError: Cannot set property loaded of #<Object> which has only a getter"
+      ],
+      "api4xx": [],
+      "verdict": "pass-with-pageerror"
+    },
+    {
+      "id": "support",
+      "requested": "/support",
+      "path": "/support",
+      "href": "http://127.0.0.1:8108/support",
+      "rootChildCount": 1,
+      "text": "社区支持\n说明文档\n论坛\n议题\nSlack\n项目地址\n贡献代码\n标星\n工单支持\n专业云原生开发团队和容器服务交付团队，具有超过 10 年的公有云和私有云支持经验和对行业的深入了解，可提供全面的技术支持，包括安装、故障排除、恢复和其他专业服务。\n联系我们\n了解更多\nKubeSphere Enterprise\nKubeSphere Enterprise 是由 QingCloud 开发的企业级容器平台，基于 KubeSphere 开源平台。与开源版本相比，KubeSphere Enterprise 增强了企业量化运营、大规模集群运维和安全加固等方面的的能力，并扩展了微型服务治理和应用管理等多个关键功能。KubeSphere Enterprise 扩展组件市场提供企业级扩展组件，以满足各种业务场景的需求，并由 QingCloud 提供专家解决方案和技术支持。\n赋能企业数字化转型量化运营\n增强大规模联邦集群运维能力\n提供全生命周期安全保护\n了解更多\nKubeSphere Cloud\nKubeSph",
+      "h1": "",
+      "userPresent": true,
+      "userIsRecovered": false,
+      "bouncedToLogin": false,
+      "notFound": null,
+      "pageErrors": [
+        "TypeError: Cannot set property loaded of #<Object> which has only a getter"
+      ],
+      "api4xx": [],
+      "verdict": "pass-with-pageerror"
+    },
+    {
+      "id": "clusters",
+      "requested": "/clusters",
+      "path": "/clusters/default/overview",
+      "href": "http://127.0.0.1:8108/clusters/default/overview",
+      "rootChildCount": 1,
+      "text": "概览\n集群配额统计\n容器\n项目\nCPU 配额\n\n暂无数据\n\n预留\n上限\n\n已分配\n\n0 m\n\nVS\n\n总量\n\n0 m\n\n0%\n内存配额\n\n暂无数据\n\n预留\n上限\n\n已分配\n\n0 Bytes\n\nVS\n\n总量\n\n0 Bytes\n\n0%\n节点资源用量\nCPU\nm\n0/0\n内存\nBytes\n0/0\n磁盘\nBytes\n0/0\n容器组\n0/0\nCPU 用量（%）\n\n暂无数据\n\n容器组\n容器组状态\n\n暂无数据\n\nQoS\n\nGuaranteed：对于每个容器组中的容器，CPU/内存请求和上限数值相等。\n\n\n\n\nBurstable：不符合 Guaranteed 的条件，并且至少有一个容器具有资源预留或上限。\n\n\n\n\nBestEffort：没有设置资源预留和上限。\n\n暂无数据\n\n0\n\nOOM 终止容器组\n\n暂无数据\n\n0\n\n等待中容器组\n\n暂无数据\n\n0\n\n被驱逐容器组\n\n暂无数据\n\ndefault\n \n\n-\n\nKubernetes 状态\n\n0 次/s\n每秒 API 请求数\nNaN ms\nAPI 请求延迟\n",
+      "h1": "",
+      "userPresent": true,
+      "userIsRecovered": false,
+      "bouncedToLogin": false,
+      "notFound": null,
+      "pageErrors": [
+        "TypeError: Cannot set property loaded of #<Object> which has only a getter"
+      ],
+      "api4xx": [
+        {
+          "http": 404,
+          "path": "/kapis/monitoring.kubesphere.io/v1beta1?cluster=default&start=1795413149&end=1795441949&step=2880s&times=10&metrics_filter=cluster_cpu_usage"
+        },
+        {
+          "http": 404,
+          "path": "/kapis/monitoring.kubesphere.io/v1beta1?cluster=default&metrics_filter=cluster_pod_cpu_requests_total%7Ccluster_pod_cpu_limits_total%7Cclust"
+        },
+        {
+          "http": 404,
+          "path": "/kapis/monitoring.kubesphere.io/v1beta1?cluster=default&start=1795413149&end=1795441949&step=2880s&times=10&metrics_filter=cluster_pod_oomki"
+        }
+      ],
+      "verdict": "pass-with-pageerror"
+    },
+    {
+      "id": "cluster-overview",
+      "requested": "/clusters/default/overview",
+      "path": "/clusters/default/overview",
+      "href": "http://127.0.0.1:8108/clusters/default/overview",
+      "rootChildCount": 1,
+      "text": "概览\n集群配额统计\n容器\n项目\nCPU 配额\n\n暂无数据\n\n预留\n上限\n\n已分配\n\n0 m\n\nVS\n\n总量\n\n0 m\n\n0%\n内存配额\n\n暂无数据\n\n预留\n上限\n\n已分配\n\n0 Bytes\n\nVS\n\n总量\n\n0 Bytes\n\n0%\n节点资源用量\nCPU\nm\n0/0\n内存\nBytes\n0/0\n磁盘\nBytes\n0/0\n容器组\n0/0\nCPU 用量（%）\n\n暂无数据\n\n容器组\n容器组状态\n\n暂无数据\n\nQoS\n\nGuaranteed：对于每个容器组中的容器，CPU/内存请求和上限数值相等。\n\n\n\n\nBurstable：不符合 Guaranteed 的条件，并且至少有一个容器具有资源预留或上限。\n\n\n\n\nBestEffort：没有设置资源预留和上限。\n\n暂无数据\n\n0\n\nOOM 终止容器组\n\n暂无数据\n\n0\n\n等待中容器组\n\n暂无数据\n\n0\n\n被驱逐容器组\n\n暂无数据\n\ndefault\n \n\n-\n\nKubernetes 状态\n\n0 次/s\n每秒 API 请求数\nNaN ms\nAPI 请求延迟\n",
+      "h1": "",
+      "userPresent": true,
+      "userIsRecovered": false,
+      "bouncedToLogin": false,
+      "notFound": null,
+      "pageErrors": [
+        "TypeError: Cannot set property loaded of #<Object> which has only a getter"
+      ],
+      "api4xx": [
+        {
+          "http": 404,
+          "path": "/kapis/monitoring.kubesphere.io/v1beta1?cluster=default&start=1795413152&end=1795441952&step=2880s&times=10&metrics_filter=cluster_pod_oomki"
+        },
+        {
+          "http": 404,
+          "path": "/kapis/monitoring.kubesphere.io/v1beta1?cluster=default&metrics_filter=cluster_pod_cpu_requests_total%7Ccluster_pod_cpu_limits_total%7Cclust"
+        },
+        {
+          "http": 404,
+          "path": "/kapis/monitoring.kubesphere.io/v1beta1?cluster=default&start=1795413152&end=1795441952&step=2880s&times=10&metrics_filter=cluster_cpu_usage"
+        }
+      ],
+      "verdict": "pass-with-pageerror"
+    },
+    {
+      "id": "cluster-deployments",
+      "requested": "/clusters/default/deployments",
+      "path": "/clusters/default/deployments",
+      "href": "http://127.0.0.1:8108/clusters/default/deployments",
+      "rootChildCount": 1,
+      "text": "\t\n名称\n状态\n定制内容\n状态\n项目\n更新时间\n创建\n\t名称\n排序\n升序\n降序\n\t状态\n过滤\n运行中\n更新中\n已停止\n\t项目\t更新时间\n排序\n升序\n降序\n\t\n\t\nglobal-wms-server\nMinimumReplicasUnavailable\n状态信息\n进行中\n\n状态：True\n\n原因：NewReplicaSetAvailable\n\n消息：ReplicaSet \"global-wms-server-6d4c95949d\" has successfully progressed.\n\n可用\n\n状态：False\n\n原因：MinimumReplicasUnavailable\n\n消息：Deployment does not have minimum availability.\n\n\t\n更新中 (0/1)\n\tdev-biz\t2026-11-23 21:51:46\t\n编辑信息\n编辑 YAML\n重新创建\n删除\n\n\t\npms-server\nMinimumReplicasUnavailable\n状态信",
+      "h1": "",
+      "userPresent": true,
+      "userIsRecovered": false,
+      "bouncedToLogin": false,
+      "notFound": null,
+      "pageErrors": [
+        "TypeError: Cannot set property loaded of #<Object> which has only a getter"
+      ],
+      "api4xx": [],
+      "verdict": "pass-with-pageerror"
+    },
+    {
+      "id": "cluster-statefulsets",
+      "requested": "/clusters/default/statefulsets",
+      "path": "/clusters/default/statefulsets",
+      "href": "http://127.0.0.1:8108/clusters/default/statefulsets",
+      "rootChildCount": 1,
+      "text": "\t\n名称\n状态\n定制内容\n状态\n项目\n创建时间\n创建\n\t名称\n排序\n升序\n降序\n\t状态\n过滤\n运行中\n更新中\n已停止\n\t项目\t创建时间\n排序\n升序\n降序\n\t\n\t\nv4-pvc-sts-7fa\n-\n\t\n运行中 (1/1)\n\tv4-migration-e2e\t2026-10-23 18:27:17\t\n编辑信息\n编辑 YAML\n重新创建\n删除\n\n\t\nv4-watch-sts-20261022-01\n-\n\t\n运行中 (1/1)\n\tv4-migration-e2e\t2026-10-22 21:56:39\t\n编辑信息\n编辑 YAML\n重新创建\n删除\n\n\t\nprometheus-k8s\n-\n\t\n运行中 (1/1)\n\tkubesphere-monitoring-system\t2026-10-03 09:57:33\t\n编辑信息\n编辑 YAML\n重新创建\n删除\n\n\t\nmg-rs-mongodb-restore\n-\n\t\n运行中 (1/1)\n\tdev-db\t2026-09-30 11:06:22\t\n编辑信息\n编",
+      "h1": "",
+      "userPresent": true,
+      "userIsRecovered": false,
+      "bouncedToLogin": false,
+      "notFound": null,
+      "pageErrors": [
+        "TypeError: Cannot set property loaded of #<Object> which has only a getter"
+      ],
+      "api4xx": [],
+      "verdict": "pass-with-pageerror"
+    },
+    {
+      "id": "cluster-pods",
+      "requested": "/clusters/default/pods",
+      "path": "/clusters/default/pods",
+      "href": "http://127.0.0.1:8108/clusters/default/pods",
+      "rootChildCount": 1,
+      "text": "容器组\n\n容器组（Pod）是 Kubernetes 应用程序的基本执行单元，是您创建或部署的 Kubernetes 对象模型中最小和最简单的单元。\n\n\t\n名称\n状态\n容器组 IP 地址\n定制内容\n状态\n节点\n容器组 IP 地址\n更新时间\n\t名称\n排序\n升序\n降序\n\t状态\n过滤\n等待中\n运行中\n成功完成\n失败\n未知\n\t节点\t容器组 IP 地址\t更新时间\n排序\n升序\n降序\n\t\n\t\nwms-scheduling-29924032-rd5bd\n已完成\n\t成功完成\tdev01（192.168.2.131）\t10.42.0.150\t2026-11-23 21:52:00\t\n查看 YAML\n删除\n\n\t\nwms-admin-29924032-7jzpl\nError\n状态信息\nPodReadyToStartContainers\n\n状态：False\n\n初始化完成\n\n状态：True\n\n容器组就绪\n\n状态：False\n\n原因：PodFailed\n\n所有容器就绪\n\n状态：False\n\n原因：PodFailed\n\n",
+      "h1": "",
+      "userPresent": true,
+      "userIsRecovered": false,
+      "bouncedToLogin": false,
+      "notFound": null,
+      "pageErrors": [
+        "TypeError: Cannot set property loaded of #<Object> which has only a getter"
+      ],
+      "api4xx": [],
+      "verdict": "pass-with-pageerror"
+    },
+    {
+      "id": "cluster-projects",
+      "requested": "/clusters/default/projects",
+      "path": "/clusters/default/projects",
+      "href": "http://127.0.0.1:8108/clusters/default/projects",
+      "rootChildCount": 1,
+      "text": "项目\n\n项目用于对资源进行分组管理和控制不同用户的资源管理权限。\n\n用户项目\n系统项目\n名称\n定制内容\n状态\n企业空间\n创建\n\t名称\n排序\n升序\n降序\n\t状态\t企业空间\t\n\t\nv4-migration-e2e-isolation\n-\n\t活跃\t\t\n编辑信息\n编辑注解\n分配企业空间\n删除\n\n\t\ndev-ewms-web\n-\n\t活跃\tdev-workspace\t\n编辑信息\n编辑注解\n删除\n\n\t\ndev-biz-config\n-\n\t活跃\t\t\n编辑信息\n编辑注解\n分配企业空间\n删除\n\n\t\ndev-ewms-config\n-\n\t活跃\t\t\n编辑信息\n编辑注解\n分配企业空间\n删除\n\n\t\ndev-biz-web\n-\n\t活跃\tdev-workspace\t\n编辑信息\n编辑注解\n删除\n\n\t\ndev-biz\n-\n\t活跃\tdev-workspace\t\n编辑信息\n编辑注解\n删除\n\n\t\nv4-migration-e2e\n-\n\t活跃\t\t\n编辑信息\n编辑注解\n分配企业空间\n删除\n\n\t\nkyverno\n-\n\t活跃\t\t\n编辑信",
+      "h1": "",
+      "userPresent": true,
+      "userIsRecovered": false,
+      "bouncedToLogin": false,
+      "notFound": null,
+      "pageErrors": [
+        "TypeError: Cannot set property loaded of #<Object> which has only a getter"
+      ],
+      "api4xx": [],
+      "verdict": "pass-with-pageerror"
+    },
+    {
+      "id": "cluster-nodes",
+      "requested": "/clusters/default/nodes",
+      "path": "/clusters/default/nodes",
+      "href": "http://127.0.0.1:8108/clusters/default/nodes",
+      "rootChildCount": 1,
+      "text": "集群节点\n\n集群节点是 KubeSphere 集群中的基础服务器，您可以在此页面对集群节点进行管理。\n\n集群节点有哪些类型？\n什么是节点污点？\n1\n节点\n1\n控制平面节点\n名称\n状态\n角色\n定制内容\n状态\n角色\nCPU 用量\n内存用量\n容器组\n已分配 CPU\n已分配内存\n\t名称\n排序\n升序\n降序\n\t状态\n过滤\n无法调度\n运行中\n告警\n\t角色\n过滤\n控制平面节点\n工作节点\n\tCPU 用量\t内存用量\t容器组\t已分配 CPU\t已分配内存\t\n\t\ndev01\n192.168.2.131\n\t\n运行中\n\t控制平面节点\t\n0%\n0/0 核\n\t\n0%\n0/0 GiB\n\t\n0%\n0/0\n\t\n核（）\n资源预留\n\n资源上限： 核（）\n\n\t\nGiB（）\n资源预留\n\n资源上限： GiB（）\n\n\t\n停止调度\n打开终端\n每页显示：10\n10\n20\n50\n100\n总数：1\n1 / 1\n1",
+      "h1": "",
+      "userPresent": true,
+      "userIsRecovered": false,
+      "bouncedToLogin": false,
+      "notFound": null,
+      "pageErrors": [
+        "TypeError: Cannot set property loaded of #<Object> which has only a getter"
+      ],
+      "api4xx": [],
+      "verdict": "pass-with-pageerror"
+    },
+    {
+      "id": "cluster-volumes",
+      "requested": "/clusters/default/volumes",
+      "path": "/clusters/default/volumes",
+      "href": "http://127.0.0.1:8108/clusters/default/volumes",
+      "rootChildCount": 1,
+      "text": "",
+      "h1": "",
+      "userPresent": true,
+      "userIsRecovered": false,
+      "bouncedToLogin": false,
+      "notFound": null,
+      "pageErrors": [
+        "TypeError: Cannot set property loaded of #<Object> which has only a getter"
+      ],
+      "api4xx": [],
+      "verdict": "fail-blank"
+    },
+    {
+      "id": "cluster-services",
+      "requested": "/clusters/default/services",
+      "path": "/clusters/default/services",
+      "href": "http://127.0.0.1:8108/clusters/default/services",
+      "rootChildCount": 1,
+      "text": "服务\n\n服务（Service）提供一种抽象的方法，将运行在容器组（Pod）上的应用程序公开为网络服务。\n\n\t\n名称\n定制内容\n项目\n内部访问\n外部访问\n创建时间\n创建\n\t名称\n排序\n升序\n降序\n\t项目\t内部访问\t外部访问\t创建时间\n排序\n升序\n降序\n\t\n\t\nks-console-release-415\n-\n\tkubesphere-system\t\n10.96.41.185\nVirtualIP\n\t\n30885/TCP\n端口\n\t2026-11-20 11:56:46\t\n编辑信息\n编辑 YAML\n编辑服务\n编辑外部访问\n删除\n\n\t\nks-console-v3dist-ad724a3\n-\n\tkubesphere-system\t\n10.96.41.214\nVirtualIP\n\t\n30884/TCP\n端口\n\t2026-11-10 09:31:08\t\n编辑信息\n编辑 YAML\n编辑服务\n编辑外部访问\n删除\n\n\t\ndeepseek-backend-server-service\n-\n\textension-d",
+      "h1": "",
+      "userPresent": true,
+      "userIsRecovered": false,
+      "bouncedToLogin": false,
+      "notFound": null,
+      "pageErrors": [
+        "TypeError: Cannot set property loaded of #<Object> which has only a getter"
+      ],
+      "api4xx": [],
+      "verdict": "pass-with-pageerror"
+    },
+    {
+      "id": "access",
+      "requested": "/access",
+      "path": "/access/workspaces",
+      "href": "http://127.0.0.1:8108/access/workspaces",
+      "rootChildCount": 1,
+      "text": "访问控制\n企业空间\n用户\n平台角色\nKS 企业空间\n\nKS 企业空间是一个组织您的项目和 DevOps 项目、管理资源访问权限以及在团队内部共享资源等的逻辑单元，可以作为团队工作的独立工作空间。\n\nKS 企业空间\n边缘企业空间\n名称\n别名\n定制内容\n创建时间\n创建\n\t名称\n排序\n升序\n降序\n\t创建时间\n排序\n升序\n降序\n\t\n\t\npublic-workspace\n-\n\t2026-03-12 16:00:28\t\n编辑信息\n删除\n\n\t\ndev-workspace\n-\n\t2026-03-04 14:31:52\t\n编辑信息\n删除\n\n\t\nsystem-workspace\n-\n\t2026-03-04 14:15:12\t\n每页显示：10\n10\n20\n50\n100\n总数：3\n1 / 1\n1",
+      "h1": "",
+      "userPresent": true,
+      "userIsRecovered": false,
+      "bouncedToLogin": false,
+      "notFound": null,
+      "pageErrors": [
+        "TypeError: Cannot set property loaded of #<Object> which has only a getter"
+      ],
+      "api4xx": [],
+      "verdict": "pass-with-pageerror"
+    },
+    {
+      "id": "settings",
+      "requested": "/settings",
+      "path": "/settings",
+      "href": "http://127.0.0.1:8108/settings",
+      "rootChildCount": 0,
+      "text": "",
+      "h1": "",
+      "userPresent": false,
+      "userIsRecovered": false,
+      "bouncedToLogin": false,
+      "notFound": null,
+      "pageErrors": [],
+      "api4xx": [],
+      "verdict": "fail-blank"
+    },
+    {
+      "id": "workspace-home",
+      "requested": "/workspaces/system-workspace",
+      "path": "/workspaces/system-workspace",
+      "href": "http://127.0.0.1:8108/workspaces/system-workspace",
+      "rootChildCount": 0,
+      "text": "",
+      "h1": "",
+      "userPresent": true,
+      "userIsRecovered": false,
+      "bouncedToLogin": false,
+      "notFound": null,
+      "pageErrors": [
+        "TypeError: Cannot set property loaded of #<Object> which has only a getter",
+        "TypeError: Cannot set property loaded of #<Object> which has only a getter"
+      ],
+      "api4xx": [],
+      "verdict": "fail-blank"
+    },
+    {
+      "id": "legacy-project-deployments",
+      "requested": "/system-workspace/clusters/default/projects/default/deployments",
+      "path": "/system-workspace/clusters/default/projects/default/deployments",
+      "href": "http://127.0.0.1:8108/system-workspace/clusters/default/projects/default/deployments",
+      "rootChildCount": 0,
+      "text": "",
+      "h1": "",
+      "userPresent": true,
+      "userIsRecovered": false,
+      "bouncedToLogin": false,
+      "notFound": null,
+      "pageErrors": [
+        "TypeError: Cannot set property loaded of #<Object> which has only a getter",
+        "TypeError: Cannot set property loaded of #<Object> which has only a getter"
+      ],
+      "api4xx": [],
+      "verdict": "fail-blank"
+    },
+    {
+      "id": "project-overview",
+      "requested": "/public-workspace/clusters/default/projects/kubesphere-system/overview",
+      "path": "/public-workspace/clusters/default/projects/kubesphere-system/overview",
+      "href": "http://127.0.0.1:8108/public-workspace/clusters/default/projects/kubesphere-system/overview",
+      "rootChildCount": 0,
+      "text": "",
+      "h1": "",
+      "userPresent": true,
+      "userIsRecovered": false,
+      "bouncedToLogin": false,
+      "notFound": null,
+      "pageErrors": [
+        "TypeError: Cannot set property loaded of #<Object> which has only a getter",
+        "TypeError: Cannot set property loaded of #<Object> which has only a getter"
+      ],
+      "api4xx": [],
+      "verdict": "fail-blank"
+    },
+    {
+      "id": "project-deployments",
+      "requested": "/public-workspace/clusters/default/projects/kubesphere-system/deployments",
+      "path": "/public-workspace/clusters/default/projects/kubesphere-system/deployments",
+      "href": "http://127.0.0.1:8108/public-workspace/clusters/default/projects/kubesphere-system/deployments",
+      "rootChildCount": 0,
+      "text": "",
+      "h1": "",
+      "userPresent": true,
+      "userIsRecovered": false,
+      "bouncedToLogin": false,
+      "notFound": null,
+      "pageErrors": [
+        "TypeError: Cannot set property loaded of #<Object> which has only a getter",
+        "TypeError: Cannot set property loaded of #<Object> which has only a getter"
+      ],
+      "api4xx": [],
+      "verdict": "fail-blank"
+    }
+  ],
+  "detail": {
+    "clicked": false,
+    "requestedNameLen": 22,
+    "path": "/clusters/default/deployments",
+    "href": "http://127.0.0.1:8108/clusters/default/deployments",
+    "rootChildCount": 1,
+    "text": "\t\n名称\n状态\n定制内容\n状态\n项目\n更新时间\n创建\n\t名称\n排序\n升序\n降序\n\t状态\n过滤\n运行中\n更新中\n已停止\n\t项目\t更新时间\n排序\n升序\n降序\n\t\n\t\nglobal-wms-server\nMinimumReplicasUnavailable\n状态信息\n进行中\n\n状态：True\n\n原因：NewReplicaSetAvailable\n\n消息：ReplicaSet \"global-wms-server-6d4c95949d\" has successfully progressed.\n\n可用\n\n状态：False\n\n原因：MinimumReplicasUnavailable\n\n消息：Deployment does not have minimum availability.\n\n\t\n更新中 (0/1)\n\tdev-biz\t2026-11-23 21:51:46\t\n编辑信息\n编辑 YAML\n重新创建\n删除\n\n\t\npms-server\nMinimumReplicasUnavailable\n状态信",
+    "h1": "",
+    "userPresent": true,
+    "userIsRecovered": false,
+    "bouncedToLogin": false,
+    "notFound": null,
+    "verdict": "fail"
+  }
+}

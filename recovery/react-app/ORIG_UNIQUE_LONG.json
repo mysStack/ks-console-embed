@@ -1,0 +1,71 @@
+{
+  "orig_files": 292,
+  "raw": 20,
+  "unique": [
+    {
+      "lit": "EMAIL_EMPTY_DESC",
+      "module": "module-5157.js",
+      "orig": "core/containers/LoginConfirm/index.js"
+    },
+    {
+      "lit": "volume-snapshots",
+      "module": "module-4113.js",
+      "orig": "pages/projects/containers/VolumeSnapshots/index.js"
+    },
+    {
+      "lit": "stores/openpitrix/application",
+      "module": "module-1869.js",
+      "orig": "pages/projects/containers/Overview/Applications/index.js"
+    },
+    {
+      "lit": "EDIT_ALERT_RULES",
+      "module": "module-2067.js",
+      "orig": "pages/projects/containers/Alerting/Policies/Detail/index.js"
+    },
+    {
+      "lit": "resources.limits",
+      "module": "module-4432.js",
+      "orig": "pages/projects/components/Cards/ContainerTemplate/Item.js"
+    },
+    {
+      "lit": "stores/s2i/builder",
+      "module": "module-1332.js",
+      "orig": "pages/projects/components/Modals/RebuildS2i/index.js"
+    },
+    {
+      "lit": "KUBERNETES_VERSION",
+      "module": "module-4082.js",
+      "orig": "pages/workspaces/containers/Clusters/Card.js"
+    },
+    {
+      "lit": "project.default.resource",
+      "module": "module-4938.js",
+      "orig": "pages/fedprojects/containers/BaseInfo/index.js"
+    },
+    {
+      "lit": "cluster-settings",
+      "module": "module-4036.js",
+      "orig": "pages/clusters/containers/Gateway/index.js"
+    },
+    {
+      "lit": "allowVolumeExpansion",
+      "module": "module-1430.js",
+      "orig": "pages/clusters/containers/Storage/StorageClasses/index.js"
+    },
+    {
+      "lit": "PERSISTENT_VOLUME_PL",
+      "module": "module-4118.js",
+      "orig": "pages/clusters/containers/Storage/PV/detail/index.js"
+    },
+    {
+      "lit": "kubesphere-router-",
+      "module": "module-4286.js",
+      "orig": "pages/clusters/containers/Gateway/Components/MonitoringOverview/index.js"
+    },
+    {
+      "lit": "components/Cards/Monitoring/Controller/TimeSelector/Range/Custom",
+      "module": "module-2423.js",
+      "orig": "components/Cards/LogQuery/index.js"
+    }
+  ]
+}

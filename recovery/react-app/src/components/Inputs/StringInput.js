@@ -1,0 +1,127 @@
+import "unpacked/module-15.js";
+import "unpacked/module-73.js";
+import "unpacked/module-18.js";
+import "unpacked/module-48.js";
+import "unpacked/module-4.js";
+import "unpacked/module-23.js";
+import "unpacked/module-24.js";
+import "unpacked/module-17.js";
+import "unpacked/module-137.js";
+import "unpacked/module-315.js";
+import "unpacked/module-58.js";
+import module36 from "unpacked/module-36.js";
+import module37 from "unpacked/module-37.js";
+import module55 from "unpacked/module-55.js";
+import module56 from "utils/babel-helpers/possibleConstructorReturn";
+import module51 from "unpacked/module-51.js";
+import "unpacked/module-45.js";
+import "unpacked/module-42.js";
+import "unpacked/module-57.js";
+import "unpacked/module-193.js";
+import { Component } from "unpacked/module-553.js";
+import module1 from "unpacked/module-1.js";
+import module195 from "unpacked/module-195.js";
+import module60 from "unpacked/module-60.js";
+import module186 from "unpacked/module-186.js";
+const v = ((Component_1)=>{
+    module55(a, Component_1);
+    var t = ((e)=>{
+        const t = (()=>{
+            if (typeof Reflect === "undefined" || !Reflect.construct) {
+                return false;
+            }
+            if (Reflect.construct.sham) {
+                return false;
+            }
+            if (typeof Proxy === "function") {
+                return true;
+            }
+            try {
+                Date.prototype.toString.call(Reflect.construct(Date, [], function() {}));
+                return true;
+            } catch (e) {
+                return false;
+            }
+        })();
+        return function() {
+            let a;
+            const r = module51(e);
+            if (t) {
+                const n = module51(this).constructor;
+                a = Reflect.construct(r, arguments, n);
+            } else {
+                a = r.apply(this, arguments);
+            }
+            return module56(this, a);
+        };
+    })(a);
+    function a(e) {
+        let r;
+        module36(this, a);
+        r = t.call(this, e);
+        r.handleChange = function(e) {
+            const r_props = r.props;
+            const { onChange, parser } = r_props;
+            r.setState({
+                value: e
+            });
+            onChange(e ? parser(e) : []);
+        };
+        r.state = {
+            value: e.stringify(e.value)
+        };
+        return r;
+    }
+    module37(a, [
+        {
+            key: "componentDidUpdate",
+            value: function(e) {
+                if (e.value !== this.props.value && this.props.value) {
+                    this.setState({
+                        value: this.props.stringify(this.props.value)
+                    });
+                }
+            }
+        },
+        {
+            key: "render",
+            value: function() {
+                const props = this.props;
+                const { value: _value, onChange: _onChange, parser: _parser, stringify: _stringify, ...rest } = props;
+                return <module186.TextArea value={this.state.value} {...rest} onChange={this.handleChange} rows={2}/>;
+            }
+        }
+    ]);
+    return a;
+})(Component);
+export default v;
+v.propTypes = {
+    value: module1.oneOfType([
+        module1.string,
+        module1.array
+    ]),
+    stringify: module1.func,
+    parser: module1.func,
+    onChange: module1.func
+};
+v.defaultProps = {
+    value: "",
+    stringify: function(e) {
+        if (module60(e)) {
+            return e.join(",");
+        }
+        return "";
+    },
+    parser: function(e) {
+        if (module195(e)) {
+            return e.split(",").map((e)=>{
+                if (/^["'].*["']$/.test(e)) {
+                    e = e.slice(1, e.length - 1);
+                }
+                return e;
+            });
+        }
+        return [];
+    },
+    onChange: function() {}
+};

@@ -1,0 +1,20 @@
+import "./module-15.js";
+import "./module-5.js";
+import "./module-16.js";
+import "./module-24.js";
+import "./module-64.js";
+import module243 from "./module-243.js";
+import "./module-553.js";
+import { Link } from "./module-433.js";
+import module186 from "./module-186.js";
+import Module796 from "./module-796.js";
+import Module791 from "./module-791.js";
+import { getComponentStatus } from "./module-434.js";
+import module3731 from "./module-3731.js";
+export default function({ cluster, component = {} }) {
+    const { name, namespace } = component;
+    const h = getComponentStatus(component);
+    const g = `${String(name).replace(/[- ]/g, "_").toUpperCase()}_DESC`;
+    const y = t(g);
+    return <div className={module3731.card} data-test="service-component"><module186.Columns><module186.Column><Module791 icon="components" title=<Link to={`/clusters/${cluster}/components/${namespace}/${name}`}>{name}</Link> description={y !== g ? <p>{y}</p> : null}/></module186.Column><module186.Column className="is-2"><Module791 title=<Module796 type={h} name={t(h.toUpperCase())}/> description={t("STATUS")}/></module186.Column><module186.Column className="is-2"><Module791 title={`${component.healthyBackends}/${component.totalBackends}`} description={t("REPLICA_COUNT")}/></module186.Column><module186.Column className="is-2"><Module791 title={component.startedAt ? module243(component.startedAt).toNow(true) : "-"} description={t("RUNNING_TIME")}/></module186.Column></module186.Columns></div>;
+};

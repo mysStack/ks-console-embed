@@ -1,0 +1,83 @@
+{
+  "applied": [
+    {
+      "module": "module-101.js",
+      "corejs": "core-js3/internals/internal-state.js",
+      "via": "Object already initialized"
+    },
+    {
+      "module": "module-227.js",
+      "corejs": "core-js3/internals/regexp-exec-abstract.js",
+      "via": "RegExp#exec called on incompatible receiver"
+    },
+    {
+      "module": "module-507.js",
+      "corejs": "core-js3/internals/string-repeat.js",
+      "via": "Wrong number of repetitions"
+    },
+    {
+      "module": "module-291.js",
+      "corejs": "core-js3/internals/regexp-exec.js",
+      "via": "native-string-replace"
+    },
+    {
+      "module": "module-263.js",
+      "corejs": "core-js3/internals/does-not-exceed-safe-integer.js",
+      "via": "Maximum allowed index exceeded"
+    },
+    {
+      "module": "module-151.js",
+      "corejs": "core-js3/internals/symbol-constructor-detection.js",
+      "via": "symbol detection"
+    },
+    {
+      "module": "module-221.js",
+      "corejs": "core-js3/internals/object-get-own-property-symbols.js",
+      "via": "exports.f = Object.getOwnPropertySymbols;"
+    }
+  ],
+  "rejected": [
+    {
+      "module": "module-70.js",
+      "corejs": "core-js3/internals/object-define-property.js",
+      "hits": 2
+    },
+    {
+      "module": "module-132.js",
+      "corejs": "core-js3/internals/get-set-record.js",
+      "hits": 2
+    },
+    {
+      "module": "module-376.js",
+      "corejs": "core-js3/internals/html.js",
+      "hits": 18
+    },
+    {
+      "module": "module-205.js",
+      "corejs": "core-js3/internals/add-to-unscopables.js",
+      "hits": 2
+    },
+    {
+      "module": "module-254.js",
+      "corejs": "core-js3/internals/an-instance.js",
+      "hits": 2
+    },
+    {
+      "module": "module-267.js",
+      "corejs": "core-js3/internals/to-primitive.js",
+      "hits": 9
+    },
+    {
+      "module": "module-283.js",
+      "corejs": "core-js3/internals/enum-bug-keys.js",
+      "hits": 158
+    },
+    {
+      "module": "module-543.js",
+      "corejs": "core-js3/internals/microtask.js",
+      "hits": 2
+    }
+  ],
+  "skipped_orig": "0 unique orig 1-hit with unmapped path",
+  "skipped_vendor": "cron-parser unique in leftover but not in node_modules"
+}

@@ -1,0 +1,238 @@
+{
+  "dist": "/home/bruce/code/ks-develop/console/dist/v3dist",
+  "total_bytes": 37754023,
+  "file_count": 784,
+  "extensions": {
+    ".js": 434,
+    ".css": 17,
+    ".json": 6,
+    ".txt": 2,
+    ".svg": 219,
+    ".ico": 1,
+    ".png": 12,
+    ".woff2": 12,
+    ".woff": 12,
+    ".ttf": 12,
+    ".jpg": 57
+  },
+  "subdirs": [
+    "assets"
+  ],
+  "json_files": [
+    "manifest.locale.json",
+    "locale-es.17fac91efc88f812ecab.json",
+    "locale-tc.51f034784a9c9904d493.json",
+    "locale-en.60d9ddf6aff8fa136646.json",
+    "manifest.json",
+    "locale-zh.4dcfc8f8663252717a8c.json"
+  ],
+  "entrypoints": {
+    "main": {
+      "css": [
+        "main.39ed81f6e5a43d5bb447.css"
+      ],
+      "js": [
+        "main.558f452048e49db23323.js"
+      ]
+    }
+  },
+  "locale_manifest_keys": [
+    "entrypoints",
+    "locale-en.json",
+    "locale-es.json",
+    "locale-tc.json",
+    "locale-zh.json"
+  ],
+  "markers": {
+    "webpackJsonp": 20,
+    "sourceMappingURL": 2,
+    "sourcesContent": 1
+  },
+  "webpack_jsonp_names": {
+    "webpackJsonp": 20
+  },
+  "source_map_hits": [
+    {
+      "file": "99f6bcba35fb277563c6362f3caab715.js",
+      "snippet": "ap=R),g=(D=A(g,E)).code,R&&D.map&&(R=D.map)}return O.inlineMap&&(g=g+\"\\n\"+(\"//# sourceMappingURL=data:application/json;base64,\"+s(JSON.stringify(R)))+\"\\n\"+(\"//# sourceURL=\"+(null==(T=O.filename)?\"coffeescript\":T))),O.sourceMap?{js:g,sourceM"
+    },
+    {
+      "file": "0.79b1d388db9009cab691.js",
+      "snippet": "r=e[1]||\"\",o=e[3];if(!o)return r;if(t&&\"function\"==typeof btoa){var i=(n=o,\"/*# sourceMappingURL=data:application/json;charset=utf-8;base64,\"+btoa(unescape(encodeURIComponent(JSON.stringify(n))))+\" */\"),a=o.sources.map((function(e){return\"/"
+    }
+  ],
+  "app_chunks": [
+    {
+      "file": "0.79b1d388db9009cab691.js",
+      "bytes": 2040276,
+      "webpackJsonp": true
+    },
+    {
+      "file": "1.9ca3a76d71946712055c.js",
+      "bytes": 3191212,
+      "webpackJsonp": true
+    },
+    {
+      "file": "10.0a4386054b517ee54ead.js",
+      "bytes": 65370,
+      "webpackJsonp": true
+    },
+    {
+      "file": "11.4803f6f37e8687716aa1.js",
+      "bytes": 679451,
+      "webpackJsonp": true
+    },
+    {
+      "file": "12.2a69b0c5dbf5a00a4a8d.js",
+      "bytes": 984047,
+      "webpackJsonp": true
+    },
+    {
+      "file": "13.49ba3bf3c56e4e52c867.js",
+      "bytes": 502481,
+      "webpackJsonp": true
+    },
+    {
+      "file": "14.87db00577a502c52dfc5.js",
+      "bytes": 138731,
+      "webpackJsonp": true
+    },
+    {
+      "file": "15.085308545755091f5ce0.js",
+      "bytes": 190020,
+      "webpackJsonp": true
+    },
+    {
+      "file": "16.c38048441fc60c1f26b2.js",
+      "bytes": 262676,
+      "webpackJsonp": true
+    },
+    {
+      "file": "17.aa9158094c2532f134d0.js",
+      "bytes": 3519,
+      "webpackJsonp": true
+    },
+    {
+      "file": "18.4e47b566cbbe39ac49d2.js",
+      "bytes": 18907,
+      "webpackJsonp": true
+    },
+    {
+      "file": "19.5eb03fc86b35eef6787e.js",
+      "bytes": 15322,
+      "webpackJsonp": true
+    },
+    {
+      "file": "2.a875961480f3e500c2c8.js",
+      "bytes": 30436,
+      "webpackJsonp": true
+    },
+    {
+      "file": "3.bb6cbee4309e765b70c1.js",
+      "bytes": 1948439,
+      "webpackJsonp": true
+    },
+    {
+      "file": "4.49e1bbd1d064c2cb5c0d.js",
+      "bytes": 506266,
+      "webpackJsonp": true
+    },
+    {
+      "file": "5.b3ebc4536a8f41200f09.js",
+      "bytes": 65661,
+      "webpackJsonp": true
+    },
+    {
+      "file": "6.8bcf3ff261066d30352e.js",
+      "bytes": 295588,
+      "webpackJsonp": true
+    },
+    {
+      "file": "7.e17520c994653ce8d2f4.js",
+      "bytes": 282510,
+      "webpackJsonp": true
+    },
+    {
+      "file": "8.efefc7072f02199ebc47.js",
+      "bytes": 248579,
+      "webpackJsonp": true
+    },
+    {
+      "file": "main.558f452048e49db23323.js",
+      "bytes": 2018021,
+      "webpackJsonp": true
+    }
+  ],
+  "other_js_count": 414,
+  "runtime": {
+    "main": "main.558f452048e49db23323.js",
+    "bytes": 2018021,
+    "hash_maps_found": 2,
+    "hash_maps_preview": [
+      "{0:\"68f0a9379c76a2e21b11\",1:\"9dcfc2ca150f3eeabe9b\",2:\"dbd718017ec87b3fb3c5\",3:\"460a788d2dd1417c95c2\",4:\"8eaae65bb2ac132e0393\",5:\"cf8d79e7b36287e34d92\",6:\"0922b7be77778c3417af\",7:\"6370bad7a74347a75218\",8:\"0da243f7769417a868c0\",10:\"662f294fd6357409d1c2\",11:\"e0028d609bb020d5a3f0\",12:\"5ab8d0604671d18a395b\",13:\"bd7965932e47d0428723\",14:\"a9d808965273c53459db\",15:\"16303d686fa55a63dd26\",16:\"0d433cc8649b4cc966e4\",17:\"2d0269d50eb62e3bee98\",18:\"ccf50ea4913be014b31b\",19:\"9dd71e4e12b1c1925866\"}",
+      "{0:\"79b1d388db9009cab691\",1:\"9ca3a76d71946712055c\",2:\"a875961480f3e500c2c8\",3:\"bb6cbee4309e765b70c1\",4:\"49e1bbd1d064c2cb5c0d\",5:\"b3ebc4536a8f41200f09\",6:\"8bcf3ff261066d30352e\",7:\"e17520c994653ce8d2f4\",8:\"efefc7072f02199ebc47\",10:\"0a4386054b517ee54ead\",11:\"4803f6f37e8687716aa1\",12:\"2a69b0c5dbf5a00a4a8d\",13:\"49ba3bf3c56e4e52c867\",14:\"87db00577a502c52dfc5\",15:\"085308545755091f5ce0\",16:\"c38048441fc60c1f26b2\",17:\"aa9158094c2532f134d0\",18:\"4e47b566cbbe39ac49d2\",19:\"5eb03fc86b35eef6787e\"}"
+    ]
+  },
+  "largest_js": [
+    {
+      "file": "1.9ca3a76d71946712055c.js",
+      "bytes": 3191212
+    },
+    {
+      "file": "0.79b1d388db9009cab691.js",
+      "bytes": 2040276
+    },
+    {
+      "file": "main.558f452048e49db23323.js",
+      "bytes": 2018021
+    },
+    {
+      "file": "3.bb6cbee4309e765b70c1.js",
+      "bytes": 1948439
+    },
+    {
+      "file": "dad7909925cdea4ce193d5c14a13abf3.js",
+      "bytes": 1589558
+    },
+    {
+      "file": "12.2a69b0c5dbf5a00a4a8d.js",
+      "bytes": 984047
+    },
+    {
+      "file": "11.4803f6f37e8687716aa1.js",
+      "bytes": 679451
+    },
+    {
+      "file": "4.49e1bbd1d064c2cb5c0d.js",
+      "bytes": 506266
+    },
+    {
+      "file": "c797cd030330cde3e9c0f5e9db6b2be5.js",
+      "bytes": 503100
+    },
+    {
+      "file": "13.49ba3bf3c56e4e52c867.js",
+      "bytes": 502481
+    },
+    {
+      "file": "666899335e954b291e938197a76bc90c.js",
+      "bytes": 477885
+    },
+    {
+      "file": "7d4e1c98726f11ff7baaf1a31882c59f.js",
+      "bytes": 473407
+    },
+    {
+      "file": "99f6bcba35fb277563c6362f3caab715.js",
+      "bytes": 320241
+    },
+    {
+      "file": "6.8bcf3ff261066d30352e.js",
+      "bytes": 295588
+    },
+    {
+      "file": "7.e17520c994653ce8d2f4.js",
+      "bytes": 282510
+    }
+  ]
+}

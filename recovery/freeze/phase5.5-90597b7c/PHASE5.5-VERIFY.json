@@ -1,0 +1,38 @@
+{
+  "identity": {
+    "hasUser": true,
+    "fakeRecovered": false
+  },
+  "overview": {
+    "htmlLen": 14121,
+    "dep": 7,
+    "hasNav": true,
+    "hasSelector": true,
+    "selectorText": "<name>"
+  },
+  "modal": {
+    "hasDialog": true,
+    "cardCount": 8,
+    "htmlLen": 14121,
+    "textHead": "dev-workspace 企业空间 项目 名称 别名 dev-ewms-web - user 创建者 2026-10-21 14:07:45 创建时间 dev-biz-web - user 创建者 2026-10-19 16:47:38 创建时间 dev-biz - user 创建者 2026-10-19 16:47",
+    "modalError": ""
+  },
+  "jumped": {
+    "ok": true,
+    "path": "/dev-workspace/clusters/default/projects/<ns>/overview",
+    "hasNav": true,
+    "htmlLen": 14121
+  },
+  "checks": {
+    "loginRealUser": true,
+    "overviewAlive": true,
+    "sidebarNav": true,
+    "selectorVisible": true,
+    "modalOpens": true,
+    "modalHasProjects": true,
+    "jumpKeepsProject": true,
+    "rootNotEmpty": true
+  },
+  "errors": [],
+  "pass": true
+}

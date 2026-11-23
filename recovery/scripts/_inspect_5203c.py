@@ -1,0 +1,11 @@
+from pathlib import Path
+root = Path("/home/bruce/code/ks-develop/kse-console-v3/recovery/react-app/phase4-build")
+c = next(root.glob("5203.app.*.js"))
+t = c.read_text(encoding="utf-8", errors="ignore")
+idx = t.find("showSelect")
+print("---selector---")
+print(t[max(0, idx - 400) : idx + 500])
+print("---rt---")
+rt = t.find(".t(")
+print(t[max(0, rt - 200) : rt + 250])
+print("file len", len(t), "rt", rt)

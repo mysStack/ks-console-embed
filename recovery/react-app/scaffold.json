@@ -1,0 +1,45 @@
+{
+  "source": "/home/bruce/code/ks-develop/kse-console-v3/recovery/unpacked",
+  "copiedModules": 5761,
+  "totals": {
+    "modules": 5761,
+    "kinds": {
+      "business": 512,
+      "business-support": 2541,
+      "shared": 1274,
+      "unknown": 3,
+      "vendor": 1431
+    },
+    "chunks": {
+      "access": 14,
+      "actions": 859,
+      "clusters": 203,
+      "console": 25,
+      "devops": 98,
+      "edgewize": 92,
+      "fedprojects": 116,
+      "main": 775,
+      "nodegroup": 27,
+      "observability": 288,
+      "projects": 338,
+      "settings": 57,
+      "terminal": 57,
+      "workspaces": 114,
+      "common": 1274,
+      "other": 3,
+      "react-ace": 433,
+      "vendor": 988
+    },
+    "libHits": {
+      "kube-design": 2,
+      "react-dom": 1,
+      "lodash": 9,
+      "mobx-react": 1,
+      "react": 3
+    },
+    "namedHints": 306,
+    "wakaruFailed": 3,
+    "wakaruWarnings": 196
+  },
+  "note": "Business JS is the Wakaru unpack. Vendor copies remain as modules unless webpack aliases them to npm."
+}

@@ -1,0 +1,17 @@
+{
+  "applied": [
+    {
+      "module": "module-1046.js",
+      "orig": "components/Tables/Base/CustomColumns/index.js",
+      "kind": "long",
+      "lit": "currentTarget.dataset.value"
+    }
+  ],
+  "skipped": [
+    {
+      "module": "module-2094.js",
+      "orig": "components/Forms/AlertingPolicy/AlertingRules/AddRuleForm/index.js",
+      "reason": "false pin; leftover is workload template form not AddRuleForm wrapper"
+    }
+  ]
+}

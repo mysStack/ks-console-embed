@@ -1,0 +1,119 @@
+=== indexing ===
+
+=== last5 parents remaining unnamed JS kids ===
+  module-4942.js named=['pages/fedprojects/containers/Overview/ResourceUsage/TinyArea.js'] css=False mid=4942
+    importers [('module-4941.js', ['pages/fedprojects/containers/Overview/ResourceUsage/AppResourceItem.js'])]
+    methods ['if', 'getVeticalPoints', 'renderArea', 'render', 'series']
+    t []
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-1.js', ['?']), ('module-72.js', ['utils/constants.js']), ('module-901.js', ['?']), ('module-870.js', ['?']), ('module-871.js', ['?']), ('module-948.js', ['?']), ('module-930.js', ['?']), ('module-872.js', ['?']), ('module-863.js', ['?'])]
+    head import "./module-15.js"; | import "./module-828.js"; | import "./module-11.js"; | import "./module-18.js"; | import "./module-10.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-17.js"; | import "./module-45.js";
+  orig_local None
+  orig_imp_of_unnamed []
+  unnamed_js ['module-36.js', 'module-37.js', 'module-55.js', 'module-56.js', 'module-51.js', 'module-553.js', 'module-1.js', 'module-901.js', 'module-870.js', 'module-871.js', 'module-948.js', 'module-930.js', 'module-872.js', 'module-863.js'] unique []
+  module-5026.js named=['pages/fedprojects/containers/Volumes/Detail/ResourceStatus/UsageCard.js'] css=False mid=5026
+    importers [('module-5025.js', ['pages/fedprojects/containers/Volumes/Detail/ResourceStatus.js'])]
+    methods ['if', 'componentDidMount', 'componentWillUnmount', 'parseMetrics', 'render', 'renderStatus', 'renderMonitor']
+    t ['div', 'header', 'h3', 'small', 'p', 'AVAILABLE_CAPACITY', 'TOTAL_CAPACITY', 'INODE_USAGE']
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-239.js', ['?']), ('module-186.js', ['?']), ('module-26.js', ['?']), ('module-795.js', ['utils/monitoring.js']), ('module-1832.js', ['?']), ('module-863.js', ['?']), ('module-790.js', ['components/Base/Panel.js']), ('module-799.js', ['components/Charts/index.js']), ('module-816.js', ['components/Clusters/ClusterTitle.js']), ('module-1831.js', ['?'])]
+    head import "./module-15.js"; | import "./module-12.js"; | import "./module-135.js"; | import "./module-16.js"; | import "./module-27.js"; | import "./module-4.js"; | import "./module-316.js"; | import "./module-23.js"; | import "./module-24.js"
+  orig_local ['pages/fedprojects/containers/Volumes/Detail/ResourceStatus/UsageCard/index.scss']
+  orig_imp_of_unnamed [('pages/fedprojects/containers/Volumes/Detail/ResourceStatus/UsageCard/index.scss', ['pages/fedprojects/containers/Volumes/Detail/ResourceStatus/UsageCard.js'])]
+  unnamed_js ['module-36.js', 'module-37.js', 'module-55.js', 'module-56.js', 'module-51.js', 'module-553.js', 'module-239.js', 'module-26.js', 'module-1832.js', 'module-863.js', 'module-1831.js'] unique []
+  module-5030.js named=['pages/fedprojects/containers/Volumes/Detail/VolumeMounts/PodsCard.js'] css=False mid=5030
+    importers [('module-5029.js', ['pages/fedprojects/containers/Volumes/Detail/VolumeMounts.js'])]
+    methods ['if', 'render', 'prefix']
+    t ['div']
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-790.js', ['components/Base/Panel.js']), ('module-851.js', ['?']), ('module-816.js', ['components/Clusters/ClusterTitle.js']), ('module-5031.js', ['?'])]
+    head import "./module-15.js"; | import "./module-16.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-24.js"; | import "./module-17.js"; | import "./module-62.js"; | import "./module-45.js"; | import "./module-42.js"; 
+  orig_local ['pages/fedprojects/containers/Volumes/Detail/VolumeMounts/PodsCard/index.scss']
+  orig_imp_of_unnamed [('pages/fedprojects/containers/Volumes/Detail/VolumeMounts/PodsCard/index.scss', ['pages/fedprojects/containers/Volumes/Detail/VolumeMounts/PodsCard.js'])]
+  unnamed_js ['module-36.js', 'module-37.js', 'module-55.js', 'module-56.js', 'module-51.js', 'module-553.js', 'module-851.js'] unique []
+  module-4413.js named=['pages/apps/components/Lists/AuditRecord.js'] css=False mid=4413
+    importers [('module-4410.js', ['pages/apps/components/Lists/VersionList/Item.js'])]
+    methods ['if', 'componentDidMount', 'renderItem', 'renderContent', 'render']
+    t ['YYYY-MM-DD HH:mm:ss', 'NO_RESOURCE_FOUND']
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-239.js', ['?']), ('module-1.js', ['?']), ('module-3.js', ['?']), ('module-63.js', ['?']), ('module-186.js', ['?']), ('module-1418.js', ['?']), ('module-1868.js', ['stores/openpitrix/audit.js']), ('module-52.js', ['utils/index.js']), ('module-4414.js', ['?'])]
+    head import "./module-15.js"; | import "./module-5.js"; | import "./module-18.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-17.js"; | import "./module-45.js"; | import "./module-42.js"; | import "./module-57.js"; |
+  orig_local ['pages/apps/components/Lists/AuditRecord/index.scss']
+  orig_imp_of_unnamed [('pages/apps/components/Lists/AuditRecord/index.scss', ['pages/apps/components/Lists/AuditRecord.js'])]
+  unnamed_js ['module-36.js', 'module-37.js', 'module-55.js', 'module-56.js', 'module-51.js', 'module-553.js', 'module-239.js', 'module-1.js', 'module-3.js', 'module-63.js'] unique []
+  module-3563.js named=['pages/fedprojects/components/VolumeSetting.js'] css=False mid=3563
+    importers [('module-3553.js', ['actions/volume.js'])]
+    methods ['if', 'render', 'forms']
+    t []
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-1.js', ['?']), ('module-1122.js', ['?']), ('module-3564.js', ['pages/fedprojects/components/VolumeSetting/config.js'])]
+    head import "./module-15.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-17.js"; | import "./module-45.js"; | import "./module-42.js"; | import "./module-57.js"; | import "./module-315.js"; | import "./module-58.js";
+  orig_local ['pages/fedprojects/components/VolumeSetting/config.js']
+  orig_imp_of_unnamed []
+  unnamed_js ['module-36.js', 'module-37.js', 'module-55.js', 'module-56.js', 'module-51.js', 'module-553.js', 'module-1.js', 'module-1122.js'] unique []
+
+=== RouteRulesEdit unique importer of named actions/router 3325 ===
+
+=== UNIQUE_IMP pages/fedprojects/components/RouteRulesEdit.js -> module-3331.js parent=actions/router.js ===
+  module-3331.js named=[] css=False mid=3331
+    importers [('module-3325.js', ['actions/router.js'])]
+    methods ['registerSubRoute', 'resetSubRoute', 'handleOk', 'handleCancel', 'if', 'getChildContext', 'componentDidUpdate', 'getFormTemplate', 'render']
+    t ['EDIT_ROUTING_RULES', 'OK', 'PREVIOUS']
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-1.js', ['?']), ('module-14.js', ['?']), ('module-26.js', ['?']), ('module-136.js', ['?']), ('module-63.js', ['?']), ('module-807.js', ['?']), ('module-788.js', ['components/Base/Modal.js']), ('module-1320.js', ['components/Forms/Route/RouteRules.js']), ('module-3332.js', ['?'])]
+    head import "./module-15.js"; | import "./module-29.js"; | import "./module-6.js"; | import "./module-84.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-17.js"; | import "./module-85.js"; | import "./module-7.js"; | 
+    orig_importers ['actions/router.js']
+    orig_methods ['registerSubRoute', 'resetSubRoute', 'handleOk', 'handleCancel', 'getChildContext', 'constructor', 'componentDidUpdate', 'if', 'getFormTemplate', 'onCancel']
+    orig_t ['EDIT_ROUTING_RULES', 'OK', 'PREVIOUS']
+    unique_named_parent True unique_orig True
+  VERDICT ACCEPT unique_importer_1_1 parent=actions/router.js
+EDIT_ROUTING_RULES unnamed ['module-3331.js', 'module-2623.js'] sib ['module-3331.js'] named [('module-4955.js', ['pages/fedprojects/ingresses.js']), ('module-4621.js', ['pages/projects/ingresses.js']), ('module-3742.js', ['pages/clusters/ingresses.js']), ('module-3329.js', ['pages/projects/components/Modals/RouteRulesEdit.js'])]
+INVALID_CREATE_DOMAIN_NAME unnamed ['module-3326.js'] named [] orig []
+orig_imp RouteRulesEdit ['actions/router.js']
+importers 3331 ['module-3325.js']
+importers 3326 ['module-3325.js']
+  module-3326.js named=[] css=False mid=3326
+    importers [('module-3325.js', ['actions/router.js'])]
+    methods ['nameValidator', 'domainValidator', 'handleOk', 'if', 'render']
+    t ['NAME_EXIST_DESC', 'INVALID_CREATE_DOMAIN_NAME', 'OK', 'NAME', 'NAME_DESC', 'NAME_EMPTY_DESC', 'INVALID_NAME_DESC', 'DOMAIN_NAME_TCAP', 'CREATE_DOMAIN_NAME_DES', 'DOMAIN_NAME_EMPTY_DESC', 'INVALID_DOMAIN_DESC', 'DESCRIPTION', 'DESCRIPTION_DESC']
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-1.js', ['?']), ('module-26.js', ['?']), ('module-831.js', ['?']), ('module-14.js', ['?']), ('module-186.js', ['?']), ('module-788.js', ['components/Base/Modal.js']), ('module-72.js', ['utils/constants.js'])]
+    head import "./module-15.js"; | import "./module-11.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-17.js"; | import "./module-45.js"; | import "./module-42.js"; | import "./module-57.js"; | import module36 from "./m
+reject 3326 CREATE_DOMAIN dist-only 0-hit orig
+  VERDICT REJECT sibling 3326 is CREATE_DOMAIN dist-only 0-hit orig, not RouteRulesEdit
+
+=== CustomMonitoring/store unique importer of named 1632 ===
+
+=== UNIQUE_IMP components/Modals/CustomMonitoring/store.js -> module-2853.js parent=components/Modals/CustomMonitoring.js ===
+  module-2853.js named=[] css=False mid=2853
+    importers [('module-1632.js', ['components/Modals/CustomMonitoring.js'])]
+    methods ['n', 'selectMonitor', 'unSelectMonitor', 'changeTheme', 'showNewMonitorModal', 'hideNewMonitorModal']
+    t []
+    kids [('module-65.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-49.js', ['?']), ('module-14.js', ['?'])]
+    head import "./module-15.js"; | import "./module-9.js"; | import module65 from "./module-65.js"; | import module36 from "./module-36.js"; | import module37 from "./module-37.js"; | import module49 from "./module-49.js"; | import "./module-66.js"
+    orig_importers ['components/Modals/CustomMonitoring.js']
+    orig_methods ['selectMonitor', 'unSelectMonitor', 'changeTheme', 'showNewMonitorModal', 'hideNewMonitorModal']
+    orig_t []
+    unique_named_parent True unique_orig True
+  VERDICT ACCEPT unique_importer_1_1 parent=components/Modals/CustomMonitoring.js
+shouldNewMonitorModalShow unnamed ['module-2853.js'] named []
+selectMonitor unnamed ['module-2853.js'] named []
+orig_imp store ['components/Modals/CustomMonitoring.js']
+
+=== leftover last5 UsageCard 1832/1831, PodsCard 851, VolumeSetting 1122 ===
+orig_imp VolumeUsage ['pages/fedprojects/containers/Volumes/Detail/ResourceStatus/UsageCard.js', 'pages/projects/containers/Volumes/Detail/ResourceStatus/UsageCard.js']
+importers 1832 [('module-3919.js', ['pages/projects/containers/Volumes/Detail/ResourceStatus/UsageCard.js']), ('module-5026.js', ['pages/fedprojects/containers/Volumes/Detail/ResourceStatus/UsageCard.js'])]
+importers 1831 [('module-3918.js', ['pages/projects/containers/Volumes/Detail/ResourceStatus.js']), ('module-5026.js', ['pages/fedprojects/containers/Volumes/Detail/ResourceStatus/UsageCard.js'])]
+importers 851 count 20
+importers 1122 [('module-2924.js', ['pages/workspaces/components/Modals/FedProjectAddCluster.js']), ('module-3028.js', ['actions/node.js']), ('module-3563.js', ['pages/fedprojects/components/VolumeSetting.js']), ('module-3601.js', ['pages/projects/components/Modals/ConfigTemplate.js']), ('module-4709.js', ['pages/projects/components/Modals/GrayReleaseDetail/Edit.js'])]
+orig_imp VersionStatus ['pages/apps/components/Lists/AuditRecord.js', 'pages/apps/components/Lists/VersionList/Item.js', 'pages/apps/containers/StoreManage/Detail/AuditRecord.js']
+
+=== vendor leftover needles in live unnamed ===
+live_modules 614 aliased 96
+  react-draggable: none (0)
+  DraggableCore: none (0)
+  jwt-decode: none (0)
+  LineChart chartName: none (0)
+  semver validRange: ['module-717.js'] (1)
+
+=== ACCEPTED ===
+    "pages/fedprojects/components/RouteRulesEdit.js": "module-3331.js",  # unique_importer_1_1 parent=actions/router.js
+    "components/Modals/CustomMonitoring/store.js": "module-2853.js",  # unique_importer_1_1 parent=components/Modals/CustomMonitoring.js
+accepted_unique_pairs 2
+
+=== REJECTED ===
+  pages/fedprojects/components/RouteRulesEdit.js -> module-3326.js :: sibling 3326 is CREATE_DOMAIN dist-only 0-hit orig, not RouteRulesEdit
+rejected_count 1

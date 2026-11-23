@@ -1,0 +1,460 @@
+{
+  "business_looking": 243,
+  "leftover_size_hist": {
+    "0": 18,
+    "1": 54,
+    "2": 58,
+    "3": 53,
+    "4": 25,
+    "5": 13,
+    "6": 4,
+    "7": 7,
+    "8": 5,
+    "9": 3,
+    "11": 1,
+    "12": 2
+  },
+  "orig_unnamed": 319,
+  "orig_size_hist": {
+    "0": 81,
+    "1": 67,
+    "2": 39,
+    "3": 42,
+    "4": 17,
+    "5": 14,
+    "6": 25,
+    "7": 16,
+    "8": 14,
+    "9": 2,
+    "17": 1,
+    "25": 1
+  },
+  "leftover_sets_ge2": 133,
+  "orig_sets_ge2": 143,
+  "pins": [],
+  "pins_no_babel_helpers": [
+    {
+      "module": "module-2216.js",
+      "path": "dmp/pages/projects/components/AlertRuleCreate/BaseInfo/index.js",
+      "set_size": 3,
+      "named": [
+        "components/Forms/AlertingPolicy/BaseInfo/UnitInput.js",
+        "configs/alerting/metrics/rule.config.js",
+        "utils/constants.js"
+      ],
+      "reason": "import_set_1_1_no_babel_helpers"
+    }
+  ],
+  "rejected_counts": {
+    "leftover_set_not_unique": 17,
+    "no_orig_set_match": 116,
+    "orig_set_shared": 0
+  },
+  "rejected_no_babel": {
+    "no_orig_set_match": 88,
+    "leftover_set_not_unique": 9
+  },
+  "rejected_sample": [
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-665.js"
+      ],
+      "set_size": 4,
+      "sample": [
+        "utils/EventBus.js",
+        "utils/babel-helpers/slicedToArray.js",
+        "utils/events.js",
+        "utils/index.js"
+      ]
+    },
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-817.js"
+      ],
+      "set_size": 2,
+      "sample": [
+        "utils/babel-helpers/slicedToArray.js",
+        "utils/base64.js"
+      ]
+    },
+    {
+      "reason": "leftover_set_not_unique",
+      "leftovers": [
+        "module-863.js",
+        "module-2187.js"
+      ],
+      "origs": [],
+      "set_size": 2,
+      "sample": [
+        "utils/constants.js",
+        "utils/index.js"
+      ]
+    },
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-955.js"
+      ],
+      "set_size": 7,
+      "sample": [
+        "stores/base.js",
+        "stores/base.list.js",
+        "utils/babel-helpers/asyncToGenerator.js",
+        "utils/babel-helpers/initializerWarningHelper.js",
+        "utils/babel-helpers/interopRequireDefault.js",
+        "utils/babel-helpers/possibleConstructorReturn.js",
+        "utils/constants.js"
+      ]
+    },
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-995.js"
+      ],
+      "set_size": 3,
+      "sample": [
+        "utils/babel-helpers/slicedToArray.js",
+        "utils/constants.js",
+        "utils/index.js"
+      ]
+    },
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-996.js"
+      ],
+      "set_size": 2,
+      "sample": [
+        "components/Inputs/PropertiesInput.js",
+        "utils/constants.js"
+      ]
+    },
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-1287.js"
+      ],
+      "set_size": 11,
+      "sample": [
+        "components/Base/Modal.js",
+        "components/Modals/Create.js",
+        "pages/apps/components/Modals/AppEdit.js",
+        "pages/projects/components/Modals/WorkloadDelete.js",
+        "utils/babel-helpers/asyncToGenerator.js",
+        "utils/babel-helpers/interopRequireDefault.js",
+        "utils/babel-helpers/slicedToArray.js",
+        "utils/base64.js"
+      ]
+    },
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-1301.js"
+      ],
+      "set_size": 3,
+      "sample": [
+        "components/Base/Text.js",
+        "utils/index.js",
+        "utils/status.js"
+      ]
+    },
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-1364.js"
+      ],
+      "set_size": 7,
+      "sample": [
+        "components/Base/Card.js",
+        "components/Base/Empty.js",
+        "stores/container.js",
+        "stores/pod.js",
+        "utils/babel-helpers/asyncToGenerator.js",
+        "utils/babel-helpers/possibleConstructorReturn.js",
+        "utils/constants.js"
+      ]
+    },
+    {
+      "reason": "leftover_set_not_unique",
+      "leftovers": [
+        "module-1374.js",
+        "module-1554.js"
+      ],
+      "origs": [],
+      "set_size": 3,
+      "sample": [
+        "components/Base/Image.js",
+        "components/Base/Text.js",
+        "utils/babel-helpers/possibleConstructorReturn.js"
+      ]
+    },
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-1376.js"
+      ],
+      "set_size": 3,
+      "sample": [
+        "components/Base/CodeEditor.js",
+        "components/Base/Modal.js",
+        "utils/babel-helpers/possibleConstructorReturn.js"
+      ]
+    },
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-1545.js"
+      ],
+      "set_size": 7,
+      "sample": [
+        "components/Base/Modal.js",
+        "components/Base/Switch.js",
+        "components/EditMode.js",
+        "components/Forms/Base/Confirm.js",
+        "components/Forms/Workload/AdvanceSettings.js",
+        "components/Forms/Workload/VolumeSettings.js",
+        "utils/babel-helpers/possibleConstructorReturn.js"
+      ]
+    },
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-1549.js"
+      ],
+      "set_size": 4,
+      "sample": [
+        "stores/network/ippool.js",
+        "utils/babel-helpers/slicedToArray.js",
+        "utils/constants.js",
+        "utils/index.js"
+      ]
+    },
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-1568.js"
+      ],
+      "set_size": 2,
+      "sample": [
+        "components/Base/Text.js",
+        "utils/babel-helpers/possibleConstructorReturn.js"
+      ]
+    },
+    {
+      "reason": "leftover_set_not_unique",
+      "leftovers": [
+        "module-1621.js",
+        "module-1738.js",
+        "module-2469.js"
+      ],
+      "origs": [],
+      "set_size": 2,
+      "sample": [
+        "utils/babel-helpers/possibleConstructorReturn.js",
+        "utils/constants.js"
+      ]
+    },
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-1670.js"
+      ],
+      "set_size": 4,
+      "sample": [
+        "components/Base/CheckableText.js",
+        "components/Inputs/index.js",
+        "components/ToggleView.js",
+        "utils/babel-helpers/possibleConstructorReturn.js"
+      ]
+    },
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-1689.js"
+      ],
+      "set_size": 9,
+      "sample": [
+        "components/Base/Switch.js",
+        "components/EditMode.js",
+        "components/Inputs/ArrayInput.js",
+        "components/Inputs/NumberInput.js",
+        "stores/project.js",
+        "stores/workspace.js",
+        "utils/babel-helpers/slicedToArray.js",
+        "utils/constants.js"
+      ]
+    },
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-1736.js"
+      ],
+      "set_size": 4,
+      "sample": [
+        "components/Inputs/ArrayInput.js",
+        "components/Inputs/NumberInput.js",
+        "utils/babel-helpers/possibleConstructorReturn.js",
+        "utils/constants.js"
+      ]
+    },
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-1737.js"
+      ],
+      "set_size": 3,
+      "sample": [
+        "utils/babel-helpers/possibleConstructorReturn.js",
+        "utils/babel-helpers/slicedToArray.js",
+        "utils/constants.js"
+      ]
+    },
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-1739.js"
+      ],
+      "set_size": 4,
+      "sample": [
+        "components/Base/index.js",
+        "components/Forms/Notification/BaseForm/ConditionSelect.js",
+        "components/Inputs/index.js",
+        "utils/babel-helpers/possibleConstructorReturn.js"
+      ]
+    },
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-2061.js"
+      ],
+      "set_size": 5,
+      "sample": [
+        "components/Inputs/UnitSlider.js",
+        "stores/storageClass.js",
+        "utils/babel-helpers/slicedToArray.js",
+        "utils/constants.js",
+        "utils/index.js"
+      ]
+    },
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-2062.js"
+      ],
+      "set_size": 2,
+      "sample": [
+        "components/Inputs/PropertiesInput.js",
+        "utils/babel-helpers/slicedToArray.js"
+      ]
+    },
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-2067.js"
+      ],
+      "set_size": 12,
+      "sample": [
+        "components/Base/Modal.js",
+        "components/Forms/AlertingPolicy/EditBasicInfo.js",
+        "components/Modals/Create.js",
+        "components/Modals/Delete.js",
+        "components/Modals/EditYaml.js",
+        "components/Modals/Monitoring/AlertMonitoring.js",
+        "pages/projects/components/Modals/AlertingConfirm.js",
+        "utils/babel-helpers/asyncToGenerator.js"
+      ]
+    },
+    {
+      "reason": "leftover_set_not_unique",
+      "leftovers": [
+        "module-2069.js",
+        "module-2186.js"
+      ],
+      "origs": [],
+      "set_size": 2,
+      "sample": [
+        "utils/babel-helpers/slicedToArray.js",
+        "utils/constants.js"
+      ]
+    },
+    {
+      "reason": "leftover_set_not_unique",
+      "leftovers": [
+        "module-2074.js",
+        "module-2085.js",
+        "module-3298.js"
+      ],
+      "origs": [],
+      "set_size": 2,
+      "sample": [
+        "utils/babel-helpers/slicedToArray.js",
+        "utils/index.js"
+      ]
+    },
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-2082.js"
+      ],
+      "set_size": 3,
+      "sample": [
+        "components/Inputs/ArrayInput.js",
+        "stores/project.js",
+        "utils/babel-helpers/possibleConstructorReturn.js"
+      ]
+    },
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-2084.js"
+      ],
+      "set_size": 4,
+      "sample": [
+        "stores/workload/index.js",
+        "utils/babel-helpers/slicedToArray.js",
+        "utils/constants.js",
+        "utils/index.js"
+      ]
+    },
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-2087.js"
+      ],
+      "set_size": 2,
+      "sample": [
+        "components/Inputs/ArrayInput.js",
+        "utils/babel-helpers/possibleConstructorReturn.js"
+      ]
+    },
+    {
+      "reason": "no_orig_set_match",
+      "leftovers": [
+        "module-2088.js"
+      ],
+      "set_size": 4,
+      "sample": [
+        "stores/node.js",
+        "utils/babel-helpers/slicedToArray.js",
+        "utils/constants.js",
+        "utils/index.js"
+      ]
+    },
+    {
+      "reason": "leftover_set_not_unique",
+      "leftovers": [
+        "module-2089.js",
+        "module-2096.js"
+      ],
+      "origs": [],
+      "set_size": 3,
+      "sample": [
+        "components/Inputs/NumberInput.js",
+        "utils/babel-helpers/possibleConstructorReturn.js",
+        "utils/babel-helpers/slicedToArray.js"
+      ]
+    }
+  ]
+}

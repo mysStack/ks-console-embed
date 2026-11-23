@@ -1,0 +1,22 @@
+{
+  "routes": {
+    "/login": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/login",
+      "bodyStart": "Welcome\nUsername or Email*\nPassword*\nLog In",
+      "webpackIds": 3246,
+      "unpackedUnique": 1203,
+      "namedCount": 0
+    },
+    "/dashboard": {
+      "overlay": false,
+      "overlayText": "",
+      "href": "http://127.0.0.1:8099/dashboard",
+      "bodyStart": "Hello recovered\n\nLast login: 2026-11-22 18:10:12\n\nYou do not belong to any workspace.\n\nPlease contact a workspace administrator to invite you to join a workspace.",
+      "webpackIds": 3280,
+      "unpackedUnique": 1217,
+      "namedCount": 0
+    }
+  }
+}

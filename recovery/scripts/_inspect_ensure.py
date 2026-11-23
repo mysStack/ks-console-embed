@@ -1,0 +1,11 @@
+from pathlib import Path
+root = Path("/home/bruce/code/ks-develop/kse-console-v3/recovery/react-app/phase4-build")
+c = next(root.glob("5203.app.*.js"))
+t = c.read_text(encoding="utf-8", errors="ignore")
+i = t.find(".e(")
+print("e@", i)
+print(t[max(0, i - 400) : i + 250])
+print("---3533---")
+p = next(root.glob("3533.app.*.js"))
+print(p.name, p.stat().st_size)
+print(p.read_text(encoding="utf-8", errors="ignore")[:1500])

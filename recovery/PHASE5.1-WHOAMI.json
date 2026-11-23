@@ -1,0 +1,86 @@
+{
+  "endpoints": [
+    {
+      "path": "/kapis/version",
+      "http": 200,
+      "keys": [
+        "gitVersion",
+        "gitMajor",
+        "gitMinor",
+        "gitCommit",
+        "gitTreeState",
+        "buildDate",
+        "goVersion",
+        "compiler",
+        "platform",
+        "kubernetes"
+      ],
+      "kind": null,
+      "hasMetadataName": false,
+      "itemCount": null,
+      "jsonish": true
+    },
+    {
+      "path": "/kapis/iam.kubesphere.io/v1beta1/users",
+      "http": 200,
+      "keys": [
+        "items",
+        "totalItems"
+      ],
+      "kind": null,
+      "hasMetadataName": false,
+      "itemCount": 5,
+      "jsonish": true
+    },
+    {
+      "path": "/kapis/config.kubesphere.io/v1alpha2/configs/configz",
+      "http": 200,
+      "keys": [
+        "multicluster",
+        "extension"
+      ],
+      "kind": null,
+      "hasMetadataName": false,
+      "itemCount": null,
+      "jsonish": true
+    },
+    {
+      "path": "/kapis/resources.kubesphere.io/v1alpha3/users",
+      "http": 200,
+      "keys": [
+        "items",
+        "totalItems"
+      ],
+      "kind": null,
+      "hasMetadataName": false,
+      "itemCount": 5,
+      "jsonish": true
+    },
+    {
+      "path": "/kapis/tenant.kubesphere.io/v1beta1/workspacetemplates",
+      "http": 200,
+      "keys": [
+        "items",
+        "totalItems"
+      ],
+      "kind": null,
+      "hasMetadataName": false,
+      "itemCount": 3,
+      "jsonish": true
+    },
+    {
+      "path": "/kapis/iam.kubesphere.io/v1beta1/users?limit=1",
+      "http": 200,
+      "keys": [
+        "items",
+        "totalItems"
+      ],
+      "kind": null,
+      "hasMetadataName": false,
+      "itemCount": 1,
+      "jsonish": true
+    }
+  ],
+  "tokenParts": 0,
+  "jwtHasUsername": false
+}

@@ -1,0 +1,78 @@
+indexing
+
+=== pages/clusters/containers/Monitor/Resource.js named=pages/clusters/monitor-resource.js->module-3783.js orig_known=False ===
+  orig /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/Monitor/Resource/index.jsx
+  locals ['pages/clusters/containers/Monitor/Resource/routes.js']
+  unnamed_local ['pages/clusters/containers/Monitor/Resource/routes.js']
+  unique_kids ['module-3784.js'] [('module-3784.js', ['module-3783.js'])]
+  child_oimps [('pages/clusters/containers/Monitor/Resource.js', './routes')] unique_orig True
+  parent_kids_named [('module-36.js', []), ('module-37.js', []), ('module-55.js', []), ('module-56.js', []), ('module-51.js', []), ('module-553.js', []), ('module-239.js', []), ('module-317.js', ['utils/router.config.js']), ('module-3784.js', [])]
+  VERDICT ALIAS child_known False
+
+=== pages/clusters/containers/Monitor/Cluster.js named=pages/clusters/monitor-cluster.js->module-3751.js orig_known=False ===
+  orig /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/Monitor/Cluster/index.jsx
+  locals ['pages/clusters/containers/Monitor/Cluster/routes.js']
+  unnamed_local ['pages/clusters/containers/Monitor/Cluster/routes.js']
+  unique_kids ['module-3752.js'] [('module-3752.js', ['module-3751.js'])]
+  child_oimps [('pages/clusters/containers/Monitor/Cluster.js', './routes')] unique_orig True
+  parent_kids_named [('module-36.js', []), ('module-37.js', []), ('module-55.js', []), ('module-56.js', []), ('module-51.js', []), ('module-553.js', []), ('module-239.js', []), ('module-186.js', []), ('module-317.js', ['utils/router.config.js']), ('module-847.js', ['stores/monitoring/base.js']), ('module-3752.js', [])]
+  VERDICT ALIAS child_known False
+
+=== pages/clusters/containers/Storage/VolumeSnapshots.js named=pages/clusters/volume-snapshots.js->module-3712.js orig_known=False ===
+  orig /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/Storage/VolumeSnapshots/index.jsx
+  locals ['pages/clusters/containers/Storage/VolumeSnapshots/routes.js']
+  unnamed_local ['pages/clusters/containers/Storage/VolumeSnapshots/routes.js']
+  unique_kids ['module-3713.js'] [('module-3713.js', ['module-3712.js'])]
+  child_oimps [('pages/clusters/containers/Storage/VolumeSnapshots.js', './routes')] unique_orig True
+  parent_kids_named [('module-36.js', []), ('module-37.js', []), ('module-55.js', []), ('module-56.js', []), ('module-51.js', []), ('module-553.js', []), ('module-239.js', []), ('module-317.js', ['utils/router.config.js']), ('module-839.js', ['stores/volume.js']), ('module-3713.js', [])]
+  VERDICT ALIAS child_known False
+
+=== pages/clusters/containers/Storage/Volumes.js named=pages/clusters/volumes.js->module-3719.js orig_known=False ===
+  orig /home/bruce/code/ks-develop/kse-console-v3/src/pages/clusters/containers/Storage/Volumes/index.jsx
+  locals ['pages/clusters/containers/Storage/Volumes/routes.js']
+  unnamed_local ['pages/clusters/containers/Storage/Volumes/routes.js']
+  unique_kids ['module-3720.js'] [('module-3720.js', ['module-3719.js'])]
+  child_oimps [('pages/clusters/containers/Storage/Volumes.js', './routes')] unique_orig True
+  parent_kids_named [('module-36.js', []), ('module-37.js', []), ('module-55.js', []), ('module-56.js', []), ('module-51.js', []), ('module-553.js', []), ('module-239.js', []), ('module-317.js', ['utils/router.config.js']), ('module-908.js', ['stores/pv.js']), ('module-3720.js', [])]
+  VERDICT ALIAS child_known False
+
+=== pages/fedprojects/containers/Volumes/Detail.js named=pages/fedprojects/volumes/Detail.js->module-5023.js orig_known=False ===
+  orig /home/bruce/code/ks-develop/kse-console-v3/src/pages/fedprojects/containers/Volumes/Detail/index.jsx
+  locals ['pages/fedprojects/containers/Volumes/Detail/routes.js']
+  unnamed_local []
+  unique_kids [] []
+  child_oimps [('pages/fedprojects/containers/Volumes/Detail.js', './routes')] unique_orig True
+  parent_kids_named [('module-36.js', []), ('module-37.js', []), ('module-55.js', []), ('module-56.js', []), ('module-51.js', []), ('module-186.js', []), ('module-63.js', []), ('module-14.js', []), ('module-239.js', []), ('module-806.js', []), ('module-553.js', []), ('module-437.js', ['stores/federated.js'])]
+  VERDICT REJECT child_known True
+
+=== pages/projects/containers/Routes/Detail.js named=pages/projects/ingresses/Detail.js->module-1227.js orig_known=False ===
+  orig /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/Routes/Detail/index.jsx
+  locals ['pages/projects/containers/Routes/Detail/routes.js']
+  unnamed_local ['pages/projects/containers/Routes/Detail/routes.js']
+  unique_kids ['module-3882.js'] [('module-3882.js', ['module-1227.js'])]
+  child_oimps [('pages/projects/containers/Routes/Detail.js', './routes')] unique_orig True
+  parent_kids_named [('module-36.js', []), ('module-37.js', []), ('module-55.js', []), ('module-56.js', []), ('module-51.js', []), ('module-553.js', []), ('module-14.js', []), ('module-239.js', []), ('module-63.js', []), ('module-186.js', []), ('module-52.js', ['utils/index.js']), ('module-792.js', ['utils/action.js'])]
+  VERDICT ALIAS+CHILD module-3882.js
+
+=== pages/fedprojects/containers/Applications/Detail.js named=pages/fedprojects/applications/Detail.js->module-4976.js orig_known=False ===
+  orig /home/bruce/code/ks-develop/kse-console-v3/src/pages/fedprojects/containers/Applications/Detail/index.jsx
+  locals ['pages/fedprojects/containers/Applications/Detail/routes.js']
+  unnamed_local ['pages/fedprojects/containers/Applications/Detail/routes.js']
+  unique_kids ['module-4977.js'] [('module-4977.js', ['module-4976.js'])]
+  child_oimps [('pages/fedprojects/containers/Applications/Detail.js', './routes')] unique_orig True
+  parent_kids_named [('module-36.js', []), ('module-37.js', []), ('module-55.js', []), ('module-56.js', []), ('module-51.js', []), ('module-186.js', []), ('module-26.js', []), ('module-63.js', []), ('module-14.js', []), ('module-239.js', []), ('module-806.js', []), ('module-553.js', [])]
+  VERDICT ALIAS child_known False
+
+=== extra accepted ===
+    "pages/clusters/containers/Monitor/Resource.js": "module-3783.js",  # alias_parent:pages/clusters/monitor-resource.js
+    "pages/clusters/containers/Monitor/Resource/routes.js": "module-3784.js",  # imp:pages/clusters/monitor-resource.js
+    "pages/clusters/containers/Monitor/Cluster.js": "module-3751.js",  # alias_parent:pages/clusters/monitor-cluster.js
+    "pages/clusters/containers/Monitor/Cluster/routes.js": "module-3752.js",  # imp:pages/clusters/monitor-cluster.js
+    "pages/clusters/containers/Storage/VolumeSnapshots.js": "module-3712.js",  # alias_parent:pages/clusters/volume-snapshots.js
+    "pages/clusters/containers/Storage/VolumeSnapshots/routes.js": "module-3713.js",  # imp:pages/clusters/volume-snapshots.js
+    "pages/clusters/containers/Storage/Volumes.js": "module-3719.js",  # alias_parent:pages/clusters/volumes.js
+    "pages/clusters/containers/Storage/Volumes/routes.js": "module-3720.js",  # imp:pages/clusters/volumes.js
+    "pages/projects/containers/Routes/Detail.js": "module-1227.js",  # alias_parent:pages/projects/ingresses/Detail.js
+    "pages/projects/containers/Routes/Detail/routes.js": "module-3882.js",  # imp:pages/projects/ingresses/Detail.js
+    "pages/fedprojects/containers/Applications/Detail.js": "module-4976.js",  # alias_parent:pages/fedprojects/applications/Detail.js
+    "pages/fedprojects/containers/Applications/Detail/routes.js": "module-4977.js",  # imp:pages/fedprojects/applications/Detail.js

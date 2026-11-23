@@ -1,0 +1,172 @@
+{
+  "unique_forced": [
+    {
+      "method": "difference",
+      "module": "module-671.js",
+      "already": false,
+      "live": true
+    },
+    {
+      "method": "every",
+      "module": "module-187.js",
+      "already": true,
+      "live": false
+    },
+    {
+      "method": "filter",
+      "module": "module-11.js",
+      "already": true,
+      "live": false
+    },
+    {
+      "method": "intersection",
+      "module": "module-674.js",
+      "already": true,
+      "live": false
+    },
+    {
+      "method": "isDisjointFrom",
+      "module": "module-676.js",
+      "already": false,
+      "live": true
+    },
+    {
+      "method": "isSubsetOf",
+      "module": "module-678.js",
+      "already": false,
+      "live": true
+    },
+    {
+      "method": "isSupersetOf",
+      "module": "module-680.js",
+      "already": false,
+      "live": true
+    },
+    {
+      "method": "map",
+      "module": "module-18.js",
+      "already": true,
+      "live": false
+    },
+    {
+      "method": "some",
+      "module": "module-97.js",
+      "already": true,
+      "live": false
+    },
+    {
+      "method": "symmetricDifference",
+      "module": "module-682.js",
+      "already": false,
+      "live": true
+    },
+    {
+      "method": "union",
+      "module": "module-684.js",
+      "already": false,
+      "live": true
+    }
+  ],
+  "confirmed": [
+    {
+      "method": "difference",
+      "module": "module-671.js",
+      "already": false,
+      "live": true,
+      "target": "Set",
+      "npm": "core-js3/modules/esnext.set.difference.js",
+      "leftover_bytes": 288,
+      "npm_bytes": 519,
+      "leftover_head": "\"use strict\"; | const module8 = require(\"unpacked/module-8.js\").default; | const difference = require(\"unpacked/module-672.js\").default; | module8({ |     target: \"Set\", |     proto: true, |  ",
+      "npm_head": "'use strict'; | var $ = require('../internals/export'); | var call = require('../internals/function-call'); | var toSetLike = require('../internals/to-set-like'); | var $difference = requi",
+      "needs_shim": false,
+      "wrapper_side_effect": true
+    },
+    {
+      "method": "isDisjointFrom",
+      "module": "module-676.js",
+      "already": false,
+      "live": true,
+      "target": "Set",
+      "npm": "core-js3/modules/esnext.set.is-disjoint-from.js",
+      "leftover_bytes": 300,
+      "npm_bytes": 545,
+      "leftover_head": "\"use strict\"; | const module8 = require(\"unpacked/module-8.js\").default; | const isDisjointFrom = require(\"unpacked/module-677.js\").default; | module8({ |     target: \"Set\", |     proto: tru",
+      "npm_head": "'use strict'; | var $ = require('../internals/export'); | var call = require('../internals/function-call'); | var toSetLike = require('../internals/to-set-like'); | var $isDisjointFrom = r",
+      "needs_shim": false,
+      "wrapper_side_effect": true
+    },
+    {
+      "method": "isSubsetOf",
+      "module": "module-678.js",
+      "already": false,
+      "live": true,
+      "target": "Set",
+      "npm": "core-js3/modules/esnext.set.is-subset-of.js",
+      "leftover_bytes": 288,
+      "npm_bytes": 521,
+      "leftover_head": "\"use strict\"; | const module8 = require(\"unpacked/module-8.js\").default; | const isSubsetOf = require(\"unpacked/module-679.js\").default; | module8({ |     target: \"Set\", |     proto: true, |  ",
+      "npm_head": "'use strict'; | var $ = require('../internals/export'); | var call = require('../internals/function-call'); | var toSetLike = require('../internals/to-set-like'); | var $isSubsetOf = requi",
+      "needs_shim": false,
+      "wrapper_side_effect": true
+    },
+    {
+      "method": "isSupersetOf",
+      "module": "module-680.js",
+      "already": false,
+      "live": true,
+      "target": "Set",
+      "npm": "core-js3/modules/esnext.set.is-superset-of.js",
+      "leftover_bytes": 294,
+      "npm_bytes": 533,
+      "leftover_head": "\"use strict\"; | const module8 = require(\"unpacked/module-8.js\").default; | const isSupersetOf = require(\"unpacked/module-681.js\").default; | module8({ |     target: \"Set\", |     proto: true,",
+      "npm_head": "'use strict'; | var $ = require('../internals/export'); | var call = require('../internals/function-call'); | var toSetLike = require('../internals/to-set-like'); | var $isSupersetOf = req",
+      "needs_shim": false,
+      "wrapper_side_effect": true
+    },
+    {
+      "method": "symmetricDifference",
+      "module": "module-682.js",
+      "already": false,
+      "live": true,
+      "target": "Set",
+      "npm": "core-js3/modules/esnext.set.symmetric-difference.js",
+      "leftover_bytes": 315,
+      "npm_bytes": 574,
+      "leftover_head": "\"use strict\"; | const module8 = require(\"unpacked/module-8.js\").default; | const symmetricDifference = require(\"unpacked/module-683.js\").default; | module8({ |     target: \"Set\", |     proto",
+      "npm_head": "'use strict'; | var $ = require('../internals/export'); | var call = require('../internals/function-call'); | var toSetLike = require('../internals/to-set-like'); | var $symmetricDifferenc",
+      "needs_shim": false,
+      "wrapper_side_effect": true
+    },
+    {
+      "method": "union",
+      "module": "module-684.js",
+      "already": false,
+      "live": true,
+      "target": "Set",
+      "npm": "core-js3/modules/esnext.set.union.js",
+      "leftover_bytes": 273,
+      "npm_bytes": 489,
+      "leftover_head": "\"use strict\"; | const module8 = require(\"unpacked/module-8.js\").default; | const union = require(\"unpacked/module-685.js\").default; | module8({ |     target: \"Set\", |     proto: true, |     re",
+      "npm_head": "'use strict'; | var $ = require('../internals/export'); | var call = require('../internals/function-call'); | var toSetLike = require('../internals/to-set-like'); | var $union = require('.",
+      "needs_shim": false,
+      "wrapper_side_effect": true
+    }
+  ],
+  "rejected_forced": [],
+  "lodash_cands": [],
+  "vendor_cands": [
+    {
+      "module": "module-3158.js",
+      "ident": "safeLoad",
+      "npm": "js-yaml/lib/js-yaml/loader.js"
+    },
+    {
+      "module": "module-3019.js",
+      "ident": "withRouter",
+      "npm": "react-router/esm/withRouter.js"
+    }
+  ],
+  "str_unique": [],
+  "unique_long_count": 240
+}

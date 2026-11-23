@@ -1,0 +1,18 @@
+{
+  "applied": [
+    {
+      "module": "module-3133.js",
+      "orig": "pages/apps/components/ToggleView/index.js",
+      "kind": "body",
+      "lit": "hideBg"
+    },
+    {
+      "module": "module-815.js",
+      "orig": "core/containers/Base/Detail/Events/index.js",
+      "kind": "body",
+      "lit": "involvedObject.uid"
+    }
+  ],
+  "skipped": [],
+  "count": 2
+}

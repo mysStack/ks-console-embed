@@ -1,0 +1,580 @@
+{
+  "readers": [
+    {
+      "module": "module-1.js",
+      "already_shim": false,
+      "live": false,
+      "target": "",
+      "readers": [
+        {
+          "file": "unpacked/module-186.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-1503.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-313.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        }
+      ]
+    },
+    {
+      "module": "module-3.js",
+      "already_shim": false,
+      "live": false,
+      "target": "",
+      "readers": [
+        {
+          "file": "unpacked/module-186.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-1635.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "pages/edgewize/rule-group.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": true
+        },
+        {
+          "file": "pages/projects/alert-rules.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": true
+        }
+      ]
+    },
+    {
+      "module": "module-8.js",
+      "already_shim": true,
+      "live": false,
+      "target": "",
+      "readers": [
+        {
+          "file": "unpacked/module-200.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": true
+        },
+        {
+          "file": "unpacked/module-550.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-704.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": true
+        },
+        {
+          "file": "unpacked/module-706.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": true
+        },
+        {
+          "file": "unpacked/module-684.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-118.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": true
+        },
+        {
+          "file": "unpacked/module-10.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-680.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-1975.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-4830.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-813.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-932.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": true
+        }
+      ]
+    },
+    {
+      "module": "module-30.js",
+      "already_shim": true,
+      "live": false,
+      "target": "",
+      "readers": [
+        {
+          "file": "unpacked/module-1944.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-955.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": true
+        },
+        {
+          "file": "unpacked/module-955.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": true
+        },
+        {
+          "file": "unpacked/module-1136.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-1136.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-1236.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-1236.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-988.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-988.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-32.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": true
+        },
+        {
+          "file": "unpacked/module-3009.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": true
+        },
+        {
+          "file": "unpacked/module-3009.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": true
+        }
+      ]
+    },
+    {
+      "module": "module-46.js",
+      "already_shim": false,
+      "live": false,
+      "target": "core-js3/internals/to-string.js",
+      "readers": [
+        {
+          "file": "unpacked/module-64.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        }
+      ]
+    },
+    {
+      "module": "module-117.js",
+      "already_shim": false,
+      "live": false,
+      "target": "core-js3/internals/engine-user-agent.js",
+      "readers": [
+        {
+          "file": "unpacked/module-504.js",
+          "kind": "require.default",
+          "props": [
+            "match"
+          ],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-506.js",
+          "kind": "require.default",
+          "props": [
+            "match"
+          ],
+          "live_reader": false
+        }
+      ]
+    },
+    {
+      "module": "module-129.js",
+      "already_shim": false,
+      "live": false,
+      "target": "",
+      "readers": [
+        {
+          "file": "unpacked/module-639.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-517.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-294.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": true
+        },
+        {
+          "file": "unpacked/module-638.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-404.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": true
+        },
+        {
+          "file": "unpacked/module-231.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": true
+        }
+      ]
+    },
+    {
+      "module": "module-222.js",
+      "already_shim": true,
+      "live": false,
+      "target": "",
+      "readers": [
+        {
+          "file": "unpacked/module-536.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        }
+      ]
+    },
+    {
+      "module": "module-227.js",
+      "already_shim": false,
+      "live": false,
+      "target": "core-js3/internals/regexp-exec-abstract.js",
+      "readers": [
+        {
+          "file": "unpacked/module-64.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        }
+      ]
+    },
+    {
+      "module": "module-244.js",
+      "already_shim": false,
+      "live": false,
+      "target": "",
+      "readers": [
+        {
+          "file": "stores/root.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": true
+        },
+        {
+          "file": "stores/logging/query.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": true
+        }
+      ]
+    },
+    {
+      "module": "module-263.js",
+      "already_shim": false,
+      "live": false,
+      "target": "core-js3/internals/does-not-exceed-safe-integer.js",
+      "readers": [
+        {
+          "file": "unpacked/module-192.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-28.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        }
+      ]
+    },
+    {
+      "module": "module-283.js",
+      "already_shim": true,
+      "live": false,
+      "target": "",
+      "readers": [
+        {
+          "file": "unpacked/module-114.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": true
+        },
+        {
+          "file": "unpacked/module-150.js",
+          "kind": "require.default",
+          "props": [
+            "concat"
+          ],
+          "live_reader": true
+        }
+      ]
+    },
+    {
+      "module": "module-311.js",
+      "already_shim": false,
+      "live": false,
+      "target": "",
+      "readers": [
+        {
+          "file": "unpacked/module-186.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        }
+      ]
+    },
+    {
+      "module": "module-353.js",
+      "already_shim": false,
+      "live": false,
+      "target": "core-js3/internals/array-set-length.js",
+      "readers": [
+        {
+          "file": "unpacked/module-192.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-28.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        }
+      ]
+    },
+    {
+      "module": "module-376.js",
+      "already_shim": true,
+      "live": false,
+      "target": "",
+      "readers": [
+        {
+          "file": "unpacked/module-114.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": true
+        }
+      ]
+    },
+    {
+      "module": "module-419.js",
+      "already_shim": true,
+      "live": false,
+      "target": "",
+      "readers": [
+        {
+          "file": "unpacked/module-666.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-670.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        }
+      ]
+    },
+    {
+      "module": "module-421.js",
+      "already_shim": true,
+      "live": false,
+      "target": "",
+      "readers": [
+        {
+          "file": "unpacked/module-666.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        },
+        {
+          "file": "unpacked/module-670.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        }
+      ]
+    },
+    {
+      "module": "module-1387.js",
+      "already_shim": false,
+      "live": false,
+      "target": "",
+      "readers": [
+        {
+          "file": "stores/auditing.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": true
+        },
+        {
+          "file": "stores/eventSearch.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": true
+        },
+        {
+          "file": "stores/logging/query.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": true
+        }
+      ]
+    },
+    {
+      "module": "module-2343.js",
+      "already_shim": false,
+      "live": false,
+      "target": "",
+      "readers": [
+        {
+          "file": "unpacked/module-2342.js",
+          "kind": "require.default",
+          "props": [],
+          "live_reader": false
+        }
+      ]
+    }
+  ],
+  "unique_needles": [
+    {
+      "needle": "firefox\\/(\\d+)",
+      "leftover": "module-504.js",
+      "npm": "core-js3/internals/engine-ff-version.js",
+      "live": false,
+      "already": true
+    },
+    {
+      "needle": "AppleWebKit\\/(\\d+)",
+      "leftover": "module-506.js",
+      "npm": "core-js3/internals/engine-webkit-version.js",
+      "live": false,
+      "already": true
+    },
+    {
+      "needle": "MSIE|Trident",
+      "leftover": "module-505.js",
+      "npm": "core-js3/internals/engine-is-ie-or-edge.js",
+      "live": false,
+      "already": false
+    },
+    {
+      "needle": "Chrome\\/(\\d+)",
+      "leftover": "module-146.js",
+      "npm": "core-js3/internals/engine-v8-version.js",
+      "live": false,
+      "already": false
+    },
+    {
+      "needle": "Edge\\/(\\d+)",
+      "leftover": "module-146.js",
+      "npm": "core-js3/internals/engine-v8-version.js",
+      "live": false,
+      "already": false
+    },
+    {
+      "needle": "Reduce of empty array with no initial value",
+      "leftover": "module-487.js",
+      "npm": "core-js3/internals/array-reduce.js",
+      "live": false,
+      "already": false
+    },
+    {
+      "needle": "called on incompatible receiver",
+      "leftover": "module-227.js",
+      "npm": "core-js3/internals/regexp-exec-abstract.js",
+      "live": false,
+      "already": true
+    },
+    {
+      "needle": "string-to-symbol-registry",
+      "leftover": "module-586.js",
+      "npm": "core-js3/modules/es.symbol.for.js",
+      "live": false,
+      "already": true
+    }
+  ]
+}

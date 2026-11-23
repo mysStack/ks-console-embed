@@ -1,0 +1,12 @@
+{
+  "applied": [
+    {
+      "module": "module-4896.js",
+      "orig": "pages/projects/containers/ImageBuilder/Detail/BuildRecords/index.js",
+      "kind": "body",
+      "lit": "LAST_BUILD_ENVIRONMENT"
+    }
+  ],
+  "skipped": [],
+  "count": 1
+}

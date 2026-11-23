@@ -1,0 +1,35 @@
+{
+  "counts": {
+    "unpacked_module_files": 5760,
+    "live_leftover": 4120,
+    "stub_linked": 1640,
+    "promoted_readable_js": 1744,
+    "orig_unpromoted_not_skip_notest": 291,
+    "vendor_alias_ids": 221,
+    "duplicate_groups": 22,
+    "live_by_status": {
+      "unnameable": 2711,
+      "vendor": 231,
+      "babel-helper": 18,
+      "css-empty": 1077,
+      "duplicate": 47,
+      "skip": 36
+    },
+    "stub_by_status": {
+      "stub-linked": 1640
+    },
+    "orig306_by_status": {
+      "0-hit": 145,
+      "extra-path-covered": 65,
+      "unnameable-orig": 64,
+      "unique-evidence-unpinned": 17
+    }
+  },
+  "intersection_note": "live_leftover, stub_linked, promoted_readable_js, orig_unpromoted are four different sets. Do not add them. stub_linked files live in unpacked/ and re-export dest files already counted in promoted_readable_js. orig_unpromoted is orig git paths without same-suffix dest, not leftover module-N.js.",
+  "unique_importer_conclusion": "Current unique t()/importer 1:1 yield is exhausted for remaining live leftovers. New pins require extra-path unique body evidence only; this audit did not create pins.",
+  "8099": "not modified",
+  "git": "no commit/push",
+  "business_leftover_count": 0,
+  "unnameable_count": 2711,
+  "business_leftover_recategorized": 550
+}

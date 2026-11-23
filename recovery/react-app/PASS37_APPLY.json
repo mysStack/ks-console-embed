@@ -1,0 +1,30 @@
+{
+  "applied": [
+    {
+      "module": "module-1389.js",
+      "orig": "components/Modals/Bill/components/BillIcon/index.js",
+      "kind": "body",
+      "lit": "openpitrixs"
+    },
+    {
+      "module": "module-1095.js",
+      "orig": "stores/limitrange.js",
+      "kind": "body",
+      "lit": "fetchListByK8s"
+    },
+    {
+      "module": "module-4276.js",
+      "orig": "pages/clusters/containers/Gateway/Components/Pods/Item.js",
+      "kind": "body",
+      "lit": "hideterminal"
+    },
+    {
+      "module": "module-4275.js",
+      "orig": "pages/clusters/containers/Gateway/Components/Pods/index.js",
+      "kind": "body",
+      "lit": "ingress_request_cpu_usage"
+    }
+  ],
+  "skipped": [],
+  "count": 4
+}

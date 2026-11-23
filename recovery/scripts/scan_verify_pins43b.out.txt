@@ -1,0 +1,183 @@
+=== indexing ===
+
+=== ROUTE unique importer ===
+
+=== pages/projects/containers/Deployments/Detail/routes.js -> module-3834.js parent=pages/projects/deployments/Detail.js ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/Deployments/Detail/routes.js
+  parent_mod module-1216.js expected False
+  named []
+  t []
+  importers [('module-1216.js', ['pages/projects/deployments/Detail.js'])]
+  head 'export default function(path) {     return [         {             path: `${path}/resource-status`,             title: "RESOURCE_STATUS",             component:'
+  unique_named_importer True looks_routes True detail_index /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/Deployments/Detail/index.jsx has_./routes True mod_in_known False
+  VERDICT NEW
+
+=== pages/projects/containers/StatefulSets/Detail/routes.js -> module-3863.js parent=pages/projects/statefulsets/Detail.js ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/StatefulSets/Detail/routes.js
+  parent_mod module-1402.js expected False
+  named []
+  t []
+  importers [('module-1402.js', ['pages/projects/statefulsets/Detail.js'])]
+  head 'export default function(path) {     return [         {             path: `${path}/resource-status`,             title: "RESOURCE_STATUS",             component:'
+  unique_named_importer True looks_routes True detail_index /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/StatefulSets/Detail/index.jsx has_./routes True mod_in_known False
+  VERDICT NEW
+
+=== pages/projects/containers/DaemonSets/Detail/routes.js -> module-3864.js parent=pages/projects/daemonsets/Detail.js ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/DaemonSets/Detail/routes.js
+  parent_mod module-1221.js expected False
+  named []
+  t []
+  importers [('module-1221.js', ['pages/projects/daemonsets/Detail.js'])]
+  head 'export default function(path) {     return [         {             path: `${path}/resource-status`,             title: "RESOURCE_STATUS",             component:'
+  unique_named_importer True looks_routes True detail_index /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/DaemonSets/Detail/index.jsx has_./routes True mod_in_known False
+  VERDICT NEW
+
+=== pages/projects/containers/Jobs/Detail/routes.js -> module-3867.js parent=pages/projects/jobs/Detail.js ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/Jobs/Detail/routes.js
+  parent_mod module-1222.js expected False
+  named []
+  t []
+  importers [('module-1222.js', ['pages/projects/jobs/Detail.js'])]
+  head 'export default function(path) {     return [         {             path: `${path}/records`,             title: "RUN_RECORDS",             component: module3869,'
+  unique_named_importer True looks_routes True detail_index /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/Jobs/Detail/index.jsx has_./routes True mod_in_known False
+  VERDICT NEW
+
+=== pages/projects/containers/CronJobs/Detail/routes.js -> module-3871.js parent=pages/projects/cronjobs/Detail.js ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/CronJobs/Detail/routes.js
+  parent_mod module-1224.js expected False
+  named []
+  t []
+  importers [('module-1224.js', ['pages/projects/cronjobs/Detail.js'])]
+  head 'export default function(path) {     return [         {             path: `${path}/records`,             title: "RUN_RECORDS",             component: module3872,'
+  unique_named_importer True looks_routes True detail_index /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/CronJobs/Detail/index.jsx has_./routes True mod_in_known False
+  VERDICT NEW
+
+=== pages/projects/containers/ConfigMaps/Detail/routes.js -> module-3889.js parent=pages/projects/configmaps/Detail.js ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/ConfigMaps/Detail/routes.js
+  parent_mod module-1405.js expected False
+  named []
+  t []
+  importers [('module-1405.js', ['pages/projects/configmaps/Detail.js'])]
+  head 'export default function(path) {     return [         {             path: `${path}/detail`,             title: "DATA",             component,             exact: '
+  unique_named_importer True looks_routes True detail_index /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/ConfigMaps/Detail/index.jsx has_./routes True mod_in_known False
+  VERDICT NEW
+
+=== pages/projects/containers/Secrets/Detail/routes.js -> module-3886.js parent=pages/projects/secrets/Detail.js ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/Secrets/Detail/routes.js
+  parent_mod module-1404.js expected False
+  named []
+  t []
+  importers [('module-1404.js', ['pages/projects/secrets/Detail.js'])]
+  head 'export default function(path) {     return [         {             path: `${path}/detail`,             title: "DATA",             component,             exact: '
+  unique_named_importer True looks_routes True detail_index /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/Secrets/Detail/index.jsx has_./routes True mod_in_known False
+  VERDICT NEW
+
+=== pages/projects/containers/ServiceAccounts/Detail/routes.js -> module-3893.js parent=pages/projects/serviceaccounts/Detail.js ===
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/ServiceAccounts/Detail/routes.js
+  parent_mod module-1406.js expected False
+  named []
+  t []
+  importers [('module-1406.js', ['pages/projects/serviceaccounts/Detail.js', 'pages/projects/containers/ServiceAccounts/Detail.js'])]
+  head 'export default function(path) {     return [         {             path: `${path}/detail`,             title: "DATA",             component,             exact: '
+  unique_named_importer True looks_routes True detail_index /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/ServiceAccounts/Detail/index.jsx has_./routes True mod_in_known False
+  VERDICT NEW
+
+=== pages/projects/containers/Ingresses/Detail/routes.js -> module-3882.js parent=pages/projects/ingresses/Detail.js ===
+  orig_exists False None
+  parent_mod module-1227.js expected False
+  named []
+  t []
+  importers [('module-1227.js', ['pages/projects/ingresses/Detail.js'])]
+  head 'export default function(path) {     return [         {             path: `${path}/resource-status`,             title: "RESOURCE_STATUS",             component:'
+  unique_named_importer True looks_routes True detail_index None has_./routes False mod_in_known False
+  VERDICT REJECT
+
+=== Detail.js path aliases ===
+
+=== pages/projects/containers/Deployments/Detail.js -> module-1216.js orig=True existing=['pages/projects/deployments/Detail.js'] ===
+  VERDICT ALIAS
+
+=== pages/projects/containers/StatefulSets/Detail.js -> module-1402.js orig=True existing=['pages/projects/statefulsets/Detail.js'] ===
+  VERDICT ALIAS
+
+=== pages/projects/containers/DaemonSets/Detail.js -> module-1221.js orig=True existing=['pages/projects/daemonsets/Detail.js'] ===
+  VERDICT ALIAS
+
+=== pages/projects/containers/Jobs/Detail.js -> module-1222.js orig=True existing=['pages/projects/jobs/Detail.js'] ===
+  VERDICT ALIAS
+
+=== pages/projects/containers/CronJobs/Detail.js -> module-1224.js orig=True existing=['pages/projects/cronjobs/Detail.js'] ===
+  VERDICT ALIAS
+
+=== pages/projects/containers/ConfigMaps/Detail.js -> module-1405.js orig=True existing=['pages/projects/configmaps/Detail.js'] ===
+  VERDICT ALIAS
+
+=== pages/projects/containers/Secrets/Detail.js -> module-1404.js orig=True existing=['pages/projects/secrets/Detail.js'] ===
+  VERDICT ALIAS
+
+=== pages/projects/containers/Ingresses/Detail.js -> module-1227.js orig=False existing=['pages/projects/ingresses/Detail.js'] ===
+  VERDICT REJECT
+
+=== unique t/str leftovers ===
+
+=== pages/projects/containers/CronJobs/Detail/JobRecords.js -> module-3872.js [t 'JOB'] ===
+  orig_exists True
+  orig_hits ['pages/projects/containers/CronJobs/Detail/JobRecords.js']
+  unpacked ['module-3872.js'] unnamed ['module-3872.js'] named []
+  named []
+  t ['rootStore', 'JOB', 'STATUS', 'START_TIME', 'YYYY-MM-DD HH:mm:ss', 'END_TIME', 'RUN_RECORDS']
+  importers [('module-3871.js', ['?'])]
+  head 'export default R; const w = R; export { w as Component }; '
+  VERDICT NEW ok_orig True unique_unp True
+
+=== pages/projects/containers/Pods/Detail/Monitoring.js -> module-1829.js [str 'OUTBOUND'] ===
+  orig_exists True
+  orig_hits ['pages/projects/containers/Pods/Detail/Monitoring.js']
+  unpacked ['module-1829.js'] unnamed ['module-1829.js'] named []
+  named []
+  t ['rootStore']
+  importers [('module-3896.js', ['pages/projects/containers/Pods/Detail/routes.js']), ('module-3906.js', ['pages/projects/containers/Pods/Containers/Monitoring.js'])]
+  head 'export default N; const T = k; export { T as Component }; '
+  VERDICT NEW ok_orig True unique_unp True
+
+=== pages/projects/containers/Pods/Detail/Monitoring.js -> module-1829.js [str 'INBOUND'] ===
+  orig_exists True
+  orig_hits ['pages/projects/containers/Pods/Detail/Monitoring.js']
+  unpacked ['module-1829.js'] unnamed ['module-1829.js'] named []
+  named []
+  t ['rootStore']
+  importers [('module-3896.js', ['pages/projects/containers/Pods/Detail/routes.js']), ('module-3906.js', ['pages/projects/containers/Pods/Containers/Monitoring.js'])]
+  head 'export default N; const T = k; export { T as Component }; '
+  VERDICT NEW ok_orig True unique_unp True
+
+=== extra Jobs unique kid 3866 ===
+  named []
+  t []
+  importers [('module-1222.js', ['pages/projects/jobs/Detail.js'])]
+  head 'export default i; '
+
+=== extra SA unique kid 3892 ===
+  named []
+  t []
+  importers [('module-1406.js', ['pages/projects/serviceaccounts/Detail.js', 'pages/projects/containers/ServiceAccounts/Detail.js'])]
+  head 'export default i; '
+
+=== ACCEPTED ===
+    "pages/projects/containers/Deployments/Detail/routes.js": "module-3834.js",  # imp routes
+    "pages/projects/containers/StatefulSets/Detail/routes.js": "module-3863.js",  # imp routes
+    "pages/projects/containers/DaemonSets/Detail/routes.js": "module-3864.js",  # imp routes
+    "pages/projects/containers/Jobs/Detail/routes.js": "module-3867.js",  # imp routes
+    "pages/projects/containers/CronJobs/Detail/routes.js": "module-3871.js",  # imp routes
+    "pages/projects/containers/ConfigMaps/Detail/routes.js": "module-3889.js",  # imp routes
+    "pages/projects/containers/Secrets/Detail/routes.js": "module-3886.js",  # imp routes
+    "pages/projects/containers/ServiceAccounts/Detail/routes.js": "module-3893.js",  # imp routes
+    "pages/projects/containers/Deployments/Detail.js": "module-1216.js",  # alias containers Detail
+    "pages/projects/containers/StatefulSets/Detail.js": "module-1402.js",  # alias containers Detail
+    "pages/projects/containers/DaemonSets/Detail.js": "module-1221.js",  # alias containers Detail
+    "pages/projects/containers/Jobs/Detail.js": "module-1222.js",  # alias containers Detail
+    "pages/projects/containers/CronJobs/Detail.js": "module-1224.js",  # alias containers Detail
+    "pages/projects/containers/ConfigMaps/Detail.js": "module-1405.js",  # alias containers Detail
+    "pages/projects/containers/Secrets/Detail.js": "module-1404.js",  # alias containers Detail
+    "pages/projects/containers/CronJobs/Detail/JobRecords.js": "module-3872.js",  # t JOB
+    "pages/projects/containers/Pods/Detail/Monitoring.js": "module-1829.js",  # str OUTBOUND
+accepted_count 17

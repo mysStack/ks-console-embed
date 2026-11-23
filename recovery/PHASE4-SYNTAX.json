@@ -1,0 +1,389 @@
+{
+  "dest_readable_js": {
+    "total": 1744,
+    "buckets": {
+      "esm": 1698,
+      "cjs": 45,
+      "mixed_esm_cjs": 1
+    },
+    "webpack_runtime_files": 0,
+    "numeric_require_files": 0,
+    "mixed_esm_cjs": 1,
+    "samples": {
+      "esm": [
+        {
+          "file": "pages/login.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 0,
+          "esm": true,
+          "cjs": false
+        },
+        {
+          "file": "pages/clusters/secrets.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 0,
+          "esm": true,
+          "cjs": false
+        },
+        {
+          "file": "pages/clusters/volumes.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 0,
+          "esm": true,
+          "cjs": false
+        },
+        {
+          "file": "pages/clusters/networkpolicies.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 0,
+          "esm": true,
+          "cjs": false
+        },
+        {
+          "file": "pages/clusters/routes.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 1,
+          "esm": true,
+          "cjs": false
+        }
+      ],
+      "cjs": [
+        {
+          "file": "pages/edgewize/rule-group.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 79,
+          "esm": false,
+          "cjs": true
+        },
+        {
+          "file": "pages/projects/edgeappsets.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 58,
+          "esm": false,
+          "cjs": true
+        },
+        {
+          "file": "pages/projects/alert-rules.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 79,
+          "esm": false,
+          "cjs": true
+        },
+        {
+          "file": "pages/projects/custom-scaling.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 60,
+          "esm": false,
+          "cjs": true
+        },
+        {
+          "file": "pages/projects/containers/Alerting/Policies/index.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 75,
+          "esm": false,
+          "cjs": true
+        }
+      ],
+      "mixed_esm_cjs": [
+        {
+          "file": "utils/babel-helpers/get.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 0,
+          "esm": true,
+          "cjs": true
+        }
+      ]
+    }
+  },
+  "unpacked_live_leftover": {
+    "total": 4120,
+    "buckets": {
+      "esm": 3885,
+      "cjs": 157,
+      "other": 65,
+      "webpack_runtime": 4,
+      "mixed_esm_cjs": 9
+    },
+    "webpack_runtime_files": 4,
+    "numeric_require_files": 0,
+    "mixed_esm_cjs": 9,
+    "samples": {
+      "esm": [
+        {
+          "file": "unpacked/module-3534.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 0,
+          "esm": true,
+          "cjs": false
+        },
+        {
+          "file": "unpacked/module-4843.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 0,
+          "esm": true,
+          "cjs": false
+        },
+        {
+          "file": "unpacked/module-5349.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 0,
+          "esm": true,
+          "cjs": false
+        },
+        {
+          "file": "unpacked/module-2163.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 0,
+          "esm": true,
+          "cjs": false
+        },
+        {
+          "file": "unpacked/module-4155.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 0,
+          "esm": true,
+          "cjs": false
+        }
+      ],
+      "cjs": [
+        {
+          "file": "unpacked/module-1643.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 1,
+          "esm": false,
+          "cjs": true
+        },
+        {
+          "file": "unpacked/module-2342.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 1,
+          "esm": false,
+          "cjs": true
+        },
+        {
+          "file": "unpacked/module-331.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 2,
+          "esm": false,
+          "cjs": true
+        },
+        {
+          "file": "unpacked/module-4142.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 39,
+          "esm": false,
+          "cjs": true
+        },
+        {
+          "file": "unpacked/module-1500.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 2,
+          "esm": false,
+          "cjs": true
+        }
+      ],
+      "other": [
+        {
+          "file": "unpacked/module-210.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 1,
+          "esm": false,
+          "cjs": false
+        },
+        {
+          "file": "unpacked/module-200.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 3,
+          "esm": false,
+          "cjs": false
+        },
+        {
+          "file": "unpacked/module-4470.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 2,
+          "esm": false,
+          "cjs": false
+        },
+        {
+          "file": "unpacked/module-560.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 0,
+          "esm": false,
+          "cjs": false
+        },
+        {
+          "file": "unpacked/module-550.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 3,
+          "esm": false,
+          "cjs": false
+        }
+      ],
+      "webpack_runtime": [
+        {
+          "file": "unpacked/module-95.js",
+          "markers": [
+            "require.d("
+          ],
+          "require_numeric": 0,
+          "require_string": 2,
+          "esm": false,
+          "cjs": false
+        },
+        {
+          "file": "unpacked/module-14.js",
+          "markers": [
+            "require.d(",
+            "require.r("
+          ],
+          "require_numeric": 0,
+          "require_string": 2,
+          "esm": false,
+          "cjs": false
+        },
+        {
+          "file": "unpacked/module-1514.js",
+          "markers": [
+            "require.r("
+          ],
+          "require_numeric": 0,
+          "require_string": 1,
+          "esm": false,
+          "cjs": true
+        },
+        {
+          "file": "unpacked/module-3473.js",
+          "markers": [
+            "require.d("
+          ],
+          "require_numeric": 0,
+          "require_string": 1,
+          "esm": false,
+          "cjs": false
+        }
+      ],
+      "mixed_esm_cjs": [
+        {
+          "file": "unpacked/module-246.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 0,
+          "esm": true,
+          "cjs": true
+        },
+        {
+          "file": "unpacked/module-1021.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 0,
+          "esm": true,
+          "cjs": true
+        },
+        {
+          "file": "unpacked/module-4804.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 0,
+          "esm": true,
+          "cjs": true
+        },
+        {
+          "file": "unpacked/module-3415.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 0,
+          "esm": true,
+          "cjs": true
+        },
+        {
+          "file": "unpacked/module-51.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 0,
+          "esm": true,
+          "cjs": true
+        }
+      ]
+    }
+  },
+  "unpacked_stubs": {
+    "total": 1640,
+    "buckets": {
+      "esm": 1640
+    },
+    "webpack_runtime_files": 0,
+    "numeric_require_files": 0,
+    "mixed_esm_cjs": 0,
+    "samples": {
+      "esm": [
+        {
+          "file": "unpacked/module-2442.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 0,
+          "esm": true,
+          "cjs": false
+        },
+        {
+          "file": "unpacked/module-4625.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 0,
+          "esm": true,
+          "cjs": false
+        },
+        {
+          "file": "unpacked/module-4444.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 0,
+          "esm": true,
+          "cjs": false
+        },
+        {
+          "file": "unpacked/module-2955.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 0,
+          "esm": true,
+          "cjs": false
+        },
+        {
+          "file": "unpacked/module-4553.js",
+          "markers": [],
+          "require_numeric": 0,
+          "require_string": 0,
+          "esm": true,
+          "cjs": false
+        }
+      ]
+    }
+  },
+  "note": "dest = uniquely-named business JS under pages/core/components/stores/actions/utils/configs/dmp. leftover = still module-N.js. stubs re-export dest paths."
+}

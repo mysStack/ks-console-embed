@@ -1,0 +1,82 @@
+{
+  "corejs3_internal_pins": [
+    {
+      "module": "module-46.js",
+      "corejs": "core-js3/internals/to-string.js",
+      "via": "Cannot convert a Symbol value to a string"
+    },
+    {
+      "module": "module-390.js",
+      "corejs": "core-js3/internals/regexp-unsupported-ncg.js",
+      "via": "(?<a>b)"
+    },
+    {
+      "module": "module-117.js",
+      "corejs": "core-js3/internals/engine-user-agent.js",
+      "via": "String(navigator.userAgent)"
+    },
+    {
+      "module": "module-168.js",
+      "corejs": "core-js3/internals/new-promise-capability.js",
+      "via": "Bad Promise constructor"
+    },
+    {
+      "module": "module-353.js",
+      "corejs": "core-js3/internals/array-set-length.js",
+      "via": "Cannot set read only .length"
+    },
+    {
+      "module": "module-328.js",
+      "corejs": "core-js3/internals/validate-arguments-length.js",
+      "via": "Not enough arguments"
+    },
+    {
+      "module": "module-552.js",
+      "corejs": "core-js3/modules/web.self.js",
+      "via": "Illegal invocation"
+    },
+    {
+      "module": "module-280.js",
+      "corejs": "core-js3/internals/shared-store.js",
+      "via": "version: \"3.37.0\""
+    },
+    {
+      "module": "module-540.js",
+      "corejs": "core-js3/modules/es.promise.constructor.js",
+      "via": "Promise can't be resolved itself"
+    }
+  ],
+  "skipped_orig": "0 unique orig 1-hit with unmapped path",
+  "skipped_babel": "2-hit helpers remain module-N.js",
+  "skipped_lodash": "2-hit copies remain module-N.js",
+  "skipped_cron_parser": "module-747 unique cron errors; cron-parser not in node_modules",
+  "skipped_pins": [
+    {
+      "module": "module-254.js",
+      "spec": "core-js3/internals/an-instance.js",
+      "reason": "not_1hit",
+      "hits": [
+        "module-254.js",
+        "module-812.js"
+      ]
+    },
+    {
+      "module": "module-70.js",
+      "spec": "core-js3/internals/object-define-property.js",
+      "reason": "not_1hit",
+      "hits": [
+        "module-70.js",
+        "module-1420.js"
+      ]
+    },
+    {
+      "module": "module-132.js",
+      "spec": "core-js3/internals/get-set-record.js",
+      "reason": "not_1hit",
+      "hits": [
+        "module-5775.js",
+        "module-132.js"
+      ]
+    }
+  ]
+}

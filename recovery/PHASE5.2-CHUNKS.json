@@ -1,0 +1,261 @@
+{
+  "info": {
+    "path": "/workspaces/dev-workspace/overview",
+    "htmlLen": 0,
+    "text": "",
+    "user": true
+  },
+  "js": [
+    {
+      "path": "/app.4c700f41.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/5037.app.66073087.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/6857.app.1c809e54.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/dist/v3dist/locale-zh.4dcfc8f8663252717a8c.json",
+      "http": 200,
+      "type": "application/json"
+    },
+    {
+      "path": "/2922.app.3428fc05.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/6354.app.176e76c4.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/339.app.790ac7be.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/7411.app.6af279ec.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/6986.app.c31be9e8.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/1106.app.fb6f61af.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/8995.app.7c3f4be1.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/4195.app.d383961b.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/7820.app.c816ae86.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/88.app.47b90cee.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/9803.app.c4f8bbaf.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/53.app.62e09a5f.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/9178.app.81cf5e6e.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/255.app.4cf61014.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/70.app.25c7c5dc.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/5880.app.c9b7e875.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/843.app.50400246.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/3889.app.b7b68ab0.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/1999.app.06af01db.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/1627.app.b26ca289.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/5561.app.6d27d66d.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/7234.app.3e9aad17.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/7962.app.b5027084.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/9900.app.d23c36b5.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/7270.app.82a4a889.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/6190.app.0595ac38.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/5668.app.319a33be.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/6026.app.88efaa28.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/5907.app.1ab81f89.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/8966.app.d22874e1.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/8708.app.d872cd45.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/8517.app.2c64ea7a.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/7394.app.4bcae226.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/1911.app.c6540751.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/6175.app.8e1786d0.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/7730.app.2e27dd38.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/3740.app.d7ec8746.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/3533.app.f2155a6e.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/697.app.8faf9200.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/6144.app.e5b857ea.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/301.app.05b09e92.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/209.app.3322cbcb.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/264.app.3e27fe0a.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/6357.app.9803cfbd.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/1401.app.6527d495.js",
+      "http": 200,
+      "type": "text/javascript"
+    },
+    {
+      "path": "/1836.app.4a6badda.js",
+      "http": 200,
+      "type": "text/javascript"
+    }
+  ],
+  "bad": []
+}

@@ -1,0 +1,18 @@
+{
+  "applied": [
+    {
+      "module": "module-1135.js",
+      "orig": "components/Cards/Monitoring/MonitorTab/index.js",
+      "kind": "body",
+      "lit": "tabHeaderItem+getLastValue"
+    },
+    {
+      "module": "module-1087.js",
+      "orig": "components/Charts/Custom/Legend/index.js",
+      "kind": "body",
+      "lit": "activeSeries+payload.stroke"
+    }
+  ],
+  "skipped": [],
+  "count": 2
+}

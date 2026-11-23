@@ -1,0 +1,24 @@
+{
+  "applied": [
+    {
+      "module": "module-2400.js",
+      "orig": "components/Base/Upload/utils/attr-accept.js",
+      "kind": "mime_glob",
+      "lit": "/\\/\\*$/"
+    },
+    {
+      "module": "module-2401.js",
+      "orig": "components/Base/Upload/utils/traverseFileTree.js",
+      "kind": "needle",
+      "lit": "readEntries"
+    },
+    {
+      "module": "module-1375.js",
+      "orig": "pages/devops/components/Pipeline/Card/detail.js",
+      "kind": "needle",
+      "lit": "credentialsId"
+    }
+  ],
+  "skipped": [],
+  "count": 3
+}

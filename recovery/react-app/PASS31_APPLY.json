@@ -1,0 +1,12 @@
+{
+  "applied": [
+    {
+      "module": "module-1634.js",
+      "orig": "components/Modals/CustomMonitoring/options.js",
+      "kind": "body",
+      "lit": "recentTimeRange"
+    }
+  ],
+  "skipped": [],
+  "count": 1
+}

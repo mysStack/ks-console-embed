@@ -1,0 +1,17 @@
+{
+  "path": "/workspaces/dev-workspace/overview",
+  "finalChildren": 0,
+  "finalHtml": 0,
+  "obs": {
+    "childMax": 2,
+    "htmlMax": 1548,
+    "errors": [
+      "TypeError: Cannot set property loaded of #<Object> which has only a getter"
+    ],
+    "rejects": [
+      "TypeError: Cannot set property loaded of #<Object> which has only a getter\n    at s (http://127.0.0.1:8108/app.4c700f41.js:1:19211)\n    at ./appedgetemplate.js (http://127.0.0.1:8108/1836.app.4a6badda.js:1:1440066)\n    at o (http://127.0.0.1:8108/1836.app.4a6badda.js:1:1441671)\n    at o (http://127.0.0.1:8108/app.4c700f41.js:1:1908)\n    at 400883 (http://127.0.0.1:8108/1836.app.4a6badda.js:1:2070391)\n    at s (http://127.0.0.1:8108/app.4c700f41.js:1:19173)\n    at http://127.0.0.1:8108/5037.app.6"
+    ]
+  },
+  "user": true,
+  "hasApp": true
+}

@@ -1,0 +1,43 @@
+{
+  "identity": {
+    "hasUser": true,
+    "fakeRecovered": false
+  },
+  "overview": {
+    "dep": 7,
+    "hasNav": true,
+    "hasSelector": true,
+    "htmlLen": 14121
+  },
+  "list": {
+    "total": 7
+  },
+  "selectorClicked": {
+    "ok": true
+  },
+  "detail": {
+    "path": "/dev-workspace/clusters/default/projects/<ns>/deployments/<name>/resource-status",
+    "onDetail": true,
+    "podTotal": 1,
+    "hasEmpty": false,
+    "htmlLen": 11845,
+    "textHead": "部署 web-matrix 编辑信息 更多操作 回退 编辑设置 编辑 YAML 重新创建 删除 属性 集群: default 项目: dev-ewms-web 应用: web-matrix 创建时间: 2026-10-21 14:07:45 更新时间: 2026-11-03 17:37:02 创建者: 资源状态 修改记"
+  },
+  "podApis": [
+    {
+      "http": 200,
+      "total": 1,
+      "items": 1,
+      "path": "/kapis/resources.kubesphere.io/v1alpha3/namespaces/<ns>/pods?limit=10&ownerKind=ReplicaSet&labelSelector=app%3Dweb-matrix&sortBy=startTime"
+    }
+  ],
+  "checks": {
+    "loginRealUser": true,
+    "overviewAlive": true,
+    "sidebarNav": true,
+    "listMatches": true,
+    "detailPods": true
+  },
+  "errors": [],
+  "pass": true
+}

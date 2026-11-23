@@ -1,0 +1,57 @@
+{
+  "out": [
+    {
+      "requested": "/workspaces/system-workspace/overview",
+      "path": "/workspaces/system-workspace/overview",
+      "rootChildren": 0,
+      "htmlLen": 0,
+      "textLen": 0,
+      "text": "",
+      "hasRules": false,
+      "ruleKeys": [],
+      "clusterRuleKeys": []
+    },
+    {
+      "requested": "/workspaces/dev-workspace/overview",
+      "path": "/workspaces/dev-workspace/overview",
+      "rootChildren": 0,
+      "htmlLen": 0,
+      "textLen": 0,
+      "text": "",
+      "hasRules": false,
+      "ruleKeys": [],
+      "clusterRuleKeys": []
+    },
+    {
+      "requested": "/workspaces/dev-workspace/projects",
+      "path": "/workspaces/dev-workspace/projects",
+      "rootChildren": 0,
+      "htmlLen": 0,
+      "textLen": 0,
+      "text": "",
+      "hasRules": false,
+      "ruleKeys": [],
+      "clusterRuleKeys": []
+    },
+    {
+      "requested": "/workspaces/public-workspace/projects",
+      "path": "/workspaces/public-workspace/projects",
+      "rootChildren": 0,
+      "htmlLen": 0,
+      "textLen": 0,
+      "text": "",
+      "hasRules": false,
+      "ruleKeys": [],
+      "clusterRuleKeys": []
+    }
+  ],
+  "clicked": {
+    "ok": true,
+    "href": ""
+  },
+  "afterClick": {
+    "path": "/clusters/default/projects",
+    "text": "项目\n\n项目用于对资源进行分组管理和控制不同用户的资源管理权限。\n\n用户项目\n系统项目\n名称\n定制内容\n状态\n企业空间\n创建\n\t名称\n排序\n升序\n降序\n\t状态\t企业空间\t\n\t\nv4-migration-e2e-isolation\n-\n\t活跃\t\t\n编辑信息\n编辑注解\n分配企业空间\n删除\n\n\t\ndev-ewms-web\n-\n\t活跃\tdev-workspace\t\n编辑信息\n编辑注解\n删除\n\n\t\ndev-",
+    "htmlLen": 26159
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "hasUser": true,
+    "fakeRecovered": false
+  },
+  "from": {
+    "pathNs": "<nsA>",
+    "selector": "<titleA>",
+    "htmlLen": 14121
+  },
+  "to": {
+    "pathNs": "<nsB>",
+    "selector": "<titleB>",
+    "htmlLen": 14077
+  },
+  "api": {
+    "afterToA": 0,
+    "afterToB": 5
+  },
+  "differentProjects": true,
+  "checks": {
+    "loginRealUser": true,
+    "startedOnA": true,
+    "routeSwitched": true,
+    "selectorFollowed": true,
+    "slotDetailFollowed": true,
+    "apisHitNewNs": true,
+    "apisNotStuckOnOldNs": true,
+    "rootAlive": true
+  },
+  "errors": [],
+  "pass": true
+}

@@ -1,0 +1,12 @@
+{
+  "applied": [
+    {
+      "module": "module-1982.js",
+      "orig": "pages/fedprojects/components/ClusterSelect/index.js",
+      "kind": "body",
+      "lit": "handleDOMClick"
+    }
+  ],
+  "skipped": [],
+  "count": 1
+}

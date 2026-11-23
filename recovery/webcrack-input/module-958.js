@@ -1,0 +1,1 @@
+"use strict";(function(e){var r=n(861),o=n(1115),i="object"==typeof exports&&exports&&!exports.nodeType&&exports,a=i&&"object"==typeof e&&e&&!e.nodeType&&e,l=a&&a.exports===i?r.a.Buffer:void 0,u=(l?l.isBuffer:void 0)||o.a;t.a=u}).call(this,n(1342)(e))

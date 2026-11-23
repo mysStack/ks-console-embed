@@ -1,0 +1,499 @@
+{
+  "biz_count": 254,
+  "why_counts": {
+    "business_no_unique_t_createElement_only": 48,
+    "unique_t_but_unmapped_orig_not_parent_aligned": 20,
+    "kse_only_unique_t_0_orig": 73,
+    "shared_t_multi_leftover_or_multi_orig": 83,
+    "two_hit_copy_of_known_orig": 30
+  },
+  "samples": {
+    "business_no_unique_t_createElement_only": [
+      "module-665.js",
+      "module-762.js",
+      "module-937.js",
+      "module-1046.js",
+      "module-1062.js",
+      "module-1063.js",
+      "module-1152.js",
+      "module-1306.js",
+      "module-1308.js",
+      "module-1309.js",
+      "module-1376.js",
+      "module-1379.js"
+    ],
+    "unique_t_but_unmapped_orig_not_parent_aligned": [
+      {
+        "module": "module-805.js",
+        "orig": [
+          "pages/projects/components/StatusReason/index.js"
+        ],
+        "t": [
+          "STATUS_INFORMATION",
+          "STATUS_VALUE",
+          "REASON_VALUE",
+          "MESSAGE_VALUE"
+        ]
+      },
+      {
+        "module": "module-997.js",
+        "orig": [
+          "pages/clusters/components/StatusReason/index.js"
+        ],
+        "t": [
+          "CLUSTER_STATUS",
+          "UNSCHEDULABLE",
+          "UNREADY"
+        ]
+      },
+      {
+        "module": "module-1272.js",
+        "orig": [
+          "components/Modals/CustomMonitoring/components/MetircQueryInput/index.js"
+        ],
+        "t": [
+          "MONITOR_METRIC",
+          "DEBUGB_DATA"
+        ]
+      },
+      {
+        "module": "module-1639.js",
+        "orig": [
+          "components/Modals/CustomMonitoring/components/FormInput/Template/GrafanaTargetInput/index.js"
+        ],
+        "t": [
+          "METRIC_NAME",
+          "INTERVAL"
+        ]
+      },
+      {
+        "module": "module-1738.js",
+        "orig": [
+          "components/Forms/SilentPolicy/Base/index.js"
+        ],
+        "t": [
+          "PROJECT_NAME_DESC",
+          "PROJECT_NAME_INVALID_DESC"
+        ]
+      },
+      {
+        "module": "module-2061.js",
+        "orig": [
+          "pages/clusters/containers/Storage/PV/detail/index.js"
+        ],
+        "t": [
+          "STORAGE_CLASS",
+          "VOLUME_STORAGE_CLASS_DESC",
+          "ACCESS_MODES_DESC",
+          "VOLUME_CAPACITY"
+        ]
+      },
+      {
+        "module": "module-2072.js",
+        "orig": [
+          "pages/workspaces/components/Modals/WorkspaceSelect/Card/index.js"
+        ],
+        "t": [
+          "ALL_CLUSTERS"
+        ]
+      },
+      {
+        "module": "module-2103.js",
+        "orig": [
+          "components/Modals/CustomMonitoring/components/PromQLInput/Suggestions/index.js"
+        ],
+        "t": [
+          "ALERT_LABELS",
+          "ALERT_FUNCTIONS",
+          "ALERT_RATE_RANGES",
+          "ALERT_METRICS"
+        ]
+      },
+      {
+        "module": "module-2409.js",
+        "orig": [
+          "pages/clusters/containers/Network/IPPools/index.js"
+        ],
+        "t": [
+          "IPPOOL_USED_TIP",
+          "TOTAL_VALUE",
+          "SELECTED_IPPOOLS",
+          "CLUSTER_IPPOOL_EMPTY_DES"
+        ]
+      },
+      {
+        "module": "module-2621.js",
+        "orig": [
+          "pages/projects/components/Modals/CreateApp/Routes/RuleList/index.js"
+        ],
+        "t": [
+          "ADD_ROUTING_RULE_DESC"
+        ]
+      },
+      {
+        "module": "module-2712.js",
+        "orig": [
+          "components/Cards/Events/index.js"
+        ],
+        "t": [
+          "EVENT_AGE",
+          "SOURCE"
+        ]
+      },
+      {
+        "module": "module-2719.js",
+        "orig": [
+          "pages/clusters/components/Modals/ClusterSelect/index.js"
+        ],
+        "t": [
+          "NO_CLUSTER_FOUND",
+          "CLUSTER_PL"
+        ]
+      }
+    ],
+    "kse_only_unique_t_0_orig": [
+      {
+        "module": "module-817.js",
+        "t": [
+          "CORE_GIB",
+          "CORE_GIB",
+          "CORE_GIB",
+          "CORE_GIB",
+          "CORE_GIB",
+          "CORE_GIB"
+        ]
+      },
+      {
+        "module": "module-995.js",
+        "t": [
+          "CLUSTER_DELETED"
+        ]
+      },
+      {
+        "module": "module-996.js",
+        "t": [
+          "RULE_LABEL_SETTING",
+          "RULE_LABEL_SETTING",
+          "RULE_LABEL_SETTING_DESC",
+          "INCORRECT_KEY_DESC"
+        ]
+      },
+      {
+        "module": "module-1545.js",
+        "t": [
+          "NODE_SELECTORS_EMPTY_DESC"
+        ]
+      },
+      {
+        "module": "module-1549.js",
+        "t": [
+          "ADD_EDGE_IPPOOL",
+          "ADD_EDGE_IPPOOL_DES"
+        ]
+      },
+      {
+        "module": "module-1572.js",
+        "t": [
+          "FROM_NODE_GROUP"
+        ]
+      },
+      {
+        "module": "module-1616.js",
+        "t": [
+          "APP_AUTHORIZED"
+        ]
+      },
+      {
+        "module": "module-1675.js",
+        "t": [
+          "ADD_CURRENT_USER"
+        ]
+      },
+      {
+        "module": "module-1698.js",
+        "t": [
+          "UNINSTALL_SOFT_TIPS",
+          "RESTART_SOFT_TIPS",
+          "STOP_SOFT_TIPS"
+        ]
+      },
+      {
+        "module": "module-1736.js",
+        "t": [
+          "GATEWAY",
+          "MICROSERVICE_ORDER",
+          "MICROSERVICE_ORDER_DESC",
+          "MICROSERVICE_ROUTE_URL_DESC",
+          "PREDICATE",
+          "MICROSERVICE_ROUTE_FILTER"
+        ]
+      },
+      {
+        "module": "module-1739.js",
+        "t": [
+          "ALL_SILENT_NOTIFICATIONS_TCAP",
+          "ALL_SILENT_NOTIFICATIONS_DESC",
+          "CUSTOM_SILENT_NOTIFICATIONS_TCAP",
+          "CUSTOM_SILENT_NOTIFICATIONS_DESC",
+          "INVALID_SILENCE_CONDITION"
+        ]
+      },
+      {
+        "module": "module-2081.js",
+        "t": [
+          "NODE_TARGET_REPEAT"
+        ]
+      }
+    ],
+    "shared_t_multi_leftover_or_multi_orig": [
+      {
+        "module": "module-863.js",
+        "t_count": 2,
+        "shared_sample": [
+          "VALUE_CORES",
+          "VALUE_UNIT"
+        ]
+      },
+      {
+        "module": "module-931.js",
+        "t_count": 4,
+        "shared_sample": [
+          "CRITICAL_ALERT",
+          "ERROR_ALERT",
+          "WARNING_ALERT",
+          "INFO_ALERT"
+        ]
+      },
+      {
+        "module": "module-994.js",
+        "t_count": 7,
+        "shared_sample": [
+          "SECONDS",
+          "MINUTES",
+          "HOURS",
+          "CRITICAL_ALERT"
+        ]
+      },
+      {
+        "module": "module-1163.js",
+        "t_count": 2,
+        "shared_sample": []
+      },
+      {
+        "module": "module-1286.js",
+        "t_count": 22,
+        "shared_sample": []
+      },
+      {
+        "module": "module-1287.js",
+        "t_count": 5,
+        "shared_sample": [
+          "CREATE_SUCCESSFUL",
+          "CREATE_EDGE_APP_TEMPLATE",
+          "MODIFY_SUCCESSFUL",
+          "CREATE_EDGE_APP_TEMPLATE"
+        ]
+      },
+      {
+        "module": "module-1364.js",
+        "t_count": 4,
+        "shared_sample": []
+      },
+      {
+        "module": "module-1374.js",
+        "t_count": 1,
+        "shared_sample": [
+          "PREVIOUS"
+        ]
+      },
+      {
+        "module": "module-1568.js",
+        "t_count": 8,
+        "shared_sample": [
+          "PROJECT",
+          "NODE_GROUP",
+          "ASIN_EDGE_NODE_AUTO",
+          "EDGE_NODE"
+        ]
+      },
+      {
+        "module": "module-1728.js",
+        "t_count": 1,
+        "shared_sample": [
+          "NO_LIMIT"
+        ]
+      },
+      {
+        "module": "module-2060.js",
+        "t_count": 8,
+        "shared_sample": [
+          "LONG_NAME_DESC",
+          "NAME_EMPTY_DESC",
+          "LONG_NAME_DESC",
+          "ALIAS"
+        ]
+      },
+      {
+        "module": "module-2062.js",
+        "t_count": 25,
+        "shared_sample": [
+          "PARAM_REQUIRED",
+          "TRUE",
+          "FALSE",
+          "ADVANCED_SETTINGS"
+        ]
+      }
+    ],
+    "two_hit_copy_of_known_orig": [
+      {
+        "module": "module-955.js",
+        "orig": [
+          "stores/cluster/index.js"
+        ],
+        "t": [
+          "VALIDATION_FAILED"
+        ]
+      },
+      {
+        "module": "module-1301.js",
+        "orig": [
+          "components/Forms/Workload/AdvanceSettings/PodIPRange/index.js"
+        ],
+        "t": [
+          "MIGRATE_POD_IP_POOL_TIP",
+          "AVAILABLE_ADDRESSES"
+        ]
+      },
+      {
+        "module": "module-1621.js",
+        "orig": [
+          "components/Forms/Cluster/BaseInfo/index.js"
+        ],
+        "t": [
+          "MASTER_NODE_COUNT_TIP",
+          "WORKER_NODE_COUNT_TIP",
+          "CLUSTER_NAME_EMPTY"
+        ]
+      },
+      {
+        "module": "module-1670.js",
+        "orig": [
+          "pages/projects/components/Cards/HPA/index.js",
+          "pages/projects/components/Modals/HPA/index.js",
+          "components/Forms/Workload/ContainerSettings/ContainerForm/ProbeForm/ProbeConfig.js"
+        ],
+        "t": [
+          "MIN_REPLICA_COUNT_LESS_THAN_MAX",
+          "PROMETHEUS_MIN_REPLICA_COUNT_DESC",
+          "MINIMUM_REPLICAS",
+          "SCALE_MINIMUM_REPLICAS_DESC"
+        ]
+      },
+      {
+        "module": "module-1689.js",
+        "orig": [
+          "components/Forms/Workload/AdvanceSettings/index.js",
+          "components/Forms/Service/AdvanceSettings/index.js",
+          "pages/projects/containers/Network/Policies/Detail/Viewer/index.js",
+          "components/Forms/Notification/BaseForm/index.js",
+          "components/Inputs/EnvironmentInput/Item.js",
+          "components/Forms/StorageClass/ProvisionerSettings/index.js"
+        ],
+        "t": [
+          "ENTER_NETWORK_SEGMENT",
+          "POD_IP_POOL_IP_RANGE",
+          "POD_IP_POOL_NAME_DESC",
+          "POD_IP_POOL_NAME_DESC"
+        ]
+      },
+      {
+        "module": "module-1737.js",
+        "orig": [
+          "components/Cards/Monitoring/Controller/TimeSelector/Range/Custom.js",
+          "components/Modals/Bill/components/TimeSelect/index.js",
+          "components/Modals/CustomMonitoring/components/TimeRangeSelect/index.js",
+          "components/Charts/Bar/TimeBar/index.js"
+        ],
+        "t": [
+          "SILENCE_EVERY_DAY",
+          "SILENCE_EVERY_WEEK",
+          "SILENCE_EVERY_MONTH",
+          "CRON_EXPRESSION"
+        ]
+      },
+      {
+        "module": "module-2078.js",
+        "orig": [
+          "components/Forms/AlertingPolicy/AlertingRules/AddRuleForm/index.js"
+        ],
+        "t": [
+          "RULE_TEMPLATE",
+          "CUSTOM_RULE"
+        ]
+      },
+      {
+        "module": "module-2094.js",
+        "orig": [
+          "components/Forms/AlertingPolicy/AlertingRules/AddRuleForm/TemplateRule/MonitoringTarget/WorkloadSelect.js"
+        ],
+        "t": [
+          "STATEFULSET",
+          "DAEMONSET",
+          "NAME_SPACE_REPEAT",
+          "SET_NAMESPACE_BELONGS_TO"
+        ]
+      },
+      {
+        "module": "module-2099.js",
+        "orig": [
+          "pages/workspaces/components/Modals/WorkspaceCreate/ClusterSettings/index.js",
+          "components/Modals/DevOpsCreate/index.js",
+          "components/Forms/Cluster/ClusterSettings/index.js",
+          "components/Forms/AlertingPolicy/AlertingRules/AddRuleForm/CustomRule/index.js"
+        ],
+        "t": [
+          "CLUSTER_SETTINGS_LIMIT_DESC",
+          "CLUSTER_SETTINGS",
+          "ALERT_DURATION",
+          "SEVERITY_REQUIRED"
+        ]
+      },
+      {
+        "module": "module-2636.js",
+        "orig": [
+          "pages/workspaces/components/Modals/WorkspaceDelete/index.js",
+          "components/Modals/Delete/index.js"
+        ],
+        "t": [
+          "EDGE_APP_TEMPLATE_PL",
+          "DELETE_TITLE_PL",
+          "EDGE_APPLICATION"
+        ]
+      },
+      {
+        "module": "module-2638.js",
+        "orig": [
+          "pages/projects/components/Modals/RepoApp/Apps/index.js"
+        ],
+        "t": [
+          "EDGE_APP_TEMPLATES_PL",
+          "EDGE_APP_TEMPLATES_MODAL_DESC",
+          "CURRENT_WORKSPACE"
+        ]
+      },
+      {
+        "module": "module-2700.js",
+        "orig": [
+          "components/Forms/Cluster/Configuration/index.js",
+          "components/Forms/Cluster/KubeConfig/index.js"
+        ],
+        "t": [
+          "EDGE_WAY_TO_INSTALL",
+          "EDGE_WAY_TO_INSTALL_DESC",
+          "INPUT_EDGE_KUBECONFIG",
+          "INPUT_KUBECONFIG"
+        ]
+      }
+    ]
+  }
+}

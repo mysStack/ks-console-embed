@@ -1,0 +1,300 @@
+{
+  "kept": [],
+  "dropped": [
+    {
+      "kind": "unique_kid",
+      "parent": "pages/console/containers/Dashboard.js",
+      "module": "module-3637.js",
+      "orig": "components/Cards/EmptyList.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/projects/containers/Network/Policies.js",
+      "module": "module-4660.js",
+      "orig": "components/Cards/EmptyList.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/projects/containers/Pods/Detail.js",
+      "module": "module-1365.js",
+      "orig": "utils/podStatusLocale.js",
+      "reason": "no-unique-shared-lit",
+      "left_sample": [],
+      "orig_sample": []
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/projects/containers/BaseInfo/ProjectInfo.js",
+      "module": "module-4629.js",
+      "orig": "pages/clusters/containers/BaseInfo/ManageButton.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/projects/containers/BaseInfo/ProjectInfo/index.js",
+      "module": "module-4532.js",
+      "orig": "pages/clusters/containers/BaseInfo/ManageButton.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/projects/containers/Applications/CRDAppDetail/GrayRelease.js",
+      "module": "module-4775.js",
+      "orig": "components/Cards/EmptyList.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/projects/containers/Applications/CRDAppDetail/TrafficManangement/index.js",
+      "module": "module-4773.js",
+      "orig": "components/Cards/EmptyList.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/projects/containers/Volumes/Detail/ResourceStatus/UsageCard.js",
+      "module": "module-3921.js",
+      "orig": "components/Charts/Custom/Tooltip.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/projects/containers/Services/Detail/ResourceStatus.js",
+      "module": "module-3881.js",
+      "orig": "components/Cards/Pods.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/projects/components/Modals/ServiceDelete.js",
+      "module": "module-3357.js",
+      "orig": "components/Cards/EmptyList.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/projects/components/Modals/WorkloadDelete.js",
+      "module": "module-2459.js",
+      "orig": "components/Cards/EmptyList.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/projects/components/Modals/ConfigTemplate/config.js",
+      "module": "module-3603.js",
+      "orig": "components/EditForms/Workload/IPPool.js",
+      "reason": "orig-missing"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/devops/containers/Pipelines/Detail/PullRequest.js",
+      "module": "module-5089.js",
+      "orig": "components/Layout/Nav/Link.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/workspaces/containers/Apps/Detail.js",
+      "module": "module-4424.js",
+      "orig": "core/containers/Base/Detail.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/workspaces/containers/Groups/GroupTree.js",
+      "module": "module-4378.js",
+      "orig": "components/Tree.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/workspaces/components/Modals/EditGroup/Department.js",
+      "module": "module-4368.js",
+      "orig": "components/Tree.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/fedprojects/containers/BaseInfo/ProjectInfo.js",
+      "module": "module-4960.js",
+      "orig": "pages/clusters/containers/BaseInfo/ManageButton.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/fedprojects/containers/Applications/Detail/Tracing.js",
+      "module": "module-4993.js",
+      "orig": "components/Cards/EmptyList.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/fedprojects/containers/Applications/Detail/TrafficManangement.js",
+      "module": "module-4991.js",
+      "orig": "components/Cards/EmptyList.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/fedprojects/containers/Volumes/Detail/VolumeMounts/PodsCard.js",
+      "module": "module-5031.js",
+      "orig": "components/Cards/Pods.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/fedprojects/containers/Services/Detail/ResourceStatus.js",
+      "module": "module-5009.js",
+      "orig": "components/Cards/Pods.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/clusters/containers/BaseInfo.js",
+      "module": "module-3799.js",
+      "orig": "stores/monitoring/cluster.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/clusters/containers/Projects/Detail.js",
+      "module": "module-3970.js",
+      "orig": "stores/limitrange.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/clusters/containers/Overview/Dashboard/KubernetesStatus.js",
+      "module": "module-3692.js",
+      "orig": "stores/monitoring/component.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/clusters/containers/LogCollections/Detail/Configuration.js",
+      "module": "module-4010.js",
+      "orig": "core/containers/Base/Detail/BaseInfo/Attributes.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/clusters/containers/Monitor/Resource/Ranking/Project.js",
+      "module": "module-3794.js",
+      "orig": "stores/rank/project.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/clusters/components/Cards/Monitoring/ETCD.js",
+      "module": "module-1131.js",
+      "orig": "stores/monitoring/component.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Layout/LoginInfo.js",
+      "module": "module-4069.js",
+      "orig": "components/Modals/About.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Modals/KubeConfig.js",
+      "module": "module-3505.js",
+      "orig": "components/Modals/FullscreenModal.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Modals/CDDelete.js",
+      "module": "module-2659.js",
+      "orig": "components/Cards/EmptyList.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Charts/Area/MediumArea.js",
+      "module": "module-2171.js",
+      "orig": "components/Charts/Custom/Tooltip.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Charts/Area/TinyArea.js",
+      "module": "module-2169.js",
+      "orig": "components/Charts/Custom/Tooltip.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Modals/Monitoring/ApplicationResource.js",
+      "module": "module-3787.js",
+      "orig": "stores/monitoring/cluster.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Modals/Bill/components/LineChart.js",
+      "module": "module-3534.js",
+      "orig": "components/Cards/EmptyList.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Modals/Bill/components/TimeSelect.js",
+      "module": "module-3530.js",
+      "orig": "components/Cards/Monitoring/Controller/TimeSelector/utils.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Modals/CustomMonitoring/components/Form/Graph.js",
+      "module": "module-2802.js",
+      "orig": "components/Inputs/CustomArrayInput.js",
+      "reason": "no-unique-shared-lit",
+      "left_sample": [],
+      "orig_sample": [
+        "CustomArrayInput"
+      ]
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Forms/Workload/ContainerSettings.js",
+      "module": "module-2307.js",
+      "orig": "stores/limitrange.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Forms/Dashboard/BaseInfo.js",
+      "module": "module-2866.js",
+      "orig": "stores/monitoring/custom/template.json.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Forms/Pipelines/RepoSelect/GithubForm.js",
+      "module": "module-2732.js",
+      "orig": "components/Cards/EmptyList.js",
+      "reason": "skip-orig"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Forms/Workload/ContainerSettings/ContainerForm.js",
+      "module": "module-2289.js",
+      "orig": "components/Inputs/EnvironmentInput/envFrom.js",
+      "reason": "no-unique-shared-lit",
+      "left_sample": [],
+      "orig_sample": []
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "stores/meter/base.js",
+      "module": "module-316.js",
+      "orig": "components/Cards/Monitoring/Controller/TimeSelector/utils.js",
+      "reason": "skip-orig"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "aliasesAdded": [
+    "react=module-553",
+    "react-dom=module-106",
+    "mobx=module-14",
+    "mobx-react=module-239",
+    "kube-design=module-186",
+    "lodash=module-2",
+    "prop-types=module-1",
+    "classnames=module-3",
+    "moment-mini=module-243",
+    "qs=module-244",
+    "history=module-83",
+    "react-router=module-47",
+    "react-router-dom=module-433",
+    "mobx-react-router=module-431"
+  ],
+  "runtime": {
+    "devServer": "http://127.0.0.1:8099/",
+    "login": "Welcome / Username or Email / Password / Log In + logo",
+    "dashboard": "Hello recovered + empty workspace copy",
+    "support": "Community Support layout with v3 chunk CSS"
+  }
+}

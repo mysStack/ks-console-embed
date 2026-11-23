@@ -1,0 +1,22 @@
+export default {
+    horizonBox: "aSOSVwooCxiG_B3OAokSM",
+    item: "_1uo5FIBpJPMWXqxYs16rRX",
+    authorizedStatus: "_72PlO0UzoC_on5UQ4mc7V",
+    avatarIcon: "gEPgN0d7o6Jf_9zNJ98dD",
+    badge: "_2G2qfvYezrHqIFKrdD1b0W",
+    avatarText: "_1q00tYwvNn3IoaG6k4_v7I",
+    title: "_1ZOuoGYuUP5CciBJI7xVuW",
+    description: "zz_4Sg21d43Z6kzTFBU55",
+    content: "_1VKeY_MWROP-fg5sBdpYHX",
+    licenseInfo: "_1Lb6BMpGYQ2eqqsdFUNmBG",
+    panel: "_1D5RVdF6yNGcz7YWBCeVTH",
+    panelTitle: "_3HsqePykwgEHN5PdFBrm7e",
+    noService: "WeI_ksH2bomiGM0v-6RUD",
+    CardContainer: "_35er4Q-ScOqFL-03Id63dA",
+    cardTitle: "_3zt-ZRRTYtcwP_bUWk_rzf",
+    wrapper: "_2xO7vcyv1ddBLB037QY3gW",
+    disabled: "_3au_36fExikK3bnY_woae7",
+    wrapperItem: "_2jSBecL6tULHrv1qgYo1tM",
+    authorizedInfo: "_395EEfZZJZqap6ehbZki1Z",
+    unAuthored: "ijCWvcMfHLYVhB75aj1lx"
+};

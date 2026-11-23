@@ -1,0 +1,12 @@
+{
+  "applied": [
+    {
+      "module": "module-4508.js",
+      "orig": "pages/clusters/containers/Overview/Dashboard/ResourcesUsage/ResourceItem/index.js",
+      "kind": "body",
+      "lit": "width={48}"
+    }
+  ],
+  "skipped": [],
+  "count": 1
+}

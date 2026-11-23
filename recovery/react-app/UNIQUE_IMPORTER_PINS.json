@@ -1,0 +1,276 @@
+{
+  "live_set": 2190,
+  "missing_orig": 445,
+  "unique_importer_1_1": 0,
+  "unique_barrel": 0,
+  "family_pins": 0,
+  "literal_pins": 0,
+  "orig_unique_import_pins": 0,
+  "orig_unique_import_zero": 113,
+  "orig_unique_import_multi": 4,
+  "pins": [],
+  "pin_count": 0,
+  "reason_counts": {
+    "0-hit_orig_unnamed": 444,
+    "orig_child_not_unique_import": 1,
+    "orig_unique_import_0_kid": 113
+  },
+  "skipped_sample": [
+    {
+      "module": "module-2059.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "actions/PV.js"
+    },
+    {
+      "module": "module-2215.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "actions/alerting.js"
+    },
+    {
+      "module": "module-2709.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "actions/cluster.js"
+    },
+    {
+      "module": "module-3318.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "actions/resource.edit.js"
+    },
+    {
+      "module": "module-3398.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "actions/storageclass.js"
+    },
+    {
+      "module": "module-2330.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Base/Avatar.js"
+    },
+    {
+      "module": "module-2332.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Base/Banner.js"
+    },
+    {
+      "module": "module-2335.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Base/Bar.js"
+    },
+    {
+      "module": "module-2337.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Base/Breadcrumb.js"
+    },
+    {
+      "module": "module-2338.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Base/Card.js"
+    },
+    {
+      "module": "module-1273.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Base/Cascader.js"
+    },
+    {
+      "module": "module-2402.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Base/Dragger.js"
+    },
+    {
+      "module": "module-2113.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Base/Indicator.js"
+    },
+    {
+      "module": "module-1479.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Base/Modal/form.js"
+    },
+    {
+      "module": "module-2334.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Base/Nav.js"
+    },
+    {
+      "module": "module-2403.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Base/NotifyConfirm.js"
+    },
+    {
+      "module": "module-2404.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Base/Panel.js"
+    },
+    {
+      "module": "module-2273.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Base/ScrollLoad.js"
+    },
+    {
+      "module": "module-2048.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Base/Steps.js"
+    },
+    {
+      "module": "module-2046.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Base/Switch.js"
+    },
+    {
+      "module": "module-2043.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Base/Text.js"
+    },
+    {
+      "module": "module-2243.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Base/TypeSelect.js"
+    },
+    {
+      "module": "module-3836.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Cards/Containers/EnvVariables.js"
+    },
+    {
+      "module": "module-3839.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Cards/Containers/Item.js"
+    },
+    {
+      "module": "module-3755.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Cards/Monitoring/Controller.js"
+    },
+    {
+      "module": "module-2191.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Cards/Monitoring/Controller/TimeSelector.js"
+    },
+    {
+      "module": "module-3757.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Cards/Monitoring/StatusCircle.js"
+    },
+    {
+      "module": "module-3759.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Cards/Monitoring/StatusTabs.js"
+    },
+    {
+      "module": "module-1810.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Cards/Pods/Item.js"
+    },
+    {
+      "module": "module-3502.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Cards/Tips.js"
+    },
+    {
+      "module": "module-2171.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Charts/Area/MediumArea.js"
+    },
+    {
+      "module": "module-2177.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Charts/Area/MultiArea.js"
+    },
+    {
+      "module": "module-2175.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Charts/Area/SimpleArea.js"
+    },
+    {
+      "module": "module-2169.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Charts/Area/TinyArea.js"
+    },
+    {
+      "module": "module-2185.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Charts/Pie/SimpleCircle.js"
+    },
+    {
+      "module": "module-2186.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Charts/index.js"
+    },
+    {
+      "module": "module-2114.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Clusters/ClusterTitle.js"
+    },
+    {
+      "module": "module-2554.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Clusters/ClusterWrapper.js"
+    },
+    {
+      "module": "module-3220.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/CodeRepoSelector.js"
+    },
+    {
+      "module": "module-2056.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/EditMode.js"
+    },
+    {
+      "module": "module-2213.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Forms/AlertingPolicy/AlertingRules/AddRuleForm/CustomRule.js"
+    },
+    {
+      "module": "module-2204.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Forms/AlertingPolicy/AlertingRules/AddRuleForm/TemplateRule/RuleInput.js"
+    },
+    {
+      "module": "module-2199.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Forms/AlertingPolicy/AlertingRules/RuleList/Card.js"
+    },
+    {
+      "module": "module-2100.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Forms/AlertingPolicy/BaseInfo/UnitInput.js"
+    },
+    {
+      "module": "module-3148.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Forms/AppDeploy/AppConfig.js"
+    },
+    {
+      "module": "module-3142.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Forms/AppDeploy/BasicInfo.js"
+    },
+    {
+      "module": "module-3144.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Forms/AppDeploy/BasicInfo/Placement.js"
+    },
+    {
+      "module": "module-2652.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Forms/CD/Advance/Placement.js"
+    },
+    {
+      "module": "module-2675.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Forms/Cluster/BaseInfo.js"
+    },
+    {
+      "module": "module-2683.js",
+      "reason": "0-hit_orig_unnamed",
+      "parent": "components/Forms/Cluster/ClusterSettings/KubernetesParams.js"
+    }
+  ],
+  "skipped_count": 558,
+  "parents_with_unique_kids": 514,
+  "cssish": 280,
+  "tiny": 1216,
+  "kse_only_unique_t_0_orig": 105,
+  "banner_mods": []
+}

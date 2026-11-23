@@ -1,0 +1,212 @@
+{
+  "applied": [
+    {
+      "kind": "module_eq",
+      "lit": "volume-snapshot-content",
+      "module": "module-4115.js",
+      "orig": "pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/index.js"
+    },
+    {
+      "kind": "module_eq",
+      "lit": "rules",
+      "module": "module-4878.js",
+      "orig": "pages/projects/containers/Alerting/Policies/index.js"
+    },
+    {
+      "kind": "module_eq",
+      "lit": "persistentvolumes",
+      "module": "module-4121.js",
+      "orig": "pages/clusters/containers/Storage/PV/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "TAKE_OFFLINE",
+      "module": "module-4635.js",
+      "orig": "components/Forms/GrayRelease/PolicyConfig/Bluegreen/VersionSelect/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "KUBESPHERE_CLOUD_DESC",
+      "module": "module-4063.js",
+      "orig": "pages/console/containers/Support/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "AVAILABLE",
+      "module": "module-4871.js",
+      "orig": "components/Forms/Workload/VolumeSettings/AddExistVolumes/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "SCALING_OBJECT",
+      "module": "module-4914.js",
+      "orig": "components/Forms/CustomScaling/BaseInfo/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "CLUSTER_NAME_EMPTY",
+      "module": "module-1621.js",
+      "orig": "components/Forms/Cluster/BaseInfo/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "TIME_RANGE_SCAP",
+      "module": "module-5170.js",
+      "orig": "components/Modals/LogSearch/Logging/SearchInput/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "PROJECT_ROLE_SCAP",
+      "module": "module-4531.js",
+      "orig": "pages/projects/containers/BaseInfo/ProjectInfo/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "AVAILABLE_CLUSTERS",
+      "module": "module-1856.js",
+      "orig": "pages/workspaces/components/Modals/WorkspaceCreate/ClusterSettings/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "CUSTOM_RESOURCE_PL",
+      "module": "module-4253.js",
+      "orig": "pages/clusters/containers/CustomResources/Detail/ResourceStatus/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "FLUENTD_DESC",
+      "module": "module-1849.js",
+      "orig": "components/Modals/LogCollectionCreate/config.js"
+    },
+    {
+      "kind": "t",
+      "lit": "EVENT_PL",
+      "module": "module-1396.js",
+      "orig": "pages/workspaces/containers/Repos/Detail/Events/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "VALUE_TIMEOUT",
+      "module": "module-4249.js",
+      "orig": "pages/clusters/containers/Storage/StorageClasses/Detail/Volumes/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "HOST_CLUSTER",
+      "module": "module-4317.js",
+      "orig": "components/Clusters/ClusterTitle/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "INPUT_KUBECONFIG",
+      "module": "module-2700.js",
+      "orig": "components/Forms/Cluster/Configuration/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "VERSION_INFO",
+      "module": "module-4431.js",
+      "orig": "pages/apps/components/Cards/ConfigFile/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "LAST_HEARTBEAT_VALUE",
+      "module": "module-4221.js",
+      "orig": "pages/clusters/containers/Nodes/Detail/RunningStatus/ConditionCard/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "SERVICE_COLON",
+      "module": "module-1981.js",
+      "orig": "pages/fedprojects/containers/Routes/Detail/ResourceStatus/Rule/index.js"
+    }
+  ],
+  "skipped": [
+    {
+      "module": "module-1236.js",
+      "orig": "pages/projects/containers/Alerting/Messages/index.js",
+      "reason": "skip-list"
+    },
+    {
+      "module": "module-5045.js",
+      "orig": "components/Modals/ProjectSelect/index.js",
+      "reason": "skip-list"
+    },
+    {
+      "module": "module-955.js",
+      "orig": "stores/cluster/index.js",
+      "reason": "skip-list"
+    },
+    {
+      "module": "module-3839.js",
+      "orig": "pages/clusters/containers/LogCollections/index.js",
+      "reason": "skip-list"
+    },
+    {
+      "module": "module-1639.js",
+      "orig": "components/Cards/Monitoring/Controller/TimeSelector/index.js",
+      "reason": "skip-list"
+    },
+    {
+      "module": "module-1869.js",
+      "orig": "pages/apps/components/Lists/InstanceList/index.js",
+      "reason": "skip-list"
+    },
+    {
+      "module": "module-3715.js",
+      "orig": "pages/clusters/components/ResourceTable/ProjectSelect/index.js",
+      "reason": "skip-list"
+    },
+    {
+      "module": "module-3298.js",
+      "orig": "components/Modals/ContianerTerminal/index.js",
+      "reason": "skip-list"
+    },
+    {
+      "module": "module-4105.js",
+      "orig": "pages/clusters/containers/Overview/Initializing/KubeKeyCluster/Progress/index.js",
+      "reason": "skip-list"
+    },
+    {
+      "module": "module-4906.js",
+      "orig": "pages/projects/containers/ImageBuilder/Detail/ImageProduct/index.js",
+      "reason": "skip-list"
+    },
+    {
+      "module": "module-4103.js",
+      "orig": "pages/clusters/containers/Overview/Initializing/index.js",
+      "reason": "skip-list"
+    },
+    {
+      "module": "module-2103.js",
+      "orig": "components/Modals/CustomMonitoring/components/PromQLInput/Suggestions/index.js",
+      "reason": "skip-list"
+    },
+    {
+      "module": "module-4107.js",
+      "orig": "pages/clusters/containers/Overview/Initializing/KubeKeyCluster/Logs/index.js",
+      "reason": "skip-list"
+    },
+    {
+      "module": "module-4080.js",
+      "orig": "pages/clusters/containers/Overview/Dashboard/Tools/index.js",
+      "reason": "skip-list"
+    },
+    {
+      "module": "module-4086.js",
+      "orig": "pages/clusters/containers/Overview/Dashboard/KubernetesStatus/index.js",
+      "reason": "skip-list"
+    },
+    {
+      "module": "module-4374.js",
+      "orig": "pages/workspaces/components/Modals/EditGroup/Detail/Form/ProjectSelect.js",
+      "reason": "skip-list"
+    },
+    {
+      "module": "module-1272.js",
+      "orig": "components/Modals/CustomMonitoring/components/MetircQueryInput/index.js",
+      "reason": "skip-list"
+    }
+  ],
+  "count": 20
+}

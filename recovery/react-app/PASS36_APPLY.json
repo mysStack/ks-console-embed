@@ -1,0 +1,12 @@
+{
+  "applied": [
+    {
+      "module": "module-1461.js",
+      "orig": "pages/devops/containers/CD/Components/StatusText/index.js",
+      "kind": "body",
+      "lit": "noBolder"
+    }
+  ],
+  "skipped": [],
+  "count": 1
+}

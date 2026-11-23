@@ -1,0 +1,12 @@
+{
+  "applied": [
+    {
+      "module": "module-1832.js",
+      "orig": "pages/projects/components/Charts/VolumeUsage/index.js",
+      "kind": "body",
+      "lit": "getWavePath"
+    }
+  ],
+  "skipped": [],
+  "count": 1
+}

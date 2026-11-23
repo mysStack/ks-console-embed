@@ -1,0 +1,24 @@
+{
+  "applied": [
+    {
+      "module": "module-4899.js",
+      "orig": "pages/projects/components/Cards/ImageRunRecord/Item/index.js",
+      "kind": "t",
+      "lit": "SERIAL_NUMBER"
+    },
+    {
+      "module": "module-1449.js",
+      "orig": "pages/projects/components/Cards/Services/index.js",
+      "kind": "t",
+      "lit": "SERVICE_PL"
+    },
+    {
+      "module": "module-4746.js",
+      "orig": "pages/projects/components/ServiceAccess/index.js",
+      "kind": "t",
+      "lit": "VIRTUAL_IP_ADDRESS"
+    }
+  ],
+  "skipped": [],
+  "count": 3
+}

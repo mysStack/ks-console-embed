@@ -1,0 +1,71 @@
+{
+  "other_fine_counts": {
+    "corejs_internals_or_modules": 27,
+    "still_unclassified": 262,
+    "corejs_like_import_graph": 109,
+    "babel_runtime_helper": 72,
+    "webpack_runtime": 1
+  },
+  "other_fine_samples": {
+    "corejs_internals_or_modules": [
+      "module-8.js",
+      "module-25.js",
+      "module-30.js",
+      "module-38.js",
+      "module-40.js",
+      "module-63.js",
+      "module-180.js",
+      "module-264.js",
+      "module-315.js",
+      "module-356.js",
+      "module-380.js",
+      "module-401.js"
+    ],
+    "still_unclassified": [
+      "module-16.js",
+      "module-42.js",
+      "module-49.js",
+      "module-58.js",
+      "module-67.js",
+      "module-84.js",
+      "module-116.js",
+      "module-133.js",
+      "module-142.js",
+      "module-147.js",
+      "module-167.js",
+      "module-174.js"
+    ],
+    "corejs_like_import_graph": [
+      "module-17.js",
+      "module-28.js",
+      "module-32.js",
+      "module-62.js",
+      "module-64.js",
+      "module-70.js",
+      "module-112.js",
+      "module-114.js",
+      "module-115.js",
+      "module-119.js",
+      "module-132.js",
+      "module-164.js"
+    ],
+    "babel_runtime_helper": [
+      "module-55.js",
+      "module-484.js",
+      "module-485.js",
+      "module-854.js",
+      "module-859.js",
+      "module-934.js",
+      "module-946.js",
+      "module-953.js",
+      "module-954.js",
+      "module-970.js",
+      "module-973.js",
+      "module-1000.js"
+    ],
+    "webpack_runtime": [
+      "module-139.js"
+    ]
+  },
+  "already_aliased_live_leftover_note": "aliased files remain on disk; factory keys drop after webpack restart"
+}

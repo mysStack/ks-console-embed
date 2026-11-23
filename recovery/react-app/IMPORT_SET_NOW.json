@@ -1,0 +1,16 @@
+{
+  "leftover_sets": 332,
+  "orig_sets": 175,
+  "pins": [
+    {
+      "module": "module-4904.js",
+      "orig": "pages/projects/containers/ImageBuilder/Detail/Environment/index.js",
+      "set_size": 2,
+      "named": [
+        "components/Cards/Containers/EnvVariables.js",
+        "stores/workload/env.js"
+      ]
+    }
+  ],
+  "count": 1
+}

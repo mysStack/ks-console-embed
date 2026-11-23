@@ -1,0 +1,30 @@
+{
+  "applied": [
+    {
+      "module": "module-4052.js",
+      "orig": "pages/clusters/components/Modals/ClusterSelect/index.js",
+      "kind": "t",
+      "lit": "CLUSTER_DESC"
+    },
+    {
+      "module": "module-4053.js",
+      "orig": "pages/clusters/components/Modals/ClusterSelect/Card/index.js",
+      "kind": "unique_kid",
+      "lit": "NODE_COUNT+ClusterTitle"
+    },
+    {
+      "module": "module-3974.js",
+      "orig": "pages/projects/containers/Overview/ResourceUsage/AppResourceItem/index.js",
+      "kind": "t",
+      "lit": "RESOURCE_WARNING_TIPS"
+    },
+    {
+      "module": "module-3975.js",
+      "orig": "pages/projects/containers/Overview/ResourceUsage/TinyArea/index.js",
+      "kind": "unique_kid",
+      "lit": "COLORS_MAP+recharts TinyArea"
+    }
+  ],
+  "skipped": [],
+  "count": 4
+}

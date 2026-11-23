@@ -1,0 +1,286 @@
+{
+  "v3_version_mods": [
+    "module-280.js"
+  ],
+  "v3_tree": 3070,
+  "pins": [
+    {
+      "module": "module-46.js",
+      "error": "Cannot convert a Symbol value to a string",
+      "corejs3": [
+        "internals/to-string.js"
+      ],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 219,
+      "corejs": "core-js3/internals/to-string.js",
+      "reason": "unique_error"
+    },
+    {
+      "module": "module-254.js",
+      "error": "Incorrect invocation",
+      "corejs3": [
+        "internals/array-buffer-view-core.js"
+      ],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 183,
+      "corejs": "core-js3/internals/array-buffer-view-core.js",
+      "reason": "unique_error"
+    },
+    {
+      "module": "module-540.js",
+      "error": "Promise can't be resolved itself",
+      "corejs3": [
+        "modules/es.promise.constructor.js"
+      ],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 7300,
+      "corejs": "core-js3/modules/es.promise.constructor.js",
+      "reason": "unique_error"
+    },
+    {
+      "module": "module-390.js",
+      "corejs": "core-js3/internals/regexp-unsupported-ncg.js",
+      "via": ").groups.a !== ",
+      "reason": "unique_lit_internal",
+      "in_v3_tree": true,
+      "corejs2": [],
+      "bytes": 250
+    },
+    {
+      "module": "module-117.js",
+      "corejs": "core-js3/internals/engine-user-agent.js",
+      "via": " && String(navigator.userAgent) || ",
+      "reason": "unique_lit_internal",
+      "in_v3_tree": true,
+      "corejs2": [],
+      "bytes": 86
+    }
+  ],
+  "skipped_sample": [
+    {
+      "module": "module-1514.js",
+      "error": "1 argument required, but only 0 present.",
+      "corejs3": [],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 14329,
+      "reason": "cj3_hits=0"
+    },
+    {
+      "module": "module-70.js",
+      "error": "Accessors not supported",
+      "corejs3": [],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 1322,
+      "reason": "cj3_hits=0"
+    },
+    {
+      "module": "module-168.js",
+      "error": "Bad Promise constructor",
+      "corejs3": [],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 442,
+      "reason": "cj3_hits=0"
+    },
+    {
+      "module": "module-1514.js",
+      "error": "Cannot call a class as a function.",
+      "corejs3": [],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 14329,
+      "reason": "cj3_hits=0"
+    },
+    {
+      "module": "module-353.js",
+      "error": "Cannot set read only .length",
+      "corejs3": [],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 629,
+      "reason": "cj3_hits=0"
+    },
+    {
+      "module": "module-747.js",
+      "error": "Constraint error, invalid dayOfWeek `#` and `,` special characters are incompatible",
+      "corejs3": [],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 19968,
+      "reason": "cj3_hits=0"
+    },
+    {
+      "module": "module-747.js",
+      "error": "Constraint error, invalid dayOfWeek `#` and `-` special characters are incompatible",
+      "corejs3": [],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 19968,
+      "reason": "cj3_hits=0"
+    },
+    {
+      "module": "module-747.js",
+      "error": "Constraint error, invalid dayOfWeek `#` and `/` special characters are incompatible",
+      "corejs3": [],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 19968,
+      "reason": "cj3_hits=0"
+    },
+    {
+      "module": "module-747.js",
+      "error": "Constraint error, invalid dayOfWeek occurrence number (#)",
+      "corejs3": [],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 19968,
+      "reason": "cj3_hits=0"
+    },
+    {
+      "module": "module-552.js",
+      "error": "Illegal invocation",
+      "corejs3": [],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 1172,
+      "reason": "cj3_hits=0"
+    },
+    {
+      "module": "module-190.js",
+      "error": "Incorrect fraction digits",
+      "corejs3": [],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 3218,
+      "reason": "cj3_hits=0"
+    },
+    {
+      "module": "module-747.js",
+      "error": "Invalid cron expression",
+      "corejs3": [],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 19968,
+      "reason": "cj3_hits=0"
+    },
+    {
+      "module": "module-747.js",
+      "error": "Invalid explicit day of month definition",
+      "corejs3": [],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 19968,
+      "reason": "cj3_hits=0"
+    },
+    {
+      "module": "module-747.js",
+      "error": "Invalid expression, loop limit exceeded",
+      "corejs3": [],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 19968,
+      "reason": "cj3_hits=0"
+    },
+    {
+      "module": "module-747.js",
+      "error": "Invalid list value format",
+      "corejs3": [],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 19968,
+      "reason": "cj3_hits=0"
+    },
+    {
+      "module": "module-132.js",
+      "error": "Invalid size",
+      "corejs3": [],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 847,
+      "reason": "cj3_hits=0"
+    },
+    {
+      "module": "module-328.js",
+      "error": "Not enough arguments",
+      "corejs3": [],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 125,
+      "reason": "cj3_hits=0"
+    },
+    {
+      "module": "module-101.js",
+      "error": "Object already initialized",
+      "corejs3": [],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 1800,
+      "reason": "cj3_hits=0"
+    },
+    {
+      "module": "module-3511.js",
+      "error": "Object is not async iterable",
+      "corejs3": [],
+      "corejs2": [],
+      "in_v3_tree": false,
+      "bytes": 371,
+      "reason": "cj3_hits=0"
+    },
+    {
+      "module": "module-747.js",
+      "error": "Out of the timespan range",
+      "corejs3": [],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 19968,
+      "reason": "cj3_hits=0"
+    },
+    {
+      "module": "module-227.js",
+      "error": "RegExp#exec called on incompatible receiver",
+      "corejs3": [],
+      "corejs2": [
+        "client/core.js",
+        "client/core.min.js",
+        "client/shim.js",
+        "client/shim.min.js",
+        "modules/_regexp-exec-abstract.js"
+      ],
+      "in_v3_tree": true,
+      "bytes": 605,
+      "reason": "cj3_hits=0"
+    },
+    {
+      "module": "module-1514.js",
+      "error": "The callback provided as parameter 1 is not a function.",
+      "corejs3": [],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 14329,
+      "reason": "cj3_hits=0"
+    },
+    {
+      "module": "module-507.js",
+      "error": "Wrong number of repetitions",
+      "corejs3": [],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 467,
+      "reason": "cj3_hits=0"
+    },
+    {
+      "module": "module-1514.js",
+      "error": "parameter 1 is not of type \"Element\".",
+      "corejs3": [],
+      "corejs2": [],
+      "in_v3_tree": true,
+      "bytes": 14329,
+      "reason": "cj3_hits=0"
+    }
+  ]
+}

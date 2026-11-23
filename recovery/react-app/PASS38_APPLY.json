@@ -1,0 +1,12 @@
+{
+  "applied": [
+    {
+      "module": "module-5044.js",
+      "orig": "pages/projects/components/Selector/index.js",
+      "kind": "body",
+      "lit": "strategy-group"
+    }
+  ],
+  "skipped": [],
+  "count": 1
+}

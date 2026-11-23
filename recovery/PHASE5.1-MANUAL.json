@@ -1,0 +1,53 @@
+{
+  "beforeUser": {
+    "userPresent": false,
+    "username": null
+  },
+  "kapisBefore": {
+    "http": 403,
+    "gitVersion": null
+  },
+  "kapisAfter": {
+    "http": 200,
+    "gitVersion": "v4.1.4-42+a70cb1ca584a12-dirty"
+  },
+  "cookieNames": [
+    "lang",
+    "oAuthLoginInfo",
+    "token",
+    "expire",
+    "refreshToken"
+  ],
+  "stillOnLogin": {
+    "href": "http://127.0.0.1:8108/login",
+    "path": "/login",
+    "rootChildCount": 1,
+    "text": "Welcome\nUsername or Email*\nPassword*\nLog In",
+    "userPresent": false,
+    "userIsRecovered": false
+  },
+  "settings": {
+    "href": "http://127.0.0.1:8108/login",
+    "path": "/login",
+    "rootChildCount": 1,
+    "text": "Welcome\nUsername or Email*\nPassword*\nLog In",
+    "userPresent": false,
+    "userIsRecovered": false
+  },
+  "access": {
+    "href": "http://127.0.0.1:8108/login",
+    "path": "/login",
+    "rootChildCount": 1,
+    "text": "Welcome\nUsername or Email*\nPassword*\nLog In",
+    "userPresent": false,
+    "userIsRecovered": false
+  },
+  "accessRefresh": {
+    "href": "http://127.0.0.1:8108/login",
+    "path": "/login",
+    "rootChildCount": 1,
+    "text": "Welcome\nUsername or Email*\nPassword*\nLog In",
+    "userPresent": false,
+    "userIsRecovered": false
+  }
+}

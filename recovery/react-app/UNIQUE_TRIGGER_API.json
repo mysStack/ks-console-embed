@@ -1,0 +1,52 @@
+{
+  "orig_files": 338,
+  "leftover": 4168,
+  "stats": {
+    "trigger": {
+      "raw": 4,
+      "unique_rows": 4
+    },
+    "kapis": {
+      "raw": 0,
+      "unique_rows": 0
+    },
+    "data_test": {
+      "raw": 4,
+      "unique_rows": 4
+    },
+    "display": {
+      "raw": 0,
+      "unique_rows": 0
+    },
+    "action_key": {
+      "raw": 0,
+      "unique_rows": 0
+    }
+  },
+  "unique": [
+    {
+      "kind": "trigger",
+      "lit": "project.default.resource",
+      "module": "module-4938.js",
+      "orig": "pages/fedprojects/containers/BaseInfo/index.js"
+    },
+    {
+      "kind": "trigger",
+      "lit": "network.ippool.add",
+      "module": "module-2409.js",
+      "orig": "pages/clusters/containers/Network/IPPools/index.js"
+    },
+    {
+      "kind": "trigger",
+      "lit": "gateways.delete",
+      "module": "module-1133.js",
+      "orig": "pages/clusters/containers/Gateway/Detail/index.js"
+    },
+    {
+      "kind": "data_test",
+      "lit": "detail-labels",
+      "module": "module-3825.js",
+      "orig": "core/containers/Base/Detail/BaseInfo/index.js"
+    }
+  ]
+}

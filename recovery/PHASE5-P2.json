@@ -1,0 +1,52 @@
+{
+  "ident": {
+    "http": 200,
+    "json": {
+      "artifact": "phase4-build",
+      "mainJs": "app.f61e4774.js",
+      "buildDir": "/home/bruce/code/ks-develop/kse-console-v3/recovery/react-app/phase4-build",
+      "apiOrigin": "http://192.168.2.131:30880"
+    },
+    "artifact": "phase4-build"
+  },
+  "before": {
+    "http": 403,
+    "gitVersion": null
+  },
+  "after": {
+    "http": 200,
+    "gitVersion": "v4.1.4-42+a70cb1ca584a12-dirty"
+  },
+  "login": {
+    "http": 200,
+    "apiOrigin": "http://192.168.2.131:30880",
+    "jsonKeys": [
+      "success",
+      "redirect"
+    ],
+    "jsonStatus": null,
+    "jsonReason": null
+  },
+  "dashboard": {
+    "href": "http://127.0.0.1:8108/dashboard",
+    "title": "v3dist recovered React app",
+    "rootChildCount": 1,
+    "text": "Hello recovered\n\nLast login: 2026-11-23 17:56:33\n\nYou do not belong to any workspace.\n\nPlease contact a workspace administrator to invite you to join a workspace.",
+    "userIsRecovered": true,
+    "userPresent": true,
+    "hasMainScript": true,
+    "overlayText": ""
+  },
+  "deployments": {
+    "href": "http://127.0.0.1:8108/clusters/default/deployments",
+    "title": "v3dist recovered React app",
+    "rootChildCount": 1,
+    "text": "\t\nName\nStatus\nCustomize Columns\nStatus\nProject\nUpdate Time\nCreate\n\tName\nSort\nAscending\nDescending\n\tStatus\nFilter\nRunning\nUpdating\nStopped\n\tProject\tUpdate Time\nSort\nAscending\nDescending\n\t\n\t\nbms-server\nMinimumReplicasUnavailable\nStatus Information\nProgressing\n\nStatus: True\n\nReason: NewReplicaSetAvailable\n\nMessage: ReplicaSet \"bms-server-6c6575b64b\" has successfully progressed.\n\nAvailable\n\nStatus: False\n\nReason: MinimumReplicasUnavailable\n\nMessage: Deployment does not have minimum availability.\n\n\t\n",
+    "userIsRecovered": true,
+    "userPresent": true,
+    "hasMainScript": true,
+    "overlayText": ""
+  },
+  "pageErrors": [],
+  "authCookieWorked": true
+}

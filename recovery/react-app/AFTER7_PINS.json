@@ -1,0 +1,209 @@
+{
+  "live_set": 2295,
+  "missing_orig": 446,
+  "unique_importer_1_1": 0,
+  "unique_barrel": 0,
+  "family_pins": 0,
+  "literal_pins": 0,
+  "orig_unique_import_pins": 0,
+  "orig_unique_import_zero": 113,
+  "multi_families": [
+    {
+      "parent": "components/Base/index.js",
+      "leftover_kids": [
+        "module-1102.js",
+        "module-1306.js",
+        "module-1550.js"
+      ],
+      "orig_unnamed": [
+        "components/Base/Slider/index.js"
+      ]
+    },
+    {
+      "parent": "components/Inputs/index.js",
+      "leftover_kids": [
+        "module-2884.js",
+        "module-2887.js"
+      ],
+      "orig_unnamed": [
+        "components/Inputs/EnvironmentInput/EnvFromInput/index.js"
+      ]
+    },
+    {
+      "parent": "core/App.js",
+      "leftover_kids": [
+        "module-762.js",
+        "module-767.js"
+      ],
+      "orig_unnamed": [
+        "core/routeSync.js",
+        "core/routerBase.js"
+      ]
+    }
+  ],
+  "multi_family_count": 3,
+  "pins": [],
+  "pin_count": 0,
+  "reason_counts": {
+    "orig_unique_import_0_kid": 113
+  },
+  "vendor_cands": [],
+  "cron_hits": [],
+  "babel_extra": [],
+  "named_imports": [],
+  "cssish": 266,
+  "tiny": 1208,
+  "kse_only_unique_t_0_orig": 120,
+  "skipped_sample": [
+    {
+      "path": "components/Modals/CDAdvanceEdit/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "actions/cd.js"
+    },
+    {
+      "path": "pages/fedprojects/components/ConfigTemplate/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "actions/federated.js"
+    },
+    {
+      "path": "components/Base/Upload/utils/attr-accept.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "components/Base/Upload/Upload.js"
+    },
+    {
+      "path": "components/Base/Upload/utils/traverseFileTree.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "components/Base/Upload/Upload.js"
+    },
+    {
+      "path": "components/Inputs/EnvironmentInput/envFrom.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "components/Forms/Workload/ContainerSettings/ContainerForm/index.js"
+    },
+    {
+      "path": "components/Modals/About/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "components/Layout/LoginInfo/index.js"
+    },
+    {
+      "path": "components/Modals/CustomMonitoring/components/FormInput/ThemeSelector/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "components/Modals/CustomMonitoring/components/FormInput/index.js"
+    },
+    {
+      "path": "components/Modals/StorageclassAutoresizer/Slider/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "components/Modals/StorageclassAutoresizer/index.js"
+    },
+    {
+      "path": "core/embed.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "core/i18n.js"
+    },
+    {
+      "path": "core/localeAsset.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "core/i18n.js"
+    },
+    {
+      "path": "core/containers/Login/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "core/routes.js"
+    },
+    {
+      "path": "core/containers/LoginConfirm/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "core/routes.js"
+    },
+    {
+      "path": "core/containers/PasswordConfirm/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "core/routes.js"
+    },
+    {
+      "path": "core/layouts/Base/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "core/routes.js"
+    },
+    {
+      "path": "pages/clusters/components/Cards/Monitoring/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "pages/clusters/components/Cards/Monitoring/ETCD/index.js"
+    },
+    {
+      "path": "core/containers/Base/Detail/BaseInfo/Attributes/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "pages/clusters/containers/LogCollections/Detail/Configuration/index.js"
+    },
+    {
+      "path": "pages/clusters/containers/Monitor/Cluster/Monitor/APIServer/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "pages/clusters/containers/Monitor/Cluster/routes.js"
+    },
+    {
+      "path": "pages/clusters/containers/Monitor/Cluster/Monitor/Etcd/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "pages/clusters/containers/Monitor/Cluster/routes.js"
+    },
+    {
+      "path": "pages/clusters/containers/Monitor/Cluster/Monitor/PhysicalResource/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "pages/clusters/containers/Monitor/Cluster/routes.js"
+    },
+    {
+      "path": "pages/clusters/containers/Monitor/Cluster/Monitor/Scheduler/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "pages/clusters/containers/Monitor/Cluster/routes.js"
+    },
+    {
+      "path": "pages/clusters/containers/Monitor/Cluster/Overview/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "pages/clusters/containers/Monitor/Cluster/routes.js"
+    },
+    {
+      "path": "pages/clusters/containers/Monitor/Cluster/Ranking/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "pages/clusters/containers/Monitor/Cluster/routes.js"
+    },
+    {
+      "path": "pages/clusters/containers/Gateway/Components/GatewayCard/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "pages/clusters/containers/Projects/Detail/Gateway/index.js"
+    },
+    {
+      "path": "pages/projects/containers/Overview/ResourceUsage/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "pages/clusters/containers/Projects/Detail/Overview/index.js"
+    },
+    {
+      "path": "pages/clusters/containers/Base/List/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "pages/clusters/routes/index.js"
+    },
+    {
+      "path": "pages/clusters/containers/ConfigMaps/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "pages/clusters/routes/index.js"
+    },
+    {
+      "path": "pages/clusters/containers/CustomMonitoring/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "pages/clusters/routes/index.js"
+    },
+    {
+      "path": "pages/clusters/containers/CustomResources/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "pages/clusters/routes/index.js"
+    },
+    {
+      "path": "pages/clusters/containers/EdgeNodes/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "pages/clusters/routes/index.js"
+    },
+    {
+      "path": "pages/clusters/containers/Gateway/index.js",
+      "reason": "orig_unique_import_0_kid",
+      "parent": "pages/clusters/routes/index.js"
+    }
+  ]
+}

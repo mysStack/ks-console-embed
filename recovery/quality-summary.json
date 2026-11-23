@@ -1,0 +1,155 @@
+{
+  "wakaru": {
+    "detected_formats": [
+      "webpack5",
+      "webpack4"
+    ],
+    "total": 5761,
+    "failed": 3,
+    "elapsed_ms": 8112,
+    "module_status": "decompiled",
+    "warning_count": 196,
+    "error_warnings": [
+      {
+        "filename": "module-958.js",
+        "kind": "webpack_factory_recovery_failed",
+        "is_error": true,
+        "message": "webpack factory could not take the `module`/`exports`/`require` parameter names without capturing a free reference; preserving the opaque factory body"
+      },
+      {
+        "filename": "module-1056.js",
+        "kind": "webpack_factory_recovery_failed",
+        "is_error": true,
+        "message": "webpack factory could not take the `module`/`exports`/`require` parameter names without capturing a free reference; preserving the opaque factory body"
+      },
+      {
+        "filename": "module-1648.js",
+        "kind": "webpack_factory_recovery_failed",
+        "is_error": true,
+        "message": "webpack factory could not take the `module`/`exports`/`require` parameter names without capturing a free reference; preserving the opaque factory body"
+      }
+    ],
+    "runtime_residual": [
+      {
+        "filename": "module-992.js",
+        "kind": "runtime_residual",
+        "is_error": false,
+        "message": "webpack `require` keeps module ids the split output does not link: `1056` in an opaque module; these calls throw when they run"
+      },
+      {
+        "filename": "module-1263.js",
+        "kind": "runtime_residual",
+        "is_error": false,
+        "message": "webpack `require` keeps module ids the split output does not link: `958` in an opaque module; these calls throw when they run"
+      },
+      {
+        "filename": "module-1469.js",
+        "kind": "runtime_residual",
+        "is_error": false,
+        "message": "webpack `require` keeps module ids the split output does not link: `1648`, `958` in an opaque module; these calls throw when they run"
+      },
+      {
+        "filename": "module-1652.js",
+        "kind": "runtime_residual",
+        "is_error": false,
+        "message": "webpack `require` keeps module ids the split output does not link: `958` in an opaque module; these calls throw when they run"
+      },
+      {
+        "filename": "module-2016.js",
+        "kind": "runtime_residual",
+        "is_error": false,
+        "message": "webpack `require` keeps module ids the split output does not link: `1648`, `958`, `1056` in an opaque module; these calls throw when they run"
+      }
+    ],
+    "missing_imported_name": [
+      {
+        "filename": "module-912.js",
+        "kind": "missing_imported_name",
+        "is_error": false,
+        "message": "imports `default` from \"./module-2017.js\", which does not export it; the module fails to link when it loads"
+      },
+      {
+        "filename": "module-3414.js",
+        "kind": "missing_imported_name",
+        "is_error": false,
+        "message": "imports `default` from \"./module-1021.js\", which does not export it; the module fails to link when it loads"
+      },
+      {
+        "filename": "module-3438.js",
+        "kind": "missing_imported_name",
+        "is_error": false,
+        "message": "imports `default` from \"./module-1021.js\", which does not export it; the module fails to link when it loads"
+      },
+      {
+        "filename": "module-3440.js",
+        "kind": "missing_imported_name",
+        "is_error": false,
+        "message": "imports `default` from \"./module-1021.js\", which does not export it; the module fails to link when it loads"
+      },
+      {
+        "filename": "module-3441.js",
+        "kind": "missing_imported_name",
+        "is_error": false,
+        "message": "imports `default` from \"./module-1021.js\", which does not export it; the module fails to link when it loads"
+      },
+      {
+        "filename": "module-3442.js",
+        "kind": "missing_imported_name",
+        "is_error": false,
+        "message": "imports `default` from \"./module-1021.js\", which does not export it; the module fails to link when it loads"
+      },
+      {
+        "filename": "module-3465.js",
+        "kind": "missing_imported_name",
+        "is_error": false,
+        "message": "imports `default` from \"./module-1386.js\", which does not export it; the module fails to link when it loads"
+      },
+      {
+        "filename": "module-3470.js",
+        "kind": "missing_imported_name",
+        "is_error": false,
+        "message": "imports `default` from \"./module-1021.js\", which does not export it; the module fails to link when it loads"
+      }
+    ]
+  },
+  "files": {
+    "js": 5761,
+    "name_classes": {
+      "numeric": 5760,
+      "entry": 1
+    },
+    "react_identifier_files": 9,
+    "createElement_files": 495,
+    "createElement_calls": 4626,
+    "jsx_runtime_files": 0,
+    "numeric_require_files": 5,
+    "import_statement_files": 3567,
+    "export_statement_files": 5326,
+    "routeish_files": 31,
+    "bytes": 22545414
+  },
+  "provenance": {
+    "exists": true,
+    "type": "dict",
+    "keys": [
+      "format",
+      "strategy",
+      "modules"
+    ],
+    "nested_keys": {
+      "modules": [
+        "entry.js",
+        "module-0.js",
+        "module-1.js",
+        "module-10.js",
+        "module-100.js",
+        "module-1000.js",
+        "module-1001.js",
+        "module-1002.js"
+      ]
+    }
+  },
+  "vendor_path_hits": [],
+  "entry_head": "import \"./module-6.js\";\nimport \"./module-98.js\";\nimport \"./module-75.js\";\nimport \"./module-7.js\";\nimport \"./module-41.js\";\nimport \"./module-44.js\";\nimport module96 from \"./module-96.js\";\nimport \"./module-10.js\";\nimport \"./module-4.js\";\nimport \"./module-22.js\";\nimport \"./module-552.js\";\nimport * as module553 from \"./module-553.js\";\nimport module106 from \"./module-106.js\";\nimport module186 from \"./module-186.js\";\nimport module240 from \"./module-240.js\";\nimport { isAppsPage, isMemberClusterPage } from \"./module-52.js\";\nimport module529 from \"./module-529.js\";\nimport module63 from \"./module-63.js\";\nimport module759 from \"./module-759.js\";\nimport module773 from \"./module-773.js\";\nimport module775 from \"./module-775.js\";\nwindow.onunhandledrejection = function(e) {\n    const o = e?.req;\n    const a = e?.data;\n    const i = (o?.method ?? \"\").toUpperCase();\n    const l = a?.code;\n    const s = a?.reason;\n    const u = i === \"GET\" && l === 403 && s === \"Forbidden\";\n    if (e && (e.status === \"Failure\" || e.status >= 400)) {\n        if (e.status === 401 || e.reason === \"Unauthorized\") {\n            if (isAppsPage() || isMemberClusterPage(location.pathname, e.message)) {\n                module240.error({\n                    title: e.reason,\n                    content: t(e.message),\n                    duration: 6000\n                });\n            } else {\n                if (window.self !== window.top) {\n                    window.top.location.href = `/login?referer=${location.pathname",
+  "business_sample": null
+}

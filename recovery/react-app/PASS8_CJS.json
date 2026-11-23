@@ -1,0 +1,462 @@
+{
+  "hits": {
+    "module-283.js": [
+      {
+        "file": "unpacked/module-114.js",
+        "live_leftover": true,
+        "promoted": false,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "unpacked/module-150.js",
+        "live_leftover": true,
+        "promoted": false,
+        "props": [
+          "concat"
+        ],
+        "call": false
+      }
+    ],
+    "module-376.js": [
+      {
+        "file": "unpacked/module-114.js",
+        "live_leftover": true,
+        "promoted": false,
+        "props": [],
+        "call": false
+      }
+    ],
+    "module-8.js": [
+      {
+        "file": "unpacked/module-200.js",
+        "live_leftover": true,
+        "promoted": false,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "unpacked/module-704.js",
+        "live_leftover": true,
+        "promoted": false,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "unpacked/module-706.js",
+        "live_leftover": true,
+        "promoted": false,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "unpacked/module-118.js",
+        "live_leftover": true,
+        "promoted": false,
+        "props": [],
+        "call": true
+      },
+      {
+        "file": "unpacked/module-932.js",
+        "live_leftover": true,
+        "promoted": false,
+        "props": [],
+        "call": true
+      },
+      {
+        "file": "unpacked/module-1769.js",
+        "live_leftover": true,
+        "promoted": false,
+        "props": [],
+        "call": true
+      },
+      {
+        "file": "unpacked/module-1525.js",
+        "live_leftover": true,
+        "promoted": false,
+        "props": [],
+        "call": true
+      }
+    ],
+    "module-30.js": [
+      {
+        "file": "unpacked/module-955.js",
+        "live_leftover": true,
+        "promoted": false,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "unpacked/module-955.js",
+        "live_leftover": true,
+        "promoted": false,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "unpacked/module-32.js",
+        "live_leftover": true,
+        "promoted": false,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "unpacked/module-3009.js",
+        "live_leftover": true,
+        "promoted": false,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "unpacked/module-3009.js",
+        "live_leftover": true,
+        "promoted": false,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "components/Forms/Workload/ContainerSettings/ContainerForm/Environments.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "stores/grayrelease.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "stores/grayrelease.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "stores/devops.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "stores/devops.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "stores/cluster.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "stores/cluster.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "stores/group.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "stores/group.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "stores/node.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "stores/node.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "stores/openpitrix/app.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "stores/openpitrix/app.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "stores/meter/base.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "stores/meter/base.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "stores/meter/cluster.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "stores/meter/cluster.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "stores/alerting/message.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "stores/alerting/message.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "stores/alerting/policy.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "stores/alerting/policy.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      }
+    ],
+    "module-423.js": [
+      {
+        "file": "unpacked/module-704.js",
+        "live_leftover": true,
+        "promoted": false,
+        "props": [],
+        "call": true
+      },
+      {
+        "file": "unpacked/module-706.js",
+        "live_leftover": true,
+        "promoted": false,
+        "props": [],
+        "call": true
+      }
+    ],
+    "module-129.js": [
+      {
+        "file": "unpacked/module-294.js",
+        "live_leftover": true,
+        "promoted": false,
+        "props": [],
+        "call": true
+      },
+      {
+        "file": "unpacked/module-404.js",
+        "live_leftover": true,
+        "promoted": false,
+        "props": [],
+        "call": true
+      },
+      {
+        "file": "unpacked/module-231.js",
+        "live_leftover": true,
+        "promoted": false,
+        "props": [],
+        "call": true
+      }
+    ],
+    "module-3.js": [
+      {
+        "file": "pages/edgewize/rule-group.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "pages/projects/alert-rules.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      }
+    ],
+    "module-1387.js": [
+      {
+        "file": "stores/auditing.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "stores/eventSearch.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "stores/logging/query.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      }
+    ],
+    "module-244.js": [
+      {
+        "file": "stores/root.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      },
+      {
+        "file": "stores/logging/query.js",
+        "live_leftover": false,
+        "promoted": true,
+        "props": [],
+        "call": false
+      }
+    ]
+  },
+  "need_wrap": [],
+  "calls": {
+    "module-423.js": [
+      "unpacked/module-704.js",
+      "unpacked/module-706.js"
+    ],
+    "module-8.js": [
+      "unpacked/module-118.js",
+      "unpacked/module-932.js",
+      "unpacked/module-1769.js",
+      "unpacked/module-1525.js"
+    ],
+    "module-129.js": [
+      "unpacked/module-294.js",
+      "unpacked/module-404.js",
+      "unpacked/module-231.js"
+    ]
+  },
+  "import_default": {},
+  "already": 220,
+  "shim_ids": [
+    "8",
+    "25",
+    "30",
+    "38",
+    "222",
+    "283",
+    "367",
+    "376",
+    "419",
+    "421",
+    "423"
+  ],
+  "webpack_shim_ids": [
+    "1",
+    "2",
+    "3",
+    "14",
+    "41",
+    "47",
+    "83",
+    "129",
+    "164",
+    "186",
+    "238",
+    "239",
+    "243",
+    "244",
+    "264",
+    "293",
+    "311",
+    "431",
+    "433",
+    "478",
+    "606",
+    "662",
+    "717",
+    "749",
+    "756",
+    "831",
+    "837",
+    "893",
+    "910",
+    "958",
+    "1056",
+    "1123",
+    "1258",
+    "1270",
+    "1367",
+    "1383",
+    "1387",
+    "1553",
+    "1635",
+    "1648",
+    "1816",
+    "1892",
+    "2016",
+    "2034",
+    "2053",
+    "2076",
+    "2104",
+    "2106",
+    "2107",
+    "2165",
+    "2343",
+    "2465",
+    "2773",
+    "2882",
+    "3110",
+    "3472",
+    "3474",
+    "3475",
+    "5299",
+    "5305",
+    "5731",
+    "5764",
+    "5771",
+    "5773",
+    "5774",
+    "5775",
+    "5776"
+  ]
+}

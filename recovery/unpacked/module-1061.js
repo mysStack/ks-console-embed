@@ -1,0 +1,23 @@
+export default {
+    pipelineCard: "uLmxymVsGkkYEf4yNccS6",
+    pipelineCard__title: "_374bDv2bi1dgj-3Ep0nJtt",
+    "pipelineCard__title-error": "_2f_2SEsh5G2oZIyeNZAaOj",
+    pipelineCard__content: "_1yZ2ddWm3YllTHSa1mSMac",
+    pipelineCard__item: "_1j55rjwffi54nOaArMvQB2",
+    "pipelineCard-error": "rUnBDmlIjlvSq8C8rupWI",
+    errorTip: "_1xCvRnuQl_HK5ABGqg_4Gt",
+    "pipelineCard-active": "_2RjzuvDfXn-yRmy6gVBXQ",
+    content__title: "_1LbrO1eYXEftlLojLl8elX",
+    content__title__error: "dL6e5rCCy45AlcnTNKd8c",
+    content__title__noDetail: "dN_jyqpuK7-wjUCtyBwgQ",
+    content__title__text: "_2i2A2H340NtX7tTERjbDnT",
+    content__text: "_2TlASMvryC2WAexUpv5Pt5",
+    content__detail: "_1EDW6C4SqJ_GXk04u0vtVo",
+    pipeline_column: "_2Vr4U7R21ewKodQbQ3yxvA",
+    addSteps: "_1XL2Tx9WZXsq6XUPqcr2-n",
+    addBranchCard: "_1TrqGHHYXzKjWoHt9nGppf",
+    conditions: "_1Clw9YoUbLC8bkdFwJyCp4",
+    nestStage_content: "_8fLMHq9hBtobMpLMRVB6p",
+    indentBorder: "pgY1DAUVAYW-QogDMobqg",
+    nestsStage_detail: "_3vTIWGQ45B-Lpw4vdbSQIO"
+};

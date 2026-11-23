@@ -1,0 +1,42 @@
+{
+  "applied": [
+    {
+      "module": "module-3825.js",
+      "orig": "core/containers/Base/Detail/BaseInfo/index.js",
+      "kind": "data_test",
+      "lit": "detail-labels"
+    },
+    {
+      "module": "module-3826.js",
+      "orig": "core/containers/Base/Detail/BaseInfo/BtnGroup/index.js",
+      "kind": "unique_kid",
+      "lit": "detail-more"
+    },
+    {
+      "module": "module-3828.js",
+      "orig": "core/containers/Base/Detail/BaseInfo/Label/index.js",
+      "kind": "unique_kid",
+      "lit": "label.name+value"
+    },
+    {
+      "module": "module-1217.js",
+      "orig": "core/containers/Base/Detail/BaseInfo/Attributes/index.js",
+      "kind": "unique_kid",
+      "lit": "Attributes.Item"
+    },
+    {
+      "module": "module-3830.js",
+      "orig": "core/containers/Base/Detail/BaseInfo/Attributes/attributes.js",
+      "kind": "unique_kid",
+      "lit": "styles.attributes"
+    },
+    {
+      "module": "module-3831.js",
+      "orig": "core/containers/Base/Detail/BaseInfo/Attributes/item.js",
+      "kind": "unique_kid",
+      "lit": "tooltips"
+    }
+  ],
+  "skipped": [],
+  "count": 6
+}

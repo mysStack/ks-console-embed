@@ -1,0 +1,38 @@
+{
+  "login": {
+    "bytes": 480227,
+    "overlay": false,
+    "scripts": [
+      "/app.163399b1.js"
+    ],
+    "named_src": 0,
+    "pages_login": 0,
+    "hello": 0,
+    "welcome": true,
+    "title_snip": "<title>v3dist recovered React app</title>"
+  },
+  "dashboard": {
+    "bytes": 480075,
+    "overlay": false,
+    "scripts": [
+      "/app.163399b1.js"
+    ],
+    "named_src": 0,
+    "pages_login": 0,
+    "hello": 1,
+    "welcome": false,
+    "title_snip": "<title>v3dist recovered React app</title>"
+  },
+  "bundle": {
+    "bundle": "/app.163399b1.js",
+    "bytes": 5705995,
+    "named_pages_login": 0,
+    "src_named": 0,
+    "src_pages_login": 4,
+    "src_core_App": 4,
+    "babel_helpers": 105,
+    "corejs3_modules": 752,
+    "corejs3_internals": 1140,
+    "unpacked_module": 3429
+  }
+}

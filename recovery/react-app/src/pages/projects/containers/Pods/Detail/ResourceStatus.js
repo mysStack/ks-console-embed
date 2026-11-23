@@ -1,0 +1,116 @@
+import "unpacked/module-15.js";
+import "unpacked/module-73.js";
+import "unpacked/module-48.js";
+import "unpacked/module-16.js";
+import "unpacked/module-4.js";
+import "unpacked/module-23.js";
+import "unpacked/module-24.js";
+import "unpacked/module-17.js";
+import "unpacked/module-62.js";
+import "unpacked/module-137.js";
+import "unpacked/module-45.js";
+import "unpacked/module-42.js";
+import "unpacked/module-57.js";
+import module36 from "unpacked/module-36.js";
+import module37 from "unpacked/module-37.js";
+import module55 from "unpacked/module-55.js";
+import module56 from "utils/babel-helpers/possibleConstructorReturn";
+import module51 from "unpacked/module-51.js";
+import { Component } from "unpacked/module-553.js";
+import module14 from "unpacked/module-14.js";
+import module63 from "unpacked/module-63.js";
+import { inject, observer } from "unpacked/module-239.js";
+import { isEdgeWizePage } from "utils/index";
+import Module3897 from "components/Cards/Containers/index";
+import Module1825 from "components/Cards/Volumes";
+let l;
+const y = inject("detailStore")(l = observer(l = ((Component_1)=>{
+    module55(r, Component_1);
+    var a = ((e)=>{
+        const t = (()=>{
+            if (typeof Reflect === "undefined" || !Reflect.construct) {
+                return false;
+            }
+            if (Reflect.construct.sham) {
+                return false;
+            }
+            if (typeof Proxy === "function") {
+                return true;
+            }
+            try {
+                Date.prototype.toString.call(Reflect.construct(Date, [], function() {}));
+                return true;
+            } catch (e) {
+                return false;
+            }
+        })();
+        return function() {
+            let a;
+            const r = module51(e);
+            if (t) {
+                const n = module51(this).constructor;
+                a = Reflect.construct(r, arguments, n);
+            } else {
+                a = r.apply(this, arguments);
+            }
+            return module56(this, a);
+        };
+    })(r);
+    function r() {
+        module36(this, r);
+        return a.apply(this, arguments);
+    }
+    module37(r, [
+        {
+            key: "renderContainers",
+            value: function() {
+                const e = module14.toJS(this.store.detail);
+                const { name, cluster, containers, initContainers } = e;
+                return <Module3897 prefix={this.prefix} isEdgeWize={isEdgeWizePage()} cluster={cluster} title={t("CONTAINER_PL")} containers={containers} initContainers={initContainers} podName={name}/>;
+            }
+        },
+        {
+            key: "renderVolumes",
+            value: function() {
+                const e = module14.toJS(this.store.detail);
+                const { volumes, containers } = e;
+                if (module63(volumes)) {
+                    return null;
+                }
+                return <Module1825 isEdgeWize={isEdgeWizePage()} volumes={volumes} containers={containers} loading={this.store.isLoading} match={this.props.match}/>;
+            }
+        },
+        {
+            key: "renderContent",
+            value: function() {
+                return <div>{this.renderContainers()}{this.renderVolumes()}</div>;
+            }
+        },
+        {
+            key: "render",
+            value: function() {
+                return <div>{this.renderContent()}</div>;
+            }
+        },
+        {
+            key: "module",
+            get: function() {
+                return this.props.detailStore.module;
+            }
+        },
+        {
+            key: "store",
+            get: function() {
+                return this.props.detailStore;
+            }
+        },
+        {
+            key: "prefix",
+            get: function() {
+                return this.props.match.url.split("/").slice(0, -1).join("/");
+            }
+        }
+    ]);
+    return r;
+})(Component)) || l) || l;
+export default y;

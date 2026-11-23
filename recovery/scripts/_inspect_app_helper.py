@@ -1,0 +1,10 @@
+from pathlib import Path
+root = Path("/home/bruce/code/ks-develop/kse-console-v3/recovery/react-app/phase4-build")
+app = next(root.glob("app.*.js"))
+t = app.read_text(encoding="utf-8", errors="ignore")
+print(app.name, "len", len(t))
+print("---1972---")
+print(t[1800:2300])
+print("---getPrototypeOf---")
+i = t.find("getPrototypeOf")
+print(t[max(0, i - 120) : i + 200])

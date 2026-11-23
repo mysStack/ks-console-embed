@@ -1,0 +1,318 @@
+=== indexing ===
+
+=== FAMILY components/Forms/Workload/ClusterDiffSettings/ContainersMapperWithService.js -> module-2930.js [method:renderContainer] parent=pages/fedprojects/components/ClusterDiffSettings.js ===
+  module-2930.js named=[] css=False mid=2930
+    importers [('module-2929.js', ['pages/fedprojects/components/ClusterDiffSettings.js'])]
+    methods ['showEdit', 'handleEdit', 'renderContainer', 'if']
+    t ['div']
+    kids [('module-31.js', ['?']), ('module-61.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-26.js', ['?']), ('module-74.js', ['?']), ('module-63.js', ['?']), ('module-862.js', ['?']), ('module-60.js', ['?']), ('module-553.js', ['?']), ('module-3.js', ['?']), ('module-2931.js', ['?'])]
+    head import "./module-12.js"; | import "./module-5.js"; | import "./module-11.js"; | import "./module-29.js"; | import "./module-6.js"; | import "./module-18.js"; | import "./module-16.js"; | import "./module-9.js"; | import "./module-13.js"; | 
+    orig_importers []
+    orig_methods ['showEdit', 'handleEdit', 'renderContainer', 'if', 'onChange', 'render']
+    orig_t []
+    unique_named_parent True unique_orig False
+    method 'renderContainer' unnamed=['module-2930.js'] sib=['module-2930.js'] named=[('module-1599.js', ['components/Forms/Workload/ClusterDiffSettings/ContainersMapper.js']), ('module-2612.js', ['pages/projects/components/Modals/CreateApp/Services/ServiceList/ClusterDiffs/ContainersMapper.js'])]
+    orig_hits ['pages/projects/components/Modals/CreateApp/Services/ServiceList/ClusterDiffs/ContainersMapper.js', 'components/Forms/Workload/ClusterDiffSettings/ContainersMapperWithService.js', 'components/Forms/Workload/ClusterDiffSettings/ContainersMapper.js'] count 3
+  VERDICT ACCEPT unique_among_siblings method:renderContainer
+
+=== FAMILY components/Forms/Workload/ClusterDiffSettings/ContainersMapperWithService.js -> module-2930.js [lit:getContainer] parent=pages/fedprojects/components/ClusterDiffSettings.js ===
+  module-2930.js named=[] css=False mid=2930
+    importers [('module-2929.js', ['pages/fedprojects/components/ClusterDiffSettings.js'])]
+    methods ['showEdit', 'handleEdit', 'renderContainer', 'if']
+    t ['div']
+    kids [('module-31.js', ['?']), ('module-61.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-26.js', ['?']), ('module-74.js', ['?']), ('module-63.js', ['?']), ('module-862.js', ['?']), ('module-60.js', ['?']), ('module-553.js', ['?']), ('module-3.js', ['?']), ('module-2931.js', ['?'])]
+    head import "./module-12.js"; | import "./module-5.js"; | import "./module-11.js"; | import "./module-29.js"; | import "./module-6.js"; | import "./module-18.js"; | import "./module-16.js"; | import "./module-9.js"; | import "./module-13.js"; | 
+    orig_importers []
+    orig_methods ['showEdit', 'handleEdit', 'renderContainer', 'if', 'onChange', 'render']
+    orig_t []
+    unique_named_parent True unique_orig False
+    lit 'getContainer' unnamed=['module-2930.js'] sib=['module-2930.js'] named=[('module-1599.js', ['components/Forms/Workload/ClusterDiffSettings/ContainersMapper.js']), ('module-2612.js', ['pages/projects/components/Modals/CreateApp/Services/ServiceList/ClusterDiffs/ContainersMapper.js'])]
+    orig_hits [] count 0
+  VERDICT ACCEPT unique_among_siblings lit:getContainer
+
+=== FAMILY components/Forms/Workload/ClusterDiffSettings/ContainerPortsWithService.js -> module-2932.js [t:SERVICE_PORT] parent=pages/fedprojects/components/ClusterDiffSettings.js ===
+  module-2932.js named=[] css=False mid=2932
+    importers [('module-2929.js', ['pages/fedprojects/components/ClusterDiffSettings.js'])]
+    methods ['handleSubmit', 'if']
+    t ['div', 'span', 'PROTOCOL', 'NAME', 'CONTAINER_PORT', 'SERVICE_PORT']
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-241.js', ['?']), ('module-1050.js', ['components/Forms/Workload/ClusterDiffSettings/EditForm.js']), ('module-1096.js', ['components/Forms/Workload/ContainerSettings/ContainerForm/Ports.js']), ('module-2933.js', ['?'])]
+    head import "./module-15.js"; | import "./module-5.js"; | import "./module-18.js"; | import "./module-16.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-17.js"; | import "./module-45.js"; | import "./module-42.js"; |
+    orig_importers []
+    orig_methods ['handleSubmit', 'render']
+    orig_t ['PROTOCOL', 'NAME', 'CONTAINER_PORT', 'SERVICE_PORT']
+    unique_named_parent True unique_orig False
+    t 'SERVICE_PORT' unnamed=['module-2932.js'] sib=['module-2932.js'] named=[('module-1330.js', ['components/Inputs/ServicePort.js']), ('module-1600.js', ['components/Forms/Workload/ClusterDiffSettings/ContainerPorts.js']), ('module-1534.js', ['components/Inputs/ContainerServicePort.js'])]
+    orig_hits ['components/Inputs/ServicePort.js', 'components/Inputs/ContainerServicePort.js', 'components/Forms/Workload/ClusterDiffSettings/ContainerPorts.js', 'components/Forms/Workload/ClusterDiffSettings/ContainerPortsWithService.js'] count 4
+  VERDICT ACCEPT unique_among_siblings t:SERVICE_PORT
+
+=== FAMILY pages/fedprojects/components/ContainerImage.js -> module-2934.js [lit:fetchImageSecret] parent=pages/fedprojects/components/ClusterDiffSettings.js ===
+  module-2934.js named=[] css=False mid=2934
+    importers [('module-2929.js', ['pages/fedprojects/components/ClusterDiffSettings.js'])]
+    methods ['handleSubmit', 'if']
+    t ['span', 'IMAGE']
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-26.js', ['?']), ('module-189.js', ['?']), ('module-1166.js', ['?']), ('module-159.js', ['?']), ('module-1.js', ['?']), ('module-239.js', ['?']), ('module-14.js', ['?']), ('module-886.js', ['stores/quota.js']), ('module-914.js', ['stores/workspace.quota.js']), ('module-52.js', ['utils/index.js'])]
+    head import "./module-12.js"; | import "./module-5.js"; | import "./module-11.js"; | import "./module-6.js"; | import "./module-30.js"; | import "./module-9.js"; | import "./module-13.js"; | import "./module-10.js"; | import "./module-4.js"; | i
+    orig_importers ['pages/fedprojects/components/ClusterDiffSettings.js']
+    orig_methods ['handleSubmit', 'constructor', 'getChildContext', 'componentDidMount', 'fetchImageSecret', 'fetchQuota', 'if', 'render']
+    orig_t ['IMAGE']
+    unique_named_parent True unique_orig True
+    lit 'fetchImageSecret' unnamed=['module-2934.js'] sib=['module-2934.js'] named=[]
+    orig_hits [] count 0
+  VERDICT ACCEPT unique_importer+sib lit:fetchImageSecret
+
+=== FAMILY pages/fedprojects/components/ContainerImage.js -> module-2934.js [method:imageRegistryStore] parent=pages/fedprojects/components/ClusterDiffSettings.js ===
+  module-2934.js named=[] css=False mid=2934
+    importers [('module-2929.js', ['pages/fedprojects/components/ClusterDiffSettings.js'])]
+    methods ['handleSubmit', 'if']
+    t ['span', 'IMAGE']
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-26.js', ['?']), ('module-189.js', ['?']), ('module-1166.js', ['?']), ('module-159.js', ['?']), ('module-1.js', ['?']), ('module-239.js', ['?']), ('module-14.js', ['?']), ('module-886.js', ['stores/quota.js']), ('module-914.js', ['stores/workspace.quota.js']), ('module-52.js', ['utils/index.js'])]
+    head import "./module-12.js"; | import "./module-5.js"; | import "./module-11.js"; | import "./module-6.js"; | import "./module-30.js"; | import "./module-9.js"; | import "./module-13.js"; | import "./module-10.js"; | import "./module-4.js"; | i
+    orig_importers ['pages/fedprojects/components/ClusterDiffSettings.js']
+    orig_methods ['handleSubmit', 'constructor', 'getChildContext', 'componentDidMount', 'fetchImageSecret', 'fetchQuota', 'if', 'render']
+    orig_t ['IMAGE']
+    unique_named_parent True unique_orig True
+    method 'imageRegistryStore' unnamed=[] sib=[] named=[]
+    orig_hits [] count 0
+  VERDICT REJECT needle not unique among siblings []
+
+=== METHOD pages/projects/components/Modals/PodsMonitoring.js -> module-1818.js [fetchMonitorings] ===
+  module-1818.js named=[] css=False mid=1818
+    importers [('module-1072.js', ['?']), ('module-1985.js', ['?'])]
+    methods ['getItemName', 'handleChangeChecked', 'if']
+    t []
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-1.js', ['?']), ('module-63.js', ['?']), ('module-26.js', ['?']), ('module-989.js', ['?']), ('module-1799.js', ['components/Modals/Monitoring/Controller.js']), ('module-3860.js', ['pages/projects/components/Modals/PodsMonitoring/Resources.js']), ('module-3861.js', ['?']), ('module-1401.js', ['?'])]
+    head import "./module-12.js"; | import "./module-11.js"; | import "./module-29.js"; | import "./module-6.js"; | import "./module-84.js"; | import "./module-18.js"; | import "./module-48.js"; | import "./module-97.js"; | import "./module-16.js"; 
+    orig_importers []
+    orig_methods ['getItemName', 'fetchResources', 'fetchMonitorings', 'fetchData', 'handleChangeChecked', 'onCancel', 'constructor', 'componentDidMount', 'init', 'if', 'renderCharts', 'renderResroucesList', 'render']
+    method 'fetchMonitorings' unnamed=[] named=[] nfiles=0
+    orig_method_hits ['pages/projects/components/Modals/PodsMonitoring.js'] count 1
+  VERDICT REJECT method not unique unnamed=[]
+
+=== METHOD pages/projects/components/Modals/PodsMonitoring.js -> module-1818.js [handleChangeChecked] ===
+  module-1818.js named=[] css=False mid=1818
+    importers [('module-1072.js', ['?']), ('module-1985.js', ['?'])]
+    methods ['getItemName', 'handleChangeChecked', 'if']
+    t []
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-1.js', ['?']), ('module-63.js', ['?']), ('module-26.js', ['?']), ('module-989.js', ['?']), ('module-1799.js', ['components/Modals/Monitoring/Controller.js']), ('module-3860.js', ['pages/projects/components/Modals/PodsMonitoring/Resources.js']), ('module-3861.js', ['?']), ('module-1401.js', ['?'])]
+    head import "./module-12.js"; | import "./module-11.js"; | import "./module-29.js"; | import "./module-6.js"; | import "./module-84.js"; | import "./module-18.js"; | import "./module-48.js"; | import "./module-97.js"; | import "./module-16.js"; 
+    orig_importers []
+    orig_methods ['getItemName', 'fetchResources', 'fetchMonitorings', 'fetchData', 'handleChangeChecked', 'onCancel', 'constructor', 'componentDidMount', 'init', 'if', 'renderCharts', 'renderResroucesList', 'render']
+    method 'handleChangeChecked' unnamed=['module-1818.js'] named=[] nfiles=1
+    orig_method_hits ['pages/projects/components/Modals/PodsMonitoring.js'] count 1
+  VERDICT ACCEPT unique_method_1hit handleChangeChecked
+
+=== METHOD pages/projects/components/Modals/PodsMonitoring.js -> module-1818.js [fetchResources] ===
+  module-1818.js named=[] css=False mid=1818
+    importers [('module-1072.js', ['?']), ('module-1985.js', ['?'])]
+    methods ['getItemName', 'handleChangeChecked', 'if']
+    t []
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-1.js', ['?']), ('module-63.js', ['?']), ('module-26.js', ['?']), ('module-989.js', ['?']), ('module-1799.js', ['components/Modals/Monitoring/Controller.js']), ('module-3860.js', ['pages/projects/components/Modals/PodsMonitoring/Resources.js']), ('module-3861.js', ['?']), ('module-1401.js', ['?'])]
+    head import "./module-12.js"; | import "./module-11.js"; | import "./module-29.js"; | import "./module-6.js"; | import "./module-84.js"; | import "./module-18.js"; | import "./module-48.js"; | import "./module-97.js"; | import "./module-16.js"; 
+    orig_importers []
+    orig_methods ['getItemName', 'fetchResources', 'fetchMonitorings', 'fetchData', 'handleChangeChecked', 'onCancel', 'constructor', 'componentDidMount', 'init', 'if', 'renderCharts', 'renderResroucesList', 'render']
+    method 'fetchResources' unnamed=[] named=[] nfiles=0
+    orig_method_hits ['pages/projects/components/Modals/PodsMonitoring.js'] count 1
+  VERDICT REJECT method not unique unnamed=[]
+
+=== METHOD components/Modals/Monitoring/ApplicationResource.js -> module-1214.js [clusterValueRenderer] ===
+  module-1214.js named=[] css=False mid=1214
+    importers [('module-1798.js', ['?']), ('module-1800.js', ['?']), ('module-4155.js', ['?']), ('module-4157.js', ['?'])]
+    methods ['fetchNamespaces', 'fetchData', 'handleClusterChange', 'handleNamespaceChange', 'handleSubmit', 'onCancel', 'updateMonitorOptions', 'projectOptionRenderer', 'clusterOptionRenderer', 'clusterValueRenderer', 'if']
+    t ['CLUSTER', 'PROJECT', 'storageclasses', 'OK', 'TIME', 'YYYY-MM-DD HH:mm:ss', 'USAGE', 'RESOURCE_USAGE', 'ALL']
+    kids [('module-41.js', ['?']), ('module-44.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-1.js', ['?']), ('module-63.js', ['?']), ('module-26.js', ['?']), ('module-52.js', ['utils/index.js']), ('module-795.js', ['utils/monitoring.js']), ('module-439.js', ['stores/project.js'])]
+    head import "./module-12.js"; | import "./module-11.js"; | import "./module-6.js"; | import "./module-18.js"; | import "./module-16.js"; | import "./module-9.js"; | import "./module-13.js"; | import "./module-10.js"; | import "./module-4.js"; | 
+    orig_importers []
+    orig_methods ['fetchNamespaces', 'fetchData', 'handleClusterChange', 'handleNamespaceChange', 'handleSubmit', 'onCancel', 'updateMonitorOptions', 'projectOptionRenderer', 'clusterOptionRenderer', 'clusterValueRenderer', 'constructor', 'componentDidUpdate', 'if', 'renderFilterForm', 'renderChart', 'renderTable']
+    method 'clusterValueRenderer' unnamed=['module-1214.js'] named=[] nfiles=1
+    orig_method_hits ['components/Modals/Monitoring/ApplicationResource.js'] count 1
+  VERDICT ACCEPT unique_method_1hit clusterValueRenderer
+
+=== METHOD components/Modals/Monitoring/ApplicationResource.js -> module-1214.js [updateMonitorOptions] ===
+  module-1214.js named=[] css=False mid=1214
+    importers [('module-1798.js', ['?']), ('module-1800.js', ['?']), ('module-4155.js', ['?']), ('module-4157.js', ['?'])]
+    methods ['fetchNamespaces', 'fetchData', 'handleClusterChange', 'handleNamespaceChange', 'handleSubmit', 'onCancel', 'updateMonitorOptions', 'projectOptionRenderer', 'clusterOptionRenderer', 'clusterValueRenderer', 'if']
+    t ['CLUSTER', 'PROJECT', 'storageclasses', 'OK', 'TIME', 'YYYY-MM-DD HH:mm:ss', 'USAGE', 'RESOURCE_USAGE', 'ALL']
+    kids [('module-41.js', ['?']), ('module-44.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-1.js', ['?']), ('module-63.js', ['?']), ('module-26.js', ['?']), ('module-52.js', ['utils/index.js']), ('module-795.js', ['utils/monitoring.js']), ('module-439.js', ['stores/project.js'])]
+    head import "./module-12.js"; | import "./module-11.js"; | import "./module-6.js"; | import "./module-18.js"; | import "./module-16.js"; | import "./module-9.js"; | import "./module-13.js"; | import "./module-10.js"; | import "./module-4.js"; | 
+    orig_importers []
+    orig_methods ['fetchNamespaces', 'fetchData', 'handleClusterChange', 'handleNamespaceChange', 'handleSubmit', 'onCancel', 'updateMonitorOptions', 'projectOptionRenderer', 'clusterOptionRenderer', 'clusterValueRenderer', 'constructor', 'componentDidUpdate', 'if', 'renderFilterForm', 'renderChart', 'renderTable']
+    method 'updateMonitorOptions' unnamed=['module-1214.js'] named=[] nfiles=1
+    orig_method_hits ['components/Modals/Monitoring/ApplicationResource.js'] count 1
+  VERDICT ACCEPT unique_method_1hit updateMonitorOptions
+
+=== METHOD components/Tree.js -> module-5770.js [TreeNode] ===
+  module-5770.js named=[] css=False mid=5770
+    importers [('module-1309.js', ['?'])]
+    methods ['cancel', 'preMessage', 'resetWarned', 'noteOnce', 'onSelectorClick', 'onSelectorDoubleClick', 'onSelect', 'onCheck', 'onMouseEnter', 'onMouseLeave', 'onContextMenu', 'onDragStart', 'onDragEnter', 'onDragOver', 'onDragLeave', 'onDragEnd', 'onDrop', 'onExpand', 'setSelectHandle', 'getNodeState']
+    t ['Animation', 'Transition', 'div', 'animationend', 'transitionend', 'none', '-']
+    kids [('module-1173.js', ['?']), ('module-553.js', ['?']), ('module-106.js', ['?']), ('module-1310.js', ['?']), ('module-1260.js', ['?']), ('module-2433.js', ['?']), ('module-2434.js', ['?'])]
+    head import module1173 from "./module-1173.js"; | import { Children, Component, Fragment, cloneElement, createContext, createElement, createRef, forwardRef, isValidElement, memo, useCallback, useContext, useEffect, useImperativeHandle, useLayout
+  VERDICT REJECT barrel
+
+=== METHOD pages/projects/containers/Deployments/Detail/ResourceStatus.js -> module-1415.js [handleDeleteHpa] ===
+  module-1415.js named=[] css=False mid=1415
+    importers [('module-4199.js', ['?']), ('module-4203.js', ['?']), ('module-4207.js', ['?'])]
+    methods ['fetchData', 'handleScale', 'handleDeleteHpa', 'if']
+    t ['STORAGE_DEVICES', 'detailStore']
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-14.js', ['?']), ('module-239.js', ['?']), ('module-63.js', ['?']), ('module-450.js', ['?']), ('module-862.js', ['?']), ('module-844.js', ['?']), ('module-469.js', ['stores/workload/hpa.js']), ('module-851.js', ['?']), ('module-1070.js', ['?']), ('module-1811.js', ['pages/projects/components/Cards/HPA.js'])]
+    head import "./module-15.js"; | import "./module-18.js"; | import "./module-16.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-24.js"; | import "./module-17.js"; | import "./module-62.js"; | import "./module-45.js"; 
+  VERDICT REJECT prior_skip_resource_status
+
+=== METHOD components/Graph/Detail/Monitors/TrafficCard.js -> module-4763.js [trafficCard] ===
+  module-4763.js named=[] css=False mid=4763
+    importers [('module-4762.js', ['components/Graph/Detail/Monitors/WorkloadMonitor.js'])]
+    methods ['handleOptionsClick', 'if']
+    t ['div', 'span']
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-3.js', ['?']), ('module-186.js', ['?']), ('module-4764.js', ['?'])]
+    head import "./module-15.js"; | import "./module-5.js"; | import "./module-18.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-17.js"; | import "./module-45.js"; | import "./module-42.js"; | import "./module-57.js"; |
+    orig_importers ['components/Graph/Detail/Monitors/ServiceMonitor.js', 'components/Graph/Detail/Monitors/WorkloadMonitor.js']
+    orig_methods ['render']
+    method 'trafficCard' unnamed=[] named=[] nfiles=0
+    orig_method_hits [] count 0
+  VERDICT REJECT method not unique unnamed=[]
+
+=== METHOD components/Graph/Detail/Monitors/WorkloadSelect.js -> module-4764.js [handleOptionsClick] ===
+  module-4764.js named=[] css=True mid=4764
+    importers [('module-4763.js', ['?'])]
+    methods []
+    t []
+    kids []
+    head export default { |     value: "_3CEWBshCQLzo8RNlclZR3J", |     label: "_2M9odPubyrPiecJ5IeMMOM", |     options: "MH6o3mirwIGZ0ZWiEaxbc", |     rightIcon: "_1DBoOHtlGbnr78vBqKbcEj" | }; | 
+  VERDICT REJECT css/skip
+
+=== Cascader 1489 / 2102 / Options / Item ===
+  module-1489.js named=[] css=False mid=1489
+    importers [('module-1488.js', ['components/Base/Cascader.js']), ('module-2102.js', ['?'])]
+    methods ['handleClick', 'if']
+    t ['div']
+    kids [('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-2102.js', ['?']), ('module-1273.js', ['?'])]
+    head import "./module-15.js"; | import "./module-5.js"; | import "./module-18.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-17.js"; | import "./module-45.js"; | import "./module-42.js"; | import "./module-57.js"; |
+  module-2102.js named=[] css=False mid=2102
+    importers [('module-1489.js', ['?'])]
+    methods ['handleClick', 'handleSelect', 'if']
+    t ['div']
+    kids [('module-31.js', ['?']), ('module-36.js', ['?']), ('module-37.js', ['?']), ('module-55.js', ['?']), ('module-56.js', ['?']), ('module-51.js', ['?']), ('module-553.js', ['?']), ('module-3.js', ['?']), ('module-186.js', ['?']), ('module-1489.js', ['?']), ('module-1273.js', ['?'])]
+    head import "./module-15.js"; | import "./module-5.js"; | import "./module-4.js"; | import "./module-23.js"; | import "./module-17.js"; | import "./module-45.js"; | import "./module-42.js"; | import "./module-57.js"; | import module31 from "./mo
+  module-1273.js named=[] css=True mid=1273
+    importers [('module-1488.js', ['components/Base/Cascader.js']), ('module-1489.js', ['?']), ('module-2102.js', ['?'])]
+    methods []
+    t []
+    kids []
+    head export default { |     wrapper: "_2GwJwev2SkXT_7T9_wM7oT", |     options: "_3-8ILrzsloMaSb1q8VHZGB", |     item: "_1Sv6m-zFhZ6z4HxHwNjTSV", |     isOpen: "_1RoPAe-6k6dY12KTKlPRb3", |     hasChildren: "_3T6HDoFJhvQq-eFIiaEu5Q" | }; | 
+ORIG components/Base/Cascader/Options.js exists=True
+  imps ['components/Base/Cascader/Item.js', 'components/Base/Cascader.js']
+  methods ['handleClick', 'onSelect', 'render']
+  t []
+  locals ['components/Base/Cascader/Item.js', 'components/Base/Cascader/index.scss']
+  method handleClick unnamed=['module-1489.js', 'module-4600.js', 'module-5046.js', 'module-4053.js', 'module-1982.js', 'module-2105.js'] orig=['core/layouts/Base.js', 'pages/console/containers/Dashboard/Admin/PlatformStatus/Resource.js', 'pages/console/containers/Dashboard/Admin/PlatformStatus.js', 'pages/console/components/Cards/Workspace.js', 'pages/projects/containers/GrayRelease/Jobs/Item.js', 'pages/projects/containers/Overview/ResourceUsage/AppResourceItem.js', 'pages/projects/containers/Services/Topology/Service.js', 'pages/projects/containers/Services/Topology/RadioButtons.js', 'pages/projects/components/Cards/Tracing/Item.js', 'pages/projects/components/Modals/TracingDetail/Span.js', 'pages/workspaces/components/Modals/WorkspaceCreate/ClusterSettings/ClusterSelect.js', 'pages/workspaces/components/Modals/WorkspaceSelect/Card.js', 'pages/fedprojects/containers/Overview/ResourceUsage/AppResourceItem.js', 'pages/fedprojects/components/ClusterSelect.js', 'pages/clusters/containers/Overview/Dashboard/ClusterInfo.js', 'pages/clusters/containers/Gateway/Components/TimeSelector/Range/Default.js', 'pages/clusters/components/Cards/Cluster.js', 'pages/clusters/components/Modals/ClusterVisibility/WorkspaceItem.js', 'pages/clusters/components/Modals/ClusterSelect/Card.js', 'components/Cards/Monitoring/StatusCircle.js', 'components/Cards/Monitoring/Controller/TimeSelector/Range/Default.js', 'components/Inputs/BoxSelect.js', 'components/Inputs/CardSelect.js', 'components/Inputs/TagInput.js', 'components/Modals/ProjectSelect/Card.js', 'components/Modals/CustomMonitoring/components/GraphTypeSelectModal.js', 'components/Modals/CustomMonitoring/components/PromQLInput/Suggestions/Item.js', 'components/Modals/CustomMonitoring/components/Graph/ComposeWithLegends.js', 'components/Graph/App.js', 'components/Base/TypeSelect.js', 'components/Base/Cascader/Options.js', 'components/Base/Cascader/Item.js', 'components/Forms/GrayRelease/Components/Card.js', 'components/Forms/Workload/AdvanceSettings/NodeSchedule/NodeSelect/Item.js', 'components/Forms/Workload/ContainerSettings/ContainerForm/ContainerSetting/ImageInput/Select.js', 'components/Forms/Workload/ClusterDiffSettings/EditForm.js', 'components/Forms/Workload/ClusterDiffSettings/ClustersMapper.js', 'components/Forms/Service/AdvanceSettings/NodeSchedule/NodeSelect/Item.js', 'components/Forms/Service/ServiceSettings/WorkloadSelect/Item.js']
+  method onSelect unnamed=['module-5770.js'] orig=['components/Tree/TreeNode.js', 'components/Modals/InviteMember/User.js', 'components/Modals/CustomMonitoring/components/PromQLInput/Suggestions/Item.js', 'components/Layout/Selector.js', 'components/Base/Cascader/Options.js', 'components/Base/Cascader/Item.js', 'components/Base/Cascader.js', 'components/Forms/GrayRelease/Components/SelectComponent.js', 'components/Forms/GrayRelease/Components/Card.js']
+ORIG components/Base/Cascader/Item.js exists=True
+  imps ['components/Base/Cascader/Options.js']
+  methods ['handleClick', 'handleSelect', 'getOptionsStyle', 'if', 'onSelect']
+  t []
+  locals ['components/Base/Cascader/Options.js', 'components/Base/Cascader/index.scss']
+  method handleClick unnamed=['module-1489.js', 'module-4600.js', 'module-5046.js', 'module-4053.js', 'module-1982.js', 'module-2105.js'] orig=['core/layouts/Base.js', 'pages/console/containers/Dashboard/Admin/PlatformStatus/Resource.js', 'pages/console/containers/Dashboard/Admin/PlatformStatus.js', 'pages/console/components/Cards/Workspace.js', 'pages/projects/containers/GrayRelease/Jobs/Item.js', 'pages/projects/containers/Overview/ResourceUsage/AppResourceItem.js', 'pages/projects/containers/Services/Topology/Service.js', 'pages/projects/containers/Services/Topology/RadioButtons.js', 'pages/projects/components/Cards/Tracing/Item.js', 'pages/projects/components/Modals/TracingDetail/Span.js', 'pages/workspaces/components/Modals/WorkspaceCreate/ClusterSettings/ClusterSelect.js', 'pages/workspaces/components/Modals/WorkspaceSelect/Card.js', 'pages/fedprojects/containers/Overview/ResourceUsage/AppResourceItem.js', 'pages/fedprojects/components/ClusterSelect.js', 'pages/clusters/containers/Overview/Dashboard/ClusterInfo.js', 'pages/clusters/containers/Gateway/Components/TimeSelector/Range/Default.js', 'pages/clusters/components/Cards/Cluster.js', 'pages/clusters/components/Modals/ClusterVisibility/WorkspaceItem.js', 'pages/clusters/components/Modals/ClusterSelect/Card.js', 'components/Cards/Monitoring/StatusCircle.js', 'components/Cards/Monitoring/Controller/TimeSelector/Range/Default.js', 'components/Inputs/BoxSelect.js', 'components/Inputs/CardSelect.js', 'components/Inputs/TagInput.js', 'components/Modals/ProjectSelect/Card.js', 'components/Modals/CustomMonitoring/components/GraphTypeSelectModal.js', 'components/Modals/CustomMonitoring/components/PromQLInput/Suggestions/Item.js', 'components/Modals/CustomMonitoring/components/Graph/ComposeWithLegends.js', 'components/Graph/App.js', 'components/Base/TypeSelect.js', 'components/Base/Cascader/Options.js', 'components/Base/Cascader/Item.js', 'components/Forms/GrayRelease/Components/Card.js', 'components/Forms/Workload/AdvanceSettings/NodeSchedule/NodeSelect/Item.js', 'components/Forms/Workload/ContainerSettings/ContainerForm/ContainerSetting/ImageInput/Select.js', 'components/Forms/Workload/ClusterDiffSettings/EditForm.js', 'components/Forms/Workload/ClusterDiffSettings/ClustersMapper.js', 'components/Forms/Service/AdvanceSettings/NodeSchedule/NodeSelect/Item.js', 'components/Forms/Service/ServiceSettings/WorkloadSelect/Item.js']
+  method handleSelect unnamed=['module-4096.js', 'module-5044.js', 'module-4365.js', 'module-3026.js', 'module-5280.js', 'module-3010.js'] orig=['pages/projects/components/Selector.js', 'pages/apps/containers/Categories/Cates/Item.js', 'pages/workspaces/containers/Groups/GroupUser.js', 'pages/workspaces/components/Selector.js', 'pages/workspaces/components/Modals/EditGroup.js', 'pages/clusters/components/Selector.js', 'components/Graph.js', 'components/Modals/InviteMember.js', 'components/Modals/Bill/components/ResourceSelect.js', 'components/Modals/Node/TaintManagement/Batch.js', 'components/Modals/Node/TaintManagement/TaintInput.js', 'components/Base/Cascader/Item.js', 'components/Base/Cascader.js', 'components/Forms/Workload/AdvanceSettings/NodeSchedule/NodeSelect.js', 'components/Forms/Workload/ClusterDiffSettings/ClustersMapper.js', 'components/Forms/Service/AdvanceSettings/NodeSchedule/NodeSelect.js', 'components/Forms/Service/ServiceSettings/WorkloadSelect.js']
+  method onSelect unnamed=['module-5770.js'] orig=['components/Tree/TreeNode.js', 'components/Modals/InviteMember/User.js', 'components/Modals/CustomMonitoring/components/PromQLInput/Suggestions/Item.js', 'components/Layout/Selector.js', 'components/Base/Cascader/Options.js', 'components/Base/Cascader/Item.js', 'components/Base/Cascader.js', 'components/Forms/GrayRelease/Components/SelectComponent.js', 'components/Forms/GrayRelease/Components/Card.js']
+
+=== Tree 1862 / 1863 / 1865 vs contextTypes/treeUtils ===
+  module-1862.js named=[] css=False mid=1862
+    importers [('module-1864.js', ['components/Tree/TreeNode.js']), ('module-4367.js', ['components/Tree/Tree.js'])]
+    methods []
+    t []
+    kids [('module-1.js', ['?'])]
+    head import "./module-15.js"; | import module1 from "./module-1.js"; | const o = { |     tree: module1.shape({ |         disabled: module1.bool, |         onNodeClick: module1.func, |         onNodeExpand: module1.func, |         onNodeSelect: m
+  module-1863.js named=[] css=True mid=1863
+    importers [('module-1864.js', ['components/Tree/TreeNode.js']), ('module-4367.js', ['components/Tree/Tree.js'])]
+    methods []
+    t []
+    kids []
+    head export default { |     tree: "_2iR3_B67AK8wTsW8XlU6CJ", |     treeNode: "_1gVuXvLPfQKYkr7_rsG-kT", |     treeChildren: "_1fKRWcElGHwByUJSVwVQyL", |     treeNodeWrap: "EQ6h8y47L5gzxnGy4JtFd", |     disabled: "U8QsDfwAsL0nqHBKIYV97", |     tr
+  module-1865.js named=[] css=False mid=1865
+    importers [('module-1864.js', ['components/Tree/TreeNode.js']), ('module-4367.js', ['components/Tree/Tree.js'])]
+    methods ['if', 'toArray', 'arrDel', 'arrAdd', 'posToArr', 'getPosition', 'isTreeNode', 'getNodeChildren', 'traverseTreeNodes', 'mapChildren', 'calcSelectedKeys', 'convertTreeToEntities', 'conductExpandParent', 'getDataAndAria']
+    t ['-']
+    kids [('module-553.js', ['?'])]
+    head import "./module-15.js"; | import "./module-22.js"; | import "./module-5.js"; | import "./module-11.js"; | import "./module-6.js"; | import "./module-86.js"; | import "./module-18.js"; | import "./module-87.js"; | import "./module-48.js"; |
+  arrDel: method_unnamed=['module-1865.js'] str_unnamed=[] orig_method=['components/Tree/treeUtils.js']
+  arrAdd: method_unnamed=['module-1865.js'] str_unnamed=[] orig_method=['components/Tree/treeUtils.js']
+  posToArr: method_unnamed=['module-1865.js'] str_unnamed=[] orig_method=['components/Tree/treeUtils.js']
+  getPosition: method_unnamed=['module-1865.js', 'module-2007.js'] str_unnamed=[] orig_method=['components/Tree/treeUtils.js']
+  isTreeNode: method_unnamed=['module-1865.js'] str_unnamed=[] orig_method=['components/Tree/treeUtils.js']
+  traverseTreeNodes: method_unnamed=['module-1865.js'] str_unnamed=[] orig_method=['components/Tree/treeUtils.js']
+  conductExpandParent: method_unnamed=['module-1865.js'] str_unnamed=[] orig_method=['components/Tree/treeUtils.js']
+  convertTreeToEntities: method_unnamed=['module-1865.js'] str_unnamed=[] orig_method=['components/Tree/treeUtils.js']
+  calcSelectedKeys: method_unnamed=['module-1865.js'] str_unnamed=[] orig_method=['components/Tree/treeUtils.js']
+  getDataAndAria: method_unnamed=['module-1865.js'] str_unnamed=[] orig_method=['components/Tree/treeUtils.js']
+  mapChildren: method_unnamed=['module-1865.js'] str_unnamed=[] orig_method=['components/Tree/treeUtils.js']
+  toArray: method_unnamed=['module-243.js', 'module-2.js', 'module-2016.js', 'module-1865.js', 'module-732.js'] str_unnamed=[] orig_method=['components/Tree/treeUtils.js', 'components/Modals/EventSearch/Event/utils.js', 'components/Modals/AuditingSearch/Auditing/utils.js']
+
+=== Graph remaining orig unnamed ===
+ORIG components/Graph/Detail/Monitors/TrafficCard.js exists=True named=False
+  imps ['components/Graph/Detail/Monitors/ServiceMonitor.js', 'components/Graph/Detail/Monitors/WorkloadMonitor.js']
+  methods ['render']
+  locals ['components/Graph/Detail/Monitors/index.scss']
+ORIG components/Graph/Detail/Monitors/WorkloadSelect.js exists=True named=False
+  imps ['components/Graph/Detail/Monitors/WorkloadMonitor.js']
+  methods ['handleOptionsClick', 'renderOptions', 'renderControl', 'render']
+  locals ['components/Graph/Detail/Monitors/WorkloadSelect/index.scss']
+  method handleOptionsClick unnamed=['module-5048.js', 'module-4763.js'] orig_count=2
+ORIG components/Graph/Detail/Monitors.js exists=True named=True
+  imps ['components/Graph/Detail.js']
+  methods ['handleTypeChange', 'constructor', 'render']
+  locals ['components/Graph/Detail/Monitors/ServiceMonitor.js', 'components/Graph/Detail/Monitors/WorkloadMonitor.js']
+  method handleTypeChange unnamed=['module-3689.js', 'module-4088.js', 'module-4084.js', 'module-4529.js', 'module-3693.js'] orig_count=33
+  method constructor unnamed=['module-2465.js', 'module-5755.js', 'module-94.js', 'module-2811.js', 'module-1303.js', 'module-5756.js'] orig_count=424
+ORIG pages/projects/components/Modals/PodsMonitoring/Resources.js exists=True named=True
+  imps ['pages/projects/components/Modals/PodsMonitoring.js']
+  methods ['getItemName', 'getCurrentValue', 'handleScroll', 'toggleChecked', 'handleCheck', 'renderResourceItem', 'renderResourceList', 'onFetch', 'onChange', 'constructor', 'componentDidMount', 'if', 'componentWillUnmount', 'remove', 'isEmpty']
+  locals ['pages/projects/components/Modals/PodsMonitoring/index.scss']
+  method getItemName unnamed=['module-1818.js', 'module-3861.js'] orig_count=3
+  method constructor unnamed=['module-2465.js', 'module-5755.js', 'module-94.js', 'module-2811.js', 'module-1303.js', 'module-5756.js'] orig_count=424
+  method componentDidMount unnamed=['module-2465.js', 'module-47.js', 'module-2882.js', 'module-313.js', 'module-1504.js', 'module-2035.js'] orig_count=366
+  method componentWillUnmount unnamed=['module-47.js', 'module-2882.js', 'module-313.js', 'module-1504.js', 'module-2035.js', 'module-1502.js'] orig_count=92
+  method remove unnamed=['module-2104.js', 'module-2016.js', 'module-2007.js', 'module-2040.js', 'module-14.js'] orig_count=1
+  method isEmpty unnamed=['module-749.js', 'module-2007.js', 'module-2016.js', 'module-2377.js'] orig_count=4
+ORIG pages/projects/components/Modals/PodsMonitoring/Charts.js exists=True named=False
+  imps ['pages/projects/components/Modals/PodsMonitoring.js']
+  methods ['getItemName', 'render']
+  locals ['pages/projects/components/Modals/PodsMonitoring/index.scss']
+  method getItemName unnamed=['module-1818.js', 'module-3861.js'] orig_count=3
+
+=== ClusterDiffSettings sequential ===
+orig_local ['pages/fedprojects/components/ContainerImage.js']
+unpacked_kids ['module-36.js', 'module-37.js', 'module-55.js', 'module-56.js', 'module-51.js', 'module-553.js', 'module-26.js', 'module-63.js', 'module-321.js', 'module-74.js', 'module-72.js', 'module-186.js', 'module-1324.js', 'module-1599.js', 'module-1600.js', 'module-1601.js', 'module-1602.js', 'module-1603.js', 'module-2930.js', 'module-2932.js', 'module-1322.js', 'module-2934.js']
+
+=== vendor leftover needles in live unnamed ===
+live_modules 614 aliased 96
+  react-draggable: none
+  DraggableCore: none
+  jwt-decode: none
+  LineChart chartName: none
+  semver validRange: ['module-717.js'] (1)
+    module-717.js importers=['module-362.js']
+  filesize: none
+  numeral: none
+  js-cookie: none
+  tinycolor2: none
+  uuid v4: none
+  JSEncrypt: none
+  EventSource: none
+
+=== ACCEPTED ===
+    "components/Forms/Workload/ClusterDiffSettings/ContainersMapperWithService.js": "module-2930.js",  # unique_among_siblings method:renderContainer
+    "components/Forms/Workload/ClusterDiffSettings/ContainerPortsWithService.js": "module-2932.js",  # unique_among_siblings t:SERVICE_PORT
+    "pages/fedprojects/components/ContainerImage.js": "module-2934.js",  # unique_importer+sib lit:fetchImageSecret
+    "pages/projects/components/Modals/PodsMonitoring.js": "module-1818.js",  # unique_method_1hit handleChangeChecked
+    "components/Modals/Monitoring/ApplicationResource.js": "module-1214.js",  # unique_method_1hit clusterValueRenderer
+accepted_unique_pairs 5
+
+=== REJECTED ===
+  pages/fedprojects/components/ContainerImage.js -> module-2934.js :: needle not unique among siblings []
+  pages/projects/components/Modals/PodsMonitoring.js -> module-1818.js :: method not unique unnamed=[]
+  pages/projects/components/Modals/PodsMonitoring.js -> module-1818.js :: method not unique unnamed=[]
+  components/Tree.js -> module-5770.js :: barrel
+  pages/projects/containers/Deployments/Detail/ResourceStatus.js -> module-1415.js :: prior_skip_resource_status
+  components/Graph/Detail/Monitors/TrafficCard.js -> module-4763.js :: method not unique unnamed=[]
+  components/Graph/Detail/Monitors/WorkloadSelect.js -> module-4764.js :: css/skip
+rejected_count 7

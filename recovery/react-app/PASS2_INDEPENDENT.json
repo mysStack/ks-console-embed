@@ -1,0 +1,927 @@
+{
+  "fetched_scripts": 65,
+  "chunk_errors": [],
+  "html_scripts": [
+    "http://127.0.0.1:8099/app.e04505c1.js"
+  ],
+  "factory_unpacked_including_stubs": 1700,
+  "stub_factories": 0,
+  "factory_leftover": 1700,
+  "disk_real_unpacked": 4235,
+  "promoted_real": 1525,
+  "named_factories": 0,
+  "prefix_factory_counts": {
+    "configs": 22,
+    "core": 6,
+    "pages": 161,
+    "stores": 74,
+    "unpacked": 1701,
+    "utils": 38,
+    "components": 480,
+    "actions": 34
+  },
+  "webpackChunk": {
+    "chunkLen": 64,
+    "namedCount": 0,
+    "overlay": false,
+    "prefixCounts": {
+      "actions": 34,
+      "components": 480,
+      "configs": 21,
+      "pages": 160,
+      "stores": 54,
+      "unpacked": 1205,
+      "utils": 13
+    },
+    "unpackedUnique": 1204
+  },
+  "bucket_counts": {
+    "tiny": 757,
+    "babel_helper_needles": 11,
+    "corejs_2hit_errors": 3,
+    "cssish": 182,
+    "lodashish": 1,
+    "skip_list": 35,
+    "webpack_runtime": 1,
+    "react_is_family": 1,
+    "react_mobx_history_internals": 1,
+    "kube_design_leftover_copies": 1,
+    "kse_only_unique_t_0_orig": 75,
+    "two_hit_orig_business_no_extra_path": 31,
+    "truly_unknown": 600,
+    "confirmed_npm_in_node_modules": 1
+  },
+  "bucket_samples": {
+    "tiny": [
+      "module-12.js",
+      "module-19.js",
+      "module-21.js",
+      "module-22.js",
+      "module-26.js",
+      "module-31.js",
+      "module-33.js",
+      "module-35.js",
+      "module-37.js",
+      "module-39.js",
+      "module-45.js",
+      "module-50.js"
+    ],
+    "babel_helper_needles": [
+      "module-36.js",
+      "module-55.js",
+      "module-88.js",
+      "module-380.js",
+      "module-749.js",
+      "module-1004.js",
+      "module-1006.js",
+      "module-1260.js",
+      "module-1514.js",
+      "module-1566.js",
+      "module-5772.js"
+    ],
+    "corejs_2hit_errors": [
+      "module-70.js",
+      "module-132.js",
+      "module-254.js"
+    ],
+    "cssish": [
+      "module-173.js",
+      "module-177.js",
+      "module-752.js",
+      "module-765.js",
+      "module-766.js",
+      "module-770.js",
+      "module-1676.js",
+      "module-1677.js",
+      "module-1777.js",
+      "module-2042.js",
+      "module-2049.js",
+      "module-2055.js"
+    ],
+    "lodashish": [
+      "module-616.js"
+    ],
+    "skip_list": [
+      "module-747.js",
+      "module-793.js",
+      "module-805.js",
+      "module-807.js",
+      "module-833.js",
+      "module-882.js",
+      "module-950.js",
+      "module-959.js",
+      "module-1053.js",
+      "module-1111.js",
+      "module-1112.js",
+      "module-1122.js"
+    ],
+    "webpack_runtime": [
+      "module-139.js"
+    ],
+    "react_is_family": [
+      "module-2434.js"
+    ],
+    "react_mobx_history_internals": [
+      "module-3019.js"
+    ],
+    "kube_design_leftover_copies": [
+      "module-3515.js"
+    ],
+    "kse_only_unique_t_0_orig": [
+      "module-817.js",
+      "module-995.js",
+      "module-996.js",
+      "module-1545.js",
+      "module-1549.js",
+      "module-1572.js",
+      "module-1616.js",
+      "module-1675.js",
+      "module-1698.js",
+      "module-1736.js",
+      "module-1739.js",
+      "module-2081.js"
+    ],
+    "two_hit_orig_business_no_extra_path": [
+      "module-955.js",
+      "module-1301.js",
+      "module-1621.js",
+      "module-1670.js",
+      "module-1689.js",
+      "module-1737.js",
+      "module-2078.js",
+      "module-2094.js",
+      "module-2099.js",
+      "module-2636.js",
+      "module-2638.js",
+      "module-2700.js"
+    ],
+    "truly_unknown": [
+      "module-8.js",
+      "module-16.js",
+      "module-17.js",
+      "module-25.js",
+      "module-27.js",
+      "module-28.js",
+      "module-30.js",
+      "module-32.js",
+      "module-38.js",
+      "module-40.js",
+      "module-42.js",
+      "module-49.js"
+    ],
+    "confirmed_npm_in_node_modules": [
+      "module-761.js"
+    ]
+  },
+  "truly_unknown_ids": [
+    "module-8.js",
+    "module-16.js",
+    "module-17.js",
+    "module-25.js",
+    "module-27.js",
+    "module-28.js",
+    "module-30.js",
+    "module-32.js",
+    "module-38.js",
+    "module-40.js",
+    "module-42.js",
+    "module-49.js",
+    "module-58.js",
+    "module-62.js",
+    "module-63.js",
+    "module-64.js",
+    "module-67.js",
+    "module-84.js",
+    "module-112.js",
+    "module-114.js",
+    "module-115.js",
+    "module-116.js",
+    "module-119.js",
+    "module-133.js",
+    "module-135.js",
+    "module-137.js",
+    "module-140.js",
+    "module-142.js",
+    "module-147.js",
+    "module-164.js",
+    "module-167.js",
+    "module-174.js",
+    "module-180.js",
+    "module-182.js",
+    "module-188.js",
+    "module-189.js",
+    "module-190.js",
+    "module-191.js",
+    "module-196.js",
+    "module-202.js",
+    "module-204.js",
+    "module-208.js",
+    "module-213.js",
+    "module-214.js",
+    "module-222.js",
+    "module-223.js",
+    "module-225.js",
+    "module-226.js",
+    "module-228.js",
+    "module-229.js",
+    "module-240.js",
+    "module-246.js",
+    "module-249.js",
+    "module-250.js",
+    "module-251.js",
+    "module-252.js",
+    "module-258.js",
+    "module-260.js",
+    "module-261.js",
+    "module-262.js",
+    "module-264.js",
+    "module-267.js",
+    "module-268.js",
+    "module-269.js",
+    "module-271.js",
+    "module-288.js",
+    "module-289.js",
+    "module-295.js",
+    "module-298.js",
+    "module-299.js",
+    "module-301.js",
+    "module-315.js",
+    "module-329.js",
+    "module-330.js",
+    "module-334.js",
+    "module-339.js",
+    "module-344.js",
+    "module-349.js",
+    "module-350.js",
+    "module-351.js"
+  ],
+  "two_hit_business_sample": [
+    {
+      "module": "module-955.js",
+      "orig_known": [
+        "stores/cluster/index.js"
+      ],
+      "unique_t": [
+        "VALIDATION_FAILED"
+      ]
+    },
+    {
+      "module": "module-1301.js",
+      "orig_known": [
+        "components/Forms/Workload/AdvanceSettings/PodIPRange/index.js"
+      ],
+      "unique_t": [
+        "MIGRATE_POD_IP_POOL_TIP",
+        "AVAILABLE_ADDRESSES"
+      ]
+    },
+    {
+      "module": "module-1621.js",
+      "orig_known": [
+        "components/Forms/Cluster/BaseInfo/index.js"
+      ],
+      "unique_t": [
+        "MASTER_NODE_COUNT_TIP",
+        "WORKER_NODE_COUNT_TIP",
+        "CLUSTER_NAME_EMPTY"
+      ]
+    },
+    {
+      "module": "module-1670.js",
+      "orig_known": [
+        "pages/projects/components/Cards/HPA/index.js",
+        "pages/projects/components/Modals/HPA/index.js",
+        "components/Forms/Workload/ContainerSettings/ContainerForm/ProbeForm/ProbeConfig.js"
+      ],
+      "unique_t": [
+        "MIN_REPLICA_COUNT_LESS_THAN_MAX",
+        "PROMETHEUS_MIN_REPLICA_COUNT_DESC",
+        "MINIMUM_REPLICAS",
+        "SCALE_MINIMUM_REPLICAS_DESC",
+        "MAXIMUM_REPLICAS",
+        "SCALE_MAXIMUM_REPLICAS_DESC"
+      ]
+    },
+    {
+      "module": "module-1689.js",
+      "orig_known": [
+        "components/Forms/Workload/AdvanceSettings/index.js",
+        "components/Forms/Service/AdvanceSettings/index.js",
+        "components/Inputs/EnvironmentInput/Item.js",
+        "components/Forms/StorageClass/ProvisionerSettings/index.js",
+        "components/Forms/Dashboard/BaseInfo/index.js"
+      ],
+      "unique_t": [
+        "ENTER_NETWORK_SEGMENT",
+        "POD_IP_POOL_IP_RANGE",
+        "POD_IP_POOL_NAME_DESC",
+        "POD_IP_POOL_NAME_DESC",
+        "IP_POOL_BLOCK_SIZE_DESC",
+        "NAT_OUTGOING_DESC"
+      ]
+    },
+    {
+      "module": "module-1737.js",
+      "orig_known": [
+        "components/Cards/Monitoring/Controller/TimeSelector/Range/Custom.js",
+        "components/Modals/Bill/components/TimeSelect/index.js",
+        "components/Modals/CustomMonitoring/components/TimeRangeSelect/index.js",
+        "components/Charts/Bar/TimeBar/index.js"
+      ],
+      "unique_t": [
+        "SILENCE_EVERY_DAY",
+        "SILENCE_EVERY_WEEK",
+        "SILENCE_EVERY_MONTH",
+        "CRON_EXPRESSION",
+        "CRON_EXPRESSION_DESC",
+        "CRON_EXPRESSION_REQUIRE_DESC"
+      ]
+    },
+    {
+      "module": "module-2078.js",
+      "orig_known": [
+        "components/Forms/AlertingPolicy/AlertingRules/AddRuleForm/index.js"
+      ],
+      "unique_t": [
+        "RULE_TEMPLATE",
+        "CUSTOM_RULE"
+      ]
+    },
+    {
+      "module": "module-2094.js",
+      "orig_known": [
+        "components/Forms/AlertingPolicy/AlertingRules/AddRuleForm/TemplateRule/MonitoringTarget/WorkloadSelect.js"
+      ],
+      "unique_t": [
+        "STATEFULSET",
+        "DAEMONSET",
+        "NAME_SPACE_REPEAT",
+        "SET_NAMESPACE_BELONGS_TO"
+      ]
+    },
+    {
+      "module": "module-2099.js",
+      "orig_known": [
+        "pages/workspaces/components/Modals/WorkspaceCreate/ClusterSettings/index.js",
+        "components/Modals/DevOpsCreate/index.js",
+        "components/Forms/Cluster/ClusterSettings/index.js",
+        "components/Forms/AlertingPolicy/AlertingRules/AddRuleForm/CustomRule/index.js"
+      ],
+      "unique_t": [
+        "CLUSTER_SETTINGS",
+        "ALERT_DURATION",
+        "SEVERITY_REQUIRED",
+        "ALERT_RULE_REQUIRED"
+      ]
+    },
+    {
+      "module": "module-2636.js",
+      "orig_known": [
+        "pages/workspaces/components/Modals/WorkspaceDelete/index.js",
+        "components/Modals/Delete/index.js"
+      ],
+      "unique_t": [
+        "EDGE_APP_TEMPLATE_PL",
+        "DELETE_TITLE_PL",
+        "EDGE_APPLICATION"
+      ]
+    },
+    {
+      "module": "module-2638.js",
+      "orig_known": [
+        "pages/projects/components/Modals/RepoApp/Apps/index.js"
+      ],
+      "unique_t": [
+        "EDGE_APP_TEMPLATES_PL",
+        "EDGE_APP_TEMPLATES_MODAL_DESC",
+        "CURRENT_WORKSPACE"
+      ]
+    },
+    {
+      "module": "module-2700.js",
+      "orig_known": [
+        "components/Forms/Cluster/Configuration/index.js",
+        "components/Forms/Cluster/KubeConfig/index.js"
+      ],
+      "unique_t": [
+        "EDGE_WAY_TO_INSTALL",
+        "EDGE_WAY_TO_INSTALL_DESC",
+        "INPUT_EDGE_KUBECONFIG",
+        "INPUT_KUBECONFIG"
+      ]
+    },
+    {
+      "module": "module-2711.js",
+      "orig_known": [
+        "actions/cluster.js",
+        "pages/clusters/containers/Clusters/index.js",
+        "pages/clusters/containers/BaseInfo/index.js"
+      ],
+      "unique_t": [
+        "REMOVE_CLUSTER"
+      ]
+    },
+    {
+      "module": "module-2716.js",
+      "orig_known": [
+        "components/Forms/Workload/AdvanceSettings/Metadata/index.js",
+        "components/Forms/Service/AdvanceSettings/Metadata/index.js"
+      ],
+      "unique_t": [
+        "DUPLICATE_LABELS"
+      ]
+    },
+    {
+      "module": "module-2748.js",
+      "orig_known": [
+        "pages/projects/containers/ServiceAccounts/Detail/ServiceAccountDetail/Secret.js",
+        "pages/projects/components/Cards/ImageArtifacts/Item/index.js",
+        "pages/clusters/containers/Overview/Initializing/index.js",
+        "components/Forms/Cluster/EdgeNode/AddNode/index.js"
+      ],
+      "unique_t": [
+        "COPY_SUCCESSFUL",
+        "ROLLBACK_SUCCESSFUL"
+      ]
+    },
+    {
+      "module": "module-2753.js",
+      "orig_known": [
+        "pages/projects/components/Modals/RollBack/index.js"
+      ],
+      "unique_t": [
+        "CURRENT_REVISION_RECORD",
+        "TARGET_REVISION_RECORD",
+        "TARGET_REVISION_EMPTY_DESC"
+      ]
+    },
+    {
+      "module": "module-2887.js",
+      "orig_known": [
+        "pages/projects/components/Modals/ResourceSnapshot/index.js",
+        "components/Inputs/ProjectSelect/index.js"
+      ],
+      "unique_t": [
+        "FEDPROJECT_RESOURCE_TIP"
+      ]
+    },
+    {
+      "module": "module-2896.js",
+      "orig_known": [
+        "pages/clusters/containers/LogCollections/Detail/Configuration/index.js",
+        "components/Forms/Cluster/AdvanceSettings/index.js",
+        "pages/clusters/containers/Storage/StorageClasses/Detail/Volumes/index.js",
+        "components/Modals/StorageclassAutoresizer/index.js"
+      ],
+      "unique_t": [
+        "ADDRESS",
+        "PROMETHUS_ADDRESS",
+        "INDICATOR_NAME",
+        "INDICATOR_NAME_PROMETHUS_DESC",
+        "THRESHOLD",
+        "THRESHOLD_PROMETHUS_DESC"
+      ]
+    },
+    {
+      "module": "module-2983.js",
+      "orig_known": [
+        "pages/projects/components/Modals/ServiceGatewaySetting/index.js",
+        "components/Forms/Service/AdvanceSettings/InternetAccess/index.js"
+      ],
+      "unique_t": [
+        "ACCESS_NODEPORT_TIP",
+        "ACCESS_LOADBALANCER_TIP"
+      ]
+    },
+    {
+      "module": "module-2997.js",
+      "orig_known": [
+        "components/Forms/Workload/BaseInfo/index.js",
+        "components/Forms/ServiceAccount/BaseInfo/index.js"
+      ],
+      "unique_t": [
+        "IPPOOL_ASSIGN_PROJECT_CHANGE_WARNING",
+        "IPPOOL_ASSIGN_PROJECT_ALLOCATED_WARNING",
+        "ASSIGN_PROJECT",
+        "IPPOOL_ASSIGN_PROJECT_ALLOCATED_WARNING",
+        "IPPOOL_ASSIGN_PROJECT_DESC",
+        "SELECT_PROJECT_DESC"
+      ]
+    }
+  ],
+  "kse_only_count": 75,
+  "vendor_unique": [],
+  "vendor_special": [
+    {
+      "module": "module-761.js",
+      "pkg": "react-is",
+      "file": "react-is/cjs/react-is.development.js",
+      "via": "react.async_mode+react.block+isValidElementType vs npm 16.13.1"
+    }
+  ],
+  "two_hit_extra": [
+    {
+      "helper": "classCallCheck",
+      "hits": [
+        "module-2034.js",
+        "module-431.js",
+        "module-872.js",
+        "module-5772.js",
+        "module-311.js",
+        "module-4506.js",
+        "module-1886.js",
+        "module-1513.js",
+        "module-930.js",
+        "module-2159.js",
+        "module-1158.js",
+        "module-1511.js",
+        "module-1260.js",
+        "module-1083.js",
+        "module-871.js",
+        "module-566.js",
+        "module-1035.js",
+        "module-1084.js",
+        "module-3042.js",
+        "module-1160.js",
+        "module-2155.js",
+        "module-2148.js",
+        "module-2795.js",
+        "module-1637.js",
+        "module-901.js",
+        "module-1478.js",
+        "module-1516.js",
+        "module-947.js",
+        "module-1278.js",
+        "module-928.js",
+        "module-1004.js",
+        "module-1032.js",
+        "module-1034.js",
+        "module-2154.js",
+        "module-2149.js",
+        "module-2161.js",
+        "module-186.js",
+        "module-1282.js",
+        "module-2794.js",
+        "module-562.js",
+        "module-1033.js",
+        "module-2156.js",
+        "module-870.js",
+        "module-36.js",
+        "module-380.js",
+        "module-5774.js",
+        "module-913.js",
+        "module-991.js",
+        "module-1635.js",
+        "module-1514.js",
+        "module-1281.js",
+        "module-5770.js"
+      ],
+      "mapped": [],
+      "unmapped": [
+        "module-431.js",
+        "module-872.js",
+        "module-5772.js",
+        "module-1513.js",
+        "module-930.js",
+        "module-1260.js",
+        "module-871.js",
+        "module-1035.js",
+        "module-1160.js",
+        "module-901.js",
+        "module-947.js",
+        "module-928.js",
+        "module-1004.js",
+        "module-1034.js",
+        "module-186.js",
+        "module-870.js",
+        "module-36.js",
+        "module-380.js",
+        "module-5774.js",
+        "module-913.js",
+        "module-1635.js",
+        "module-1514.js",
+        "module-5770.js"
+      ],
+      "orig_helper_known": false,
+      "extra_unmapped_orig": []
+    },
+    {
+      "helper": "assertThisInitialized",
+      "hits": [
+        "module-872.js",
+        "module-311.js",
+        "module-4506.js",
+        "module-1886.js",
+        "module-1513.js",
+        "module-930.js",
+        "module-2165.js",
+        "module-2159.js",
+        "module-1158.js",
+        "module-1511.js",
+        "module-1260.js",
+        "module-1083.js",
+        "module-871.js",
+        "module-566.js",
+        "module-1035.js",
+        "module-2882.js",
+        "module-1084.js",
+        "module-3042.js",
+        "module-1160.js",
+        "module-2155.js",
+        "module-2148.js",
+        "module-2795.js",
+        "module-1637.js",
+        "module-901.js",
+        "module-1504.js",
+        "module-1516.js",
+        "module-947.js",
+        "module-1278.js",
+        "module-928.js",
+        "module-1032.js",
+        "module-1034.js",
+        "module-2154.js",
+        "module-2149.js",
+        "module-2161.js",
+        "module-186.js",
+        "module-1282.js",
+        "module-2794.js",
+        "module-2156.js",
+        "module-870.js",
+        "module-2035.js",
+        "module-5774.js",
+        "module-913.js",
+        "module-991.js",
+        "module-1635.js",
+        "module-5771.js",
+        "module-88.js",
+        "module-1566.js",
+        "module-1281.js",
+        "module-5770.js"
+      ],
+      "mapped": [],
+      "unmapped": [
+        "module-872.js",
+        "module-1513.js",
+        "module-930.js",
+        "module-1260.js",
+        "module-871.js",
+        "module-1035.js",
+        "module-2882.js",
+        "module-1160.js",
+        "module-901.js",
+        "module-947.js",
+        "module-928.js",
+        "module-1034.js",
+        "module-186.js",
+        "module-870.js",
+        "module-5774.js",
+        "module-913.js",
+        "module-1635.js",
+        "module-5771.js",
+        "module-88.js",
+        "module-1566.js",
+        "module-5770.js"
+      ],
+      "orig_helper_known": false,
+      "extra_unmapped_orig": []
+    },
+    {
+      "helper": "inherits",
+      "hits": [
+        "module-2034.js",
+        "module-872.js",
+        "module-1006.js",
+        "module-311.js",
+        "module-4506.js",
+        "module-1886.js",
+        "module-1513.js",
+        "module-930.js",
+        "module-2159.js",
+        "module-1158.js",
+        "module-1511.js",
+        "module-1260.js",
+        "module-1083.js",
+        "module-871.js",
+        "module-566.js",
+        "module-1035.js",
+        "module-238.js",
+        "module-1084.js",
+        "module-3042.js",
+        "module-1160.js",
+        "module-2155.js",
+        "module-2148.js",
+        "module-2795.js",
+        "module-1637.js",
+        "module-901.js",
+        "module-1516.js",
+        "module-947.js",
+        "module-1278.js",
+        "module-928.js",
+        "module-1032.js",
+        "module-1034.js",
+        "module-2154.js",
+        "module-55.js",
+        "module-2149.js",
+        "module-749.js",
+        "module-2161.js",
+        "module-186.js",
+        "module-1282.js",
+        "module-2794.js",
+        "module-2156.js",
+        "module-870.js",
+        "module-5774.js",
+        "module-913.js",
+        "module-991.js",
+        "module-1635.js",
+        "module-1281.js",
+        "module-5770.js"
+      ],
+      "mapped": [],
+      "unmapped": [
+        "module-872.js",
+        "module-1006.js",
+        "module-1513.js",
+        "module-930.js",
+        "module-1260.js",
+        "module-871.js",
+        "module-1035.js",
+        "module-1160.js",
+        "module-901.js",
+        "module-947.js",
+        "module-928.js",
+        "module-1034.js",
+        "module-55.js",
+        "module-749.js",
+        "module-186.js",
+        "module-870.js",
+        "module-5774.js",
+        "module-913.js",
+        "module-1635.js",
+        "module-5770.js"
+      ],
+      "orig_helper_known": false,
+      "extra_unmapped_orig": []
+    },
+    {
+      "helper": "deleteProperty",
+      "hits": [
+        "module-340.js"
+      ],
+      "mapped": [],
+      "unmapped": [
+        "module-340.js"
+      ],
+      "orig_helper_known": false,
+      "extra_unmapped_orig": []
+    }
+  ],
+  "unique_importer_1_1": 0,
+  "unique_grandchild": 1,
+  "unique_barrel": 0,
+  "family_pins": 0,
+  "literal_pins_parent": 0,
+  "strong_global": 1,
+  "orig_unique_import_pins": 0,
+  "orig_unique_import_zero": 113,
+  "multi_families": [
+    {
+      "parent": "components/Base/index.js",
+      "leftover_kids": [
+        "module-1102.js",
+        "module-1306.js",
+        "module-1550.js"
+      ],
+      "orig_unnamed": [
+        "components/Base/Slider/index.js"
+      ]
+    },
+    {
+      "parent": "components/Inputs/index.js",
+      "leftover_kids": [
+        "module-2884.js",
+        "module-2887.js"
+      ],
+      "orig_unnamed": [
+        "components/Inputs/EnvironmentInput/EnvFromInput/index.js"
+      ]
+    },
+    {
+      "parent": "core/App.js",
+      "leftover_kids": [
+        "module-762.js",
+        "module-767.js"
+      ],
+      "orig_unnamed": [
+        "core/routeSync.js",
+        "core/routerBase.js"
+      ]
+    }
+  ],
+  "multi_family_count": 3,
+  "zero_kid_sample": [
+    {
+      "path": "components/Modals/CDAdvanceEdit/index.js",
+      "parent": "actions/cd.js"
+    },
+    {
+      "path": "pages/fedprojects/components/ConfigTemplate/index.js",
+      "parent": "actions/federated.js"
+    },
+    {
+      "path": "components/Base/Upload/utils/attr-accept.js",
+      "parent": "components/Base/Upload/Upload.js"
+    },
+    {
+      "path": "components/Base/Upload/utils/traverseFileTree.js",
+      "parent": "components/Base/Upload/Upload.js"
+    },
+    {
+      "path": "components/Inputs/EnvironmentInput/envFrom.js",
+      "parent": "components/Forms/Workload/ContainerSettings/ContainerForm/index.js"
+    },
+    {
+      "path": "components/Modals/About/index.js",
+      "parent": "components/Layout/LoginInfo/index.js"
+    },
+    {
+      "path": "components/Modals/CustomMonitoring/components/FormInput/ThemeSelector/index.js",
+      "parent": "components/Modals/CustomMonitoring/components/FormInput/index.js"
+    },
+    {
+      "path": "components/Modals/StorageclassAutoresizer/Slider/index.js",
+      "parent": "components/Modals/StorageclassAutoresizer/index.js"
+    },
+    {
+      "path": "core/embed.js",
+      "parent": "core/i18n.js"
+    },
+    {
+      "path": "core/localeAsset.js",
+      "parent": "core/i18n.js"
+    },
+    {
+      "path": "core/containers/Login/index.js",
+      "parent": "core/routes.js"
+    },
+    {
+      "path": "core/containers/LoginConfirm/index.js",
+      "parent": "core/routes.js"
+    },
+    {
+      "path": "core/containers/PasswordConfirm/index.js",
+      "parent": "core/routes.js"
+    },
+    {
+      "path": "core/layouts/Base/index.js",
+      "parent": "core/routes.js"
+    },
+    {
+      "path": "pages/clusters/components/Cards/Monitoring/index.js",
+      "parent": "pages/clusters/components/Cards/Monitoring/ETCD/index.js"
+    },
+    {
+      "path": "core/containers/Base/Detail/BaseInfo/Attributes/index.js",
+      "parent": "pages/clusters/containers/LogCollections/Detail/Configuration/index.js"
+    },
+    {
+      "path": "pages/clusters/containers/Monitor/Cluster/Monitor/APIServer/index.js",
+      "parent": "pages/clusters/containers/Monitor/Cluster/routes.js"
+    },
+    {
+      "path": "pages/clusters/containers/Monitor/Cluster/Monitor/Etcd/index.js",
+      "parent": "pages/clusters/containers/Monitor/Cluster/routes.js"
+    },
+    {
+      "path": "pages/clusters/containers/Monitor/Cluster/Monitor/PhysicalResource/index.js",
+      "parent": "pages/clusters/containers/Monitor/Cluster/routes.js"
+    },
+    {
+      "path": "pages/clusters/containers/Monitor/Cluster/Monitor/Scheduler/index.js",
+      "parent": "pages/clusters/containers/Monitor/Cluster/routes.js"
+    }
+  ],
+  "pins": [
+    {
+      "path": "components/Inputs/EnvironmentInput/EnvFromInput/Item.js",
+      "module": "module-2885.js",
+      "reason": "unique_grandchild",
+      "extra": "parent=components/Inputs/index.js via=components/Inputs/EnvironmentInput/EnvFromInput/index.js"
+    },
+    {
+      "path": "pages/projects/containers/Alerting/Messages/index.js",
+      "module": "module-1236.js",
+      "reason": "unique_module_or_resource_global",
+      "extra": "'alerts'"
+    }
+  ],
+  "pin_count": 2,
+  "reason_counts": {
+    "orig_unique_import_0_kid": 113
+  },
+  "named_imports": [],
+  "bundle_needles": {
+    "src/pages/login": 4,
+    "src/named/": 0,
+    "named/pages/login": 0
+  }
+}

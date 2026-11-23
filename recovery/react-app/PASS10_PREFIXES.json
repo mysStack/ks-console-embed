@@ -1,0 +1,37 @@
+{
+  "orig_dirs": [
+    "actions",
+    "assets",
+    "components",
+    "configs",
+    "core",
+    "dmp",
+    "pages",
+    "scss",
+    "stores",
+    "utils"
+  ],
+  "orig_top_files": [],
+  "webpack_aliased": [
+    "actions",
+    "components",
+    "configs",
+    "core",
+    "entry",
+    "pages",
+    "regeneratorRuntime",
+    "stores",
+    "unpacked",
+    "utils"
+  ],
+  "missing_aliases": [
+    "assets",
+    "dmp",
+    "scss"
+  ],
+  "counts": {
+    "assets": 0,
+    "dmp": 1,
+    "scss": 0
+  }
+}

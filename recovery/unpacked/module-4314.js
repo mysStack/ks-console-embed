@@ -1,0 +1,22 @@
+export default {
+    container: "_2D4npaU7YPDW85p6WP30yH",
+    flexcontainer: "_2uVJNz5stoDHLzHP0buq5_",
+    header: "ltsZCVXPB5UZzjCAPRcQw",
+    title: "_2td8Tc121fajHdAmGHvBMP",
+    chartbox: "ctqOGhoxXWtaCk5EXAOdY",
+    right: "EnM7mjoOWLpXOom0viNTM",
+    status: "_1qTTW8qWoAF0moFN--m0mV",
+    item: "_3WgGEFnsypxwk5HMTLqpDD",
+    chartTitle: "_275-ogpvwB1RsqHVehF6Ag",
+    chartInfo: "_12J2jtb5glzpOFGgfe_iVc",
+    areaChartItem: "_24zAW2fxpY4ZJZzs3txe21",
+    chartBox: "IPLdLnqvv2_Hw9MoWC8dP",
+    noData: "_2fXAWh_sWNspO_WoCRh1nI",
+    item_pie: "_1T2cZyPSuaiId2IsSmh4WY",
+    pie_title: "_32y2_r_5bRr4BzlogH2Wbz",
+    pie_title_tooltip: "_36QWBpykpHp1_oKh0Qm71A",
+    pie_box: "_36YiDQkZcohJwXFM5aNw-S",
+    legendClassName: "_3LsPNKFHkizNWAJdknASqW",
+    pieNoData: "_1DaTmtphwgi5onvXO3fHWF",
+    summary: "_2H7Uj1yZYoyUAQSOhozHEA"
+};

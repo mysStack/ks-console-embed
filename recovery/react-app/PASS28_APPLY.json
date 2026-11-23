@@ -1,0 +1,12 @@
+{
+  "applied": [
+    {
+      "module": "module-1163.js",
+      "orig": "components/Cards/Monitoring/Controller/TimeSelector/Range/Default.js",
+      "kind": "body",
+      "lit": "TimeOps-10m-7d"
+    }
+  ],
+  "skipped": [],
+  "count": 1
+}

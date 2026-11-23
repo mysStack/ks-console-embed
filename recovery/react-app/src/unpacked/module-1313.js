@@ -1,0 +1,21 @@
+export default {
+    editContainer: "_2TTFcQ4vnnv51E8aVOlqFz",
+    title: "_3PgCFKRywYHFJwJrJKxF3m",
+    container: "_2fym1soTGH0nCcnJNCZACw",
+    card: "_25qqt5BRSnexUkWmCPRQcM",
+    listItem: "_1h6ZZgEGOGKQWEfx1sDpzn",
+    action: "f7esabqGfBkJU8t1jqErp",
+    workspace: "Mp4BNazHY5E22a2HDXjTP",
+    edit: "_2CYvqg-lEuCoI3kTR9LSG_",
+    info: "_29cU7cbTcEu9SKI99wmXj0",
+    editRow: "_2MaigTYE6ndKSETELA5RYY",
+    confirm: "_3DMLykQMW4cpIWefbESdUs",
+    editForm: "osoVqI1mtNOROFTJFuHTq",
+    switch: "_2cBLDmbg9s7yq1QtcE2ZnP",
+    codeWrapper: "_2kpTK_dneC0klEnq214ET9",
+    tabPanel: "fiprQmqMIUoOnRlM_XLHP",
+    option: "_3A-tSaOoHgsRn0jXj7EHqh",
+    label: "_2PaxwDrSSXY0bv-vsZ3gR-",
+    description: "i8TRLE1iF7-TfKCpvwaFM",
+    desc: "rVLbCCPYagcj54caTsfVJ"
+};

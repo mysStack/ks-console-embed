@@ -1,0 +1,381 @@
+{
+  "leftover_scanned": 4120,
+  "orig_unpromoted": 1121,
+  "class_raw": 0,
+  "class_unique": [],
+  "kid_parents": 1526,
+  "kid_pins": [
+    {
+      "kind": "unique_kid",
+      "parent": "pages/console/containers/Dashboard.js",
+      "module": "module-3637.js",
+      "orig": "components/Cards/EmptyList.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/projects/containers/Network/Policies.js",
+      "module": "module-4660.js",
+      "orig": "components/Cards/EmptyList.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/projects/containers/Pods/Detail.js",
+      "module": "module-1365.js",
+      "orig": "utils/podStatusLocale.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/projects/containers/BaseInfo/ProjectInfo.js",
+      "module": "module-4629.js",
+      "orig": "pages/clusters/containers/BaseInfo/ManageButton.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/projects/containers/BaseInfo/ProjectInfo/index.js",
+      "module": "module-4532.js",
+      "orig": "pages/clusters/containers/BaseInfo/ManageButton.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/projects/containers/Applications/CRDAppDetail/GrayRelease.js",
+      "module": "module-4775.js",
+      "orig": "components/Cards/EmptyList.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/projects/containers/Applications/CRDAppDetail/TrafficManangement/index.js",
+      "module": "module-4773.js",
+      "orig": "components/Cards/EmptyList.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/projects/containers/Volumes/Detail/ResourceStatus/UsageCard.js",
+      "module": "module-3921.js",
+      "orig": "components/Charts/Custom/Tooltip.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/projects/containers/Services/Detail/ResourceStatus.js",
+      "module": "module-3881.js",
+      "orig": "components/Cards/Pods.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/projects/components/Modals/ServiceDelete.js",
+      "module": "module-3357.js",
+      "orig": "components/Cards/EmptyList.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/projects/components/Modals/WorkloadDelete.js",
+      "module": "module-2459.js",
+      "orig": "components/Cards/EmptyList.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/projects/components/Modals/ConfigTemplate/config.js",
+      "module": "module-3603.js",
+      "orig": "components/EditForms/Workload/IPPool.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/devops/containers/Pipelines/Detail/PullRequest.js",
+      "module": "module-5089.js",
+      "orig": "components/Layout/Nav/Link.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/workspaces/containers/Groups/GroupTree.js",
+      "module": "module-4378.js",
+      "orig": "components/Tree.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/workspaces/components/Modals/EditGroup/Department.js",
+      "module": "module-4368.js",
+      "orig": "components/Tree.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/fedprojects/containers/BaseInfo/ProjectInfo.js",
+      "module": "module-4960.js",
+      "orig": "pages/clusters/containers/BaseInfo/ManageButton.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/fedprojects/containers/Applications/Detail/Tracing.js",
+      "module": "module-4993.js",
+      "orig": "components/Cards/EmptyList.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/fedprojects/containers/Applications/Detail/TrafficManangement.js",
+      "module": "module-4991.js",
+      "orig": "components/Cards/EmptyList.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/fedprojects/containers/Volumes/Detail/VolumeMounts/PodsCard.js",
+      "module": "module-5031.js",
+      "orig": "components/Cards/Pods.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/fedprojects/containers/Services/Detail/ResourceStatus.js",
+      "module": "module-5009.js",
+      "orig": "components/Cards/Pods.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/clusters/containers/BaseInfo.js",
+      "module": "module-3799.js",
+      "orig": "stores/monitoring/cluster.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/clusters/containers/EdgeNodes/Detail/RunningStatus.js",
+      "module": "module-3966.js",
+      "orig": "stores/monitoring/node.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/clusters/containers/Overview/Dashboard/KubernetesStatus.js",
+      "module": "module-3692.js",
+      "orig": "stores/monitoring/component.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/clusters/containers/Nodes/Detail/RunningStatus.js",
+      "module": "module-3955.js",
+      "orig": "stores/monitoring/node.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/clusters/containers/Monitor/Resource/Ranking/Project.js",
+      "module": "module-3794.js",
+      "orig": "stores/rank/project.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "pages/clusters/components/Cards/Monitoring/ETCD.js",
+      "module": "module-1131.js",
+      "orig": "stores/monitoring/component.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Layout/LoginInfo.js",
+      "module": "module-4069.js",
+      "orig": "components/Modals/About.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Modals/AuditingSearch.js",
+      "module": "module-3491.js",
+      "orig": "components/Cards/EmptyList.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Modals/CDDelete.js",
+      "module": "module-2659.js",
+      "orig": "components/Cards/EmptyList.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Charts/Bar/SimpleBar.js",
+      "module": "module-2181.js",
+      "orig": "components/Charts/Custom/Tooltip.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Charts/Bar/StackedBar.js",
+      "module": "module-2183.js",
+      "orig": "components/Charts/Custom/Tooltip.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Charts/Area/MultiArea.js",
+      "module": "module-2177.js",
+      "orig": "components/Charts/Custom/Tooltip.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Charts/Area/MediumArea.js",
+      "module": "module-2171.js",
+      "orig": "components/Charts/Custom/Tooltip.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Charts/Area/TinyArea.js",
+      "module": "module-2169.js",
+      "orig": "components/Charts/Custom/Tooltip.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Charts/Area/PercentArea.js",
+      "module": "module-2179.js",
+      "orig": "components/Charts/Custom/Tooltip.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Modals/Monitoring/ApplicationResource.js",
+      "module": "module-3787.js",
+      "orig": "stores/monitoring/cluster.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Modals/Bill/components/LineChart.js",
+      "module": "module-3534.js",
+      "orig": "components/Cards/EmptyList.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Forms/Dashboard/BaseInfo.js",
+      "module": "module-2866.js",
+      "orig": "stores/monitoring/custom/template.json.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Forms/Pipelines/RepoSelect/GithubForm.js",
+      "module": "module-2732.js",
+      "orig": "components/Cards/EmptyList.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "components/Forms/Workload/ContainerSettings/ContainerForm.js",
+      "module": "module-2289.js",
+      "orig": "components/Inputs/EnvironmentInput/envFrom.js"
+    },
+    {
+      "kind": "unique_kid",
+      "parent": "core/containers/Base/Detail/index.js",
+      "module": "module-3833.js",
+      "orig": "core/embed.js"
+    }
+  ],
+  "kid_samples": [
+    {
+      "parent": "pages/console/containers/Dashboard/Admin.js",
+      "unique_kids": [
+        "3636",
+        "3631"
+      ],
+      "orig_unpromoted_imports": [
+        "stores/monitoring/platform.js"
+      ]
+    },
+    {
+      "parent": "pages/projects/containers/Pods/Detail/Monitoring.js",
+      "unique_kids": [
+        "1400",
+        "1399"
+      ],
+      "orig_unpromoted_imports": [
+        "stores/monitoring/pod.js"
+      ]
+    },
+    {
+      "parent": "pages/projects/containers/Overview/ResourceUsage/index.js",
+      "unique_kids": [
+        "3979",
+        "3973"
+      ],
+      "orig_unpromoted_imports": [
+        "stores/monitoring/project.js"
+      ]
+    },
+    {
+      "parent": "pages/projects/containers/Volumes/Detail/ResourceStatus.js",
+      "unique_kids": [
+        "3922"
+      ],
+      "orig_unpromoted_imports": [
+        "components/Cards/Pods.js",
+        "stores/monitoring/volume.js"
+      ]
+    },
+    {
+      "parent": "pages/projects/containers/Deployments/Detail/RevisionControl.js",
+      "unique_kids": [
+        "3854",
+        "3859"
+      ],
+      "orig_unpromoted_imports": [
+        "components/DiffYaml.js"
+      ]
+    },
+    {
+      "parent": "pages/projects/components/Modals/ServiceGatewaySetting.js",
+      "unique_kids": [
+        "3353",
+        "3355"
+      ],
+      "orig_unpromoted_imports": [
+        "components/Forms/Base/Title.js"
+      ]
+    },
+    {
+      "parent": "pages/workspaces/containers/BaseInfo.js",
+      "unique_kids": [
+        "4357",
+        "4356"
+      ],
+      "orig_unpromoted_imports": [
+        "pages/clusters/containers/BaseInfo/ManageButton.js"
+      ]
+    },
+    {
+      "parent": "pages/workspaces/containers/Overview/UsageRanking.js",
+      "unique_kids": [
+        "4453"
+      ],
+      "orig_unpromoted_imports": [
+        "stores/rank/project.js",
+        "components/Cards/EmptyList.js"
+      ]
+    },
+    {
+      "parent": "pages/workspaces/containers/Overview/ResourceUsage/Statistics.js",
+      "unique_kids": [
+        "4448",
+        "4450"
+      ],
+      "orig_unpromoted_imports": [
+        "components/Cards/Info.js"
+      ]
+    },
+    {
+      "parent": "pages/workspaces/containers/Overview/Clusters/Card.js",
+      "unique_kids": [
+        "1886",
+        "4506",
+        "1282",
+        "4507",
+        "4510",
+        "1281"
+      ],
+      "orig_unpromoted_imports": [
+        "stores/monitoring/cluster.js"
+      ]
+    },
+    {
+      "parent": "pages/fedprojects/containers/Overview/ResourceUsage.js",
+      "unique_kids": [
+        "4945",
+        "4944"
+      ],
+      "orig_unpromoted_imports": [
+        "stores/monitoring/project.js"
+      ]
+    },
+    {
+      "parent": "pages/fedprojects/containers/Volumes/Detail/ResourceStatus/UsageCard.js",
+      "unique_kids": [
+        "5027"
+      ],
+      "orig_unpromoted_imports": [
+        "components/Charts/Custom/Tooltip.js",
+        "stores/monitoring/volume.js"
+      ]
+    }
+  ]
+}

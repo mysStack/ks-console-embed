@@ -1,0 +1,42 @@
+{
+  "applied": [
+    {
+      "module": "module-4203.js",
+      "orig": "pages/projects/containers/StatefulSets/Detail/ResourceStatus.js",
+      "kind": "long",
+      "lit": "spec.serviceName"
+    },
+    {
+      "module": "module-4204.js",
+      "orig": "pages/projects/containers/StatefulSets/Detail/ServiceCard/index.js",
+      "kind": "unique_kid",
+      "lit": "SERVICE_PL+ports"
+    },
+    {
+      "module": "module-4359.js",
+      "orig": "pages/workspaces/containers/QuotaManage/ResourceQuota/index.js",
+      "kind": "long",
+      "lit": "workspace.quota.edit"
+    },
+    {
+      "module": "module-3192.js",
+      "orig": "pages/apps/containers/AppDeploy/index.js",
+      "kind": "long",
+      "lit": "components/Forms/AppDeploy/BasicInfo"
+    },
+    {
+      "module": "module-1138.js",
+      "orig": "pages/workspaces/components/ResourceTable/index.js",
+      "kind": "long",
+      "lit": "components/HOCs/withTableActions"
+    },
+    {
+      "module": "module-1395.js",
+      "orig": "pages/workspaces/components/ResourceTable/ClusterSelect/index.js",
+      "kind": "unique_kid",
+      "lit": "CLUSTER_VALUE+StatusReason"
+    }
+  ],
+  "skipped": [],
+  "count": 6
+}

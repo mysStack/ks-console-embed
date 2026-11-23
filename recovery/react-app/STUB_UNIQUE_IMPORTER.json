@@ -1,0 +1,76 @@
+{
+  "pins": [
+    {
+      "module": "module-2423.js",
+      "orig": "components/Cards/LogQuery/index.js",
+      "dest": "components/Cards/Monitoring/Controller/TimeSelector/Range/Custom",
+      "shared_t": [],
+      "shared_t_n": 0
+    },
+    {
+      "module": "module-1549.js",
+      "orig": "pages/clusters/containers/Network/IPPools/index.js",
+      "dest": "stores/network/ippool",
+      "shared_t": [],
+      "shared_t_n": 0
+    },
+    {
+      "module": "module-4066.js",
+      "orig": "pages/apps/components/Cards/Introduction/index.js",
+      "dest": "components/Base/Markdown",
+      "shared_t": [],
+      "shared_t_n": 0
+    },
+    {
+      "module": "module-1861.js",
+      "orig": "components/Tree/index.js",
+      "dest": "components/Tree/TreeNode",
+      "shared_t": [],
+      "shared_t_n": 0
+    },
+    {
+      "module": "module-1861.js",
+      "orig": "components/Tree/index.js",
+      "dest": "components/Tree/Tree",
+      "shared_t": [],
+      "shared_t_n": 0
+    },
+    {
+      "module": "module-1332.js",
+      "orig": "pages/projects/components/Modals/RebuildS2i/index.js",
+      "dest": "stores/s2i/builder",
+      "shared_t": [],
+      "shared_t_n": 0
+    },
+    {
+      "module": "module-1869.js",
+      "orig": "pages/projects/containers/Overview/Applications/index.js",
+      "dest": "stores/openpitrix/application",
+      "shared_t": [],
+      "shared_t_n": 0
+    },
+    {
+      "module": "module-3193.js",
+      "orig": "pages/apps/components/Cards/Introduction/index.js",
+      "dest": "stores/openpitrix/file",
+      "shared_t": [],
+      "shared_t_n": 0
+    },
+    {
+      "module": "module-5045.js",
+      "orig": "pages/workspaces/containers/FedProjects/index.js",
+      "dest": "stores/project.federated",
+      "shared_t": [
+        "PROJECT_PL"
+      ],
+      "shared_t_n": 1
+    },
+    {
+      "module": "module-5226.js",
+      "orig": "pages/projects/routes/detail.js",
+      "dest": "pages/projects/containers/Pods/Containers/Detail",
+      "shared_t": [],
+      "shared_t_n": 0
+    }
+  ]
+}

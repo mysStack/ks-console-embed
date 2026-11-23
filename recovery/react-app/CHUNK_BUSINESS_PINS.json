@@ -1,0 +1,110 @@
+{
+  "leftover_scanned": 903,
+  "orig_unpromoted": 1296,
+  "raw_pins": 41,
+  "unique_module_pins": 17,
+  "pins": [
+    {
+      "kind": "t",
+      "lit": "FEDPROJECT_CANNOT_ADD_CLUSTER",
+      "module": "module-2943.js",
+      "orig": "pages/workspaces/components/Modals/FedProjectAddCluster/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "INVALID_NOTIFICATION_CONDITION",
+      "module": "module-1689.js",
+      "orig": "components/Forms/Notification/BaseForm/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "UPLOAD_SUCCESSFUL",
+      "module": "module-3293.js",
+      "orig": "components/Modals/GrafanaModal/Uploader/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "METRIC_NAME",
+      "module": "module-1639.js",
+      "orig": "components/Modals/CustomMonitoring/components/FormInput/Template/GrafanaTargetInput/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "POD_IP_POOL",
+      "module": "module-3006.js",
+      "orig": "components/Forms/Workload/AdvanceSettings/PodIPRange/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "CURRENT_WORKSPACE",
+      "module": "module-2638.js",
+      "orig": "pages/projects/components/Modals/RepoApp/Apps/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "MESSAGE_DETAILS_DESC",
+      "module": "module-2224.js",
+      "orig": "components/Forms/AlertingPolicy/AlertingRules/AddRuleForm/CustomRule/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "EVENT_AGE",
+      "module": "module-2712.js",
+      "orig": "components/Cards/Events/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "POD_IP_POOL_PL",
+      "module": "module-3004.js",
+      "orig": "pages/clusters/containers/Network/IPPools/Detail/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "NOT_CONTAIN",
+      "module": "module-2990.js",
+      "orig": "components/Forms/Notification/BaseForm/ConditionSelect/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "NO_CLUSTER_AVAILABLE_DESC",
+      "module": "module-3620.js",
+      "orig": "pages/workspaces/components/Modals/WorkspaceCreate/ClusterSettings/ClusterSelect/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "RESOURCE_TYPE",
+      "module": "module-3174.js",
+      "orig": "components/Modals/Bill/components/Tables/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "ADD_ALERTING_RULE_DESC",
+      "module": "module-2218.js",
+      "orig": "components/Forms/AlertingPolicy/AlertingRules/RuleList/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "CONTAINER_ENVIRONMENT_DESC",
+      "module": "module-2978.js",
+      "orig": "components/Forms/Workload/ContainerSettings/ContainerForm/Environments/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "REQUEST_EXCEED_AVAILABLE_QUOTA",
+      "module": "module-3301.js",
+      "orig": "components/Inputs/ResourceLimit/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "TIME_RANGE",
+      "module": "module-1737.js",
+      "orig": "components/Charts/Bar/TimeBar/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "CURRENT_REVISION_RECORD",
+      "module": "module-2753.js",
+      "orig": "pages/projects/components/Modals/RollBack/index.js"
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "dest_total": 1744,
+  "stub_total": 1640,
+  "leftover_total": 4120,
+  "dest_unreached": 104,
+  "leftover_unreached": [
+    {
+      "file": "unpacked/module-0.js",
+      "bytes": 66,
+      "head": "\"use strict\"; module.exports = require(\"unpacked/module-553.js\"); "
+    },
+    {
+      "file": "unpacked/module-1003.js",
+      "bytes": 1133,
+      "head": "import module349 from \"unpacked/module-349.js\"; function o(e) {     if (typeof WeakMap !== \"function\") {         return "
+    },
+    {
+      "file": "unpacked/module-1342.js",
+      "bytes": 614,
+      "head": "export default function(e) {     if (!e.webpackPolyfill) {         var t = Object.create(e);         if (!t.children) { "
+    },
+    {
+      "file": "unpacked/module-1556.js",
+      "bytes": 75,
+      "head": "\"use strict\"; module.exports = require(\"unpacked/module-2344.js\").default; "
+    },
+    {
+      "file": "unpacked/module-1569.js",
+      "bytes": 67,
+      "head": "\"use strict\"; module.exports = require(\"unpacked/module-2434.js\"); "
+    },
+    {
+      "file": "unpacked/module-1893.js",
+      "bytes": 61,
+      "head": "module.exports = require(\"unpacked/module-1197.js\").default; "
+    },
+    {
+      "file": "unpacked/module-2342.js",
+      "bytes": 75,
+      "head": "\"use strict\"; module.exports = require(\"unpacked/module-2343.js\").default; "
+    },
+    {
+      "file": "unpacked/module-312.js",
+      "bytes": 66,
+      "head": "\"use strict\"; module.exports = require(\"unpacked/module-559.js\"); "
+    },
+    {
+      "file": "unpacked/module-336.js",
+      "bytes": 66,
+      "head": "\"use strict\"; module.exports = require(\"unpacked/module-761.js\"); "
+    },
+    {
+      "file": "unpacked/module-43.js",
+      "bytes": 51,
+      "head": "module.exports = require(\"unpacked/module-41.js\"); "
+    },
+    {
+      "file": "unpacked/module-555.js",
+      "bytes": 66,
+      "head": "\"use strict\"; module.exports = require(\"unpacked/module-556.js\"); "
+    },
+    {
+      "file": "unpacked/module-561.js",
+      "bytes": 124,
+      "head": "export default function(e) {     if (e && e.__esModule) {         return e;     }     return {         default: e     };"
+    },
+    {
+      "file": "unpacked/module-845.js",
+      "bytes": 124,
+      "head": "export default function(e) {     if (e && e.__esModule) {         return e;     }     return {         default: e     };"
+    }
+  ],
+  "stub_unreached": 1526,
+  "dest_unreached_zero_mentions": [
+    "pages/access/accounts.js",
+    "pages/access/accounts/Detail.js",
+    "pages/access/edge-workspaces.js",
+    "pages/access/layout.js",
+    "pages/access/roles.js",
+    "pages/access/roles/Detail.js",
+    "pages/access/workspaces.js",
+    "pages/clusters/Clusters.js",
+    "pages/clusters/alert-rules.js",
+    "pages/clusters/alerts.js",
+    "pages/clusters/base-info.js",
+    "pages/clusters/components/Detail.js",
+    "pages/clusters/customresources/Detail.js",
+    "pages/clusters/edgenodes/Detail.js",
+    "pages/clusters/kubeConfig.js",
+    "pages/clusters/log-collections.js",
+    "pages/clusters/log-collections/Detail.js",
+    "pages/clusters/monitor-cluster.js",
+    "pages/clusters/monitor-resource.js",
+    "pages/clusters/networkpolicies.js",
+    "pages/clusters/nodes/Detail.js",
+    "pages/clusters/projects/Detail.js",
+    "pages/clusters/roles/Detail.js",
+    "pages/clusters/storageclasses/Detail.js",
+    "pages/clusters/visibility.js",
+    "pages/clusters/volume-snapshot-classes.js",
+    "pages/clusters/volume-snapshot-classes/Detail.js",
+    "pages/clusters/volume-snapshot-content/Detail.js",
+    "pages/clusters/volume-snapshots.js",
+    "pages/clusters/volumes.js",
+    "pages/console/Dashboard.js",
+    "pages/console/Support.js",
+    "pages/devops/base-info.js",
+    "pages/devops/cd/Detail.js",
+    "pages/devops/code-repo.js",
+    "pages/devops/credentials.js",
+    "pages/devops/credentials/Detail.js",
+    "pages/devops/detail-routes.js",
+    "pages/devops/inner.js",
+    "pages/devops/layout.js",
+    "pages/devops/members.js",
+    "pages/devops/roles.js",
+    "pages/devops/roles/Detail.js",
+    "pages/edgewize/edgeippool.js",
+    "pages/fedprojects/applications/Detail.js",
+    "pages/fedprojects/configmaps/Detail.js",
+    "pages/fedprojects/deployments/Detail.js",
+    "pages/fedprojects/ingresses/Detail.js",
+    "pages/fedprojects/overview.js",
+    "pages/fedprojects/secrets/Detail.js",
+    "pages/fedprojects/services/Detail.js",
+    "pages/fedprojects/statefulsets/Detail.js",
+    "pages/fedprojects/volumes/Detail.js",
+    "pages/projects/applications-template.js",
+    "pages/projects/applications-template/Detail.js",
+    "pages/projects/base-info.js",
+    "pages/projects/composing/Detail.js",
+    "pages/projects/configmaps/Detail.js",
+    "pages/projects/cronjobs/Detail.js",
+    "pages/projects/daemonsets/Detail.js",
+    "pages/projects/deployments/Detail.js",
+    "pages/projects/ingresses/Detail.js",
+    "pages/projects/jobs/Detail.js",
+    "pages/projects/members.js",
+    "pages/projects/networkpolicies.js",
+    "pages/projects/networkpolicies/Detail.js",
+    "pages/projects/pods/ContainerDetail.js",
+    "pages/projects/pods/Detail.js",
+    "pages/projects/roles.js",
+    "pages/projects/roles/Detail.js",
+    "pages/projects/secrets/Detail.js",
+    "pages/projects/serviceaccounts/Detail.js",
+    "pages/projects/services.js",
+    "pages/projects/services/Detail.js",
+    "pages/projects/statefulsets/Detail.js",
+    "pages/projects/volume-snapshots/Detail.js",
+    "pages/projects/volumes/Detail.js",
+    "pages/settings/base-info.js",
+    "pages/settings/dingtalk.js",
+    "pages/settings/feishu.js",
+    "pages/settings/mail.js",
+    "pages/settings/slack.js",
+    "pages/settings/third-login.js",
+    "pages/settings/webhook.js",
+    "pages/settings/wecom.js",
+    "pages/workspaces/apps.js",
+    "pages/workspaces/apps/Detail.js",
+    "pages/workspaces/base-info.js",
+    "pages/workspaces/devops.js",
+    "pages/workspaces/groups.js",
+    "pages/workspaces/members.js",
+    "pages/workspaces/members/Detail.js",
+    "pages/workspaces/overview/ranking.js",
+    "pages/workspaces/overview/routes.js",
+    "pages/workspaces/repos.js",
+    "pages/workspaces/repos/Detail.js",
+    "pages/workspaces/roles.js",
+    "pages/workspaces/roles/Detail.js"
+  ],
+  "dest_unreached_mentioned_elsewhere_count": 6,
+  "dest_unreached_mentioned_sample": [
+    {
+      "file": "components/Modals/CustomMonitoring/components/GraphType.js",
+      "importers": [
+        "components/Modals/CustomMonitoring/containers/GraphRowsEditor.js",
+        "unpacked/module-2837.js"
+      ],
+      "importer_count": 2
+    },
+    {
+      "file": "pages/clusters/components.js",
+      "importers": [
+        "actions/cluster.js",
+        "actions/node.js",
+        "actions/storageclass.js",
+        "pages/clusters/actions/cluster.js",
+        "pages/clusters/components/Cards/Monitoring/ETCD.js",
+        "pages/clusters/components/Cards/Monitoring/ETCDNodes.js",
+        "pages/clusters/components/Cards/Monitoring/ServiceComponent.js",
+        "pages/clusters/components/Modals/ClusterVisibility.js"
+      ],
+      "importer_count": 63
+    },
+    {
+      "file": "pages/devops/pipelines.js",
+      "importers": [
+        "pages/devops/routes/detail.js",
+        "unpacked/module-5078.js"
+      ],
+      "importer_count": 2
+    },
+    {
+      "file": "pages/projects/grayrelease.js",
+      "importers": [
+        "pages/projects/containers/Applications/CRDAppDetail/GrayRelease.js",
+        "pages/projects/routes/grayrelease.js",
+        "unpacked/module-1908.js",
+        "unpacked/module-4669.js"
+      ],
+      "importer_count": 4
+    },
+    {
+      "file": "stores/logging.js",
+      "importers": [
+        "components/Modals/LogSearch/Logging/Detail.js",
+        "components/Modals/LogSearch/Logging/Home.js",
+        "components/Modals/LogSearch/Logging/Search.js",
+        "pages/whizard-telemetry/log-collections.js",
+        "pages/whizard-telemetry/log-collections/Detail.js",
+        "stores/logging/histogram.js",
+        "stores/logging/query.js",
+        "stores/logging/statistics.js"
+      ],
+      "importer_count": 13
+    },
+    {
+      "file": "stores/workload.js",
+      "importers": [
+        "actions/workload.js",
+        "components/Forms/AlertingPolicy/AlertingRules/AddRuleForm/TemplateRule/WorkloadRule.js",
+        "components/Forms/CustomScaling/BaseInfo/WorkloadAddCard.js",
+        "components/Forms/CustomScaling/BaseInfo/WorkloadTableForm.js",
+        "components/Forms/CustomScaling/BaseInfo/index.js",
+        "components/Forms/GrayRelease/Version.js",
+        "components/Forms/Service/BaseInfo.js",
+        "components/Forms/Service/ServiceSettings/SelectorsInput.js"
+      ],
+      "importer_count": 76
+    }
+  ],
+  "build_missing_resolve": [],
+  "note": "unreached dest = not in static import graph from bootstrap. If mentioned by leftover/routes they are still present on disk. True missing for build = webpack Can't resolve, currently empty."
+}

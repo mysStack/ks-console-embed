@@ -1,0 +1,90 @@
+import "unpacked/module-15.js";
+import "unpacked/module-5.js";
+import "unpacked/module-4.js";
+import "unpacked/module-23.js";
+import "unpacked/module-17.js";
+import "unpacked/module-45.js";
+import "unpacked/module-42.js";
+import "unpacked/module-57.js";
+import "unpacked/module-315.js";
+import module58 from "unpacked/module-58.js";
+import module36 from "unpacked/module-36.js";
+import module37 from "unpacked/module-37.js";
+import module55 from "unpacked/module-55.js";
+import module56 from "utils/babel-helpers/possibleConstructorReturn";
+import module51 from "unpacked/module-51.js";
+import { Component } from "unpacked/module-553.js";
+import module186 from "unpacked/module-186.js";
+import Module868 from "components/Inputs/ObjectInput";
+import module1481 from "unpacked/module-1481.js";
+const v = ((Component_1)=>{
+    module55(r, Component_1);
+    var a = ((e)=>{
+        const t = (()=>{
+            if (typeof Reflect === "undefined" || !Reflect.construct) {
+                return false;
+            }
+            if (Reflect.construct.sham) {
+                return false;
+            }
+            if (typeof Proxy === "function") {
+                return true;
+            }
+            try {
+                Date.prototype.toString.call(Reflect.construct(Date, [], function() {}));
+                return true;
+            } catch (e) {
+                return false;
+            }
+        })();
+        return function() {
+            let a;
+            const r = module51(e);
+            if (t) {
+                const n = module51(this).constructor;
+                a = Reflect.construct(r, arguments, n);
+            } else {
+                a = r.apply(this, arguments);
+            }
+            return module56(this, a);
+        };
+    })(r);
+    function r(...n) {
+        let e;
+        module36(this, r);
+        e = a.call(this, ...n);
+        e.handleChange = function(t) {
+            const e_props = e.props;
+            const a_index = e_props.index;
+            e_props.onChange(a_index, t);
+        };
+        e.handleDelete = function() {
+            const e_props = e.props;
+            const t_index = e_props.index;
+            e_props.onDelete(t_index);
+        };
+        return e;
+    }
+    module37(r, [
+        {
+            key: "render",
+            value: function() {
+                const props = this.props;
+                const { readOnly, onDelete: _onDelete, onChange: _onChange, keyProps = {}, valueProps = {}, ...rest } = props;
+                const keyProps_component = keyProps.component;
+                const F = keyProps_component === undefined ? module186.Input : keyProps_component;
+                const v = module58(keyProps, [
+                    "component"
+                ]);
+                const valueProps_component = valueProps.component;
+                const Y = valueProps_component === undefined ? module186.Input : valueProps_component;
+                const E = module58(valueProps, [
+                    "component"
+                ]);
+                return <div className={module1481.item}><Module868 {...rest} onChange={this.handleChange}>{<F name="key" placeholder={t("KEY")} readOnly={readOnly} {...v}/>}{<Y name="value" placeholder={t("VALUE")} readOnly={readOnly} {...E}/>}</Module868>{!readOnly && <module186.Button type="flat" icon="trash" className={module1481.delete} onClick={this.handleDelete}/>}</div>;
+            }
+        }
+    ]);
+    return r;
+})(Component);
+export default v;

@@ -1,0 +1,93 @@
+{
+  "artifact": "phase4-build",
+  "credentialsPresent": true,
+  "loginHttp": 200,
+  "loginJsonKeys": [
+    "success",
+    "redirect"
+  ],
+  "loginJsonStatus": null,
+  "loginSuccess": true,
+  "redirectIsString": true,
+  "redirectIsAbsolute": false,
+  "redirectPath": "/",
+  "setCookiePresent": false,
+  "cookiesBefore": [
+    {
+      "name": "lang",
+      "httpOnly": false,
+      "secure": false,
+      "path": "/",
+      "hasValue": true
+    }
+  ],
+  "cookiesAfter": [
+    {
+      "name": "lang",
+      "httpOnly": false,
+      "secure": false,
+      "path": "/",
+      "hasValue": true
+    },
+    {
+      "name": "oAuthLoginInfo",
+      "httpOnly": false,
+      "secure": false,
+      "path": "/",
+      "hasValue": false
+    },
+    {
+      "name": "token",
+      "httpOnly": true,
+      "secure": false,
+      "path": "/",
+      "hasValue": true
+    },
+    {
+      "name": "expire",
+      "httpOnly": true,
+      "secure": false,
+      "path": "/",
+      "hasValue": true
+    },
+    {
+      "name": "refreshToken",
+      "httpOnly": true,
+      "secure": false,
+      "path": "/",
+      "hasValue": true
+    }
+  ],
+  "newCookieNames": [
+    "oAuthLoginInfo",
+    "token",
+    "expire",
+    "refreshToken"
+  ],
+  "kapisBefore": {
+    "http": 403,
+    "gitVersion": null
+  },
+  "kapisAfter": {
+    "http": 200,
+    "gitVersion": "v4.1.4-42+a70cb1ca584a12-dirty"
+  },
+  "cookieHeaderSeen": [
+    {
+      "urlPath": "/kapis/version",
+      "method": "GET",
+      "cookieNames": []
+    },
+    {
+      "urlPath": "/login",
+      "method": "POST",
+      "cookieNames": []
+    },
+    {
+      "urlPath": "/kapis/version",
+      "method": "GET",
+      "cookieNames": []
+    }
+  ],
+  "globalsUser": "recovered"
+}

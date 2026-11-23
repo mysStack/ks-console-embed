@@ -1,0 +1,147 @@
+import "unpacked/module-15.js";
+import "unpacked/module-5.js";
+import "unpacked/module-11.js";
+import "unpacked/module-18.js";
+import "unpacked/module-97.js";
+import "unpacked/module-4.js";
+import "unpacked/module-23.js";
+import "unpacked/module-17.js";
+import "unpacked/module-45.js";
+import "unpacked/module-42.js";
+import "unpacked/module-57.js";
+import "unpacked/module-24.js";
+import "unpacked/module-193.js";
+import module61 from "unpacked/module-61.js";
+import module36 from "unpacked/module-36.js";
+import module37 from "unpacked/module-37.js";
+import module55 from "unpacked/module-55.js";
+import module56 from "utils/babel-helpers/possibleConstructorReturn";
+import module51 from "unpacked/module-51.js";
+import { Component } from "unpacked/module-553.js";
+import module1 from "unpacked/module-1.js";
+import module3 from "unpacked/module-3.js";
+import module63 from "unpacked/module-63.js";
+import module26 from "unpacked/module-26.js";
+import module186 from "unpacked/module-186.js";
+import module240 from "unpacked/module-240.js";
+import Module814 from "components/Base/List";
+import Module1059 from "components/Inputs/BoxInput";
+import { PATTERN_EMAIL } from "utils/constants";
+import module322 from "stores/user";
+import module1997 from "unpacked/module-1997.js";
+const I = ((Component_1)=>{
+    module55(r, Component_1);
+    var a = ((e)=>{
+        const t = (()=>{
+            if (typeof Reflect === "undefined" || !Reflect.construct) {
+                return false;
+            }
+            if (Reflect.construct.sham) {
+                return false;
+            }
+            if (typeof Proxy === "function") {
+                return true;
+            }
+            try {
+                Date.prototype.toString.call(Reflect.construct(Date, [], function() {}));
+                return true;
+            } catch (e) {
+                return false;
+            }
+        })();
+        return function() {
+            let a;
+            const r = module51(e);
+            if (t) {
+                const n = module51(this).constructor;
+                a = Reflect.construct(r, arguments, n);
+            } else {
+                a = r.apply(this, arguments);
+            }
+            return module56(this, a);
+        };
+    })(r);
+    function r(...l) {
+        let e;
+        module36(this, r);
+        e = a.call(this, ...l);
+        e.userStore = new module322;
+        e.validateMail = function(a) {
+            const value = e.props.value;
+            const max_number_of_email = globals.config.notification.wecom.max_number_of_email;
+            if (a) {
+                if (value.length > max_number_of_email - 1) {
+                    module240.error({
+                        content: t.html("MAX_EAMIL_COUNT", {
+                            count: max_number_of_email
+                        }),
+                        duration: 1000
+                    });
+                } else if (value.some((e)=>e === a)) {
+                    module240.error({
+                        content: t("EMAIL_EXISTS"),
+                        duration: 1000
+                    });
+                } else {
+                    if (PATTERN_EMAIL.test(a)) {
+                        return true;
+                    }
+                    module240.error({
+                        content: t("INVALID_EMAIL"),
+                        duration: 1000
+                    });
+                }
+            } else {
+                module240.error({
+                    content: t("EMAIL_EMPTY_DESC"),
+                    duration: 1000
+                });
+            }
+        };
+        e.handleAdd = function(t) {
+            const e_props = e.props;
+            const a_value = e_props.value;
+            e_props.onChange([].concat(module61(a_value), [
+                t
+            ]));
+        };
+        e.handleDelete = function(t) {
+            const e_props = e.props;
+            const a_value = e_props.value;
+            e_props.onChange(a_value.filter((e)=>e !== t));
+        };
+        e.renderListItem = function(a) {
+            return <div>{a} {a === e.userEmail && <module186.Tag>{t("CURRENT_USER")}</module186.Tag>}</div>;
+        };
+        return e;
+    }
+    module37(r, [
+        {
+            key: "render",
+            value: function() {
+                const _this = this;
+                const props = this.props;
+                const { value, className } = props;
+                return <div className={module3(module1997.wrapper, className)}><Module1059 placeholder="user@example.com" validate={this.validateMail} onAdd={this.handleAdd} showIcon/>{!module63(value) && <div className={module1997.listWrapper}><Module814>{value.map((t)=><Module814.Item key={t} className={module1997.listItem} title={_this.renderListItem(t)} onDelete={function() {
+                        return _this.handleDelete(t);
+                    }}/>)}</Module814></div>}</div>;
+            }
+        },
+        {
+            key: "userEmail",
+            get: function() {
+                return module26(globals, "user.email");
+            }
+        }
+    ]);
+    return r;
+})(Component);
+export default I;
+I.propTypes = {
+    value: module1.array,
+    onChange: module1.func
+};
+I.defaultProps = {
+    value: [],
+    onChange: function() {}
+};

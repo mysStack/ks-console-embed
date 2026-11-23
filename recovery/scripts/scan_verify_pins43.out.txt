@@ -1,0 +1,1016 @@
+=== indexing ===
+
+=== pages/projects/containers/Pods/Containers/ResourceStatus.js -> module-3901.js [imp 'unique_importer'] ===
+  orig_t ['detailStore', 'VOLUME_PL']
+    css False skip False named []
+    t ['detailStore', 'VOLUME_PL']
+    importers ['module-3900.js']
+    export default 'export default y; '
+  importers [('module-3900.js', ['pages/projects/containers/Pods/Containers/routes.js'])]
+  parent_names ['pages/projects/containers/Pods/Containers/routes.js']
+  orig_parent_local pages/projects/containers/Pods/Containers/routes.js ['./ResourceStatus', './Monitoring', './Logs']
+  matching_local ['./ResourceStatus'] js_locals ['./ResourceStatus', './Monitoring', './Logs']
+  VERDICT NEW unique_named_parent True orig_parent_ok True
+
+=== pages/projects/containers/VolumeSnapshots/Detail/Source.js -> module-3924.js [imp 'unique_importer'] ===
+  orig_t ['RWO_DESC', 'ROX_DESC', 'RWX_DESC', 'detailStore', 'STORAGE_CLASS_VALUE', 'YYYY-MM-DD HH:mm:ss', 'CREATION_TIME_TCAP', 'ACCESS_MODE_TCAP', 'PERSISTENT_VOLUME_CLAIM_PL']
+    css False skip False named []
+    t ['div', 'RWO_DESC', 'ROX_DESC', 'RWX_DESC', 'detailStore', 'span', 'STORAGE_CLASS_VALUE', 'YYYY-MM-DD HH:mm:ss', 'CREATION_TIME_TCAP', 'img', 'ACCESS_MODE_TCAP', 'PERSISTENT_VOLUME_CLAIM_PL']
+    importers ['module-3923.js']
+    export default 'export default S; '
+  importers [('module-3923.js', ['pages/projects/containers/VolumeSnapshots/Detail/routes.js'])]
+  parent_names ['pages/projects/containers/VolumeSnapshots/Detail/routes.js']
+  orig_parent_local pages/projects/containers/VolumeSnapshots/Detail/routes.js ['./Source']
+  matching_local ['./Source'] js_locals ['./Source']
+  VERDICT NEW unique_named_parent True orig_parent_ok True
+
+=== pages/workspaces/containers/Members/Detail/Projects.js -> module-4396.js [imp 'unique_importer'] ===
+  orig_t ['detailStore', 'NAME', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'PROJECTS']
+    css False skip False named []
+    t ['detailStore', 'NAME', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'PROJECTS']
+    importers ['module-4395.js']
+    export default 'export default w; '
+  importers [('module-4395.js', ['pages/workspaces/containers/Members/Detail/routes.js'])]
+  parent_names ['pages/workspaces/containers/Members/Detail/routes.js']
+  orig_parent_local pages/workspaces/containers/Members/Detail/routes.js ['./Projects', './DevOps']
+  matching_local ['./Projects'] js_locals ['./Projects', './DevOps']
+  VERDICT NEW unique_named_parent True orig_parent_ok True
+
+=== pages/workspaces/containers/Repos/Detail/Events.js -> module-4427.js [imp 'unique_importer'] ===
+  orig_t ['detailStore', 'CREATION_TIME_TCAP', 'STATUS', 'MESSAGE', 'EVENT_PL']
+    css False skip False named []
+    t ['detailStore', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'STATUS', 'MESSAGE', 'EVENT_PL']
+    importers ['module-4426.js']
+    export default 'export default S; '
+  importers [('module-4426.js', ['pages/workspaces/containers/Repos/Detail/routes.js'])]
+  parent_names ['pages/workspaces/containers/Repos/Detail/routes.js']
+  orig_parent_local pages/workspaces/containers/Repos/Detail/routes.js ['./Events']
+  matching_local ['./Events'] js_locals ['./Events']
+  VERDICT NEW unique_named_parent True orig_parent_ok True
+
+=== pages/clusters/containers/ServiceComponents/Detail/ServiceDetails.js -> module-3997.js [imp 'unique_importer'] ===
+  orig_t ['detailStore']
+    css False skip False named []
+    t ['detailStore']
+    importers ['module-3996.js']
+    export default 'export default m; '
+  importers [('module-3996.js', ['pages/clusters/containers/ServiceComponents/Detail/routes.js'])]
+  parent_names ['pages/clusters/containers/ServiceComponents/Detail/routes.js']
+  orig_parent_local pages/clusters/containers/ServiceComponents/Detail/routes.js ['./ServiceDetails']
+  matching_local ['./ServiceDetails'] js_locals ['./ServiceDetails']
+  VERDICT NEW unique_named_parent True orig_parent_ok True
+
+=== pages/clusters/containers/Storage/StorageClasses/Detail/Volumes.js -> module-3993.js [imp 'unique_importer'] ===
+  orig_t ['detailStore', 'NAME', 'STATUS', 'CAPACITY', 'MOUNT_STATUS', 'MOUNTED', 'NOT_MOUNTED', 'PROJECT', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'VALUE_TIMEOUT', 'RESTART_WORKLOAD_AUTOMATICALLY', 'MAXIMUM_SIZE_SCAP', 'THRESHOLD']
+    css False skip False named []
+    t ['detailStore', 'NAME', 'STATUS', 'CAPACITY', 'MOUNT_STATUS', 'PROJECT', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'VALUE_TIMEOUT', 'RESTART_WORKLOAD_AUTOMATICALLY', 'MAXIMUM_SIZE_SCAP', 'THRESHOLD', 'INCREMENT', 'AUTO_EXPANSION']
+    importers ['module-3992.js']
+    export default 'export default A; '
+  importers [('module-3992.js', ['pages/clusters/containers/Storage/StorageClasses/Detail/routes.js'])]
+  parent_names ['pages/clusters/containers/Storage/StorageClasses/Detail/routes.js']
+  orig_parent_local pages/clusters/containers/Storage/StorageClasses/Detail/routes.js ['./Volumes']
+  matching_local ['./Volumes'] js_locals ['./Volumes']
+  VERDICT NEW unique_named_parent True orig_parent_ok True
+
+=== pages/projects/containers/Applications/CRDAppDetail/TrafficManangement.js -> module-4751.js [t 'TRAFFIC_MONITORING_UNAVAILABLE_DESC'] ===
+  orig_t ['detailStore', 'TRAFFIC_MONITORING', 'NO_DATA', 'TRAFFIC_MONITORING_UNAVAILABLE_DESC']
+  orig_hits=2 ['pages/fedprojects/containers/Applications/Detail/TrafficManangement.js', 'pages/projects/containers/Applications/CRDAppDetail/TrafficManangement.js']
+  unpacked_hits=2 unnamed=['module-4751.js'] named=[('module-4989.js', ['pages/fedprojects/containers/Applications/Detail/TrafficManangement.js'])]
+    css False skip False named []
+    t ['detailStore', 'TRAFFIC_MONITORING', 'NO_DATA', 'TRAFFIC_MONITORING_UNAVAILABLE_DESC']
+    importers ['module-4743.js']
+    export default 'export default b; '
+  needle_in_mod True
+  VERDICT REJECT ok_orig False unique_unp False named_other ['module-4989.js']
+
+=== pages/projects/containers/Applications/CRDAppDetail/Tracing.js -> module-4776.js [t 'SERVICE_VALUE'] ===
+  orig_t ['detailStore', 'LAST_NUM_RECORDS', 'SERVICE_VALUE']
+  orig_hits=3 ['components/Forms/Route/RouteRules/RuleList/Item.js', 'pages/fedprojects/containers/Applications/Detail/Tracing.js', 'pages/projects/containers/Applications/CRDAppDetail/Tracing.js']
+  unpacked_hits=3 unnamed=['module-4776.js'] named=[('module-1595.js', ['components/Forms/Route/RouteRules/RuleList/Item.js']), ('module-4992.js', ['pages/fedprojects/containers/Applications/Detail/Tracing.js'])]
+    css False skip False named []
+    t ['detailStore', 'SERVICE_VALUE', 'LAST_NUM_RECORDS']
+    importers ['module-4743.js']
+    export default 'export default k; '
+  needle_in_mod True
+  VERDICT REJECT ok_orig False unique_unp False named_other ['module-1595.js', 'module-4992.js']
+
+=== pages/projects/containers/Applications/CRDAppDetail/Tracing.js -> module-4776.js [t 'LAST_NUM_RECORDS'] ===
+  orig_t ['detailStore', 'LAST_NUM_RECORDS', 'SERVICE_VALUE']
+  orig_hits=2 ['pages/fedprojects/containers/Applications/Detail/Tracing.js', 'pages/projects/containers/Applications/CRDAppDetail/Tracing.js']
+  unpacked_hits=2 unnamed=['module-4776.js'] named=[('module-4992.js', ['pages/fedprojects/containers/Applications/Detail/Tracing.js'])]
+    css False skip False named []
+    t ['detailStore', 'SERVICE_VALUE', 'LAST_NUM_RECORDS']
+    importers ['module-4743.js']
+    export default 'export default k; '
+  needle_in_mod True
+  VERDICT REJECT ok_orig False unique_unp False named_other ['module-4992.js']
+
+=== pages/workspaces/components/Modals/EditBasicInfo.js -> module-4356.js [str 'spec.clusters'] ===
+  orig_t ['EDIT_INFORMATION', 'OK', 'NAME', 'NAME_DESC', 'ALIAS', 'ALIAS_NAME_DESC', 'INVALID_ALIAS_NAME_DESC', 'ADMINISTRATOR', 'DESCRIPTION', 'DESCRIPTION_DESC']
+  orig_hits=1 ['pages/workspaces/components/Modals/EditBasicInfo.js']
+  unpacked_hits=3 unnamed=['module-4356.js'] named=[('module-105.js', ['utils/object.mapper.js']), ('module-2294.js', ['components/Forms/Workload/ContainerSettings/ClusterReplicasControl/Scheduling.js'])]
+    css False skip False named []
+    t ['EDIT_INFORMATION', 'OK', 'NAME', 'NAME_DESC', 'ALIAS', 'ALIAS_NAME_DESC', 'INVALID_ALIAS_NAME_DESC', 'ADMINISTRATOR', 'DESCRIPTION', 'DESCRIPTION_DESC']
+    importers ['module-4355.js']
+    export default 'export default C; '
+  needle_in_mod True
+  VERDICT REJECT ok_orig True unique_unp False named_other ['module-105.js', 'module-2294.js']
+
+=== components/Modals/About.js -> module-4063.js [imp 'unique_importer'] ===
+  orig_t ['KS_DESCRIPTION', 'VERSION', 'REPS_ADDRESS', 'ISSUE_FEEDBACK', 'PART_IN_DISCUSSION', 'CODE_CONTRIBUTE', 'GITHUB_STAR']
+    css False skip False named []
+    t ['div', 'img', 'a', 'LEARN_MORE', 'span', 'VIEW', 'END_USER_SOFTWARE_LICENSE_AGREEMENT_LINK', 'KUBE_SPHERE_ENTERPRISE_DESC', 'KUBESPHERE_CLOUD_CAPTION', 'KUBESPHERE_CLOUD_DESC', 'p', 'strong', 'VERSION', 'ABOUT_KUBESPHERE_ENTERPRISE']
+    importers ['module-4062.js']
+    export default 'export default T; T.propTypes = {     visible: module1.bool,     onCancel: module1.func };'
+  importers [('module-4062.js', ['components/Layout/LoginInfo.js'])]
+  parent_names ['components/Layout/LoginInfo.js']
+  orig_parent_local components/Layout/LoginInfo.js ['./index.scss']
+  matching_local [] js_locals []
+  VERDICT REJECT unique_named_parent True orig_parent_ok False
+
+=== pages/projects/components/ServiceAccess.js -> module-4746.js [imp 'unique_importer'] ===
+  orig_t ['VIRTUAL_IP_ADDRESS', 'PORT_PL', 'LOAD_BALANCERS_SCAP', 'LOAD_BALANCER_SCAP']
+    css False skip False named []
+    t ['VIRTUAL_IP_ADDRESS', 'PORT_PL', 'LOAD_BALANCERS_SCAP', 'LOAD_BALANCER_SCAP']
+    importers ['module-4745.js']
+    export default 'export default function({ data }) {     if (data.specType === "ClusterIP") {         retur'
+  importers [('module-4745.js', ['pages/projects/components/Cards/Services/Item.js'])]
+  parent_names ['pages/projects/components/Cards/Services/Item.js']
+  orig_parent_local pages/projects/components/Cards/Services/Item.js ['./index.scss']
+  matching_local [] js_locals []
+  VERDICT REJECT unique_named_parent True orig_parent_ok False
+
+=== pages/apps/components/ToggleView.js -> module-3133.js [imp 'unique_importer'] ===
+  orig_t []
+    css False skip False named []
+    t []
+    importers ['module-3132.js']
+    export default 'export default v; v.propTypes = {     title: module1.PropTypes.string,     description: mo'
+  importers [('module-3132.js', ['pages/apps/components/Modals/AppCreate.js'])]
+  parent_names ['pages/apps/components/Modals/AppCreate.js']
+  orig_parent_local pages/apps/components/Modals/AppCreate.js ['./index.scss']
+  matching_local [] js_locals []
+  VERDICT REJECT unique_named_parent True orig_parent_ok False
+
+=== pages/apps/components/TextPreview.js -> module-3158.js [imp 'unique_importer'] ===
+  orig_t ['NO_APP_CHART_FILE_FOUND', 'CHART_FILES']
+    css False skip False named []
+    t ['CHART_FILES', 'NO_APP_CHART_FILE_FOUND']
+    importers ['module-3153.js']
+    export default 'export default N; '
+  importers [('module-3153.js', ['pages/apps/components/Modals/AppReview.js'])]
+  parent_names ['pages/apps/components/Modals/AppReview.js']
+  orig_parent_local pages/apps/components/Modals/AppReview.js ['./index.scss']
+  matching_local [] js_locals []
+  VERDICT REJECT unique_named_parent True orig_parent_ok False
+
+=== pages/apps/components/Lists/AuditRecord.js -> module-4413.js [imp 'unique_importer'] ===
+  orig_t ['YYYY-MM-DD HH:mm:ss', 'NO_RESOURCE_FOUND']
+    css False skip False named []
+    t ['YYYY-MM-DD HH:mm:ss', 'NO_RESOURCE_FOUND']
+    importers ['module-4410.js']
+    export default 'export default k; '
+  importers [('module-4410.js', ['pages/apps/components/Lists/VersionList/Item.js'])]
+  parent_names ['pages/apps/components/Lists/VersionList/Item.js']
+  orig_parent_local pages/apps/components/Lists/VersionList/Item.js ['./index.scss']
+  matching_local [] js_locals []
+  VERDICT REJECT unique_named_parent True orig_parent_ok False
+
+=== components/Forms/Notification/SlackForm/Item.js -> module-1705.js [t 'CHANNEL_EXISTS'] ===
+  orig_t ['ADD_CHANNEL_TIP', 'CHANNEL_EXISTS', 'SLACK_CHANNEL', 'ADDED_CHANNELS', 'EMPTY_CHANNEL_DESC']
+  orig_hits=1 ['components/Forms/Notification/SlackForm/Item.js']
+  unpacked_hits=1 unnamed=[] named=[('module-1705.js', ['components/Forms/Notification/SlackForm.js'])]
+    css False skip False named ['components/Forms/Notification/SlackForm.js']
+    t ['CHANNEL_EXISTS', 'ADD_CHANNEL_TIP', 'div', 'SERVER_SETTINGS', 'SLACK_TOKEN', 'SLACK_TOKEN_DESC', 'CHANNEL_SETTINGS', 'SLACK_CHANNEL', 'ADDED_CHANNELS', 'EMPTY_CHANNEL_DESC']
+    importers ['module-3085.js', 'module-5139.js']
+    export default 'export default b; '
+  needle_in_mod True
+  VERDICT ALIAS ok_orig True unique_unp True named_other []
+
+=== pages/clusters/containers/LogCollections/Detail.js -> module-4255.js [str 'detail.enabled'] ===
+  orig_t ['rootStore', 'STATUS', 'ENABLED', 'DISABLED', 'EDIT', 'CHANGE_STATUS', 'DELETE', 'EDIT_YAML', 'LOADING', 'LOG_RECEIVER_PL']
+  orig_hits=1 ['pages/clusters/containers/LogCollections/Detail.js']
+  unpacked_hits=1 unnamed=[] named=[('module-4255.js', ['pages/whizard-telemetry/log-collections/Detail.js'])]
+    css False skip False named ['pages/whizard-telemetry/log-collections/Detail.js']
+    t ['rootStore', 'EDIT', 'CHANGE_STATUS', 'DELETE', 'EDIT_YAML', 'STATUS', 'ENABLED', 'DISABLED', 'LOADING', 'LOG_RECEIVER_PL']
+    importers ['module-4173.js']
+    export default 'export default S; '
+  needle_in_mod True
+  VERDICT REJECT ok_orig True unique_unp True named_other []
+
+=== pages/clusters/containers/Monitor/Resource.js -> module-4152.js [t 'MONITORING_APPLICATION_DESC'] ===
+  orig_t ['rootStore', '/', 'APPLICATION_RESOURCE_PL', 'MONITORING_APPLICATION_DESC']
+  orig_hits=1 ['pages/clusters/containers/Monitor/Resource.js']
+  unpacked_hits=1 unnamed=[] named=[('module-4152.js', ['pages/whizard-telemetry/monitor-resource.js'])]
+    css False skip False named ['pages/whizard-telemetry/monitor-resource.js']
+    t ['rootStore', 'APPLICATION_RESOURCE_PL', 'MONITORING_APPLICATION_DESC', '/']
+    importers ['module-4043.js']
+    export default 'export default _; '
+  needle_in_mod True
+  VERDICT REJECT ok_orig True unique_unp True named_other []
+
+=== pages/clusters/containers/Monitor/Cluster.js -> module-4137.js [t 'MONITORING_CLUSTER_DESC'] ===
+  orig_t ['rootStore', '/', 'CLUSTER_STATUS', 'MONITORING_CLUSTER_DESC']
+  orig_hits=1 ['pages/clusters/containers/Monitor/Cluster.js']
+  unpacked_hits=1 unnamed=[] named=[('module-4137.js', ['pages/whizard-telemetry/monitor-cluster.js'])]
+    css False skip False named ['pages/whizard-telemetry/monitor-cluster.js']
+    t ['rootStore', 'CLUSTER_STATUS', 'MONITORING_CLUSTER_DESC', '/']
+    importers ['module-4043.js']
+    export default 'export default b; '
+  needle_in_mod True
+  VERDICT REJECT ok_orig True unique_unp True named_other []
+
+=== DUMP ambiguous / remaining unique candidates ===
+
+=== DUMP pages/projects/containers/Applications/OPAppDetail/ResourceStatus.js ===
+  orig_t ['detailStore']
+  orig_str ['mobx-react', 'projects/components/Cards/Services', 'projects/components/Cards/Workloads', 'projects/components/Cards/Ingresses', 'projects/components/Cards/Volumes', 'detailStore']
+    t('detailStore') orig=['core/containers/Base/Detail/Events.js', 'core/containers/Base/Detail/Metadata.js', 'pages/access/containers/Roles/Detail/AuthorizationList.js', 'pages/access/containers/Roles/Detail/AuthorizedUsers.js', 'pages/apps/containers/StoreManage/Detail/AppInformation.js', 'pages/apps/containers/StoreManage/Detail/VersionManage.js'] unpacked=['module-1023.js', 'module-1073.js', 'module-1134.js', 'module-1415.js', 'module-1824.js', 'module-1827.js'] unnamed=['module-4278.js', 'module-5029.js', 'module-5018.js', 'module-5260.js'] named=[('module-3911.js', ['pages/projects/containers/Network/Policies/Detail/Viewer.js']), ('module-3908.js', ['pages/projects/containers/Pods/Containers/Logs.js']), ('module-5076.js', ['pages/devops/containers/Credential/detail/detail.js'])]
+    str('mobx-react') orig=['components/Base/Dragger.js', 'components/Base/Modal/modal.js', 'components/Cards/ContainerLog.js', 'components/Cards/LimitRange.js', 'components/Cards/LogQuery.js'] unpacked=[] unnamed=[] named=[]
+    str('projects/components/Cards/Services') orig=['pages/projects/containers/Applications/CRDAppDetail/Components.js', 'pages/projects/containers/Applications/OPAppDetail/ResourceStatus.js'] unpacked=[] unnamed=[] named=[]
+    str('projects/components/Cards/Workloads') orig=['pages/projects/containers/Applications/CRDAppDetail/Components.js', 'pages/projects/containers/Applications/OPAppDetail/ResourceStatus.js', 'pages/projects/containers/Services/Detail/ResourceStatus.js'] unpacked=[] unnamed=[] named=[]
+    str('projects/components/Cards/Ingresses') orig=['pages/projects/containers/Applications/CRDAppDetail/Components.js', 'pages/projects/containers/Applications/OPAppDetail/ResourceStatus.js'] unpacked=[] unnamed=[] named=[]
+    str('projects/components/Cards/Volumes') orig=['pages/projects/containers/Applications/CRDAppDetail/Components.js', 'pages/projects/containers/Applications/OPAppDetail/ResourceStatus.js'] unpacked=[] unnamed=[] named=[]
+
+=== DUMP pages/projects/containers/Applications/OPAppDetail/AppConfig.js ===
+  orig_t ['rootStore', 'APP_SETTINGS']
+  orig_str ['mobx-react', 'components/Base', 'rootStore', 'detailStore', 'APP_SETTINGS']
+    t('rootStore') orig=['components/KubeTools.js', 'components/Layout/LoginInfo.js', 'components/Modals/ProjectSelect.js', 'components/Tables/Ranking.js', 'components/Tables/Ranking/wrapper.js', 'core/containers/Base/Detail.js'] unpacked=['module-1071.js', 'module-1072.js', 'module-1078.js', 'module-1133.js', 'module-1144.js', 'module-1216.js'] unnamed=['module-4139.js', 'module-4154.js', 'module-962.js', 'module-1801.js'] named=[('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-1900.js', ['pages/projects/grayrelease.js', 'pages/projects/containers/GrayRelease.js']), ('module-1409.js', ['pages/projects/volume-snapshots/Detail.js', 'pages/projects/containers/VolumeSnapshots/Detail.js'])]
+    t('APP_SETTINGS') orig=['components/Forms/AppDeploy/AppConfig.js', 'components/Forms/Notification/DingTalkForm.js', 'components/Forms/Notification/FeiShuForm.js', 'pages/projects/containers/Applications/OPAppDetail/AppConfig.js'] unpacked=['module-1702.js', 'module-3145.js', 'module-3194.js', 'module-4792.js', 'module-4889.js'] unnamed=['module-3194.js', 'module-4792.js', 'module-4889.js'] named=[('module-3145.js', ['components/Forms/AppDeploy/AppConfig.js']), ('module-1702.js', ['components/Forms/Notification/DingTalkForm.js'])]
+    str('mobx-react') orig=['components/Base/Dragger.js', 'components/Base/Modal/modal.js', 'components/Cards/ContainerLog.js', 'components/Cards/LimitRange.js', 'components/Cards/LogQuery.js'] unpacked=[] unnamed=[] named=[]
+    str('components/Base') orig=['actions/PV.js', 'actions/alerting.js', 'actions/application.js', 'actions/cd.js', 'actions/cluster.js'] unpacked=[] unnamed=[] named=[]
+
+=== DUMP pages/projects/containers/Applications/CRDAppDetail/Components.js ===
+  orig_t ['detailStore']
+  orig_str ['mobx-react', 'projects/components/Cards/Services', 'projects/components/Cards/Workloads', 'projects/components/Cards/Ingresses', 'projects/components/Cards/Volumes', 'detailStore']
+    t('detailStore') orig=['core/containers/Base/Detail/Events.js', 'core/containers/Base/Detail/Metadata.js', 'pages/access/containers/Roles/Detail/AuthorizationList.js', 'pages/access/containers/Roles/Detail/AuthorizedUsers.js', 'pages/apps/containers/StoreManage/Detail/AppInformation.js', 'pages/apps/containers/StoreManage/Detail/VersionManage.js'] unpacked=['module-1023.js', 'module-1073.js', 'module-1134.js', 'module-1415.js', 'module-1824.js', 'module-1827.js'] unnamed=['module-4278.js', 'module-5029.js', 'module-5018.js', 'module-5260.js'] named=[('module-3911.js', ['pages/projects/containers/Network/Policies/Detail/Viewer.js']), ('module-3908.js', ['pages/projects/containers/Pods/Containers/Logs.js']), ('module-5076.js', ['pages/devops/containers/Credential/detail/detail.js'])]
+    str('mobx-react') orig=['components/Base/Dragger.js', 'components/Base/Modal/modal.js', 'components/Cards/ContainerLog.js', 'components/Cards/LimitRange.js', 'components/Cards/LogQuery.js'] unpacked=[] unnamed=[] named=[]
+    str('projects/components/Cards/Services') orig=['pages/projects/containers/Applications/CRDAppDetail/Components.js', 'pages/projects/containers/Applications/OPAppDetail/ResourceStatus.js'] unpacked=[] unnamed=[] named=[]
+    str('projects/components/Cards/Workloads') orig=['pages/projects/containers/Applications/CRDAppDetail/Components.js', 'pages/projects/containers/Applications/OPAppDetail/ResourceStatus.js', 'pages/projects/containers/Services/Detail/ResourceStatus.js'] unpacked=[] unnamed=[] named=[]
+    str('projects/components/Cards/Ingresses') orig=['pages/projects/containers/Applications/CRDAppDetail/Components.js', 'pages/projects/containers/Applications/OPAppDetail/ResourceStatus.js'] unpacked=[] unnamed=[] named=[]
+    str('projects/components/Cards/Volumes') orig=['pages/projects/containers/Applications/CRDAppDetail/Components.js', 'pages/projects/containers/Applications/OPAppDetail/ResourceStatus.js'] unpacked=[] unnamed=[] named=[]
+
+=== DUMP pages/workspaces/containers/Apps/Detail/VersionManage.js ===
+  orig_t ['detailStore']
+  orig_str ['mobx-react', 'apps/components/Lists/VersionList', 'detailStore', 'versionStore', 'workspaceStore']
+    t('detailStore') orig=['core/containers/Base/Detail/Events.js', 'core/containers/Base/Detail/Metadata.js', 'pages/access/containers/Roles/Detail/AuthorizationList.js', 'pages/access/containers/Roles/Detail/AuthorizedUsers.js', 'pages/apps/containers/StoreManage/Detail/AppInformation.js', 'pages/apps/containers/StoreManage/Detail/VersionManage.js'] unpacked=['module-1023.js', 'module-1073.js', 'module-1134.js', 'module-1415.js', 'module-1824.js', 'module-1827.js'] unnamed=['module-4278.js', 'module-5029.js', 'module-5018.js', 'module-5260.js'] named=[('module-3911.js', ['pages/projects/containers/Network/Policies/Detail/Viewer.js']), ('module-3908.js', ['pages/projects/containers/Pods/Containers/Logs.js']), ('module-5076.js', ['pages/devops/containers/Credential/detail/detail.js'])]
+    str('mobx-react') orig=['components/Base/Dragger.js', 'components/Base/Modal/modal.js', 'components/Cards/ContainerLog.js', 'components/Cards/LimitRange.js', 'components/Cards/LogQuery.js'] unpacked=[] unnamed=[] named=[]
+    str('apps/components/Lists/VersionList') orig=['pages/apps/containers/StoreManage/Detail/VersionManage.js', 'pages/workspaces/containers/Apps/Detail/VersionManage.js'] unpacked=[] unnamed=[] named=[]
+    str('versionStore') orig=['pages/apps/containers/StoreManage/Detail/AppInformation.js', 'pages/apps/containers/StoreManage/Detail/VersionManage.js', 'pages/workspaces/containers/Apps/Detail/VersionManage.js'] unpacked=['module-4404.js', 'module-4408.js'] unnamed=['module-4408.js'] named=['module-4404.js']
+
+=== DUMP pages/workspaces/containers/Apps/Detail/AppInstances.js ===
+  orig_t ['workspaceStore']
+  orig_str ['mobx-react', 'apps/components/Lists/InstanceList', 'workspaceStore']
+    t('workspaceStore') orig=['pages/workspaces/containers/Apps/Detail/AppInstances.js', 'pages/workspaces/containers/QuotaManage.js'] unpacked=['module-4358.js', 'module-4423.js', 'module-4435.js', 'module-4544.js', 'module-4545.js', 'module-4546.js'] unnamed=['module-4435.js', 'module-4423.js'] named=[('module-4547.js', ['pages/projects/pods.js']), ('module-4545.js', ['pages/projects/statefulsets.js']), ('module-4549.js', ['pages/projects/jobs.js'])]
+    str('mobx-react') orig=['components/Base/Dragger.js', 'components/Base/Modal/modal.js', 'components/Cards/ContainerLog.js', 'components/Cards/LimitRange.js', 'components/Cards/LogQuery.js'] unpacked=[] unnamed=[] named=[]
+    str('apps/components/Lists/InstanceList') orig=['pages/apps/components/Lists/VersionList/Item.js', 'pages/apps/containers/StoreManage/Detail/AppInstances.js', 'pages/workspaces/containers/Apps/Detail/AppInstances.js'] unpacked=[] unnamed=[] named=[]
+
+=== DUMP pages/projects/containers/Volumes/Detail/Snapshots.js ===
+  orig_t ['detailStore', 'STATUS', 'CAPACITY', 'YYYY-MM-DD HH:mm:ss', 'CREATION_TIME_TCAP', 'SNAPSHOT_PL', 'EMPTY_WRAPPER', 'VOLUME_SNAPSHOT']
+  orig_str ['components/Base', 'mobx-react', 'stores/volumeSnapshot', 'react-router-dom', 'moment-mini', 'detailStore', 'snapshot', 'CAPACITY', 'CREATION_TIME_TCAP', 'SNAPSHOT_PL', 'EMPTY_WRAPPER', 'VOLUME_SNAPSHOT', 'margin-t12']
+    t('detailStore') orig=['core/containers/Base/Detail/Events.js', 'core/containers/Base/Detail/Metadata.js', 'pages/access/containers/Roles/Detail/AuthorizationList.js', 'pages/access/containers/Roles/Detail/AuthorizedUsers.js', 'pages/apps/containers/StoreManage/Detail/AppInformation.js', 'pages/apps/containers/StoreManage/Detail/VersionManage.js'] unpacked=['module-1023.js', 'module-1073.js', 'module-1134.js', 'module-1415.js', 'module-1824.js', 'module-1827.js'] unnamed=['module-4278.js', 'module-5029.js', 'module-5018.js', 'module-5260.js'] named=[('module-3911.js', ['pages/projects/containers/Network/Policies/Detail/Viewer.js']), ('module-3908.js', ['pages/projects/containers/Pods/Containers/Logs.js']), ('module-5076.js', ['pages/devops/containers/Credential/detail/detail.js'])]
+    t('STATUS') orig=['components/Cards/Containers/Item.js', 'components/Forms/CustomScaling/BaseInfo/WorkloadAddCard/Card.js', 'components/Forms/CustomScaling/BaseInfo/WorkloadTableForm/Card.js', 'components/Forms/Service/AdvanceSettings/NodeSchedule/NodeSelect/Item.js', 'components/Forms/Workload/AdvanceSettings/NodeSchedule/NodeSelect/Item.js', 'components/Modals/ContianerTerminal.js'] unpacked=['module-1073.js', 'module-1194.js', 'module-1219.js', 'module-1222.js', 'module-1224.js', 'module-1228.js'] unnamed=['module-4115.js', 'module-2445.js', 'module-3876.js', 'module-4899.js'] named=[('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-5216.js', ['pages/edgewize/deployments.js']), ('module-4326.js', ['pages/whizard-telemetry/metrics/builtin-alerts.js'])]
+    t('CAPACITY') orig=['components/Cards/Volumes/Item.js', 'components/Forms/Volume/VolumeSettings/SnapshotForm.js', 'components/Forms/Workload/VolumeSettings/AddExistVolumes.js', 'components/Forms/Workload/VolumeSettings/VolumeList/Card.js', 'components/Forms/Workload/VolumeSettings/VolumeTemplateList/Card.js', 'pages/clusters/containers/Storage/PV.js'] unpacked=['module-1230.js', 'module-1409.js', 'module-1772.js', 'module-1835.js', 'module-2312.js', 'module-2314.js'] unnamed=['module-4865.js', 'module-4113.js', 'module-4749.js', 'module-4115.js'] named=[('module-1409.js', ['pages/projects/volume-snapshots/Detail.js', 'pages/projects/containers/VolumeSnapshots/Detail.js']), ('module-3714.js', ['pages/clusters/containers/Storage/VolumeSnapshots/Snapshots.js']), ('module-2326.js', ['components/Forms/Workload/VolumeSettings/VolumeTemplateList/Card.js'])]
+    t('YYYY-MM-DD HH:mm:ss') orig=['components/Cards/Monitoring/Controller/TimeSelector/utils.js', 'components/Cards/Pods/Item.js', 'components/Modals/AuditingSearch/Auditing/Detail.js', 'components/Modals/CustomMonitoring/components/Clock.js', 'components/Modals/CustomMonitoring/components/Graph/Compose.js', 'components/Modals/EventSearch/Event/Detail.js'] unpacked=['module-1071.js', 'module-1073.js', 'module-1133.js', 'module-1214.js', 'module-1216.js', 'module-1221.js'] unnamed=['module-5254.js', 'module-4525.js', 'module-4041.js', 'module-4115.js'] named=[('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-5216.js', ['pages/edgewize/deployments.js']), ('module-4326.js', ['pages/whizard-telemetry/metrics/builtin-alerts.js'])]
+    t('CREATION_TIME_TCAP') orig=['components/Forms/Volume/VolumeSettings/SnapshotForm.js', 'pages/access/containers/Roles.js', 'pages/access/containers/Roles/Detail.js', 'pages/access/containers/Workspaces.js', 'pages/apps/containers/StoreManage/Detail.js', 'pages/clusters/containers/ConfigMaps.js'] unpacked=['module-1216.js', 'module-1221.js', 'module-1222.js', 'module-1224.js', 'module-1225.js', 'module-1227.js'] unnamed=['module-4115.js', 'module-4396.js', 'module-3924.js', 'module-4000.js'] named=[('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-3747.js', ['pages/clusters/secrets.js']), ('module-1409.js', ['pages/projects/volume-snapshots/Detail.js', 'pages/projects/containers/VolumeSnapshots/Detail.js'])]
+    t('SNAPSHOT_PL') orig=['pages/projects/containers/Volumes/Detail/Snapshots.js'] unpacked=[] unnamed=[] named=[]
+    t('EMPTY_WRAPPER') orig=['components/Cards/Containers/EnvVariables.js', 'components/Cards/Pods.js', 'components/Tables/Base/Empty.js', 'pages/projects/components/Cards/Services.js', 'pages/projects/containers/Volumes/Detail/Snapshots.js'] unpacked=['module-1398.js', 'module-1449.js', 'module-4431.js', 'module-5191.js', 'module-851.js', 'module-875.js'] unnamed=['module-1449.js', 'module-851.js', 'module-4431.js'] named=[('module-875.js', ['components/Tables/Base/Empty.js']), ('module-5191.js', ['pages/edgewize/fota.js']), ('module-1398.js', ['components/Cards/Containers/EnvVariables.js'])]
+    t('VOLUME_SNAPSHOT') orig=['components/Forms/Volume/VolumeSettings/SnapshotForm.js', 'pages/clusters/containers/Storage/VolumeSnapshotClasses/Detail/VolumeSnapshot.js', 'pages/projects/containers/Volumes/Detail/Snapshots.js'] unpacked=['module-1772.js', 'module-3939.js', 'module-4214.js'] unnamed=['module-4214.js', 'module-3939.js'] named=[('module-1772.js', ['components/Forms/Volume/VolumeSettings/SnapshotForm.js'])]
+    str('components/Base') orig=['actions/PV.js', 'actions/alerting.js', 'actions/application.js', 'actions/cd.js', 'actions/cluster.js'] unpacked=[] unnamed=[] named=[]
+    str('mobx-react') orig=['components/Base/Dragger.js', 'components/Base/Modal/modal.js', 'components/Cards/ContainerLog.js', 'components/Cards/LimitRange.js', 'components/Cards/LogQuery.js'] unpacked=[] unnamed=[] named=[]
+    str('stores/volumeSnapshot') orig=['components/Forms/Volume/VolumeSettings/SnapshotForm.js', 'pages/clusters/containers/Storage/VolumeSnapshotClasses/Detail/VolumeSnapshot.js', 'pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/ResourceStatus.js', 'pages/clusters/containers/Storage/VolumeSnapshots/Snapshots.js', 'pages/projects/containers/VolumeSnapshots.js'] unpacked=[] unnamed=[] named=[]
+    str('react-router-dom') orig=['components/Base/Avatar.js', 'components/Base/Breadcrumb.js', 'components/Base/Nav.js', 'components/Cards/Containers/Item.js', 'components/Cards/Info.js'] unpacked=[] unnamed=[] named=[]
+    str('moment-mini') orig=['actions/devopsImageBuilder.js', 'components/Cards/LogQuery.js', 'components/Charts/Bar/TimeBar.js', 'components/Forms/Workload/ContainerSettings/ContainerForm/ContainerSetting/ImageInput.js', 'components/Modals/AuditingSearch/Auditing/Detail.js'] unpacked=[] unnamed=[] named=[]
+    str('SNAPSHOT_PL') orig=['pages/projects/containers/Volumes/Detail/Snapshots.js', 'pages/projects/containers/Volumes/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+
+=== DUMP pages/projects/containers/Pods/Detail/ResourceStatus.js ===
+  orig_t ['detailStore', '/', 'CONTAINER_PL']
+  orig_str ['mobx-react', 'components/Cards/Containers', 'components/Cards/Volumes', 'detailStore', 'CONTAINER_PL']
+    t('detailStore') orig=['core/containers/Base/Detail/Events.js', 'core/containers/Base/Detail/Metadata.js', 'pages/access/containers/Roles/Detail/AuthorizationList.js', 'pages/access/containers/Roles/Detail/AuthorizedUsers.js', 'pages/apps/containers/StoreManage/Detail/AppInformation.js', 'pages/apps/containers/StoreManage/Detail/VersionManage.js'] unpacked=['module-1023.js', 'module-1073.js', 'module-1134.js', 'module-1415.js', 'module-1824.js', 'module-1827.js'] unnamed=['module-4278.js', 'module-5029.js', 'module-5018.js', 'module-5260.js'] named=[('module-3911.js', ['pages/projects/containers/Network/Policies/Detail/Viewer.js']), ('module-3908.js', ['pages/projects/containers/Pods/Containers/Logs.js']), ('module-5076.js', ['pages/devops/containers/Credential/detail/detail.js'])]
+    t('/') orig=['components/Forms/Workload/ContainerSettings/ContainerForm/ContainerSetting/ImageInput.js', 'components/Forms/Workload/ContainerSettings/ContainerForm/Ports.js', 'pages/clusters/containers/Monitor/Cluster.js', 'pages/clusters/containers/Monitor/Resource.js', 'pages/clusters/containers/Storage/VolumeSnapshots.js', 'pages/clusters/containers/Storage/Volumes.js'] unpacked=['module-1096.js', 'module-1110.js', 'module-1628.js', 'module-1824.js', 'module-2007.js', 'module-2265.js'] unnamed=['module-3008.js', 'module-1824.js', 'module-5776.js', 'module-749.js'] named=[('module-5077.js', ['pages/devops/containers/Credential/detail/activity.js']), ('module-3783.js', ['pages/clusters/monitor-resource.js']), ('module-3712.js', ['pages/clusters/volume-snapshots.js'])]
+    t('CONTAINER_PL') orig=['components/Cards/Pods/Item.js', 'pages/clusters/containers/Gateway/Components/Pods/Item.js', 'pages/projects/containers/Pods/Containers/Detail.js', 'pages/projects/containers/Pods/Detail/ResourceStatus.js'] unpacked=['module-1229.js', 'module-1824.js', 'module-3838.js', 'module-4038.js', 'module-4276.js'] unnamed=['module-4276.js', 'module-1824.js', 'module-4038.js'] named=[('module-3838.js', ['components/Cards/Pods/Item.js']), ('module-1229.js', ['pages/projects/pods/ContainerDetail.js', 'pages/projects/containers/Pods/Containers/Detail.js'])]
+    str('mobx-react') orig=['components/Base/Dragger.js', 'components/Base/Modal/modal.js', 'components/Cards/ContainerLog.js', 'components/Cards/LimitRange.js', 'components/Cards/LogQuery.js'] unpacked=[] unnamed=[] named=[]
+    str('components/Cards/Containers') orig=['pages/projects/containers/Pods/Detail/ResourceStatus.js'] unpacked=[] unnamed=[] named=[]
+    str('components/Cards/Volumes') orig=['pages/projects/containers/Pods/Containers/ResourceStatus.js', 'pages/projects/containers/Pods/Detail/ResourceStatus.js'] unpacked=[] unnamed=[] named=[]
+
+=== DUMP pages/projects/containers/Pods/Detail/Monitoring.js ===
+  orig_t ['rootStore']
+  orig_str ['mobx-react', 'utils/monitoring', 'stores/monitoring/pod', 'components/Cards/Monitoring', 'components/Charts', 'pod_cpu_usage', 'pod_memory_usage_wo_cache', 'pod_net_bytes_transmitted', 'pod_net_bytes_received', 'CPU_USAGE', 'MEMORY_USAGE', 'bandwidth', 'OUTBOUND_TRAFFIC', 'OUTBOUND', 'INBOUND_TRAFFIC', 'INBOUND', 'rootStore', 'detailStore']
+    t('rootStore') orig=['components/KubeTools.js', 'components/Layout/LoginInfo.js', 'components/Modals/ProjectSelect.js', 'components/Tables/Ranking.js', 'components/Tables/Ranking/wrapper.js', 'core/containers/Base/Detail.js'] unpacked=['module-1071.js', 'module-1072.js', 'module-1078.js', 'module-1133.js', 'module-1144.js', 'module-1216.js'] unnamed=['module-4139.js', 'module-4154.js', 'module-962.js', 'module-1801.js'] named=[('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-1900.js', ['pages/projects/grayrelease.js', 'pages/projects/containers/GrayRelease.js']), ('module-1409.js', ['pages/projects/volume-snapshots/Detail.js', 'pages/projects/containers/VolumeSnapshots/Detail.js'])]
+    str('mobx-react') orig=['components/Base/Dragger.js', 'components/Base/Modal/modal.js', 'components/Cards/ContainerLog.js', 'components/Cards/LimitRange.js', 'components/Cards/LogQuery.js'] unpacked=[] unnamed=[] named=[]
+    str('utils/monitoring') orig=['components/Cards/Monitoring/Controller.js', 'components/Cards/Monitoring/MonitorTab.js', 'components/Cards/Monitoring/StatusTabs.js', 'components/Cards/Pods.js', 'components/Cards/Pods/Item.js'] unpacked=[] unnamed=[] named=[]
+    str('stores/monitoring/pod') orig=['components/Cards/Pods.js', 'pages/fedprojects/containers/Deployments/Detail/Monitoring.js', 'pages/projects/components/Modals/GrayReleaseDetail/Component.js', 'pages/projects/components/Modals/PodsMonitoring.js', 'pages/projects/containers/Deployments/Detail/Monitoring.js'] unpacked=[] unnamed=[] named=[]
+    str('components/Cards/Monitoring') orig=['components/Modals/Monitoring/Controller.js', 'pages/clusters/components/Cards/Monitoring/ClusterResource.js', 'pages/clusters/components/Cards/Monitoring/ETCD.js', 'pages/clusters/components/Cards/Monitoring/ServiceComponent.js', 'pages/clusters/containers/EdgeNodes/Detail/Monitoring.js'] unpacked=[] unnamed=[] named=[]
+    str('components/Charts') orig=['components/Cards/Monitoring/MonitorTab.js', 'components/Cards/Monitoring/StatusCircle.js', 'components/Cards/Pods/Item.js', 'components/Graph/Detail/Monitors/ServiceMonitor.js', 'components/Graph/Detail/Monitors/WorkloadMonitor.js'] unpacked=[] unnamed=[] named=[]
+    str('OUTBOUND') orig=['pages/projects/containers/Pods/Detail/Monitoring.js'] unpacked=['module-1829.js'] unnamed=['module-1829.js'] named=[]
+    str('INBOUND') orig=['pages/projects/containers/Pods/Detail/Monitoring.js'] unpacked=['module-1829.js'] unnamed=['module-1829.js'] named=[]
+
+=== DUMP pages/projects/containers/ConfigMaps/Detail/ConfigDetail.js ===
+  orig_t ['detailStore', 'DATA']
+  orig_str ['mobx-react', 'components/Base', 'projects/components/Cards/Placement', 'detailStore']
+    t('detailStore') orig=['core/containers/Base/Detail/Events.js', 'core/containers/Base/Detail/Metadata.js', 'pages/access/containers/Roles/Detail/AuthorizationList.js', 'pages/access/containers/Roles/Detail/AuthorizedUsers.js', 'pages/apps/containers/StoreManage/Detail/AppInformation.js', 'pages/apps/containers/StoreManage/Detail/VersionManage.js'] unpacked=['module-1023.js', 'module-1073.js', 'module-1134.js', 'module-1415.js', 'module-1824.js', 'module-1827.js'] unnamed=['module-4278.js', 'module-5029.js', 'module-5018.js', 'module-5260.js'] named=[('module-3911.js', ['pages/projects/containers/Network/Policies/Detail/Viewer.js']), ('module-3908.js', ['pages/projects/containers/Pods/Containers/Logs.js']), ('module-5076.js', ['pages/devops/containers/Credential/detail/detail.js'])]
+    t('DATA') orig=['components/Forms/ConfigMap/ConfigMapSettings.js', 'components/Forms/Secret/SecretSettings.js', 'components/Modals/CustomMonitoring/components/Form/Graph.js', 'components/Modals/CustomMonitoring/containers/TableMonitorForm.js', 'components/Modals/CustomMonitoring/containers/TextMonitorForm.js', 'pages/fedprojects/containers/ConfigMaps.js'] unpacked=['module-1630.js', 'module-1734.js', 'module-2779.js', 'module-2799.js', 'module-2803.js', 'module-3887.js'] unnamed=['module-5039.js', 'module-4729.js', 'module-5035.js', 'module-3890.js'] named=[('module-1734.js', ['components/Forms/Secret/SecretSettings.js']), ('module-1630.js', ['components/Forms/ConfigMap/ConfigMapSettings.js']), ('module-2803.js', ['components/Modals/CustomMonitoring/containers/TableMonitorForm.js'])]
+    str('mobx-react') orig=['components/Base/Dragger.js', 'components/Base/Modal/modal.js', 'components/Cards/ContainerLog.js', 'components/Cards/LimitRange.js', 'components/Cards/LogQuery.js'] unpacked=[] unnamed=[] named=[]
+    str('components/Base') orig=['actions/PV.js', 'actions/alerting.js', 'actions/application.js', 'actions/cd.js', 'actions/cluster.js'] unpacked=[] unnamed=[] named=[]
+    str('projects/components/Cards/Placement') orig=['pages/clusters/containers/Gateway/Detail/ResourceStatus.js', 'pages/projects/containers/ConfigMaps/Detail/ConfigDetail.js', 'pages/projects/containers/Deployments/Detail/ResourceStatus.js', 'pages/projects/containers/Routes/Detail/ResourceStatus.js', 'pages/projects/containers/Secrets/Detail/SecretDetail.js'] unpacked=[] unnamed=[] named=[]
+
+=== DUMP pages/projects/containers/Secrets/Detail/SecretDetail.js ===
+  orig_t ['detailStore', 'CREDENTIAL_SI', 'PRIVATE_KEY_TCAP', 'USERNAME', 'PASSWORD', 'EMAIL', 'DATA']
+  orig_str ['mobx-react', 'components/Base', 'projects/components/Cards/Placement', 'detailStore', 'kubernetes.io/dockerconfigjson', 'CREDENTIAL_SI', 'tls.crt', 'PRIVATE_KEY_TCAP', 'tls.key', 'USERNAME', 'username', 'PASSWORD', 'password', 'kubernetes.io/tls', 'kubernetes.io/basic-auth', 'eye-closed']
+    t('detailStore') orig=['core/containers/Base/Detail/Events.js', 'core/containers/Base/Detail/Metadata.js', 'pages/access/containers/Roles/Detail/AuthorizationList.js', 'pages/access/containers/Roles/Detail/AuthorizedUsers.js', 'pages/apps/containers/StoreManage/Detail/AppInformation.js', 'pages/apps/containers/StoreManage/Detail/VersionManage.js'] unpacked=['module-1023.js', 'module-1073.js', 'module-1134.js', 'module-1415.js', 'module-1824.js', 'module-1827.js'] unnamed=['module-4278.js', 'module-5029.js', 'module-5018.js', 'module-5260.js'] named=[('module-3911.js', ['pages/projects/containers/Network/Policies/Detail/Viewer.js']), ('module-3908.js', ['pages/projects/containers/Pods/Containers/Logs.js']), ('module-5076.js', ['pages/devops/containers/Credential/detail/detail.js'])]
+    t('CREDENTIAL_SI') orig=['components/Forms/Pipelines/RepoSelect/BitBucketForm.js', 'components/Forms/Pipelines/RepoSelect/GitForm.js', 'components/Forms/Pipelines/RepoSelect/GitLabForm.js', 'components/Forms/Pipelines/RepoSelect/SVNForm.js', 'pages/fedprojects/containers/Secrets/Detail/SecretDetail.js', 'pages/projects/containers/Secrets/Detail/SecretDetail.js'] unpacked=['module-2730.js', 'module-2733.js', 'module-2735.js', 'module-2737.js', 'module-3887.js', 'module-5035.js'] unnamed=['module-5035.js', 'module-3887.js'] named=[('module-2735.js', ['components/Forms/Pipelines/RepoSelect/BitBucketForm.js']), ('module-2733.js', ['components/Forms/Pipelines/RepoSelect/SVNForm.js']), ('module-2737.js', ['components/Forms/Pipelines/RepoSelect/GitLabForm.js'])]
+    t('PRIVATE_KEY_TCAP') orig=['components/Forms/Secret/SecretSettings.js', 'pages/fedprojects/containers/Secrets/Detail/SecretDetail.js', 'pages/projects/containers/Secrets/Detail/SecretDetail.js'] unpacked=['module-1734.js', 'module-3887.js', 'module-5035.js'] unnamed=['module-3887.js', 'module-5035.js'] named=[('module-1734.js', ['components/Forms/Secret/SecretSettings.js'])]
+    t('USERNAME') orig=['components/Forms/Cluster/NodeList/AddNode.js', 'components/Forms/Notification/WebhookForm.js', 'components/Forms/Opensearch/Settings.js', 'components/Forms/Secret/SecretSettings.js', 'components/Forms/Secret/SecretSettings/ImagerRegistry.js', 'components/Modals/CredentialCreate.js'] unpacked=['module-1073.js', 'module-1181.js', 'module-1619.js', 'module-1684.js', 'module-1706.js', 'module-1734.js'] unnamed=['module-4867.js', 'module-3052.js'] named=[('module-4343.js', ['pages/access/accounts.js', 'pages/access/containers/Accounts.js']), ('module-3340.js', ['components/Forms/Secret/SecretSettings/ImagerRegistry.js']), ('module-3796.js', ['pages/clusters/members.js'])]
+    t('PASSWORD') orig=['components/Forms/Cluster/NodeList/AddNode.js', 'components/Forms/Notification/WebhookForm.js', 'components/Forms/Opensearch/Settings.js', 'components/Forms/Pipelines/ParamsInput/Item.js', 'components/Forms/Secret/SecretSettings.js', 'components/Forms/Secret/SecretSettings/ImagerRegistry.js'] unpacked=['module-1619.js', 'module-1684.js', 'module-1706.js', 'module-1734.js', 'module-2629.js', 'module-3052.js'] unnamed=['module-4873.js', 'module-4867.js', 'module-3052.js'] named=[('module-3340.js', ['components/Forms/Secret/SecretSettings/ImagerRegistry.js']), ('module-1734.js', ['components/Forms/Secret/SecretSettings.js']), ('module-2629.js', ['pages/projects/components/Modals/ServiceMonitor/Authorization.js'])]
+    t('EMAIL') orig=['components/Forms/Secret/SecretSettings/ImagerRegistry.js', 'components/Modals/ModifyPassword.js', 'components/Modals/UserCreate.js', 'components/Modals/UserSetting/BaseInfo.js', 'core/containers/LoginConfirm.js', 'pages/access/containers/Accounts/Detail.js'] unpacked=['module-1078.js', 'module-3340.js', 'module-3542.js', 'module-3544.js', 'module-3548.js', 'module-4347.js'] unnamed=[] named=[('module-3340.js', ['components/Forms/Secret/SecretSettings/ImagerRegistry.js']), ('module-3544.js', ['components/Modals/ModifyPassword.js']), ('module-4347.js', ['pages/access/accounts/Detail.js', 'pages/access/containers/Accounts/Detail.js'])]
+    t('DATA') orig=['components/Forms/ConfigMap/ConfigMapSettings.js', 'components/Forms/Secret/SecretSettings.js', 'components/Modals/CustomMonitoring/components/Form/Graph.js', 'components/Modals/CustomMonitoring/containers/TableMonitorForm.js', 'components/Modals/CustomMonitoring/containers/TextMonitorForm.js', 'pages/fedprojects/containers/ConfigMaps.js'] unpacked=['module-1630.js', 'module-1734.js', 'module-2779.js', 'module-2799.js', 'module-2803.js', 'module-3887.js'] unnamed=['module-5039.js', 'module-4729.js', 'module-5035.js', 'module-3890.js'] named=[('module-1734.js', ['components/Forms/Secret/SecretSettings.js']), ('module-1630.js', ['components/Forms/ConfigMap/ConfigMapSettings.js']), ('module-2803.js', ['components/Modals/CustomMonitoring/containers/TableMonitorForm.js'])]
+    str('mobx-react') orig=['components/Base/Dragger.js', 'components/Base/Modal/modal.js', 'components/Cards/ContainerLog.js', 'components/Cards/LimitRange.js', 'components/Cards/LogQuery.js'] unpacked=[] unnamed=[] named=[]
+    str('components/Base') orig=['actions/PV.js', 'actions/alerting.js', 'actions/application.js', 'actions/cd.js', 'actions/cluster.js'] unpacked=[] unnamed=[] named=[]
+    str('projects/components/Cards/Placement') orig=['pages/clusters/containers/Gateway/Detail/ResourceStatus.js', 'pages/projects/containers/ConfigMaps/Detail/ConfigDetail.js', 'pages/projects/containers/Deployments/Detail/ResourceStatus.js', 'pages/projects/containers/Routes/Detail/ResourceStatus.js', 'pages/projects/containers/Secrets/Detail/SecretDetail.js'] unpacked=[] unnamed=[] named=[]
+    str('tls.crt') orig=['components/Forms/Secret/SecretSettings.js', 'pages/fedprojects/containers/Secrets/Detail/SecretDetail.js', 'pages/projects/containers/Secrets/Detail/SecretDetail.js'] unpacked=['module-1734.js', 'module-3887.js', 'module-5035.js'] unnamed=['module-3887.js', 'module-5035.js'] named=['module-1734.js']
+    str('PRIVATE_KEY_TCAP') orig=['components/Forms/Secret/SecretSettings.js', 'pages/fedprojects/containers/Secrets/Detail/SecretDetail.js', 'pages/projects/containers/Secrets/Detail/SecretDetail.js'] unpacked=['module-1734.js', 'module-3887.js', 'module-5035.js'] unnamed=['module-3887.js', 'module-5035.js'] named=['module-1734.js']
+    str('tls.key') orig=['components/Forms/Secret/SecretSettings.js', 'pages/fedprojects/containers/Secrets/Detail/SecretDetail.js', 'pages/projects/containers/Secrets/Detail/SecretDetail.js'] unpacked=['module-1734.js', 'module-3887.js', 'module-5035.js'] unnamed=['module-3887.js', 'module-5035.js'] named=['module-1734.js']
+    str('kubernetes.io/tls') orig=['components/Forms/Secret/SecretSettings.js', 'pages/fedprojects/containers/Secrets/Detail/SecretDetail.js', 'pages/projects/containers/Secrets/Detail/SecretDetail.js', 'utils/constants.js'] unpacked=['module-1734.js', 'module-3887.js', 'module-5035.js', 'module-72.js'] unnamed=['module-3887.js', 'module-5035.js'] named=['module-1734.js', 'module-72.js']
+
+=== DUMP pages/projects/containers/ServiceAccounts/Detail/ServiceAccountDetail.js ===
+  orig_t ['detailStore']
+  orig_str ['mobx-react', 'detailStore', 'secrets']
+    t('detailStore') orig=['core/containers/Base/Detail/Events.js', 'core/containers/Base/Detail/Metadata.js', 'pages/access/containers/Roles/Detail/AuthorizationList.js', 'pages/access/containers/Roles/Detail/AuthorizedUsers.js', 'pages/apps/containers/StoreManage/Detail/AppInformation.js', 'pages/apps/containers/StoreManage/Detail/VersionManage.js'] unpacked=['module-1023.js', 'module-1073.js', 'module-1134.js', 'module-1415.js', 'module-1824.js', 'module-1827.js'] unnamed=['module-4278.js', 'module-5029.js', 'module-5018.js', 'module-5260.js'] named=[('module-3911.js', ['pages/projects/containers/Network/Policies/Detail/Viewer.js']), ('module-3908.js', ['pages/projects/containers/Pods/Containers/Logs.js']), ('module-5076.js', ['pages/devops/containers/Credential/detail/detail.js'])]
+    str('mobx-react') orig=['components/Base/Dragger.js', 'components/Base/Modal/modal.js', 'components/Cards/ContainerLog.js', 'components/Cards/LimitRange.js', 'components/Cards/LogQuery.js'] unpacked=[] unnamed=[] named=[]
+
+=== DUMP pages/projects/containers/CronJobs/Detail/JobRecords.js ===
+  orig_t ['rootStore', 'JOB', 'STATUS', 'START_TIME', 'YYYY-MM-DD HH:mm:ss', 'END_TIME', 'RUN_RECORDS']
+  orig_str ['mobx-react', 'react-router-dom', 'utils/status', 'stores/workload/record', 'stores/workload', 'components/Base', 'rootStore', 'detailStore', 'spec.jobTemplate.metadata.labels', 'item-name', 'START_TIME', 'status.startTime', 'END_TIME', 'status.completionTime', 'refresh', 'RUN_RECORDS']
+    t('rootStore') orig=['components/KubeTools.js', 'components/Layout/LoginInfo.js', 'components/Modals/ProjectSelect.js', 'components/Tables/Ranking.js', 'components/Tables/Ranking/wrapper.js', 'core/containers/Base/Detail.js'] unpacked=['module-1071.js', 'module-1072.js', 'module-1078.js', 'module-1133.js', 'module-1144.js', 'module-1216.js'] unnamed=['module-4139.js', 'module-4154.js', 'module-962.js', 'module-1801.js'] named=[('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-1900.js', ['pages/projects/grayrelease.js', 'pages/projects/containers/GrayRelease.js']), ('module-1409.js', ['pages/projects/volume-snapshots/Detail.js', 'pages/projects/containers/VolumeSnapshots/Detail.js'])]
+    t('JOB') orig=['pages/projects/containers/CronJobs/Detail/JobRecords.js'] unpacked=['module-3872.js'] unnamed=['module-3872.js'] named=[]
+    t('STATUS') orig=['components/Cards/Containers/Item.js', 'components/Forms/CustomScaling/BaseInfo/WorkloadAddCard/Card.js', 'components/Forms/CustomScaling/BaseInfo/WorkloadTableForm/Card.js', 'components/Forms/Service/AdvanceSettings/NodeSchedule/NodeSelect/Item.js', 'components/Forms/Workload/AdvanceSettings/NodeSchedule/NodeSelect/Item.js', 'components/Modals/ContianerTerminal.js'] unpacked=['module-1073.js', 'module-1194.js', 'module-1219.js', 'module-1222.js', 'module-1224.js', 'module-1228.js'] unnamed=['module-4115.js', 'module-2445.js', 'module-3876.js', 'module-4899.js'] named=[('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-5216.js', ['pages/edgewize/deployments.js']), ('module-4326.js', ['pages/whizard-telemetry/metrics/builtin-alerts.js'])]
+    t('START_TIME') orig=['components/Cards/Monitoring/Controller/TimeSelector/Range/Custom.js', 'components/Modals/Bill/components/TimeSelect.js', 'components/Modals/CustomMonitoring/components/TimeRangeSelect.js', 'pages/projects/components/Modals/TracingDetail.js', 'pages/projects/components/Modals/TracingDetail/SpanDetail.js', 'pages/projects/containers/CronJobs/Detail/JobRecords.js'] unpacked=['module-1164.js', 'module-1919.js', 'module-2769.js', 'module-3529.js', 'module-3869.js', 'module-3872.js'] unnamed=['module-4780.js', 'module-4917.js', 'module-3872.js'] named=[('module-1164.js', ['components/Cards/Monitoring/Controller/TimeSelector/Range/Custom.js']), ('module-2769.js', ['components/Modals/CustomMonitoring/components/TimeRangeSelect.js']), ('module-3869.js', ['pages/projects/containers/Jobs/Detail/ExcuteRecords.js'])]
+    t('YYYY-MM-DD HH:mm:ss') orig=['components/Cards/Monitoring/Controller/TimeSelector/utils.js', 'components/Cards/Pods/Item.js', 'components/Modals/AuditingSearch/Auditing/Detail.js', 'components/Modals/CustomMonitoring/components/Clock.js', 'components/Modals/CustomMonitoring/components/Graph/Compose.js', 'components/Modals/EventSearch/Event/Detail.js'] unpacked=['module-1071.js', 'module-1073.js', 'module-1133.js', 'module-1214.js', 'module-1216.js', 'module-1221.js'] unnamed=['module-5254.js', 'module-4525.js', 'module-4041.js', 'module-4115.js'] named=[('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-5216.js', ['pages/edgewize/deployments.js']), ('module-4326.js', ['pages/whizard-telemetry/metrics/builtin-alerts.js'])]
+    t('END_TIME') orig=['components/Cards/Monitoring/Controller/TimeSelector/Range/Custom.js', 'components/Modals/Bill/components/TimeSelect.js', 'components/Modals/CustomMonitoring/components/TimeRangeSelect.js', 'pages/projects/containers/CronJobs/Detail/JobRecords.js', 'pages/projects/containers/Jobs/Detail/ExcuteRecords.js'] unpacked=['module-1164.js', 'module-2769.js', 'module-3529.js', 'module-3869.js', 'module-3872.js', 'module-4917.js'] unnamed=['module-4917.js', 'module-3872.js'] named=[('module-1164.js', ['components/Cards/Monitoring/Controller/TimeSelector/Range/Custom.js']), ('module-2769.js', ['components/Modals/CustomMonitoring/components/TimeRangeSelect.js']), ('module-3869.js', ['pages/projects/containers/Jobs/Detail/ExcuteRecords.js'])]
+    t('RUN_RECORDS') orig=['pages/devops/containers/ImageBuilder/Detail/BuildRecords.js', 'pages/devops/containers/Pipelines/Detail/Layout/runs.js', 'pages/projects/containers/CronJobs/Detail/JobRecords.js', 'pages/projects/containers/ImageBuilder/Detail/BuildRecords.js', 'pages/projects/containers/Jobs/Detail/ExcuteRecords.js'] unpacked=['module-3869.js', 'module-3872.js', 'module-4896.js', 'module-5118.js'] unnamed=['module-3872.js', 'module-4896.js'] named=[('module-5118.js', ['pages/devops/containers/Pipelines/Detail/Layout/runs.js']), ('module-3869.js', ['pages/projects/containers/Jobs/Detail/ExcuteRecords.js'])]
+    str('mobx-react') orig=['components/Base/Dragger.js', 'components/Base/Modal/modal.js', 'components/Cards/ContainerLog.js', 'components/Cards/LimitRange.js', 'components/Cards/LogQuery.js'] unpacked=[] unnamed=[] named=[]
+    str('react-router-dom') orig=['components/Base/Avatar.js', 'components/Base/Breadcrumb.js', 'components/Base/Nav.js', 'components/Cards/Containers/Item.js', 'components/Cards/Info.js'] unpacked=[] unnamed=[] named=[]
+    str('utils/status') orig=['components/Cards/Containers/Item.js', 'components/Forms/CustomScaling/BaseInfo/WorkloadAddCard/Card.js', 'components/Forms/CustomScaling/BaseInfo/WorkloadTableForm/Card.js', 'pages/clusters/containers/ServiceComponents/Card.js', 'pages/clusters/containers/ServiceComponents/Detail.js'] unpacked=[] unnamed=[] named=[]
+    str('stores/workload/record') orig=['pages/projects/containers/CronJobs/Detail/JobRecords.js', 'pages/projects/containers/Jobs/Detail.js'] unpacked=[] unnamed=[] named=[]
+    str('stores/workload') orig=['actions/configReferenceImpact.js', 'components/Forms/AlertingPolicy/AlertingRules/AddRuleForm/TemplateRule/WorkloadRule.js', 'components/Forms/CustomScaling/BaseInfo/WorkloadAddCard.js', 'components/Forms/CustomScaling/BaseInfo/WorkloadTableForm.js', 'components/Forms/GrayRelease/Version.js'] unpacked=[] unnamed=[] named=[]
+    str('components/Base') orig=['actions/PV.js', 'actions/alerting.js', 'actions/application.js', 'actions/cd.js', 'actions/cluster.js'] unpacked=[] unnamed=[] named=[]
+    str('spec.jobTemplate.metadata.labels') orig=['components/Forms/CronJob/BaseInfo.js', 'pages/projects/containers/CronJobs/Detail/JobRecords.js', 'utils.js', 'utils/object.mapper.js'] unpacked=['module-105.js', 'module-3611.js', 'module-3872.js', 'module-52.js'] unnamed=['module-3872.js'] named=['module-105.js', 'module-52.js', 'module-3611.js']
+    str('item-name') orig=['pages/devops/containers/Pipelines/Detail/Activity.js', 'pages/devops/containers/Pipelines/Detail/Branch.js', 'pages/devops/containers/Pipelines/Detail/PullRequest.js', 'pages/projects/containers/CronJobs/Detail/JobRecords.js'] unpacked=['module-3872.js', 'module-5083.js', 'module-5088.js', 'module-5090.js'] unnamed=['module-3872.js'] named=['module-5083.js', 'module-5088.js', 'module-5090.js']
+    str('status.startTime') orig=['components/Graph/Detail/Pods/Item.js', 'pages/projects/containers/CronJobs/Detail/JobRecords.js', 'utils/object.mapper.js'] unpacked=['module-105.js', 'module-3872.js', 'module-4770.js'] unnamed=['module-3872.js'] named=['module-105.js', 'module-4770.js']
+    str('status.completionTime') orig=['pages/projects/containers/CronJobs/Detail/JobRecords.js', 'utils/object.mapper.js'] unpacked=['module-105.js', 'module-3872.js'] unnamed=['module-3872.js'] named=['module-105.js']
+
+=== DUMP pages/projects/containers/Jobs/Detail/ResourceStatus.js ===
+  orig_t ['detailStore']
+  orig_str ['mobx-react', 'projects/containers/Deployments/Detail/ResourceStatus', 'detailStore']
+    t('detailStore') orig=['core/containers/Base/Detail/Events.js', 'core/containers/Base/Detail/Metadata.js', 'pages/access/containers/Roles/Detail/AuthorizationList.js', 'pages/access/containers/Roles/Detail/AuthorizedUsers.js', 'pages/apps/containers/StoreManage/Detail/AppInformation.js', 'pages/apps/containers/StoreManage/Detail/VersionManage.js'] unpacked=['module-1023.js', 'module-1073.js', 'module-1134.js', 'module-1415.js', 'module-1824.js', 'module-1827.js'] unnamed=['module-4278.js', 'module-5029.js', 'module-5018.js', 'module-5260.js'] named=[('module-3911.js', ['pages/projects/containers/Network/Policies/Detail/Viewer.js']), ('module-3908.js', ['pages/projects/containers/Pods/Containers/Logs.js']), ('module-5076.js', ['pages/devops/containers/Credential/detail/detail.js'])]
+    str('mobx-react') orig=['components/Base/Dragger.js', 'components/Base/Modal/modal.js', 'components/Cards/ContainerLog.js', 'components/Cards/LimitRange.js', 'components/Cards/LogQuery.js'] unpacked=[] unnamed=[] named=[]
+    str('projects/containers/Deployments/Detail/ResourceStatus') orig=['pages/projects/containers/DaemonSets/Detail/ResourceStatus.js', 'pages/projects/containers/ImageBuilder/Detail/ResourceStatus.js', 'pages/projects/containers/Jobs/Detail/ResourceStatus.js', 'pages/projects/containers/StatefulSets/Detail/ResourceStatus.js'] unpacked=[] unnamed=[] named=[]
+
+=== DUMP pages/projects/containers/Deployments/Detail/ResourceStatus.js ===
+  orig_t ['STORAGE_DEVICES', 'detailStore']
+  orig_str ['mobx-react', 'stores/workload/hpa', 'components/Cards/Pods', 'components/Cards/Containers/Ports', 'projects/components/Cards/HPA', 'projects/components/Cards/Replica', 'projects/components/Cards/S2iBuilder', 'projects/components/Cards/Placement', 'STORAGE_DEVICES', 'deployments', 'kubesphere.io/relatedHPA', 'detailStore', 'hpaStore']
+    t('STORAGE_DEVICES') orig=['pages/clusters/containers/Gateway/Detail/ResourceStatus.js', 'pages/projects/containers/Deployments/Detail/ResourceStatus.js'] unpacked=['module-1134.js', 'module-1415.js', 'module-4036.js', 'module-4270.js'] unnamed=['module-4270.js', 'module-4036.js', 'module-1134.js', 'module-1415.js'] named=[]
+    t('detailStore') orig=['core/containers/Base/Detail/Events.js', 'core/containers/Base/Detail/Metadata.js', 'pages/access/containers/Roles/Detail/AuthorizationList.js', 'pages/access/containers/Roles/Detail/AuthorizedUsers.js', 'pages/apps/containers/StoreManage/Detail/AppInformation.js', 'pages/apps/containers/StoreManage/Detail/VersionManage.js'] unpacked=['module-1023.js', 'module-1073.js', 'module-1134.js', 'module-1415.js', 'module-1824.js', 'module-1827.js'] unnamed=['module-4278.js', 'module-5029.js', 'module-5018.js', 'module-5260.js'] named=[('module-3911.js', ['pages/projects/containers/Network/Policies/Detail/Viewer.js']), ('module-3908.js', ['pages/projects/containers/Pods/Containers/Logs.js']), ('module-5076.js', ['pages/devops/containers/Credential/detail/detail.js'])]
+    str('mobx-react') orig=['components/Base/Dragger.js', 'components/Base/Modal/modal.js', 'components/Cards/ContainerLog.js', 'components/Cards/LimitRange.js', 'components/Cards/LogQuery.js'] unpacked=[] unnamed=[] named=[]
+    str('stores/workload/hpa') orig=['actions/workload.js', 'pages/projects/components/Cards/HPA.js', 'pages/projects/containers/Deployments/Detail.js', 'pages/projects/containers/Deployments/Detail/ResourceStatus.js'] unpacked=[] unnamed=[] named=[]
+    str('components/Cards/Pods') orig=['pages/clusters/containers/EdgeNodes/Detail/Pods.js', 'pages/clusters/containers/Network/IPPools/Detail/Pods.js', 'pages/clusters/containers/Nodes/Detail/Pods.js', 'pages/clusters/containers/Projects/Detail/Pods.js', 'pages/clusters/containers/ServiceComponents/Detail/ServiceDetails.js'] unpacked=[] unnamed=[] named=[]
+    str('components/Cards/Containers/Ports') orig=['pages/clusters/containers/Gateway/Detail/ResourceStatus.js', 'pages/fedprojects/containers/Deployments/Detail/ResourceStatus.js', 'pages/projects/containers/Deployments/Detail/ResourceStatus.js'] unpacked=[] unnamed=[] named=[]
+    str('projects/components/Cards/HPA') orig=['pages/projects/containers/Deployments/Detail/ResourceStatus.js'] unpacked=[] unnamed=[] named=[]
+    str('projects/components/Cards/Replica') orig=['pages/clusters/containers/Gateway/Detail/ResourceStatus.js', 'pages/projects/containers/Deployments/Detail/ResourceStatus.js'] unpacked=[] unnamed=[] named=[]
+    str('projects/components/Cards/S2iBuilder') orig=['pages/projects/containers/Deployments/Detail/ResourceStatus.js'] unpacked=[] unnamed=[] named=[]
+    str('projects/components/Cards/Placement') orig=['pages/clusters/containers/Gateway/Detail/ResourceStatus.js', 'pages/projects/containers/ConfigMaps/Detail/ConfigDetail.js', 'pages/projects/containers/Deployments/Detail/ResourceStatus.js', 'pages/projects/containers/Routes/Detail/ResourceStatus.js', 'pages/projects/containers/Secrets/Detail/SecretDetail.js'] unpacked=[] unnamed=[] named=[]
+    str('STORAGE_DEVICES') orig=['pages/clusters/containers/Gateway/Detail/ResourceStatus.js', 'pages/projects/containers/Deployments/Detail/ResourceStatus.js'] unpacked=['module-1134.js', 'module-1415.js', 'module-4036.js', 'module-4270.js'] unnamed=['module-4270.js', 'module-4036.js', 'module-1134.js', 'module-1415.js'] named=[]
+    str('hpaStore') orig=['pages/projects/containers/Deployments/Detail/ResourceStatus.js'] unpacked=['module-1134.js', 'module-1415.js'] unnamed=['module-1134.js', 'module-1415.js'] named=[]
+
+=== DUMP pages/projects/containers/Deployments/Detail/Monitoring.js ===
+  orig_t ['detailStore', 'VIEW_ALL_REPLICAS']
+  orig_str ['mobx-react', 'classnames', 'utils/monitoring', 'stores/monitoring/pod', 'components/Charts', 'components/Cards/Monitoring', 'projects/components/Modals/PodsMonitoring', 'pod_cpu_usage', 'pod_memory_usage_wo_cache', 'pod_net_bytes_transmitted', 'pod_net_bytes_received', 'deployment', 'statefulset', 'daemonset', 'detailStore', 'data.result', 'metric.pod', 'CPU_USAGE', 'MEMORY_USAGE', 'bandwidth', 'OUTBOUND_TRAFFIC', 'INBOUND_TRAFFIC', 'MONITORING_ALERT_DESC', 'VIEW_ALL_REPLICAS']
+    t('detailStore') orig=['core/containers/Base/Detail/Events.js', 'core/containers/Base/Detail/Metadata.js', 'pages/access/containers/Roles/Detail/AuthorizationList.js', 'pages/access/containers/Roles/Detail/AuthorizedUsers.js', 'pages/apps/containers/StoreManage/Detail/AppInformation.js', 'pages/apps/containers/StoreManage/Detail/VersionManage.js'] unpacked=['module-1023.js', 'module-1073.js', 'module-1134.js', 'module-1415.js', 'module-1824.js', 'module-1827.js'] unnamed=['module-4278.js', 'module-5029.js', 'module-5018.js', 'module-5260.js'] named=[('module-3911.js', ['pages/projects/containers/Network/Policies/Detail/Viewer.js']), ('module-3908.js', ['pages/projects/containers/Pods/Containers/Logs.js']), ('module-5076.js', ['pages/devops/containers/Credential/detail/detail.js'])]
+    t('VIEW_ALL_REPLICAS') orig=['pages/fedprojects/containers/Deployments/Detail/Monitoring.js', 'pages/projects/containers/Deployments/Detail/Monitoring.js'] unpacked=['module-1072.js', 'module-1985.js'] unnamed=['module-1985.js', 'module-1072.js'] named=[]
+    str('mobx-react') orig=['components/Base/Dragger.js', 'components/Base/Modal/modal.js', 'components/Cards/ContainerLog.js', 'components/Cards/LimitRange.js', 'components/Cards/LogQuery.js'] unpacked=[] unnamed=[] named=[]
+    str('classnames') orig=['components/Base/Avatar.js', 'components/Base/Banner.js', 'components/Base/Bar.js', 'components/Base/Card.js', 'components/Base/Cascader/Item.js'] unpacked=[] unnamed=[] named=[]
+    str('utils/monitoring') orig=['components/Cards/Monitoring/Controller.js', 'components/Cards/Monitoring/MonitorTab.js', 'components/Cards/Monitoring/StatusTabs.js', 'components/Cards/Pods.js', 'components/Cards/Pods/Item.js'] unpacked=[] unnamed=[] named=[]
+    str('stores/monitoring/pod') orig=['components/Cards/Pods.js', 'pages/fedprojects/containers/Deployments/Detail/Monitoring.js', 'pages/projects/components/Modals/GrayReleaseDetail/Component.js', 'pages/projects/components/Modals/PodsMonitoring.js', 'pages/projects/containers/Deployments/Detail/Monitoring.js'] unpacked=[] unnamed=[] named=[]
+    str('components/Charts') orig=['components/Cards/Monitoring/MonitorTab.js', 'components/Cards/Monitoring/StatusCircle.js', 'components/Cards/Pods/Item.js', 'components/Graph/Detail/Monitors/ServiceMonitor.js', 'components/Graph/Detail/Monitors/WorkloadMonitor.js'] unpacked=[] unnamed=[] named=[]
+    str('components/Cards/Monitoring') orig=['components/Modals/Monitoring/Controller.js', 'pages/clusters/components/Cards/Monitoring/ClusterResource.js', 'pages/clusters/components/Cards/Monitoring/ETCD.js', 'pages/clusters/components/Cards/Monitoring/ServiceComponent.js', 'pages/clusters/containers/EdgeNodes/Detail/Monitoring.js'] unpacked=[] unnamed=[] named=[]
+    str('projects/components/Modals/PodsMonitoring') orig=['pages/fedprojects/containers/Deployments/Detail/Monitoring.js', 'pages/projects/containers/Deployments/Detail/Monitoring.js'] unpacked=[] unnamed=[] named=[]
+
+=== DUMP pages/projects/containers/Deployments/Detail/routes.js ===
+  orig_t []
+  orig_str ['utils/router.config', 'core/containers/Base/Detail/Events', 'core/containers/Base/Detail/EnvVariables', 'core/containers/Base/Detail/Metadata', 'RESOURCE_STATUS', 'REVISION_RECORDS', 'METADATA', 'MONITORING', 'ENVIRONMENT_VARIABLE_PL', 'EVENT_PL']
+    str('utils/router.config') orig=['core/App.js', 'core/containers/Base/Detail.js', 'core/layouts/Base.js', 'pages/access/App.js', 'pages/access/containers/Accounts/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+    str('core/containers/Base/Detail/Events') orig=['pages/clusters/containers/EdgeNodes/Detail/Events.js', 'pages/clusters/containers/Nodes/Detail/Events.js', 'pages/clusters/containers/Storage/PV/detail/routes.js', 'pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/routes.js', 'pages/fedprojects/containers/Deployments/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+    str('core/containers/Base/Detail/EnvVariables') orig=['pages/projects/containers/DaemonSets/Detail/routes.js', 'pages/projects/containers/Deployments/Detail/routes.js', 'pages/projects/containers/Jobs/Detail/routes.js', 'pages/projects/containers/Pods/Containers/routes.js', 'pages/projects/containers/Pods/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+    str('core/containers/Base/Detail/Metadata') orig=['pages/clusters/containers/EdgeNodes/Detail/routes.js', 'pages/clusters/containers/Nodes/Detail/routes.js', 'pages/clusters/containers/Storage/PV/detail/routes.js', 'pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/routes.js', 'pages/fedprojects/containers/Deployments/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+
+=== DUMP pages/projects/containers/Deployments/Detail.js ===
+  orig_t ['rootStore', 'EDIT_INFORMATION', 'ROLL_BACK', 'EDIT_AUTOSCALING', 'EDIT_SETTINGS', 'EDIT_YAML', 'RECREATE', 'DELETE', 'CLUSTER', 'PROJECT', 'APP', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'UPDATE_TIME_TCAP', 'CREATOR', 'DEPLOYMENT_PL']
+  orig_str ['mobx-react', 'utils/action', 'stores/workload', 'stores/workload/hpa', 'projects/containers/Base/Detail', 'rootStore', 'deployments', 'DEPLOYMENT', 'kubesphere.io/relatedHPA', 'EDIT_INFORMATION', 'resource.baseinfo.edit', 'rollBack', 'timed-task', 'ROLL_BACK', 'workload.revision.rollback', 'editHpa', 'firewall', 'EDIT_AUTOSCALING', 'workload.hpa.edit', 'editConfigTemplate', 'storage', 'EDIT_SETTINGS', 'workload.template.edit', 'editYaml']
+    t('rootStore') orig=['components/KubeTools.js', 'components/Layout/LoginInfo.js', 'components/Modals/ProjectSelect.js', 'components/Tables/Ranking.js', 'components/Tables/Ranking/wrapper.js', 'core/containers/Base/Detail.js'] unpacked=['module-1071.js', 'module-1072.js', 'module-1078.js', 'module-1133.js', 'module-1144.js', 'module-1216.js'] unnamed=['module-4139.js', 'module-4154.js', 'module-962.js', 'module-1801.js'] named=[('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-1900.js', ['pages/projects/grayrelease.js', 'pages/projects/containers/GrayRelease.js']), ('module-1409.js', ['pages/projects/volume-snapshots/Detail.js', 'pages/projects/containers/VolumeSnapshots/Detail.js'])]
+    t('EDIT_INFORMATION') orig=['components/Forms/AlertingPolicy/EditBasicInfo.js', 'components/HOCs/withList.js', 'components/Modals/DevOpsEdit.js', 'components/Modals/EditBasicInfo.js', 'components/Modals/EditServiceAccount.js', 'components/Modals/Pipelines/Base.js'] unpacked=['module-1194.js', 'module-1216.js', 'module-1221.js', 'module-1222.js', 'module-1224.js', 'module-1225.js'] unnamed=['module-4115.js', 'module-4356.js', 'module-3012.js', 'module-1788.js'] named=[('module-5064.js', ['pages/devops/components/Modals/DevOpsEdit.js']), ('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-5216.js', ['pages/edgewize/deployments.js'])]
+    t('ROLL_BACK') orig=['components/Forms/CD/FluxCD/Advance.js', 'pages/projects/components/Modals/RollBack.js', 'pages/projects/containers/Applications/OPAppDetail/VersionInfo.js', 'pages/projects/containers/DaemonSets/Detail.js', 'pages/projects/containers/Deployments/Detail.js', 'pages/projects/containers/StatefulSets/Detail.js'] unpacked=['module-1216.js', 'module-1221.js', 'module-1402.js', 'module-1670.js', 'module-2753.js', 'module-3598.js'] unnamed=['module-2753.js', 'module-1670.js'] named=[('module-4727.js', ['pages/projects/configurations/Detail.js']), ('module-3598.js', ['pages/projects/components/Modals/RollBack.js']), ('module-1402.js', ['pages/projects/statefulsets/Detail.js'])]
+    t('EDIT_AUTOSCALING') orig=['pages/projects/containers/Deployments/Detail.js'] unpacked=['module-1216.js', 'module-1402.js'] unnamed=[] named=[('module-1216.js', ['pages/projects/deployments/Detail.js']), ('module-1402.js', ['pages/projects/statefulsets/Detail.js'])]
+    t('EDIT_SETTINGS') orig=['components/Modals/CDAdvanceEdit.js', 'pages/clusters/containers/ConfigMaps.js', 'pages/clusters/containers/Secrets.js', 'pages/devops/containers/CD/CDList.js', 'pages/devops/containers/CD/detail.js', 'pages/devops/containers/Pipelines/Detail/Layout/pipeline.js'] unpacked=['module-1216.js', 'module-1221.js', 'module-1402.js', 'module-1404.js', 'module-1405.js', 'module-2741.js'] unnamed=['module-4431.js'] named=[('module-3747.js', ['pages/clusters/secrets.js']), ('module-1402.js', ['pages/projects/statefulsets/Detail.js']), ('module-5006.js', ['pages/fedprojects/services/Detail.js'])]
+    t('EDIT_YAML') orig=['components/Forms/AppDeploy/AppConfig.js', 'components/Modals/Create.js', 'components/Modals/EditYaml.js', 'components/Modals/FullCreate.js', 'components/Modals/FullCreate/Code.js', 'pages/clusters/containers/ConfigMaps.js'] unpacked=['module-1081.js', 'module-1216.js', 'module-1221.js', 'module-1224.js', 'module-1225.js', 'module-1227.js'] unnamed=['module-3704.js', 'module-4000.js', 'module-3721.js', 'module-4103.js'] named=[('module-5216.js', ['pages/edgewize/deployments.js']), ('module-3747.js', ['pages/clusters/secrets.js']), ('module-1409.js', ['pages/projects/volume-snapshots/Detail.js', 'pages/projects/containers/VolumeSnapshots/Detail.js'])]
+    t('RECREATE') orig=['pages/clusters/containers/Workload/DaemonSets.js', 'pages/clusters/containers/Workload/Deployments.js', 'pages/clusters/containers/Workload/StatefulSets.js', 'pages/projects/components/Modals/Redeploy.js', 'pages/projects/containers/DaemonSets.js', 'pages/projects/containers/DaemonSets/Detail.js'] unpacked=['module-1216.js', 'module-1221.js', 'module-1402.js', 'module-3596.js', 'module-3734.js', 'module-3735.js'] unnamed=[] named=[('module-3734.js', ['pages/clusters/deployments.js']), ('module-4545.js', ['pages/projects/statefulsets.js']), ('module-5215.js', ['pages/edgewize/daemonsets.js'])]
+    t('DELETE') orig=['components/HOCs/withList.js', 'components/Modals/Delete.js', 'components/Tables/Base.js', 'pages/access/containers/Accounts.js', 'pages/access/containers/Accounts/Detail.js', 'pages/access/containers/Roles.js'] unpacked=['module-1194.js', 'module-1216.js', 'module-1221.js', 'module-1222.js', 'module-1224.js', 'module-1225.js'] unnamed=['module-4115.js', 'module-4871.js', 'module-5184.js', 'module-4000.js'] named=[('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-5216.js', ['pages/edgewize/deployments.js']), ('module-3747.js', ['pages/clusters/secrets.js'])]
+    t('CLUSTER') orig=['components/Cards/Containers/Ports.js', 'components/Forms/AppDeploy/BasicInfo.js', 'components/Forms/AppDeploy/BasicInfo/Placement.js', 'components/Forms/CD/Advance/Placement.js', 'components/Forms/Route/RouteRules/RuleForm.js', 'components/Forms/Route/RouteRules/RuleList/Item.js'] unpacked=['module-1070.js', 'module-1214.js', 'module-1216.js', 'module-1221.js', 'module-1222.js', 'module-1224.js'] unnamed=['module-3002.js', 'module-2084.js', 'module-4525.js', 'module-1214.js'] named=[('module-1830.js', ['pages/projects/networkpolicies/Detail.js', 'pages/projects/containers/Network/Policies/Detail.js']), ('module-4727.js', ['pages/projects/configurations/Detail.js']), ('module-4911.js', ['pages/projects/custom-scaling/Detail.js'])]
+    t('PROJECT') orig=['components/Forms/AppDeploy/BasicInfo.js', 'components/Forms/AppDeploy/BasicInfo/Placement.js', 'components/Forms/CD/Advance/Placement.js', 'components/Forms/CronJob/BaseInfo.js', 'components/Forms/Notification/BaseForm/ConditionSelect.js', 'components/Forms/Service/BaseInfo.js'] unpacked=['module-1214.js', 'module-1216.js', 'module-1221.js', 'module-1222.js', 'module-1224.js', 'module-1225.js'] unnamed=['module-1801.js', 'module-4310.js', 'module-2062.js', 'module-4374.js'] named=[('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-5216.js', ['pages/edgewize/deployments.js']), ('module-3747.js', ['pages/clusters/secrets.js'])]
+    t('APP') orig=['pages/fedprojects/containers/Applications/Detail.js', 'pages/fedprojects/containers/Deployments.js', 'pages/fedprojects/containers/Deployments/Detail.js', 'pages/fedprojects/containers/Routes.js', 'pages/fedprojects/containers/Routes/Detail.js', 'pages/fedprojects/containers/Services.js'] unpacked=['module-1216.js', 'module-1225.js', 'module-1227.js', 'module-1228.js', 'module-1229.js', 'module-1402.js'] unnamed=['module-4713.js'] named=[('module-5016.js', ['pages/fedprojects/ingresses/Detail.js']), ('module-1402.js', ['pages/projects/statefulsets/Detail.js']), ('module-5006.js', ['pages/fedprojects/services/Detail.js'])]
+    t('CREATION_TIME_TCAP') orig=['components/Forms/Volume/VolumeSettings/SnapshotForm.js', 'pages/access/containers/Roles.js', 'pages/access/containers/Roles/Detail.js', 'pages/access/containers/Workspaces.js', 'pages/apps/containers/StoreManage/Detail.js', 'pages/clusters/containers/ConfigMaps.js'] unpacked=['module-1216.js', 'module-1221.js', 'module-1222.js', 'module-1224.js', 'module-1225.js', 'module-1227.js'] unnamed=['module-4115.js', 'module-4396.js', 'module-3924.js', 'module-4000.js'] named=[('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-3747.js', ['pages/clusters/secrets.js']), ('module-1409.js', ['pages/projects/volume-snapshots/Detail.js', 'pages/projects/containers/VolumeSnapshots/Detail.js'])]
+    t('YYYY-MM-DD HH:mm:ss') orig=['components/Cards/Monitoring/Controller/TimeSelector/utils.js', 'components/Cards/Pods/Item.js', 'components/Modals/AuditingSearch/Auditing/Detail.js', 'components/Modals/CustomMonitoring/components/Clock.js', 'components/Modals/CustomMonitoring/components/Graph/Compose.js', 'components/Modals/EventSearch/Event/Detail.js'] unpacked=['module-1071.js', 'module-1073.js', 'module-1133.js', 'module-1214.js', 'module-1216.js', 'module-1221.js'] unnamed=['module-5254.js', 'module-4525.js', 'module-4041.js', 'module-4115.js'] named=[('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-5216.js', ['pages/edgewize/deployments.js']), ('module-4326.js', ['pages/whizard-telemetry/metrics/builtin-alerts.js'])]
+    t('UPDATE_TIME_TCAP') orig=['pages/apps/containers/Reviews.js', 'pages/apps/containers/StoreManage.js', 'pages/clusters/containers/Gateway/Detail.js', 'pages/clusters/containers/Workload/Deployments.js', 'pages/clusters/containers/Workload/Pods.js', 'pages/devops/containers/CD/CDList.js'] unpacked=['module-1216.js', 'module-1234.js', 'module-3734.js', 'module-3739.js', 'module-4129.js', 'module-4134.js'] unnamed=['module-4657.js'] named=[('module-5216.js', ['pages/edgewize/deployments.js']), ('module-5006.js', ['pages/fedprojects/services/Detail.js']), ('module-4951.js', ['pages/fedprojects/deployments.js'])]
+    t('CREATOR') orig=['components/Modals/DevOpsEdit.js', 'components/Modals/ProjectSelect/Card.js', 'pages/access/containers/Roles/Detail.js', 'pages/clusters/containers/CustomResources/Detail.js', 'pages/clusters/containers/Gateway/Components/GatewayCard.js', 'pages/clusters/containers/Gateway/Detail.js'] unpacked=['module-1133.js', 'module-1216.js', 'module-1221.js', 'module-1222.js', 'module-1224.js', 'module-1225.js'] unnamed=['module-3002.js', 'module-4282.js', 'module-4525.js', 'module-4936.js'] named=[('module-2002.js', ['pages/node-groups/edgeippool/Detail.js']), ('module-1830.js', ['pages/projects/networkpolicies/Detail.js', 'pages/projects/containers/Network/Policies/Detail.js']), ('module-5016.js', ['pages/fedprojects/ingresses/Detail.js'])]
+    t('DEPLOYMENT_PL') orig=['components/Forms/CustomScaling/BaseInfo/WorkloadTableForm.js', 'components/Forms/Service/ServiceSettings/WorkloadSelect.js', 'pages/fedprojects/containers/Deployments/Detail.js', 'pages/projects/containers/Deployments/Detail.js'] unpacked=['module-1216.js', 'module-2589.js', 'module-2909.js', 'module-4529.js', 'module-4994.js'] unnamed=['module-4529.js'] named=[('module-2909.js', ['components/Forms/CustomScaling/BaseInfo/WorkloadTableForm.js']), ('module-1216.js', ['pages/projects/deployments/Detail.js']), ('module-4994.js', ['pages/fedprojects/deployments/Detail.js'])]
+    str('mobx-react') orig=['components/Base/Dragger.js', 'components/Base/Modal/modal.js', 'components/Cards/ContainerLog.js', 'components/Cards/LimitRange.js', 'components/Cards/LogQuery.js'] unpacked=[] unnamed=[] named=[]
+    str('utils/action') orig=['components/HOCs/withList.js', 'components/Inputs/EnvironmentInput.js', 'components/KubeTools.js', 'components/Layout/LoginInfo.js', 'pages/access/containers/Accounts/Detail.js'] unpacked=[] unnamed=[] named=[]
+    str('stores/workload') orig=['actions/configReferenceImpact.js', 'components/Forms/AlertingPolicy/AlertingRules/AddRuleForm/TemplateRule/WorkloadRule.js', 'components/Forms/CustomScaling/BaseInfo/WorkloadAddCard.js', 'components/Forms/CustomScaling/BaseInfo/WorkloadTableForm.js', 'components/Forms/GrayRelease/Version.js'] unpacked=[] unnamed=[] named=[]
+    str('stores/workload/hpa') orig=['actions/workload.js', 'pages/projects/components/Cards/HPA.js', 'pages/projects/containers/Deployments/Detail.js', 'pages/projects/containers/Deployments/Detail/ResourceStatus.js'] unpacked=[] unnamed=[] named=[]
+    str('projects/containers/Base/Detail') orig=['pages/clusters/containers/Storage/PV/detail.js', 'pages/clusters/containers/Storage/VolumeSnapshotClasses/Detail.js', 'pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail.js', 'pages/devops/containers/ImageBuilder/Detail.js', 'pages/fedprojects/containers/Applications/Detail.js'] unpacked=[] unnamed=[] named=[]
+    str('workload.revision.rollback') orig=['actions/workload.js', 'pages/projects/containers/DaemonSets/Detail.js', 'pages/projects/containers/Deployments/Detail.js', 'pages/projects/containers/StatefulSets/Detail.js'] unpacked=['module-1216.js', 'module-1221.js', 'module-1402.js', 'module-3595.js'] unnamed=[] named=['module-3595.js', 'module-1216.js', 'module-1221.js']
+    str('editHpa') orig=['pages/projects/containers/Deployments/Detail.js'] unpacked=['module-1216.js', 'module-1402.js'] unnamed=[] named=['module-1216.js', 'module-1402.js']
+
+=== DUMP pages/projects/containers/StatefulSets/Detail/routes.js ===
+  orig_t []
+  orig_str ['utils/router.config', 'core/containers/Base/Detail/Events', 'core/containers/Base/Detail/EnvVariables', 'core/containers/Base/Detail/Metadata', 'projects/containers/Deployments/Detail/RevisionControl', 'projects/containers/Deployments/Detail/Monitoring', 'RESOURCE_STATUS', 'REVISION_RECORDS', 'METADATA', 'MONITORING', 'ENVIRONMENT_VARIABLE_PL', 'EVENT_PL']
+    str('utils/router.config') orig=['core/App.js', 'core/containers/Base/Detail.js', 'core/layouts/Base.js', 'pages/access/App.js', 'pages/access/containers/Accounts/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+    str('core/containers/Base/Detail/Events') orig=['pages/clusters/containers/EdgeNodes/Detail/Events.js', 'pages/clusters/containers/Nodes/Detail/Events.js', 'pages/clusters/containers/Storage/PV/detail/routes.js', 'pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/routes.js', 'pages/fedprojects/containers/Deployments/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+    str('core/containers/Base/Detail/EnvVariables') orig=['pages/projects/containers/DaemonSets/Detail/routes.js', 'pages/projects/containers/Deployments/Detail/routes.js', 'pages/projects/containers/Jobs/Detail/routes.js', 'pages/projects/containers/Pods/Containers/routes.js', 'pages/projects/containers/Pods/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+    str('core/containers/Base/Detail/Metadata') orig=['pages/clusters/containers/EdgeNodes/Detail/routes.js', 'pages/clusters/containers/Nodes/Detail/routes.js', 'pages/clusters/containers/Storage/PV/detail/routes.js', 'pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/routes.js', 'pages/fedprojects/containers/Deployments/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+    str('projects/containers/Deployments/Detail/RevisionControl') orig=['pages/projects/containers/DaemonSets/Detail/routes.js', 'pages/projects/containers/StatefulSets/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+    str('projects/containers/Deployments/Detail/Monitoring') orig=['pages/projects/containers/DaemonSets/Detail/routes.js', 'pages/projects/containers/StatefulSets/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+
+=== DUMP pages/projects/containers/DaemonSets/Detail/routes.js ===
+  orig_t []
+  orig_str ['utils/router.config', 'core/containers/Base/Detail/Events', 'core/containers/Base/Detail/EnvVariables', 'core/containers/Base/Detail/Metadata', 'projects/containers/Deployments/Detail/Monitoring', 'projects/containers/Deployments/Detail/RevisionControl', 'RESOURCE_STATUS', 'REVISION_RECORDS', 'METADATA', 'MONITORING', 'ENVIRONMENT_VARIABLE_PL', 'EVENT_PL']
+    str('utils/router.config') orig=['core/App.js', 'core/containers/Base/Detail.js', 'core/layouts/Base.js', 'pages/access/App.js', 'pages/access/containers/Accounts/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+    str('core/containers/Base/Detail/Events') orig=['pages/clusters/containers/EdgeNodes/Detail/Events.js', 'pages/clusters/containers/Nodes/Detail/Events.js', 'pages/clusters/containers/Storage/PV/detail/routes.js', 'pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/routes.js', 'pages/fedprojects/containers/Deployments/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+    str('core/containers/Base/Detail/EnvVariables') orig=['pages/projects/containers/DaemonSets/Detail/routes.js', 'pages/projects/containers/Deployments/Detail/routes.js', 'pages/projects/containers/Jobs/Detail/routes.js', 'pages/projects/containers/Pods/Containers/routes.js', 'pages/projects/containers/Pods/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+    str('core/containers/Base/Detail/Metadata') orig=['pages/clusters/containers/EdgeNodes/Detail/routes.js', 'pages/clusters/containers/Nodes/Detail/routes.js', 'pages/clusters/containers/Storage/PV/detail/routes.js', 'pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/routes.js', 'pages/fedprojects/containers/Deployments/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+    str('projects/containers/Deployments/Detail/Monitoring') orig=['pages/projects/containers/DaemonSets/Detail/routes.js', 'pages/projects/containers/StatefulSets/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+    str('projects/containers/Deployments/Detail/RevisionControl') orig=['pages/projects/containers/DaemonSets/Detail/routes.js', 'pages/projects/containers/StatefulSets/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+
+=== DUMP pages/projects/containers/Jobs/Detail/routes.js ===
+  orig_t []
+  orig_str ['utils/router.config', 'core/containers/Base/Detail/Events', 'core/containers/Base/Detail/EnvVariables', 'core/containers/Base/Detail/Metadata', 'projects/containers/Jobs/Detail/ResourceStatus', 'projects/containers/Jobs/Detail/ExcuteRecords', 'RUN_RECORDS', 'RESOURCE_STATUS', 'METADATA', 'ENVIRONMENT_VARIABLE_PL', 'EVENT_PL']
+    str('utils/router.config') orig=['core/App.js', 'core/containers/Base/Detail.js', 'core/layouts/Base.js', 'pages/access/App.js', 'pages/access/containers/Accounts/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+    str('core/containers/Base/Detail/Events') orig=['pages/clusters/containers/EdgeNodes/Detail/Events.js', 'pages/clusters/containers/Nodes/Detail/Events.js', 'pages/clusters/containers/Storage/PV/detail/routes.js', 'pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/routes.js', 'pages/fedprojects/containers/Deployments/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+    str('core/containers/Base/Detail/EnvVariables') orig=['pages/projects/containers/DaemonSets/Detail/routes.js', 'pages/projects/containers/Deployments/Detail/routes.js', 'pages/projects/containers/Jobs/Detail/routes.js', 'pages/projects/containers/Pods/Containers/routes.js', 'pages/projects/containers/Pods/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+    str('core/containers/Base/Detail/Metadata') orig=['pages/clusters/containers/EdgeNodes/Detail/routes.js', 'pages/clusters/containers/Nodes/Detail/routes.js', 'pages/clusters/containers/Storage/PV/detail/routes.js', 'pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/routes.js', 'pages/fedprojects/containers/Deployments/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+    str('projects/containers/Jobs/Detail/ResourceStatus') orig=['pages/projects/containers/Jobs/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+    str('projects/containers/Jobs/Detail/ExcuteRecords') orig=['pages/projects/containers/Jobs/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+
+=== DUMP pages/projects/containers/CronJobs/Detail/routes.js ===
+  orig_t []
+  orig_str ['utils/router.config', 'core/containers/Base/Detail/Events', 'core/containers/Base/Detail/Metadata', 'RUN_RECORDS', 'METADATA', 'EVENT_PL']
+    str('utils/router.config') orig=['core/App.js', 'core/containers/Base/Detail.js', 'core/layouts/Base.js', 'pages/access/App.js', 'pages/access/containers/Accounts/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+    str('core/containers/Base/Detail/Events') orig=['pages/clusters/containers/EdgeNodes/Detail/Events.js', 'pages/clusters/containers/Nodes/Detail/Events.js', 'pages/clusters/containers/Storage/PV/detail/routes.js', 'pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/routes.js', 'pages/fedprojects/containers/Deployments/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+    str('core/containers/Base/Detail/Metadata') orig=['pages/clusters/containers/EdgeNodes/Detail/routes.js', 'pages/clusters/containers/Nodes/Detail/routes.js', 'pages/clusters/containers/Storage/PV/detail/routes.js', 'pages/clusters/containers/Storage/VolumeSnapshots/SnapshotContent/Detail/routes.js', 'pages/fedprojects/containers/Deployments/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+
+=== DUMP pages/projects/containers/ConfigMaps/Detail/routes.js ===
+  orig_t []
+  orig_str ['utils/router.config']
+    str('utils/router.config') orig=['core/App.js', 'core/containers/Base/Detail.js', 'core/layouts/Base.js', 'pages/access/App.js', 'pages/access/containers/Accounts/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+
+=== DUMP pages/projects/containers/Secrets/Detail/routes.js ===
+  orig_t []
+  orig_str ['utils/router.config']
+    str('utils/router.config') orig=['core/App.js', 'core/containers/Base/Detail.js', 'core/layouts/Base.js', 'pages/access/App.js', 'pages/access/containers/Accounts/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+
+=== DUMP pages/projects/containers/ServiceAccounts/Detail/routes.js ===
+  orig_t []
+  orig_str ['utils/router.config']
+    str('utils/router.config') orig=['core/App.js', 'core/containers/Base/Detail.js', 'core/layouts/Base.js', 'pages/access/App.js', 'pages/access/containers/Accounts/Detail/routes.js'] unpacked=[] unnamed=[] named=[]
+
+=== dump ambiguous unpacked kids ===
+
+----- module-4744.js -----
+    css False skip False named []
+    t ['detailStore']
+    importers ['module-4743.js']
+    export default 'export default g; '
+
+----- module-4751.js -----
+    css False skip False named []
+    t ['detailStore', 'TRAFFIC_MONITORING', 'NO_DATA', 'TRAFFIC_MONITORING_UNAVAILABLE_DESC']
+    importers ['module-4743.js']
+    export default 'export default b; '
+
+----- module-4776.js -----
+    css False skip False named []
+    t ['detailStore', 'SERVICE_VALUE', 'LAST_NUM_RECORDS']
+    importers ['module-4743.js']
+    export default 'export default k; '
+
+----- module-4789.js -----
+    css False skip False named []
+    t ['detailStore']
+    importers ['module-4788.js']
+    export default 'export default v; '
+
+----- module-4792.js -----
+    css False skip False named []
+    t ['rootStore', 'APP_SETTINGS']
+    importers ['module-4788.js']
+    export default 'export default v; '
+
+----- module-4408.js -----
+    css False skip False named []
+    t ['detailStore']
+    importers ['module-4403.js']
+    export default 'export default p; '
+
+----- module-4423.js -----
+    css False skip False named []
+    t ['workspaceStore']
+    importers ['module-4403.js']
+    export default 'export default p; '
+
+----- module-1824.js -----
+    css False skip False named []
+    t ['detailStore', 'CONTAINER_PL', '/']
+    importers ['module-3896.js', 'module-4722.js']
+    export default 'export default y; '
+
+----- module-1829.js -----
+    css False skip False named []
+    t ['rootStore']
+    importers ['module-3896.js', 'module-3906.js']
+    export default 'export default N; const T = k; export { T as Component }; '
+
+----- module-3892.js -----
+    css False skip False named []
+    t []
+    importers ['module-1406.js']
+    export default 'export default i; '
+
+----- module-3893.js -----
+    css False skip False named []
+    t []
+    importers ['module-1406.js']
+    export default 'export default function(path) {     return [         {             path: `${path}/detail`,'
+
+----- module-1216.js -----
+    css False skip False named ['pages/projects/deployments/Detail.js']
+    t ['EDIT_INFORMATION', 'ROLL_BACK', 'EDIT_AUTOSCALING', 'EDIT_SETTINGS', 'EDIT_YAML', 'RECREATE', 'DELETE', 'CLUSTER', 'PROJECT', 'APP', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'UPDATE_TIME_TCAP', 'CREATOR']
+    importers ['module-3824.js', 'module-4206.js', 'module-4715.js', 'module-5226.js']
+    export default 'export default w; const M = I; export { M as Component }; '
+
+----- module-1402.js -----
+    css False skip False named ['pages/projects/statefulsets/Detail.js']
+    t ['rootStore', 'EDIT_INFORMATION', 'ROLL_BACK', 'EDIT_AUTOSCALING', 'EDIT_SERVICE', 'EDIT_SETTINGS', 'EDIT_YAML', 'RECREATE', 'DELETE', 'CLUSTER', 'PROJECT', 'APP', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss']
+    importers ['module-3824.js', 'module-4715.js', 'module-5226.js']
+    export default 'export default w; '
+
+----- module-1221.js -----
+    css False skip False named ['pages/projects/daemonsets/Detail.js']
+    t ['EDIT_INFORMATION', 'ROLL_BACK', 'EDIT_SETTINGS', 'EDIT_YAML', 'RECREATE', 'DELETE', 'CLUSTER', 'PROJECT', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'CREATOR', 'DAEMONSET_PL', 'rootStore']
+    importers ['module-3824.js', 'module-4197.js', 'module-4715.js', 'module-5226.js']
+    export default 'export default k; const N = D; export { N as Component }; '
+
+----- module-1222.js -----
+    css False skip False named ['pages/projects/jobs/Detail.js']
+    t ['EDIT_INFORMATION', 'RERUN', 'VIEW_YAML', 'DELETE', 'OPERATION_SUCCESS', 'OPERATION_FAILED', 'CLUSTER', 'PROJECT', 'STATUS', 'MAXIMUM_RETRIES', 'COMPLETE_PODS', 'PARALLEL_PODS', 'MAXIMUM_DURATION', 'CREATION_TIME_TCAP']
+    importers ['module-3824.js', 'module-4196.js', 'module-4715.js', 'module-5226.js']
+    export default 'export default R; const I = T; export { I as Component }; '
+
+----- module-1224.js -----
+    css False skip False named ['pages/projects/cronjobs/Detail.js']
+    t ['EDIT_INFORMATION', 'START', 'PAUSE', 'EDIT_YAML', 'DELETE', 'CLUSTER', 'PROJECT', 'STATUS', 'SCHEDULE', 'MAXIMUM_DELAY', 'SUCCESSFUL_JOBS_RETAINED', 'FAILED_JOBS_RETAINED', 'CONCURRENCY_POLICY', 'RUN_JOBS_CONCURRENTLY']
+    importers ['module-3824.js', 'module-4195.js', 'module-4715.js', 'module-5226.js']
+    export default 'export default T; const R = N; export { R as Component }; '
+
+----- module-1404.js -----
+    css False skip False named ['pages/projects/secrets/Detail.js']
+    t ['rootStore', 'EDIT_INFORMATION', 'EDIT_YAML', 'EDIT_SETTINGS', 'SET_AS_DEFAULT', 'DELETE', 'DEFAULT_IMAGE_REGISTRY_TCAP', 'NO', 'YES', 'CLUSTER', 'PROJECT', 'TYPE', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss']
+    importers ['module-3824.js', 'module-4715.js', 'module-5226.js']
+    export default 'export default C; '
+
+----- module-1405.js -----
+    css False skip False named ['pages/projects/configmaps/Detail.js']
+    t ['rootStore', 'EDIT_INFORMATION', 'EDIT_YAML', 'EDIT_SETTINGS', 'DELETE', 'CLUSTER', 'PROJECT', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'CREATOR', 'CONFIGMAP_PL']
+    importers ['module-3824.js', 'module-4715.js', 'module-5226.js']
+    export default 'export default S; '
+
+----- module-1406.js -----
+    css False skip False named ['pages/projects/serviceaccounts/Detail.js', 'pages/projects/containers/ServiceAccounts/Detail.js']
+    t ['rootStore', 'EDIT_INFORMATION', 'EDIT_YAML', 'CHANGE_ROLE', 'DELETE', 'CLUSTER', 'PROJECT', 'ROLE', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'CREATOR', 'SERVICE_ACCOUNT_PL']
+    importers ['module-3824.js', 'module-4715.js', 'module-5226.js']
+    export default 'export default k; '
+
+----- module-1227.js -----
+    css False skip False named ['pages/projects/ingresses/Detail.js']
+    t ['EDIT_INFORMATION', 'EDIT_YAML', 'EDIT_ROUTING_RULES', 'EDIT_ANNOTATIONS', 'DELETE', 'CLUSTER', 'PROJECT', 'APP', 'GATEWAY_ADDRESS_TCAP', 'Ingress Class', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'CREATOR', 'rootStore']
+    importers ['module-3824.js', 'module-4192.js', 'module-4715.js', 'module-5226.js']
+    export default 'export default O; const S = _; export { S as Component }; '
+
+=== remaining containers Detail.js vs already-named short Detail ===
+
+-- pages/projects/containers/Deployments/Detail.js vs pages/projects/deployments/Detail.js -> module-1216.js long_known=False
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/Deployments/Detail/index.jsx
+    css False skip False named ['pages/projects/deployments/Detail.js']
+    t ['EDIT_INFORMATION', 'ROLL_BACK', 'EDIT_AUTOSCALING', 'EDIT_SETTINGS', 'EDIT_YAML', 'RECREATE', 'DELETE', 'CLUSTER', 'PROJECT', 'APP', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'UPDATE_TIME_TCAP', 'CREATOR']
+    importers ['module-3824.js', 'module-4206.js', 'module-4715.js', 'module-5226.js']
+    export default 'export default w; const M = I; export { M as Component }; '
+  orig_t_long ['rootStore', 'EDIT_INFORMATION', 'ROLL_BACK', 'EDIT_AUTOSCALING', 'EDIT_SETTINGS', 'EDIT_YAML', 'RECREATE', 'DELETE', 'CLUSTER', 'PROJECT']
+  unpacked_t ['EDIT_INFORMATION', 'ROLL_BACK', 'EDIT_AUTOSCALING', 'EDIT_SETTINGS', 'EDIT_YAML', 'RECREATE', 'DELETE', 'CLUSTER', 'PROJECT', 'APP']
+  routes_key pages/projects/containers/Deployments/Detail/routes.js known False
+  unnamed_kids ['module-553.js', 'module-239.js', 'module-186.js', 'module-1047.js', 'module-859.js', 'module-1090.js', 'module-806.js', 'module-3834.js']
+   kid module-553.js unique_imp False importers [('module-0.js', ['?']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js'])]
+    css False skip False named []
+    t []
+    importers ['module-0.js', 'module-1002.js', 'module-1023.js', 'module-1025.js', 'module-1031.js', 'module-1032.js', 'module-1034.js', 'module-1035.js', 'module-1041.js', 'module-1042.js']
+    t( 't(arguments[n])}`;     }     return `Minified React error #${e}; visit ${t} for the full m'
+   kid module-239.js unique_imp False importers [('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js']), ('module-1046.js', ['?']), ('module-1067.js', ['components/Modals/KubeCtl.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1023.js', 'module-1042.js', 'module-1046.js', 'module-1067.js', 'module-1071.js', 'module-1072.js', 'module-1073.js', 'module-1078.js', 'module-1106.js', 'module-1124.js']
+    class  'class (${n})                  has already been declared as an observer component.`);      '
+   kid module-186.js unique_imp False importers [('module-1002.js', ['components/Base/Markdown.js']), ('module-1029.js', ['?']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js']), ('module-1046.js', ['?'])]
+    css False skip False named []
+    t ['div', ' ', 'style', 'Event', 'span', 'KUBE_SUN', 'KUBE_MON', 'KUBE_TUE', 'KUBE_WED', 'KUBE_THU', 'KUBE_FRI', 'KUBE_SAT', 'KUBE_SUNDAY', 'KUBE_MONDAY']
+    importers ['module-1002.js', 'module-1029.js', 'module-1042.js', 'module-1046.js', 'module-1049.js', 'module-1050.js', 'module-1058.js', 'module-1059.js', 'module-1060.js', 'module-1071.js']
+    class  'class as a function");     } } function o(e, t) {     for (const r of t){         r.enumer'
+   kid module-1047.js unique_imp False importers [('module-1134.js', ['?']), ('module-1216.js', ['pages/projects/deployments/Detail.js']), ('module-1402.js', ['pages/projects/statefulsets/Detail.js']), ('module-1574.js', ['pages/projects/components/Modals/WorkloadDelete.js'])]
+    css False skip False named []
+    t ['return']
+    importers ['module-1134.js', 'module-1216.js', 'module-1402.js', 'module-1574.js', 'module-4911.js', 'module-4932.js']
+    t( 't(a), true).forEach((t)=>{                     u.default(e, t, a[t]);                 }); '
+   kid module-859.js unique_imp False importers [('module-1216.js', ['pages/projects/deployments/Detail.js']), ('module-1221.js', ['pages/projects/daemonsets/Detail.js']), ('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-1224.js', ['pages/projects/cronjobs/Detail.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1216.js', 'module-1221.js', 'module-1222.js', 'module-1224.js', 'module-1226.js', 'module-1402.js', 'module-1530.js', 'module-1606.js', 'module-2208.js', 'module-2577.js']
+    export default 'export default l; '
+   kid module-1090.js unique_imp False importers [('module-1134.js', ['?']), ('module-1216.js', ['pages/projects/deployments/Detail.js']), ('module-1402.js', ['pages/projects/statefulsets/Detail.js']), ('module-3595.js', ['actions/workload.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1134.js', 'module-1216.js', 'module-1402.js', 'module-3595.js', 'module-859.js']
+    export default 'export default i; '
+   kid module-806.js unique_imp False importers [('module-1216.js', ['pages/projects/deployments/Detail.js']), ('module-1221.js', ['pages/projects/daemonsets/Detail.js']), ('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-1224.js', ['pages/projects/cronjobs/Detail.js'])]
+    css False skip False named []
+    t ['rootStore']
+    importers ['module-1216.js', 'module-1221.js', 'module-1222.js', 'module-1224.js', 'module-1225.js', 'module-1227.js', 'module-1228.js', 'module-1229.js', 'module-1230.js', 'module-1402.js']
+    export default 'export default b; '
+   kid module-3834.js unique_imp True importers [('module-1216.js', ['pages/projects/deployments/Detail.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1216.js']
+    export default 'export default function(path) {     return [         {             path: `${path}/resource'
+
+-- pages/projects/containers/StatefulSets/Detail.js vs pages/projects/statefulsets/Detail.js -> module-1402.js long_known=False
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/StatefulSets/Detail/index.jsx
+    css False skip False named ['pages/projects/statefulsets/Detail.js']
+    t ['rootStore', 'EDIT_INFORMATION', 'ROLL_BACK', 'EDIT_AUTOSCALING', 'EDIT_SERVICE', 'EDIT_SETTINGS', 'EDIT_YAML', 'RECREATE', 'DELETE', 'CLUSTER', 'PROJECT', 'APP', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss']
+    importers ['module-3824.js', 'module-4715.js', 'module-5226.js']
+    export default 'export default w; '
+  orig_t_long ['rootStore', 'EDIT_INFORMATION', 'ROLL_BACK', 'EDIT_SERVICE', 'EDIT_SETTINGS', 'EDIT_YAML', 'RECREATE', 'DELETE', 'CLUSTER', 'PROJECT']
+  unpacked_t ['rootStore', 'EDIT_INFORMATION', 'ROLL_BACK', 'EDIT_AUTOSCALING', 'EDIT_SERVICE', 'EDIT_SETTINGS', 'EDIT_YAML', 'RECREATE', 'DELETE', 'CLUSTER']
+  routes_key pages/projects/containers/StatefulSets/Detail/routes.js known False
+  unnamed_kids ['module-553.js', 'module-239.js', 'module-186.js', 'module-859.js', 'module-806.js', 'module-1090.js', 'module-1047.js', 'module-3863.js']
+   kid module-553.js unique_imp False importers [('module-0.js', ['?']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js'])]
+    css False skip False named []
+    t []
+    importers ['module-0.js', 'module-1002.js', 'module-1023.js', 'module-1025.js', 'module-1031.js', 'module-1032.js', 'module-1034.js', 'module-1035.js', 'module-1041.js', 'module-1042.js']
+    t( 't(arguments[n])}`;     }     return `Minified React error #${e}; visit ${t} for the full m'
+   kid module-239.js unique_imp False importers [('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js']), ('module-1046.js', ['?']), ('module-1067.js', ['components/Modals/KubeCtl.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1023.js', 'module-1042.js', 'module-1046.js', 'module-1067.js', 'module-1071.js', 'module-1072.js', 'module-1073.js', 'module-1078.js', 'module-1106.js', 'module-1124.js']
+    class  'class (${n})                  has already been declared as an observer component.`);      '
+   kid module-186.js unique_imp False importers [('module-1002.js', ['components/Base/Markdown.js']), ('module-1029.js', ['?']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js']), ('module-1046.js', ['?'])]
+    css False skip False named []
+    t ['div', ' ', 'style', 'Event', 'span', 'KUBE_SUN', 'KUBE_MON', 'KUBE_TUE', 'KUBE_WED', 'KUBE_THU', 'KUBE_FRI', 'KUBE_SAT', 'KUBE_SUNDAY', 'KUBE_MONDAY']
+    importers ['module-1002.js', 'module-1029.js', 'module-1042.js', 'module-1046.js', 'module-1049.js', 'module-1050.js', 'module-1058.js', 'module-1059.js', 'module-1060.js', 'module-1071.js']
+    class  'class as a function");     } } function o(e, t) {     for (const r of t){         r.enumer'
+   kid module-859.js unique_imp False importers [('module-1216.js', ['pages/projects/deployments/Detail.js']), ('module-1221.js', ['pages/projects/daemonsets/Detail.js']), ('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-1224.js', ['pages/projects/cronjobs/Detail.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1216.js', 'module-1221.js', 'module-1222.js', 'module-1224.js', 'module-1226.js', 'module-1402.js', 'module-1530.js', 'module-1606.js', 'module-2208.js', 'module-2577.js']
+    export default 'export default l; '
+   kid module-806.js unique_imp False importers [('module-1216.js', ['pages/projects/deployments/Detail.js']), ('module-1221.js', ['pages/projects/daemonsets/Detail.js']), ('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-1224.js', ['pages/projects/cronjobs/Detail.js'])]
+    css False skip False named []
+    t ['rootStore']
+    importers ['module-1216.js', 'module-1221.js', 'module-1222.js', 'module-1224.js', 'module-1225.js', 'module-1227.js', 'module-1228.js', 'module-1229.js', 'module-1230.js', 'module-1402.js']
+    export default 'export default b; '
+   kid module-1090.js unique_imp False importers [('module-1134.js', ['?']), ('module-1216.js', ['pages/projects/deployments/Detail.js']), ('module-1402.js', ['pages/projects/statefulsets/Detail.js']), ('module-3595.js', ['actions/workload.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1134.js', 'module-1216.js', 'module-1402.js', 'module-3595.js', 'module-859.js']
+    export default 'export default i; '
+   kid module-1047.js unique_imp False importers [('module-1134.js', ['?']), ('module-1216.js', ['pages/projects/deployments/Detail.js']), ('module-1402.js', ['pages/projects/statefulsets/Detail.js']), ('module-1574.js', ['pages/projects/components/Modals/WorkloadDelete.js'])]
+    css False skip False named []
+    t ['return']
+    importers ['module-1134.js', 'module-1216.js', 'module-1402.js', 'module-1574.js', 'module-4911.js', 'module-4932.js']
+    t( 't(a), true).forEach((t)=>{                     u.default(e, t, a[t]);                 }); '
+   kid module-3863.js unique_imp True importers [('module-1402.js', ['pages/projects/statefulsets/Detail.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1402.js']
+    export default 'export default function(path) {     return [         {             path: `${path}/resource'
+
+-- pages/projects/containers/DaemonSets/Detail.js vs pages/projects/daemonsets/Detail.js -> module-1221.js long_known=False
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/DaemonSets/Detail/index.jsx
+    css False skip False named ['pages/projects/daemonsets/Detail.js']
+    t ['EDIT_INFORMATION', 'ROLL_BACK', 'EDIT_SETTINGS', 'EDIT_YAML', 'RECREATE', 'DELETE', 'CLUSTER', 'PROJECT', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'CREATOR', 'DAEMONSET_PL', 'rootStore']
+    importers ['module-3824.js', 'module-4197.js', 'module-4715.js', 'module-5226.js']
+    export default 'export default k; const N = D; export { N as Component }; '
+  orig_t_long ['rootStore', 'EDIT_INFORMATION', 'ROLL_BACK', 'EDIT_SETTINGS', 'EDIT_YAML', 'RECREATE', 'DELETE', 'CLUSTER', 'PROJECT', 'CREATION_TIME_TCAP']
+  unpacked_t ['EDIT_INFORMATION', 'ROLL_BACK', 'EDIT_SETTINGS', 'EDIT_YAML', 'RECREATE', 'DELETE', 'CLUSTER', 'PROJECT', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss']
+  routes_key pages/projects/containers/DaemonSets/Detail/routes.js known False
+  unnamed_kids ['module-553.js', 'module-239.js', 'module-186.js', 'module-859.js', 'module-806.js', 'module-3864.js']
+   kid module-553.js unique_imp False importers [('module-0.js', ['?']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js'])]
+    css False skip False named []
+    t []
+    importers ['module-0.js', 'module-1002.js', 'module-1023.js', 'module-1025.js', 'module-1031.js', 'module-1032.js', 'module-1034.js', 'module-1035.js', 'module-1041.js', 'module-1042.js']
+    t( 't(arguments[n])}`;     }     return `Minified React error #${e}; visit ${t} for the full m'
+   kid module-239.js unique_imp False importers [('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js']), ('module-1046.js', ['?']), ('module-1067.js', ['components/Modals/KubeCtl.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1023.js', 'module-1042.js', 'module-1046.js', 'module-1067.js', 'module-1071.js', 'module-1072.js', 'module-1073.js', 'module-1078.js', 'module-1106.js', 'module-1124.js']
+    class  'class (${n})                  has already been declared as an observer component.`);      '
+   kid module-186.js unique_imp False importers [('module-1002.js', ['components/Base/Markdown.js']), ('module-1029.js', ['?']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js']), ('module-1046.js', ['?'])]
+    css False skip False named []
+    t ['div', ' ', 'style', 'Event', 'span', 'KUBE_SUN', 'KUBE_MON', 'KUBE_TUE', 'KUBE_WED', 'KUBE_THU', 'KUBE_FRI', 'KUBE_SAT', 'KUBE_SUNDAY', 'KUBE_MONDAY']
+    importers ['module-1002.js', 'module-1029.js', 'module-1042.js', 'module-1046.js', 'module-1049.js', 'module-1050.js', 'module-1058.js', 'module-1059.js', 'module-1060.js', 'module-1071.js']
+    class  'class as a function");     } } function o(e, t) {     for (const r of t){         r.enumer'
+   kid module-859.js unique_imp False importers [('module-1216.js', ['pages/projects/deployments/Detail.js']), ('module-1221.js', ['pages/projects/daemonsets/Detail.js']), ('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-1224.js', ['pages/projects/cronjobs/Detail.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1216.js', 'module-1221.js', 'module-1222.js', 'module-1224.js', 'module-1226.js', 'module-1402.js', 'module-1530.js', 'module-1606.js', 'module-2208.js', 'module-2577.js']
+    export default 'export default l; '
+   kid module-806.js unique_imp False importers [('module-1216.js', ['pages/projects/deployments/Detail.js']), ('module-1221.js', ['pages/projects/daemonsets/Detail.js']), ('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-1224.js', ['pages/projects/cronjobs/Detail.js'])]
+    css False skip False named []
+    t ['rootStore']
+    importers ['module-1216.js', 'module-1221.js', 'module-1222.js', 'module-1224.js', 'module-1225.js', 'module-1227.js', 'module-1228.js', 'module-1229.js', 'module-1230.js', 'module-1402.js']
+    export default 'export default b; '
+   kid module-3864.js unique_imp True importers [('module-1221.js', ['pages/projects/daemonsets/Detail.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1221.js']
+    export default 'export default function(path) {     return [         {             path: `${path}/resource'
+
+-- pages/projects/containers/Jobs/Detail.js vs pages/projects/jobs/Detail.js -> module-1222.js long_known=False
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/Jobs/Detail/index.jsx
+    css False skip False named ['pages/projects/jobs/Detail.js']
+    t ['EDIT_INFORMATION', 'RERUN', 'VIEW_YAML', 'DELETE', 'OPERATION_SUCCESS', 'OPERATION_FAILED', 'CLUSTER', 'PROJECT', 'STATUS', 'MAXIMUM_RETRIES', 'COMPLETE_PODS', 'PARALLEL_PODS', 'MAXIMUM_DURATION', 'CREATION_TIME_TCAP']
+    importers ['module-3824.js', 'module-4196.js', 'module-4715.js', 'module-5226.js']
+    export default 'export default R; const I = T; export { I as Component }; '
+  orig_t_long ['rootStore', 'EDIT_INFORMATION', 'RERUN', 'VIEW_YAML', 'DELETE', 'CLUSTER', 'PROJECT', 'STATUS', 'MAXIMUM_RETRIES', 'COMPLETE_PODS']
+  unpacked_t ['EDIT_INFORMATION', 'RERUN', 'VIEW_YAML', 'DELETE', 'OPERATION_SUCCESS', 'OPERATION_FAILED', 'CLUSTER', 'PROJECT', 'STATUS', 'MAXIMUM_RETRIES']
+  routes_key pages/projects/containers/Jobs/Detail/routes.js known False
+  unnamed_kids ['module-553.js', 'module-239.js', 'module-186.js', 'module-859.js', 'module-1819.js', 'module-3866.js', 'module-240.js', 'module-806.js', 'module-3867.js']
+   kid module-553.js unique_imp False importers [('module-0.js', ['?']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js'])]
+    css False skip False named []
+    t []
+    importers ['module-0.js', 'module-1002.js', 'module-1023.js', 'module-1025.js', 'module-1031.js', 'module-1032.js', 'module-1034.js', 'module-1035.js', 'module-1041.js', 'module-1042.js']
+    t( 't(arguments[n])}`;     }     return `Minified React error #${e}; visit ${t} for the full m'
+   kid module-239.js unique_imp False importers [('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js']), ('module-1046.js', ['?']), ('module-1067.js', ['components/Modals/KubeCtl.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1023.js', 'module-1042.js', 'module-1046.js', 'module-1067.js', 'module-1071.js', 'module-1072.js', 'module-1073.js', 'module-1078.js', 'module-1106.js', 'module-1124.js']
+    class  'class (${n})                  has already been declared as an observer component.`);      '
+   kid module-186.js unique_imp False importers [('module-1002.js', ['components/Base/Markdown.js']), ('module-1029.js', ['?']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js']), ('module-1046.js', ['?'])]
+    css False skip False named []
+    t ['div', ' ', 'style', 'Event', 'span', 'KUBE_SUN', 'KUBE_MON', 'KUBE_TUE', 'KUBE_WED', 'KUBE_THU', 'KUBE_FRI', 'KUBE_SAT', 'KUBE_SUNDAY', 'KUBE_MONDAY']
+    importers ['module-1002.js', 'module-1029.js', 'module-1042.js', 'module-1046.js', 'module-1049.js', 'module-1050.js', 'module-1058.js', 'module-1059.js', 'module-1060.js', 'module-1071.js']
+    class  'class as a function");     } } function o(e, t) {     for (const r of t){         r.enumer'
+   kid module-859.js unique_imp False importers [('module-1216.js', ['pages/projects/deployments/Detail.js']), ('module-1221.js', ['pages/projects/daemonsets/Detail.js']), ('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-1224.js', ['pages/projects/cronjobs/Detail.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1216.js', 'module-1221.js', 'module-1222.js', 'module-1224.js', 'module-1226.js', 'module-1402.js', 'module-1530.js', 'module-1606.js', 'module-2208.js', 'module-2577.js']
+    export default 'export default l; '
+   kid module-1819.js unique_imp False importers [('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-3872.js', ['?'])]
+    css False skip False named []
+    t []
+    importers ['module-1222.js', 'module-3872.js']
+    export default 'export default i; '
+   kid module-3866.js unique_imp True importers [('module-1222.js', ['pages/projects/jobs/Detail.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1222.js']
+    export default 'export default i; '
+   kid module-240.js unique_imp False importers [('module-1060.js', ['components/Forms/Notification/BaseForm.js']), ('module-1133.js', ['?']), ('module-1164.js', ['components/Cards/Monitoring/Controller/TimeSelector/Range/Custom.js']), ('module-1199.js', ['components/CodeRepoSelector.js'])]
+    css False skip False named []
+    t ['notify']
+    importers ['module-1060.js', 'module-1133.js', 'module-1164.js', 'module-1199.js', 'module-1222.js', 'module-1287.js', 'module-1364.js', 'module-1368.js', 'module-1373.js', 'module-1545.js']
+    export default 'export default o; '
+   kid module-806.js unique_imp False importers [('module-1216.js', ['pages/projects/deployments/Detail.js']), ('module-1221.js', ['pages/projects/daemonsets/Detail.js']), ('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-1224.js', ['pages/projects/cronjobs/Detail.js'])]
+    css False skip False named []
+    t ['rootStore']
+    importers ['module-1216.js', 'module-1221.js', 'module-1222.js', 'module-1224.js', 'module-1225.js', 'module-1227.js', 'module-1228.js', 'module-1229.js', 'module-1230.js', 'module-1402.js']
+    export default 'export default b; '
+   kid module-3867.js unique_imp True importers [('module-1222.js', ['pages/projects/jobs/Detail.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1222.js']
+    export default 'export default function(path) {     return [         {             path: `${path}/records`'
+
+-- pages/projects/containers/CronJobs/Detail.js vs pages/projects/cronjobs/Detail.js -> module-1224.js long_known=False
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/CronJobs/Detail/index.jsx
+    css False skip False named ['pages/projects/cronjobs/Detail.js']
+    t ['EDIT_INFORMATION', 'START', 'PAUSE', 'EDIT_YAML', 'DELETE', 'CLUSTER', 'PROJECT', 'STATUS', 'SCHEDULE', 'MAXIMUM_DELAY', 'SUCCESSFUL_JOBS_RETAINED', 'FAILED_JOBS_RETAINED', 'CONCURRENCY_POLICY', 'RUN_JOBS_CONCURRENTLY']
+    importers ['module-3824.js', 'module-4195.js', 'module-4715.js', 'module-5226.js']
+    export default 'export default T; const R = N; export { R as Component }; '
+  orig_t_long ['rootStore', 'EDIT_INFORMATION', 'START', 'PAUSE', 'EDIT_YAML', 'DELETE', 'CLUSTER', 'PROJECT', 'STATUS', 'SCHEDULE']
+  unpacked_t ['EDIT_INFORMATION', 'START', 'PAUSE', 'EDIT_YAML', 'DELETE', 'CLUSTER', 'PROJECT', 'STATUS', 'SCHEDULE', 'MAXIMUM_DELAY']
+  routes_key pages/projects/containers/CronJobs/Detail/routes.js known False
+  unnamed_kids ['module-553.js', 'module-239.js', 'module-186.js', 'module-859.js', 'module-806.js', 'module-3871.js']
+   kid module-553.js unique_imp False importers [('module-0.js', ['?']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js'])]
+    css False skip False named []
+    t []
+    importers ['module-0.js', 'module-1002.js', 'module-1023.js', 'module-1025.js', 'module-1031.js', 'module-1032.js', 'module-1034.js', 'module-1035.js', 'module-1041.js', 'module-1042.js']
+    t( 't(arguments[n])}`;     }     return `Minified React error #${e}; visit ${t} for the full m'
+   kid module-239.js unique_imp False importers [('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js']), ('module-1046.js', ['?']), ('module-1067.js', ['components/Modals/KubeCtl.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1023.js', 'module-1042.js', 'module-1046.js', 'module-1067.js', 'module-1071.js', 'module-1072.js', 'module-1073.js', 'module-1078.js', 'module-1106.js', 'module-1124.js']
+    class  'class (${n})                  has already been declared as an observer component.`);      '
+   kid module-186.js unique_imp False importers [('module-1002.js', ['components/Base/Markdown.js']), ('module-1029.js', ['?']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js']), ('module-1046.js', ['?'])]
+    css False skip False named []
+    t ['div', ' ', 'style', 'Event', 'span', 'KUBE_SUN', 'KUBE_MON', 'KUBE_TUE', 'KUBE_WED', 'KUBE_THU', 'KUBE_FRI', 'KUBE_SAT', 'KUBE_SUNDAY', 'KUBE_MONDAY']
+    importers ['module-1002.js', 'module-1029.js', 'module-1042.js', 'module-1046.js', 'module-1049.js', 'module-1050.js', 'module-1058.js', 'module-1059.js', 'module-1060.js', 'module-1071.js']
+    class  'class as a function");     } } function o(e, t) {     for (const r of t){         r.enumer'
+   kid module-859.js unique_imp False importers [('module-1216.js', ['pages/projects/deployments/Detail.js']), ('module-1221.js', ['pages/projects/daemonsets/Detail.js']), ('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-1224.js', ['pages/projects/cronjobs/Detail.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1216.js', 'module-1221.js', 'module-1222.js', 'module-1224.js', 'module-1226.js', 'module-1402.js', 'module-1530.js', 'module-1606.js', 'module-2208.js', 'module-2577.js']
+    export default 'export default l; '
+   kid module-806.js unique_imp False importers [('module-1216.js', ['pages/projects/deployments/Detail.js']), ('module-1221.js', ['pages/projects/daemonsets/Detail.js']), ('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-1224.js', ['pages/projects/cronjobs/Detail.js'])]
+    css False skip False named []
+    t ['rootStore']
+    importers ['module-1216.js', 'module-1221.js', 'module-1222.js', 'module-1224.js', 'module-1225.js', 'module-1227.js', 'module-1228.js', 'module-1229.js', 'module-1230.js', 'module-1402.js']
+    export default 'export default b; '
+   kid module-3871.js unique_imp True importers [('module-1224.js', ['pages/projects/cronjobs/Detail.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1224.js']
+    export default 'export default function(path) {     return [         {             path: `${path}/records`'
+
+-- pages/projects/containers/ConfigMaps/Detail.js vs pages/projects/configmaps/Detail.js -> module-1405.js long_known=False
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/ConfigMaps/Detail/index.jsx
+    css False skip False named ['pages/projects/configmaps/Detail.js']
+    t ['rootStore', 'EDIT_INFORMATION', 'EDIT_YAML', 'EDIT_SETTINGS', 'DELETE', 'CLUSTER', 'PROJECT', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'CREATOR', 'CONFIGMAP_PL']
+    importers ['module-3824.js', 'module-4715.js', 'module-5226.js']
+    export default 'export default S; '
+  orig_t_long ['rootStore', 'EDIT_INFORMATION', 'EDIT_YAML', 'EDIT_SETTINGS', 'DELETE', 'CLUSTER', 'PROJECT', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'CREATOR']
+  unpacked_t ['rootStore', 'EDIT_INFORMATION', 'EDIT_YAML', 'EDIT_SETTINGS', 'DELETE', 'CLUSTER', 'PROJECT', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'CREATOR']
+  routes_key pages/projects/containers/ConfigMaps/Detail/routes.js known False
+  unnamed_kids ['module-553.js', 'module-239.js', 'module-186.js', 'module-1168.js', 'module-806.js', 'module-3889.js']
+   kid module-553.js unique_imp False importers [('module-0.js', ['?']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js'])]
+    css False skip False named []
+    t []
+    importers ['module-0.js', 'module-1002.js', 'module-1023.js', 'module-1025.js', 'module-1031.js', 'module-1032.js', 'module-1034.js', 'module-1035.js', 'module-1041.js', 'module-1042.js']
+    t( 't(arguments[n])}`;     }     return `Minified React error #${e}; visit ${t} for the full m'
+   kid module-239.js unique_imp False importers [('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js']), ('module-1046.js', ['?']), ('module-1067.js', ['components/Modals/KubeCtl.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1023.js', 'module-1042.js', 'module-1046.js', 'module-1067.js', 'module-1071.js', 'module-1072.js', 'module-1073.js', 'module-1078.js', 'module-1106.js', 'module-1124.js']
+    class  'class (${n})                  has already been declared as an observer component.`);      '
+   kid module-186.js unique_imp False importers [('module-1002.js', ['components/Base/Markdown.js']), ('module-1029.js', ['?']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js']), ('module-1046.js', ['?'])]
+    css False skip False named []
+    t ['div', ' ', 'style', 'Event', 'span', 'KUBE_SUN', 'KUBE_MON', 'KUBE_TUE', 'KUBE_WED', 'KUBE_THU', 'KUBE_FRI', 'KUBE_SAT', 'KUBE_SUNDAY', 'KUBE_MONDAY']
+    importers ['module-1002.js', 'module-1029.js', 'module-1042.js', 'module-1046.js', 'module-1049.js', 'module-1050.js', 'module-1058.js', 'module-1059.js', 'module-1060.js', 'module-1071.js']
+    class  'class as a function");     } } function o(e, t) {     for (const r of t){         r.enumer'
+   kid module-1168.js unique_imp False importers [('module-1291.js', ['components/Inputs/EnvironmentInput.js']), ('module-1405.js', ['pages/projects/configmaps/Detail.js']), ('module-2323.js', ['components/Forms/Workload/VolumeSettings/MountConfig.js']), ('module-5190.js', ['pages/edgewize/configmaps.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1291.js', 'module-1405.js', 'module-2323.js', 'module-5190.js']
+    export default 'export default i; '
+   kid module-806.js unique_imp False importers [('module-1216.js', ['pages/projects/deployments/Detail.js']), ('module-1221.js', ['pages/projects/daemonsets/Detail.js']), ('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-1224.js', ['pages/projects/cronjobs/Detail.js'])]
+    css False skip False named []
+    t ['rootStore']
+    importers ['module-1216.js', 'module-1221.js', 'module-1222.js', 'module-1224.js', 'module-1225.js', 'module-1227.js', 'module-1228.js', 'module-1229.js', 'module-1230.js', 'module-1402.js']
+    export default 'export default b; '
+   kid module-3889.js unique_imp True importers [('module-1405.js', ['pages/projects/configmaps/Detail.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1405.js']
+    export default 'export default function(path) {     return [         {             path: `${path}/detail`,'
+
+-- pages/projects/containers/Secrets/Detail.js vs pages/projects/secrets/Detail.js -> module-1404.js long_known=False
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/Secrets/Detail/index.jsx
+    css False skip False named ['pages/projects/secrets/Detail.js']
+    t ['rootStore', 'EDIT_INFORMATION', 'EDIT_YAML', 'EDIT_SETTINGS', 'SET_AS_DEFAULT', 'DELETE', 'DEFAULT_IMAGE_REGISTRY_TCAP', 'NO', 'YES', 'CLUSTER', 'PROJECT', 'TYPE', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss']
+    importers ['module-3824.js', 'module-4715.js', 'module-5226.js']
+    export default 'export default C; '
+  orig_t_long ['rootStore', 'EDIT_INFORMATION', 'EDIT_YAML', 'EDIT_SETTINGS', 'SET_DEFAULT_REPOSITORY', 'DELETE', 'CLUSTER', 'PROJECT', 'TYPE', 'CREATION_TIME_TCAP']
+  unpacked_t ['rootStore', 'EDIT_INFORMATION', 'EDIT_YAML', 'EDIT_SETTINGS', 'SET_AS_DEFAULT', 'DELETE', 'DEFAULT_IMAGE_REGISTRY_TCAP', 'NO', 'YES', 'CLUSTER']
+  routes_key pages/projects/containers/Secrets/Detail/routes.js known False
+  unnamed_kids ['module-553.js', 'module-186.js', 'module-239.js', 'module-934.js', 'module-806.js', 'module-3886.js']
+   kid module-553.js unique_imp False importers [('module-0.js', ['?']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js'])]
+    css False skip False named []
+    t []
+    importers ['module-0.js', 'module-1002.js', 'module-1023.js', 'module-1025.js', 'module-1031.js', 'module-1032.js', 'module-1034.js', 'module-1035.js', 'module-1041.js', 'module-1042.js']
+    t( 't(arguments[n])}`;     }     return `Minified React error #${e}; visit ${t} for the full m'
+   kid module-186.js unique_imp False importers [('module-1002.js', ['components/Base/Markdown.js']), ('module-1029.js', ['?']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js']), ('module-1046.js', ['?'])]
+    css False skip False named []
+    t ['div', ' ', 'style', 'Event', 'span', 'KUBE_SUN', 'KUBE_MON', 'KUBE_TUE', 'KUBE_WED', 'KUBE_THU', 'KUBE_FRI', 'KUBE_SAT', 'KUBE_SUNDAY', 'KUBE_MONDAY']
+    importers ['module-1002.js', 'module-1029.js', 'module-1042.js', 'module-1046.js', 'module-1049.js', 'module-1050.js', 'module-1058.js', 'module-1059.js', 'module-1060.js', 'module-1071.js']
+    class  'class as a function");     } } function o(e, t) {     for (const r of t){         r.enumer'
+   kid module-239.js unique_imp False importers [('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js']), ('module-1046.js', ['?']), ('module-1067.js', ['components/Modals/KubeCtl.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1023.js', 'module-1042.js', 'module-1046.js', 'module-1067.js', 'module-1071.js', 'module-1072.js', 'module-1073.js', 'module-1078.js', 'module-1106.js', 'module-1124.js']
+    class  'class (${n})                  has already been declared as an observer component.`);      '
+   kid module-934.js unique_imp False importers [('module-1177.js', ['components/Forms/ImageBuilder/S2IForm.js']), ('module-1291.js', ['components/Inputs/EnvironmentInput.js']), ('module-1331.js', ['components/Forms/ImageBuilder/B2IForm.js']), ('module-1404.js', ['pages/projects/secrets/Detail.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1177.js', 'module-1291.js', 'module-1331.js', 'module-1404.js', 'module-1613.js', 'module-2323.js', 'module-2604.js', 'module-3340.js', 'module-5181.js', 'module-933.js']
+    export default 'export default o; '
+   kid module-806.js unique_imp False importers [('module-1216.js', ['pages/projects/deployments/Detail.js']), ('module-1221.js', ['pages/projects/daemonsets/Detail.js']), ('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-1224.js', ['pages/projects/cronjobs/Detail.js'])]
+    css False skip False named []
+    t ['rootStore']
+    importers ['module-1216.js', 'module-1221.js', 'module-1222.js', 'module-1224.js', 'module-1225.js', 'module-1227.js', 'module-1228.js', 'module-1229.js', 'module-1230.js', 'module-1402.js']
+    export default 'export default b; '
+   kid module-3886.js unique_imp True importers [('module-1404.js', ['pages/projects/secrets/Detail.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1404.js']
+    export default 'export default function(path) {     return [         {             path: `${path}/detail`,'
+
+-- pages/projects/containers/ServiceAccounts/Detail.js vs pages/projects/serviceaccounts/Detail.js -> module-1406.js long_known=True
+  orig_exists True /home/bruce/code/ks-develop/kse-console-v3/src/pages/projects/containers/ServiceAccounts/Detail/index.jsx
+    css False skip False named ['pages/projects/serviceaccounts/Detail.js', 'pages/projects/containers/ServiceAccounts/Detail.js']
+    t ['rootStore', 'EDIT_INFORMATION', 'EDIT_YAML', 'CHANGE_ROLE', 'DELETE', 'CLUSTER', 'PROJECT', 'ROLE', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'CREATOR', 'SERVICE_ACCOUNT_PL']
+    importers ['module-3824.js', 'module-4715.js', 'module-5226.js']
+    export default 'export default k; '
+  orig_t_long ['rootStore', 'EDIT_INFORMATION', 'EDIT_YAML', 'CHANGE_ROLE', 'DELETE', 'CLUSTER', 'PROJECT', 'ROLE', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss']
+  unpacked_t ['rootStore', 'EDIT_INFORMATION', 'EDIT_YAML', 'CHANGE_ROLE', 'DELETE', 'CLUSTER', 'PROJECT', 'ROLE', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss']
+  routes_key pages/projects/containers/ServiceAccounts/Detail/routes.js known False
+  unnamed_kids ['module-553.js', 'module-239.js', 'module-186.js', 'module-3892.js', 'module-806.js', 'module-3893.js']
+   kid module-553.js unique_imp False importers [('module-0.js', ['?']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js'])]
+    css False skip False named []
+    t []
+    importers ['module-0.js', 'module-1002.js', 'module-1023.js', 'module-1025.js', 'module-1031.js', 'module-1032.js', 'module-1034.js', 'module-1035.js', 'module-1041.js', 'module-1042.js']
+    t( 't(arguments[n])}`;     }     return `Minified React error #${e}; visit ${t} for the full m'
+   kid module-239.js unique_imp False importers [('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js']), ('module-1046.js', ['?']), ('module-1067.js', ['components/Modals/KubeCtl.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1023.js', 'module-1042.js', 'module-1046.js', 'module-1067.js', 'module-1071.js', 'module-1072.js', 'module-1073.js', 'module-1078.js', 'module-1106.js', 'module-1124.js']
+    class  'class (${n})                  has already been declared as an observer component.`);      '
+   kid module-186.js unique_imp False importers [('module-1002.js', ['components/Base/Markdown.js']), ('module-1029.js', ['?']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js']), ('module-1046.js', ['?'])]
+    css False skip False named []
+    t ['div', ' ', 'style', 'Event', 'span', 'KUBE_SUN', 'KUBE_MON', 'KUBE_TUE', 'KUBE_WED', 'KUBE_THU', 'KUBE_FRI', 'KUBE_SAT', 'KUBE_SUNDAY', 'KUBE_MONDAY']
+    importers ['module-1002.js', 'module-1029.js', 'module-1042.js', 'module-1046.js', 'module-1049.js', 'module-1050.js', 'module-1058.js', 'module-1059.js', 'module-1060.js', 'module-1071.js']
+    class  'class as a function");     } } function o(e, t) {     for (const r of t){         r.enumer'
+   kid module-3892.js unique_imp True importers [('module-1406.js', ['pages/projects/serviceaccounts/Detail.js', 'pages/projects/containers/ServiceAccounts/Detail.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1406.js']
+    export default 'export default i; '
+   kid module-806.js unique_imp False importers [('module-1216.js', ['pages/projects/deployments/Detail.js']), ('module-1221.js', ['pages/projects/daemonsets/Detail.js']), ('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-1224.js', ['pages/projects/cronjobs/Detail.js'])]
+    css False skip False named []
+    t ['rootStore']
+    importers ['module-1216.js', 'module-1221.js', 'module-1222.js', 'module-1224.js', 'module-1225.js', 'module-1227.js', 'module-1228.js', 'module-1229.js', 'module-1230.js', 'module-1402.js']
+    export default 'export default b; '
+   kid module-3893.js unique_imp True importers [('module-1406.js', ['pages/projects/serviceaccounts/Detail.js', 'pages/projects/containers/ServiceAccounts/Detail.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1406.js']
+    export default 'export default function(path) {     return [         {             path: `${path}/detail`,'
+
+-- pages/projects/containers/Ingresses/Detail.js vs pages/projects/ingresses/Detail.js -> module-1227.js long_known=False
+  orig_exists False None
+    css False skip False named ['pages/projects/ingresses/Detail.js']
+    t ['EDIT_INFORMATION', 'EDIT_YAML', 'EDIT_ROUTING_RULES', 'EDIT_ANNOTATIONS', 'DELETE', 'CLUSTER', 'PROJECT', 'APP', 'GATEWAY_ADDRESS_TCAP', 'Ingress Class', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'CREATOR', 'rootStore']
+    importers ['module-3824.js', 'module-4192.js', 'module-4715.js', 'module-5226.js']
+    export default 'export default O; const S = _; export { S as Component }; '
+  orig_t_long []
+  unpacked_t ['EDIT_INFORMATION', 'EDIT_YAML', 'EDIT_ROUTING_RULES', 'EDIT_ANNOTATIONS', 'DELETE', 'CLUSTER', 'PROJECT', 'APP', 'GATEWAY_ADDRESS_TCAP', 'Ingress Class']
+  routes_key pages/projects/containers/Ingresses/Detail/routes.js known False
+  unnamed_kids ['module-553.js', 'module-239.js', 'module-186.js', 'module-806.js', 'module-3882.js']
+   kid module-553.js unique_imp False importers [('module-0.js', ['?']), ('module-1002.js', ['components/Base/Markdown.js']), ('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1025.js', ['pages/apps/components/Avatar.js'])]
+    css False skip False named []
+    t []
+    importers ['module-0.js', 'module-1002.js', 'module-1023.js', 'module-1025.js', 'module-1031.js', 'module-1032.js', 'module-1034.js', 'module-1035.js', 'module-1041.js', 'module-1042.js']
+    t( 't(arguments[n])}`;     }     return `Minified React error #${e}; visit ${t} for the full m'
+   kid module-239.js unique_imp False importers [('module-1023.js', ['pages/access/containers/Roles/Detail/AuthorizationList.js']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js']), ('module-1046.js', ['?']), ('module-1067.js', ['components/Modals/KubeCtl.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1023.js', 'module-1042.js', 'module-1046.js', 'module-1067.js', 'module-1071.js', 'module-1072.js', 'module-1073.js', 'module-1078.js', 'module-1106.js', 'module-1124.js']
+    class  'class (${n})                  has already been declared as an observer component.`);      '
+   kid module-186.js unique_imp False importers [('module-1002.js', ['components/Base/Markdown.js']), ('module-1029.js', ['?']), ('module-1042.js', ['components/Forms/Workload/AdvanceSettings.js']), ('module-1046.js', ['?'])]
+    css False skip False named []
+    t ['div', ' ', 'style', 'Event', 'span', 'KUBE_SUN', 'KUBE_MON', 'KUBE_TUE', 'KUBE_WED', 'KUBE_THU', 'KUBE_FRI', 'KUBE_SAT', 'KUBE_SUNDAY', 'KUBE_MONDAY']
+    importers ['module-1002.js', 'module-1029.js', 'module-1042.js', 'module-1046.js', 'module-1049.js', 'module-1050.js', 'module-1058.js', 'module-1059.js', 'module-1060.js', 'module-1071.js']
+    class  'class as a function");     } } function o(e, t) {     for (const r of t){         r.enumer'
+   kid module-806.js unique_imp False importers [('module-1216.js', ['pages/projects/deployments/Detail.js']), ('module-1221.js', ['pages/projects/daemonsets/Detail.js']), ('module-1222.js', ['pages/projects/jobs/Detail.js']), ('module-1224.js', ['pages/projects/cronjobs/Detail.js'])]
+    css False skip False named []
+    t ['rootStore']
+    importers ['module-1216.js', 'module-1221.js', 'module-1222.js', 'module-1224.js', 'module-1225.js', 'module-1227.js', 'module-1228.js', 'module-1229.js', 'module-1230.js', 'module-1402.js']
+    export default 'export default b; '
+   kid module-3882.js unique_imp True importers [('module-1227.js', ['pages/projects/ingresses/Detail.js'])]
+    css False skip False named []
+    t []
+    importers ['module-1227.js']
+    export default 'export default function(path) {     return [         {             path: `${path}/resource'
+
+=== ACCEPTED ===
+    "pages/projects/containers/Pods/Containers/ResourceStatus.js": "module-3901.js",  # NEW imp unique_importer
+    "pages/projects/containers/VolumeSnapshots/Detail/Source.js": "module-3924.js",  # NEW imp unique_importer
+    "pages/workspaces/containers/Members/Detail/Projects.js": "module-4396.js",  # NEW imp unique_importer
+    "pages/workspaces/containers/Repos/Detail/Events.js": "module-4427.js",  # NEW imp unique_importer
+    "pages/clusters/containers/ServiceComponents/Detail/ServiceDetails.js": "module-3997.js",  # NEW imp unique_importer
+    "pages/clusters/containers/Storage/StorageClasses/Detail/Volumes.js": "module-3993.js",  # NEW imp unique_importer
+    "components/Forms/Notification/SlackForm/Item.js": "module-1705.js",  # ALIAS t CHANNEL_EXISTS
+accepted_count 7

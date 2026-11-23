@@ -1,0 +1,20 @@
+export default {
+    container: "_1nD6XAfp4F1CP0TUZ14wuY",
+    uploadBox: "_3qz9Bb9S8uy26FWwL5CAtH",
+    selectContainer: "_3-F3E5PVFjyvGtyH8Vy1zm",
+    icon: "_8YaKHqEabE8cn6SpRjFWb",
+    title: "_1ymOrdXf-n7OU5N3JGiQ1_",
+    desc: "_2Z1XYGP2ihhkKmf_erD9jF",
+    imageBox: "_2rmla7DOoS4AUTVnMOyPjQ",
+    image: "jpacjU0Ia_Fkk1vw_mlKI",
+    overlay: "Q1AULTd8cmMCZmyqBfYXD",
+    preview: "_1H03rbOewvQiWrN23TozHS",
+    box: "_2Af_1hKmH9W9WirEWb_qoD",
+    bg: "_3TgII3QmLJpGLkMtLnwgrR",
+    logo: "_27ESHRHHnqFtPIaJdfWgxs",
+    loginForm: "_3Udded1kd5X7Cy0gJdIiZL",
+    cancel: "_1Xc1x5tX9tO443phrk9hrR",
+    loadingImage: "_3lLv7VwhAKRYy1i9tmLvCe",
+    loading: "_1stswikNqFA6XtHiW6Nvi-",
+    loadingPreviewImage: "Wi5A8ohAucOgJadN5HgsF"
+};

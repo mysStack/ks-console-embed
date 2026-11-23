@@ -1,0 +1,23 @@
+{
+  "source": "pass9_import_set pins_no_babel_helpers",
+  "pins": [
+    {
+      "module": "module-2216.js",
+      "path": "dmp/pages/projects/components/AlertRuleCreate/BaseInfo/index.js",
+      "set_size": 3,
+      "named": [
+        "components/Forms/AlertingPolicy/BaseInfo/UnitInput.js",
+        "configs/alerting/metrics/rule.config.js",
+        "utils/constants.js"
+      ],
+      "reason": "import_set_1_1_no_babel_helpers"
+    }
+  ],
+  "rejected_extra": [],
+  "rejected_no_babel": {
+    "no_orig_set_match": 88,
+    "leftover_set_not_unique": 9
+  },
+  "business_looking": 243,
+  "orig_unnamed": 319
+}

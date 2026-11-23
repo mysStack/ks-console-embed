@@ -1,0 +1,21 @@
+export default {
+    modal: "_1YO6qAa4o5CIAXihai2gp7",
+    header: "_2vVO-uv8lJHWqrVv11v0KR",
+    body: "_2vJZEtSz_f9o_ieM2tvSDQ",
+    title: "_31-lgqfez3yBbVlFo_tUcz",
+    text: "_89vaF9RK4xiC6CTS8AMv7",
+    wrapper: "_3rzjtTdrtDtIU3oXBYyX6A",
+    loading: "lwBciOx7X_Aiezt5FYLpb",
+    sectionTitle: "_3k9GdhtEu1-2BO5qFF2Mb0",
+    matchWrapper: "_1pNGhihrUvVdQ5sBH7TTmb",
+    matchArrow: "_3ruGexdrbaeOPbmO9YdgNM",
+    matchVersion: "Q1EqkLXYIAMTFlJDYgV6b",
+    governor: "_2MPS2QWyT6zjz7d2WTFE8Y",
+    barWrapper: "_2NHJds2bdFgZ_CD9y4Ysvd",
+    bar: "_1V8kzO-zzW71tEbOPLFeU3",
+    mirrorBar: "pK-EmPX1F-LcM21gsSMZP",
+    mirror: "_2r0HBgs_ICewriI-7OZBi8",
+    mirrorIcon: "_25PLS8q5MC3mcxhp2UWRCA",
+    revertMirrorIcon: "LxkxCr-ExgyPESSixjvSr",
+    monitor: "_1DCVu0WUnzdaAxKRZ3yPPS"
+};

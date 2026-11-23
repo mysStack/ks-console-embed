@@ -1,0 +1,61 @@
+{
+  "orig_files": 304,
+  "raw": 25,
+  "unique": [
+    {
+      "lit": "spec.template",
+      "module": "module-2469.js",
+      "orig": "utils/request.js"
+    },
+    {
+      "lit": "PASSWORD_LETTER",
+      "module": "module-1286.js",
+      "orig": "core/containers/PasswordConfirm/index.js"
+    },
+    {
+      "lit": "EDIT_ALERT_RULES",
+      "module": "module-2067.js",
+      "orig": "pages/projects/containers/Alerting/Policies/Detail/index.js"
+    },
+    {
+      "lit": "INIT_CONTAINER",
+      "module": "module-4432.js",
+      "orig": "pages/projects/components/Cards/ContainerTemplate/Item.js"
+    },
+    {
+      "lit": "APP_INSTANCES",
+      "module": "module-1869.js",
+      "orig": "pages/apps/containers/StoreManage/Detail/routes.js"
+    },
+    {
+      "lit": "ALL_CLUSTERS",
+      "module": "module-2072.js",
+      "orig": "pages/workspaces/components/Modals/WorkspaceSelect/Card/index.js"
+    },
+    {
+      "lit": "project.default.resource",
+      "module": "module-4938.js",
+      "orig": "pages/fedprojects/containers/BaseInfo/index.js"
+    },
+    {
+      "lit": "network.ippool.add",
+      "module": "module-2409.js",
+      "orig": "pages/clusters/containers/Network/IPPools/index.js"
+    },
+    {
+      "lit": "gateways.edit",
+      "module": "module-1133.js",
+      "orig": "pages/clusters/containers/Gateway/Detail/index.js"
+    },
+    {
+      "lit": "CREATED_TIME",
+      "module": "module-4038.js",
+      "orig": "pages/clusters/containers/Gateway/Components/Pods/Item.js"
+    },
+    {
+      "lit": "has-icons-right",
+      "module": "module-186.js",
+      "orig": "components/Base/Slider/index.js"
+    }
+  ]
+}

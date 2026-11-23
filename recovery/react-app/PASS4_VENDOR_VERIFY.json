@@ -1,0 +1,1154 @@
+{
+  "cases": [
+    {
+      "module": "module-264.js",
+      "npm": "lodash/isPlainObject.js",
+      "live": true,
+      "already": false,
+      "leftover_bytes": 624,
+      "npm_exists": true,
+      "npm_bytes": 1650,
+      "leftover_needles": {
+        "!= \"[object Object]\"": true,
+        "n instanceof n": true,
+        "toString.call(Object)": true
+      },
+      "npm_needles": {
+        "[object Object]": true,
+        "isObjectLike": true,
+        "getPrototype": true
+      },
+      "copy_hits": {
+        "!= \"[object Object]\"": {
+          "all": [
+            "module-264.js",
+            "module-1010.js",
+            "module-4438.js"
+          ],
+          "live": [
+            "module-264.js"
+          ]
+        },
+        "n instanceof n": {
+          "all": [
+            "module-2.js",
+            "module-264.js",
+            "module-1010.js",
+            "module-4438.js"
+          ],
+          "live": [
+            "module-264.js"
+          ]
+        },
+        "toString.call(Object)": {
+          "all": [
+            "module-2.js",
+            "module-264.js",
+            "module-1010.js",
+            "module-4438.js"
+          ],
+          "live": [
+            "module-264.js"
+          ]
+        }
+      },
+      "leftover_head": "import module116 from \"unpacked/module-116.js\"; | import module273 from \"unpacked/module-273.js\"; | import module92 from \"unpacked/module-92.js\"; | const toString = Function.prototype.toString; | const hasOwnProperty = Object.prototype.hasOwnProper",
+      "npm_head": "var baseGetTag = require('./_baseGetTag'), |     getPrototype = require('./_getPrototype'), |     isObjectLike = require('./isObjectLike'); |  | /** `Object#toString` result references. */ | var objectTag = '[object Object]'; |  | /** Used for built-in m"
+    },
+    {
+      "module": "module-606.js",
+      "npm": "lodash/_baseIsNative.js",
+      "live": true,
+      "already": false,
+      "leftover_bytes": 625,
+      "npm_exists": true,
+      "npm_bytes": 1417,
+      "leftover_needles": {
+        "/^\\[object .+?Constructor\\]$/": true,
+        "hasOwnProperty|(function)": true,
+        "isMasked": false
+      },
+      "npm_needles": {
+        "/^\\[object .+?Constructor\\]$/": true,
+        "hasOwnProperty|(function)": true,
+        "isMasked": true
+      },
+      "copy_hits": {
+        "/^\\[object .+?Constructor\\]$/": {
+          "all": [
+            "module-2.js",
+            "module-606.js",
+            "module-2005.js",
+            "module-2018.js",
+            "module-4437.js",
+            "module-4439.js",
+            "module-5303.js"
+          ],
+          "live": [
+            "module-606.js"
+          ]
+        },
+        "hasOwnProperty|(function)": {
+          "all": [
+            "module-2.js",
+            "module-606.js",
+            "module-2005.js",
+            "module-2018.js",
+            "module-4437.js",
+            "module-4439.js",
+            "module-5303.js"
+          ],
+          "live": [
+            "module-606.js"
+          ]
+        },
+        "isMasked": {
+          "all": [],
+          "live": []
+        }
+      },
+      "leftover_head": "import module194 from \"unpacked/module-194.js\"; | import module609 from \"unpacked/module-609.js\"; | import module76 from \"unpacked/module-76.js\"; | import module392 from \"unpacked/module-392.js\"; | const l = /^\\[object .+?Constructor\\]$/; | const toS",
+      "npm_head": "var isFunction = require('./isFunction'), |     isMasked = require('./_isMasked'), |     isObject = require('./isObject'), |     toSource = require('./_toSource'); |  | /** |  * Used to match `RegExp` |  * [syntax characters](http://ecma-international.or"
+    },
+    {
+      "module": "module-129.js",
+      "npm": "lodash/_getNative.js",
+      "live": true,
+      "already": false,
+      "leftover_bytes": 210,
+      "npm_exists": true,
+      "npm_bytes": 483,
+      "leftover_needles": {
+        "module606(n)": true,
+        "module611(e, t)": true
+      },
+      "npm_needles": {
+        "baseIsNative": true,
+        "getValue": true
+      },
+      "copy_hits": {
+        "module606(n)": {
+          "all": [
+            "module-129.js"
+          ],
+          "live": [
+            "module-129.js"
+          ]
+        },
+        "module611(e, t)": {
+          "all": [
+            "module-129.js"
+          ],
+          "live": [
+            "module-129.js"
+          ]
+        }
+      },
+      "leftover_head": "import module606 from \"unpacked/module-606.js\"; | import module611 from \"unpacked/module-611.js\"; | export default function(e, t) { |     const n = module611(e, t); |     if (module606(n)) { |         return n; |     } | }; | ",
+      "npm_head": "var baseIsNative = require('./_baseIsNative'), |     getValue = require('./_getValue'); |  | /** |  * Gets the native function at `key` of `object`. |  * |  * @private |  * @param {Object} object The object to query. |  * @param {string} key The key of the"
+    },
+    {
+      "module": "module-164.js",
+      "npm": "lodash/_getTag.js",
+      "live": true,
+      "already": false,
+      "leftover_bytes": 1435,
+      "npm_exists": true,
+      "npm_bytes": 1838,
+      "leftover_needles": {
+        "[object DataView]": true,
+        "[object Promise]": true,
+        "[object WeakMap]": true,
+        "new ArrayBuffer(1)": true
+      },
+      "npm_needles": {
+        "[object DataView]": true,
+        "[object Promise]": true,
+        "[object WeakMap]": true,
+        "new ArrayBuffer(1)": true
+      },
+      "copy_hits": {
+        "[object DataView]": {
+          "all": [
+            "module-2.js",
+            "module-164.js",
+            "module-360.js",
+            "module-628.js",
+            "module-649.js",
+            "module-696.js",
+            "module-966.js",
+            "module-992.js",
+            "module-1263.js",
+            "module-2005.js",
+            "module-2016.js",
+            "module-4437.js",
+            "module-4439.js"
+          ],
+          "live": [
+            "module-164.js",
+            "module-360.js",
+            "module-628.js",
+            "module-649.js",
+            "module-696.js"
+          ]
+        },
+        "[object Promise]": {
+          "all": [
+            "module-2.js",
+            "module-164.js",
+            "module-966.js",
+            "module-2005.js",
+            "module-4437.js",
+            "module-4439.js"
+          ],
+          "live": [
+            "module-164.js"
+          ]
+        },
+        "[object WeakMap]": {
+          "all": [
+            "module-2.js",
+            "module-164.js",
+            "module-360.js",
+            "module-628.js",
+            "module-966.js",
+            "module-992.js",
+            "module-2005.js",
+            "module-2016.js",
+            "module-4437.js",
+            "module-4439.js"
+          ],
+          "live": [
+            "module-164.js",
+            "module-360.js",
+            "module-628.js"
+          ]
+        },
+        "new ArrayBuffer(1)": {
+          "all": [
+            "module-2.js",
+            "module-164.js",
+            "module-966.js",
+            "module-2005.js",
+            "module-4437.js",
+            "module-4439.js"
+          ],
+          "live": [
+            "module-164.js"
+          ]
+        }
+      },
+      "leftover_head": "import module638 from \"unpacked/module-638.js\"; | import module294 from \"unpacked/module-294.js\"; | import module639 from \"unpacked/module-639.js\"; | import module404 from \"unpacked/module-404.js\"; | import module517 from \"unpacked/module-517.js\"; | ",
+      "npm_head": "var DataView = require('./_DataView'), |     Map = require('./_Map'), |     Promise = require('./_Promise'), |     Set = require('./_Set'), |     WeakMap = require('./_WeakMap'), |     baseGetTag = require('./_baseGetTag'), |     toSource = require('./"
+    },
+    {
+      "module": "module-611.js",
+      "npm": "lodash/_getValue.js",
+      "live": true,
+      "already": false,
+      "leftover_bytes": 54,
+      "npm_exists": true,
+      "npm_bytes": 325,
+      "leftover_needles": {},
+      "npm_needles": {},
+      "copy_hits": {},
+      "leftover_head": "export default function(e, t) { |     return e?.[t]; | }; | ",
+      "npm_head": "/** |  * Gets the value at `key` of `object`. |  * |  * @private |  * @param {Object} [object] The object to query. |  * @param {string} key The key of the property to get. |  * @returns {*} Returns the property value. |  */ | function getValue(object, key"
+    },
+    {
+      "module": "module-64.js",
+      "npm": "core-js3/modules/es.string.replace.js",
+      "live": true,
+      "already": false,
+      "leftover_bytes": 3693,
+      "npm_exists": true,
+      "npm_bytes": 5667,
+      "leftover_needles": {
+        "\"a\".replace(/./, \"$0\") === \"$0\"": true,
+        "module226(\"replace\"": true,
+        "\"$<\"": true
+      },
+      "npm_needles": {
+        "\"a\".replace(/./, \"$0\") === \"$0\"": false,
+        "SUBSTITUTION_SYMBOLS = /\\$([$&'`]|\\d{1,2}|<[^>]*>)/g": false,
+        "replace": true
+      },
+      "copy_hits": {
+        "\"a\".replace(/./, \"$0\") === \"$0\"": {
+          "all": [
+            "module-64.js"
+          ],
+          "live": [
+            "module-64.js"
+          ]
+        },
+        "module226(\"replace\"": {
+          "all": [
+            "module-64.js"
+          ],
+          "live": [
+            "module-64.js"
+          ]
+        },
+        "\"$<\"": {
+          "all": [
+            "module-64.js"
+          ],
+          "live": [
+            "module-64.js"
+          ]
+        }
+      },
+      "leftover_head": "\"use strict\"; | const module145 = require(\"unpacked/module-145.js\").default; | const module39 = require(\"unpacked/module-39.js\").default; | const module21 = require(\"unpacked/module-21.js\").default; | const module226 = require(\"unpacked/module-226.",
+      "npm_head": "'use strict'; | var apply = require('../internals/function-apply'); | var call = require('../internals/function-call'); | var uncurryThis = require('../internals/function-uncurry-this'); | var fixRegExpWellKnownSymbolLogic = require('../internals/f"
+    },
+    {
+      "module": "module-376.js",
+      "npm": "core-js3/internals/html.js",
+      "live": true,
+      "already": false,
+      "leftover_bytes": 102,
+      "npm_exists": true,
+      "npm_bytes": 130,
+      "leftover_needles": {
+        "(\"document\", \"documentElement\")": true
+      },
+      "npm_needles": {
+        "'document', 'documentElement'": true,
+        "\"document\", \"documentElement\"": false
+      },
+      "copy_hits": {
+        "(\"document\", \"documentElement\")": {
+          "all": [
+            "module-376.js"
+          ],
+          "live": [
+            "module-376.js"
+          ]
+        }
+      },
+      "leftover_head": "import module78 from \"unpacked/module-78.js\"; | export default module78(\"document\", \"documentElement\"); | ",
+      "npm_head": "'use strict'; | var getBuiltIn = require('../internals/get-built-in'); |  | module.exports = getBuiltIn('document', 'documentElement'); | "
+    },
+    {
+      "module": "module-367.js",
+      "npm": "core-js3/internals/make-built-in.js",
+      "live": true,
+      "already": false,
+      "leftover_bytes": 2047,
+      "npm_exists": true,
+      "npm_bytes": 2610,
+      "leftover_needles": {
+        "v(String(t), 0, 7) === \"Symbol(\"": true,
+        "Function.prototype.toString = C(": true,
+        "r.source = g(b, typeof t === \"string\" ? t : \"\")": true
+      },
+      "npm_needles": {
+        "makeBuiltIn": true,
+        "Function.prototype.toString": true,
+        "Symbol(": true
+      },
+      "copy_hits": {
+        "v(String(t), 0, 7) === \"Symbol(\"": {
+          "all": [
+            "module-367.js"
+          ],
+          "live": [
+            "module-367.js"
+          ]
+        },
+        "Function.prototype.toString = C(": {
+          "all": [
+            "module-367.js"
+          ],
+          "live": [
+            "module-367.js"
+          ]
+        },
+        "r.source = g(b, typeof t === \"string\" ? t : \"\")": {
+          "all": [
+            "module-367.js"
+          ],
+          "live": [
+            "module-367.js"
+          ]
+        }
+      },
+      "leftover_head": "import module21 from \"unpacked/module-21.js\"; | import module19 from \"unpacked/module-19.js\"; | import module35 from \"unpacked/module-35.js\"; | import module53 from \"unpacked/module-53.js\"; | import module33 from \"unpacked/module-33.js\"; | import mod",
+      "npm_head": "'use strict'; | var uncurryThis = require('../internals/function-uncurry-this'); | var fails = require('../internals/fails'); | var isCallable = require('../internals/is-callable'); | var hasOwn = require('../internals/has-own-property'); | var DESCR"
+    },
+    {
+      "module": "module-421.js",
+      "npm": "core-js3/internals/collection.js",
+      "live": true,
+      "already": false,
+      "leftover_bytes": 6159,
+      "npm_exists": true,
+      "npm_bytes": 4586,
+      "leftover_needles": {
+        "getConstructor: function": true,
+        "AS_ENTRIES": true,
+        "getterFor(t)": true
+      },
+      "npm_needles": {
+        "getConstructor": true,
+        "AS_ENTRIES": true
+      },
+      "copy_hits": {
+        "getConstructor: function": {
+          "all": [
+            "module-421.js"
+          ],
+          "live": [
+            "module-421.js"
+          ]
+        },
+        "AS_ENTRIES": {
+          "all": [
+            "module-213.js",
+            "module-419.js",
+            "module-421.js"
+          ],
+          "live": [
+            "module-213.js",
+            "module-419.js",
+            "module-421.js"
+          ]
+        },
+        "getterFor(t)": {
+          "all": [
+            "module-421.js"
+          ],
+          "live": [
+            "module-421.js"
+          ]
+        }
+      },
+      "leftover_head": "import module114 from \"unpacked/module-114.js\"; | import module113 from \"unpacked/module-113.js\"; | import module493 from \"unpacked/module-493.js\"; | import module142 from \"unpacked/module-142.js\"; | import module254 from \"unpacked/module-254.js\"; | ",
+      "npm_head": "'use strict'; | var $ = require('../internals/export'); | var global = require('../internals/global'); | var uncurryThis = require('../internals/function-uncurry-this'); | var isForced = require('../internals/is-forced'); | var defineBuiltIn = requir"
+    },
+    {
+      "module": "module-584.js",
+      "npm": "core-js3/internals/symbol-constructor.js",
+      "live": true,
+      "already": false,
+      "leftover_bytes": 7869,
+      "npm_exists": false,
+      "npm_bytes": 0,
+      "leftover_needles": {
+        "getterFor(\"Symbol\")": true,
+        "QObject.prototype.findChild": true,
+        "op-symbols": true
+      },
+      "npm_needles": {
+        "Symbol": false,
+        "findChild": false,
+        "op-symbols": false
+      },
+      "copy_hits": {
+        "getterFor(\"Symbol\")": {
+          "all": [
+            "module-584.js"
+          ],
+          "live": [
+            "module-584.js"
+          ]
+        },
+        "QObject.prototype.findChild": {
+          "all": [
+            "module-584.js"
+          ],
+          "live": [
+            "module-584.js"
+          ]
+        },
+        "op-symbols": {
+          "all": [
+            "module-584.js"
+          ],
+          "live": [
+            "module-584.js"
+          ]
+        }
+      },
+      "leftover_head": "import module8 from \"unpacked/module-8.js\"; | import module25 from \"unpacked/module-25.js\"; | import module39 from \"unpacked/module-39.js\"; | import module21 from \"unpacked/module-21.js\"; | import module79 from \"unpacked/module-79.js\"; | import modul",
+      "npm_head": ""
+    },
+    {
+      "module": "module-674.js",
+      "npm": "core-js3/modules/esnext.set.intersection.js",
+      "live": true,
+      "already": false,
+      "leftover_bytes": 560,
+      "npm_exists": true,
+      "npm_bytes": 531,
+      "leftover_needles": {
+        "forced: !require(\"unpacked/module-133.js\").default(\"intersection\")": true,
+        "].intersection(new Set([": false
+      },
+      "npm_needles": {
+        "intersection": true
+      },
+      "copy_hits": {
+        "forced: !require(\"unpacked/module-133.js\").default(\"intersection\")": {
+          "all": [
+            "module-674.js"
+          ],
+          "live": [
+            "module-674.js"
+          ]
+        },
+        "].intersection(new Set([": {
+          "all": [],
+          "live": []
+        }
+      },
+      "leftover_head": "\"use strict\"; | const module8 = require(\"unpacked/module-8.js\").default; | const module19 = require(\"unpacked/module-19.js\").default; | const intersection = require(\"unpacked/module-675.js\").default; | module8({ |     target: \"Set\", |     proto: true, | ",
+      "npm_head": "'use strict'; | var $ = require('../internals/export'); | var call = require('../internals/function-call'); | var toSetLike = require('../internals/to-set-like'); | var $intersection = require('../internals/set-intersection'); |  | // `Set.prototype.in"
+    }
+  ],
+  "distinct_lodash": [
+    {
+      "needle": "__core-js_shared__",
+      "npm": "_coreJsData.js",
+      "npm_exists": true,
+      "all": [
+        "module-2.js",
+        "module-280.js",
+        "module-610.js",
+        "module-1643.js",
+        "module-1878.js",
+        "module-2005.js",
+        "module-4437.js",
+        "module-4439.js",
+        "module-5303.js"
+      ],
+      "live_unaliased": [
+        "module-610.js"
+      ]
+    },
+    {
+      "needle": "core-js_shared",
+      "npm": "_coreJsData.js",
+      "npm_exists": true,
+      "all": [
+        "module-2.js",
+        "module-280.js",
+        "module-610.js",
+        "module-1643.js",
+        "module-1878.js",
+        "module-2005.js",
+        "module-4437.js",
+        "module-4439.js",
+        "module-5303.js"
+      ],
+      "live_unaliased": [
+        "module-610.js"
+      ]
+    },
+    {
+      "needle": "cloneableTags",
+      "npm": "_initCloneByTag.js",
+      "npm_exists": true,
+      "all": [],
+      "live_unaliased": []
+    },
+    {
+      "needle": "COMPARE_PARTIAL_FLAG",
+      "npm": "_baseIsEqualDeep.js",
+      "npm_exists": true,
+      "all": [],
+      "live_unaliased": []
+    },
+    {
+      "needle": "HASH_UNDEFINED",
+      "npm": "_Hash.js",
+      "npm_exists": true,
+      "all": [],
+      "live_unaliased": []
+    },
+    {
+      "needle": "hashClear",
+      "npm": "_hashClear.js",
+      "npm_exists": true,
+      "all": [],
+      "live_unaliased": []
+    },
+    {
+      "needle": "LazyWrapper",
+      "npm": "_LazyWrapper.js",
+      "npm_exists": true,
+      "all": [],
+      "live_unaliased": []
+    },
+    {
+      "needle": "wrapperLodash",
+      "npm": "wrapperLodash.js",
+      "npm_exists": true,
+      "all": [
+        "module-2016.js"
+      ],
+      "live_unaliased": []
+    },
+    {
+      "needle": "lodash.templateSettings",
+      "npm": "templateSettings.js",
+      "npm_exists": true,
+      "all": [
+        "module-2016.js"
+      ],
+      "live_unaliased": []
+    },
+    {
+      "needle": "placeholder",
+      "npm": "_getPlaceholder.js",
+      "npm_exists": false,
+      "all": [
+        "module-2.js",
+        "module-186.js",
+        "module-554.js",
+        "module-810.js",
+        "module-817.js",
+        "module-851.js",
+        "module-969.js",
+        "module-1029.js",
+        "module-1250.js",
+        "module-1271.js",
+        "module-1308.js",
+        "module-1460.js",
+        "module-1508.js",
+        "module-1550.js",
+        "module-1621.js",
+        "module-1689.js",
+        "module-1788.js",
+        "module-1869.js",
+        "module-1966.js",
+        "module-1969.js",
+        "module-2007.js",
+        "module-2016.js",
+        "module-2062.js",
+        "module-2084.js",
+        "module-2085.js",
+        "module-2086.js",
+        "module-2088.js",
+        "module-2089.js",
+        "module-2096.js",
+        "module-2111.js",
+        "module-2118.js",
+        "module-2226.js",
+        "module-2432.js",
+        "module-2451.js",
+        "module-2465.js",
+        "module-2469.js",
+        "module-2525.js",
+        "module-2623.js",
+        "module-2638.js",
+        "module-2652.js",
+        "module-2700.js",
+        "module-2717.js",
+        "module-2719.js",
+        "module-2753.js",
+        "module-2838.js",
+        "module-2882.js",
+        "module-2887.js",
+        "module-2943.js",
+        "module-2978.js",
+        "module-2983.js",
+        "module-2990.js",
+        "module-2997.js",
+        "module-2998.js",
+        "module-3010.js",
+        "module-3015.js",
+        "module-3017.js",
+        "module-3024.js",
+        "module-3026.js",
+        "module-3144.js",
+        "module-3174.js",
+        "module-3176.js",
+        "module-3195.js",
+        "module-3209.js",
+        "module-3298.js",
+        "module-3301.js",
+        "module-3620.js",
+        "module-3715.js",
+        "module-3928.js",
+        "module-4037.js",
+        "module-4052.js",
+        "module-4181.js",
+        "module-4214.js",
+        "module-4249.js",
+        "module-4275.js",
+        "module-4328.js",
+        "module-4335.js",
+        "module-4374.js",
+        "module-4435.js",
+        "module-4847.js",
+        "module-4850.js",
+        "module-4862.js",
+        "module-5045.js",
+        "module-5157.js",
+        "module-5184.js",
+        "module-5252.js",
+        "module-5281.js",
+        "module-5300.js",
+        "module-5728.js",
+        "module-5770.js",
+        "module-5771.js",
+        "module-5774.js",
+        "module-5776.js"
+      ],
+      "live_unaliased": [
+        "module-817.js",
+        "module-969.js",
+        "module-1029.js",
+        "module-1271.js",
+        "module-1308.js",
+        "module-1550.js",
+        "module-1621.js",
+        "module-1689.js",
+        "module-2062.js",
+        "module-2084.js",
+        "module-2085.js",
+        "module-2086.js",
+        "module-2088.js",
+        "module-2089.js",
+        "module-2096.js",
+        "module-2111.js",
+        "module-2118.js",
+        "module-2226.js",
+        "module-2432.js",
+        "module-2451.js",
+        "module-2469.js",
+        "module-2525.js",
+        "module-2623.js",
+        "module-2638.js",
+        "module-2652.js",
+        "module-2700.js",
+        "module-2717.js",
+        "module-2719.js",
+        "module-2753.js",
+        "module-2838.js",
+        "module-2887.js",
+        "module-2943.js",
+        "module-2978.js",
+        "module-2983.js",
+        "module-2990.js",
+        "module-2997.js",
+        "module-2998.js",
+        "module-3010.js",
+        "module-3015.js",
+        "module-3017.js",
+        "module-3024.js",
+        "module-3026.js",
+        "module-3144.js",
+        "module-3174.js",
+        "module-3176.js",
+        "module-3195.js",
+        "module-3209.js",
+        "module-3298.js",
+        "module-3301.js",
+        "module-3620.js",
+        "module-5770.js"
+      ]
+    }
+  ],
+  "buffer_importers": {
+    "module-958.js": {
+      "live": false,
+      "importers": [
+        {
+          "importer": "module-1469.js",
+          "live": false,
+          "already": false
+        },
+        {
+          "importer": "module-1652.js",
+          "live": false,
+          "already": false
+        },
+        {
+          "importer": "module-1263.js",
+          "live": false,
+          "already": false
+        },
+        {
+          "importer": "module-2016.js",
+          "live": false,
+          "already": true
+        }
+      ]
+    },
+    "module-1056.js": {
+      "live": false,
+      "importers": [
+        {
+          "importer": "module-992.js",
+          "live": false,
+          "already": false
+        },
+        {
+          "importer": "module-2016.js",
+          "live": false,
+          "already": true
+        }
+      ]
+    },
+    "module-1648.js": {
+      "live": false,
+      "importers": [
+        {
+          "importer": "module-1469.js",
+          "live": false,
+          "already": false
+        },
+        {
+          "importer": "module-2016.js",
+          "live": false,
+          "already": true
+        }
+      ]
+    }
+  },
+  "documentElement": [
+    {
+      "module": "module-893.js",
+      "live": false,
+      "already": true,
+      "quoted": false,
+      "aliased_webpack": true
+    },
+    {
+      "module": "module-376.js",
+      "live": true,
+      "already": false,
+      "quoted": true,
+      "aliased_webpack": false
+    },
+    {
+      "module": "module-3457.js",
+      "live": false,
+      "already": false,
+      "quoted": false,
+      "aliased_webpack": false
+    },
+    {
+      "module": "module-1141.js",
+      "live": false,
+      "already": false,
+      "quoted": false,
+      "aliased_webpack": false
+    },
+    {
+      "module": "module-2007.js",
+      "live": false,
+      "already": false,
+      "quoted": false,
+      "aliased_webpack": false
+    },
+    {
+      "module": "module-2773.js",
+      "live": false,
+      "already": true,
+      "quoted": false,
+      "aliased_webpack": false
+    },
+    {
+      "module": "module-1441.js",
+      "live": false,
+      "already": false,
+      "quoted": false,
+      "aliased_webpack": false
+    },
+    {
+      "module": "module-1259.js",
+      "live": false,
+      "already": false,
+      "quoted": false,
+      "aliased_webpack": false
+    },
+    {
+      "module": "module-186.js",
+      "live": false,
+      "already": true,
+      "quoted": false,
+      "aliased_webpack": false
+    },
+    {
+      "module": "module-380.js",
+      "live": true,
+      "already": false,
+      "quoted": false,
+      "aliased_webpack": false
+    },
+    {
+      "module": "module-5774.js",
+      "live": false,
+      "already": true,
+      "quoted": false,
+      "aliased_webpack": false
+    },
+    {
+      "module": "module-1276.js",
+      "live": false,
+      "already": false,
+      "quoted": false,
+      "aliased_webpack": false
+    },
+    {
+      "module": "module-554.js",
+      "live": false,
+      "already": false,
+      "quoted": false,
+      "aliased_webpack": false
+    },
+    {
+      "module": "module-1514.js",
+      "live": true,
+      "already": false,
+      "quoted": false,
+      "aliased_webpack": false
+    },
+    {
+      "module": "module-5773.js",
+      "live": false,
+      "already": true,
+      "quoted": false,
+      "aliased_webpack": false
+    },
+    {
+      "module": "module-3517.js",
+      "live": true,
+      "already": false,
+      "quoted": false,
+      "aliased_webpack": false
+    },
+    {
+      "module": "module-1140.js",
+      "live": false,
+      "already": false,
+      "quoted": false,
+      "aliased_webpack": false
+    },
+    {
+      "module": "module-4491.js",
+      "live": false,
+      "already": false,
+      "quoted": false,
+      "aliased_webpack": false
+    }
+  ],
+  "npm_exist": {
+    "core-js3/internals/html.js": true,
+    "core-js3/internals/make-built-in.js": true,
+    "core-js3/internals/collection.js": true,
+    "core-js3/internals/symbol-constructor.js": false,
+    "core-js3/modules/es.symbol.js": true,
+    "core-js3/modules/es.string.replace.js": true,
+    "core-js3/modules/esnext.set.intersection.js": true,
+    "lodash/_getTag.js": true,
+    "lodash/_getNative.js": true,
+    "lodash/_getValue.js": true,
+    "lodash/_baseIsNative.js": true,
+    "lodash/isPlainObject.js": true,
+    "lodash/_isMasked.js": true,
+    "lodash/_coreJsData.js": true,
+    "lodash/_toSource.js": true
+  },
+  "extra_needles": {
+    "getterFor(\"Symbol\")": {
+      "all": [
+        "module-584.js"
+      ],
+      "live": [
+        "module-584.js"
+      ]
+    },
+    "QObject.prototype.findChild": {
+      "all": [
+        "module-584.js"
+      ],
+      "live": [
+        "module-584.js"
+      ]
+    },
+    "op-symbols": {
+      "all": [
+        "module-584.js"
+      ],
+      "live": [
+        "module-584.js"
+      ]
+    },
+    "AS_ENTRIES": {
+      "all": [
+        "module-213.js",
+        "module-419.js",
+        "module-421.js"
+      ],
+      "live": [
+        "module-213.js",
+        "module-419.js",
+        "module-421.js"
+      ]
+    },
+    "type: \"Symbol\"": {
+      "all": [
+        "module-584.js"
+      ],
+      "live": [
+        "module-584.js"
+      ]
+    },
+    "makeBuiltIn": {
+      "all": [],
+      "live": []
+    },
+    "v(String(t), 0, 7) === \"Symbol(\"": {
+      "all": [
+        "module-367.js"
+      ],
+      "live": [
+        "module-367.js"
+      ]
+    },
+    "Function.prototype.toString = C(": {
+      "all": [
+        "module-367.js"
+      ],
+      "live": [
+        "module-367.js"
+      ]
+    }
+  },
+  "consume": {
+    "module-64.js": {
+      "default_require": [],
+      "default_import": [],
+      "side_import": [
+        "pages/clusters/edgenodes.js",
+        "pages/edgewize/fota.js",
+        "pages/whizard-telemetry/edgenodes.js",
+        "pages/projects/applications-database.js",
+        "pages/node-groups/nodes.js",
+        "pages/console/containers/Dashboard/Admin.js",
+        "pages/console/containers/Dashboard/Admin/History/Card.js",
+        "pages/node-groups/edgeippool/Detail.js",
+        "pages/projects/applications-database/Detail.js",
+        "pages/projects/containers/Pods/Containers/Detail.js"
+      ],
+      "named_import": [],
+      "needs_shim": false
+    },
+    "module-376.js": {
+      "default_require": [
+        "unpacked/module-114.js"
+      ],
+      "default_import": [
+        "unpacked/module-375.js"
+      ],
+      "side_import": [],
+      "named_import": [],
+      "needs_shim": true
+    },
+    "module-264.js": {
+      "default_require": [],
+      "default_import": [
+        "utils/index.js",
+        "unpacked/module-709.js",
+        "unpacked/module-625.js",
+        "unpacked/module-1035.js",
+        "unpacked/module-2808.js"
+      ],
+      "side_import": [],
+      "named_import": [],
+      "needs_shim": true
+    },
+    "module-606.js": {
+      "default_require": [],
+      "default_import": [
+        "unpacked/module-129.js"
+      ],
+      "side_import": [],
+      "named_import": [],
+      "needs_shim": true
+    },
+    "module-164.js": {
+      "default_require": [],
+      "default_import": [
+        "unpacked/module-360.js",
+        "unpacked/module-701.js",
+        "unpacked/module-646.js",
+        "unpacked/module-1024.js",
+        "unpacked/module-703.js",
+        "unpacked/module-63.js",
+        "unpacked/module-3913.js"
+      ],
+      "side_import": [],
+      "named_import": [],
+      "needs_shim": true
+    },
+    "module-129.js": {
+      "default_require": [
+        "unpacked/module-639.js",
+        "unpacked/module-517.js",
+        "unpacked/module-294.js",
+        "unpacked/module-638.js",
+        "unpacked/module-404.js",
+        "unpacked/module-231.js"
+      ],
+      "default_import": [
+        "unpacked/module-394.js"
+      ],
+      "side_import": [],
+      "named_import": [],
+      "needs_shim": true
+    },
+    "module-367.js": {
+      "default_require": [],
+      "default_import": [
+        "unpacked/module-67.js",
+        "unpacked/module-113.js"
+      ],
+      "side_import": [],
+      "named_import": [],
+      "needs_shim": true
+    },
+    "module-421.js": {
+      "default_require": [
+        "unpacked/module-666.js",
+        "unpacked/module-670.js"
+      ],
+      "default_import": [],
+      "side_import": [],
+      "named_import": [],
+      "needs_shim": true
+    },
+    "module-584.js": {
+      "default_require": [],
+      "default_import": [],
+      "side_import": [
+        "unpacked/module-12.js"
+      ],
+      "named_import": [],
+      "needs_shim": false
+    },
+    "module-674.js": {
+      "default_require": [],
+      "default_import": [],
+      "side_import": [
+        "unpacked/module-461.js"
+      ],
+      "named_import": [],
+      "needs_shim": false
+    },
+    "module-611.js": {
+      "default_require": [],
+      "default_import": [
+        "unpacked/module-129.js"
+      ],
+      "side_import": [],
+      "named_import": [],
+      "needs_shim": true
+    }
+  }
+}

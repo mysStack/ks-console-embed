@@ -1,0 +1,13 @@
+{
+  "moved": 1589,
+  "skipped_stub": 0,
+  "skipped_alias": 0,
+  "skipped_missing": 0,
+  "by_chunk": {
+    "actions": 501,
+    "common": 468,
+    "main": 391,
+    "vendor": 218,
+    "console": 11
+  }
+}

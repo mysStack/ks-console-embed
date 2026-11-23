@@ -1,0 +1,122 @@
+{
+  "leftover_scanned": 4199,
+  "orig_unpromoted": 1235,
+  "raw_pins": 57,
+  "unique_module_pins": 19,
+  "pins": [
+    {
+      "kind": "module_eq",
+      "lit": "alerts",
+      "module": "module-1236.js",
+      "orig": "pages/projects/containers/Alerting/Messages/index.js"
+    },
+    {
+      "kind": "module_eq",
+      "lit": "federatedprojects",
+      "module": "module-5045.js",
+      "orig": "components/Modals/ProjectSelect/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "VALIDATION_FAILED",
+      "module": "module-955.js",
+      "orig": "stores/cluster/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "CONTAINER_LOGS",
+      "module": "module-3839.js",
+      "orig": "pages/clusters/containers/LogCollections/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "INTERVAL",
+      "module": "module-1639.js",
+      "orig": "components/Cards/Monitoring/Controller/TimeSelector/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "APP_INSTANCES",
+      "module": "module-1869.js",
+      "orig": "pages/apps/components/Lists/InstanceList/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "ALL_PROJECTS",
+      "module": "module-3715.js",
+      "orig": "pages/clusters/components/ResourceTable/ProjectSelect/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "RESOURCE_LIMITS",
+      "module": "module-3298.js",
+      "orig": "components/Modals/ContianerTerminal/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "CLUSTER_PROVIDER_DESC",
+      "module": "module-1788.js",
+      "orig": "pages/clusters/components/Modals/EditBasicInfo/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "EDIT_ALERT_RULES",
+      "module": "module-2067.js",
+      "orig": "pages/projects/containers/Alerting/Policies/Detail/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "CLUSTER_CREATION_PROGRESS_TIP",
+      "module": "module-4105.js",
+      "orig": "pages/clusters/containers/Overview/Initializing/KubeKeyCluster/Progress/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "IMAGE_ARTIFACTS",
+      "module": "module-4906.js",
+      "orig": "pages/projects/containers/ImageBuilder/Detail/ImageProduct/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "CREATING_CLUSTER",
+      "module": "module-4103.js",
+      "orig": "pages/clusters/containers/Overview/Initializing/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "ALERT_LABELS",
+      "module": "module-2103.js",
+      "orig": "components/Modals/CustomMonitoring/components/PromQLInput/Suggestions/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "FETCHING_LOGS",
+      "module": "module-4107.js",
+      "orig": "pages/clusters/containers/Overview/Initializing/KubeKeyCluster/Logs/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "KUBECTL_DESC",
+      "module": "module-4080.js",
+      "orig": "pages/clusters/containers/Overview/Dashboard/Tools/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "API_REQUESTS_PER_SECOND",
+      "module": "module-4086.js",
+      "orig": "pages/clusters/containers/Overview/Dashboard/KubernetesStatus/index.js"
+    },
+    {
+      "kind": "t",
+      "lit": "PROJECT_ROLE_VALUE",
+      "module": "module-4374.js",
+      "orig": "pages/workspaces/components/Modals/EditGroup/Detail/Form/ProjectSelect.js"
+    },
+    {
+      "kind": "t",
+      "lit": "MONITOR_METRIC",
+      "module": "module-1272.js",
+      "orig": "components/Modals/CustomMonitoring/components/MetircQueryInput/index.js"
+    }
+  ]
+}

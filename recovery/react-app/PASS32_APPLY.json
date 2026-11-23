@@ -1,0 +1,18 @@
+{
+  "applied": [
+    {
+      "module": "module-962.js",
+      "orig": "core/containers/Base/Detail/EnvVariables/index.js",
+      "kind": "body",
+      "lit": "initContainers"
+    },
+    {
+      "module": "module-4907.js",
+      "orig": "pages/projects/components/Cards/ImageArtifacts/index.js",
+      "kind": "body",
+      "lit": "fetchS2IRunRecords"
+    }
+  ],
+  "skipped": [],
+  "count": 2
+}

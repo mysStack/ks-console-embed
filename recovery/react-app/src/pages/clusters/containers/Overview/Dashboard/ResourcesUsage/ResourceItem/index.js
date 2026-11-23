@@ -1,0 +1,32 @@
+import "unpacked/module-15.js";
+import "unpacked/module-5.js";
+import "unpacked/module-16.js";
+import "unpacked/module-553.js";
+import Module791 from "components/Base/Text";
+import { PieChart } from "components/Charts/index";
+import { getSuitableUnit, getValueByUnit } from "utils/monitoring";
+import { coreUnitTS } from "utils/index";
+import module4509 from "unpacked/module-4509.js";
+export default function(e) {
+    const description = t(e.name);
+    var a = getSuitableUnit(e.total, e.unitType) || a;
+    const n = getValueByUnit(e.used, a);
+    const f = getValueByUnit(e.total, a) || n;
+    const d = Math.round(100 * n / f);
+    return <div className={module4509.item}><div className={module4509.pie}><PieChart width={48} height={48} data={[
+        {
+            name: "Used",
+            itemStyle: {
+                fill: "#329dce"
+            },
+            value: n
+        },
+        {
+            name: "Left",
+            itemStyle: {
+                fill: "#c7deef"
+            },
+            value: f - n
+        }
+    ]}/></div><Module791 title={`${isNaN(d) ? 0 : d}%`} description={description}/><Module791 title={`${n} ${t(coreUnitTS(n, a))}`} description={t("USED")}/><Module791 title={`${f} ${t(coreUnitTS(f, a))}`} description={t("TOTAL")}/></div>;
+};

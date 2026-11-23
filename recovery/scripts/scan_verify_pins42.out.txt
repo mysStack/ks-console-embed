@@ -1,0 +1,483 @@
+=== indexing ===
+
+=== components/Forms/CustomScaling/BaseInfo/WorkloadTableForm/Card.js -> module-2911.js [str 'autoscaling.kubeshpere.io/name'] ===
+  orig_t ['UPDATED_AGO', 'CREATED_AGO', 'STATUS', 'REVISION_RECORD']
+  orig_hits=1 ['components/Forms/CustomScaling/BaseInfo/WorkloadTableForm/Card.js']
+  unpacked_hits=4 unnamed=['module-2911.js'] named=[('module-2907.js', ['pages/projects/components/WorkloadStatus.js']), ('module-1216.js', ['pages/projects/deployments/Detail.js']), ('module-1402.js', ['pages/projects/statefulsets/Detail.js'])]
+    css False skip False named []
+    t ['UPDATED_AGO', 'CREATED_AGO', 'STATUS', 'REVISION_RECORD']
+    importers ['module-2910.js']
+    export default 'export default S; S.propTypes = {     className: module1.string,     detail: module1.objec'
+  needle_in_mod True
+  VERDICT REJECT ok_orig True unique_unp False named_other ['module-2907.js', 'module-1216.js', 'module-1402.js']
+
+=== pages/projects/containers/Alerting/Policies.js -> module-4878.js [t 'RULE_STATUS'] ===
+  orig_t ['CUSTOM_POLICIES', 'BUILT_IN_POLICIES', 'REQUESTS_FOR_PUSH_AN_ALARM_Q', 'REQUESTS_FOR_PUSH_AN_ALARM_A', 'EDIT_INFORMATION', 'EDIT_ALERTING_POLICY', 'EDIT_YAML', 'EDIT_ALERT_RULES', 'DISABLE', 'ENABLE', 'DISABLE_ALERTING_POLICY', 'ENABLE_ALERTING_POLICY', 'DELETE', 'RESET']
+  orig_hits=1 ['pages/projects/containers/Alerting/Policies.js']
+  unpacked_hits=6 unnamed=['module-4878.js'] named=[('module-5177.js', ['pages/edgewize/rule-group.js']), ('module-4322.js', ['pages/whizard-telemetry/metrics/custom-rules.js']), ('module-4046.js', ['pages/whizard-telemetry/alert-rules.js']), ('module-1785.js', ['pages/projects/alert-rules.js', 'pages/clusters/alert-rules.js']), ('module-4324.js', ['pages/whizard-telemetry/metrics/builtin-rules.js'])]
+    css False skip False named []
+    t ['NAME', 'POLICY_STATUS', 'ENABLED', 'DISABLED', 'RULE_STATUS', 'TIME_SPENT', 'span', 'TIME_S', 'RECENT_DETECT_TIME', 'YYYY-MM-DD HH:mm:ss', 'CREATE_ALERTING_POLICY', 'EDIT_INFORMATION', 'EDIT_ALERTING_POLICY', 'EDIT_YAML']
+    importers ['module-4827.js']
+    t( 't(a), true).forEach((t)=>{                     i.default(e, t, a[t]);                 }); '
+  needle_in_mod True
+  VERDICT REJECT ok_orig True unique_unp False named_other ['module-5177.js', 'module-4322.js', 'module-4046.js', 'module-1785.js']
+
+=== pages/clusters/containers/Members.js -> module-4094.js [str 'CLUSTER_MEMBER'] ===
+  orig_t ['HOW_TO_INVITE_MEMBER_Q', 'HOW_TO_INVITE_MEMBER_A', 'CHANGE_ROLE', 'REMOVE', 'INVITE', 'INVITE_MEMBER', 'INVITE_CLUSTER_MEMBER_DESC', 'INVITE_MEMBER_SEARCH_PLACEHOLDER', 'USERNAME', 'STATUS', 'ROLE', 'LAST_LOGIN', 'YYYY-MM-DD HH:mm:ss', 'NOT_LOGIN_YET']
+  orig_hits=1 ['pages/clusters/containers/Members.js']
+  unpacked_hits=4 unnamed=['module-4094.js'] named=[('module-3796.js', ['pages/clusters/members.js']), ('module-5225.js', ['pages/edgewize/members.js']), ('module-5293.js', ['pages/node-groups/members.js'])]
+    css False skip False named []
+    t ['div']
+    importers ['module-4079.js']
+    export default 'export default _; '
+  needle_in_mod True
+  VERDICT REJECT ok_orig True unique_unp False named_other ['module-3796.js', 'module-5225.js', 'module-5293.js']
+
+=== pages/clusters/containers/Storage/PV/detail.js -> module-2062.js [t 'VOLUME_HANDLE'] ===
+  orig_t ['rootStore', 'EDIT_INFORMATION', 'VIEW_YAML', 'DELETE', 'STATUS', 'CAPACITY', 'ACCESS_MODE_TCAP', 'STORAGE_CLASS', 'VOLUME_HANDLE', 'RECLAIM_POLICY', 'VOLUME_MODE', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'PERSISTENT_VOLUME_PL']
+  orig_hits=1 ['pages/clusters/containers/Storage/PV/detail.js']
+  unpacked_hits=2 unnamed=['module-2062.js'] named=[('module-1835.js', ['pages/clusters/pv/Detail.js'])]
+    css False skip False named []
+    t ['VOLUME_TYPE', 'DRIVER', 'DRIVER_REQUIRED', 'DRIVER_FORMAT_ERROR', 'DRIVER_PLACEHOLDER', 'FSTYPE', 'FSTYPE_PLACEHOLDER', 'VOLUME_HANDLE', 'PARAM_REQUIRED', 'READ_ONLY', 'TRUE', 'FALSE', 'VOLUME_ATTRIBUTES', 'ADD']
+    importers ['module-2061.js']
+    export default 'export default function({ formTemplate }) {     const l = useState(Object.entries(S).find('
+  needle_in_mod True
+  VERDICT REJECT ok_orig True unique_unp False named_other ['module-1835.js']
+
+=== pages/clusters/containers/Network/IPPools.js -> module-2409.js [t 'TOTAL_VALUE'] ===
+  orig_t ['IPPOOL_USAGE_Q', 'IPPOOL_USAGE_A', 'EDIT_INFORMATION', 'VIEW_YAML', 'ASSIGN_WORKSPACE', 'DELETE', 'NAME', 'NETWORK_SEGMENT', 'USED_IP_ADDRESSES', 'TOTAL_VALUE', 'WORKSPACE', 'ALL', 'NOT_ASSIGNED']
+  orig_hits=1 ['pages/clusters/containers/Network/IPPools.js']
+  unpacked_hits=2 unnamed=['module-2409.js'] named=[('module-3806.js', ['pages/clusters/ippools.js'])]
+    css False skip False named []
+    t ['NAME', 'NETWORK_SEGMENT', 'USED_IP_ADDRESSES', 'IPPOOL_USED_TIP', 'TOTAL_VALUE', 'IPPOOL_BLOCK_SIZE', 'IPPOOL_OVERLAY_MODE', 'SELECTED_IPPOOLS', 'CLUSTER_IPPOOL_EMPTY_DES', 'ADD_IPPOOL_EMPTY_DES_ADMIN', 'CREATE_POD_IP_POOL', 'ADD_IPPOOL_EMPTY_DES']
+    importers ['module-1549.js']
+    export default 'export default M; '
+  needle_in_mod True
+  VERDICT REJECT ok_orig True unique_unp False named_other ['module-3806.js']
+
+=== pages/clusters/containers/Network/IPPools/Detail.js -> module-3004.js [t 'POD_IP_POOL_PL'] ===
+  orig_t ['rootStore', 'EDIT_INFORMATION', 'VIEW_YAML', 'ASSIGN_WORKSPACE', 'DELETE', 'NETWORK_SEGMENT', 'NETWORK', 'START_IP_ADDRESS', 'END_IP_ADDRESS', 'CREATION_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'CREATOR', 'POD_IP_POOL_PL']
+  orig_hits=1 ['pages/clusters/containers/Network/IPPools/Detail.js']
+  unpacked_hits=4 unnamed=['module-3004.js'] named=[('module-4012.js', ['pages/clusters/ippools/Detail.js']), ('module-2004.js', ['pages/edgewize/edgeippool.js', 'pages/node-groups/edgeippool.js']), ('module-2002.js', ['pages/node-groups/edgeippool/Detail.js'])]
+    css False skip False named []
+    t ['SELECT_POD_IP_POOL', 'SELECT_POD_IP_POOL_TO_NODEGROUP_DESC', '绑定容器组 IP池', 'div', 'EDGE_PROJECT', 'IPIP_MODE_REQUIRED', 'POD_IP_POOL_PL', 'POD_IP_POOL_PL_REQUIRED', 'POD_IP_POOL_PL_DESC', 'NETWORK_SEGMENT']
+    importers ['module-2985.js']
+    export default 'export default function(e) {     const { detail, onOk, ...rest } = e;     const { cluster,'
+  needle_in_mod True
+  VERDICT REJECT ok_orig True unique_unp False named_other ['module-4012.js', 'module-2004.js', 'module-2002.js']
+
+=== pages/workspaces/components/Modals/EditBasicInfo.js -> module-4356.js [str 'spec.clusters'] ===
+  orig_t ['EDIT_INFORMATION', 'OK', 'NAME', 'NAME_DESC', 'ALIAS', 'ALIAS_NAME_DESC', 'INVALID_ALIAS_NAME_DESC', 'ADMINISTRATOR', 'DESCRIPTION', 'DESCRIPTION_DESC']
+  orig_hits=1 ['pages/workspaces/components/Modals/EditBasicInfo.js']
+  unpacked_hits=3 unnamed=['module-4356.js'] named=[('module-105.js', ['utils/object.mapper.js']), ('module-2294.js', ['components/Forms/Workload/ContainerSettings/ClusterReplicasControl/Scheduling.js'])]
+    css False skip False named []
+    t ['EDIT_INFORMATION', 'OK', 'NAME', 'NAME_DESC', 'ALIAS', 'ALIAS_NAME_DESC', 'INVALID_ALIAS_NAME_DESC', 'ADMINISTRATOR', 'DESCRIPTION', 'DESCRIPTION_DESC']
+    importers ['module-4355.js']
+    export default 'export default C; '
+  needle_in_mod True
+  VERDICT REJECT ok_orig True unique_unp False named_other ['module-105.js', 'module-2294.js']
+
+=== pages/projects/components/Modals/CreateApp/Routes/RuleList.js -> module-2621.js [t 'ADD_ROUTING_RULE_DESC'] ===
+  orig_t ['ADD_ROUTING_RULE', 'ADD_ROUTING_RULE_DESC']
+  orig_hits=2 ['components/Forms/Route/RouteRules/RuleList.js', 'pages/projects/components/Modals/CreateApp/Routes/RuleList.js']
+  unpacked_hits=2 unnamed=['module-2621.js'] named=[('module-2553.js', ['components/Forms/Route/RouteRules/RuleList.js'])]
+    css False skip False named []
+    t ['ADD_ROUTING_RULE', 'ADD_ROUTING_RULE_DESC']
+    importers ['module-2620.js']
+    export default 'export default v; v.propTypes = {     data: module1.object,     onAdd: module1.func,     o'
+  needle_in_mod True
+  VERDICT REJECT ok_orig False unique_unp False named_other ['module-2553.js']
+
+=== pages/projects/components/Modals/CreateApp/Routes/RuleForm.js -> module-2623.js [t 'INVALID_PATH_DESC'] ===
+  orig_t ['INVALID_PATH_DESC', 'PATH_EXIST', 'DOMAIN_NAME_TCAP', 'DOMAIN_NAME_EMPTY_DESC', 'INVALID_DOMAIN_DESC', 'PROTOCOL', 'SECRET', 'PATH_PL', 'PATH_EMPTY_DESC', 'ADD', 'ADD_ROUTING_RULE', 'EDIT_ROUTING_RULES', 'CLUSTER']
+  orig_hits=2 ['components/Forms/Route/RouteRules/RuleForm.js', 'pages/projects/components/Modals/CreateApp/Routes/RuleForm.js']
+  unpacked_hits=2 unnamed=['module-2623.js'] named=[('module-2555.js', ['components/Forms/Route/RouteRules/RuleForm.js'])]
+    css False skip False named []
+    t ['INVALID_PATH_DESC', 'PATH_EXIST', 'EXIT_DOMAIN_DESC', 'DOMAIN_NAME_TCAP', 'DOMAIN_NAME_EMPTY_DESC', 'INVALID_DOMAIN_DESC', 'PROTOCOL', 'SECRET', 'PATH_PL', 'PATH_EMPTY_DESC', 'ADD', 'ADD_ROUTING_RULE', 'EDIT_ROUTING_RULES', 'CLUSTER']
+    importers ['module-2620.js']
+    export default 'export default N; N.propTypes = {     data: module1.object,     secrets: module1.array,   '
+  needle_in_mod True
+  VERDICT REJECT ok_orig False unique_unp False named_other ['module-2555.js']
+
+=== pages/projects/components/Modals/CreateApp/Routes/RuleForm.js -> module-2623.js [t 'PATH_EXIST'] ===
+  orig_t ['INVALID_PATH_DESC', 'PATH_EXIST', 'DOMAIN_NAME_TCAP', 'DOMAIN_NAME_EMPTY_DESC', 'INVALID_DOMAIN_DESC', 'PROTOCOL', 'SECRET', 'PATH_PL', 'PATH_EMPTY_DESC', 'ADD', 'ADD_ROUTING_RULE', 'EDIT_ROUTING_RULES', 'CLUSTER']
+  orig_hits=2 ['components/Forms/Route/RouteRules/RuleForm.js', 'pages/projects/components/Modals/CreateApp/Routes/RuleForm.js']
+  unpacked_hits=2 unnamed=['module-2623.js'] named=[('module-2555.js', ['components/Forms/Route/RouteRules/RuleForm.js'])]
+    css False skip False named []
+    t ['INVALID_PATH_DESC', 'PATH_EXIST', 'EXIT_DOMAIN_DESC', 'DOMAIN_NAME_TCAP', 'DOMAIN_NAME_EMPTY_DESC', 'INVALID_DOMAIN_DESC', 'PROTOCOL', 'SECRET', 'PATH_PL', 'PATH_EMPTY_DESC', 'ADD', 'ADD_ROUTING_RULE', 'EDIT_ROUTING_RULES', 'CLUSTER']
+    importers ['module-2620.js']
+    export default 'export default N; N.propTypes = {     data: module1.object,     secrets: module1.array,   '
+  needle_in_mod True
+  VERDICT REJECT ok_orig False unique_unp False named_other ['module-2555.js']
+
+=== pages/projects/components/Modals/CreateApp/Services/ServiceList/ClusterDiffs/ContainerImages.js -> module-2614.js [t 'IMAGE_VALUE'] ===
+  orig_t ['IMAGE_VALUE', 'EDIT']
+  orig_hits=5 ['components/Cards/Containers/Item.js', 'components/Forms/Workload/ContainerSettings/ContainerList/Card.js', 'components/Modals/ContianerTerminal.js', 'pages/projects/components/Modals/CreateApp/Services/ServiceList/ClusterDiffs/ContainerImages.js', 'pages/projects/components/Modals/CreateApp/Services/ServiceList/ClusterDiffs/ContainerPorts.js']
+  unpacked_hits=5 unnamed=['module-1219.js', 'module-2614.js', 'module-4432.js'] named=[('module-2303.js', ['components/Forms/Workload/ContainerSettings/ContainerList/Card.js']), ('module-2616.js', ['pages/projects/components/Modals/CreateApp/Services/ServiceList/ClusterDiffs/ContainerPorts.js'])]
+    css False skip False named []
+    t ['div', 'span', 'IMAGE_VALUE', 'EDIT']
+    importers ['module-2609.js']
+    export default 'export default m; '
+  needle_in_mod True
+  VERDICT REJECT ok_orig False unique_unp False named_other ['module-2303.js', 'module-2616.js']
+
+=== DUMP pages/projects/components/Modals/CreateApp/Services/ServiceList/ClusterDiffs/ClustersMapper.js ===
+  orig_t []
+  orig_str ['classnames', 'kubernetes']
+    str('classnames') orig=['core/containers/Base/Detail/BaseInfo/Label.js', 'core/containers/Base/Detail/BaseInfo/BtnGroup.js', 'core/containers/Base/Detail/BaseInfo/Attributes/item.js', 'core/containers/Base/Detail/BaseInfo/Attributes/attributes.js', 'pages/console/containers/Support.js'] unpacked=[] unnamed=[]
+    css False skip False named []
+    t ['div', 'span']
+    importers ['module-2609.js']
+    export default 'export default h; '
+
+=== pages/apps/components/Modals/VersionSubmit/steps.js -> module-4417.js [str 'TEST_STEPS'] ===
+  orig_t []
+  orig_hits=1 ['pages/apps/components/Modals/VersionSubmit/steps.js']
+  unpacked_hits=1 unnamed=['module-4417.js'] named=[]
+    css False skip False named []
+    t []
+    importers ['module-4416.js']
+    export default 'export default u; '
+  needle_in_mod True
+  VERDICT NEW ok_orig True unique_unp True named_other []
+
+=== pages/apps/components/Modals/VersionSubmit/steps.js -> module-4417.js [str 'UPDATE_LOG'] ===
+  orig_t []
+  orig_hits=5 ['pages/apps/components/AppInfo.js', 'pages/apps/components/Cards/UpdateLog.js', 'pages/apps/components/Forms/VersionEdit.js', 'pages/apps/components/Modals/AppReview.js', 'pages/apps/components/Modals/VersionSubmit/steps.js']
+  unpacked_hits=5 unnamed=['module-4417.js'] named=[('module-4420.js', ['pages/apps/components/Forms/VersionEdit.js']), ('module-1715.js', ['pages/apps/components/AppInfo.js']), ('module-3153.js', ['pages/apps/components/Modals/AppReview.js']), ('module-3160.js', ['pages/apps/components/Cards/UpdateLog.js'])]
+    css False skip False named []
+    t []
+    importers ['module-4416.js']
+    export default 'export default u; '
+  needle_in_mod True
+  VERDICT REJECT ok_orig False unique_unp False named_other ['module-4420.js', 'module-1715.js', 'module-3153.js', 'module-3160.js']
+
+=== pages/fedprojects/containers/Services/Detail/Ports.js -> module-5012.js [t 'ACCESS_SERVICE'] ===
+  orig_t ['CONTAINER_PORT_SCAP', 'SERVICE_PORT_SCAP', 'NODE_PORT_SCAP', 'SERVICE_NODE_PORT_DESC', 'ACCESS_SERVICE']
+  orig_hits=4 ['pages/fedprojects/containers/Routes/Detail/ResourceStatus/Rule.js', 'pages/fedprojects/containers/Services/Detail/Ports.js', 'pages/projects/components/Cards/Ingresses/Item.js', 'pages/projects/containers/Routes/Detail/ResourceStatus/Rule.js']
+  unpacked_hits=4 unnamed=['module-3885.js', 'module-5012.js', 'module-1981.js'] named=[('module-4747.js', ['pages/projects/components/Cards/Ingresses/Item.js'])]
+    css False skip False named []
+    t ['div', 'p', 'strong', 'CONTAINER_PORT_SCAP', 'SERVICE_PORT_SCAP', 'NODE_PORT_SCAP', 'SERVICE_NODE_PORT_DESC', 'a', 'ACCESS_SERVICE']
+    importers ['module-5011.js']
+    export default 'export default h; '
+  needle_in_mod True
+  VERDICT REJECT ok_orig False unique_unp False named_other ['module-4747.js']
+
+=== pages/projects/containers/Services/Detail/Ports.js -> module-3879.js [t 'CONTAINER_PORT_SCAP'] ===
+  orig_t ['CONTAINER_PORT_SCAP', 'SERVICE_PORT_SCAP', 'NODE_PORT_SCAP', 'SERVICE_NODE_PORT_DESC']
+  orig_hits=2 ['pages/fedprojects/containers/Services/Detail/Ports.js', 'pages/projects/containers/Services/Detail/Ports.js']
+  unpacked_hits=2 unnamed=['module-3879.js', 'module-5012.js'] named=[]
+    css False skip False named []
+    t ['div', 'p', 'strong', 'CONTAINER_PORT_SCAP', 'SERVICE_PORT_SCAP', 'NODE_PORT_SCAP', 'SERVICE_NODE_PORT_DESC']
+    importers ['module-3875.js']
+    export default 'export default h; '
+  needle_in_mod True
+  VERDICT REJECT ok_orig False unique_unp False named_other []
+
+=== components/Forms/CustomScaling/BaseInfo/WorkloadTableForm/WorkloadTable.js -> module-2910.js [t 'NO_MATCHING_RESULT_FOUND'] ===
+  orig_t ['NO_MATCHING_RESULT_FOUND', 'YOU_CAN_TRY_TO', 'REFRESH_DATA', 'OR', 'CLEAR_SEARCH_CONDITIONS', 'SEARCH_BY_NAME']
+  orig_hits=3 ['components/Forms/CustomScaling/BaseInfo/WorkloadTableForm/WorkloadTable.js', 'components/Tables/Base.js', 'pages/clusters/containers/Gateway/Detail/GatewayLog.js']
+  unpacked_hits=13 unnamed=['module-4041.js', 'module-4279.js', 'module-4635.js', 'module-3620.js', 'module-2910.js', 'module-4435.js'] named=[('module-874.js', ['components/Tables/Base.js']), ('module-1776.js', ['pages/workspaces/components/Modals/WorkspaceCreate/ClusterSettings/ClusterSelect.js']), ('module-5194.js', ['pages/edgewize/Clusters.js']), ('module-5276.js', ['pages/node-groups/List.js']), ('module-5191.js', ['pages/edgewize/fota.js'])]
+    css False skip False named []
+    t ['NO_MATCHING_RESULT_FOUND', 'YOU_CAN_TRY_TO', 'REFRESH_DATA', 'OR', 'CLEAR_SEARCH_CONDITIONS', 'SEARCH_BY_NAME']
+    importers ['module-2909.js']
+    export default 'export default b; '
+  needle_in_mod True
+  VERDICT REJECT ok_orig False unique_unp False named_other ['module-874.js', 'module-1776.js', 'module-5194.js', 'module-5276.js']
+
+# resolved pages/projects/containers/Network/Policies/RuleInfo.js INTERNAL_ALLOWLIST_TIP -> module-4656.js unnamed=['module-4656.js'] all=['module-4656.js']
+
+=== pages/projects/containers/Network/Policies/RuleInfo.js -> module-4656.js [t 'INTERNAL_ALLOWLIST_TIP'] ===
+  orig_t ['rootStore', 'projectStore', 'INTERNAL_ALLOWLIST', 'INTERNAL_ALLOWLIST_DESC', 'EXTERNAL_ALLOWLIST', 'EXTERNAL_ALLOWLIST_DESC', 'INTERNAL_ALLOWLIST_TIP', 'ADD_ALLOWLIST_ENTRY', 'EGRESS', 'INTERNAL_EGRESS_DESC', 'INGRESS', 'INTERNAL_INGRESS_DESC', 'EXTERNAL_ALLOWLIST_TIP', 'EXTERNAL_EGRESS_DESC']
+  orig_hits=1 ['pages/projects/containers/Network/Policies/RuleInfo.js']
+  unpacked_hits=1 unnamed=['module-4656.js'] named=[]
+    css False skip False named []
+    t ['rootStore', 'INTERNAL_ALLOWLIST_TIP', 'ADD_ALLOWLIST_ENTRY', 'EGRESS', 'INTERNAL_EGRESS_DESC', 'INGRESS', 'INTERNAL_INGRESS_DESC']
+    importers ['module-4655.js']
+    export default 'export default R; '
+  needle_in_mod True
+  VERDICT NEW ok_orig True unique_unp True named_other []
+
+=== pages/projects/containers/Network/Policies/RuleInfo.js -> module-4656.js [t 'INTERNAL_ALLOWLIST_TIP'] ===
+  orig_t ['rootStore', 'projectStore', 'INTERNAL_ALLOWLIST', 'INTERNAL_ALLOWLIST_DESC', 'EXTERNAL_ALLOWLIST', 'EXTERNAL_ALLOWLIST_DESC', 'INTERNAL_ALLOWLIST_TIP', 'ADD_ALLOWLIST_ENTRY', 'EGRESS', 'INTERNAL_EGRESS_DESC', 'INGRESS', 'INTERNAL_INGRESS_DESC', 'EXTERNAL_ALLOWLIST_TIP', 'EXTERNAL_EGRESS_DESC']
+  orig_hits=1 ['pages/projects/containers/Network/Policies/RuleInfo.js']
+  unpacked_hits=1 unnamed=['module-4656.js'] named=[]
+    css False skip False named []
+    t ['rootStore', 'INTERNAL_ALLOWLIST_TIP', 'ADD_ALLOWLIST_ENTRY', 'EGRESS', 'INTERNAL_EGRESS_DESC', 'INGRESS', 'INTERNAL_INGRESS_DESC']
+    importers ['module-4655.js']
+    export default 'export default R; '
+  needle_in_mod True
+  VERDICT NEW ok_orig True unique_unp True named_other []
+
+=== pages/projects/containers/Network/Policies/RuleInfo.js -> module-4657.js [t 'EXTERNAL_ALLOWLIST_TIP'] ===
+  orig_t ['rootStore', 'projectStore', 'INTERNAL_ALLOWLIST', 'INTERNAL_ALLOWLIST_DESC', 'EXTERNAL_ALLOWLIST', 'EXTERNAL_ALLOWLIST_DESC', 'INTERNAL_ALLOWLIST_TIP', 'ADD_ALLOWLIST_ENTRY', 'EGRESS', 'INTERNAL_EGRESS_DESC', 'INGRESS', 'INTERNAL_INGRESS_DESC', 'EXTERNAL_ALLOWLIST_TIP', 'EXTERNAL_EGRESS_DESC']
+  orig_hits=1 ['pages/projects/containers/Network/Policies/RuleInfo.js']
+  unpacked_hits=1 unnamed=['module-4657.js'] named=[]
+    css False skip False named []
+    t ['rootStore', 'NAME', 'TRAFFIC_DIRECTION', 'INGRESS', 'EGRESS', 'NETWORK_SEGMENT_QUANTITY', 'PORT_QUANTITY', 'UPDATE_TIME_TCAP', 'YYYY-MM-DD HH:mm:ss', 'EXTERNAL_ALLOWLIST_TIP', 'ADD_ALLOWLIST_ENTRY', 'EDIT', 'DELETE']
+    importers ['module-4655.js']
+    export default 'export default C; '
+  needle_in_mod True
+  VERDICT NEW ok_orig True unique_unp True named_other []
+
+=== pages/projects/containers/Roles/Detail/routes.js -> module-4893.js [imp 'unique_importer'] ===
+  orig_t []
+    css False skip False named []
+    t []
+    importers ['module-4892.js']
+    export default 'export default function(path) {     return [         {             path: `${path}/authoriz'
+  importers [('module-4892.js', ['pages/projects/roles/Detail.js', 'pages/projects/containers/Roles/Detail.js'])]
+  VERDICT NEW
+
+=== pages/projects/containers/VolumeSnapshots/Detail/routes.js -> module-3923.js [imp 'unique_importer'] ===
+  orig_t []
+    css False skip False named []
+    t []
+    importers ['module-1409.js']
+    export default 'export default function(path) {     return [         {             name: "source",        '
+  importers [('module-1409.js', ['pages/projects/volume-snapshots/Detail.js', 'pages/projects/containers/VolumeSnapshots/Detail.js'])]
+  VERDICT NEW
+
+=== pages/projects/containers/Applications/CRDAppDetail/routes.js -> module-4743.js [imp 'unique_importer'] ===
+  orig_t []
+    css False skip False named []
+    t []
+    importers ['module-4742.js']
+    export default 'export default u; '
+  importers [('module-4742.js', ['pages/projects/composing/Detail.js', 'pages/projects/containers/Applications/CRDAppDetail.js'])]
+  VERDICT NEW
+
+=== pages/projects/containers/Pods/Detail/routes.js -> module-3896.js [imp 'unique_importer'] ===
+  orig_t []
+    css False skip False named []
+    t []
+    importers ['module-1228.js']
+    export default 'export default function(path) {     return [         {             path: `${path}/resource'
+  importers [('module-1228.js', ['pages/projects/pods/Detail.js', 'pages/projects/containers/Pods/Detail.js'])]
+  VERDICT NEW
+
+=== pages/projects/containers/Pods/Containers/routes.js -> module-3900.js [imp 'unique_importer'] ===
+  orig_t []
+    css False skip False named []
+    t []
+    importers ['module-1229.js']
+    export default 'export default function(path) {     return [         {             path: `${path}/resource'
+  importers [('module-1229.js', ['pages/projects/pods/ContainerDetail.js', 'pages/projects/containers/Pods/Containers/Detail.js'])]
+  VERDICT NEW
+
+=== pages/projects/containers/Network/Policies/Detail/routes.js -> module-3910.js [imp 'unique_importer'] ===
+  orig_t ['EGRESS_RULES', 'INGRESS_RULES']
+    css False skip False named []
+    t ['EGRESS_RULES', 'INGRESS_RULES']
+    importers ['module-1830.js']
+    export default 'export default function(path) {     return [         {             path: `${path}/egress`,'
+  importers [('module-1830.js', ['pages/projects/networkpolicies/Detail.js', 'pages/projects/containers/Network/Policies/Detail.js'])]
+  VERDICT NEW
+
+=== pages/projects/containers/Volumes/Detail/routes.js -> module-3917.js [imp 'unique_importer'] ===
+  orig_t []
+    css False skip False named []
+    t []
+    importers ['module-1230.js']
+    export default 'export default function(path) {     return [         {             path: `${path}/resource'
+  importers [('module-1230.js', ['pages/projects/volumes/Detail.js', 'pages/projects/containers/Volumes/Detail.js'])]
+  VERDICT NEW
+
+=== pages/projects/containers/Services/Detail/routes.js -> module-3874.js [imp 'unique_importer'] ===
+  orig_t []
+    css False skip False named []
+    t []
+    importers ['module-1225.js']
+    export default 'export default function(path) {     return [         {             path: `${path}/resource'
+  importers [('module-1225.js', ['pages/projects/services/Detail.js', 'pages/projects/containers/Services/Detail.js'])]
+  VERDICT NEW
+
+=== pages/workspaces/containers/Members/Detail/routes.js -> module-4395.js [imp 'unique_importer'] ===
+  orig_t []
+    css False skip False named []
+    t []
+    importers ['module-4394.js']
+    export default 'export default c; '
+  importers [('module-4394.js', ['pages/workspaces/members/Detail.js', 'pages/workspaces/containers/Members/Detail.js'])]
+  VERDICT NEW
+
+=== pages/workspaces/containers/Repos/Detail/routes.js -> module-4426.js [imp 'unique_importer'] ===
+  orig_t []
+    css False skip False named []
+    t []
+    importers ['module-4425.js']
+    export default 'export default l; '
+  importers [('module-4425.js', ['pages/workspaces/repos/Detail.js', 'pages/workspaces/containers/Repos/Detail.js'])]
+  VERDICT NEW
+
+=== pages/clusters/containers/ServiceComponents/Detail/routes.js -> module-3996.js [imp 'unique_importer'] ===
+  orig_t []
+    css False skip False named []
+    t []
+    importers ['module-3995.js']
+    export default 'export default i; '
+  importers [('module-3995.js', ['pages/clusters/components/Detail.js', 'pages/clusters/containers/ServiceComponents/Detail.js'])]
+  VERDICT NEW
+
+=== pages/clusters/containers/Storage/StorageClasses/Detail/routes.js -> module-3992.js [imp 'unique_importer'] ===
+  orig_t []
+    css False skip False named []
+    t []
+    importers ['module-3991.js']
+    export default 'export default i; '
+  importers [('module-3991.js', ['pages/clusters/storageclasses/Detail.js', 'pages/clusters/containers/Storage/StorageClasses/Detail.js'])]
+  VERDICT NEW
+
+=== pages/projects/containers/Pods/Detail/Monitoring.js -> module-3907.js [imp 'unique_importer'] ===
+  orig_t ['rootStore']
+    css False skip False named []
+    t []
+    importers ['module-3906.js']
+    export default 'export default i; '
+  importers [('module-3906.js', ['pages/projects/containers/Pods/Containers/Monitoring.js'])]
+  VERDICT NEW
+
+=== pages/projects/containers/Services/Detail/Ports.js -> module-3879.js [imp 'unique_importer'] ===
+  orig_t ['CONTAINER_PORT_SCAP', 'SERVICE_PORT_SCAP', 'NODE_PORT_SCAP', 'SERVICE_NODE_PORT_DESC']
+    css False skip False named []
+    t ['div', 'p', 'strong', 'CONTAINER_PORT_SCAP', 'SERVICE_PORT_SCAP', 'NODE_PORT_SCAP', 'SERVICE_NODE_PORT_DESC']
+    importers ['module-3875.js']
+    export default 'export default h; '
+  importers [('module-3875.js', ['pages/projects/containers/Services/Detail/ResourceStatus.js'])]
+  VERDICT NEW
+
+=== pages/fedprojects/containers/Services/Detail/Ports.js -> module-5012.js [imp 'unique_importer'] ===
+  orig_t ['CONTAINER_PORT_SCAP', 'SERVICE_PORT_SCAP', 'NODE_PORT_SCAP', 'SERVICE_NODE_PORT_DESC', 'ACCESS_SERVICE']
+    css False skip False named []
+    t ['div', 'p', 'strong', 'CONTAINER_PORT_SCAP', 'SERVICE_PORT_SCAP', 'NODE_PORT_SCAP', 'SERVICE_NODE_PORT_DESC', 'a', 'ACCESS_SERVICE']
+    importers ['module-5011.js']
+    export default 'export default h; '
+  importers [('module-5011.js', ['pages/fedprojects/containers/Services/Detail/ServiceAccess/ClusterService.js'])]
+  VERDICT NEW
+
+=== pages/apps/components/Modals/VersionSubmit/steps.js -> module-4417.js [imp 'unique_importer'] ===
+  orig_t []
+    css False skip False named []
+    t []
+    importers ['module-4416.js']
+    export default 'export default u; '
+  importers [('module-4416.js', ['pages/apps/components/Modals/VersionSubmit.js'])]
+  VERDICT NEW
+
+=== pages/projects/containers/Deployments/Detail/RevisionControl.js -> module-3854.js [str 'getDiffHtml'] ===
+  orig_t ['RUNNING', 'CREATED_TIME', 'YYYY-MM-DD HH:mm:ss', 'CONFIG_FILE', 'COMPARE_WITH', 'REVISION_RECORDS', 'REVISION_RECORDS_DESC', 'SERIAL_NUMBER', 'CREATION_TIME', 'rootStore']
+  orig_hits=0 []
+  unpacked_hits=1 unnamed=['module-3854.js'] named=[]
+    css False skip False named []
+    t ['div', 'span']
+    importers ['module-1071.js']
+    export default 'export default _; _.propTypes = {     title: module1.string,     datas: module1.arrayOf(mo'
+  needle_in_mod True
+  VERDICT REJECT ok_orig False unique_unp True named_other []
+
+=== components/Forms/Notification/SlackForm/Item.js -> module-1705.js [t 'CHANNEL_EXISTS'] ===
+  orig_t ['ADD_CHANNEL_TIP', 'CHANNEL_EXISTS', 'SLACK_CHANNEL', 'ADDED_CHANNELS', 'EMPTY_CHANNEL_DESC']
+  orig_hits=1 ['components/Forms/Notification/SlackForm/Item.js']
+  unpacked_hits=1 unnamed=[] named=[('module-1705.js', ['components/Forms/Notification/SlackForm.js'])]
+    css False skip False named ['components/Forms/Notification/SlackForm.js']
+    t ['CHANNEL_EXISTS', 'ADD_CHANNEL_TIP', 'div', 'SERVER_SETTINGS', 'SLACK_TOKEN', 'SLACK_TOKEN_DESC', 'CHANNEL_SETTINGS', 'SLACK_CHANNEL', 'ADDED_CHANNELS', 'EMPTY_CHANNEL_DESC']
+    importers ['module-3085.js', 'module-5139.js']
+    export default 'export default b; '
+  needle_in_mod True
+  VERDICT ALIAS ok_orig True unique_unp True named_other []
+
+=== pages/clusters/containers/LogCollections/Detail.js -> module-4255.js [str 'detail.enabled'] ===
+  orig_t ['rootStore', 'STATUS', 'ENABLED', 'DISABLED', 'EDIT', 'CHANGE_STATUS', 'DELETE', 'EDIT_YAML', 'LOADING', 'LOG_RECEIVER_PL']
+  orig_hits=1 ['pages/clusters/containers/LogCollections/Detail.js']
+  unpacked_hits=1 unnamed=[] named=[('module-4255.js', ['pages/whizard-telemetry/log-collections/Detail.js'])]
+    css False skip False named ['pages/whizard-telemetry/log-collections/Detail.js']
+    t ['rootStore', 'EDIT', 'CHANGE_STATUS', 'DELETE', 'EDIT_YAML', 'STATUS', 'ENABLED', 'DISABLED', 'LOADING', 'LOG_RECEIVER_PL']
+    importers ['module-4173.js']
+    export default 'export default S; '
+  needle_in_mod True
+  VERDICT REJECT ok_orig True unique_unp True named_other []
+
+=== pages/clusters/containers/Monitor/Resource.js -> module-4152.js [t 'MONITORING_APPLICATION_DESC'] ===
+  orig_t ['rootStore', '/', 'APPLICATION_RESOURCE_PL', 'MONITORING_APPLICATION_DESC']
+  orig_hits=1 ['pages/clusters/containers/Monitor/Resource.js']
+  unpacked_hits=1 unnamed=[] named=[('module-4152.js', ['pages/whizard-telemetry/monitor-resource.js'])]
+    css False skip False named ['pages/whizard-telemetry/monitor-resource.js']
+    t ['rootStore', 'APPLICATION_RESOURCE_PL', 'MONITORING_APPLICATION_DESC', '/']
+    importers ['module-4043.js']
+    export default 'export default _; '
+  needle_in_mod True
+  VERDICT REJECT ok_orig True unique_unp True named_other []
+
+=== pages/clusters/containers/Monitor/Cluster.js -> module-4137.js [t 'MONITORING_CLUSTER_DESC'] ===
+  orig_t ['rootStore', '/', 'CLUSTER_STATUS', 'MONITORING_CLUSTER_DESC']
+  orig_hits=1 ['pages/clusters/containers/Monitor/Cluster.js']
+  unpacked_hits=1 unnamed=[] named=[('module-4137.js', ['pages/whizard-telemetry/monitor-cluster.js'])]
+    css False skip False named ['pages/whizard-telemetry/monitor-cluster.js']
+    t ['rootStore', 'CLUSTER_STATUS', 'MONITORING_CLUSTER_DESC', '/']
+    importers ['module-4043.js']
+    export default 'export default b; '
+  needle_in_mod True
+  VERDICT REJECT ok_orig True unique_unp True named_other []
+
+# resolved pages/workspaces/containers/Groups/GroupUser/User.js DEPARTMENT -> module-4380.js unnamed=['module-4380.js'] all=['module-4380.js']
+
+=== pages/workspaces/containers/Groups/GroupUser/User.js -> module-4380.js [t 'DEPARTMENT'] ===
+  orig_t ['DEPARTMENT']
+  SKIP_COMMON_T
+
+=== DUMP pages/workspaces/containers/Overview/ResourceUsage.js ===
+  orig_t ['rootStore', 'CLUSTER_VALUE', 'NO_CLUSTER_AVAILABLE', 'WORKSPACE_NO_CLUSTER_TIP']
+  orig_str ['clusters/components/StatusReason', 'components/Cards/EmptyList', 'mobx-react', 'rootStore', 'workspaceStore', 'CLUSTER_VALUE', 'cluster', 'NO_CLUSTER_AVAILABLE', 'WORKSPACE_NO_CLUSTER_TIP']
+    t('rootStore') orig=['core/layouts/Base.js', 'core/containers/Login.js', 'core/containers/LoginConfirm.js', 'core/containers/PasswordConfirm.js', 'core/containers/Base/Detail.js'] unpacked=['module-1071.js', 'module-1072.js', 'module-1078.js', 'module-1133.js', 'module-1144.js', 'module-1216.js'] unnamed=['module-1144.js', 'module-5045.js', 'module-3002.js', 'module-4792.js']
+    t('CLUSTER_VALUE') orig=['pages/workspaces/containers/Overview/ResourceUsage.js', 'pages/workspaces/containers/Overview/UsageRanking.js', 'pages/workspaces/components/ResourceTable/ClusterSelect.js', 'pages/workspaces/components/Modals/EditGroup/Detail/Form/DevopsSelect.js', 'pages/workspaces/components/Modals/EditGroup/Detail/Form/ProjectSelect.js'] unpacked=['module-1395.js', 'module-3401.js', 'module-3406.js', 'module-3483.js', 'module-3485.js', 'module-3493.js'] unnamed=['module-5048.js', 'module-5045.js', 'module-4948.js', 'module-4374.js']
+    t('NO_CLUSTER_AVAILABLE') orig=['pages/workspaces/containers/Clusters.js', 'pages/workspaces/containers/BaseInfo.js', 'pages/workspaces/containers/Overview/ResourceUsage.js', 'pages/workspaces/containers/Overview/Clusters.js', 'pages/workspaces/containers/Overview/UsageRanking.js'] unpacked=['module-1138.js', 'module-3510.js', 'module-4355.js', 'module-4444.js', 'module-4452.js', 'module-4454.js'] unnamed=['module-1138.js']
+    t('WORKSPACE_NO_CLUSTER_TIP') orig=['pages/workspaces/containers/Clusters.js', 'pages/workspaces/containers/Overview/ResourceUsage.js', 'pages/workspaces/containers/Overview/Clusters.js', 'pages/workspaces/containers/Overview/UsageRanking.js', 'pages/workspaces/components/ResourceTable.js'] unpacked=['module-1138.js', 'module-4444.js', 'module-4452.js', 'module-4454.js'] unnamed=['module-1138.js']
+    str('clusters/components/StatusReason') orig=['pages/workspaces/containers/Overview/ResourceUsage.js', 'pages/workspaces/containers/Overview/UsageRanking.js', 'pages/workspaces/components/ResourceTable/ClusterSelect.js', 'components/Clusters/ClusterTitle.js', 'components/Forms/AppDeploy/BasicInfo/Placement.js'] unpacked=[] unnamed=[]
+    str('components/Cards/EmptyList') orig=['pages/console/containers/Dashboard.js', 'pages/projects/containers/GrayRelease/Jobs.js', 'pages/projects/containers/Applications/CRDAppDetail/TrafficManangement.js', 'pages/projects/containers/Applications/CRDAppDetail/GrayRelease.js', 'pages/projects/containers/Network/Policies.js'] unpacked=[] unnamed=[]
+    str('mobx-react') orig=['core/App.js', 'core/layouts/Base.js', 'core/containers/Login.js', 'core/containers/LoginConfirm.js', 'core/containers/PasswordConfirm.js'] unpacked=[] unnamed=[]
+
+# resolved pages/clusters/containers/Overview/Dashboard/ResourcesUsage/ResourceItem.js TOTAL -> module-4508.js unnamed=['module-4508.js'] all=['module-4508.js']
+
+=== pages/clusters/containers/Overview/Dashboard/ResourcesUsage/ResourceItem.js -> module-4508.js [t 'TOTAL'] ===
+  orig_t ['USED', 'TOTAL']
+  SKIP_COMMON_T
+
+# resolved pages/projects/containers/CronJobs/Detail/JobRecords.js JOB -> module-3872.js unnamed=['module-3872.js'] all=['module-3872.js']
+
+=== pages/projects/containers/CronJobs/Detail/JobRecords.js -> module-3872.js [t 'JOB'] ===
+  orig_t ['rootStore', 'JOB', 'STATUS', 'START_TIME', 'YYYY-MM-DD HH:mm:ss', 'END_TIME', 'RUN_RECORDS']
+  SKIP_COMMON_T
+
+=== pages/projects/containers/ServiceAccounts/Detail/ServiceAccountDetail/Secret.js -> module-3895.js [t 'DATA_SETTINGS'] ===
+  orig_t ['COPY_SUCCESSFUL', 'DATA_SETTINGS', 'KUBECONFIG_SETTINGS', 'SECRET_VALUE']
+  orig_hits=1 ['pages/projects/containers/ServiceAccounts/Detail/ServiceAccountDetail/Secret.js']
+  unpacked_hits=1 unnamed=[] named=[('module-3895.js', ['pages/projects/containers/ServiceAccounts/Detail/ServiceAccountDetail/Secret.js'])]
+    css False skip False named ['pages/projects/containers/ServiceAccounts/Detail/ServiceAccountDetail/Secret.js']
+    t ['COPY_SUCCESSFUL', 'DATA_SETTINGS', 'KUBECONFIG_SETTINGS', 'SECRET_VALUE']
+    importers ['module-3894.js']
+    export default 'export default w; '
+  needle_in_mod True
+  VERDICT ALIAS ok_orig True unique_unp True named_other []
+
+=== ACCEPTED ===
+    "pages/apps/components/Modals/VersionSubmit/steps.js": "module-4417.js",  # NEW str TEST_STEPS
+    "pages/projects/containers/Network/Policies/RuleInfo.js": "module-4656.js",  # NEW t INTERNAL_ALLOWLIST_TIP
+    "pages/projects/containers/Network/Policies/RuleInfo.js": "module-4657.js",  # NEW t EXTERNAL_ALLOWLIST_TIP
+    "pages/projects/containers/Roles/Detail/routes.js": "module-4893.js",  # NEW imp unique_importer
+    "pages/projects/containers/VolumeSnapshots/Detail/routes.js": "module-3923.js",  # NEW imp unique_importer
+    "pages/projects/containers/Applications/CRDAppDetail/routes.js": "module-4743.js",  # NEW imp unique_importer
+    "pages/projects/containers/Pods/Detail/routes.js": "module-3896.js",  # NEW imp unique_importer
+    "pages/projects/containers/Pods/Containers/routes.js": "module-3900.js",  # NEW imp unique_importer
+    "pages/projects/containers/Network/Policies/Detail/routes.js": "module-3910.js",  # NEW imp unique_importer
+    "pages/projects/containers/Volumes/Detail/routes.js": "module-3917.js",  # NEW imp unique_importer
+    "pages/projects/containers/Services/Detail/routes.js": "module-3874.js",  # NEW imp unique_importer
+    "pages/workspaces/containers/Members/Detail/routes.js": "module-4395.js",  # NEW imp unique_importer
+    "pages/workspaces/containers/Repos/Detail/routes.js": "module-4426.js",  # NEW imp unique_importer
+    "pages/clusters/containers/ServiceComponents/Detail/routes.js": "module-3996.js",  # NEW imp unique_importer
+    "pages/clusters/containers/Storage/StorageClasses/Detail/routes.js": "module-3992.js",  # NEW imp unique_importer
+    "pages/projects/containers/Pods/Detail/Monitoring.js": "module-3907.js",  # NEW imp unique_importer
+    "pages/projects/containers/Services/Detail/Ports.js": "module-3879.js",  # NEW imp unique_importer
+    "pages/fedprojects/containers/Services/Detail/Ports.js": "module-5012.js",  # NEW imp unique_importer
+    "components/Forms/Notification/SlackForm/Item.js": "module-1705.js",  # ALIAS t CHANNEL_EXISTS
+    "pages/projects/containers/ServiceAccounts/Detail/ServiceAccountDetail/Secret.js": "module-3895.js",  # ALIAS t DATA_SETTINGS
+accepted_count 20

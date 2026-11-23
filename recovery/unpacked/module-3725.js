@@ -1,0 +1,551 @@
+import "./module-12.js";
+import "./module-5.js";
+import "./module-11.js";
+import "./module-29.js";
+import "./module-6.js";
+import "./module-86.js";
+import "./module-18.js";
+import "./module-97.js";
+import "./module-16.js";
+import "./module-27.js";
+import "./module-9.js";
+import "./module-13.js";
+import "./module-10.js";
+import "./module-4.js";
+import "./module-316.js";
+import "./module-23.js";
+import "./module-24.js";
+import "./module-17.js";
+import "./module-62.js";
+import "./module-7.js";
+import "./module-45.js";
+import "./module-28.js";
+import "./module-42.js";
+import "./module-34.js";
+import "./module-15.js";
+import "./module-436.js";
+import "./module-22.js";
+import "./module-57.js";
+import "./module-315.js";
+import "./module-41.js";
+import "./module-31.js";
+import "./module-44.js";
+import module36 from "./module-36.js";
+import module37 from "./module-37.js";
+import module55 from "./module-55.js";
+import module56 from "./module-56.js";
+import module51 from "./module-51.js";
+import { Component } from "./module-553.js";
+import module63 from "./module-63.js";
+import module26 from "./module-26.js";
+import module159 from "./module-159.js";
+import module186 from "./module-186.js";
+import { cpuFormat, hideGPUByLicense, memoryFormat } from "./module-52.js";
+import { ICON_TYPES, NODE_STATUS } from "./module-72.js";
+import { getNodeStatus } from "./module-444.js";
+import { getValueByUnit } from "./module-795.js";
+import module858 from "./module-858.js";
+import module973 from "./module-973.js";
+import modal from "./module-1067.js";
+import { ListPage, withClusterList } from "./module-794.js";
+import Module789 from "./module-789.js";
+import Module796 from "./module-796.js";
+import Module790 from "./module-790.js";
+import Module791 from "./module-791.js";
+import module788 from "./module-788.js";
+import Module793 from "./module-793.js";
+import Module797 from "./module-797.js";
+import module14 from "./module-14.js";
+import module3726 from "./module-3726.js";
+let c;
+const z = {
+    cpu_used: "node_cpu_usage",
+    cpu_total: "node_cpu_total",
+    cpu_utilisation: "node_cpu_utilisation",
+    memory_used: "node_memory_usage_wo_cache",
+    memory_total: "node_memory_total",
+    memory_utilisation: "node_memory_utilisation",
+    gpu_utilization: "node_gpu_utilization",
+    gpu_used: "node_gpu_usage",
+    gpu_total: "node_gpu_total",
+    gpu_memory_utilization: "node_gpu_memory_utilization",
+    gpu_memory_used: "node_gpu_memory_usage",
+    gpu_memory_total: "node_gpu_memory_total",
+    pod_used: "node_pod_running_count",
+    pod_total: "node_pod_quota"
+};
+const Y = withClusterList({
+    store: new module858,
+    name: "CLUSTER_NODE",
+    module: "nodes"
+})(c = ((Component_1)=>{
+    module55(n, Component_1);
+    var r = ((e)=>{
+        const t = (()=>{
+            if (typeof Reflect === "undefined" || !Reflect.construct) {
+                return false;
+            }
+            if (Reflect.construct.sham) {
+                return false;
+            }
+            if (typeof Proxy === "function") {
+                return true;
+            }
+            try {
+                Date.prototype.toString.call(Reflect.construct(Date, [], function() {}));
+                return true;
+            } catch (e) {
+                return false;
+            }
+        })();
+        return function() {
+            let r;
+            const n = module51(e);
+            if (t) {
+                const a = module51(this).constructor;
+                r = Reflect.construct(n, arguments, a);
+            } else {
+                r = n.apply(this, arguments);
+            }
+            return module56(this, r);
+        };
+    })(n);
+    function n(...o_1) {
+        let e;
+        module36(this, n);
+        e = r.call(this, ...o_1);
+        e.store = e.props.store;
+        e.monitoringStore = new module973({
+            cluster: e.cluster
+        });
+        e.getData = async (r)=>{
+            await e.store.fetchList({
+                ...r,
+                ...e.props.match.params
+            });
+            await e.monitoringStore.fetchMetrics({
+                ...e.props.match.params,
+                resources: e.store.list.data.map((e)=>e.name),
+                metrics: Object.values(hideGPUByLicense(z, e.cluster)),
+                last: true
+            });
+        };
+        e.getUnschedulable = function(e) {
+            return e.taints.some((e)=>e.key === "node.kubernetes.io/unschedulable");
+        };
+        e.getReady = function(e) {
+            return e.conditions.some((e)=>e.type === "Ready" && e.status === "True");
+        };
+        e.handleOpenTerminal = function(t) {
+            var r = module788.open({
+                onOk: function() {
+                    module788.close(r);
+                },
+                modal,
+                cluster: e.cluster,
+                title: t.name,
+                nodename: t.name,
+                isEdgeNode: true
+            });
+        };
+        e.getLastValue = function(t, r, n) {
+            const data = e.monitoringStore.data;
+            const o = (module26(data[r], "data.result") || []).find((e)=>module26(e, "metric.node") === t.name);
+            const u = module26(o, "value[1]", 0);
+            return getValueByUnit(u, n);
+        };
+        e.getRecordMetrics = function(t, r) {
+            const n = {};
+            r.forEach((r)=>{
+                const a = e.getLastValue(t, hideGPUByLicense(z, e.cluster)[r.type], r.unit);
+                n[r.type] = parseFloat(a);
+            });
+            return n;
+        };
+        e.renderTaintsTip = function(e) {
+            return <div><div>{t("TAINTS")}:</div><div>{e.map((e)=>{
+                const t = `${e.key}=${e.value || ""}:${e.effect}`;
+                return <div key={t}>{t}</div>;
+            })}</div></div>;
+        };
+        e.getColumns = function() {
+            const e_props = e.props;
+            const { module, prefix, getSortOrder, getFilteredValue } = e_props;
+            return [
+                {
+                    title: t("NAME"),
+                    dataIndex: "name",
+                    sorter: true,
+                    sortOrder: getSortOrder("name"),
+                    search: true,
+                    key: "name",
+                    render: function(title, t) {
+                        return <Module789 icon={ICON_TYPES[module]} iconSize={40} to={t.importStatus !== "success" ? null : `${prefix}/${title}`} title={title} desc={t.ip}/>;
+                    }
+                },
+                {
+                    title: t("STATUS"),
+                    dataIndex: "status",
+                    key: "status",
+                    filters: e.getStatus(),
+                    filteredValue: getFilteredValue("status"),
+                    isHideable: true,
+                    search: true,
+                    render: function(r, n) {
+                        const a = getNodeStatus(n);
+                        const n_taints = n.taints;
+                        return <div className={module3726.status}><Module796 type={a} name={t(`NODE_STATUS_${a.toUpperCase()}`)}/>{!module63(n_taints) && n.importStatus === "success" && <module186.Tooltip content={e.renderTaintsTip(n_taints)}><span className={module3726.taints}>{n_taints.length}</span></module186.Tooltip>}</div>;
+                    }
+                },
+                {
+                    title: t("ROLE"),
+                    dataIndex: "role",
+                    filters: e.getRoles(),
+                    filteredValue: getFilteredValue("role"),
+                    isHideable: true,
+                    search: true,
+                    render: function(e) {
+                        if (e.indexOf("master") === -1) {
+                            return t("WORKER");
+                        }
+                        return t("CONTROL_PLANE");
+                    }
+                },
+                {
+                    title: t("CPU_USAGE"),
+                    key: "cpu",
+                    isHideable: true,
+                    render: function(r) {
+                        const n = e.getRecordMetrics(r, [
+                            {
+                                type: "cpu_used",
+                                unit: "Core"
+                            },
+                            {
+                                type: "cpu_total",
+                                unit: "Core"
+                            },
+                            {
+                                type: "cpu_utilisation"
+                            }
+                        ]);
+                        return <Module791 title=<div className={module3726.resource}><span>{e.toPercentage(n.cpu_utilisation)}</span>{n.cpu_utilisation >= 0.9 && <module186.Icon name="exclamation"/>}</div> description={`${n.cpu_used}/${n.cpu_total} ${t("CORE_PL")}`}/>;
+                    }
+                },
+                {
+                    title: t("MEMORY_USAGE"),
+                    key: "memory",
+                    isHideable: true,
+                    render: function(t) {
+                        const r = e.getRecordMetrics(t, [
+                            {
+                                type: "memory_used",
+                                unit: "Gi"
+                            },
+                            {
+                                type: "memory_total",
+                                unit: "Gi"
+                            },
+                            {
+                                type: "memory_utilisation"
+                            }
+                        ]);
+                        return <Module791 title=<div className={module3726.resource}><span>{e.toPercentage(r.memory_utilisation)}</span>{r.memory_utilisation >= 0.9 && <module186.Icon name="exclamation"/>}</div> description={`${r.memory_used}/${r.memory_total} GiB`}/>;
+                    }
+                },
+                {
+                    title: t("GPU_USAGE"),
+                    key: "gpu",
+                    isHideable: true,
+                    render: function(t) {
+                        const r = e.getRecordMetrics(t, [
+                            {
+                                type: "gpu_used",
+                                unit: "Core"
+                            },
+                            {
+                                type: "gpu_total",
+                                unit: "Core"
+                            },
+                            {
+                                type: "gpu_utilization"
+                            }
+                        ]);
+                        return <Module791 title=<div className={module3726.resource}><span>{e.toPercentage(r.gpu_utilization)}</span>{r.gpu_utilization >= 0.9 && <module186.Icon name="exclamation"/>}</div> description={`${r.gpu_used}/${r.gpu_total} GPU`}/>;
+                    }
+                },
+                {
+                    title: t("GPU_MEMORY_USAGE"),
+                    key: "gpu_memory",
+                    isHideable: true,
+                    render: function(t) {
+                        const r = e.getRecordMetrics(t, [
+                            {
+                                type: "gpu_memory_used",
+                                unit: "Gi"
+                            },
+                            {
+                                type: "gpu_memory_total",
+                                unit: "Gi"
+                            },
+                            {
+                                type: "gpu_memory_utilization"
+                            }
+                        ]);
+                        return <Module791 title=<div className={module3726.resource}><span>{e.toPercentage(r.gpu_memory_utilization)}</span>{r.gpu_memory_utilization >= 0.9 && <module186.Icon name="exclamation"/>}</div> description={`${r.gpu_memory_used}/${r.gpu_memory_total} GiB`}/>;
+                    }
+                },
+                {
+                    title: t("POD_PL"),
+                    key: "pods",
+                    isHideable: true,
+                    render: function(t) {
+                        const r = e.getRecordMetrics(t, [
+                            {
+                                type: "pod_used"
+                            },
+                            {
+                                type: "pod_total"
+                            }
+                        ]);
+                        const n = r.pod_total ? parseFloat(r.pod_used / r.pod_total) : 0;
+                        return <Module791 title={`${e.toPercentage(n)}`} description={`${r.pod_used}/${r.pod_total}`}/>;
+                    }
+                },
+                {
+                    title: t("ALLOCATED_CPU"),
+                    key: "allocated_resources_cpu",
+                    isHideable: true,
+                    render: e.renderCPUTooltip
+                },
+                {
+                    title: t("ALLOCATED_MEMORY"),
+                    key: "allocated_resources_memory",
+                    isHideable: true,
+                    render: e.renderMemoryTooltip
+                }
+            ];
+        };
+        e.renderCPUTooltip = function(e) {
+            const r = <p>{cpuFormat(module26(e, 'annotations["node.kubesphere.io/cpu-limits"]')) === 1 ? t("CPU_LIMIT_SI", {
+                core: cpuFormat(module26(e, 'annotations["node.kubesphere.io/cpu-limits"]')),
+                percent: module26(e, 'annotations["node.kubesphere.io/cpu-limits-fraction"]')
+            }) : t("CPU_LIMIT_PL", {
+                core: cpuFormat(module26(e, 'annotations["node.kubesphere.io/cpu-limits"]')),
+                percent: module26(e, 'annotations["node.kubesphere.io/cpu-limits-fraction"]')
+            })}</p>;
+            return <module186.Tooltip content={r} placement="top"><Module791 title={cpuFormat(module26(e, 'annotations["node.kubesphere.io/cpu-requests"]')) === 1 ? t("CPU_REQUEST_SI", {
+                core: cpuFormat(module26(e, 'annotations["node.kubesphere.io/cpu-requests"]')),
+                percent: module26(e, 'annotations["node.kubesphere.io/cpu-requests-fraction"]')
+            }) : t("CPU_REQUEST_PL", {
+                core: cpuFormat(module26(e, 'annotations["node.kubesphere.io/cpu-requests"]')),
+                percent: module26(e, 'annotations["node.kubesphere.io/cpu-requests-fraction"]')
+            })} description={t("RESOURCE_REQUEST")}/></module186.Tooltip>;
+        };
+        e.renderMemoryTooltip = function(e) {
+            const r = <p>{t("MEMORY_LIMIT_VALUE", {
+                gib: memoryFormat(module26(e, 'annotations["node.kubesphere.io/memory-limits"]'), "Gi"),
+                percent: module26(e, 'annotations["node.kubesphere.io/memory-limits-fraction"]')
+            })}</p>;
+            return <module186.Tooltip content={r} placement="top"><Module791 title={t("MEMORY_REQUEST_VALUE", {
+                gib: memoryFormat(module26(e, 'annotations["node.kubesphere.io/memory-requests"]'), "Gi"),
+                percent: module26(e, 'annotations["node.kubesphere.io/memory-requests-fraction"]')
+            })} description={t("RESOURCE_REQUEST")}/></module186.Tooltip>;
+        };
+        return e;
+    }
+    module37(n, [
+        {
+            key: "componentDidMount",
+            value: function() {
+                this.store.fetchCount(this.props.match.params);
+            }
+        },
+        {
+            key: "toPercentage",
+            value: function(e) {
+                const t = module159(e) || isNaN(e) ? 0 : Number(e);
+                return `${Math.ceil(100 * t)}%`;
+            }
+        },
+        {
+            key: "getStatus",
+            value: function() {
+                return NODE_STATUS.map((e)=>({
+                        text: t(e.text),
+                        value: e.value
+                    }));
+            }
+        },
+        {
+            key: "getRoles",
+            value: function() {
+                return [
+                    {
+                        text: t("CONTROL_PLANE"),
+                        value: "master"
+                    },
+                    {
+                        text: t("WORKER"),
+                        value: "worker"
+                    }
+                ];
+            }
+        },
+        {
+            key: "renderOverview",
+            value: function() {
+                const store = this.store;
+                const e_masterNum = store.masterNum;
+                const total = store.list.total;
+                return <Module790 className="margin-b12"><div className={module3726.overview}><Module791 icon="nodes" title={total} description={total === 1 ? t("NODE_SI") : t("NODE_PL")}/><Module791 title={e_masterNum} description={e_masterNum === 1 ? t("MASTER_NODE_SI") : t("MASTER_NODE_PL")}/></div></Module790>;
+            }
+        },
+        {
+            key: "render",
+            value: function() {
+                const props = this.props;
+                const { bannerProps, tableProps } = props;
+                const isLoading = this.monitoringStore.isLoading;
+                return <ListPage {...this.props} getData={this.getData} noWatch><Module793 {...bannerProps} title={t("CLUSTER_NODE_PL")} tips={this.tips}/>{this.renderOverview()}<Module797 {...tableProps} itemActions={this.itemActions} tableActions={this.tableActions} columns={hideGPUByLicense(this.getColumns(), this.cluster)} isLoading={tableProps.isLoading || isLoading}/></ListPage>;
+            }
+        },
+        {
+            key: "cluster",
+            get: function() {
+                return this.props.match.params.cluster;
+            }
+        },
+        {
+            key: "tips",
+            get: function() {
+                return [
+                    {
+                        title: t("NODE_TYPES_Q"),
+                        description: t("NODE_TYPES_A")
+                    },
+                    {
+                        title: t("WHAT_IS_NODE_TAINTS_Q"),
+                        description: t("WHAT_IS_NODE_TAINTS_A")
+                    }
+                ];
+            }
+        },
+        {
+            key: "itemActions",
+            get: function() {
+                const _this = this;
+                const props = this.props;
+                const { store, clusterStore, routing, trigger, name } = props;
+                return [
+                    {
+                        key: "uncordon",
+                        icon: "start",
+                        text: t("UNCORDON"),
+                        action: "edit",
+                        show: function(t) {
+                            return t.importStatus === "success" && _this.getUnschedulable(t);
+                        },
+                        onClick: function(e) {
+                            return store.uncordon(e).then(routing.query);
+                        }
+                    },
+                    {
+                        key: "cordon",
+                        icon: "stop",
+                        text: t("CORDON"),
+                        action: "edit",
+                        show: function(t) {
+                            return t.importStatus === "success" && !_this.getUnschedulable(t);
+                        },
+                        onClick: function(e) {
+                            return store.cordon(e).then(routing.query);
+                        }
+                    },
+                    {
+                        key: "terminal",
+                        icon: "terminal",
+                        text: t("OPEN_TERMINAL"),
+                        action: "edit",
+                        show: function(t) {
+                            return t.importStatus === "success" && _this.getReady(t);
+                        },
+                        onClick: function(t) {
+                            return _this.handleOpenTerminal(t);
+                        }
+                    },
+                    {
+                        key: "logs",
+                        icon: "eye",
+                        text: t("VIEW_LOG"),
+                        action: "edit",
+                        show: function(e) {
+                            return e.importStatus !== "success";
+                        },
+                        onClick: function() {
+                            return trigger("node.add.log", {
+                                detail: module14.toJS(clusterStore.detail)
+                            });
+                        }
+                    },
+                    {
+                        key: "delete",
+                        icon: "trash",
+                        text: t("DELETE"),
+                        action: "delete",
+                        show: function(e) {
+                            return e.importStatus === "failed";
+                        },
+                        onClick: function(detail) {
+                            return trigger("resource.delete", {
+                                type: name,
+                                detail,
+                                success: routing.query
+                            });
+                        }
+                    }
+                ];
+            }
+        },
+        {
+            key: "tableActions",
+            get: function() {
+                const props = this.props;
+                const { trigger, routing, clusterStore, tableProps } = props;
+                const actions = [];
+                if (clusterStore.detail.kkName) {
+                    actions.push({
+                        key: "add",
+                        type: "control",
+                        text: t("ADD"),
+                        action: "create",
+                        onClick: function() {
+                            return trigger("node.add", {
+                                kkName: clusterStore.detail.kkName || "ddd"
+                            });
+                        }
+                    });
+                }
+                return {
+                    ...tableProps.tableActions,
+                    actions,
+                    selectActions: [
+                        {
+                            key: "taint",
+                            type: "default",
+                            text: t("EDIT_TAINTS"),
+                            action: "edit",
+                            onClick: function() {
+                                return trigger("node.taint.batch", {
+                                    success: routing.query
+                                });
+                            }
+                        }
+                    ]
+                };
+            }
+        }
+    ]);
+    return n;
+})(Component)) || c;
+export default Y;

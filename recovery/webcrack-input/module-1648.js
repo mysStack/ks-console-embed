@@ -1,0 +1,1 @@
+"use strict";(function(e){var r=n(861),o="object"==typeof exports&&exports&&!exports.nodeType&&exports,i=o&&"object"==typeof e&&e&&!e.nodeType&&e,a=i&&i.exports===o?r.a.Buffer:void 0,l=a?a.allocUnsafe:void 0;t.a=function(e,t){if(t)return e.slice();var n=e.length,r=l?l(n):new e.constructor(n);return e.copy(r),r}}).call(this,n(1342)(e))

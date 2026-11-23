@@ -1,0 +1,26 @@
+[
+  {
+    "route": "/login",
+    "returncode": 0,
+    "html_bytes": 480227,
+    "overlay_string": false,
+    "overlay_iframe": false,
+    "has_welcome": true,
+    "has_dashboard": false,
+    "stderr_tail": "[3303207:3303207:1122/142238.114607:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.Properties.GetAll: object_path= /org/freedesktop/UPower/devices/DisplayDevice: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files\n23252 bytes written to file /tmp/kse-overlay-check/login.png\n",
+    "png": "/tmp/kse-overlay-check/login.png",
+    "html": "/tmp/kse-overlay-check/login.html"
+  },
+  {
+    "route": "/dashboard",
+    "returncode": 0,
+    "html_bytes": 480075,
+    "overlay_string": false,
+    "overlay_iframe": false,
+    "has_welcome": false,
+    "has_dashboard": true,
+    "stderr_tail": "[3303414:3303414:1122/142240.560436:ERROR:dbus/object_proxy.cc:572] Failed to call method: org.freedesktop.DBus.Properties.GetAll: object_path= /org/freedesktop/UPower/devices/DisplayDevice: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.UPower was not provided by any .service files\n25383 bytes written to file /tmp/kse-overlay-check/dashboard.png\n",
+    "png": "/tmp/kse-overlay-check/dashboard.png",
+    "html": "/tmp/kse-overlay-check/dashboard.html"
+  }
+]
