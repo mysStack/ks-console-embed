@@ -35,32 +35,10 @@ export default class PodMonitor extends Base {
 
   resourceName = 'pod'
 
-  getApi = ({ nodeName, namespace, workloadKind, workloadName, pod }) => {
-    let path = namespace ? `/namespaces/${namespace}` : '/'
-
-    if (workloadKind && workloadName) {
-      path = `${path}/workloads/${workloadKind}/${workloadName}`
-    }
-
-    if (nodeName) {
-      path = `/nodes/${nodeName}`
-    }
-
-    if (!pod) {
-      return `${this.apiVersion}${path}/pods`
-    }
-
-    return `${this.apiVersion}${path}/pods/${pod}`
-  }
+  getApi = () => `${this.apiVersion}/pod_metrics`
 
   handleParams = params =>
-    omit(params, [
-      'nodeName',
-      'namespace',
-      'workloadKind',
-      'workloadName',
-      'pod',
-    ])
+    omit(params, ['workloadKind', 'workloadName', 'pod'])
 
   @action
   async fetchSortedMetrics({ limit, page, more, metrics = [], ...filters }) {

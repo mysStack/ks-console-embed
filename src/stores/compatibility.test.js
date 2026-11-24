@@ -2,6 +2,7 @@ import { getRulesUrl } from './user'
 import { getProjectResourceUrl } from './project'
 import { getWorkspaceClustersUrl } from './workspace'
 import ProjectMonitoring from './monitoring/project'
+import PodMonitor from './monitoring/pod'
 import WorkloadRankStore from './rank/workload'
 import StorageClassStore from './storageClass'
 import VolumeSnapshotStore from './volumeSnapshot'
@@ -53,6 +54,37 @@ describe('KubeSphere v4 API compatibility', () => {
     expect(store.fetchUrl).toBe(
       'kapis/monitoring.kubesphere.io/v1beta1/workload_metrics'
     )
+  })
+
+  it('uses the v1beta1 pod metrics API instead of the removed namespaces/pods path', () => {
+    global.globals = { app: { isMultiCluster: false } }
+    const store = new PodMonitor()
+
+    expect(
+      store.getApi({
+        namespace: 'dev-wms',
+        workloadKind: 'deployments',
+        workloadName: 'wms-admin-server',
+      })
+    ).toBe('kapis/monitoring.kubesphere.io/v1beta1/pod_metrics')
+    expect(
+      store.getApi({
+        namespace: 'dev-wms',
+        pod: 'wms-admin-server-cff8c469f-j9bqx',
+      })
+    ).toBe('kapis/monitoring.kubesphere.io/v1beta1/pod_metrics')
+    expect(
+      store.handleParams({
+        cluster: 'host',
+        namespace: 'dev-wms',
+        ownerKind: 'ReplicaSet',
+        pod: 'wms-admin-server-cff8c469f-j9bqx',
+      })
+    ).toEqual({
+      cluster: 'host',
+      namespace: 'dev-wms',
+      ownerKind: 'ReplicaSet',
+    })
   })
 
   it('lists storageclasses via storage.k8s.io kapis (not removed resources API)', () => {
