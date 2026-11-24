@@ -3,9 +3,11 @@ import socket
 import threading
 import unittest
 
+from phase5_proxy_policy import should_allow_proxy_method
 from phase5_ws_helpers import (
     close_quietly,
     parse_status_code,
+    pump_bidirectional,
     pump_socket,
     read_http_headers,
     should_proxy_websocket,
@@ -63,6 +65,31 @@ class WebsocketHelperTests(unittest.TestCase):
         src_b.close()
         thread.join(2)
         self.assertFalse(thread.is_alive())
+
+    def test_bidirectional_pump_closes_peer_when_one_side_ends(self):
+        client_a, client_b = socket.socketpair()
+        backend_a, backend_b = socket.socketpair()
+        self.addCleanup(lambda: close_quietly(client_a))
+        self.addCleanup(lambda: close_quietly(client_b))
+        self.addCleanup(lambda: close_quietly(backend_a))
+        self.addCleanup(lambda: close_quietly(backend_b))
+        thread = threading.Thread(
+            target=pump_bidirectional, args=(client_a, backend_a), daemon=True
+        )
+        thread.start()
+        client_b.sendall(b"ping")
+        self.assertEqual(backend_b.recv(4), b"ping")
+        client_b.close()
+        thread.join(2)
+        self.assertFalse(thread.is_alive())
+
+    def test_readonly_proxy_allows_login_but_blocks_api_writes(self):
+        self.assertTrue(should_allow_proxy_method("GET", "/kapis/resources.kubesphere.io/v1alpha3/namespaces", True))
+        self.assertTrue(should_allow_proxy_method("POST", "/login", True))
+        self.assertTrue(should_allow_proxy_method("POST", "/logout", True))
+        self.assertFalse(should_allow_proxy_method("POST", "/kapis/resources.kubesphere.io/v1alpha3/namespaces", True))
+        self.assertFalse(should_allow_proxy_method("DELETE", "/api/v1/namespaces/ns/pods/p", True))
+        self.assertTrue(should_allow_proxy_method("DELETE", "/api/v1/namespaces/ns/pods/p", False))
 
 
 if __name__ == "__main__":

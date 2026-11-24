@@ -5,7 +5,10 @@ const {
   resolveVolumesMapper,
 } = require("../react-app/src/utils/mapFetchedPvcVolumes.js");
 const { parseTerminalPath } = require("../react-app/src/pages/terminal/parseTerminalPath.js");
-const { createLatestOnly } = require("../react-app/src/components/Modals/ContianerTerminal/latestOnly.js");
+const {
+  createLatestOnly,
+  createTerminalSession,
+} = require("../react-app/src/components/Modals/ContianerTerminal/latestOnly.js");
 
 const pvc = {
   metadata: { name: "data-web", namespace: "demo-ns" },
@@ -68,6 +71,17 @@ test("parseTerminalPath rejects incomplete container paths", () => {
   assert.equal(parseTerminalPath("/login").ok, false);
 });
 
+test("parseTerminalPath rejects extra segments and accepts one trailing slash", () => {
+  const valid =
+    "/terminal/cluster/default/projects/demo-ns/pods/web-0/containers/web-matrix";
+  assert.equal(parseTerminalPath(valid + "/").ok, true);
+  assert.equal(parseTerminalPath(valid + "/extra").ok, false);
+  assert.equal(parseTerminalPath("/terminal/kubectl/default/").ok, true);
+  assert.equal(parseTerminalPath("/terminal/kubectl/default/extra").ok, false);
+  assert.equal(parseTerminalPath("/terminal/nodename/dev01/").ok, true);
+  assert.equal(parseTerminalPath("/terminal/nodename/dev01/extra").ok, false);
+});
+
 test("parseTerminalPath accepts kubectl and nodename with required params", () => {
   assert.deepEqual(parseTerminalPath("/terminal/kubectl/default"), {
     ok: true,
@@ -98,4 +112,22 @@ test("latestOnly keeps only the newest request", async () => {
   });
   await Promise.all([slow, fast]);
   assert.equal(applied, "new-url");
+});
+
+test("failed container switch clears the previous terminal URL", async () => {
+  const session = createTerminalSession();
+  const first = session.next();
+  session.begin();
+  session.succeed("ws://a");
+  assert.equal(session.snapshot().url, "ws://a");
+  const second = session.next();
+  session.begin();
+  assert.equal(session.snapshot().url, null);
+  assert.equal(session.snapshot().terminalLoading, true);
+  session.fail(new Error("container B websocket failed"));
+  assert.equal(session.snapshot().url, null);
+  assert.equal(session.snapshot().terminalLoading, false);
+  assert.match(session.snapshot().terminalError, /container B websocket failed/);
+  assert.equal(session.isCurrent(first), false);
+  assert.equal(session.isCurrent(second), true);
 });

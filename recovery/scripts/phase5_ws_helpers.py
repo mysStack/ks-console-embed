@@ -52,27 +52,60 @@ def close_quietly(sock):
         pass
 
 
-def pump_socket(src, dst):
+def shutdown_quietly(sock):
+    if sock is None:
+        return
+    try:
+        sock.shutdown(socket.SHUT_RDWR)
+    except Exception:
+        pass
+
+
+def pump_socket(src, dst, stop=None, idle_timeout=WS_IDLE_TIMEOUT):
+    poll = 1.0 if stop is not None else idle_timeout
+    try:
+        src.settimeout(poll)
+    except Exception:
+        pass
+    idle = 0.0
     try:
         while True:
+            if stop is not None and stop.is_set():
+                break
             try:
                 data = src.recv(65536)
             except socket.timeout:
-                break
+                idle += poll
+                if idle_timeout is not None and idle >= idle_timeout:
+                    break
+                continue
+            idle = 0.0
             if not data:
                 break
             dst.sendall(data)
     except Exception:
         pass
-    try:
-        dst.shutdown(socket.SHUT_WR)
-    except Exception:
-        pass
+    finally:
+        if stop is not None:
+            stop.set()
+        shutdown_quietly(src)
+        shutdown_quietly(dst)
+        close_quietly(src)
+        close_quietly(dst)
 
 
-def pump_bidirectional(client, backend):
-    up = threading.Thread(target=pump_socket, args=(client, backend), daemon=True)
-    down = threading.Thread(target=pump_socket, args=(backend, client), daemon=True)
+def pump_bidirectional(client, backend, idle_timeout=WS_IDLE_TIMEOUT):
+    stop = threading.Event()
+    up = threading.Thread(
+        target=pump_socket,
+        kwargs={"src": client, "dst": backend, "stop": stop, "idle_timeout": idle_timeout},
+        daemon=True,
+    )
+    down = threading.Thread(
+        target=pump_socket,
+        kwargs={"src": backend, "dst": client, "stop": stop, "idle_timeout": idle_timeout},
+        daemon=True,
+    )
     up.start()
     down.start()
     up.join()

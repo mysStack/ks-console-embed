@@ -24,11 +24,13 @@ class ContainerTerminalModal extends module553.Component {
       container: params.containerName,
       shell: "sh",
     });
-    this._latest = latestOnly.createLatestOnly();
+    this._session = latestOnly.createTerminalSession();
     this._unmounted = false;
     this.state = {
       container: { name: params.containerName },
       url: null,
+      terminalError: null,
+      terminalLoading: false,
     };
   }
 
@@ -57,32 +59,43 @@ class ContainerTerminalModal extends module553.Component {
       await this.getContainerInfo(params.containerName);
     } catch (err) {
       console.error("[recovery] container terminal fetchPod failed", err);
+      if (!this._unmounted) {
+        this.setState(this._session.fail(err));
+      }
     }
   };
 
   getContainerInfo = async (containerName) => {
-    const seq = this._latest.next();
+    const seq = this._session.next();
+    if (!this._unmounted && this._session.isCurrent(seq)) {
+      this.setState(this._session.begin());
+    }
     try {
       const containers = module26(this.podStore, "detail.containers") || [];
       const container = containers.find((item) => item.name === containerName);
-      if (container && !this._unmounted && this._latest.isCurrent(seq)) {
-        this.setState({ container });
-      }
       if (containerName) {
         this.store.kubectl.container = containerName;
       }
       const url = await this.store.kubeWebsocketUrl();
-      if (this._unmounted || !this._latest.isCurrent(seq)) {
+      if (this._unmounted || !this._session.isCurrent(seq)) {
         return;
       }
-      this.setState({ url });
+      this.setState({
+        ...this._session.succeed(url),
+        container: container || this.state.container,
+      });
     } catch (err) {
       console.error("[recovery] container terminal getContainerInfo failed", err);
+      if (this._unmounted || !this._session.isCurrent(seq)) {
+        return;
+      }
+      this.setState(this._session.fail(err));
     }
   };
 
   handleContainerChange = (container) => {
     this.store.kubectl.container = container.name;
+    this.setState({ container });
     this.getContainerInfo(container.name);
   };
 
@@ -147,7 +160,16 @@ class ContainerTerminalModal extends module553.Component {
       <div className={styles.kubectl}>
         <div className={styles.terminalWrapper}>
           <div className={module3(styles.pane, styles.terminal)}>
-            <Module3501 url={this.state.url} />
+            {this.state.terminalError ? (
+              <div style={{ padding: 16 }}>
+                {this.state.terminalError}
+              </div>
+            ) : (
+              <Module3501
+                key={this.state.url || (this.state.terminalLoading ? "loading" : "idle")}
+                url={this.state.url}
+              />
+            )}
           </div>
         </div>
         <div className={styles.tipWrapper}>{this.renderContainerMsg()}</div>

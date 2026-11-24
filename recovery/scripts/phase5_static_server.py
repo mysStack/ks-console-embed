@@ -9,6 +9,7 @@ import os
 import re
 import sys
 
+from phase5_proxy_policy import readonly_enabled, should_allow_proxy_method
 from phase5_ws_helpers import (
     WS_HANDSHAKE_TIMEOUT,
     WS_IDLE_TIMEOUT,
@@ -21,6 +22,7 @@ from phase5_ws_helpers import (
 )
 
 PORT = int(os.environ.get("PHASE5_PORT", "8108"))
+READONLY = readonly_enabled()
 ROOT = Path("/home/bruce/code/ks-develop/kse-console-v3")
 BUILD = ROOT / "recovery/react-app/phase4-build"
 V3DIST = Path("/home/bruce/code/ks-develop/console/dist/v3dist")
@@ -59,6 +61,8 @@ def api_parts():
 
 
 def should_proxy(method, path):
+    if not should_allow_proxy_method(method, path, readonly=READONLY):
+        return False
     if path == "/login" or path.startswith("/login?"):
         return method in {"POST", "PUT", "PATCH", "DELETE"}
     prefixes = ("/kapis", "/apis", "/api/", "/oauth", "/logout", "/csrf_token")
@@ -175,8 +179,8 @@ class Handler(SimpleHTTPRequestHandler):
             return
         if raw == "/__phase5":
             body = (
-                '{"artifact":"%s","mainJs":"%s","buildDir":"%s","apiOrigin":"%s"}'
-                % (ARTIFACT, MAIN_JS, BUILD, API_ORIGIN)
+                '{"artifact":"%s","mainJs":"%s","buildDir":"%s","apiOrigin":"%s","readonly":%s}'
+                % (ARTIFACT, MAIN_JS, BUILD, API_ORIGIN, "true" if READONLY else "false")
             ).encode()
             self.send_response(200)
             self.send_header("Content-Type", "application/json")
@@ -221,8 +225,24 @@ class Handler(SimpleHTTPRequestHandler):
         # SPA fallback for HTML routes only — never serve original v3dist JS
         self.send_file(BUILD / "index.html", "text/html")
 
+    def reject_readonly_write(self, method, path):
+        if should_allow_proxy_method(method, path, readonly=READONLY):
+            return False
+        body = (
+            '{"reason":"readonly-proxy","message":"phase5 readonly proxy blocks %s"}'
+            % method
+        ).encode()
+        self.send_response(403)
+        self.send_header("Content-Type", "application/json")
+        self.send_header("Content-Length", str(len(body)))
+        super().end_headers()
+        self.wfile.write(body)
+        return True
+
     def do_POST(self):
         raw = unquote(urlparse(self.path).path)
+        if self.reject_readonly_write("POST", raw):
+            return
         if should_proxy("POST", raw):
             self.proxy("POST")
             return
@@ -234,13 +254,21 @@ class Handler(SimpleHTTPRequestHandler):
         self.wfile.write(body)
 
     def do_PUT(self):
-        self.proxy("PUT") if should_proxy("PUT", unquote(urlparse(self.path).path)) else self.do_POST()
+        raw = unquote(urlparse(self.path).path)
+        if self.reject_readonly_write("PUT", raw):
+            return
+        self.proxy("PUT") if should_proxy("PUT", raw) else self.do_POST()
 
     def do_PATCH(self):
-        self.proxy("PATCH") if should_proxy("PATCH", unquote(urlparse(self.path).path)) else self.do_POST()
+        raw = unquote(urlparse(self.path).path)
+        if self.reject_readonly_write("PATCH", raw):
+            return
+        self.proxy("PATCH") if should_proxy("PATCH", raw) else self.do_POST()
 
     def do_DELETE(self):
         raw = unquote(urlparse(self.path).path)
+        if self.reject_readonly_write("DELETE", raw):
+            return
         if should_proxy("DELETE", raw):
             self.proxy("DELETE")
             return
@@ -258,9 +286,13 @@ def main():
         "[phase5] websocket terminal proxy enabled on 0.0.0.0:%s; keep this host on a controlled test network\n"
         % PORT
     )
+    sys.stderr.write(
+        "[phase5] readonly=%s (PHASE5_READONLY=0 to proxy write methods; terminal exec is still not read-only)\n"
+        % ("1" if READONLY else "0")
+    )
     print(
-        "phase5-static listening 0.0.0.0:%s artifact=%s main=%s api=%s"
-        % (PORT, ARTIFACT, MAIN_JS, API_ORIGIN),
+        "phase5-static listening 0.0.0.0:%s artifact=%s main=%s api=%s readonly=%s"
+        % (PORT, ARTIFACT, MAIN_JS, API_ORIGIN, "1" if READONLY else "0"),
         flush=True,
     )
     httpd.serve_forever()
