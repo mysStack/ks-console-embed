@@ -22,19 +22,14 @@ import { get } from 'lodash'
 import { Loading } from '@kube-design/components'
 import { Panel, Text } from 'components/Base'
 
-import PlatformMonitorStore from 'stores/monitoring/platform'
+import PlatformMonitorStore, {
+  PLATFORM_COUNT_METRICS as MetricTypes,
+} from 'stores/monitoring/platform'
 
 import PlatformStatus from './PlatformStatus'
 import History from './History'
 
 import styles from './index.scss'
-
-const MetricTypes = {
-  cluster_count: 'kubesphere_cluser_count',
-  workspace_count: 'kubesphere_workspace_count',
-  account_count: 'kubesphere_user_count',
-  app_template_count: 'kubesphere_app_template_count',
-}
 
 @inject('rootStore')
 @observer

@@ -35,13 +35,13 @@ export default class PlatformStatus extends Component {
         icon: 'enterprise',
         name: 'WORKSPACE',
         link: '/access/workspaces',
-        metric: 'kubesphere_workspace_count',
+        metric: 'platform_workspace_count',
       },
       {
         icon: 'human',
         name: 'USER',
         link: '/access/accounts',
-        metric: 'kubesphere_user_count',
+        metric: 'platform_user_count',
       },
       {
         icon: 'appcenter',

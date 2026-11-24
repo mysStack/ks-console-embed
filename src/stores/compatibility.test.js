@@ -3,6 +3,9 @@ import { getProjectResourceUrl } from './project'
 import { getWorkspaceClustersUrl } from './workspace'
 import ProjectMonitoring from './monitoring/project'
 import PodMonitor from './monitoring/pod'
+import PlatformMonitoring, {
+  PLATFORM_COUNT_METRICS,
+} from './monitoring/platform'
 import WorkloadRankStore from './rank/workload'
 import StorageClassStore from './storageClass'
 import VolumeSnapshotStore from './volumeSnapshot'
@@ -54,6 +57,17 @@ describe('KubeSphere v4 API compatibility', () => {
     expect(store.fetchUrl).toBe(
       'kapis/monitoring.kubesphere.io/v1beta1/workload_metrics'
     )
+  })
+
+  it('uses tenant v1beta1 metrics for platform dashboard counts', () => {
+    const store = new PlatformMonitoring()
+    expect(store.getApi()).toBe('kapis/tenant.kubesphere.io/v1beta1/metrics')
+    expect(PLATFORM_COUNT_METRICS).toEqual({
+      cluster_count: 'platform_cluster_count',
+      workspace_count: 'platform_workspace_count',
+      account_count: 'platform_user_count',
+      app_template_count: 'kubesphere_app_template_count',
+    })
   })
 
   it('uses the v1beta1 pod metrics API instead of the removed namespaces/pods path', () => {

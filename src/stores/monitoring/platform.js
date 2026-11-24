@@ -18,6 +18,13 @@
 
 import Base from './base'
 
+export const PLATFORM_COUNT_METRICS = {
+  cluster_count: 'platform_cluster_count',
+  workspace_count: 'platform_workspace_count',
+  account_count: 'platform_user_count',
+  app_template_count: 'kubesphere_app_template_count',
+}
+
 export default class PlatformMonitoring extends Base {
-  getApi = () => `${this.apiVersion}/kubesphere`
+  getApi = () => 'kapis/tenant.kubesphere.io/v1beta1/metrics'
 }
