@@ -1,0 +1,38 @@
+{
+  "hit": {
+    "workspace": "<ws>",
+    "namespace": "<ns>",
+    "name": "<name>"
+  },
+  "probe": {
+    "path": "/dev-workspace/clusters/default/projects/dev-ewms-web/pods/web-matrix-7fd6cd5f44-lq6lv",
+    "htmlLen": 1523,
+    "textHead": "",
+    "hasLoading": true,
+    "podKeys": [
+      "volumes",
+      "containers",
+      "restartPolicy",
+      "terminationGracePeriodSeconds",
+      "dnsPolicy",
+      "serviceAccountName",
+      "serviceAccount",
+      "nodeName",
+      "securityContext",
+      "imagePullSecrets",
+      "schedulerName",
+      "tolerations",
+      "priority",
+      "enableServiceLinks",
+      "preemptionPolicy"
+    ],
+    "hasVolumes": true,
+    "volumeCount": 3
+  },
+  "errors": [
+    {
+      "message": "undefined is not a function",
+      "stack": "TypeError: undefined is not a function\n    at Array.map (<anonymous>)\n    at http://127.0.0.1:8108/6273.app.26cbcf8a.js:1:406550\n    at f (http://127.0.0.1:8108/3903.app.32d2a634.js:2:229715)\n    at Generator.<anonymous> (http://127.0.0.1:8108/3903.app.32d2a634.js:2:231036)\n    at Generator.next (http://127.0.0.1:8108/3903.app.32d2a634.js:2:230140)\n    at r (http://127.0.0.1:8108/6273.app.26cbcf8a.js:1:279422)\n    at i (http://127.0.0.1:8108/6273.app.26cbcf8a.js:1:279679)"
+    }
+  ]
+}

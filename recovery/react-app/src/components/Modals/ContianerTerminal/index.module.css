@@ -1,0 +1,65 @@
+.kubectl {
+  display: flex;
+  height: 100%;
+}
+
+.pane {
+  border-radius: 4px;
+  overflow-y: auto;
+}
+
+.tipWrapper {
+  width: 338px;
+  margin-left: 12px;
+}
+
+.terminalWrapper {
+  flex: 1;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccd3db;
+}
+
+.terminal {
+  height: 100%;
+  overflow: hidden;
+}
+
+.terminal > * {
+  box-sizing: border-box;
+}
+
+.summary h6 {
+  margin-top: 12px;
+  margin-bottom: 8px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #242e42;
+}
+
+.summary dt,
+.summary dd {
+  display: inline-block;
+  padding: 6px 12px;
+  line-height: 20px;
+}
+
+.summary dt {
+  font-size: 12px;
+  color: #79879c;
+  width: 40%;
+}
+
+.summary dt::after {
+  content: ":";
+}
+
+.summary dd {
+  width: 60%;
+  vertical-align: top;
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-size: 12px;
+  line-height: 20px;
+  color: #242e42;
+  word-wrap: break-word;
+}

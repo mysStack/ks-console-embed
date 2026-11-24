@@ -7,7 +7,9 @@ import http.client
 import mimetypes
 import os
 import re
+import socket
 import sys
+import threading
 
 PORT = int(os.environ.get("PHASE5_PORT", "8108"))
 ROOT = Path("/home/bruce/code/ks-develop/kse-console-v3")
@@ -114,8 +116,50 @@ class Handler(SimpleHTTPRequestHandler):
         super().end_headers()
         self.wfile.write(data)
 
+    def proxy_websocket(self):
+        scheme, host, port = api_parts()
+        backend = socket.create_connection((host, port), timeout=30)
+        backend.settimeout(None)
+        lines = ["%s %s HTTP/1.1" % (self.command, self.path)]
+        for key, val in self.headers.items():
+            if key.lower() == "host":
+                val = "%s:%s" % (host, port)
+            lines.append("%s: %s" % (key, val))
+        payload = ("\r\n".join(lines) + "\r\n\r\n").encode("iso-8859-1")
+        backend.sendall(payload)
+
+        def pump(src, dst):
+            try:
+                while True:
+                    data = src.recv(65536)
+                    if not data:
+                        break
+                    dst.sendall(data)
+            except Exception:
+                pass
+            try:
+                dst.shutdown(socket.SHUT_WR)
+            except Exception:
+                pass
+
+        client = self.connection
+        client.settimeout(None)
+        up = threading.Thread(target=pump, args=(client, backend), daemon=True)
+        down = threading.Thread(target=pump, args=(backend, client), daemon=True)
+        up.start()
+        down.start()
+        up.join()
+        down.join()
+        try:
+            backend.close()
+        except Exception:
+            pass
+
     def do_GET(self):
         raw = unquote(urlparse(self.path).path)
+        if self.headers.get("Upgrade", "").lower() == "websocket" and should_proxy("GET", raw):
+            self.proxy_websocket()
+            return
         if should_proxy("GET", raw):
             self.proxy("GET")
             return

@@ -1,0 +1,771 @@
+{
+  "identity": {
+    "hasUser": true,
+    "fakeRecovered": false,
+    "ksKeys": [
+      "enabledExtensionModulesStatus",
+      "multicluster",
+      "ksVersion"
+    ],
+    "hasLogging": false,
+    "hasMonitoring": false
+  },
+  "discovered": {
+    "scanned": 12,
+    "found": {
+      "deployments": {
+        "workspace": "<ws>",
+        "namespace": "<ns>",
+        "name": "<name>",
+        "http": 200,
+        "total": 7
+      },
+      "statefulsets": {
+        "workspace": "<ws>",
+        "namespace": "<ns>",
+        "name": "<name>",
+        "http": 200,
+        "total": 1
+      },
+      "daemonsets": {
+        "workspace": "<ws>",
+        "namespace": "<ns>",
+        "name": "<name>",
+        "http": 200,
+        "total": 1
+      },
+      "pods": {
+        "workspace": "<ws>",
+        "namespace": "<ns>",
+        "name": "<name>",
+        "http": 200,
+        "total": 7
+      },
+      "services": {
+        "workspace": "<ws>",
+        "namespace": "<ns>",
+        "name": "<name>",
+        "http": 200,
+        "total": 7
+      },
+      "ingresses": {
+        "workspace": "<ws>",
+        "namespace": "<ns>",
+        "name": "<name>",
+        "http": 200,
+        "total": 1
+      },
+      "configmaps": {
+        "workspace": "<ws>",
+        "namespace": "<ns>",
+        "name": "<name>",
+        "http": 200,
+        "total": 8
+      },
+      "secrets": {
+        "workspace": "<ws>",
+        "namespace": "<ns>",
+        "name": "<name>",
+        "http": 200,
+        "total": 1
+      }
+    }
+  },
+  "pages": {
+    "deployments": {
+      "hit": {
+        "workspace": "<ws>",
+        "namespace": "<ns>",
+        "name": "<name>",
+        "http": 200,
+        "total": 7
+      },
+      "list": {
+        "path": "/dev-workspace/clusters/default/projects/<ns>/deployments",
+        "htmlLen": 28057,
+        "textHead": "dev-ewms-web 项目 概览 应用负载 应用 服务 工作负载 任务 应用路由 容器组 存储 持久卷声明 卷快照 配置 保密字典 配置字典 服务账户 监控告警 自定义监控 项目设置 基本信息 项目角色 项目成员 网关设置 日志收集 工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 部署 有状态副本集 守护进程集 名称 状态 应用 定制内容 状态 应用 更新时",
+        "total": 7,
+        "hasNav": true,
+        "tabs": [],
+        "blank": false
+      },
+      "detail": {
+        "path": "/dev-workspace/clusters/default/projects/<ns>/deployments/<name>/resource-status",
+        "htmlLen": 11845,
+        "textHead": "部署 web-matrix 编辑信息 更多操作 回退 编辑设置 编辑 YAML 重新创建 删除 属性 集群: default 项目: dev-ewms-web 应用: web-matrix 创建时间: 2026-10-21 14:07:45 更新时间: 2026-11-03 17:37:02 创建者: 资源状态 修改记录 元数据 环境变量 事件 1/1 副本 期望副本数: 1 当前副本数: 1 端口 名称 协议 端口 http TCP ",
+        "total": 1,
+        "hasNav": false,
+        "tabs": [
+          "资源状态",
+          "修改记录",
+          "元数据",
+          "环境变量",
+          "事件"
+        ],
+        "blank": false
+      },
+      "extra": {
+        "events": {
+          "path": "/dev-workspace/clusters/default/projects/<ns>/deployments/<name>/events",
+          "htmlLen": 5116,
+          "textHead": "部署 web-matrix 编辑信息 更多操作 回退 编辑设置 编辑 YAML 重新创建 删除 属性 集群: default 项目: dev-ewms-web 应用: web-matrix 创建时间: 2026-10-21 14:07:45 更新时间: 2026-11-03 17:37:02 创建者: 资源状态 修改记录 元数据 环境变量 事件 事件 类型 原因 发生时间 来源 消息",
+          "total": null,
+          "hasNav": false,
+          "tabs": [
+            "资源状态",
+            "修改记录",
+            "元数据",
+            "环境变量",
+            "事件"
+          ],
+          "blank": false
+        }
+      },
+      "apis": [
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/tenant.kubesphere.io/v1beta1/workspacetemplates"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope="
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=workspace&workspace=dev-workspace"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/tenant.kubesphere.io/v1beta1/workspaces/<ws>/namespaces/<ns>"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/tenant.kubesphere.io/v1beta1/workspaces/<ws>"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=namespace&namespace=dev-ewms-web"
+        },
+        {
+          "http": 200,
+          "path": "/clusters/default/kapis/resources.kubesphere.io/v1alpha3/customresourcedefinitions?name=configurations.springcloud.kubesphere.io"
+        },
+        {
+          "http": 200,
+          "path": "/apis/apps/v1/namespaces/<ns>/deployments/<name>"
+        },
+        {
+          "http": 200,
+          "path": "/api/v1/namespaces/<ns>"
+        },
+        {
+          "http": 200,
+          "path": "/apis/autoscaling/v2beta2/namespaces/<ns>/horizontalpodautoscalers/web-matrix"
+        },
+        {
+          "http": 200,
+          "path": "/api/v1/namespaces/<ns>/events?fieldSelector=involvedObject.name%3Dweb-matrix%2CinvolvedObject.namespace%3Ddev-ewms-web%2CinvolvedObject.kind%3DDeployment%2CinvolvedObject.uid%3D394a6f04-24e6-435e-ba84-81a48c76e3bb"
+        }
+      ],
+      "newErrors": []
+    },
+    "statefulsets": {
+      "hit": {
+        "workspace": "<ws>",
+        "namespace": "<ns>",
+        "name": "<name>",
+        "http": 200,
+        "total": 1
+      },
+      "list": {
+        "path": "/public-workspace/clusters/default/projects/<ns>/statefulsets",
+        "htmlLen": 14633,
+        "textHead": "aaaa 项目 概览 应用负载 应用 服务 工作负载 任务 应用路由 容器组 存储 持久卷声明 卷快照 配置 保密字典 配置字典 服务账户 监控告警 自定义监控 项目设置 基本信息 项目角色 项目成员 网关设置 日志收集 工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 部署 有状态副本集 守护进程集 名称 状态 应用 定制内容 状态 应用 创建时间 创建 名称 ",
+        "total": 1,
+        "hasNav": true,
+        "tabs": [],
+        "blank": false
+      },
+      "detail": {
+        "path": "/public-workspace/clusters/default/projects/<ns>/statefulsets/<name>/resource-status",
+        "htmlLen": 30091,
+        "textHead": "有状态副本集 redis-cluster 编辑信息 更多操作 回退 编辑服务 编辑设置 编辑 YAML 重新创建 删除 属性 集群: default 项目: aaaa 应用: redis-cluster 创建时间: 2026-09-17 11:13:45 创建者: 资源状态 修改记录 元数据 环境变量 事件 6/6 副本 期望副本数: 6 当前副本数: 6 端口 名称 协议 端口 tcp-redis TCP 6379 tcp-redis",
+        "total": 6,
+        "hasNav": false,
+        "tabs": [
+          "资源状态",
+          "修改记录",
+          "元数据",
+          "环境变量",
+          "事件"
+        ],
+        "blank": false
+      },
+      "extra": {},
+      "apis": [
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/tenant.kubesphere.io/v1beta1/workspacetemplates"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope="
+        },
+        {
+          "http": 200,
+          "path": "/kapis/tenant.kubesphere.io/v1beta1/workspaces/<ws>"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/tenant.kubesphere.io/v1beta1/workspaces/<ws>/namespaces/<ns>"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=workspace&workspace=public-workspace"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=namespace&namespace=aaaa"
+        },
+        {
+          "http": 200,
+          "path": "/clusters/default/kapis/resources.kubesphere.io/v1alpha3/customresourcedefinitions?name=configurations.springcloud.kubesphere.io"
+        },
+        {
+          "http": 200,
+          "path": "/apis/apps/v1/namespaces/<ns>/statefulsets/<name>"
+        },
+        {
+          "http": 200,
+          "path": "/api/v1/namespaces/<ns>"
+        },
+        {
+          "http": 200,
+          "path": "/apis/autoscaling/v2beta2/namespaces/<ns>/horizontalpodautoscalers/redis-cluster"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/resources.kubesphere.io/v1alpha3/namespaces/<ns>/pods?limit=10&ownerKind=StatefulSet&labelSelector=app.kubernetes.io%2Finstance%3Dredis-cluster%2Capp.kubernetes.io%2Fname%3Dredis-cluster&sortBy=startTime"
+        }
+      ],
+      "newErrors": []
+    },
+    "daemonsets": {
+      "hit": {
+        "workspace": "<ws>",
+        "namespace": "<ns>",
+        "name": "<name>",
+        "http": 200,
+        "total": 1
+      },
+      "list": {
+        "path": "/public-workspace/clusters/default/projects/<ns>/daemonsets",
+        "htmlLen": 14353,
+        "textHead": "nfs 项目 概览 应用负载 应用 服务 工作负载 任务 应用路由 容器组 存储 持久卷声明 卷快照 配置 保密字典 配置字典 服务账户 监控告警 自定义监控 项目设置 基本信息 项目角色 项目成员 网关设置 日志收集 工作负载 工作负载（Workload）用于处理业务请求，可包含一个或多个容器组。日志、监控等系统功能也是由工作负载实现的。 部署 有状态副本集 守护进程集 名称 状态 定制内容 状态 创建时间 创建 名称 排序 升序 降",
+        "total": 1,
+        "hasNav": true,
+        "tabs": [],
+        "blank": false
+      },
+      "detail": {
+        "path": "/public-workspace/clusters/default/projects/<ns>/daemonsets/<name>/resource-status",
+        "htmlLen": 13756,
+        "textHead": "守护进程集 csi-nfs-node 编辑信息 更多操作 回退 编辑设置 编辑 YAML 重新创建 删除 属性 集群: default 项目: nfs 创建时间: 2026-04-17 14:42:48 创建者: 资源状态 修改记录 元数据 环境变量 事件 1/1 副本 期望副本数: 1 当前副本数: 1 容器组 csi-nfs-node-pdwp5 就绪：3/3 状态：Running csi-nfs-node-pdwp5 创建于 20",
+        "total": 1,
+        "hasNav": false,
+        "tabs": [
+          "资源状态",
+          "修改记录",
+          "元数据",
+          "环境变量",
+          "事件"
+        ],
+        "blank": false
+      },
+      "extra": {},
+      "apis": [
+        {
+          "http": 200,
+          "path": "/kapis/resources.kubesphere.io/v1alpha3/namespaces/<ns>/daemonsets?sortBy=createTime&limit=10"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/tenant.kubesphere.io/v1beta1/workspacetemplates"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope="
+        },
+        {
+          "http": 200,
+          "path": "/kapis/tenant.kubesphere.io/v1beta1/workspaces/<ws>/namespaces/<ns>"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/tenant.kubesphere.io/v1beta1/workspaces/<ws>"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=workspace&workspace=public-workspace"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=namespace&namespace=nfs"
+        },
+        {
+          "http": 200,
+          "path": "/clusters/default/kapis/resources.kubesphere.io/v1alpha3/customresourcedefinitions?name=configurations.springcloud.kubesphere.io"
+        },
+        {
+          "http": 200,
+          "path": "/apis/apps/v1/namespaces/<ns>/daemonsets/<name>"
+        },
+        {
+          "http": 200,
+          "path": "/api/v1/namespaces/<ns>"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/resources.kubesphere.io/v1alpha3/namespaces/<ns>/pods?limit=10&ownerKind=DaemonSet&labelSelector=app%3Dcsi-nfs-node&sortBy=startTime"
+        }
+      ],
+      "newErrors": []
+    },
+    "pods": {
+      "hit": {
+        "workspace": "<ws>",
+        "namespace": "<ns>",
+        "name": "<name>",
+        "http": 200,
+        "total": 7
+      },
+      "list": {
+        "path": "/dev-workspace/clusters/default/projects/<ns>/pods",
+        "htmlLen": 24033,
+        "textHead": "dev-ewms-web 项目 概览 应用负载 应用 服务 工作负载 任务 应用路由 容器组 存储 持久卷声明 卷快照 配置 保密字典 配置字典 服务账户 监控告警 自定义监控 项目设置 基本信息 项目角色 项目成员 网关设置 日志收集 容器组 容器组（Pod）是 Kubernetes 应用程序的基本执行单元，是您创建或部署的 Kubernetes 对象模型中最小和最简单的单元。 名称 状态 容器组 IP 地址 应用 定制内容 状态 节",
+        "total": 7,
+        "hasNav": true,
+        "tabs": [],
+        "blank": false
+      },
+      "detail": {
+        "path": "/dev-workspace/clusters/default/projects/<ns>/pods/<name>",
+        "htmlLen": 1523,
+        "textHead": "",
+        "total": null,
+        "hasNav": false,
+        "tabs": [],
+        "blank": false
+      },
+      "extra": {
+        "events": {
+          "path": "/dev-workspace/clusters/default/projects/<ns>/pods/<name>/events",
+          "htmlLen": 1523,
+          "textHead": "",
+          "total": null,
+          "hasNav": false,
+          "tabs": [],
+          "blank": false
+        }
+      },
+      "apis": [
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=namespace&namespace=dev-ewms-web"
+        },
+        {
+          "http": 200,
+          "path": "/clusters/default/kapis/resources.kubesphere.io/v1alpha3/customresourcedefinitions?name=configurations.springcloud.kubesphere.io"
+        },
+        {
+          "http": 200,
+          "path": "/api/v1/namespaces/<ns>/pods/<name>"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/tenant.kubesphere.io/v1beta1/workspacetemplates"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope="
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=workspace&workspace=dev-workspace"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/tenant.kubesphere.io/v1beta1/workspaces/<ws>"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/tenant.kubesphere.io/v1beta1/workspaces/<ws>/namespaces/<ns>"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=namespace&namespace=dev-ewms-web"
+        },
+        {
+          "http": 200,
+          "path": "/clusters/default/kapis/resources.kubesphere.io/v1alpha3/customresourcedefinitions?name=configurations.springcloud.kubesphere.io"
+        },
+        {
+          "http": 200,
+          "path": "/api/v1/namespaces/<ns>/pods/<name>"
+        }
+      ],
+      "newErrors": [
+        "undefined is not a function",
+        "undefined is not a function"
+      ]
+    },
+    "services": {
+      "hit": {
+        "workspace": "<ws>",
+        "namespace": "<ns>",
+        "name": "<name>",
+        "http": 200,
+        "total": 7
+      },
+      "list": {
+        "path": "/dev-workspace/clusters/default/projects/<ns>/services",
+        "htmlLen": 32635,
+        "textHead": "dev-ewms-web 项目 概览 应用负载 应用 服务 工作负载 任务 应用路由 容器组 存储 持久卷声明 卷快照 配置 保密字典 配置字典 服务账户 监控告警 自定义监控 项目设置 基本信息 项目角色 项目成员 网关设置 日志收集 服务 服务（Service）提供一种抽象的方法，将运行在容器组（Pod）上的应用程序公开为网络服务。 KubeSphere 支持哪些服务类型？ 无状态服务和有状态服务分别适用于哪些场景？ 名称 应用 定",
+        "total": 7,
+        "hasNav": true,
+        "tabs": [],
+        "blank": false
+      },
+      "detail": {
+        "path": "/dev-workspace/clusters/default/projects/<ns>/services/<name>/resource-status",
+        "htmlLen": 12003,
+        "textHead": "服务 web-wms-service 编辑信息 更多操作 编辑服务 编辑外部访问 编辑 YAML 删除 属性 集群: default 项目: dev-ewms-web 类型: 自定义服务 (VirtualIP) 应用: web-wms 虚拟 IP 地址: 10.96.84.229 外部 IP 地址: 会话亲和性: 已禁用 选择器: app=web-wms DNS: web-wms-service.dev-ewms-web 端点: 10.",
+        "total": 1,
+        "hasNav": false,
+        "tabs": [
+          "资源状态",
+          "元数据",
+          "事件"
+        ],
+        "blank": false
+      },
+      "extra": {},
+      "apis": [
+        {
+          "http": 200,
+          "path": "/kapis/tenant.kubesphere.io/v1beta1/workspaces/<ws>"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/tenant.kubesphere.io/v1beta1/workspaces/<ws>/namespaces/<ns>"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=namespace&namespace=dev-ewms-web"
+        },
+        {
+          "http": 200,
+          "path": "/clusters/default/kapis/resources.kubesphere.io/v1alpha3/customresourcedefinitions?name=configurations.springcloud.kubesphere.io"
+        },
+        {
+          "http": 200,
+          "path": "/api/v1/namespaces/<ns>/services/<name>"
+        },
+        {
+          "http": 200,
+          "path": "/api/v1/namespaces/<ns>/endpoints/web-wms-service"
+        },
+        {
+          "http": 200,
+          "path": "/api/v1/namespaces/<ns>"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/resources.kubesphere.io/v1alpha3/namespaces/<ns>/pods?limit=10&labelSelector=app%3Dweb-wms&sortBy=startTime"
+        },
+        {
+          "http": 200,
+          "path": "/apis/apps/v1/namespaces/<ns>/daemonsets?labelSelector=app%3Dweb-wms"
+        },
+        {
+          "http": 200,
+          "path": "/apis/apps/v1/namespaces/<ns>/deployments?labelSelector=app%3Dweb-wms"
+        },
+        {
+          "http": 200,
+          "path": "/apis/apps/v1/namespaces/<ns>/statefulsets?labelSelector=app%3Dweb-wms"
+        },
+        {
+          "http": 200,
+          "path": "/apis/apps/v1/namespaces/<ns>/replicasets?labelSelector=app=web-wms"
+        }
+      ],
+      "newErrors": []
+    },
+    "ingresses": {
+      "hit": {
+        "workspace": "<ws>",
+        "namespace": "<ns>",
+        "name": "<name>",
+        "http": 200,
+        "total": 1
+      },
+      "list": {
+        "path": "/dev-workspace/clusters/default/projects/<ns>/ingresses",
+        "htmlLen": 15488,
+        "textHead": "dev-web 前端服务 概览 应用负载 应用 服务 工作负载 任务 应用路由 容器组 存储 持久卷声明 卷快照 配置 保密字典 配置字典 服务账户 监控告警 自定义监控 项目设置 基本信息 项目角色 项目成员 网关设置 日志收集 应用路由 应用路由提供一种聚合服务的方式，您可以通过一个外部可访问的 IP 地址将集群的内部服务暴露给外部。 使用应用路由的前提条件？ 应用路由支持哪些的访问模式？ 网关未启用 若要使用网关，请在集群、企业空",
+        "total": 1,
+        "hasNav": true,
+        "tabs": [],
+        "blank": false
+      },
+      "detail": {
+        "path": "/dev-workspace/clusters/default/projects/<ns>/ingresses/<name>/resource-status",
+        "htmlLen": 5670,
+        "textHead": "应用路由 matrix 编辑信息 更多操作 编辑 YAML 编辑路由规则 编辑注解 删除 属性 集群: default 项目: dev-web 应用: - 网关地址: 192.168.2.240 Ingress Class: - 创建时间: 2026-05-27 10:33:36 创建者: admin 资源状态 元数据 事件 规则 matrix.dev-131.local 协议：HTTP 无法访问服务 请确保已在您的 DNS 服务器或客",
+        "total": null,
+        "hasNav": false,
+        "tabs": [
+          "资源状态",
+          "元数据",
+          "事件"
+        ],
+        "blank": false
+      },
+      "extra": {},
+      "apis": [
+        {
+          "http": 200,
+          "path": "/kapis/gateway.kubesphere.io/v1alpha2/namespaces/<ns>/availableingressclassscopes"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/tenant.kubesphere.io/v1beta1/workspacetemplates"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope="
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=workspace&workspace=dev-workspace"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/tenant.kubesphere.io/v1beta1/workspaces/<ws>/namespaces/<ns>"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/tenant.kubesphere.io/v1beta1/workspaces/<ws>"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=namespace&namespace=dev-web"
+        },
+        {
+          "http": 200,
+          "path": "/clusters/default/kapis/resources.kubesphere.io/v1alpha3/customresourcedefinitions?name=configurations.springcloud.kubesphere.io"
+        },
+        {
+          "http": 200,
+          "path": "/apis/networking.k8s.io/v1/namespaces/<ns>/ingresses/<name>"
+        },
+        {
+          "http": 200,
+          "path": "/api/v1/namespaces/<ns>"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/gateway.kubesphere.io/v1alpha2/namespaces/<ns>/availableingressclassscopes"
+        }
+      ],
+      "newErrors": []
+    },
+    "configmaps": {
+      "hit": {
+        "workspace": "<ws>",
+        "namespace": "<ns>",
+        "name": "<name>",
+        "http": 200,
+        "total": 8
+      },
+      "list": {
+        "path": "/dev-workspace/clusters/default/projects/<ns>/configmaps",
+        "htmlLen": 26519,
+        "textHead": "dev-ewms-web 项目 概览 应用负载 应用 服务 工作负载 任务 应用路由 容器组 存储 持久卷声明 卷快照 配置 保密字典 配置字典 服务账户 监控告警 自定义监控 项目设置 基本信息 项目角色 项目成员 网关设置 日志收集 配置字典 配置字典（ConfigMap）常用于存储工作负载所需的配置信息，许多应用程序会从配置文件、命令行参数或环境变量中读取配置信息。 定制内容 字段 创建时间 创建 名称 排序 升序 降序 字段 创",
+        "total": 8,
+        "hasNav": true,
+        "tabs": [],
+        "blank": false
+      },
+      "detail": {
+        "path": "/dev-workspace/clusters/default/projects/<ns>/configmaps/<name>/detail",
+        "htmlLen": 4154,
+        "textHead": "配置字典 web-wms-nginx 编辑信息 更多操作 编辑 YAML 编辑设置 删除 属性 集群: default 项目: dev-ewms-web 创建时间: 2026-10-21 14:07:45 创建者: 数据 数据 default.conf server { listen 80; server_name _; root /usr/share/nginx/html; index index.html; access_log /",
+        "total": null,
+        "hasNav": false,
+        "tabs": [
+          "数据"
+        ],
+        "blank": false
+      },
+      "extra": {},
+      "apis": [
+        {
+          "http": 200,
+          "path": "/kapis/resources.kubesphere.io/v1alpha3/namespaces/<ns>/configmaps?sortBy=createTime&limit=10"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/resources.kubesphere.io/v1alpha3/workspaces/<ws>"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/tenant.kubesphere.io/v1beta1/workspacetemplates"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope="
+        },
+        {
+          "http": 200,
+          "path": "/kapis/tenant.kubesphere.io/v1beta1/workspaces/<ws>/namespaces/<ns>"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/tenant.kubesphere.io/v1beta1/workspaces/<ws>"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=workspace&workspace=dev-workspace"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=namespace&namespace=dev-ewms-web"
+        },
+        {
+          "http": 200,
+          "path": "/clusters/default/kapis/resources.kubesphere.io/v1alpha3/customresourcedefinitions?name=configurations.springcloud.kubesphere.io"
+        },
+        {
+          "http": 200,
+          "path": "/api/v1/namespaces/<ns>/configmaps/<name>"
+        },
+        {
+          "http": 200,
+          "path": "/api/v1/namespaces/<ns>"
+        }
+      ],
+      "newErrors": []
+    },
+    "secrets": {
+      "hit": {
+        "workspace": "<ws>",
+        "namespace": "<ns>",
+        "name": "<name>",
+        "http": 200,
+        "total": 1
+      },
+      "list": {
+        "path": "/dev-workspace/clusters/default/projects/<ns>/secrets",
+        "htmlLen": 13118,
+        "textHead": "dev-ewms-web 项目 概览 应用负载 应用 服务 工作负载 任务 应用路由 容器组 存储 持久卷声明 卷快照 配置 保密字典 配置字典 服务账户 监控告警 自定义监控 项目设置 基本信息 项目角色 项目成员 网关设置 日志收集 保密字典 保密字典（Secret）是一种包含少量敏感信息的资源对象，例如密码、令牌、保密字典等，以键值对形式保存并且可以在容器组中使用。 定制内容 类型 字段数量 创建时间 创建 名称 排序 升序 降序",
+        "total": 1,
+        "hasNav": true,
+        "tabs": [],
+        "blank": false
+      },
+      "detail": {
+        "path": "/dev-workspace/clusters/default/projects/<ns>/secrets/<name>/detail",
+        "htmlLen": 10269,
+        "textHead": "保密字典 sh.helm.release.v1.ewms-web.v1 编辑信息 更多操作 编辑 YAML 编辑设置 删除 属性 集群: default 项目: dev-ewms-web 类型: helm.sh/release.v1 创建时间: 2026-10-21 14:07:45 创建者: 数据 数据 release: SDRzSUFBQUFBQUFDLyt4Y2JYUGFQTFArS3g2Zk9aOGVETGJCdkhqbS9wQ",
+        "total": null,
+        "hasNav": false,
+        "tabs": [
+          "数据"
+        ],
+        "blank": false
+      },
+      "extra": {},
+      "apis": [
+        {
+          "http": 200,
+          "path": "/kapis/resources.kubesphere.io/v1alpha3/namespaces/<ns>/secrets?sortBy=createTime&limit=10"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/resources.kubesphere.io/v1alpha3/workspaces/<ws>"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/tenant.kubesphere.io/v1beta1/workspacetemplates"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope="
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=workspace&workspace=dev-workspace"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/tenant.kubesphere.io/v1beta1/workspaces/<ws>"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/tenant.kubesphere.io/v1beta1/workspaces/<ws>/namespaces/<ns>"
+        },
+        {
+          "http": 200,
+          "path": "/kapis/iam.kubesphere.io/v1beta1/users/admin/roletemplates?scope=namespace&namespace=dev-ewms-web"
+        },
+        {
+          "http": 200,
+          "path": "/clusters/default/kapis/resources.kubesphere.io/v1alpha3/customresourcedefinitions?name=configurations.springcloud.kubesphere.io"
+        },
+        {
+          "http": 200,
+          "path": "/api/v1/namespaces/<ns>/secrets/<name>"
+        },
+        {
+          "http": 200,
+          "path": "/api/v1/namespaces/<ns>"
+        }
+      ],
+      "newErrors": []
+    }
+  },
+  "errors": [
+    "undefined is not a function",
+    "undefined is not a function"
+  ]
+}

@@ -122,7 +122,15 @@ export const getWorkloadVolumes = (()=>{
                         return Promise.all(i);
                     case 8:
                         u = e.sent;
-                        c = u.map(module105.volumes);
+                        c = u.map(function(item) {
+                            let loaded = module105;
+                            try {
+                                loaded = require("utils/object.mapper");
+                            } catch (err) {}
+                            const om = loaded && typeof loaded.volumes === "function" ? loaded : loaded && loaded.default || {};
+                            const fn = om.volumes;
+                            return typeof fn === "function" ? fn(item) : item;
+                        });
                         a.forEach((e)=>{
                             if (e.type === "Volume") {
                                 const n = c.find((t)=>t.name === e.name) || {};

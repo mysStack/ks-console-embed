@@ -1,0 +1,115 @@
+{
+  "identity": {
+    "hasUser": true,
+    "fakeRecovered": false,
+    "mainJs": "/app.54b14619.js"
+  },
+  "resources": {
+    "deployments": {
+      "listAlive": true,
+      "listTotal": 7,
+      "detailAlive": true,
+      "detailPath": "/dev-workspace/clusters/default/projects/<ns>/deployments/<name>/resource-status",
+      "listPath": "/dev-workspace/clusters/default/projects/<ns>/deployments"
+    },
+    "statefulsets": {
+      "listAlive": true,
+      "listTotal": 1,
+      "detailAlive": true,
+      "detailPath": "/public-workspace/clusters/default/projects/<ns>/statefulsets/<name>/resource-status",
+      "listPath": "/public-workspace/clusters/default/projects/<ns>/statefulsets"
+    },
+    "daemonsets": {
+      "listAlive": true,
+      "listTotal": 1,
+      "detailAlive": true,
+      "detailPath": "/public-workspace/clusters/default/projects/<ns>/daemonsets/<name>/resource-status",
+      "listPath": "/public-workspace/clusters/default/projects/<ns>/daemonsets"
+    },
+    "pods": {
+      "listAlive": true,
+      "listTotal": 7,
+      "detailAlive": true,
+      "detailPath": "/dev-workspace/clusters/default/projects/<ns>/pods/<name>/resource-status",
+      "listPath": "/dev-workspace/clusters/default/projects/<ns>/pods"
+    },
+    "services": {
+      "listAlive": true,
+      "listTotal": 7,
+      "detailAlive": true,
+      "detailPath": "/dev-workspace/clusters/default/projects/<ns>/services/<name>/resource-status",
+      "listPath": "/dev-workspace/clusters/default/projects/<ns>/services"
+    },
+    "ingresses": {
+      "listAlive": true,
+      "listTotal": 1,
+      "detailAlive": true,
+      "detailPath": "/dev-workspace/clusters/default/projects/<ns>/ingresses/<name>/resource-status",
+      "listPath": "/dev-workspace/clusters/default/projects/<ns>/ingresses"
+    },
+    "configmaps": {
+      "listAlive": true,
+      "listTotal": 8,
+      "detailAlive": true,
+      "detailPath": "/dev-workspace/clusters/default/projects/<ns>/configmaps/<name>/detail",
+      "listPath": "/dev-workspace/clusters/default/projects/<ns>/configmaps"
+    },
+    "secrets": {
+      "listAlive": true,
+      "listTotal": 1,
+      "detailAlive": true,
+      "detailPath": "/dev-workspace/clusters/default/projects/<ns>/secrets/<name>/detail",
+      "listPath": "/dev-workspace/clusters/default/projects/<ns>/secrets"
+    }
+  },
+  "ops": {
+    "podDetail": {
+      "alive": true,
+      "loading": false,
+      "htmlLen": 10166,
+      "textHead": "容器组 web-matrix-7fd6cd5f44-lq6lv 查看 YAML 删除 属性 集群: default 项目: dev-ewms-web 应用: - 状态: 运行中 容器组 IP 地址: 10.42.0.74 节点名称: dev01 节点 IP 地址: 192.168.2.131 重启次数: 0 QoS 类别: BestEffort 创建时间: 2026-11-03 17:37:00 创建者: 资源状态 调度信息 元数据 环"
+    },
+    "events": {
+      "alive": true,
+      "textHead": "容器组 web-matrix-7fd6cd5f44-lq6lv 查看 YAML 删除 属性 集群: default 项目: dev-ewms-web 应用: - 状态: 运行中 容器组 IP 地址: 10.42.0.74 节点名称: dev01 节点 IP 地址: 192.168.2.131 重启次数: 0 QoS 类别: BestEffort 创建时间: 2026-11-03 17:37:00 创建者: 资源状态 调度信息 元数据 环",
+      "hasTable": true
+    },
+    "logs": {
+      "alive": true,
+      "textHead": "容器 web-matrix 容器详情页。 终端 属性 集群: default 项目: dev-ewms-web 应用: - 状态: running 镜像: crpi-p97knjjid10efrly.cn-shanghai.personal.cr.aliyuncs.com/ecochain/web-matrix:release-0.11.0-RELEASE-2026-09-29-12-41-47-38f5fbae 镜像 ID: crpi",
+      "logApis": [
+        {
+          "http": 200,
+          "path": "/api/v1/namespaces/<ns>/pods/<name>/log?container=web-matrix&tailLines=1000&timestamps=true&follow=false"
+        }
+      ],
+      "unsupported": false,
+      "containerName": "web-matrix"
+    },
+    "terminal": {
+      "alive": true,
+      "path": "/terminal/cluster/default/projects/<ns>/pods/<name>/containers/<name>",
+      "textHead": "",
+      "ws": [
+        "ws://127.0.0.1:8108/kapis/terminal.kubesphere.io/v1alpha2/namespaces/<ns>/pods/<name>/exec?container=web-matrix&shell=sh"
+      ],
+      "htmlLen": 0
+    }
+  },
+  "checks": {
+    "loginRealUser": true,
+    "deployments": true,
+    "statefulsets": true,
+    "daemonsets": true,
+    "pods": true,
+    "services": true,
+    "ingresses": true,
+    "configmaps": true,
+    "secrets": true,
+    "podEvents": true,
+    "podLogs": true,
+    "terminal": true
+  },
+  "errors": [],
+  "pass": true
+}

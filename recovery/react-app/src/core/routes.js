@@ -4,9 +4,10 @@ import "unpacked/module-22.js";
 import "unpacked/module-30.js";
 import "unpacked/module-38.js";
 import "unpacked/module-32.js";
-import { lazy } from "unpacked/module-553.js";
+import * as module553 from "unpacked/module-553.js";
 import module769 from "core/BaseLayout";
 import module771 from "pages/login";
+const lazy = module553.lazy;
 const l = lazy(function() {
     return import("pages/console/App");
 });
@@ -40,11 +41,18 @@ const m = lazy(function() {
 const g = lazy(function() {
     return import("pages/node-groups/App");
 });
+const terminalPage = lazy(function() {
+    return import("pages/terminal");
+});
 const y = [
     {
         path: "/login",
         component: module771,
         exact: true
+    },
+    {
+        path: "/terminal",
+        component: terminalPage
     },
     {
         component: module769,

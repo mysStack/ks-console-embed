@@ -22,7 +22,7 @@ import module37 from "unpacked/module-37.js";
 import module55 from "unpacked/module-55.js";
 import module56 from "utils/babel-helpers/possibleConstructorReturn";
 import module51 from "unpacked/module-51.js";
-import { Component, createRef } from "unpacked/module-553.js";
+import * as module553 from "unpacked/module-553.js";
 import module801 from "unpacked/module-801.js";
 import { Terminal } from "unpacked/module-5731.js";
 import module1 from "unpacked/module-1.js";
@@ -152,7 +152,7 @@ const v = ((Component_1)=>{
             r.term.write(`[31m${e}[m\r\n`);
         };
         r.first = true;
-        r.containerRef = createRef();
+        r.containerRef = module553.createRef();
         return r;
     }
     module37(i, [
@@ -252,7 +252,7 @@ const v = ((Component_1)=>{
         }
     ]);
     return i;
-})(Component);
+})(module553.Component);
 export default v;
 v.propsTypes = {
     terminalOpts: module1.object,

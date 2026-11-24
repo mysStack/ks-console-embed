@@ -29,8 +29,7 @@ export default function(path) {
             path: `${path}/logs`,
             title: "CONTAINER_LOGS",
             component: module3908,
-            exact: true,
-            ksModule: "whizard-logging"
+            exact: true
         },
         getIndexRoute({
             path,
