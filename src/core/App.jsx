@@ -24,6 +24,8 @@ import React, { Component } from 'react'
 import { Router } from 'react-router'
 import 'scss/main.scss'
 
+import { get } from 'lodash'
+
 import RootStore from 'stores/root'
 import { lazy } from 'utils'
 import { renderRoutes } from 'utils/router.config'
@@ -31,6 +33,10 @@ import { renderRoutes } from 'utils/router.config'
 import routes from './routes'
 import { getRouterBasename } from './routerBase'
 import { notifyHostRouteChange } from './routeSync'
+import {
+  createTriggerActionHandler,
+  shouldListenForHostActions,
+} from './wujieActions'
 
 const getActions = lazy(() =>
   import(/* webpackChunkName: "actions" */ 'actions')
@@ -47,18 +53,54 @@ class App extends Component {
       }),
       this.rootStore.routing
     )
-    this.unlistenRoute = this.history.listen(notifyHostRouteChange)
+    this.skipHostRoute = shouldListenForHostActions(
+      window.$wujie,
+      window.__WUJIE && window.__WUJIE.id
+    )
+    this.unlistenRoute = this.skipHostRoute
+      ? () => {}
+      : this.history.listen(notifyHostRouteChange)
+    this.offTriggerAction = null
+    this.pendingTriggerAction = null
   }
 
   componentDidMount() {
-    notifyHostRouteChange(this.history.location)
-    getActions().then(actions =>
+    if (!this.skipHostRoute) {
+      notifyHostRouteChange(this.history.location)
+    }
+    const wujie = window.$wujie
+    const handleTrigger = createTriggerActionHandler(this.rootStore)
+    if (
+      wujie?.bus &&
+      shouldListenForHostActions(wujie, window.__WUJIE && window.__WUJIE.id)
+    ) {
+      const onTrigger = (actionId, params = {}) => {
+        if (!handleTrigger(actionId, params)) {
+          this.pendingTriggerAction = { actionId, params }
+        }
+      }
+      wujie.bus.$on('triggerAction', onTrigger)
+      this.offTriggerAction = () => {
+        wujie.bus.$off && wujie.bus.$off('triggerAction', onTrigger)
+      }
+    }
+    getActions().then(actions => {
       this.rootStore.registerActions(actions.default)
-    )
+      if (this.pendingTriggerAction) {
+        const pending = this.pendingTriggerAction
+        this.pendingTriggerAction = null
+        handleTrigger(pending.actionId, pending.params)
+      }
+      const appName =
+        (window.__WUJIE && window.__WUJIE.id) ||
+        get(wujie, 'props.name', 'consolev3')
+      wujie?.bus?.$emit('loadCompleted', appName)
+    })
   }
 
   componentWillUnmount() {
     this.unlistenRoute()
+    this.offTriggerAction && this.offTriggerAction()
   }
 
   render() {
