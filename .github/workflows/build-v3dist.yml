@@ -1,4 +1,4 @@
-name: Build V3 Console
+name: Build ks-console-embed
 
 on:
   push:
@@ -16,6 +16,7 @@ on:
 
 permissions:
   contents: write
+  packages: write
 
 jobs:
   build:
@@ -44,7 +45,7 @@ jobs:
           V3_SHA: ${{ github.sha }}
         run: |
           cat > dist/.v3dist-source.json <<EOF
-          {"schemaVersion":1,"repository":"mysStack/kse-console-v3","ref":"${V3_REF}","commit":"${V3_SHA}"}
+          {"schemaVersion":1,"repository":"mysStack/ks-console-embed","ref":"${V3_REF}","commit":"${V3_SHA}"}
           EOF
 
       - name: 打包 V3 制品
@@ -60,6 +61,37 @@ jobs:
           name: console-v3dist-${{ github.sha }}
           path: dist/
           if-no-files-found: error
+
+      - name: 生成镜像标签
+        id: image_tag
+        run: |
+          source_ref='${{ github.ref_name }}'
+          ref_tag="$(printf '%s' "$source_ref" | tr '/_' '--' | tr -cs '[:alnum:].-' '-' | sed 's/^-*//; s/-*$//')"
+          timestamp="$(TZ=Asia/Shanghai date +%Y%m%d-%H%M%S)"
+          commit_id="$(git rev-parse --short=12 HEAD)"
+          echo "value=${ref_tag}-${timestamp}-${commit_id}" >> "$GITHUB_OUTPUT"
+
+      - name: 设置 Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: 登录 GitHub Container Registry
+        if: github.event_name != 'pull_request'
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 构建并推送 ks-console-embed 镜像
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: embed/Dockerfile
+          platforms: linux/amd64
+          push: ${{ github.event_name != 'pull_request' }}
+          tags: |
+            ghcr.io/mysstack/ks-console-embed:${{ steps.image_tag.outputs.value }}
+            ghcr.io/mysstack/ks-console-embed:${{ github.sha }}
 
       - name: 发布版本制品
         if: startsWith(github.ref, 'refs/tags/v')

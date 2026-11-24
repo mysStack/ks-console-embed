@@ -2,8 +2,8 @@
 # Use of this source code is governed by a AGPL-3.0 license
 # that can be found in the LICENSE file.
 
-REPO?=kubespheredev
-TAG?=$(shell git rev-parse --abbrev-ref HEAD | sed -e 's/\//-/g')
+REPO?=ks-console-embed
+TAG?=$(shell git rev-parse --abbrev-ref HEAD | sed -e 's/\//-/g')-$(shell git rev-parse --short HEAD)
 
 .PHONY: all
 all: test build serve
@@ -21,11 +21,11 @@ build:	## Build
 serve:	## Run console on port :8000
 	npm run serve
 
-container:	## Build the container image
-	DRY_RUN=true TAG=${TAG} hack/docker_build.sh
+container:	## Build the nginx ks-console-embed image
+	DRY_RUN=true TAG=${TAG} REPO=${REPO} hack/docker_build_embed.sh
 
-container-push:	## Build the container and push
-	TAG=${TAG} hack/docker_build.sh
+container-push:	## Build the nginx embed image and push
+	TAG=${TAG} REPO=${REPO} PUSH=1 hack/docker_build_embed.sh
 
 container-cross:	## Build the container for multiple platforms(currently linux/amd64,linux/arm64)
 	DRY_RUN=true hack/docker_build_multiarch.sh

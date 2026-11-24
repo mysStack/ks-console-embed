@@ -1,0 +1,66 @@
+# ks-console-embed：ClusterIP 静态服务。浏览器不要直连这个 Service。
+# /consolev3 HTML 仍走 ks-console；入口把 /dist/v3dist 转到这里。
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ks-console-embed
+  namespace: kubesphere-system
+  labels:
+    app: ks-console-embed
+    app.kubernetes.io/name: ks-console-embed
+    app.kubernetes.io/component: console-embed
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ks-console-embed
+  template:
+    metadata:
+      labels:
+        app: ks-console-embed
+        app.kubernetes.io/name: ks-console-embed
+        app.kubernetes.io/component: console-embed
+    spec:
+      containers:
+        - name: ks-console-embed
+          image: ks-console-embed:feature-v3dist-embed
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: http
+              containerPort: 80
+          readinessProbe:
+            httpGet:
+              path: /healthz
+              port: http
+            initialDelaySeconds: 2
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /healthz
+              port: http
+            initialDelaySeconds: 5
+            periodSeconds: 20
+          resources:
+            requests:
+              cpu: 20m
+              memory: 32Mi
+            limits:
+              cpu: 200m
+              memory: 128Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ks-console-embed
+  namespace: kubesphere-system
+  labels:
+    app: ks-console-embed
+    app.kubernetes.io/name: ks-console-embed
+spec:
+  type: ClusterIP
+  selector:
+    app: ks-console-embed
+  ports:
+    - name: http
+      port: 80
+      targetPort: http

@@ -1,0 +1,5 @@
+*
+!embed/
+!embed/nginx.conf
+!dist/
+!dist/**
