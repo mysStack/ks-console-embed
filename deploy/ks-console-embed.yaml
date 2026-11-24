@@ -11,6 +11,9 @@ metadata:
     app.kubernetes.io/component: console-embed
 spec:
   replicas: 1
+  revisionHistoryLimit: 5
+  strategy:
+    type: Recreate
   selector:
     matchLabels:
       app: ks-console-embed
@@ -20,11 +23,12 @@ spec:
         app: ks-console-embed
         app.kubernetes.io/name: ks-console-embed
         app.kubernetes.io/component: console-embed
+        purpose: v3dist-embed
     spec:
       containers:
         - name: ks-console-embed
-          image: ks-console-embed:feature-v3dist-embed
-          imagePullPolicy: IfNotPresent
+          image: ghcr.io/mysstack/ks-console-embed:feature-v3dist-embed-20261124-160916-6c2cc92c98bc
+          imagePullPolicy: Always
           ports:
             - name: http
               containerPort: 80
