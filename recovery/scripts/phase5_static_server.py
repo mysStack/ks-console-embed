@@ -7,9 +7,18 @@ import http.client
 import mimetypes
 import os
 import re
-import socket
 import sys
-import threading
+
+from phase5_ws_helpers import (
+    WS_HANDSHAKE_TIMEOUT,
+    WS_IDLE_TIMEOUT,
+    close_quietly,
+    connect_backend,
+    parse_status_code,
+    pump_bidirectional,
+    read_http_headers,
+    should_proxy_websocket,
+)
 
 PORT = int(os.environ.get("PHASE5_PORT", "8108"))
 ROOT = Path("/home/bruce/code/ks-develop/kse-console-v3")
@@ -117,48 +126,49 @@ class Handler(SimpleHTTPRequestHandler):
         self.wfile.write(data)
 
     def proxy_websocket(self):
+        raw = unquote(urlparse(self.path).path)
+        if not should_proxy_websocket(raw):
+            self.send_error(403, "websocket proxy is limited to /kapis/terminal.kubesphere.io/")
+            return
         scheme, host, port = api_parts()
-        backend = socket.create_connection((host, port), timeout=30)
-        backend.settimeout(None)
-        lines = ["%s %s HTTP/1.1" % (self.command, self.path)]
-        for key, val in self.headers.items():
-            if key.lower() == "host":
-                val = "%s:%s" % (host, port)
-            lines.append("%s: %s" % (key, val))
-        payload = ("\r\n".join(lines) + "\r\n\r\n").encode("iso-8859-1")
-        backend.sendall(payload)
-
-        def pump(src, dst):
-            try:
-                while True:
-                    data = src.recv(65536)
-                    if not data:
-                        break
-                    dst.sendall(data)
-            except Exception:
-                pass
-            try:
-                dst.shutdown(socket.SHUT_WR)
-            except Exception:
-                pass
-
-        client = self.connection
-        client.settimeout(None)
-        up = threading.Thread(target=pump, args=(client, backend), daemon=True)
-        down = threading.Thread(target=pump, args=(backend, client), daemon=True)
-        up.start()
-        down.start()
-        up.join()
-        down.join()
+        backend = None
+        handed = False
         try:
-            backend.close()
-        except Exception:
-            pass
+            backend = connect_backend(scheme, host, port, timeout=30)
+            backend.settimeout(WS_HANDSHAKE_TIMEOUT)
+            lines = ["%s %s HTTP/1.1" % (self.command, self.path)]
+            for key, val in self.headers.items():
+                if key.lower() == "host":
+                    val = "%s:%s" % (host, port)
+                lines.append("%s: %s" % (key, val))
+            backend.sendall(("\r\n".join(lines) + "\r\n\r\n").encode("iso-8859-1"))
+            header, rest = read_http_headers(backend)
+            code = parse_status_code(header)
+            client = self.connection
+            client.sendall(header + b"\r\n\r\n" + rest)
+            handed = True
+            if code != 101:
+                raise OSError("backend websocket handshake failed: %s" % code)
+            backend.settimeout(WS_IDLE_TIMEOUT)
+            client.settimeout(WS_IDLE_TIMEOUT)
+            pump_bidirectional(client, backend)
+        except Exception as exc:
+            sys.stderr.write("[phase5 ws] %s\n" % exc)
+            if not handed:
+                try:
+                    self.send_error(502, "websocket proxy error")
+                except Exception:
+                    pass
+        finally:
+            close_quietly(backend)
 
     def do_GET(self):
         raw = unquote(urlparse(self.path).path)
-        if self.headers.get("Upgrade", "").lower() == "websocket" and should_proxy("GET", raw):
-            self.proxy_websocket()
+        if self.headers.get("Upgrade", "").lower() == "websocket":
+            if should_proxy_websocket(raw):
+                self.proxy_websocket()
+                return
+            self.send_error(403, "websocket proxy is limited to /kapis/terminal.kubesphere.io/")
             return
         if should_proxy("GET", raw):
             self.proxy("GET")
@@ -244,6 +254,10 @@ def main():
     if not (BUILD / "index.html").is_file() or not (BUILD / MAIN_JS).is_file():
         raise SystemExit("phase4-build missing index.html or %s" % MAIN_JS)
     httpd = ThreadingHTTPServer(("0.0.0.0", PORT), Handler)
+    sys.stderr.write(
+        "[phase5] websocket terminal proxy enabled on 0.0.0.0:%s; keep this host on a controlled test network\n"
+        % PORT
+    )
     print(
         "phase5-static listening 0.0.0.0:%s artifact=%s main=%s api=%s"
         % (PORT, ARTIFACT, MAIN_JS, API_ORIGIN),

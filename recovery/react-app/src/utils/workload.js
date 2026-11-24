@@ -36,6 +36,7 @@ import { cpuFormat, memoryFormat, resourceLimitKey, to } from "utils/index";
 import { getVolumeType } from "utils/volume";
 import { isK8sVersionAbove } from "unpacked/module-362.js";
 import module105 from "utils/object.mapper";
+import * as pvcMap from "utils/mapFetchedPvcVolumes";
 export const getHpaFormattedData = function(t = {}, n) {
     const r = module26(t, "metadata.annotations.cpuCurrentUtilization", 0);
     const o = module26(t, "metadata.annotations.cpuTargetUtilization", 0);
@@ -122,15 +123,14 @@ export const getWorkloadVolumes = (()=>{
                         return Promise.all(i);
                     case 8:
                         u = e.sent;
-                        c = u.map(function(item) {
-                            let loaded = module105;
-                            try {
-                                loaded = require("utils/object.mapper");
-                            } catch (err) {}
-                            const om = loaded && typeof loaded.volumes === "function" ? loaded : loaded && loaded.default || {};
-                            const fn = om.volumes;
-                            return typeof fn === "function" ? fn(item) : item;
-                        });
+                        let loaded = module105;
+                        try {
+                            loaded = require("utils/object.mapper");
+                        } catch (err) {
+                            console.error("[recovery] object.mapper require failed", err);
+                            loaded = module105;
+                        }
+                        c = pvcMap.mapFetchedPvcVolumes(u, loaded);
                         a.forEach((e)=>{
                             if (e.type === "Volume") {
                                 const n = c.find((t)=>t.name === e.name) || {};

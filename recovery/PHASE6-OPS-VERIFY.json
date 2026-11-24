@@ -2,7 +2,7 @@
   "identity": {
     "hasUser": true,
     "fakeRecovered": false,
-    "mainJs": "/app.54b14619.js"
+    "mainJs": "/app.856bd610.js"
   },
   "resources": {
     "deployments": {
@@ -67,11 +67,11 @@
       "alive": true,
       "loading": false,
       "htmlLen": 10166,
-      "textHead": "容器组 web-matrix-7fd6cd5f44-lq6lv 查看 YAML 删除 属性 集群: default 项目: dev-ewms-web 应用: - 状态: 运行中 容器组 IP 地址: 10.42.0.74 节点名称: dev01 节点 IP 地址: 192.168.2.131 重启次数: 0 QoS 类别: BestEffort 创建时间: 2026-11-03 17:37:00 创建者: 资源状态 调度信息 元数据 环"
+      "textHead": "容器组 web-matrix-7fd6cd5f44-lq6lv 查看 YAML 删除 属性 集群: default 项目: dev-ewms-web 应用: - 状态: 运行中 容器组 IP 地址: <ip> 节点名称: dev01 节点 IP 地址: <ip> 重启次数: 0 QoS 类别: BestEffort 创建时间: 2026-11-03 17:37:00 创建者: 资源状态 调度信息 元数据 环"
     },
     "events": {
       "alive": true,
-      "textHead": "容器组 web-matrix-7fd6cd5f44-lq6lv 查看 YAML 删除 属性 集群: default 项目: dev-ewms-web 应用: - 状态: 运行中 容器组 IP 地址: 10.42.0.74 节点名称: dev01 节点 IP 地址: 192.168.2.131 重启次数: 0 QoS 类别: BestEffort 创建时间: 2026-11-03 17:37:00 创建者: 资源状态 调度信息 元数据 环",
+      "textHead": "容器组 web-matrix-7fd6cd5f44-lq6lv 查看 YAML 删除 属性 集群: default 项目: dev-ewms-web 应用: - 状态: 运行中 容器组 IP 地址: <ip> 节点名称: dev01 节点 IP 地址: <ip> 重启次数: 0 QoS 类别: BestEffort 创建时间: 2026-11-03 17:37:00 创建者: 资源状态 调度信息 元数据 环",
       "hasTable": true
     },
     "logs": {
@@ -91,9 +91,29 @@
       "path": "/terminal/cluster/default/projects/<ns>/pods/<name>/containers/<name>",
       "textHead": "",
       "ws": [
-        "ws://127.0.0.1:8108/kapis/terminal.kubesphere.io/v1alpha2/namespaces/<ns>/pods/<name>/exec?container=web-matrix&shell=sh"
+        {
+          "url": "ws://<ip>:8108/kapis/terminal.kubesphere.io/v1alpha2/namespaces/<ns>/pods/<name>/exec?container=web-matrix&shell=sh",
+          "framesSent": 2,
+          "framesReceived": 2,
+          "closed": true,
+          "errors": []
+        }
       ],
+      "wsReady": true,
       "htmlLen": 0
+    },
+    "terminalInvalid": {
+      "rejected": true,
+      "extraWs": false
+    },
+    "pvcMapped": {
+      "skipped": false,
+      "kind": "pods",
+      "claim": "redis-data-redis-cluster-0",
+      "storageClassName": "openebs-hostpath",
+      "hasClaim": true,
+      "hasMappedField": true,
+      "loading": false
     }
   },
   "checks": {
@@ -108,7 +128,9 @@
     "secrets": true,
     "podEvents": true,
     "podLogs": true,
-    "terminal": true
+    "terminal": true,
+    "terminalPathGuard": true,
+    "pvcMapped": true
   },
   "errors": [],
   "pass": true

@@ -30,7 +30,8 @@ function redact(s) {
     .replace(/\/ingresses\/[^/?]+/g, "/ingresses/<name>")
     .replace(/\/configmaps\/[^/?]+/g, "/configmaps/<name>")
     .replace(/\/secrets\/[^/?]+/g, "/secrets/<name>")
-    .replace(/\/containers\/[^/?]+/g, "/containers/<name>");
+    .replace(/\/containers\/[^/?]+/g, "/containers/<name>")
+    .replace(/\b(?:\d{1,3}\.){3}\d{1,3}\b/g, "<ip>");
 }
 
 const browser = await chromium.launch({ headless: true });
@@ -117,7 +118,19 @@ const found = await page.evaluate(async () => {
 
 async function openPage(url, shot, waitMs = 2800) {
   await page.goto(url, { waitUntil: "domcontentloaded", timeout: 45000 });
-  await page.waitForTimeout(waitMs);
+  await page.waitForFunction(() => {
+    const root = document.getElementById("root");
+    const text = (root?.innerText || "").replace(/\s+/g, " ");
+    const htmlLen = root?.innerHTML.length || 0;
+    const spinning = Boolean(
+      document.querySelector(
+        ".ks-page-loading, .spin-spinning, .spin-nested-loading .spin-spinning"
+      )
+    );
+    if (spinning) return false;
+    return htmlLen > 1500 && (text.includes("总数") || text.length > 60);
+  }, { timeout: 25000 }).catch(() => {});
+  await page.waitForTimeout(Math.min(waitMs, 800));
   await page.screenshot({ path: `${EVID}/${shot}.png`, fullPage: true });
   return page.evaluate(() => {
     const root = document.getElementById("root");
@@ -211,12 +224,37 @@ if (podHit) {
     logs.logApis = apiHits.slice(logMark).filter((x) => /\/log(\?|$)/.test(x.path)).slice(0, 6);
     const termPath = `/terminal/cluster/default/projects/${podHit.namespace}/pods/${podHit.name}/containers/${containerName}`;
     const wsHits = [];
-    page.on("websocket", (ws) => {
-      wsHits.push(redact(ws.url()));
-    });
-    terminal = await openPage(`${BASE}${termPath}`, "p6v-terminal", 6000);
+    const onWs = (ws) => {
+      const rec = {
+        url: redact(ws.url()),
+        framesSent: 0,
+        framesReceived: 0,
+        closed: false,
+        errors: [],
+      };
+      ws.on("framesent", () => {
+        rec.framesSent += 1;
+      });
+      ws.on("framereceived", () => {
+        rec.framesReceived += 1;
+      });
+      ws.on("close", () => {
+        rec.closed = true;
+      });
+      ws.on("socketerror", (err) => {
+        rec.errors.push(String(err).slice(0, 120));
+      });
+      wsHits.push(rec);
+    };
+    page.on("websocket", onWs);
+    terminal = await openPage(`${BASE}${termPath}`, "p6v-terminal", 4000);
+    const deadline = Date.now() + 8000;
+    while (Date.now() < deadline && !wsHits.some((w) => w.framesReceived > 0 && w.errors.length === 0)) {
+      await page.waitForTimeout(400);
+    }
     terminal.termPath = redact(termPath);
     terminal.ws = wsHits.slice(0, 4);
+    terminal.wsReady = wsHits.some((w) => w.framesReceived > 0 && w.errors.length === 0);
     terminal.hasTermUi = Boolean(
       await page.evaluate(
         () =>
@@ -224,6 +262,12 @@ if (podHit) {
           /Connecting|BASIC_INFORMATION|IMAGE|IMAGE_VALUE|终端/.test(document.body.innerText || "")
       )
     );
+    const badWsBefore = wsHits.length;
+    const bad = await openPage(`${BASE}/terminal/cluster/default`, "p6v-terminal-bad", 1800);
+    ops.terminalInvalid = {
+      rejected: /Invalid terminal path/i.test(bad.textHead || ""),
+      extraWs: wsHits.length > badWsBefore,
+    };
   }
   ops.podDetail = {
     alive: Boolean(podDetail && !podDetail.loading && podDetail.htmlLen > 2000),
@@ -244,12 +288,88 @@ if (podHit) {
     containerName,
   };
   ops.terminal = terminal && {
-    alive: Boolean(terminal.hasTermUi && /\/terminal\//.test(terminal.path)),
+    alive: Boolean(terminal.hasTermUi && terminal.wsReady && /\/terminal\//.test(terminal.path)),
     path: redact(terminal.path),
     textHead: redact(terminal.textHead),
     ws: terminal.ws,
+    wsReady: Boolean(terminal.wsReady),
     htmlLen: terminal.htmlLen,
   };
+}
+
+const pvcHit = await page.evaluate(async () => {
+  const r = await fetch("/kapis/resources.kubesphere.io/v1alpha3/namespaces?limit=80", {
+    credentials: "include",
+  });
+  const body = await r.json().catch(() => ({}));
+  const items = (body.items || []).filter((x) => {
+    const ws = x?.metadata?.labels?.["kubesphere.io/workspace"];
+    const name = x?.metadata?.name;
+    return ws && name && ws !== "system-workspace" && !String(name).startsWith("kubesphere-");
+  });
+  const kinds = ["deployments", "statefulsets", "pods"];
+  for (const ns of items) {
+    const workspace = ns.metadata.labels["kubesphere.io/workspace"];
+    const namespace = ns.metadata.name;
+    for (const kind of kinds) {
+      const resp = await fetch(
+        `/kapis/resources.kubesphere.io/v1alpha3/namespaces/${namespace}/${kind}?limit=50`,
+        { credentials: "include" }
+      );
+      const data = await resp.json().catch(() => ({}));
+      for (const item of data.items || []) {
+        const vols =
+          item?.spec?.template?.spec?.volumes ||
+          item?.spec?.volumes ||
+          [];
+        const claim = vols.find((v) => v.persistentVolumeClaim)?.persistentVolumeClaim?.claimName;
+        if (claim) {
+          return {
+            kind,
+            workspace,
+            namespace,
+            name: item.metadata.name,
+            claim,
+          };
+        }
+      }
+    }
+  }
+  return null;
+});
+if (pvcHit) {
+  const pvcMeta = await page.evaluate(async ({ ns, claim }) => {
+    const resp = await fetch(`/api/v1/namespaces/${ns}/persistentvolumeclaims/${claim}`, {
+      credentials: "include",
+    });
+    const data = await resp.json().catch(() => ({}));
+    return {
+      http: resp.status,
+      storageClassName: data?.spec?.storageClassName || "",
+      capacity: data?.spec?.resources?.requests?.storage || data?.status?.capacity?.storage || "",
+    };
+  }, { ns: pvcHit.namespace, claim: pvcHit.claim });
+  const prefix = `/${pvcHit.workspace}/clusters/default/projects/${pvcHit.namespace}`;
+  const detail = await openPage(
+    `${BASE}${prefix}/${pvcHit.kind}/${pvcHit.name}/resource-status`,
+    "p6v-pvc-detail",
+    3500
+  );
+  const pageText = await page.evaluate(() => (document.getElementById("root")?.innerText || "").replace(/\s+/g, " "));
+  ops.pvcMapped = {
+    skipped: false,
+    kind: pvcHit.kind,
+    claim: pvcHit.claim,
+    storageClassName: pvcMeta.storageClassName || null,
+    hasClaim: pageText.includes(pvcHit.claim),
+    hasMappedField: Boolean(
+      (pvcMeta.capacity && pageText.includes(pvcMeta.capacity)) ||
+        (pvcMeta.storageClassName && pageText.includes(pvcMeta.storageClassName))
+    ),
+    loading: detail.loading,
+  };
+} else {
+  ops.pvcMapped = { skipped: true };
 }
 
 const checks = {
@@ -265,6 +385,8 @@ const checks = {
   podEvents: Boolean(ops.events?.alive && ops.events?.hasTable),
   podLogs: Boolean(ops.logs?.alive),
   terminal: Boolean(ops.terminal?.alive),
+  terminalPathGuard: Boolean(ops.terminalInvalid?.rejected && !ops.terminalInvalid?.extraWs),
+  pvcMapped: Boolean(ops.pvcMapped?.skipped || ops.pvcMapped?.hasMappedField),
 };
 
 const report = {
@@ -275,6 +397,8 @@ const report = {
     events: ops.events,
     logs: ops.logs,
     terminal: ops.terminal,
+    terminalInvalid: ops.terminalInvalid,
+    pvcMapped: ops.pvcMapped,
   },
   checks,
   errors: errors.slice(0, 16),

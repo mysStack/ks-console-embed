@@ -9,6 +9,7 @@ import Module3501 from "unpacked/module-3501.js";
 import fullscreen from "components/Modals/FullscreenModal";
 import PodStore from "stores/pod";
 import TerminalStore from "stores/terminal";
+import * as latestOnly from "./latestOnly";
 import styles from "./index.module.css";
 
 class ContainerTerminalModal extends module553.Component {
@@ -23,6 +24,8 @@ class ContainerTerminalModal extends module553.Component {
       container: params.containerName,
       shell: "sh",
     });
+    this._latest = latestOnly.createLatestOnly();
+    this._unmounted = false;
     this.state = {
       container: { name: params.containerName },
       url: null,
@@ -33,24 +36,49 @@ class ContainerTerminalModal extends module553.Component {
     this.fetchPod();
   }
 
+  componentWillUnmount() {
+    this._unmounted = true;
+  }
+
   fetchPod = async () => {
-    const params = this.props.match.params;
-    await this.podStore.fetchDetail({
-      cluster: params.cluster,
-      namespace: params.namespace,
-      name: params.podName,
-    });
-    this.getContainerInfo(params.containerName);
+    const params = (this.props.match && this.props.match.params) || {};
+    if (!params.cluster || !params.namespace || !params.podName) {
+      return;
+    }
+    try {
+      await this.podStore.fetchDetail({
+        cluster: params.cluster,
+        namespace: params.namespace,
+        name: params.podName,
+      });
+      if (this._unmounted) {
+        return;
+      }
+      await this.getContainerInfo(params.containerName);
+    } catch (err) {
+      console.error("[recovery] container terminal fetchPod failed", err);
+    }
   };
 
   getContainerInfo = async (containerName) => {
-    const containers = module26(this.podStore, "detail.containers") || [];
-    const container = containers.find((item) => item.name === containerName);
-    if (container) {
-      this.setState({ container });
+    const seq = this._latest.next();
+    try {
+      const containers = module26(this.podStore, "detail.containers") || [];
+      const container = containers.find((item) => item.name === containerName);
+      if (container && !this._unmounted && this._latest.isCurrent(seq)) {
+        this.setState({ container });
+      }
+      if (containerName) {
+        this.store.kubectl.container = containerName;
+      }
+      const url = await this.store.kubeWebsocketUrl();
+      if (this._unmounted || !this._latest.isCurrent(seq)) {
+        return;
+      }
+      this.setState({ url });
+    } catch (err) {
+      console.error("[recovery] container terminal getContainerInfo failed", err);
     }
-    const url = await this.store.kubeWebsocketUrl();
-    this.setState({ url });
   };
 
   handleContainerChange = (container) => {
