@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: ks-console-embed
-          image: ghcr.io/mysstack/ks-console-embed:feature-v3dist-embed-20261124-160916-6c2cc92c98bc
+          image: ghcr.io/mysstack/ks-console-embed:feature-v3dist-embed-20261124-163714-5ba0f4ec837e
           imagePullPolicy: Always
           ports:
             - name: http
