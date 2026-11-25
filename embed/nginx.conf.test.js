@@ -22,3 +22,12 @@ test('manifest json is not cached as immutable', () => {
   assert.doesNotMatch(manifestBlock, /immutable/);
   assert.match(hashedBlock, /immutable/);
 });
+
+test('missing hashed files are plain text 404', () => {
+  assert.match(source, /error_page\s+404\s+=404\s+@plain_not_found/);
+  const block = source.slice(source.indexOf('location @plain_not_found'));
+  assert.match(block, /types\s*\{\s*\}/);
+  assert.match(block, /default_type\s+text\/plain/);
+  assert.match(block, /Cache-Control "no-store"/);
+  assert.doesNotMatch(block, /text\/html/);
+});
