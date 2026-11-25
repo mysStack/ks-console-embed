@@ -32,7 +32,12 @@ import { renderRoutes } from 'utils/router.config'
 
 import routes from './routes'
 import { getRouterBasename } from './routerBase'
-import { notifyHostRouteChange } from './routeSync'
+import {
+  getParentHostPathname,
+  notifyHostRouteChange,
+  shouldNotifyHostOfInitialRoute,
+  shouldNotifyHostOfRouteChange,
+} from './routeSync'
 import {
   createTriggerActionHandler,
   shouldListenForHostActions,
@@ -59,13 +64,34 @@ class App extends Component {
     )
     this.unlistenRoute = this.skipHostRoute
       ? () => {}
-      : this.history.listen(notifyHostRouteChange)
+      : this.history.listen((location, action) => {
+          if (
+            !shouldNotifyHostOfRouteChange({
+              action,
+              childPathname: location.pathname,
+              hostPathname: getParentHostPathname(),
+            })
+          ) {
+            return
+          }
+          notifyHostRouteChange(location, action)
+        })
     this.offTriggerAction = null
     this.pendingTriggerAction = null
   }
 
   componentDidMount() {
-    if (!this.skipHostRoute) {
+    if (this.skipHostRoute) {
+      document.documentElement.style.background = 'transparent'
+      document.body.style.background = 'transparent'
+    }
+    if (
+      !this.skipHostRoute &&
+      shouldNotifyHostOfInitialRoute({
+        childPathname: this.history.location.pathname,
+        hostPathname: getParentHostPathname(),
+      })
+    ) {
       notifyHostRouteChange(this.history.location)
     }
     const wujie = window.$wujie
@@ -106,7 +132,15 @@ class App extends Component {
   render() {
     return (
       <Provider rootStore={this.rootStore}>
-        <Router history={this.history}>{renderRoutes(routes)}</Router>
+        {this.skipHostRoute ? (
+          <div data-test="console-v3-actions-root">
+            <style>
+              {`html,body,#root{background:transparent!important}`}
+            </style>
+          </div>
+        ) : (
+          <Router history={this.history}>{renderRoutes(routes)}</Router>
+        )}
       </Provider>
     )
   }

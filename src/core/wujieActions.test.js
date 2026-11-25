@@ -8,6 +8,7 @@ import { resolve } from 'path'
 import {
   createTriggerActionHandler,
   shouldListenForHostActions,
+  shouldNotifyHostActionModal,
 } from './wujieActions'
 
 describe('Wujie host actions', () => {
@@ -53,5 +54,24 @@ describe('Wujie host actions', () => {
     expect(source).toMatch(/pendingTriggerAction/)
     expect(source).toMatch(/loadCompleted/)
     expect(source).toMatch(/skipHostRoute/)
+    expect(source).toMatch(/shouldNotifyHostOfInitialRoute/)
+    expect(source).toMatch(/shouldNotifyHostOfRouteChange/)
+    expect(source).toMatch(/data-test="console-v3-actions-root"/)
+  })
+
+  it('only tells the host to expand the overlay from the actions app', () => {
+    expect(
+      shouldNotifyHostActionModal({ props: { actions: true } }, 'consoleV3Actions', true)
+    ).toBe(true)
+    expect(shouldNotifyHostActionModal({ props: {} }, 'consolev3', true)).toBe(
+      false
+    )
+    expect(
+      shouldNotifyHostActionModal(
+        { props: { actions: true } },
+        'consoleV3Actions',
+        false
+      )
+    ).toBe(false)
   })
 })

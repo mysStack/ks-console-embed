@@ -26,8 +26,25 @@ import classnames from 'classnames'
 
 import { Button, Icon } from '@kube-design/components'
 import { Image, Text } from 'components/Base'
+import { notifyHostActionModal } from 'core/wujieActions'
 
 import styles from './index.scss'
+
+let actionModalCount = 0
+
+const emitActionModal = open => {
+  if (open) {
+    actionModalCount += 1
+    if (actionModalCount === 1) {
+      notifyHostActionModal(true)
+    }
+    return
+  }
+  actionModalCount = Math.max(0, actionModalCount - 1)
+  if (actionModalCount === 0) {
+    notifyHostActionModal(false)
+  }
+}
 
 ReactModal.defaultStyles.overlay = {
   ...ReactModal.defaultStyles.overlay,
@@ -117,6 +134,7 @@ export default class Modal extends React.Component {
       />
     ))
     ReactDOM.render(<WrappedComponent />, modalWrapper)
+    emitActionModal(true)
 
     return modalWrapper
   }
@@ -126,6 +144,7 @@ export default class Modal extends React.Component {
     if (unmounted && modal.parentNode) {
       modal.parentNode.removeChild(modal)
     }
+    emitActionModal(false)
   }
 
   renderTitle() {

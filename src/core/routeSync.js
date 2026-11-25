@@ -19,7 +19,55 @@ export const getEmbeddedRoute = pathname => {
       }`
 }
 
-export const notifyHostRouteChange = location => {
+const stripTrailingSlash = pathname => {
+  if (!pathname) {
+    return ''
+  }
+  return pathname.replace(/\/+$/, '') || '/'
+}
+
+const toHostPathname = pathname => {
+  const mapped = getHostRoute(pathname)
+  return stripTrailingSlash(mapped || pathname)
+}
+
+export const isHostOnDeeperResource = (hostPathname, childPathname) => {
+  const host = toHostPathname(hostPathname)
+  const child = toHostPathname(getEmbeddedRoute(childPathname))
+  if (!host || !child || host === child) {
+    return false
+  }
+  return host.startsWith(`${child}/`)
+}
+
+export const shouldNotifyHostOfInitialRoute = ({
+  childPathname,
+  hostPathname,
+} = {}) => !isHostOnDeeperResource(hostPathname, childPathname)
+
+export const shouldNotifyHostOfRouteChange = ({
+  action,
+  childPathname,
+  hostPathname,
+} = {}) => {
+  if (action && action !== 'PUSH') {
+    return false
+  }
+  if (!action && isHostOnDeeperResource(hostPathname, childPathname)) {
+    return false
+  }
+  return true
+}
+
+export const getParentHostPathname = (win = window) => {
+  try {
+    return win.parent?.location?.pathname || ''
+  } catch (err) {
+    return ''
+  }
+}
+
+export const notifyHostRouteChange = (location, action) => {
   if (typeof window === 'undefined' || !window.__POWERED_BY_WUJIE__) {
     return
   }
@@ -29,10 +77,10 @@ export const notifyHostRouteChange = location => {
   const hash = location?.hash || window.location.hash
   const embeddedPath = getEmbeddedRoute(pathname)
   const route = `${embeddedPath}${search}${hash}`
-  window.$wujie?.bus?.$emit('consoleRouteChange', route)
+  window.$wujie?.bus?.$emit('consoleRouteChange', route, action)
   if (window.parent !== window) {
     window.parent.postMessage(
-      { type: 'consoleRouteChange', route },
+      { type: 'consoleRouteChange', route, action },
       window.location.origin
     )
   }

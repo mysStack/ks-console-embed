@@ -6,6 +6,26 @@ export function shouldListenForHostActions(wujie, appId) {
   return Boolean(get(wujie, 'props.actions')) || appId === 'consoleV3Actions'
 }
 
+export function shouldNotifyHostActionModal(wujie, appId, poweredByWujie) {
+  return Boolean(poweredByWujie) && shouldListenForHostActions(wujie, appId)
+}
+
+export function notifyHostActionModal(open) {
+  if (typeof window === 'undefined') {
+    return
+  }
+  if (
+    !shouldNotifyHostActionModal(
+      window.$wujie,
+      window.__WUJIE && window.__WUJIE.id,
+      window.__POWERED_BY_WUJIE__
+    )
+  ) {
+    return
+  }
+  window.$wujie?.bus?.$emit('v3ActionModal', open)
+}
+
 export function createTriggerActionHandler(rootStore) {
   return (actionId, params = {}) => {
     if (!rootStore.actions[actionId]) {
