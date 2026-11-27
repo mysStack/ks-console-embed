@@ -146,3 +146,25 @@ test('reads the parent host path from the embedding window', () => {
     ''
   )
 })
+
+test('allows real POP and REPLACE while ignoring initialization and host synchronization', () => {
+  for (const action of ['POP', 'REPLACE']) {
+    assert.equal(shouldNotifyHostOfRouteChange({action, childPathname: LIST, hostPathname: DETAIL, previousChildPathname: DETAIL, active: true}), true)
+    assert.equal(shouldNotifyHostOfRouteChange({action, childPathname: LIST, hostPathname: DETAIL, previousChildPathname: DETAIL, hostSynchronizing: true}), false)
+    assert.equal(shouldNotifyHostOfRouteChange({action, childPathname: LIST, hostPathname: DETAIL, previousChildPathname: DETAIL, active: false}), false)
+  }
+})
+
+test('uses one transport and preserves explicit empty search and hash', () => {
+  const emitted = []
+  const posted = []
+  const window = {__POWERED_BY_WUJIE__: true, location: {pathname: LIST, search: '?stale=1', hash: '#stale', origin: 'http://example.test'}, parent: {postMessage: (...args) => posted.push(args)}, $wujie: {bus: {$emit: (...args) => emitted.push(args)}}}
+  const exports = {}
+  vm.runInNewContext(source, {exports, window})
+  exports.notifyHostRouteChange({pathname: LIST, search: '', hash: ''}, 'REPLACE', DETAIL)
+  assert.equal(emitted.length, 1)
+  assert.equal(emitted[0][1], `/consolev3${LIST}`)
+  assert.equal(emitted[0][2], 'REPLACE')
+  assert.equal(emitted[0][3], DETAIL)
+  assert.equal(posted.length, 0)
+})

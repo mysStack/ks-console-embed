@@ -49,7 +49,18 @@ export const shouldNotifyHostOfRouteChange = ({
   action,
   childPathname,
   hostPathname,
+  previousChildPathname,
+  hostSynchronizing,
+  active,
 } = {}) => {
+  if (hostSynchronizing || active === false) {
+    return false
+  }
+  // A mounted router reports its previous location with every user navigation.
+  // The host can distinguish that navigation from a redirect during boot.
+  if (previousChildPathname) {
+    return ['PUSH', 'REPLACE', 'POP'].includes(action)
+  }
   if (action && action !== 'PUSH') {
     return false
   }
@@ -67,20 +78,21 @@ export const getParentHostPathname = (win = window) => {
   }
 }
 
-export const notifyHostRouteChange = (location, action) => {
+export const notifyHostRouteChange = (location, action, previousRoute) => {
   if (typeof window === 'undefined' || !window.__POWERED_BY_WUJIE__) {
     return
   }
 
   const pathname = location?.pathname || window.location.pathname
-  const search = location?.search || window.location.search
-  const hash = location?.hash || window.location.hash
+  const search = location?.search ?? window.location.search
+  const hash = location?.hash ?? window.location.hash
   const embeddedPath = getEmbeddedRoute(pathname)
   const route = `${embeddedPath}${search}${hash}`
-  window.$wujie?.bus?.$emit('consoleRouteChange', route, action)
-  if (window.parent !== window) {
+  if (window.$wujie?.bus?.$emit) {
+    window.$wujie.bus.$emit('consoleRouteChange', route, action, previousRoute)
+  } else if (window.parent !== window) {
     window.parent.postMessage(
-      { type: 'consoleRouteChange', route, action },
+      { type: 'consoleRouteChange', route, action, previousRoute },
       window.location.origin
     )
   }

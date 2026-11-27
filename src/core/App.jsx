@@ -62,19 +62,25 @@ class App extends Component {
       window.$wujie,
       window.__WUJIE && window.__WUJIE.id
     )
+    let previousLocation = this.history.location
     this.unlistenRoute = this.skipHostRoute
       ? () => {}
       : this.history.listen((location, action) => {
+          const previous = previousLocation
+          previousLocation = location
           if (
             !shouldNotifyHostOfRouteChange({
               action,
               childPathname: location.pathname,
               hostPathname: getParentHostPathname(),
+              previousChildPathname: previous.pathname,
+              hostSynchronizing: window.__KS_CONSOLE_HOST_ROUTE_SYNC__,
+              active: window.__WUJIE?.activeFlag,
             })
           ) {
             return
           }
-          notifyHostRouteChange(location, action)
+          notifyHostRouteChange(location, action, `${previous.pathname}${previous.search || ''}${previous.hash || ''}`)
         })
     this.offTriggerAction = null
     this.pendingTriggerAction = null
@@ -92,7 +98,7 @@ class App extends Component {
         hostPathname: getParentHostPathname(),
       })
     ) {
-      notifyHostRouteChange(this.history.location)
+      notifyHostRouteChange(this.history.location, 'INITIAL')
     }
     const wujie = window.$wujie
     const handleTrigger = createTriggerActionHandler(this.rootStore)
